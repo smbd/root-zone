@@ -1239,7 +1239,7 @@ mil.					      86400 IN NS	EUR2.NIPR.mil.
 mil.					      86400 IN NS	PAC1.NIPR.mil.
 mil.					      86400 IN NS	PAC2.NIPR.mil.
 CON1.NIPR.mil.				      86400 IN A	207.132.116.25
-CON2.NIPR.mil.				      86400 IN A	199.252.173.234
+CON2.NIPR.mil.				      86400 IN A	199.252.162.234
 EUR1.NIPR.mil.				      86400 IN A	199.252.154.234
 EUR2.NIPR.mil.				      86400 IN A	199.252.143.234
 PAC1.NIPR.mil.				      86400 IN A	199.252.180.234
