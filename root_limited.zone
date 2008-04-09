@@ -742,11 +742,14 @@ FI.					      172800 IN	NS	A.FI.
 FI.					      172800 IN	NS	B.FI.
 FI.					      172800 IN	NS	C.FI.
 FI.					      172800 IN	NS	D.FI.
+FI.					      172800 IN	NS	E.FI.
 A.FI.					      172800 IN	A	193.166.4.1
+A.FI.					      172800 IN	AAAA	2001:708:10:53::53
 B.FI.					      172800 IN	A	194.146.106.26
 C.FI.					      172800 IN	A	128.214.4.29
 D.FI.					      172800 IN	A	77.72.229.253
 D.FI.					      172800 IN	AAAA	2a01:3f0:0:302::53
+E.FI.					      172800 IN	A	194.0.1.14
 FJ.					      172800 IN	NS	RIP.PSG.COM.
 FJ.					      172800 IN	NS	MANU.USP.AC.FJ.
 FJ.					      172800 IN	NS	TERI.USP.AC.FJ.
