@@ -248,9 +248,12 @@ bb.					      172800 IN	NS	ns1.barbadosdomains.net.
 bb.					      172800 IN	NS	ns2.barbadosdomain.net.
 bb.					      86400 IN NSEC	bd. NS RRSIG NSEC
 bd.					      172800 IN	NS	dns.bd.
-bd.					      172800 IN	NS	slave.bttb.net.
+bd.					      172800 IN	NS	surma.btcl.net.bd.
+bd.					      172800 IN	NS	jamuna.btcl.net.bd.
 bd.					      86400 IN NSEC	be. NS RRSIG NSEC
 dns.bd.					      172800 IN	A	209.58.24.3
+jamuna.btcl.net.bd.			      172800 IN	A	203.112.194.231
+surma.btcl.net.bd.			      172800 IN	A	203.112.194.232
 be.					      172800 IN	NS	a.ns.dns.be.
 be.					      172800 IN	NS	b.ns.dns.be.
 be.					      172800 IN	NS	c.ns.dns.be.
@@ -929,6 +932,7 @@ b.hosting.nic.fr.			      172800 IN	A	192.93.0.4
 b.hosting.nic.fr.			      172800 IN	AAAA	2001:660:3005:1::1:2
 ci.hosting.nic.fr.			      172800 IN	A	192.134.0.49
 ci.hosting.nic.fr.			      172800 IN	AAAA	2001:660:3006:1::1:1
+ns-ie.nic.fr.				      172800 IN	A	192.93.0.4
 ns-my.nic.fr.				      172800 IN	A	192.134.0.49
 ns-my.nic.fr.				      172800 IN	AAAA	2001:660:3006:1::1:1
 ns-nl.nic.fr.				      172800 IN	A	192.93.0.4
@@ -956,7 +960,6 @@ gd.					      86400 IN NSEC	ge. NS RRSIG NSEC
 ge.					      172800 IN	NS	ns.uu.net.
 ge.					      172800 IN	NS	ns.nic.ge.
 ge.					      172800 IN	NS	ns2.nic.fr.
-ge.					      172800 IN	NS	ns-ge.ripe.net.
 ge.					      172800 IN	NS	sunic.sunet.se.
 ge.					      86400 IN NSEC	gf. NS RRSIG NSEC
 ns.nic.ge.				      172800 IN	A	212.72.130.11
@@ -1171,11 +1174,11 @@ ns1.rad.net.id.				      172800 IN	A	202.154.1.2
 ns1.id.					      172800 IN	A	202.155.30.227
 ie.					      172800 IN	NS	b.iedr.ie.
 ie.					      172800 IN	NS	ice.netsource.ie.
-ie.					      172800 IN	NS	ns2.nic.fr.
 ie.					      172800 IN	NS	ns3.ns.esat.net.
 ie.					      172800 IN	NS	gns1.domainregistry.ie.
 ie.					      172800 IN	NS	gns2.domainregistry.ie.
 ie.					      172800 IN	NS	banba.domainregistry.ie.
+ie.					      172800 IN	NS	ns-ie.nic.fr.
 ie.					      172800 IN	NS	uucp-gw-1.pa.dec.com.
 ie.					      172800 IN	NS	uucp-gw-2.pa.dec.com.
 ie.					      86400 IN NSEC	il. NS RRSIG NSEC
@@ -1889,7 +1892,6 @@ ns1.bahnhof.net.			      172800 IN	A	195.178.160.2
 ns2.bahnhof.net.			      172800 IN	A	212.85.64.4
 ns2.barbadosdomain.net.			      172800 IN	A	204.212.242.113
 ns1.barbadosdomains.net.		      172800 IN	A	200.50.92.195
-slave.bttb.net.				      172800 IN	A	203.112.194.243
 nsa.cctldmd.net.			      172800 IN	A	217.26.144.5
 ns1.centralnic.net.			      172800 IN	A	89.151.83.36
 ns2.centralnic.net.			      172800 IN	A	72.3.240.16
@@ -2093,7 +2095,6 @@ ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-gd.ripe.net.				      172800 IN	A	193.0.12.38
-ns-ge.ripe.net.				      172800 IN	A	193.0.12.83
 ns-gp.ripe.net.				      172800 IN	A	193.0.12.90
 ns-gs.ripe.net.				      172800 IN	A	193.0.12.206
 ns-gt.ripe.net.				      172800 IN	A	193.0.12.92
