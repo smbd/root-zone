@@ -1531,7 +1531,7 @@ lk.					      172800 IN	NS	ns-s.ac.lk.
 lk.					      172800 IN	NS	ns-t.nic.lk.
 lk.					      172800 IN	NS	ns-lk.ripe.net.
 lk.					      172800 IN	NS	pendragon.cs.purdue.edu.
-lk.					      86400 IN NSEC	lr. NS RRSIG NSEC
+lk.					      86400 IN NSEC	lr. NS DS RRSIG NSEC
 ns-l.ac.lk.				      172800 IN	A	192.248.1.162
 ns-s.ac.lk.				      172800 IN	A	202.124.166.178
 ns-c.nic.lk.				      172800 IN	A	203.143.19.3
@@ -2383,7 +2383,7 @@ org.					      172800 IN	NS	b0.org.afilias-nst.org.
 org.					      172800 IN	NS	b2.org.afilias-nst.org.
 org.					      172800 IN	NS	c0.org.afilias-nst.info.
 org.					      172800 IN	NS	d0.org.afilias-nst.org.
-org.					      86400 IN NSEC	pa. NS RRSIG NSEC
+org.					      86400 IN NSEC	pa. NS DS RRSIG NSEC
 b0.aero.afilias-nst.org.		      172800 IN	A	199.254.52.1
 b0.aero.afilias-nst.org.		      172800 IN	AAAA	2001:500:1e::1
 b2.aero.afilias-nst.org.		      172800 IN	A	199.249.123.1
