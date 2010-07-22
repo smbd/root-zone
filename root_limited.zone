@@ -3317,7 +3317,6 @@ za.					      172800 IN	NS	nsza.is.co.za.
 za.					      172800 IN	NS	hippo.ru.ac.za.
 za.					      172800 IN	NS	ns-za.ripe.net.
 za.					      172800 IN	NS	za-ns.anycast.pch.net.
-za.					      172800 IN	NS	ns-ext.isc.org.
 za.					      86400 IN NSEC	zm. NS RRSIG NSEC
 hippo.ru.ac.za.				      172800 IN	A	146.231.128.1
 hippo.ru.ac.za.				      172800 IN	AAAA	2001:4200:1010::1
