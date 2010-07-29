@@ -517,6 +517,7 @@ ck.					      86400 IN NSEC	cl. NS RRSIG NSEC
 parau.oyster.net.ck.			      172800 IN	A	202.65.32.128
 poiparau.oyster.net.ck.			      172800 IN	A	202.65.32.127
 cl.					      172800 IN	NS	a.nic.cl.
+cl.					      172800 IN	NS	b.nic.cl.
 cl.					      172800 IN	NS	ns.nic.cl.
 cl.					      172800 IN	NS	cl1.dnsnode.net.
 cl.					      172800 IN	NS	ns3.nic.fr.
@@ -524,6 +525,7 @@ cl.					      172800 IN	NS	slave.sth.netnod.se.
 cl.					      172800 IN	NS	sns-pb.isc.org.
 cl.					      86400 IN NSEC	cm. NS RRSIG NSEC
 a.nic.cl.				      172800 IN	A	200.1.121.10
+b.nic.cl.				      172800 IN	A	200.7.4.7
 ns.nic.cl.				      172800 IN	A	200.1.123.4
 ns-ext.nic.cl.				      172800 IN	A	200.1.123.14
 cm.					      172800 IN	NS	ns.itu.ch.
@@ -1919,6 +1921,7 @@ l.de.net.				      172800 IN	AAAA	2001:668:1f:11::105
 s.de.net.				      172800 IN	A	195.243.137.26
 dns.dnsafrica.net.			      172800 IN	A	213.193.157.30
 cl1.dnsnode.net.			      172800 IN	A	194.146.106.34
+cl1.dnsnode.net.			      172800 IN	AAAA	2001:67c:1010:8::53
 nl1.dnsnode.net.			      172800 IN	A	194.146.106.42
 pe1.dnsnode.net.			      172800 IN	A	194.146.106.82
 fork.sth.dnsnode.net.			      172800 IN	A	77.72.229.254
