@@ -185,7 +185,6 @@ at.					      172800 IN	NS	ns1.univie.ac.at.
 at.					      172800 IN	NS	ns2.univie.ac.at.
 at.					      172800 IN	NS	ns9.univie.ac.at.
 at.					      172800 IN	NS	ns-uk.nic.at.
-at.					      172800 IN	NS	ns-us1.nic.at.
 at.					      86400 IN NSEC	au. NS RRSIG NSEC
 ns1.univie.ac.at.			      172800 IN	A	193.171.255.2
 ns2.univie.ac.at.			      172800 IN	A	192.92.125.2
@@ -198,8 +197,6 @@ j.nic.at.				      172800 IN	A	194.146.106.50
 j.nic.at.				      172800 IN	AAAA	2001:67c:1010:12::53
 n.nic.at.				      172800 IN	A	87.233.175.130
 ns-uk.nic.at.				      172800 IN	A	195.66.241.82
-ns-us1.nic.at.				      172800 IN	A	204.152.184.202
-ns-us1.nic.at.				      172800 IN	AAAA	2001:4f8:4:b::202
 au.					      172800 IN	NS	o.audns.net.au.
 au.					      172800 IN	NS	a3.audns.net.au.
 au.					      172800 IN	NS	b1.audns.net.au.
@@ -315,7 +312,7 @@ biz.					      172800 IN	NS	e.gtld.biz.
 biz.					      172800 IN	NS	f.gtld.biz.
 biz.					      172800 IN	NS	g.gtld.biz.
 biz.					      172800 IN	NS	h.gtld.biz.
-biz.					      86400 IN NSEC	bj. NS RRSIG NSEC
+biz.					      86400 IN NSEC	bj. NS DS RRSIG NSEC
 a.gtld.biz.				      172800 IN	A	156.154.124.65
 b.gtld.biz.				      172800 IN	A	156.154.125.65
 c.gtld.biz.				      172800 IN	A	156.154.127.65
@@ -1771,7 +1768,7 @@ museum.					      172800 IN	NS	nic.icom.org.
 museum.					      172800 IN	NS	nic.museum.
 museum.					      172800 IN	NS	ns5.knipp.de.
 museum.					      172800 IN	NS	ns-ext.vix.com.
-museum.					      86400 IN NSEC	mv. NS RRSIG NSEC
+museum.					      86400 IN NSEC	mv. NS DS RRSIG NSEC
 nic.museum.				      172800 IN	A	130.242.24.5
 mv.					      172800 IN	NS	ns.dhivehinet.net.mv.
 mv.					      172800 IN	NS	ns2.dhivehinet.net.mv.
@@ -2782,9 +2779,9 @@ so.					      172800 IN	NS	a.nic.so.
 so.					      172800 IN	NS	b.nic.so.
 so.					      172800 IN	NS	c.nic.so.
 so.					      86400 IN NSEC	sr. NS RRSIG NSEC
-a.nic.so.				      172800 IN	A	202.12.29.59
-b.nic.so.				      172800 IN	A	202.12.28.140
-b.nic.so.				      172800 IN	AAAA	2001:dc0:1:0:4777::140
+a.nic.so.				      172800 IN	A	72.52.71.4
+a.nic.so.				      172800 IN	AAAA	2001:470:1a::4
+b.nic.so.				      172800 IN	A	38.103.2.4
 c.nic.so.				      172800 IN	A	63.243.194.4
 c.nic.so.				      172800 IN	AAAA	2001:5a0:10::4
 sr.					      172800 IN	NS	ns1.sr.net.
@@ -3081,7 +3078,7 @@ us.					      172800 IN	NS	c.cctld.us.
 us.					      172800 IN	NS	i.cctld.us.
 us.					      172800 IN	NS	j.cctld.us.
 us.					      172800 IN	NS	k.cctld.us.
-us.					      86400 IN NSEC	uy. NS RRSIG NSEC
+us.					      86400 IN NSEC	uy. NS DS RRSIG NSEC
 a.cctld.us.				      172800 IN	A	156.154.124.70
 b.cctld.us.				      172800 IN	A	156.154.125.70
 c.cctld.us.				      172800 IN	A	156.154.127.70
