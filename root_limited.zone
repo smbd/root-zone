@@ -812,21 +812,24 @@ er.					      172800 IN	NS	zaranew.noc.net.er.
 er.					      86400 IN NSEC	es. NS RRSIG NSEC
 sawanew.noc.net.er.			      172800 IN	A	196.200.96.1
 zaranew.noc.net.er.			      172800 IN	A	196.200.96.2
-es.					      172800 IN	NS	ns1.crn.nic.es.
-es.					      172800 IN	NS	ns1.nic.es.
+es.					      172800 IN	NS	a.nic.es.
+es.					      172800 IN	NS	b.nic.es.
+es.					      172800 IN	NS	f.nic.es.
 es.					      172800 IN	NS	ns1.cesca.es.
 es.					      172800 IN	NS	ns3.nic.fr.
-es.					      172800 IN	NS	sun.rediris.es.
+es.					      172800 IN	NS	ns15.communitydns.net.
 es.					      172800 IN	NS	ns-ext.nic.cl.
 es.					      172800 IN	NS	sns-pb.isc.org.
 es.					      86400 IN NSEC	et. NS RRSIG NSEC
 ns1.cesca.es.				      172800 IN	A	84.88.0.3
-ns1.crn.nic.es.				      172800 IN	A	195.81.201.11
+a.nic.es.				      172800 IN	A	194.69.254.1
+b.nic.es.				      172800 IN	A	195.81.201.11
+f.nic.es.				      172800 IN	A	130.206.1.2
+f.nic.es.				      172800 IN	AAAA	2001:720:418:caf1::2
 n3ns.nic.es.				      172800 IN	A	194.69.254.42
 ad.ns.nic.es.				      172800 IN	A	194.69.254.15
 ns1.nic.es.				      172800 IN	A	194.69.254.1
 ns.pixar.es.				      172800 IN	A	194.143.196.3
-sun.rediris.es.				      172800 IN	A	130.206.1.2
 et.					      172800 IN	NS	ns1.telecom.net.et.
 et.					      172800 IN	NS	ns2.telecom.net.et.
 et.					      172800 IN	NS	ns-et.ripe.net.
@@ -1908,6 +1911,8 @@ ns1.cobex.net.				      172800 IN	A	216.152.192.71
 ns2.cobex.net.				      172800 IN	A	216.152.192.72
 ns1.communitydns.net.			      172800 IN	A	194.0.1.1
 ns1.communitydns.net.			      172800 IN	AAAA	2001:678:4::1
+ns15.communitydns.net.			      172800 IN	A	194.0.1.15
+ns15.communitydns.net.			      172800 IN	AAAA	2001:678:4::f
 ph.communitydns.net.			      172800 IN	A	194.0.1.23
 ns3.cura.net.				      172800 IN	A	200.26.226.6
 euro-ns1.cw.net.			      172800 IN	A	141.1.27.248
