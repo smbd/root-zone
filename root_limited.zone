@@ -1888,6 +1888,8 @@ sec1.apnic.net.				      172800 IN	A	202.12.29.59
 sec1.apnic.net.				      172800 IN	AAAA	2001:dc0:2001:a:4608::59
 sec3.apnic.net.				      172800 IN	A	202.12.28.140
 sec3.apnic.net.				      172800 IN	AAAA	2001:dc0:1:0:4777::140
+sec4.apnic.net.				      172800 IN	A	202.12.31.141
+sec4.apnic.net.				      172800 IN	AAAA	2001:dc0:4001:1:0:1836:0:141
 ns1.as6453.net.				      172800 IN	A	66.198.145.55
 ns2.as6453.net.				      172800 IN	A	66.198.145.99
 ns1.asap-asp.net.			      172800 IN	A	195.225.3.100
@@ -2480,11 +2482,13 @@ ns1.unitech.ac.pg.			      172800 IN	A	202.1.32.49
 ns1.tiare.net.pg.			      172800 IN	A	202.165.192.23
 ns2.tiare.net.pg.			      172800 IN	A	202.165.192.24
 ph.					      172800 IN	NS	ph.communitydns.net.
+ph.					      172800 IN	NS	ns1.domains.ph.
 ph.					      172800 IN	NS	ns2.cuhk.edu.hk.
-ph.					      172800 IN	NS	sec3.apnic.net.
+ph.					      172800 IN	NS	sec4.apnic.net.
 ph.					      172800 IN	NS	ns-ph.ripe.net.
 ph.					      172800 IN	NS	sns-pb.isc.org.
 ph.					      86400 IN NSEC	pk. NS RRSIG NSEC
+ns1.domains.ph.				      172800 IN	A	203.119.6.78
 pk.					      172800 IN	NS	m-2.pknic.net.pk.
 pk.					      172800 IN	NS	auth51.ns.uu.net.
 pk.					      172800 IN	NS	auth101.ns.uu.net.
