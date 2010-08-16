@@ -1931,6 +1931,7 @@ nl1.dnsnode.net.			      172800 IN	A	194.146.106.42
 pe1.dnsnode.net.			      172800 IN	A	194.146.106.82
 fork.sth.dnsnode.net.			      172800 IN	A	77.72.229.254
 za1.dnsnode.net.			      172800 IN	A	194.146.106.78
+za1.dnsnode.net.			      172800 IN	AAAA	2001:67c:1010:19::53
 af1.dyntld.net.				      172800 IN	A	208.78.70.94
 af2.dyntld.net.				      172800 IN	A	204.13.250.94
 af3.dyntld.net.				      172800 IN	A	208.78.71.94
@@ -2178,8 +2179,6 @@ ns-va.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:98
 ns-vg.ripe.net.				      172800 IN	A	193.0.12.242
 ns-vi.ripe.net.				      172800 IN	A	193.0.12.243
 ns-vn.ripe.net.				      172800 IN	A	193.0.12.241
-ns-za.ripe.net.				      172800 IN	A	193.0.12.205
-ns-za.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:205
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
 e.dns.ripn.net.				      172800 IN	A	193.232.142.17
 e.dns.ripn.net.				      172800 IN	AAAA	2001:678:15:0:193:232:142:17
@@ -3286,7 +3285,11 @@ xn--mgbaam7a8h.				      172800 IN	NS	nsext-pch.aedns.ae.
 xn--mgbaam7a8h.				      86400 IN NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns2.nic.net.sa.
-xn--mgberp4a5d4ar.			      86400 IN NSEC	xn--p1ai. NS RRSIG NSEC
+xn--mgberp4a5d4ar.			      86400 IN NSEC	xn--o3cw4h. NS RRSIG NSEC
+xn--o3cw4h.				      172800 IN	NS	ns.thnic.net.
+xn--o3cw4h.				      172800 IN	NS	dns1.thnic.co.th.
+xn--o3cw4h.				      172800 IN	NS	ns-a.thnic.co.th.
+xn--o3cw4h.				      86400 IN NSEC	xn--p1ai. NS RRSIG NSEC
 xn--p1ai.				      172800 IN	NS	e.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	f.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	ns.ripn.net.
@@ -3319,13 +3322,12 @@ yt.					      172800 IN	NS	e.ext.nic.fr.
 yt.					      172800 IN	NS	f.ext.nic.fr.
 yt.					      172800 IN	NS	g.ext.nic.fr.
 yt.					      86400 IN NSEC	za. NS RRSIG NSEC
-za.					      172800 IN	NS	ns1.dns.aq.
 za.					      172800 IN	NS	za1.dnsnode.net.
 za.					      172800 IN	NS	disa.tenet.ac.za.
 za.					      172800 IN	NS	nsza.is.co.za.
 za.					      172800 IN	NS	hippo.ru.ac.za.
-za.					      172800 IN	NS	ns-za.ripe.net.
 za.					      172800 IN	NS	za-ns.anycast.pch.net.
+za.					      172800 IN	NS	sns-pb.isc.org.
 za.					      86400 IN NSEC	zm. NS RRSIG NSEC
 hippo.ru.ac.za.				      172800 IN	A	146.231.128.1
 hippo.ru.ac.za.				      172800 IN	AAAA	2001:4200:1010::1
