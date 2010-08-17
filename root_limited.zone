@@ -1537,7 +1537,11 @@ lk.					      172800 IN	NS	pendragon.cs.purdue.edu.
 lk.					      86400 IN NSEC	lr. NS DS RRSIG NSEC
 ns-l.ac.lk.				      172800 IN	A	192.248.1.162
 ns-s.ac.lk.				      172800 IN	A	202.124.166.178
+ns1.ac.lk.				      172800 IN	A	192.248.1.162
+ns1.ac.lk.				      172800 IN	AAAA	2001:df0:17:1::162
+ns3.ac.lk.				      172800 IN	A	202.124.166.178
 ns-c.nic.lk.				      172800 IN	A	203.143.19.3
+ns-d.nic.lk.				      172800 IN	A	123.231.6.18
 ns-l.nic.lk.				      172800 IN	A	192.248.8.17
 ns-t.nic.lk.				      172800 IN	A	203.94.66.129
 lr.					      172800 IN	NS	rip.psg.com.
@@ -1912,6 +1916,7 @@ ns.cernet.net.				      172800 IN	A	202.112.0.44
 a.ci-servers.net.			      172800 IN	A	87.117.196.245
 ns1.cobex.net.				      172800 IN	A	216.152.192.71
 ns2.cobex.net.				      172800 IN	A	216.152.192.72
+lk.communitydns.net.			      172800 IN	A	194.0.1.27
 ns1.communitydns.net.			      172800 IN	A	194.0.1.1
 ns1.communitydns.net.			      172800 IN	AAAA	2001:678:4::1
 ns15.communitydns.net.			      172800 IN	A	194.0.1.15
@@ -2938,6 +2943,10 @@ tn.					      86400 IN NSEC	to. NS RRSIG NSEC
 ns.ati.tn.				      172800 IN	A	193.95.66.10
 ns.ati.tn.				      172800 IN	AAAA	2001:4350:1:1::10
 ns2.ati.tn.				      172800 IN	A	193.95.67.22
+ns8.ati.tn.				      172800 IN	A	193.95.66.6
+ns8.ati.tn.				      172800 IN	AAAA	2001:4350:1:1::6
+ns9.ati.tn.				      172800 IN	A	193.95.67.26
+ns9.ati.tn.				      172800 IN	AAAA	2001:4350:2048::26
 to.					      172800 IN	NS	ns1.iafrica.com.
 to.					      172800 IN	NS	colo.to.
 to.					      172800 IN	NS	ns-to.ripe.net.
@@ -3235,7 +3244,16 @@ xn--fiqz9s.				      172800 IN	NS	i.dns.cn.
 xn--fiqz9s.				      172800 IN	NS	j.dns.cn.
 xn--fiqz9s.				      172800 IN	NS	k.dns.cn.
 xn--fiqz9s.				      172800 IN	NS	l.dns.cn.
-xn--fiqz9s.				      86400 IN NSEC	xn--g6w251d. NS RRSIG NSEC
+xn--fiqz9s.				      86400 IN NSEC	xn--fzc2c9e2c. NS RRSIG NSEC
+xn--fzc2c9e2c.				      172800 IN	NS	lk.communitydns.net.
+xn--fzc2c9e2c.				      172800 IN	NS	nic.lk-anycast.pch.net.
+xn--fzc2c9e2c.				      172800 IN	NS	ns1.ac.lk.
+xn--fzc2c9e2c.				      172800 IN	NS	ns3.ac.lk.
+xn--fzc2c9e2c.				      172800 IN	NS	ns-c.nic.lk.
+xn--fzc2c9e2c.				      172800 IN	NS	ns-d.nic.lk.
+xn--fzc2c9e2c.				      172800 IN	NS	ns-l.nic.lk.
+xn--fzc2c9e2c.				      172800 IN	NS	ns-t.nic.lk.
+xn--fzc2c9e2c.				      86400 IN NSEC	xn--g6w251d. NS RRSIG NSEC
 xn--g6w251d.				      172800 IN	NS	a.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	b.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	c.iana-servers.net.
@@ -3296,11 +3314,24 @@ xn--p1ai.				      172800 IN	NS	ns.ripn.net.
 xn--p1ai.				      172800 IN	NS	ns2.ripn.net.
 xn--p1ai.				      172800 IN	NS	ns5.msk-ix.net.
 xn--p1ai.				      172800 IN	NS	ns9.ripn.net.
-xn--p1ai.				      86400 IN NSEC	xn--wgbh1c. NS RRSIG NSEC
+xn--p1ai.				      86400 IN NSEC	xn--pgbs0dh. NS RRSIG NSEC
+xn--pgbs0dh.				      172800 IN	NS	ns2.nic.fr.
+xn--pgbs0dh.				      172800 IN	NS	ns8.ati.tn.
+xn--pgbs0dh.				      172800 IN	NS	ns9.ati.tn.
+xn--pgbs0dh.				      86400 IN NSEC	xn--wgbh1c. NS RRSIG NSEC
 xn--wgbh1c.				      172800 IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns3.dotmasr.eg.
-xn--wgbh1c.				      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
+xn--wgbh1c.				      86400 IN NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
+xn--xkc2al3hye2a.			      172800 IN	NS	lk.communitydns.net.
+xn--xkc2al3hye2a.			      172800 IN	NS	nic.lk-anycast.pch.net.
+xn--xkc2al3hye2a.			      172800 IN	NS	ns1.ac.lk.
+xn--xkc2al3hye2a.			      172800 IN	NS	ns3.ac.lk.
+xn--xkc2al3hye2a.			      172800 IN	NS	ns-c.nic.lk.
+xn--xkc2al3hye2a.			      172800 IN	NS	ns-d.nic.lk.
+xn--xkc2al3hye2a.			      172800 IN	NS	ns-l.nic.lk.
+xn--xkc2al3hye2a.			      172800 IN	NS	ns-t.nic.lk.
+xn--xkc2al3hye2a.			      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
 xn--zckzah.				      172800 IN	NS	a.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	b.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	c.iana-servers.net.
