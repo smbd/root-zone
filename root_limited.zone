@@ -517,7 +517,6 @@ cl.					      172800 IN	NS	a.nic.cl.
 cl.					      172800 IN	NS	b.nic.cl.
 cl.					      172800 IN	NS	ns.nic.cl.
 cl.					      172800 IN	NS	cl1.dnsnode.net.
-cl.					      172800 IN	NS	ns3.nic.fr.
 cl.					      172800 IN	NS	slave.sth.netnod.se.
 cl.					      172800 IN	NS	sns-pb.isc.org.
 cl.					      86400 IN NSEC	cm. NS RRSIG NSEC
@@ -843,6 +842,7 @@ eu.					      172800 IN	NS	l.nic.eu.
 eu.					      172800 IN	NS	m.nic.eu.
 eu.					      172800 IN	NS	p.nic.eu.
 eu.					      172800 IN	NS	x.nic.eu.
+eu.					      172800 IN	NS	y.nic.eu.
 eu.					      86400 IN NSEC	fi. NS RRSIG NSEC
 ns3.arnes.eu.				      172800 IN	A	192.93.0.4
 ns3.arnes.eu.				      172800 IN	AAAA	2001:660:3005:1::1:2
@@ -855,6 +855,8 @@ l.nic.eu.				      172800 IN	A	195.66.241.178
 m.nic.eu.				      172800 IN	A	217.29.76.13
 p.nic.eu.				      172800 IN	A	195.47.235.130
 x.nic.eu.				      172800 IN	A	194.0.1.19
+y.nic.eu.				      172800 IN	A	194.146.106.90
+y.nic.eu.				      172800 IN	AAAA	2001:67c:1010:23::53
 fi.					      172800 IN	NS	a.fi.
 fi.					      172800 IN	NS	b.fi.
 fi.					      172800 IN	NS	c.fi.
@@ -2564,6 +2566,8 @@ ps.					      172800 IN	NS	ns-ps.ripe.net.
 ps.					      172800 IN	NS	ps-ns.anycast.pch.net.
 ps.					      86400 IN NSEC	pt. NS RRSIG NSEC
 dns1.gov.ps.				      172800 IN	A	213.244.82.147
+dns3.gov.ps.				      172800 IN	A	212.14.253.242
+idn.pnina.ps.				      172800 IN	A	208.64.68.4
 ns1.pnina.ps.				      172800 IN	A	194.6.225.20
 pt.					      172800 IN	NS	ns.dns.br.
 pt.					      172800 IN	NS	ns.dns.pt.
@@ -3300,7 +3304,11 @@ xn--mgbaam7a8h.				      172800 IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	sns-pb.isc.org.
 xn--mgbaam7a8h.				      172800 IN	NS	nsext-pch.aedns.ae.
-xn--mgbaam7a8h.				      86400 IN NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
+xn--mgbaam7a8h.				      86400 IN NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
+xn--mgbayh7gpa.				      172800 IN	NS	amra.nic.gov.jo.
+xn--mgbayh7gpa.				      172800 IN	NS	ns-jo.ripe.net.
+xn--mgbayh7gpa.				      172800 IN	NS	petra.nic.gov.jo.
+xn--mgbayh7gpa.				      86400 IN NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns2.nic.net.sa.
 xn--mgberp4a5d4ar.			      86400 IN NSEC	xn--o3cw4h. NS RRSIG NSEC
@@ -3331,7 +3339,12 @@ xn--xkc2al3hye2a.			      172800 IN	NS	ns-c.nic.lk.
 xn--xkc2al3hye2a.			      172800 IN	NS	ns-d.nic.lk.
 xn--xkc2al3hye2a.			      172800 IN	NS	ns-l.nic.lk.
 xn--xkc2al3hye2a.			      172800 IN	NS	ns-t.nic.lk.
-xn--xkc2al3hye2a.			      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
+xn--xkc2al3hye2a.			      86400 IN NSEC	xn--ygbi2ammx. NS RRSIG NSEC
+xn--ygbi2ammx.				      172800 IN	NS	idn.pnina.ps.
+xn--ygbi2ammx.				      172800 IN	NS	ns1.pnina.ps.
+xn--ygbi2ammx.				      172800 IN	NS	dns1.gov.ps.
+xn--ygbi2ammx.				      172800 IN	NS	dns3.gov.ps.
+xn--ygbi2ammx.				      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
 xn--zckzah.				      172800 IN	NS	a.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	b.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	c.iana-servers.net.
