@@ -482,7 +482,7 @@ ch.					      172800 IN	NS	d.nic.ch.
 ch.					      172800 IN	NS	e.nic.ch.
 ch.					      172800 IN	NS	f.nic.ch.
 ch.					      172800 IN	NS	h.nic.ch.
-ch.					      86400 IN NSEC	ci. NS RRSIG NSEC
+ch.					      86400 IN NSEC	ci. NS DS RRSIG NSEC
 ns.itu.ch.				      172800 IN	A	156.106.192.121
 a.nic.ch.				      172800 IN	A	130.59.1.80
 a.nic.ch.				      172800 IN	AAAA	2001:620::4
@@ -494,6 +494,7 @@ d.nic.ch.				      172800 IN	A	200.160.0.5
 e.nic.ch.				      172800 IN	A	204.61.216.47
 e.nic.ch.				      172800 IN	AAAA	2001:500:14:6047:ad::1
 f.nic.ch.				      172800 IN	A	194.146.106.10
+f.nic.ch.				      172800 IN	AAAA	2001:67c:1010:2::53
 h.nic.ch.				      172800 IN	A	194.42.48.120
 merapi.switch.ch.			      172800 IN	A	130.59.211.10
 merapi.switch.ch.			      172800 IN	AAAA	2001:620::5
@@ -786,13 +787,15 @@ phloem.uoregon.edu.			      172800 IN	A	128.223.32.35
 phloem.uoregon.edu.			      172800 IN	AAAA	2001:468:d01:20::80df:2023
 ee.					      172800 IN	NS	ns.ut.ee.
 ee.					      172800 IN	NS	ns.uu.net.
-ee.					      172800 IN	NS	ns.kbfi.ee.
+ee.					      172800 IN	NS	ns.tld.ee.
 ee.					      172800 IN	NS	ns.eenet.ee.
 ee.					      172800 IN	NS	ns.uninet.ee.
+ee.					      172800 IN	NS	ns2.elion.ee.
 ee.					      172800 IN	NS	sunic.sunet.se.
 ee.					      86400 IN NSEC	eg. NS RRSIG NSEC
 ns.eenet.ee.				      172800 IN	A	193.40.56.245
-ns.kbfi.ee.				      172800 IN	A	193.40.133.222
+ns2.elion.ee.				      172800 IN	A	195.50.193.163
+ns.tld.ee.				      172800 IN	A	195.43.87.10
 ns.uninet.ee.				      172800 IN	A	194.204.0.1
 ns.ut.ee.				      172800 IN	A	193.40.5.99
 eg.					      172800 IN	NS	ns5.univie.ac.at.
@@ -843,13 +846,14 @@ eu.					      172800 IN	NS	m.nic.eu.
 eu.					      172800 IN	NS	p.nic.eu.
 eu.					      172800 IN	NS	x.nic.eu.
 eu.					      172800 IN	NS	y.nic.eu.
-eu.					      86400 IN NSEC	fi. NS RRSIG NSEC
+eu.					      86400 IN NSEC	fi. NS DS RRSIG NSEC
 ns3.arnes.eu.				      172800 IN	A	192.93.0.4
 ns3.arnes.eu.				      172800 IN	AAAA	2001:660:3005:1::1:2
 ns4.arnes.eu.				      172800 IN	A	130.59.1.30
 ns4.arnes.eu.				      172800 IN	A	130.59.10.30
 ns4.arnes.eu.				      172800 IN	AAAA	2001:620::1
 ns7.arnes.eu.				      172800 IN	A	194.146.106.62
+ns7.arnes.eu.				      172800 IN	AAAA	2001:67c:1010:15::53
 a.nic.eu.				      172800 IN	A	91.200.16.100
 l.nic.eu.				      172800 IN	A	195.66.241.178
 m.nic.eu.				      172800 IN	A	217.29.76.13
@@ -1187,7 +1191,7 @@ ie.					      172800 IN	NS	ns-ie.nic.fr.
 ie.					      172800 IN	NS	uucp-gw-1.pa.dec.com.
 ie.					      172800 IN	NS	uucp-gw-2.pa.dec.com.
 ie.					      86400 IN NSEC	il. NS RRSIG NSEC
-auth01.connect.ie.			      172800 IN	A	213.228.227.50
+auth01.connect.ie.			      172800 IN	A	87.198.184.50
 banba.domainregistry.ie.		      172800 IN	A	193.1.142.2
 gns1.domainregistry.ie.			      172800 IN	A	198.133.199.102
 gns2.domainregistry.ie.			      172800 IN	A	198.133.199.103
@@ -1232,7 +1236,7 @@ info.					      172800 IN	NS	b0.info.afilias-nst.org.
 info.					      172800 IN	NS	b2.info.afilias-nst.org.
 info.					      172800 IN	NS	c0.info.afilias-nst.info.
 info.					      172800 IN	NS	d0.info.afilias-nst.org.
-info.					      86400 IN NSEC	int. NS RRSIG NSEC
+info.					      86400 IN NSEC	int. NS DS RRSIG NSEC
 a0.aero.afilias-nst.info.		      172800 IN	A	199.254.51.1
 a0.aero.afilias-nst.info.		      172800 IN	AAAA	2001:500:1d::1
 a2.aero.afilias-nst.info.		      172800 IN	A	199.249.115.1
@@ -1278,7 +1282,7 @@ int.					      172800 IN	NS	ns.uu.net.
 int.					      172800 IN	NS	ns.icann.org.
 int.					      172800 IN	NS	ns0.ja.net.
 int.					      172800 IN	NS	ns1.cs.ucl.ac.uk.
-int.					      172800 IN	NS	ns-sec.ripe.net.
+int.					      172800 IN	NS	sec2.authdns.ripe.net.
 int.					      86400 IN NSEC	io. NS RRSIG NSEC
 io.					      172800 IN	NS	a.nic.io.
 io.					      172800 IN	NS	a.ns13.net.
@@ -1560,7 +1564,7 @@ lt.					      172800 IN	NS	c.tld.lt.
 lt.					      172800 IN	NS	d.tld.lt.
 lt.					      172800 IN	NS	e.tld.lt.
 lt.					      86400 IN NSEC	lu. NS RRSIG NSEC
-a.tld.lt.				      172800 IN	A	193.219.32.13
+a.tld.lt.				      172800 IN	A	195.8.218.131
 b.tld.lt.				      172800 IN	A	194.0.20.1
 b.tld.lt.				      172800 IN	AAAA	2001:678:19::1
 c.tld.lt.				      172800 IN	A	194.0.1.4
@@ -2023,6 +2027,7 @@ m.gtld-servers.net.			      172800 IN	A	192.55.83.30
 osi2.gua.net.				      172800 IN	A	205.161.188.3
 a.iana-servers.net.			      172800 IN	A	192.0.34.43
 b.iana-servers.net.			      172800 IN	A	193.0.0.236
+b.iana-servers.net.			      172800 IN	AAAA	2001:610:240:2::c100:ec
 c.iana-servers.net.			      172800 IN	A	139.91.1.10
 c.iana-servers.net.			      172800 IN	AAAA	2001:648:2c30::1:10
 anyc1.irondns.net.			      172800 IN	A	195.253.64.4
@@ -2082,6 +2087,8 @@ ns1.pch.net.				      172800 IN	A	206.220.231.1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
+sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
+sec2.authdns.ripe.net.			      172800 IN	AAAA	2001:67c:e0::4
 ns.ripe.net.				      172800 IN	A	193.0.0.193
 ns-ad.ripe.net.				      172800 IN	A	193.0.12.6
 ns-ae.ripe.net.				      172800 IN	A	193.0.12.233
@@ -2162,8 +2169,6 @@ ns-rs.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:184
 ns-sa.ripe.net.				      172800 IN	A	193.0.12.193
 ns-sa.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
-ns-sec.ripe.net.			      172800 IN	A	193.0.0.196
-ns-sec.ripe.net.			      172800 IN	AAAA	2001:610:240:0:53::4
 ns-sm.ripe.net.				      172800 IN	A	193.0.12.191
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
@@ -2531,7 +2536,7 @@ pm.					      172800 IN	NS	d.nic.fr.
 pm.					      172800 IN	NS	e.ext.nic.fr.
 pm.					      172800 IN	NS	f.ext.nic.fr.
 pm.					      172800 IN	NS	g.ext.nic.fr.
-pm.					      86400 IN NSEC	pn. NS RRSIG NSEC
+pm.					      86400 IN NSEC	pn. NS DS RRSIG NSEC
 pn.					      172800 IN	NS	ns0.pitcairn.net.pn.
 pn.					      172800 IN	NS	ns2.pitcairn.net.pn.
 pn.					      172800 IN	NS	ns-ext.isc.org.
@@ -2709,7 +2714,7 @@ se.					      172800 IN	NS	g.ns.se.
 se.					      172800 IN	NS	h.ns.se.
 se.					      172800 IN	NS	i.ns.se.
 se.					      172800 IN	NS	j.ns.se.
-se.					      86400 IN NSEC	sg. NS RRSIG NSEC
+se.					      86400 IN NSEC	sg. NS DS RRSIG NSEC
 slave.sth.netnod.se.			      172800 IN	A	192.36.144.116
 slave1.sth.netnod.se.			      172800 IN	A	192.36.144.116
 a.ns.se.				      172800 IN	A	192.36.144.107
@@ -2743,19 +2748,21 @@ sh.					      172800 IN	NS	ns1.communitydns.net.
 sh.					      172800 IN	NS	ns3.icb.co.uk.
 sh.					      86400 IN NSEC	si. NS RRSIG NSEC
 a.nic.sh.				      172800 IN	A	64.251.31.178
-si.					      172800 IN	NS	ns1.arnes.si.
 si.					      172800 IN	NS	ns2.arnes.si.
 si.					      172800 IN	NS	ns3.arnes.eu.
 si.					      172800 IN	NS	ns4.arnes.eu.
 si.					      172800 IN	NS	ns7.arnes.eu.
 si.					      172800 IN	NS	ns8.arnes.si.
+si.					      172800 IN	NS	ns9.arnes.si.
 si.					      172800 IN	NS	sss.arnes.si.
-si.					      172800 IN	NS	ns-ext.vix.com.
 si.					      86400 IN NSEC	sj. NS RRSIG NSEC
 ns1.arnes.si.				      172800 IN	A	193.2.1.86
 ns2.arnes.si.				      172800 IN	A	193.2.1.91
+ns2.arnes.si.				      172800 IN	AAAA	2001:1470:8000::91
 ns8.arnes.si.				      172800 IN	A	194.0.1.20
 ns8.arnes.si.				      172800 IN	AAAA	2001:678:4::14
+ns9.arnes.si.				      172800 IN	A	204.61.216.54
+ns9.arnes.si.				      172800 IN	AAAA	2001:500:14:6054:ad::1
 sss.arnes.si.				      172800 IN	A	81.91.161.101
 sj.					      172800 IN	NS	nn.uninett.no.
 sj.					      172800 IN	NS	nac.no.
@@ -2959,7 +2966,6 @@ to.					      172800 IN	NS	auth02.ns.uu.net.
 to.					      86400 IN NSEC	tp. NS RRSIG NSEC
 colo.to.				      172800 IN	A	216.74.32.104
 tonic.to.				      172800 IN	A	216.74.32.100
-tp.					      172800 IN	NS	ns3.ns.esat.net.
 tp.					      172800 IN	NS	ns-tp.ripe.net.
 tp.					      172800 IN	NS	auth01.connect.ie.
 tp.					      172800 IN	NS	auth02.ns.uu.net.
@@ -2978,13 +2984,17 @@ ns2.nic.tr.				      172800 IN	A	144.122.95.52
 ns3.nic.tr.				      172800 IN	A	213.248.162.131
 ns4.nic.tr.				      172800 IN	A	193.140.100.200
 ns5.nic.tr.				      172800 IN	A	213.139.255.18
-travel.					      172800 IN	NS	tld1.ultradns.net.
-travel.					      172800 IN	NS	tld2.ultradns.net.
-travel.					      172800 IN	NS	tld3.ultradns.org.
+travel.					      172800 IN	NS	a.gtld.travel.
+travel.					      172800 IN	NS	b.gtld.travel.
+travel.					      172800 IN	NS	c.gtld.travel.
 travel.					      172800 IN	NS	tld4.ultradns.org.
 travel.					      172800 IN	NS	tld5.ultradns.info.
 travel.					      172800 IN	NS	tld6.ultradns.co.uk.
 travel.					      86400 IN NSEC	tt. NS RRSIG NSEC
+a.gtld.travel.				      172800 IN	A	156.154.100.1
+a.gtld.travel.				      172800 IN	AAAA	2001:502:ad09::1
+b.gtld.travel.				      172800 IN	A	156.154.101.1
+c.gtld.travel.				      172800 IN	A	156.154.102.1
 tt.					      172800 IN	NS	ns0.nic.tt.
 tt.					      172800 IN	NS	ns1.nic.tt.
 tt.					      172800 IN	NS	ns1.pch.net.
@@ -3220,23 +3230,23 @@ ns7.dns.ws.				      172800 IN	A	77.92.65.174
 xn--0zwm56d.				      172800 IN	NS	a.iana-servers.net.
 xn--0zwm56d.				      172800 IN	NS	b.iana-servers.net.
 xn--0zwm56d.				      172800 IN	NS	c.iana-servers.net.
-xn--0zwm56d.				      86400 IN NSEC	xn--11b5bs3a9aj6g. NS RRSIG NSEC
+xn--0zwm56d.				      86400 IN NSEC	xn--11b5bs3a9aj6g. NS DS RRSIG NSEC
 xn--11b5bs3a9aj6g.			      172800 IN	NS	a.iana-servers.net.
 xn--11b5bs3a9aj6g.			      172800 IN	NS	b.iana-servers.net.
 xn--11b5bs3a9aj6g.			      172800 IN	NS	c.iana-servers.net.
-xn--11b5bs3a9aj6g.			      86400 IN NSEC	xn--80akhbyknj4f. NS RRSIG NSEC
+xn--11b5bs3a9aj6g.			      86400 IN NSEC	xn--80akhbyknj4f. NS DS RRSIG NSEC
 xn--80akhbyknj4f.			      172800 IN	NS	a.iana-servers.net.
 xn--80akhbyknj4f.			      172800 IN	NS	b.iana-servers.net.
 xn--80akhbyknj4f.			      172800 IN	NS	c.iana-servers.net.
-xn--80akhbyknj4f.			      86400 IN NSEC	xn--9t4b11yi5a. NS RRSIG NSEC
+xn--80akhbyknj4f.			      86400 IN NSEC	xn--9t4b11yi5a. NS DS RRSIG NSEC
 xn--9t4b11yi5a.				      172800 IN	NS	a.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	b.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	c.iana-servers.net.
-xn--9t4b11yi5a.				      86400 IN NSEC	xn--deba0ad. NS RRSIG NSEC
+xn--9t4b11yi5a.				      86400 IN NSEC	xn--deba0ad. NS DS RRSIG NSEC
 xn--deba0ad.				      172800 IN	NS	a.iana-servers.net.
 xn--deba0ad.				      172800 IN	NS	b.iana-servers.net.
 xn--deba0ad.				      172800 IN	NS	c.iana-servers.net.
-xn--deba0ad.				      86400 IN NSEC	xn--fiqs8s. NS RRSIG NSEC
+xn--deba0ad.				      86400 IN NSEC	xn--fiqs8s. NS DS RRSIG NSEC
 xn--fiqs8s.				      172800 IN	NS	h.dns.cn.
 xn--fiqs8s.				      172800 IN	NS	i.dns.cn.
 xn--fiqs8s.				      172800 IN	NS	j.dns.cn.
@@ -3261,15 +3271,15 @@ xn--fzc2c9e2c.				      86400 IN NSEC	xn--g6w251d. NS RRSIG NSEC
 xn--g6w251d.				      172800 IN	NS	a.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	b.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	c.iana-servers.net.
-xn--g6w251d.				      86400 IN NSEC	xn--hgbk6aj7f53bba. NS RRSIG NSEC
+xn--g6w251d.				      86400 IN NSEC	xn--hgbk6aj7f53bba. NS DS RRSIG NSEC
 xn--hgbk6aj7f53bba.			      172800 IN	NS	a.iana-servers.net.
 xn--hgbk6aj7f53bba.			      172800 IN	NS	b.iana-servers.net.
 xn--hgbk6aj7f53bba.			      172800 IN	NS	c.iana-servers.net.
-xn--hgbk6aj7f53bba.			      86400 IN NSEC	xn--hlcj6aya9esc7a. NS RRSIG NSEC
+xn--hgbk6aj7f53bba.			      86400 IN NSEC	xn--hlcj6aya9esc7a. NS DS RRSIG NSEC
 xn--hlcj6aya9esc7a.			      172800 IN	NS	a.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	b.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	c.iana-servers.net.
-xn--hlcj6aya9esc7a.			      86400 IN NSEC	xn--j6w193g. NS RRSIG NSEC
+xn--hlcj6aya9esc7a.			      86400 IN NSEC	xn--j6w193g. NS DS RRSIG NSEC
 xn--j6w193g.				      172800 IN	NS	b.dns.tw.
 xn--j6w193g.				      172800 IN	NS	ns1.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	ns2.cuhk.edu.hk.
@@ -3283,11 +3293,11 @@ xn--j6w193g.				      86400 IN NSEC	xn--jxalpdlp. NS RRSIG NSEC
 xn--jxalpdlp.				      172800 IN	NS	a.iana-servers.net.
 xn--jxalpdlp.				      172800 IN	NS	b.iana-servers.net.
 xn--jxalpdlp.				      172800 IN	NS	c.iana-servers.net.
-xn--jxalpdlp.				      86400 IN NSEC	xn--kgbechtv. NS RRSIG NSEC
+xn--jxalpdlp.				      86400 IN NSEC	xn--kgbechtv. NS DS RRSIG NSEC
 xn--kgbechtv.				      172800 IN	NS	a.iana-servers.net.
 xn--kgbechtv.				      172800 IN	NS	b.iana-servers.net.
 xn--kgbechtv.				      172800 IN	NS	c.iana-servers.net.
-xn--kgbechtv.				      86400 IN NSEC	xn--kprw13d. NS RRSIG NSEC
+xn--kgbechtv.				      86400 IN NSEC	xn--kprw13d. NS DS RRSIG NSEC
 xn--kprw13d.				      172800 IN	NS	d.dns.tw.
 xn--kprw13d.				      172800 IN	NS	e.dns.tw.
 xn--kprw13d.				      172800 IN	NS	f.dns.tw.
@@ -3348,7 +3358,7 @@ xn--ygbi2ammx.				      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
 xn--zckzah.				      172800 IN	NS	a.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	b.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	c.iana-servers.net.
-xn--zckzah.				      86400 IN NSEC	ye. NS RRSIG NSEC
+xn--zckzah.				      86400 IN NSEC	ye. NS DS RRSIG NSEC
 ye.					      172800 IN	NS	ns1.yemen.net.ye.
 ye.					      172800 IN	NS	ns2.yemen.net.ye.
 ye.					      172800 IN	NS	sah1.ye.
