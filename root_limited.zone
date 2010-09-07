@@ -259,7 +259,7 @@ be.					      172800 IN	NS	london.ns.dns.be.
 be.					      172800 IN	NS	prague.ns.dns.be.
 be.					      172800 IN	NS	brussels.ns.dns.be.
 be.					      172800 IN	NS	amsterdam.ns.dns.be.
-be.					      86400 IN NSEC	bf. NS RRSIG NSEC
+be.					      86400 IN NSEC	bf. NS DS RRSIG NSEC
 l.eu.dns.be.				      172800 IN	A	193.2.221.60
 l.eu.dns.be.				      172800 IN	AAAA	2001:1470:8000:100::1
 a.ns.dns.be.				      172800 IN	A	193.109.126.140
