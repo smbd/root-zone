@@ -2888,7 +2888,7 @@ tf.					      172800 IN	NS	d.nic.fr.
 tf.					      172800 IN	NS	e.ext.nic.fr.
 tf.					      172800 IN	NS	f.ext.nic.fr.
 tf.					      172800 IN	NS	g.ext.nic.fr.
-tf.					      86400 IN NSEC	tg. NS RRSIG NSEC
+tf.					      86400 IN NSEC	tg. NS DS RRSIG NSEC
 tg.					      172800 IN	NS	ns1.admin.net.
 tg.					      172800 IN	NS	ns2.admin.net.
 tg.					      172800 IN	NS	ns3.admin.net.
