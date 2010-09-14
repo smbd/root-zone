@@ -338,10 +338,10 @@ bm.					      172800 IN	NS	ns3.bm.
 bm.					      172800 IN	NS	sunic.sunet.se.
 bm.					      172800 IN	NS	auth02.ns.uu.net.
 bm.					      86400 IN NSEC	bn. NS RRSIG NSEC
-ns1.ibl.bm.				      172800 IN	A	199.172.192.1
+ns1.ibl.bm.				      172800 IN	A	198.207.23.50
 ns2.ibl.bm.				      172800 IN	A	199.172.192.2
 ns1.bm.					      172800 IN	A	206.53.190.202
-ns2.bm.					      172800 IN	A	209.27.65.33
+ns2.bm.					      172800 IN	A	69.17.194.1
 ns3.bm.					      172800 IN	A	207.228.134.10
 bn.					      172800 IN	NS	jtb.brunet.bn.
 bn.					      172800 IN	NS	ns2.brunet.bn.
@@ -1080,11 +1080,10 @@ gt.					      172800 IN	NS	ns.uvg.edu.gt.
 gt.					      172800 IN	NS	ns3.nic.mx.
 gt.					      172800 IN	NS	dns2.gt.amnetdatos.net.
 gt.					      172800 IN	NS	osi2.gua.net.
-gt.					      172800 IN	NS	ns-gt.ripe.net.
+gt.					      172800 IN	NS	sns-pb.isc.org.
 gt.					      86400 IN NSEC	gu. NS RRSIG NSEC
 ns.uvg.edu.gt.				      172800 IN	A	168.234.68.2
 ns.uvg.edu.gt.				      172800 IN	A	200.9.74.2
-ns.uvg.edu.gt.				      172800 IN	A	200.35.167.65
 gu.					      172800 IN	NS	ns.gu.
 gu.					      172800 IN	NS	ns.edu.gu.
 gu.					      172800 IN	NS	ns-gu.ripe.net.
@@ -1395,8 +1394,8 @@ a.dns.jp.				      172800 IN	A	203.119.1.1
 a.dns.jp.				      172800 IN	AAAA	2001:dc4::1
 b.dns.jp.				      172800 IN	A	202.12.30.131
 b.dns.jp.				      172800 IN	AAAA	2001:dc2::1
-c.dns.jp.				      172800 IN	A	204.74.112.245
-c.dns.jp.				      172800 IN	AAAA	2001:502:d399::245
+c.dns.jp.				      172800 IN	A	156.154.100.5
+c.dns.jp.				      172800 IN	AAAA	2001:502:ad09::5
 d.dns.jp.				      172800 IN	A	210.138.175.244
 d.dns.jp.				      172800 IN	AAAA	2001:240::53
 e.dns.jp.				      172800 IN	A	192.50.43.53
@@ -2125,8 +2124,6 @@ ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-gd.ripe.net.				      172800 IN	A	193.0.12.38
 ns-gp.ripe.net.				      172800 IN	A	193.0.12.90
 ns-gs.ripe.net.				      172800 IN	A	193.0.12.206
-ns-gt.ripe.net.				      172800 IN	A	193.0.12.92
-ns-gt.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:92
 ns-gu.ripe.net.				      172800 IN	A	193.0.12.91
 ns-gy.ripe.net.				      172800 IN	A	193.0.12.95
 ns-gy.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:95
