@@ -1518,7 +1518,7 @@ li.					      172800 IN	NS	d.nic.li.
 li.					      172800 IN	NS	e.nic.li.
 li.					      172800 IN	NS	f.nic.li.
 li.					      172800 IN	NS	h.nic.li.
-li.					      86400 IN NSEC	lk. NS RRSIG NSEC
+li.					      86400 IN NSEC	lk. NS DS RRSIG NSEC
 a.nic.li.				      172800 IN	A	130.59.1.80
 a.nic.li.				      172800 IN	AAAA	2001:620::4
 b.nic.li.				      172800 IN	A	130.59.211.10
@@ -1529,6 +1529,7 @@ d.nic.li.				      172800 IN	A	200.160.0.5
 e.nic.li.				      172800 IN	A	204.61.216.48
 e.nic.li.				      172800 IN	AAAA	2001:500:14:6048:ad::1
 f.nic.li.				      172800 IN	A	194.146.106.14
+f.nic.li.				      172800 IN	AAAA	2001:67c:1010:3::53
 h.nic.li.				      172800 IN	A	194.42.48.120
 lk.					      172800 IN	NS	ns.lankacom.net.
 lk.					      172800 IN	NS	nic.lk-anycast.pch.net.
@@ -2581,7 +2582,7 @@ pt.					      172800 IN	NS	ns-pt.nlnetlabs.nl.
 pt.					      172800 IN	NS	sns-pb.isc.org.
 pt.					      172800 IN	NS	auth200.ns.uu.net.
 pt.					      172800 IN	NS	auth210.ns.uu.net.
-pt.					      86400 IN NSEC	pw. NS RRSIG NSEC
+pt.					      86400 IN NSEC	pw. NS DS RRSIG NSEC
 ns.dns.pt.				      172800 IN	A	193.136.0.1
 ns2.dns.pt.				      172800 IN	A	193.136.2.226
 ns2.dns.pt.				      172800 IN	AAAA	2001:690:a80:4001::100
@@ -3374,7 +3375,7 @@ yt.					      172800 IN	NS	d.nic.fr.
 yt.					      172800 IN	NS	e.ext.nic.fr.
 yt.					      172800 IN	NS	f.ext.nic.fr.
 yt.					      172800 IN	NS	g.ext.nic.fr.
-yt.					      86400 IN NSEC	za. NS RRSIG NSEC
+yt.					      86400 IN NSEC	za. NS DS RRSIG NSEC
 za.					      172800 IN	NS	za1.dnsnode.net.
 za.					      172800 IN	NS	disa.tenet.ac.za.
 za.					      172800 IN	NS	nsza.is.co.za.
