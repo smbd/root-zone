@@ -1920,7 +1920,7 @@ ns6.centralnic.net.			      172800 IN	A	194.0.2.2
 ns6.centralnic.net.			      172800 IN	AAAA	2001:678:5::2
 ns7.centralnic.net.			      172800 IN	A	193.105.170.169
 ns.cernet.net.				      172800 IN	A	202.112.0.44
-a.ci-servers.net.			      172800 IN	A	87.117.196.245
+a.ci-servers.net.			      172800 IN	A	87.117.194.160
 ns1.cobex.net.				      172800 IN	A	216.152.192.71
 ns2.cobex.net.				      172800 IN	A	216.152.192.72
 lk.communitydns.net.			      172800 IN	A	194.0.1.27
@@ -2550,7 +2550,7 @@ pr.					      172800 IN	NS	golomb.nic.pr.
 pr.					      172800 IN	NS	pascal.nic.pr.
 pr.					      172800 IN	NS	pr-dns.denic.de.
 pr.					      172800 IN	NS	descartes.nic.pr.
-pr.					      86400 IN NSEC	pro. NS RRSIG NSEC
+pr.					      86400 IN NSEC	pro. NS DS RRSIG NSEC
 descartes.nic.pr.			      172800 IN	A	134.202.1.120
 do-dns.nic.pr.				      172800 IN	A	134.202.1.121
 golomb.nic.pr.				      172800 IN	A	134.202.6.100
@@ -2903,7 +2903,7 @@ th.					      172800 IN	NS	dns1.thnic.co.th.
 th.					      172800 IN	NS	ns-a.thnic.co.th.
 th.					      172800 IN	NS	sfba.sns-pb.isc.org.
 th.					      172800 IN	NS	ns-th.ripe.net.
-th.					      86400 IN NSEC	tj. NS RRSIG NSEC
+th.					      86400 IN NSEC	tj. NS DS RRSIG NSEC
 dns1.thnic.co.th.			      172800 IN	A	202.28.1.22
 dns1.thnic.co.th.			      172800 IN	AAAA	2001:3c8:1209:1::22
 ns-a.thnic.co.th.			      172800 IN	A	61.19.242.38
