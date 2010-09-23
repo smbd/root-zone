@@ -2357,7 +2357,7 @@ nu.					      172800 IN	NS	ns2.nus.nic.nu.
 nu.					      172800 IN	NS	ns3.nus.nic.nu.
 nu.					      172800 IN	NS	ns4.nus.nic.nu.
 nu.					      172800 IN	NS	ns5.nus.nic.nu.
-nu.					      86400 IN NSEC	nz. NS RRSIG NSEC
+nu.					      86400 IN NSEC	nz. NS DS RRSIG NSEC
 ns0.de.nic.nu.				      172800 IN	A	62.4.64.120
 ns.nic.nu.				      172800 IN	A	69.25.75.70
 ns0.nus.nic.nu.				      172800 IN	A	156.154.100.13
@@ -2627,7 +2627,7 @@ re.					      172800 IN	NS	d.nic.fr.
 re.					      172800 IN	NS	e.ext.nic.fr.
 re.					      172800 IN	NS	f.ext.nic.fr.
 re.					      172800 IN	NS	g.ext.nic.fr.
-re.					      86400 IN NSEC	ro. NS RRSIG NSEC
+re.					      86400 IN NSEC	ro. NS DS RRSIG NSEC
 ro.					      172800 IN	NS	ns.uu.net.
 ro.					      172800 IN	NS	dns-at.rotld.ro.
 ro.					      172800 IN	NS	dns-ro.denic.de.
