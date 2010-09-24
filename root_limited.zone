@@ -194,6 +194,7 @@ ns5.univie.ac.at.			      172800 IN	A	193.171.255.77
 ns9.univie.ac.at.			      172800 IN	A	194.0.10.100
 ns9.univie.ac.at.			      172800 IN	AAAA	2001:678:d::cafe
 d.nic.at.				      172800 IN	A	81.91.161.98
+d.nic.at.				      172800 IN	AAAA	2a02:568:20:1::d
 j.nic.at.				      172800 IN	A	194.146.106.50
 j.nic.at.				      172800 IN	AAAA	2001:67c:1010:12::53
 n.nic.at.				      172800 IN	A	87.233.175.130
@@ -2988,14 +2989,18 @@ ns5.nic.tr.				      172800 IN	A	213.139.255.18
 travel.					      172800 IN	NS	a.gtld.travel.
 travel.					      172800 IN	NS	b.gtld.travel.
 travel.					      172800 IN	NS	c.gtld.travel.
-travel.					      172800 IN	NS	tld4.ultradns.org.
-travel.					      172800 IN	NS	tld5.ultradns.info.
-travel.					      172800 IN	NS	tld6.ultradns.co.uk.
+travel.					      172800 IN	NS	d.gtld.travel.
+travel.					      172800 IN	NS	e.gtld.travel.
+travel.					      172800 IN	NS	f.gtld.travel.
 travel.					      86400 IN NSEC	tt. NS RRSIG NSEC
 a.gtld.travel.				      172800 IN	A	156.154.100.1
 a.gtld.travel.				      172800 IN	AAAA	2001:502:ad09::1
 b.gtld.travel.				      172800 IN	A	156.154.101.1
 c.gtld.travel.				      172800 IN	A	156.154.102.1
+d.gtld.travel.				      172800 IN	A	156.154.103.1
+d.gtld.travel.				      172800 IN	AAAA	2001:502:2eda::1
+e.gtld.travel.				      172800 IN	A	156.154.104.1
+f.gtld.travel.				      172800 IN	A	156.154.105.1
 tt.					      172800 IN	NS	ns0.nic.tt.
 tt.					      172800 IN	NS	ns1.nic.tt.
 tt.					      172800 IN	NS	ns1.pch.net.
