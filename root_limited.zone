@@ -717,7 +717,7 @@ ns5.knipp.de.				      172800 IN	AAAA	2a01:5b0:0:29::3e
 a.nic.de.				      172800 IN	A	194.0.0.53
 a.nic.de.				      172800 IN	AAAA	2001:678:2::53
 f.nic.de.				      172800 IN	A	81.91.164.5
-f.nic.de.				      172800 IN	AAAA	2001:608:6:6::10
+f.nic.de.				      172800 IN	AAAA	2a02:568:0:2::53
 nsc.nic.de.				      172800 IN	A	81.91.161.84
 z.nic.de.				      172800 IN	A	194.246.96.1
 dj.					      172800 IN	NS	bow.rain.fr.
@@ -922,7 +922,7 @@ fr.					      172800 IN	NS	d.nic.fr.
 fr.					      172800 IN	NS	e.ext.nic.fr.
 fr.					      172800 IN	NS	f.ext.nic.fr.
 fr.					      172800 IN	NS	g.ext.nic.fr.
-fr.					      86400 IN NSEC	ga. NS RRSIG NSEC
+fr.					      86400 IN NSEC	ga. NS DS RRSIG NSEC
 dns.inria.fr.				      172800 IN	A	193.51.208.13
 ns1.ird.fr.				      172800 IN	A	193.50.53.3
 a.nic.fr.				      172800 IN	A	192.93.0.129
@@ -2174,6 +2174,7 @@ ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
 ns-sm.ripe.net.				      172800 IN	A	193.0.12.191
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
+ns-sy.ripe.net.				      172800 IN	A	193.0.12.215
 ns-sz.ripe.net.				      172800 IN	A	193.0.12.212
 ns-tc.ripe.net.				      172800 IN	A	193.0.12.229
 ns-th.ripe.net.				      172800 IN	A	193.0.12.219
@@ -2231,8 +2232,6 @@ ns3-auth.sprintlink.net.		      172800 IN	A	144.228.255.10
 ns1.sr.net.				      172800 IN	A	200.1.159.148
 ns2.sr.net.				      172800 IN	A	200.2.162.30
 ns.telefonica-ca.net.			      172800 IN	A	216.184.96.4
-castor.teleglobe.net.			      172800 IN	A	199.202.55.2
-pollux.teleglobe.net.			      172800 IN	A	199.202.55.10
 ns.thnic.net.				      172800 IN	A	202.28.0.1
 ns.twnic.net.				      172800 IN	A	192.83.166.11
 ns.twnic.net.				      172800 IN	AAAA	2001:288:1:1006::11
@@ -2838,17 +2837,16 @@ sv.					      172800 IN	NS	ns-sv.ripe.net.
 sv.					      172800 IN	NS	auth02.ns.uu.net.
 sv.					      86400 IN NSEC	sy. NS RRSIG NSEC
 cir.red.sv.				      172800 IN	A	168.243.254.1
-sy.					      172800 IN	NS	ns1.pdn.sy.
-sy.					      172800 IN	NS	ns2.pdn.sy.
+sy.					      172800 IN	NS	ns1.tld.sy.
+sy.					      172800 IN	NS	ns2.tld.sy.
 sy.					      172800 IN	NS	dns1.net.sy.
 sy.					      172800 IN	NS	dns2.net.sy.
-sy.					      172800 IN	NS	castor.teleglobe.net.
-sy.					      172800 IN	NS	pollux.teleglobe.net.
+sy.					      172800 IN	NS	ns-sy.ripe.net.
 sy.					      86400 IN NSEC	sz. NS RRSIG NSEC
 dns1.net.sy.				      172800 IN	A	66.198.41.9
 dns2.net.sy.				      172800 IN	A	66.198.41.14
-ns1.pdn.sy.				      172800 IN	A	82.137.192.141
-ns2.pdn.sy.				      172800 IN	A	82.137.192.142
+ns1.tld.sy.				      172800 IN	A	82.137.200.85
+ns2.tld.sy.				      172800 IN	A	82.137.192.145
 sz.					      172800 IN	NS	dns.sispa.org.sz.
 sz.					      172800 IN	NS	rip.psg.com.
 sz.					      172800 IN	NS	ns-sz.ripe.net.
