@@ -2832,12 +2832,8 @@ sv.					      86400 IN NSEC	sy. NS RRSIG NSEC
 cir.red.sv.				      172800 IN	A	168.243.254.1
 sy.					      172800 IN	NS	ns1.tld.sy.
 sy.					      172800 IN	NS	ns2.tld.sy.
-sy.					      172800 IN	NS	dns1.net.sy.
-sy.					      172800 IN	NS	dns2.net.sy.
 sy.					      172800 IN	NS	ns-sy.ripe.net.
 sy.					      86400 IN NSEC	sz. NS RRSIG NSEC
-dns1.net.sy.				      172800 IN	A	66.198.41.9
-dns2.net.sy.				      172800 IN	A	66.198.41.14
 ns1.tld.sy.				      172800 IN	A	82.137.200.85
 ns2.tld.sy.				      172800 IN	A	82.137.192.145
 sz.					      172800 IN	NS	dns.sispa.org.sz.
