@@ -1,5 +1,5 @@
-.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2010101300 1800 900 604800 86400
-.					      86400 IN RRSIG	SOA 8 0 86400 20101020000000 20101012230000 40288 . lcwhQ9WEktl8ZiIJEMjOuu0C6LBiXiwjKzTY9nlwP6WFq9kJsg6RRH7+ cGDxIcSmXdCes6ZD5M+vS0QLyckP9gg5SxdhvRSJlXAqFvgpI2//DbZj zXlHS38P/sAjXHq0r09uRCKjzdDaGjKAolVCLkoJABfEWjadGWDMXpiq KBk=
+.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2010101301 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20101020000000 20101012230000 40288 . DOXaH4q4pqhaGoN+QGETFGJXzRwgjAaHlhd3NNutei3tVLwE+DcP9oAB o+42Oa+Tr7r9OssMAhqEZhknIkE7JVdZinFDRHVL3zLeRvkV2TelWRO1 NelHK+InLtNyBGdi82BKuIC9Xq2pcuHIQIIRF8wW8oPUCyI3WjRXZjPK pas=
 .					      518400 IN	NS	a.root-servers.net.
 .					      518400 IN	NS	b.root-servers.net.
 .					      518400 IN	NS	c.root-servers.net.
@@ -1048,6 +1048,7 @@ d.ext.nic.fr.				      172800 IN	AAAA	2001:500:2e::2
 e.ext.nic.fr.				      172800 IN	A	193.176.144.6
 e.ext.nic.fr.				      172800 IN	AAAA	2a00:d78:0:102:193:176:144:6
 f.ext.nic.fr.				      172800 IN	A	194.146.106.46
+f.ext.nic.fr.				      172800 IN	AAAA	2001:67c:1010:11::53
 g.ext.nic.fr.				      172800 IN	A	204.61.216.39
 g.ext.nic.fr.				      172800 IN	AAAA	2001:500:14:6039:ad::1
 b.hosting.nic.fr.			      172800 IN	A	192.93.0.4

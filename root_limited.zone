@@ -932,6 +932,7 @@ d.ext.nic.fr.				      172800 IN	AAAA	2001:500:2e::2
 e.ext.nic.fr.				      172800 IN	A	193.176.144.6
 e.ext.nic.fr.				      172800 IN	AAAA	2a00:d78:0:102:193:176:144:6
 f.ext.nic.fr.				      172800 IN	A	194.146.106.46
+f.ext.nic.fr.				      172800 IN	AAAA	2001:67c:1010:11::53
 g.ext.nic.fr.				      172800 IN	A	204.61.216.39
 g.ext.nic.fr.				      172800 IN	AAAA	2001:500:14:6039:ad::1
 b.hosting.nic.fr.			      172800 IN	A	192.93.0.4
