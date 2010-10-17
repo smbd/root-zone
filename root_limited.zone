@@ -417,7 +417,7 @@ bz.					      172800 IN	NS	b0.cctld.afilias-nst.org.
 bz.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 bz.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 bz.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-bz.					      86400 IN NSEC	ca. NS RRSIG NSEC
+bz.					      86400 IN NSEC	ca. NS DS RRSIG NSEC
 ca.					      172800 IN	NS	a.ca-servers.ca.
 ca.					      172800 IN	NS	b.ca-servers.ca.
 ca.					      172800 IN	NS	c.ca-servers.ca.
@@ -1938,6 +1938,7 @@ dns.dnsafrica.net.			      172800 IN	A	213.193.157.30
 cl1.dnsnode.net.			      172800 IN	A	194.146.106.34
 cl1.dnsnode.net.			      172800 IN	AAAA	2001:67c:1010:8::53
 nl1.dnsnode.net.			      172800 IN	A	194.146.106.42
+nl1.dnsnode.net.			      172800 IN	AAAA	2001:67c:1010:10::53
 pe1.dnsnode.net.			      172800 IN	A	194.146.106.82
 fork.sth.dnsnode.net.			      172800 IN	A	77.72.229.254
 za1.dnsnode.net.			      172800 IN	A	194.146.106.78
