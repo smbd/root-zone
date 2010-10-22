@@ -1137,7 +1137,11 @@ hn.					      172800 IN	NS	b0.cctld.afilias-nst.org.
 hn.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 hn.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 hn.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-hn.					      86400 IN NSEC	hr. NS RRSIG NSEC
+hn.					      172800 IN	NS	tld1.rds.org.hn.
+hn.					      172800 IN	NS	tld2.rds.org.hn.
+hn.					      86400 IN NSEC	hr. NS DS RRSIG NSEC
+tld1.rds.org.hn.			      172800 IN	A	200.107.121.97
+tld2.rds.org.hn.			      172800 IN	A	200.107.121.98
 hr.					      172800 IN	NS	ns.uu.net.
 hr.					      172800 IN	NS	dns.srce.hr.
 hr.					      172800 IN	NS	ns5.univie.ac.at.
