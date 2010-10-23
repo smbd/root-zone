@@ -1712,7 +1712,7 @@ mn.					      172800 IN	NS	ns3.magic.mn.
 mn.					      172800 IN	NS	ns4.magic.mn.
 mn.					      86400 IN NSEC	mo. NS RRSIG NSEC
 ns1.magic.mn.				      172800 IN	A	202.131.0.10
-ns2.magic.mn.				      172800 IN	A	202.131.0.11
+ns2.magic.mn.				      172800 IN	A	202.72.241.5
 ns3.magic.mn.				      172800 IN	A	202.131.224.80
 ns4.magic.mn.				      172800 IN	A	202.55.176.12
 mo.					      172800 IN	NS	ns2.cuhk.edu.hk.
