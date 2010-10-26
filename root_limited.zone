@@ -1028,7 +1028,7 @@ gov.					      172800 IN	NS	d.usadotgov.net.
 gov.					      172800 IN	NS	e.usadotgov.net.
 gov.					      172800 IN	NS	f.usadotgov.net.
 gov.					      172800 IN	NS	g.usadotgov.net.
-gov.					      86400 IN NSEC	gp. NS RRSIG NSEC
+gov.					      86400 IN NSEC	gp. NS DS RRSIG NSEC
 dns.er.usgs.gov.			      172800 IN	A	137.227.240.32
 dns.wr.usgs.gov.			      172800 IN	A	137.227.232.9
 gp.					      172800 IN	NS	ns.pixar.es.
@@ -1512,7 +1512,6 @@ lc.					      172800 IN	NS	b0.cctld.afilias-nst.org.
 lc.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 lc.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 lc.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-lc.					      172800 IN	NS	dns.server.ag.
 lc.					      86400 IN NSEC	li. NS RRSIG NSEC
 li.					      172800 IN	NS	a.nic.li.
 li.					      172800 IN	NS	b.nic.li.
