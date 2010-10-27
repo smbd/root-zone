@@ -1512,7 +1512,7 @@ lc.					      172800 IN	NS	b0.cctld.afilias-nst.org.
 lc.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 lc.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 lc.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-lc.					      86400 IN NSEC	li. NS RRSIG NSEC
+lc.					      86400 IN NSEC	li. NS DS RRSIG NSEC
 li.					      172800 IN	NS	a.nic.li.
 li.					      172800 IN	NS	b.nic.li.
 li.					      172800 IN	NS	c.nic.li.
@@ -1815,7 +1815,6 @@ m.mx-ns.mx.				      172800 IN	A	200.94.176.1
 o.mx-ns.mx.				      172800 IN	A	200.23.1.1
 x.mx-ns.mx.				      172800 IN	A	201.131.252.1
 ns3.nic.mx.				      172800 IN	A	200.33.111.1
-my.					      172800 IN	NS	ns.uu.net.
 my.					      172800 IN	NS	dns.mynic.net.my.
 my.					      172800 IN	NS	ns2.cuhk.edu.hk.
 my.					      172800 IN	NS	ns5.jaring.my.
@@ -1827,6 +1826,7 @@ my.					      86400 IN NSEC	mz. NS RRSIG NSEC
 ns5.jaring.my.				      172800 IN	A	61.6.38.139
 ns5.jaring.my.				      172800 IN	AAAA	2001:328:200:48::400
 ns6.jaring.my.				      172800 IN	A	192.228.128.16
+ns6.jaring.my.				      172800 IN	AAAA	2001:328:200:ab::600
 dns.mynic.net.my.			      172800 IN	A	192.228.180.5
 dns.mynic.net.my.			      172800 IN	AAAA	2001:328:1000:3::5
 dns2.mynic.net.my.			      172800 IN	A	202.75.39.36
@@ -2309,7 +2309,8 @@ ns2.nic.nl.				      172800 IN	A	213.154.241.28
 ns2.nic.nl.				      172800 IN	AAAA	2001:7b8:606::28
 ns3.nic.nl.				      172800 IN	A	194.171.17.2
 ns3.nic.nl.				      172800 IN	AAAA	2001:610:0:800d::2
-ns4.nic.nl.				      172800 IN	A	62.4.86.232
+ns4.nic.nl.				      172800 IN	A	95.142.99.212
+ns4.nic.nl.				      172800 IN	AAAA	2a00:1188:5::212
 ns-pt.nlnetlabs.nl.			      172800 IN	A	213.154.224.141
 ns-pt.nlnetlabs.nl.			      172800 IN	AAAA	2001:7b8:206:1::4:141
 no.					      172800 IN	NS	i.nic.no.
