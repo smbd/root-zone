@@ -997,7 +997,7 @@ gi.					      172800 IN	NS	b0.cctld.afilias-nst.org.
 gi.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 gi.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 gi.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-gi.					      86400 IN NSEC	gl. NS RRSIG NSEC
+gi.					      86400 IN NSEC	gl. NS DS RRSIG NSEC
 gl.					      172800 IN	NS	a.nuuk.nic.gl.
 gl.					      172800 IN	NS	b.nic.gl.
 gl.					      172800 IN	NS	d.nic.gl.
