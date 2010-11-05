@@ -1029,8 +1029,6 @@ gov.					      172800 IN	NS	e.usadotgov.net.
 gov.					      172800 IN	NS	f.usadotgov.net.
 gov.					      172800 IN	NS	g.usadotgov.net.
 gov.					      86400 IN NSEC	gp. NS DS RRSIG NSEC
-dns.er.usgs.gov.			      172800 IN	A	137.227.240.32
-dns.wr.usgs.gov.			      172800 IN	A	137.227.232.9
 gp.					      172800 IN	NS	ns.pixar.es.
 gp.					      172800 IN	NS	ns1.nic.gp.
 gp.					      172800 IN	NS	ns1.orangecaraibe.com.
@@ -1368,8 +1366,7 @@ jm.					      86400 IN NSEC	jo. NS RRSIG NSEC
 ns.utechjamaica.edu.jm.			      172800 IN	A	200.9.115.2
 ns.jm.					      172800 IN	A	196.2.1.6
 ns3-jm.fsl.org.jm.			      172800 IN	A	196.3.191.66
-jo.					      172800 IN	NS	dns.er.usgs.gov.
-jo.					      172800 IN	NS	dns.wr.usgs.gov.
+jo.					      172800 IN	NS	rip.psg.com.
 jo.					      172800 IN	NS	amra.nic.gov.jo.
 jo.					      172800 IN	NS	ns-jo.ripe.net.
 jo.					      172800 IN	NS	petra.nic.gov.jo.
@@ -1528,8 +1525,8 @@ b.nic.li.				      172800 IN	AAAA	2001:620::5
 c.nic.li.				      172800 IN	A	147.28.0.39
 c.nic.li.				      172800 IN	AAAA	2001:418:1::39
 d.nic.li.				      172800 IN	A	200.160.0.5
-e.nic.li.				      172800 IN	A	204.61.216.48
-e.nic.li.				      172800 IN	AAAA	2001:500:14:6048:ad::1
+e.nic.li.				      172800 IN	A	194.0.17.1
+e.nic.li.				      172800 IN	AAAA	2001:678:3::1
 f.nic.li.				      172800 IN	A	194.146.106.14
 f.nic.li.				      172800 IN	AAAA	2001:67c:1010:3::53
 h.nic.li.				      172800 IN	A	194.42.48.120
@@ -2133,6 +2130,7 @@ ns-il.ripe.net.				      172800 IN	A	193.0.12.108
 ns-is.ripe.net.				      172800 IN	A	193.0.12.102
 ns-jm.ripe.net.				      172800 IN	A	193.0.12.110
 ns-jo.ripe.net.				      172800 IN	A	193.0.12.112
+ns-jo.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:112
 ns-kg.ripe.net.				      172800 IN	A	193.0.12.119
 ns-kg.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:119
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
@@ -3314,6 +3312,7 @@ xn--mgbaam7a8h.				      172800 IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	sns-pb.isc.org.
 xn--mgbaam7a8h.				      172800 IN	NS	nsext-pch.aedns.ae.
 xn--mgbaam7a8h.				      86400 IN NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
+xn--mgbayh7gpa.				      172800 IN	NS	rip.psg.com.
 xn--mgbayh7gpa.				      172800 IN	NS	amra.nic.gov.jo.
 xn--mgbayh7gpa.				      172800 IN	NS	ns-jo.ripe.net.
 xn--mgbayh7gpa.				      172800 IN	NS	petra.nic.gov.jo.
