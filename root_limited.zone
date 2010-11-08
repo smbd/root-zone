@@ -868,7 +868,7 @@ fi.					      172800 IN	NS	f.fi.
 fi.					      172800 IN	NS	g.fi.
 fi.					      172800 IN	NS	h.fi.
 fi.					      172800 IN	NS	i.fi.
-fi.					      86400 IN NSEC	fj. NS RRSIG NSEC
+fi.					      86400 IN NSEC	fj. NS DS RRSIG NSEC
 a.fi.					      172800 IN	A	193.166.4.1
 a.fi.					      172800 IN	AAAA	2001:708:10:53::53
 b.fi.					      172800 IN	A	194.146.106.26
