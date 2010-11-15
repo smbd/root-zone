@@ -170,7 +170,7 @@ asia.					      172800 IN	NS	b0.asia.afilias-nst.asia.
 asia.					      172800 IN	NS	b2.asia.afilias-nst.org.
 asia.					      172800 IN	NS	c0.asia.afilias-nst.info.
 asia.					      172800 IN	NS	d0.asia.afilias-nst.asia.
-asia.					      86400 IN NSEC	at. NS RRSIG NSEC
+asia.					      86400 IN NSEC	at. NS DS RRSIG NSEC
 b0.asia.afilias-nst.asia.		      172800 IN	A	199.254.28.1
 b0.asia.afilias-nst.asia.		      172800 IN	AAAA	2001:500:16::1
 d0.asia.afilias-nst.asia.		      172800 IN	A	199.254.30.1
