@@ -239,7 +239,7 @@ ba.					      172800 IN	NS	munnari.oz.au.
 ba.					      86400 IN NSEC	bb. NS RRSIG NSEC
 sava.utic.net.ba.			      172800 IN	A	195.130.35.3
 ns.ba.					      172800 IN	A	195.130.35.5
-bb.					      172800 IN	NS	ns1.barbadosdomains.net.
+bb.					      172800 IN	NS	ns1.barbadosdomain.net.
 bb.					      172800 IN	NS	ns2.barbadosdomain.net.
 bb.					      86400 IN NSEC	bd. NS RRSIG NSEC
 bd.					      172800 IN	NS	dns.bd.
@@ -1227,7 +1227,7 @@ in.					      172800 IN	NS	b1.in.afilias-nst.in.
 in.					      172800 IN	NS	b2.in.afilias-nst.org.
 in.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 in.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-in.					      86400 IN NSEC	info. NS RRSIG NSEC
+in.					      86400 IN NSEC	info. NS DS RRSIG NSEC
 a1.in.afilias-nst.in.			      172800 IN	A	203.119.49.201
 b1.in.afilias-nst.in.			      172800 IN	A	203.119.50.201
 info.					      172800 IN	NS	a0.info.afilias-nst.info.
@@ -1905,8 +1905,8 @@ ns2.as6453.net.				      172800 IN	A	66.198.145.99
 ns1.asap-asp.net.			      172800 IN	A	195.225.3.100
 ns1.bahnhof.net.			      172800 IN	A	195.178.160.2
 ns2.bahnhof.net.			      172800 IN	A	212.85.64.4
+ns1.barbadosdomain.net.			      172800 IN	A	200.50.92.195
 ns2.barbadosdomain.net.			      172800 IN	A	204.212.242.113
-ns1.barbadosdomains.net.		      172800 IN	A	200.50.92.195
 nsa.cctldmd.net.			      172800 IN	A	217.26.144.5
 ns1.centralnic.net.			      172800 IN	A	89.151.83.36
 ns2.centralnic.net.			      172800 IN	A	72.3.240.16
