@@ -80,9 +80,7 @@ ag.					      172800 IN	NS	b0.cctld.afilias-nst.org.
 ag.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 ag.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 ag.					      172800 IN	NS	d0.cctld.afilias-nst.org.
-ag.					      172800 IN	NS	dns.server.ag.
 ag.					      86400 IN NSEC	ai. NS RRSIG NSEC
-dns.server.ag.				      172800 IN	A	64.239.9.180
 ai.					      172800 IN	NS	ns1.pair.com.
 ai.					      172800 IN	NS	ns2.offshore.ai.
 ai.					      172800 IN	NS	whois.ai.
@@ -2818,7 +2816,6 @@ dns-au.st.				      172800 IN	A	203.19.59.140
 su.					      172800 IN	NS	e.dns.ripn.net.
 su.					      172800 IN	NS	f.dns.ripn.net.
 su.					      172800 IN	NS	ns.ripn.net.
-su.					      172800 IN	NS	ns2.ripn.net.
 su.					      172800 IN	NS	ns5.msk-ix.net.
 su.					      172800 IN	NS	ns9.ripn.net.
 su.					      86400 IN NSEC	sv. NS RRSIG NSEC
