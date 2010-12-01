@@ -1640,7 +1640,7 @@ me.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 me.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 me.					      172800 IN	NS	ns.nic.me.
 me.					      172800 IN	NS	ns2.nic.me.
-me.					      86400 IN NSEC	mg. NS RRSIG NSEC
+me.					      86400 IN NSEC	mg. NS DS RRSIG NSEC
 ns.nic.me.				      172800 IN	A	89.188.44.44
 ns2.nic.me.				      172800 IN	A	89.188.44.88
 mg.					      172800 IN	NS	ns.dts.mg.
@@ -2467,10 +2467,13 @@ pa.					      172800 IN	NS	ns.cr.
 pa.					      172800 IN	NS	ns.pa.
 pa.					      172800 IN	NS	ns.dns.br.
 pa.					      172800 IN	NS	ns.nic.pa.
+pa.					      172800 IN	NS	ns2.pa.
 pa.					      172800 IN	NS	ns-ext.nic.cl.
+pa.					      172800 IN	NS	sns-pb.isc.org.
 pa.					      86400 IN NSEC	pe. NS RRSIG NSEC
 ns.nic.pa.				      172800 IN	A	168.77.8.4
 ns.pa.					      172800 IN	A	168.77.8.2
+ns2.pa.					      172800 IN	A	168.77.8.7
 pe.					      172800 IN	NS	pe1.dnsnode.net.
 pe.					      172800 IN	NS	quipu.rcp.net.pe.
 pe.					      172800 IN	NS	sns-pb.isc.org.
