@@ -153,7 +153,7 @@ arpa.					      172800 IN	NS	i.root-servers.net.
 arpa.					      172800 IN	NS	k.root-servers.net.
 arpa.					      172800 IN	NS	l.root-servers.net.
 arpa.					      172800 IN	NS	m.root-servers.net.
-arpa.					      86400 IN NSEC	as. NS RRSIG NSEC
+arpa.					      86400 IN NSEC	as. NS DS RRSIG NSEC
 as.					      172800 IN	NS	dca.tld.gdns.net.
 as.					      172800 IN	NS	tld1.ultradns.net.
 as.					      172800 IN	NS	tld2.ultradns.net.
@@ -3210,7 +3210,7 @@ wf.					      172800 IN	NS	d.nic.fr.
 wf.					      172800 IN	NS	e.ext.nic.fr.
 wf.					      172800 IN	NS	f.ext.nic.fr.
 wf.					      172800 IN	NS	g.ext.nic.fr.
-wf.					      86400 IN NSEC	ws. NS RRSIG NSEC
+wf.					      86400 IN NSEC	ws. NS DS RRSIG NSEC
 ws.					      172800 IN	NS	ns2.dns.ws.
 ws.					      172800 IN	NS	ns3.dns.ws.
 ws.					      172800 IN	NS	ns4.dns.ws.
