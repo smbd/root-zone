@@ -129,18 +129,15 @@ aq.					      172800 IN	NS	slave1.sth.netnod.se.
 aq.					      172800 IN	NS	sns-pb.isc.org.
 aq.					      86400 IN NSEC	ar. NS RRSIG NSEC
 ns1.dns.aq.				      172800 IN	A	203.119.56.132
-ar.					      172800 IN	NS	ns.uu.net.
-ar.					      172800 IN	NS	ns1.retina.ar.
 ar.					      172800 IN	NS	athea.ar.
 ar.					      172800 IN	NS	ctina.ar.
 ar.					      172800 IN	NS	ns-ar.ripe.net.
 ar.					      172800 IN	NS	merapi.switch.ch.
-ar.					      172800 IN	NS	uucp-gw-1.pa.dec.com.
-ar.					      172800 IN	NS	uucp-gw-2.pa.dec.com.
+ar.					      172800 IN	NS	relay1.mecon.gov.ar.
 ar.					      86400 IN NSEC	arpa. NS RRSIG NSEC
 athea.ar.				      172800 IN	A	200.16.98.2
 ctina.ar.				      172800 IN	A	200.16.97.17
-ns1.retina.ar.				      172800 IN	A	200.10.202.3
+relay1.mecon.gov.ar.			      172800 IN	A	168.101.16.10
 arpa.					      172800 IN	NS	a.root-servers.net.
 arpa.					      172800 IN	NS	b.root-servers.net.
 arpa.					      172800 IN	NS	c.root-servers.net.
@@ -2099,6 +2096,7 @@ ns-al.ripe.net.				      172800 IN	A	193.0.12.3
 ns-al.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:3
 ns-an.ripe.net.				      172800 IN	A	193.0.12.156
 ns-ar.ripe.net.				      172800 IN	A	193.0.12.11
+ns-ar.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:11
 ns-ba.ripe.net.				      172800 IN	A	193.0.12.28
 ns-bg.ripe.net.				      172800 IN	A	193.0.12.34
 ns-bi.ripe.net.				      172800 IN	A	193.0.12.36
