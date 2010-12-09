@@ -654,12 +654,12 @@ cv.					      172800 IN	NS	ns-ext.vix.com.
 cv.					      172800 IN	NS	phobos.fccn.pt.
 cv.					      86400 IN NSEC	cx. NS RRSIG NSEC
 ns.dns.cv.				      172800 IN	A	41.221.192.220
-cx.					      172800 IN	NS	ns.cx-nic.org.nz.
 cx.					      172800 IN	NS	ns.anycast.nic.cx.
 cx.					      172800 IN	NS	cx1.dyntld.net.
 cx.					      172800 IN	NS	cx2.dyntld.net.
 cx.					      172800 IN	NS	cx3.dyntld.net.
 cx.					      172800 IN	NS	cx4.dyntld.net.
+cx.					      172800 IN	NS	nsa.cx.coccaregistry.net.
 cx.					      86400 IN NSEC	cy. NS RRSIG NSEC
 ns.anycast.nic.cx.			      172800 IN	A	204.61.216.16
 cy.					      172800 IN	NS	ns1.mt.
@@ -1383,7 +1383,7 @@ jp.					      172800 IN	NS	d.dns.jp.
 jp.					      172800 IN	NS	e.dns.jp.
 jp.					      172800 IN	NS	f.dns.jp.
 jp.					      172800 IN	NS	g.dns.jp.
-jp.					      86400 IN NSEC	ke. NS RRSIG NSEC
+jp.					      86400 IN NSEC	ke. NS DS RRSIG NSEC
 ns20.iij.ad.jp.				      172800 IN	A	202.232.2.161
 a.dns.jp.				      172800 IN	A	203.119.1.1
 a.dns.jp.				      172800 IN	AAAA	2001:dc4::1
@@ -1876,7 +1876,7 @@ net.					      172800 IN	NS	j.gtld-servers.net.
 net.					      172800 IN	NS	k.gtld-servers.net.
 net.					      172800 IN	NS	l.gtld-servers.net.
 net.					      172800 IN	NS	m.gtld-servers.net.
-net.					      86400 IN NSEC	nf. NS RRSIG NSEC
+net.					      86400 IN NSEC	nf. NS DS RRSIG NSEC
 ns1.aalnet.net.				      172800 IN	A	194.112.0.1
 ns2.aalnet.net.				      172800 IN	A	194.112.0.5
 ns3.aalnet.net.				      172800 IN	A	82.199.186.130
@@ -1916,6 +1916,7 @@ ns.cernet.net.				      172800 IN	A	202.112.0.44
 a.ci-servers.net.			      172800 IN	A	87.117.194.160
 ns1.cobex.net.				      172800 IN	A	216.152.192.71
 ns2.cobex.net.				      172800 IN	A	216.152.192.72
+nsa.cx.coccaregistry.net.		      172800 IN	A	203.119.84.245
 lk.communitydns.net.			      172800 IN	A	194.0.1.27
 ns1.communitydns.net.			      172800 IN	A	194.0.1.1
 ns1.communitydns.net.			      172800 IN	AAAA	2001:678:4::1
@@ -2194,7 +2195,6 @@ f.dns.ripn.net.				      172800 IN	A	193.232.156.17
 f.dns.ripn.net.				      172800 IN	AAAA	2001:678:14:0:193:232:156:17
 ns.ripn.net.				      172800 IN	A	194.85.105.17
 ns.ripn.net.				      172800 IN	AAAA	2001:678:13:0:194:85:105:17
-ns2.ripn.net.				      172800 IN	A	194.226.96.30
 ns9.ripn.net.				      172800 IN	A	194.85.252.62
 ns9.ripn.net.				      172800 IN	AAAA	2001:678:16:0:194:85:252:62
 a.root-servers.net.			      518400 IN	A	198.41.0.4
@@ -2257,12 +2257,10 @@ nf.					      172800 IN	NS	nf1.dyntld.net.
 nf.					      172800 IN	NS	nf2.dyntld.net.
 nf.					      172800 IN	NS	nf3.dyntld.net.
 nf.					      172800 IN	NS	nf4.dyntld.net.
-nf.					      172800 IN	NS	ns1.nf.
-nf.					      172800 IN	NS	ns2.nf.
+nf.					      172800 IN	NS	nsa.nic.nf.
 nf.					      172800 IN	NS	nf-ns.pch.net.
 nf.					      86400 IN NSEC	ng. NS RRSIG NSEC
-ns1.nf.					      172800 IN	A	203.12.249.100
-ns2.nf.					      172800 IN	A	203.119.12.66
+nsa.nic.nf.				      172800 IN	A	203.119.84.239
 ng.					      172800 IN	NS	ns1.nic.net.ng.
 ng.					      172800 IN	NS	ns2.nic.net.ng.
 ng.					      172800 IN	NS	ns3.nic.net.ng.
@@ -2650,7 +2648,6 @@ ru.					      172800 IN	NS	e.dns.ripn.net.
 ru.					      172800 IN	NS	f.dns.ripn.net.
 ru.					      172800 IN	NS	ns.ripn.net.
 ru.					      172800 IN	NS	ns2.nic.fr.
-ru.					      172800 IN	NS	ns2.ripn.net.
 ru.					      172800 IN	NS	ns5.msk-ix.net.
 ru.					      172800 IN	NS	ns9.ripn.net.
 ru.					      86400 IN NSEC	rw. NS RRSIG NSEC
@@ -3325,7 +3322,6 @@ xn--o3cw4h.				      86400 IN NSEC	xn--p1ai. NS RRSIG NSEC
 xn--p1ai.				      172800 IN	NS	e.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	f.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	ns.ripn.net.
-xn--p1ai.				      172800 IN	NS	ns2.ripn.net.
 xn--p1ai.				      172800 IN	NS	ns5.msk-ix.net.
 xn--p1ai.				      172800 IN	NS	ns9.ripn.net.
 xn--p1ai.				      86400 IN NSEC	xn--pgbs0dh. NS RRSIG NSEC
