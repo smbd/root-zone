@@ -1045,7 +1045,7 @@ gr.					      172800 IN	NS	gr-aix.ics.forth.gr.
 gr.					      172800 IN	NS	grdns-at.ics.forth.gr.
 gr.					      172800 IN	NS	grdns-br.ics.forth.gr.
 gr.					      172800 IN	NS	grdns-de.denic.de.
-gr.					      86400 IN NSEC	gs. NS RRSIG NSEC
+gr.					      86400 IN NSEC	gs. NS DS RRSIG NSEC
 estia.ics.forth.gr.			      172800 IN	A	139.91.191.3
 estia.ics.forth.gr.			      172800 IN	AAAA	2001:648:2c30::191:3
 gr-aix.ics.forth.gr.			      172800 IN	A	83.212.8.130
