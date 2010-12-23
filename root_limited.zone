@@ -1773,9 +1773,9 @@ mu.					      172800 IN	NS	udns1.tld.mu.
 mu.					      86400 IN NSEC	museum. NS RRSIG NSEC
 udns1.tld.mu.				      172800 IN	A	204.61.216.10
 museum.					      172800 IN	NS	ns.icann.org.
-museum.					      172800 IN	NS	nic.icom.org.
 museum.					      172800 IN	NS	nic.museum.
 museum.					      172800 IN	NS	ns5.knipp.de.
+museum.					      172800 IN	NS	anyc1.irondns.net.
 museum.					      172800 IN	NS	ns-ext.vix.com.
 museum.					      86400 IN NSEC	mv. NS DS RRSIG NSEC
 nic.museum.				      172800 IN	A	130.242.24.5
@@ -2441,7 +2441,6 @@ c.ci-servers.org.			      172800 IN	A	194.146.106.86
 c.ci-servers.org.			      172800 IN	AAAA	2001:67c:1010:22::53
 ns1.auth.iana.org.			      172800 IN	A	192.0.34.126
 ns.icann.org.				      172800 IN	A	192.0.34.126
-nic.icom.org.				      172800 IN	A	195.7.65.253
 ns-ext.lga1.isc.org.			      172800 IN	A	192.228.91.19
 ns-ext.nrt1.isc.org.			      172800 IN	A	192.228.90.19
 ns-ext.isc.org.				      172800 IN	A	204.152.184.64
