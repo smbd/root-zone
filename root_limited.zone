@@ -2235,7 +2235,7 @@ tld1.ultradns.net.			      172800 IN	A	204.74.112.1
 tld1.ultradns.net.			      172800 IN	AAAA	2001:502:d399::1
 tld2.ultradns.net.			      172800 IN	A	204.74.113.1
 engine1.una.net.			      172800 IN	A	198.93.177.21
-a.usadotgov.net.			      172800 IN	A	74.208.172.129
+a.usadotgov.net.			      172800 IN	A	76.73.18.236
 b.usadotgov.net.			      172800 IN	A	206.204.217.151
 c.usadotgov.net.			      172800 IN	A	69.72.142.35
 d.usadotgov.net.			      172800 IN	A	204.168.112.71
@@ -2613,6 +2613,8 @@ qa.					      86400 IN NSEC	re. NS RRSIG NSEC
 ns1.qatar.net.qa.			      172800 IN	A	212.77.192.10
 ns2.qatar.net.qa.			      172800 IN	A	212.77.192.13
 ns3.qatar.net.qa.			      172800 IN	A	212.77.192.15
+ans0.qaregistry.qa.			      172800 IN	A	178.23.18.5
+ans1.qaregistry.qa.			      172800 IN	A	178.23.18.6
 re.					      172800 IN	NS	a.nic.fr.
 re.					      172800 IN	NS	c.nic.fr.
 re.					      172800 IN	NS	d.ext.nic.fr.
@@ -3332,7 +3334,12 @@ xn--pgbs0dh.				      86400 IN NSEC	xn--wgbh1c. NS RRSIG NSEC
 xn--wgbh1c.				      172800 IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns3.dotmasr.eg.
-xn--wgbh1c.				      86400 IN NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
+xn--wgbh1c.				      86400 IN NSEC	xn--wgbl6a. NS RRSIG NSEC
+xn--wgbl6a.				      172800 IN	NS	ns1.qatar.net.qa.
+xn--wgbl6a.				      172800 IN	NS	ns2.qatar.net.qa.
+xn--wgbl6a.				      172800 IN	NS	ans0.qaregistry.qa.
+xn--wgbl6a.				      172800 IN	NS	ans1.qaregistry.qa.
+xn--wgbl6a.				      86400 IN NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
 xn--xkc2al3hye2a.			      172800 IN	NS	lk.communitydns.net.
 xn--xkc2al3hye2a.			      172800 IN	NS	nic.lk-anycast.pch.net.
 xn--xkc2al3hye2a.			      172800 IN	NS	ns1.ac.lk.
