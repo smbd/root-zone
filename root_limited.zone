@@ -995,14 +995,12 @@ gi.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 gi.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 gi.					      86400 IN NSEC	gl. NS DS RRSIG NSEC
 gl.					      172800 IN	NS	a.nuuk.nic.gl.
-gl.					      172800 IN	NS	b.nic.gl.
 gl.					      172800 IN	NS	d.nic.gl.
 gl.					      172800 IN	NS	gl1.dyntld.net.
 gl.					      172800 IN	NS	gl2.dyntld.net.
 gl.					      172800 IN	NS	gl3.dyntld.net.
 gl.					      172800 IN	NS	gl4.dyntld.net.
 gl.					      86400 IN NSEC	gm. NS RRSIG NSEC
-b.nic.gl.				      172800 IN	A	213.173.243.228
 d.nic.gl.				      172800 IN	A	204.61.216.49
 d.nic.gl.				      172800 IN	AAAA	2001:500:14:6049:ad::1
 a.nuuk.nic.gl.				      172800 IN	A	194.177.224.13
@@ -1058,16 +1056,16 @@ gr-us.ics.forth.gr.			      172800 IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 grdns.ics.forth.gr.			      172800 IN	A	139.91.1.1
 grdns-at.ics.forth.gr.			      172800 IN	A	193.171.255.40
 grdns-br.ics.forth.gr.			      172800 IN	A	200.160.7.163
-gs.					      172800 IN	NS	ns.sydney.cocca.gs.
 gs.					      172800 IN	NS	ns.anycast.nic.gs.
 gs.					      172800 IN	NS	gs1.dyntld.net.
 gs.					      172800 IN	NS	gs2.dyntld.net.
 gs.					      172800 IN	NS	gs3.dyntld.net.
 gs.					      172800 IN	NS	gs4.dyntld.net.
+gs.					      172800 IN	NS	nsa.nic.gs.
 gs.					      172800 IN	NS	ns-gs.ripe.net.
 gs.					      86400 IN NSEC	gt. NS RRSIG NSEC
-ns.sydney.cocca.gs.			      172800 IN	A	203.119.12.244
 ns.anycast.nic.gs.			      172800 IN	A	204.61.216.21
+nsa.nic.gs.				      172800 IN	A	203.119.84.244
 gt.					      172800 IN	NS	ns.dns.br.
 gt.					      172800 IN	NS	ns.uvg.edu.gt.
 gt.					      172800 IN	NS	ns3.nic.mx.
@@ -2120,6 +2118,7 @@ ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-gd.ripe.net.				      172800 IN	A	193.0.12.38
 ns-gp.ripe.net.				      172800 IN	A	193.0.12.90
 ns-gs.ripe.net.				      172800 IN	A	193.0.12.206
+ns-gs.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:206
 ns-gu.ripe.net.				      172800 IN	A	193.0.12.91
 ns-gy.ripe.net.				      172800 IN	A	193.0.12.95
 ns-gy.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:95
