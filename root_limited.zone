@@ -2524,8 +2524,8 @@ pm.					      172800 IN	NS	g.ext.nic.fr.
 pm.					      86400 IN NSEC	pn. NS DS RRSIG NSEC
 pn.					      172800 IN	NS	ns0.pitcairn.net.pn.
 pn.					      172800 IN	NS	ns2.pitcairn.net.pn.
-pn.					      172800 IN	NS	ns-ext.isc.org.
 pn.					      172800 IN	NS	slave1.sth.netnod.se.
+pn.					      172800 IN	NS	sns-pb.isc.org.
 pn.					      86400 IN NSEC	pr. NS RRSIG NSEC
 ns0.pitcairn.net.pn.			      172800 IN	A	173.230.153.180
 ns2.pitcairn.net.pn.			      172800 IN	A	80.68.93.100
