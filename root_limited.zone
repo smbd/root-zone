@@ -1405,7 +1405,7 @@ mzizi.kenic.or.ke.			      172800 IN	A	196.1.4.130
 mzizi.kenic.or.ke.			      172800 IN	A	198.32.67.9
 kg.					      172800 IN	NS	ns.kg.
 kg.					      172800 IN	NS	ns-kg.ripe.net.
-kg.					      86400 IN NSEC	kh. NS RRSIG NSEC
+kg.					      86400 IN NSEC	kh. NS DS RRSIG NSEC
 ns.kg.					      172800 IN	A	195.38.160.36
 kh.					      172800 IN	NS	ns.camnet.com.kh.
 kh.					      172800 IN	NS	ns.telesurf.com.kh.
