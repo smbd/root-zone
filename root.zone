@@ -1,5 +1,5 @@
-.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011012800 1800 900 604800 86400
-.					      86400 IN RRSIG	SOA 8 0 86400 20110204000000 20110127230000 21639 . J/1atUOaFTvlXOL5k2mPmEUgFoRIxQw6vJ4mJisaT1KwsB4yWBa9AWrL KaPf3obRffyyBUb1BW3PmuvmPy6gWuZF7Vj0jNRtojLXYNS15xskgNfQ bBCl8ZzI8cN6KKOG/BPEeOhsvelBpoC2RyQVcQsMxDlBctvPsl69QErQ EXw=
+.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011012801 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20110204000000 20110127230000 21639 . Q0PI03ruxlwl4i9oVWvShVkj2/3NW2bfh2XVe5P0A6AinOaNnCxq0OHz oYDtPoHj0p3d8CGsVXUSwPADiyyDUfs2LJeq40L5t5GpmmswCd72ShvP XmsNYAZi6dh/eeHUOisEe/o4xKbcDokmwFhXTRFM0GG8jnRCB1afRV6S +b4=
 .					      518400 IN	NS	a.root-servers.net.
 .					      518400 IN	NS	b.root-servers.net.
 .					      518400 IN	NS	c.root-servers.net.
@@ -2734,7 +2734,8 @@ b.ci-servers.org.			      172800 IN	A	82.103.139.220
 c.ci-servers.org.			      172800 IN	A	194.146.106.86
 c.ci-servers.org.			      172800 IN	AAAA	2001:67c:1010:22::53
 ns1.auth.iana.org.			      172800 IN	A	192.0.34.126
-ns.icann.org.				      172800 IN	A	192.0.34.126
+ns.icann.org.				      172800 IN	A	199.4.138.53
+ns.icann.org.				      172800 IN	AAAA	2001:500:89::53
 ns-ext.isc.org.				      172800 IN	A	204.152.184.64
 ns-ext.isc.org.				      172800 IN	AAAA	2001:4f8:0:2::13
 sns-pb.isc.org.				      172800 IN	A	192.5.4.1
