@@ -1014,15 +1014,8 @@ gn.					      172800 IN	NS	rip.psg.com.
 gn.					      172800 IN	NS	hippo.ru.ac.za.
 gn.					      172800 IN	NS	sunic.sunet.se.
 gn.					      86400 IN NSEC	gov. NS RRSIG NSEC
-gov.					      172800 IN	NS	a.usadotgov.net.
 gov.					      172800 IN	NS	a.gov-servers.net.
-gov.					      172800 IN	NS	b.usadotgov.net.
 gov.					      172800 IN	NS	b.gov-servers.net.
-gov.					      172800 IN	NS	c.usadotgov.net.
-gov.					      172800 IN	NS	d.usadotgov.net.
-gov.					      172800 IN	NS	e.usadotgov.net.
-gov.					      172800 IN	NS	f.usadotgov.net.
-gov.					      172800 IN	NS	g.usadotgov.net.
 gov.					      86400 IN NSEC	gp. NS DS RRSIG NSEC
 gp.					      172800 IN	NS	ns.pixar.es.
 gp.					      172800 IN	NS	ns1.nic.gp.
@@ -2237,13 +2230,6 @@ tld1.ultradns.net.			      172800 IN	A	204.74.112.1
 tld1.ultradns.net.			      172800 IN	AAAA	2001:502:d399::1
 tld2.ultradns.net.			      172800 IN	A	204.74.113.1
 engine1.una.net.			      172800 IN	A	198.93.177.21
-a.usadotgov.net.			      172800 IN	A	76.73.18.236
-b.usadotgov.net.			      172800 IN	A	206.204.217.151
-c.usadotgov.net.			      172800 IN	A	69.72.142.35
-d.usadotgov.net.			      172800 IN	A	204.168.112.71
-e.usadotgov.net.			      172800 IN	A	213.165.80.240
-f.usadotgov.net.			      172800 IN	A	66.207.175.172
-g.usadotgov.net.			      172800 IN	A	64.62.200.134
 ns.uu.net.				      172800 IN	A	137.39.1.3
 auth00.ns.uu.net.			      172800 IN	A	198.6.1.65
 auth02.ns.uu.net.			      172800 IN	A	198.6.1.82
