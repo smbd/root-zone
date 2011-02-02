@@ -97,10 +97,11 @@ al.					      86400 IN NSEC	am. NS RRSIG NSEC
 ns1.nic.al.				      172800 IN	A	194.1.149.230
 am.					      172800 IN	NS	rip.psg.com.
 am.					      172800 IN	NS	fork.sth.dnsnode.net.
+am.					      172800 IN	NS	ns-am.ripe.net.
 am.					      172800 IN	NS	ns-cdn.amnic.net.
 am.					      172800 IN	NS	ns-pri.amnic.net.
 am.					      172800 IN	NS	sns-pb.isc.org.
-am.					      86400 IN NSEC	an. NS RRSIG NSEC
+am.					      86400 IN NSEC	an. NS DS RRSIG NSEC
 an.					      172800 IN	NS	ns0.ja.net.
 an.					      172800 IN	NS	ns3.cura.net.
 an.					      172800 IN	NS	ns-an.ripe.net.
@@ -416,7 +417,6 @@ bz.					      86400 IN NSEC	ca. NS DS RRSIG NSEC
 ca.					      172800 IN	NS	a.ca-servers.ca.
 ca.					      172800 IN	NS	b.ca-servers.ca.
 ca.					      172800 IN	NS	c.ca-servers.ca.
-ca.					      172800 IN	NS	d.ca-servers.ca.
 ca.					      172800 IN	NS	e.ca-servers.ca.
 ca.					      172800 IN	NS	f.ca-servers.ca.
 ca.					      172800 IN	NS	j.ca-servers.ca.
@@ -428,7 +428,6 @@ ca.					      86400 IN NSEC	cat. NS RRSIG NSEC
 a.ca-servers.ca.			      172800 IN	A	192.228.27.11
 b.ca-servers.ca.			      172800 IN	A	192.228.25.45
 c.ca-servers.ca.			      172800 IN	A	192.228.28.9
-d.ca-servers.ca.			      172800 IN	A	129.33.164.73
 e.ca-servers.ca.			      172800 IN	A	192.228.30.9
 f.ca-servers.ca.			      172800 IN	A	199.4.28.220
 j.ca-servers.ca.			      172800 IN	A	198.182.167.1
@@ -759,6 +758,7 @@ ec.					      172800 IN	NS	dns1.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
 ec.					      172800 IN	NS	dns3.nic.ec.
 ec.					      172800 IN	NS	dns4.nic.ec.
+ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
 dns1.nic.ec.				      172800 IN	A	157.100.1.44
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
@@ -2092,6 +2092,8 @@ ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.				      172800 IN	A	193.0.12.3
 ns-al.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:3
+ns-am.ripe.net.				      172800 IN	A	193.0.12.12
+ns-am.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:12
 ns-an.ripe.net.				      172800 IN	A	193.0.12.156
 ns-ar.ripe.net.				      172800 IN	A	193.0.12.11
 ns-ar.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:11
