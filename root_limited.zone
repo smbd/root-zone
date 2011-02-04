@@ -2428,7 +2428,6 @@ d0.org.afilias-nst.org.			      172800 IN	AAAA	2001:500:f::1
 b.ci-servers.org.			      172800 IN	A	82.103.139.220
 c.ci-servers.org.			      172800 IN	A	194.146.106.86
 c.ci-servers.org.			      172800 IN	AAAA	2001:67c:1010:22::53
-ns1.auth.iana.org.			      172800 IN	A	192.0.34.126
 ns.icann.org.				      172800 IN	A	199.4.138.53
 ns.icann.org.				      172800 IN	AAAA	2001:500:89::53
 ns-ext.isc.org.				      172800 IN	A	204.152.184.64
@@ -3059,7 +3058,7 @@ pch.ns.ua.				      172800 IN	A	204.61.216.12
 pch.ns.ua.				      172800 IN	AAAA	2001:500:14:6012:ad::1
 ya1.ns.ua.				      172800 IN	A	77.88.210.88
 ya1.ns.ua.				      172800 IN	AAAA	2a01:758:ffff::88
-ug.					      172800 IN	NS	ns1.auth.iana.org.
+ug.					      172800 IN	NS	ns.icann.org.
 ug.					      172800 IN	NS	web.eahd.or.ug.
 ug.					      172800 IN	NS	demon.mtn.co.ug.
 ug.					      172800 IN	NS	ns-ug.ripe.net.
