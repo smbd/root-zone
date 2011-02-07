@@ -1,5 +1,5 @@
-.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011020800 1800 900 604800 86400
-.					      86400 IN RRSIG	SOA 8 0 86400 20110215000000 20110207230000 21639 . LmsBRWSfqo+PSd0n68KZsL7AqGax+VEr5sjsUytZPxW/4zRYJ5r2EgPW JH0ktu2G4BttdgpUm/5dRtmazaVHjBv//bXQvLG+N+E2nODhCjaDylXF VdnWUYUDSORjciuqVztUnCmB74q8lzAzCP8VxN/6vY+pyj+zZppmeYmX Dew=
+.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011020801 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20110215000000 20110207230000 21639 . vlmHQtMDa9lxB7yWExIOvK4RU/1bofBVqs/k/59KABHCCNyjF1SRyBtC m4JvgilaxIGqwDWKMhHNqbK3hZGSVDPN4wS/GC7g/nrkzll8TvWYg3GP e9lOvtMRFDbI1bm3ZyhhHWRZhBkC/ZQ4HeCaLwewbACBMJYQNWXkvA6t wow=
 .					      518400 IN	NS	a.root-servers.net.
 .					      518400 IN	NS	b.root-servers.net.
 .					      518400 IN	NS	c.root-servers.net.
@@ -245,7 +245,6 @@ ns2.audns.net.au.			      172800 IN	A	58.65.249.73
 ns3.audns.net.au.			      172800 IN	A	58.65.251.73
 ns4.audns.net.au.			      172800 IN	A	58.65.250.73
 o.audns.net.au.				      172800 IN	A	211.29.133.32
-dns3.sb.cocca.org.au.			      172800 IN	A	203.119.12.243
 munnari.oz.au.				      172800 IN	A	202.29.151.3
 aw.					      172800 IN	NS	ns1.setarnet.aw.
 aw.					      172800 IN	NS	ns2.setarnet.aw.
@@ -2347,6 +2346,7 @@ ps-ns.anycast.pch.net.			      172800 IN	A	204.61.216.29
 sa-ns.anycast.pch.net.			      172800 IN	A	204.61.216.41
 sa-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6041:ad::1
 sb-ns.anycast.pch.net.			      172800 IN	A	204.61.216.31
+sb-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6031:ad::1
 sg-ns.anycast.pch.net.			      172800 IN	A	204.61.216.57
 sg-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6057:ad::1
 za-ns.anycast.pch.net.			      172800 IN	A	204.61.216.55
@@ -2997,16 +2997,15 @@ ns1.nic.net.sa.				      172800 IN	A	86.111.192.9
 ns1.nic.net.sa.				      172800 IN	AAAA	2001:67c:130:410::9
 ns2.nic.net.sa.				      172800 IN	A	86.111.196.9
 ns2.nic.net.sa.				      172800 IN	AAAA	2001:67c:130:10::9
+sb.					      172800 IN	NS	nsa.nic.sb.
 sb.					      172800 IN	NS	sb1.dyntld.net.
 sb.					      172800 IN	NS	sb2.dyntld.net.
 sb.					      172800 IN	NS	sb3.dyntld.net.
 sb.					      172800 IN	NS	sb4.dyntld.net.
-sb.					      172800 IN	NS	dns1.telekom.net.sb.
-sb.					      172800 IN	NS	dns3.sb.cocca.org.au.
 sb.					      172800 IN	NS	sb-ns.anycast.pch.net.
 sb.					      86400 IN NSEC	sc. NS RRSIG NSEC
 sb.					      86400 IN RRSIG	NSEC 8 1 86400 20110215000000 20110207230000 21639 . FKJnPLGKEgb0qaDouSNWm3qQv1YQpRqOKEI+mq/PFYi/+lyVk949f7Rc fQXnBee4rulg8+TqP6Bh8TARPB0ypoyjpE7I9c2BXe8I/i2OHyiNglDD lE9gSeqTLOKZxMAWcBB167iD2G5KD+O8OSiILZduMIkjaKH/ckuAiwVo v6w=
-dns1.telekom.net.sb.			      172800 IN	A	202.1.169.15
+nsa.nic.sb.				      172800 IN	A	203.119.84.243
 sc.					      172800 IN	NS	a0.cctld.afilias-nst.info.
 sc.					      172800 IN	NS	a2.cctld.afilias-nst.info.
 sc.					      172800 IN	NS	b0.cctld.afilias-nst.org.
@@ -3670,8 +3669,14 @@ xn--9t4b11yi5a.				      172800 IN	NS	c.iana-servers.net.
 xn--9t4b11yi5a.				      86400 IN DS	56231 8 1 94346154CF33613B7D50F0B97790FE0E0D61B33A
 xn--9t4b11yi5a.				      86400 IN DS	56231 8 2 BEE4A7A77CB1FB609777B25D2754815A274452CFD99618D8F3270556 D42EA897
 xn--9t4b11yi5a.				      86400 IN RRSIG	DS 8 1 86400 20110215000000 20110207230000 21639 . l/3Xeq+CqXR6y449UBzH4wy+XHisv+Vty4Wma3QkjFt7ldIrW44ookM7 unw9G4yRXI/+bGVHv9DRSAkL5KHYyomlZ8KvSz+TTjX1f+bDh5ki1rCa /FIQFh+KVA0sQ+p/VprApt5o+SqG2gkyWNFJpspzG+UIR2ZgouGQSlKj Q/4=
-xn--9t4b11yi5a.				      86400 IN NSEC	xn--deba0ad. NS DS RRSIG NSEC
-xn--9t4b11yi5a.				      86400 IN RRSIG	NSEC 8 1 86400 20110215000000 20110207230000 21639 . dZ38Z+ecsl3Tf6o4T/OKIdwL75wCoqCj1LYHV1Cxx5knRLeo3m3nmP49 KItuxYML4buu8eEYEkK7QqRt8USYJM6ow7OgycinKdv4Yrgy3+zod0rN +3LeUS/VvQ7Li3T48SXMTURl8BlIprwJ3AOVUaIMmyAnTkVj9Cr49Sqq t1g=
+xn--9t4b11yi5a.				      86400 IN NSEC	xn--clchc0ea0b2g2a9gcd. NS DS RRSIG NSEC
+xn--9t4b11yi5a.				      86400 IN RRSIG	NSEC 8 1 86400 20110215000000 20110207230000 21639 . u91TprJLMGstjYcg3c+4TtViDdveKaMIIy/cvLdYhwEYO8iaO+VUi5iZ SZ7iBj0C1tox4SAxHGeD9bGNqc1L7RBj2Yh7KKlxsYRxgwXOM8TXOgFd rP0IFY3K5n4NTjCoK0tGf4dH4e1Hu+x6eadYvWG5y+ZgEN39WgPvDv0q HSA=
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	ns2.cuhk.edu.hk.
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	sec3.apnic.net.
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	dsany.sgnic.sg.
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	sg-ns.anycast.pch.net.
+xn--clchc0ea0b2g2a9gcd.			      86400 IN NSEC	xn--deba0ad. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.			      86400 IN RRSIG	NSEC 8 1 86400 20110215000000 20110207230000 21639 . sKgAmYpsigLXh4v1Vy6We+1/S93bP38HmpEKH38CEcgxpE+wn8S6CyC+ 4vLD1lZKvm3//zFG1RaGt7Q55B+TvKXBYT9ZvQ6FYw5FQ5gQqwLuYUGP 0Fu34mHFkhA27esje49l1OcDWvU2YKzQg/ItC0szjVqrwKD9M9zcbTsH tCc=
 xn--deba0ad.				      172800 IN	NS	a.iana-servers.net.
 xn--deba0ad.				      172800 IN	NS	b.iana-servers.net.
 xn--deba0ad.				      172800 IN	NS	c.iana-servers.net.

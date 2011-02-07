@@ -211,7 +211,6 @@ ns2.audns.net.au.			      172800 IN	A	58.65.249.73
 ns3.audns.net.au.			      172800 IN	A	58.65.251.73
 ns4.audns.net.au.			      172800 IN	A	58.65.250.73
 o.audns.net.au.				      172800 IN	A	211.29.133.32
-dns3.sb.cocca.org.au.			      172800 IN	A	203.119.12.243
 munnari.oz.au.				      172800 IN	A	202.29.151.3
 aw.					      172800 IN	NS	ns1.setarnet.aw.
 aw.					      172800 IN	NS	ns2.setarnet.aw.
@@ -2067,6 +2066,7 @@ ps-ns.anycast.pch.net.			      172800 IN	A	204.61.216.29
 sa-ns.anycast.pch.net.			      172800 IN	A	204.61.216.41
 sa-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6041:ad::1
 sb-ns.anycast.pch.net.			      172800 IN	A	204.61.216.31
+sb-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6031:ad::1
 sg-ns.anycast.pch.net.			      172800 IN	A	204.61.216.57
 sg-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6057:ad::1
 za-ns.anycast.pch.net.			      172800 IN	A	204.61.216.55
@@ -2668,15 +2668,14 @@ ns1.nic.net.sa.				      172800 IN	A	86.111.192.9
 ns1.nic.net.sa.				      172800 IN	AAAA	2001:67c:130:410::9
 ns2.nic.net.sa.				      172800 IN	A	86.111.196.9
 ns2.nic.net.sa.				      172800 IN	AAAA	2001:67c:130:10::9
+sb.					      172800 IN	NS	nsa.nic.sb.
 sb.					      172800 IN	NS	sb1.dyntld.net.
 sb.					      172800 IN	NS	sb2.dyntld.net.
 sb.					      172800 IN	NS	sb3.dyntld.net.
 sb.					      172800 IN	NS	sb4.dyntld.net.
-sb.					      172800 IN	NS	dns1.telekom.net.sb.
-sb.					      172800 IN	NS	dns3.sb.cocca.org.au.
 sb.					      172800 IN	NS	sb-ns.anycast.pch.net.
 sb.					      86400 IN NSEC	sc. NS RRSIG NSEC
-dns1.telekom.net.sb.			      172800 IN	A	202.1.169.15
+nsa.nic.sb.				      172800 IN	A	203.119.84.243
 sc.					      172800 IN	NS	a0.cctld.afilias-nst.info.
 sc.					      172800 IN	NS	a2.cctld.afilias-nst.info.
 sc.					      172800 IN	NS	b0.cctld.afilias-nst.org.
@@ -3250,7 +3249,12 @@ xn--80akhbyknj4f.			      86400 IN NSEC	xn--9t4b11yi5a. NS DS RRSIG NSEC
 xn--9t4b11yi5a.				      172800 IN	NS	a.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	b.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	c.iana-servers.net.
-xn--9t4b11yi5a.				      86400 IN NSEC	xn--deba0ad. NS DS RRSIG NSEC
+xn--9t4b11yi5a.				      86400 IN NSEC	xn--clchc0ea0b2g2a9gcd. NS DS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	ns2.cuhk.edu.hk.
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	sec3.apnic.net.
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	dsany.sgnic.sg.
+xn--clchc0ea0b2g2a9gcd.			      172800 IN	NS	sg-ns.anycast.pch.net.
+xn--clchc0ea0b2g2a9gcd.			      86400 IN NSEC	xn--deba0ad. NS RRSIG NSEC
 xn--deba0ad.				      172800 IN	NS	a.iana-servers.net.
 xn--deba0ad.				      172800 IN	NS	b.iana-servers.net.
 xn--deba0ad.				      172800 IN	NS	c.iana-servers.net.
