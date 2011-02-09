@@ -914,6 +914,7 @@ fr.					      172800 IN	NS	f.ext.nic.fr.
 fr.					      172800 IN	NS	g.ext.nic.fr.
 fr.					      86400 IN NSEC	ga. NS DS RRSIG NSEC
 dns.inria.fr.				      172800 IN	A	193.51.208.13
+censvrns0001.ird.fr.			      172800 IN	A	91.203.32.147
 ns1.ird.fr.				      172800 IN	A	193.50.53.3
 a.nic.fr.				      172800 IN	A	192.93.0.129
 a.nic.fr.				      172800 IN	AAAA	2001:660:3005:3::1:1
@@ -1736,8 +1737,8 @@ mq.					      172800 IN	NS	manta.outremer.com.
 mq.					      172800 IN	NS	biguine.mediaserv.net.
 mq.					      86400 IN NSEC	mr. NS RRSIG NSEC
 mr.					      172800 IN	NS	ns.univ-nkc.mr.
-mr.					      172800 IN	NS	ns1.ird.fr.
 mr.					      172800 IN	NS	ns3.nic.fr.
+mr.					      172800 IN	NS	censvrns0001.ird.fr.
 mr.					      86400 IN NSEC	ms. NS RRSIG NSEC
 ns.univ-nkc.mr.				      172800 IN	A	82.151.64.1
 ms.					      172800 IN	NS	ms1.dyntld.net.
