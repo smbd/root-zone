@@ -305,16 +305,21 @@ biz.					      172800 IN	NS	e.gtld.biz.
 biz.					      172800 IN	NS	f.gtld.biz.
 biz.					      172800 IN	NS	g.gtld.biz.
 biz.					      172800 IN	NS	h.gtld.biz.
+biz.					      172800 IN	NS	k.gtld.biz.
 biz.					      86400 IN NSEC	bj. NS DS RRSIG NSEC
 a.gtld.biz.				      172800 IN	A	156.154.124.65
+a.gtld.biz.				      172800 IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 b.gtld.biz.				      172800 IN	A	156.154.125.65
 c.gtld.biz.				      172800 IN	A	156.154.127.65
 e.gtld.biz.				      172800 IN	A	156.154.126.65
 f.gtld.biz.				      172800 IN	A	209.173.58.66
+f.gtld.biz.				      172800 IN	AAAA	2001:500:3682::12
 g.gtld.biz.				      172800 IN	A	199.7.64.126
 g.gtld.biz.				      172800 IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 h.gtld.biz.				      172800 IN	A	199.7.77.126
 h.gtld.biz.				      172800 IN	AAAA	2001:503:8028:ffff:ffff:ffff:ffff:ff7e
+k.gtld.biz.				      172800 IN	A	156.154.128.65
+k.gtld.biz.				      172800 IN	AAAA	2001:503:e239::3:2
 bj.					      172800 IN	NS	bow.rain.fr.
 bj.					      172800 IN	NS	ns1.intnet.bj.
 bj.					      172800 IN	NS	ns-bj.ripe.net.
@@ -994,12 +999,14 @@ gi.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 gi.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 gi.					      86400 IN NSEC	gl. NS DS RRSIG NSEC
 gl.					      172800 IN	NS	a.nuuk.nic.gl.
+gl.					      172800 IN	NS	b.nic.gl.
 gl.					      172800 IN	NS	d.nic.gl.
 gl.					      172800 IN	NS	gl1.dyntld.net.
 gl.					      172800 IN	NS	gl2.dyntld.net.
 gl.					      172800 IN	NS	gl3.dyntld.net.
 gl.					      172800 IN	NS	gl4.dyntld.net.
 gl.					      86400 IN NSEC	gm. NS RRSIG NSEC
+b.nic.gl.				      172800 IN	A	91.221.196.228
 d.nic.gl.				      172800 IN	A	204.61.216.49
 d.nic.gl.				      172800 IN	AAAA	2001:500:14:6049:ad::1
 a.nuuk.nic.gl.				      172800 IN	A	194.177.224.13
@@ -3099,13 +3106,19 @@ nsd.nic.uk.				      172800 IN	A	156.154.103.3
 us.					      172800 IN	NS	a.cctld.us.
 us.					      172800 IN	NS	b.cctld.us.
 us.					      172800 IN	NS	c.cctld.us.
+us.					      172800 IN	NS	e.cctld.us.
+us.					      172800 IN	NS	f.cctld.us.
 us.					      172800 IN	NS	i.cctld.us.
 us.					      172800 IN	NS	j.cctld.us.
 us.					      172800 IN	NS	k.cctld.us.
 us.					      86400 IN NSEC	uy. NS DS RRSIG NSEC
 a.cctld.us.				      172800 IN	A	156.154.124.70
 b.cctld.us.				      172800 IN	A	156.154.125.70
+b.cctld.us.				      172800 IN	AAAA	2001:503:d1ae:ffff:ffff:ffff:ffff:ff7e
 c.cctld.us.				      172800 IN	A	156.154.127.70
+e.cctld.us.				      172800 IN	A	156.154.126.70
+f.cctld.us.				      172800 IN	A	209.173.58.70
+f.cctld.us.				      172800 IN	AAAA	2001:500:3682::11
 i.cctld.us.				      172800 IN	A	156.154.96.126
 i.cctld.us.				      172800 IN	AAAA	2001:503:d1ae:ffff:ffff:ffff:ffff:ff7e
 j.cctld.us.				      172800 IN	AAAA	2001:503:a124:ffff:ffff:ffff:ffff:ff7e
