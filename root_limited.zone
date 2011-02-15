@@ -419,7 +419,6 @@ bz.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 bz.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 bz.					      86400 IN NSEC	ca. NS DS RRSIG NSEC
 ca.					      172800 IN	NS	a.ca-servers.ca.
-ca.					      172800 IN	NS	b.ca-servers.ca.
 ca.					      172800 IN	NS	c.ca-servers.ca.
 ca.					      172800 IN	NS	e.ca-servers.ca.
 ca.					      172800 IN	NS	f.ca-servers.ca.
@@ -427,10 +426,10 @@ ca.					      172800 IN	NS	j.ca-servers.ca.
 ca.					      172800 IN	NS	k.ca-servers.ca.
 ca.					      172800 IN	NS	l.ca-servers.ca.
 ca.					      172800 IN	NS	m.ca-servers.ca.
+ca.					      172800 IN	NS	z.ca-servers.ca.
 ca.					      172800 IN	NS	sns-pb.isc.org.
 ca.					      86400 IN NSEC	cat. NS RRSIG NSEC
 a.ca-servers.ca.			      172800 IN	A	192.228.27.11
-b.ca-servers.ca.			      172800 IN	A	192.228.25.45
 c.ca-servers.ca.			      172800 IN	A	192.228.28.9
 e.ca-servers.ca.			      172800 IN	A	192.228.30.9
 f.ca-servers.ca.			      172800 IN	A	199.4.28.220
@@ -439,6 +438,7 @@ j.ca-servers.ca.			      172800 IN	AAAA	2001:500:83::1
 k.ca-servers.ca.			      172800 IN	A	156.154.100.4
 l.ca-servers.ca.			      172800 IN	A	156.154.101.4
 m.ca-servers.ca.			      172800 IN	A	156.154.102.4
+z.ca-servers.ca.			      172800 IN	A	192.228.25.66
 charles.cdec.polymtl.ca.		      172800 IN	A	132.207.144.2
 cat.					      172800 IN	NS	b.nic.ch.
 cat.					      172800 IN	NS	ns.nic.cat.
