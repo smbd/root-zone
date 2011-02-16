@@ -1889,6 +1889,8 @@ ns1.admin.net.				      172800 IN	A	198.73.186.1
 ns2.admin.net.				      172800 IN	A	67.202.107.93
 ns3.admin.net.				      172800 IN	A	87.98.180.44
 ns4.admin.net.				      172800 IN	A	202.190.180.244
+ns2.afrinic.net.			      172800 IN	A	196.216.168.10
+ns2.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::10
 dns2.gt.amnetdatos.net.			      172800 IN	A	200.30.145.4
 ns-cdn.amnic.net.			      172800 IN	A	194.0.1.26
 ns-cdn.amnic.net.			      172800 IN	AAAA	2001:678:4::1a
@@ -3040,6 +3042,7 @@ g.dns.tw.				      172800 IN	A	220.229.225.195
 h.dns.tw.				      172800 IN	A	203.119.3.1
 tz.					      172800 IN	NS	d.ext.nic.cz.
 tz.					      172800 IN	NS	ns2.tznic.or.tz.
+tz.					      172800 IN	NS	ns2.afrinic.net.
 tz.					      172800 IN	NS	rip.psg.com.
 tz.					      172800 IN	NS	sunic.sunet.se.
 tz.					      172800 IN	NS	sns-pb.isc.org.
