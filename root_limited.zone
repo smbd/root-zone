@@ -459,9 +459,10 @@ cc.					      172800 IN	NS	g5.nstld.com.
 cc.					      172800 IN	NS	h5.nstld.com.
 cc.					      172800 IN	NS	l5.nstld.com.
 cc.					      86400 IN NSEC	cd. NS RRSIG NSEC
-cd.					      172800 IN	NS	dns.dnsafrica.net.
 cd.					      172800 IN	NS	dns.princeton.edu.
+cd.					      172800 IN	NS	igubu.saix.net.
 cd.					      172800 IN	NS	sunic.sunet.se.
+cd.					      172800 IN	NS	sabela.saix.net.
 cd.					      86400 IN NSEC	cf. NS RRSIG NSEC
 cf.					      172800 IN	NS	bow.intnet.cf.
 cf.					      172800 IN	NS	rip.psg.com.
@@ -2031,7 +2032,8 @@ k.gtld-servers.net.			      172800 IN	A	192.52.178.30
 l.gtld-servers.net.			      172800 IN	A	192.41.162.30
 m.gtld-servers.net.			      172800 IN	A	192.55.83.30
 osi2.gua.net.				      172800 IN	A	205.161.188.3
-a.iana-servers.net.			      172800 IN	A	192.0.34.43
+a.iana-servers.net.			      172800 IN	A	199.43.132.53
+a.iana-servers.net.			      172800 IN	AAAA	2001:500:8c::53
 b.iana-servers.net.			      172800 IN	A	193.0.0.236
 b.iana-servers.net.			      172800 IN	AAAA	2001:610:240:2::c100:ec
 c.iana-servers.net.			      172800 IN	A	139.91.1.10
@@ -2227,6 +2229,8 @@ l.root-servers.net.			      518400 IN	AAAA	2001:500:3::42
 m.root-servers.net.			      518400 IN	A	202.12.27.33
 m.root-servers.net.			      518400 IN	AAAA	2001:dc3::35
 ns.ru.net.				      172800 IN	A	193.124.22.65
+igubu.saix.net.				      172800 IN	A	196.25.1.1
+sabela.saix.net.			      172800 IN	A	196.43.1.9
 ns02.savvis.net.			      172800 IN	A	204.70.57.242
 ns1-auth.sprintlink.net.		      172800 IN	A	206.228.179.10
 ns3-auth.sprintlink.net.		      172800 IN	A	144.228.255.10
