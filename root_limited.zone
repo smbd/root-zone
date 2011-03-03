@@ -507,14 +507,14 @@ parau.oyster.net.ck.			      172800 IN	A	202.65.32.128
 poiparau.oyster.net.ck.			      172800 IN	A	202.65.32.127
 cl.					      172800 IN	NS	a.nic.cl.
 cl.					      172800 IN	NS	b.nic.cl.
-cl.					      172800 IN	NS	ns.nic.cl.
+cl.					      172800 IN	NS	c.nic.cl.
 cl.					      172800 IN	NS	cl1.dnsnode.net.
 cl.					      172800 IN	NS	cl-ns.anycast.pch.net.
 cl.					      172800 IN	NS	sns-pb.isc.org.
 cl.					      86400 IN NSEC	cm. NS RRSIG NSEC
 a.nic.cl.				      172800 IN	A	200.1.121.10
 b.nic.cl.				      172800 IN	A	200.7.4.7
-ns.nic.cl.				      172800 IN	A	200.1.123.4
+c.nic.cl.				      172800 IN	A	200.16.112.16
 ns-ext.nic.cl.				      172800 IN	A	200.1.123.14
 cm.					      172800 IN	NS	ns.itu.ch.
 cm.					      172800 IN	NS	ns.ripe.net.
