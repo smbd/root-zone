@@ -1707,6 +1707,10 @@ ns1.magic.mn.				      172800 IN	A	202.131.0.10
 ns2.magic.mn.				      172800 IN	A	202.72.241.5
 ns3.magic.mn.				      172800 IN	A	202.131.224.80
 ns4.magic.mn.				      172800 IN	A	202.55.176.12
+mo.					      172800 IN	NS	a.monic.mo.
+mo.					      172800 IN	NS	b.monic.mo.
+mo.					      172800 IN	NS	c.monic.mo.
+mo.					      172800 IN	NS	d.monic.mo.
 mo.					      172800 IN	NS	ns2.cuhk.edu.hk.
 mo.					      172800 IN	NS	umacsn1.umac.mo.
 mo.					      172800 IN	NS	umacsn2.umac.mo.
@@ -1714,6 +1718,10 @@ mo.					      172800 IN	NS	umacss1.umac.mo.
 mo.					      172800 IN	NS	umacss2.umac.mo.
 mo.					      172800 IN	NS	umacss3.umac.mo.
 mo.					      86400 IN NSEC	mobi. NS RRSIG NSEC
+a.monic.mo.				      172800 IN	A	202.175.87.47
+b.monic.mo.				      172800 IN	A	202.175.87.48
+c.monic.mo.				      172800 IN	A	202.175.87.49
+d.monic.mo.				      172800 IN	A	202.175.51.115
 umacsn1.umac.mo.			      172800 IN	A	161.64.3.1
 umacsn2.umac.mo.			      172800 IN	A	161.64.3.2
 umacss1.umac.mo.			      172800 IN	A	161.64.7.1
