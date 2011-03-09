@@ -1572,7 +1572,7 @@ lu.					      172800 IN	NS	k.dns.lu.
 lu.					      172800 IN	NS	ns1.dns.lu.
 lu.					      172800 IN	NS	ns5.dns.lu.
 lu.					      172800 IN	NS	merapi.switch.ch.
-lu.					      86400 IN NSEC	lv. NS RRSIG NSEC
+lu.					      86400 IN NSEC	lv. NS DS RRSIG NSEC
 a.dns.lu.				      172800 IN	A	156.154.100.11
 a.dns.lu.				      172800 IN	AAAA	2001:502:ad09::11
 b.dns.lu.				      172800 IN	A	156.154.101.11
