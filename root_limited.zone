@@ -589,6 +589,7 @@ ns1.iafrica.com.			      172800 IN	A	196.7.0.139
 ns3.iafrica.com.			      172800 IN	A	196.7.0.137
 hoppy.iom.com.				      172800 IN	A	217.23.163.140
 pebbles.iom.com.			      172800 IN	A	80.168.83.242
+tld.isc-sns.com.			      172800 IN	A	38.103.2.3
 ns-mg.malagasy.com.			      172800 IN	A	87.98.132.231
 ns1.neoip.com.				      172800 IN	A	212.150.236.206
 ns2.neoip.com.				      172800 IN	A	208.109.17.150
@@ -630,14 +631,16 @@ coop.					      172800 IN	NS	coop3.dyntld.net.
 coop.					      172800 IN	NS	coop4.dyntld.net.
 coop.					      86400 IN NSEC	cr. NS RRSIG NSEC
 cr.					      172800 IN	NS	ns.cr.
-cr.					      172800 IN	NS	ns.ucr.ac.cr.
+cr.					      172800 IN	NS	ns.ucr.cr.
 cr.					      172800 IN	NS	ns3.nic.mx.
+cr.					      172800 IN	NS	tld.isc-sns.com.
+cr.					      172800 IN	NS	tld.isc-sns.net.
+cr.					      172800 IN	NS	tld.isc-sns.info.
 cr.					      172800 IN	NS	ns-cr.ripe.net.
-cr.					      172800 IN	NS	ns1-auth.sprintlink.net.
-cr.					      172800 IN	NS	ns3-auth.sprintlink.net.
+cr.					      172800 IN	NS	ns-ext.nic.cl.
 cr.					      86400 IN NSEC	cu. NS RRSIG NSEC
-ns.ucr.ac.cr.				      172800 IN	A	163.178.88.2
 ns.cr.					      172800 IN	A	163.178.8.2
+ns.ucr.cr.				      172800 IN	A	163.178.8.3
 cu.					      172800 IN	NS	ns.ceniai.net.cu.
 cu.					      172800 IN	NS	ns1.gip.net.
 cu.					      172800 IN	NS	ns2.gip.net.
@@ -1271,6 +1274,8 @@ a2.org.afilias-nst.info.		      172800 IN	A	199.249.112.1
 a2.org.afilias-nst.info.		      172800 IN	AAAA	2001:500:40::1
 c0.org.afilias-nst.info.		      172800 IN	A	199.19.53.1
 c0.org.afilias-nst.info.		      172800 IN	AAAA	2001:500:b::1
+tld.isc-sns.info.			      172800 IN	A	72.52.71.3
+tld.isc-sns.info.			      172800 IN	AAAA	2001:470:1a::3
 tld5.ultradns.info.			      172800 IN	A	192.100.59.11
 int.					      172800 IN	NS	ns.uu.net.
 int.					      172800 IN	NS	ns.icann.org.
@@ -2043,6 +2048,8 @@ c.iana-servers.net.			      172800 IN	A	139.91.1.10
 c.iana-servers.net.			      172800 IN	AAAA	2001:648:2c30::1:10
 anyc1.irondns.net.			      172800 IN	A	195.253.64.4
 anyc1.irondns.net.			      172800 IN	AAAA	2a01:5b0:4::4
+tld.isc-sns.net.			      172800 IN	A	63.243.194.3
+tld.isc-sns.net.			      172800 IN	AAAA	2001:5a0:10::3
 ns0.ja.net.				      172800 IN	A	128.86.1.20
 ns0.ja.net.				      172800 IN	A	193.63.94.20
 ns0.ja.net.				      172800 IN	AAAA	2001:630:0:8::14
@@ -2124,6 +2131,7 @@ ns-by.ripe.net.				      172800 IN	A	193.0.12.21
 ns-ci.ripe.net.				      172800 IN	A	193.0.12.56
 ns-ci.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:56
 ns-cr.ripe.net.				      172800 IN	A	193.0.12.55
+ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-cu.ripe.net.				      172800 IN	A	193.0.12.58
 ns-dz.ripe.net.				      172800 IN	A	193.0.12.4
 ns-dz.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:4
@@ -2235,8 +2243,6 @@ ns.ru.net.				      172800 IN	A	193.124.22.65
 igubu.saix.net.				      172800 IN	A	196.25.1.1
 sabela.saix.net.			      172800 IN	A	196.43.1.9
 ns02.savvis.net.			      172800 IN	A	204.70.57.242
-ns1-auth.sprintlink.net.		      172800 IN	A	206.228.179.10
-ns3-auth.sprintlink.net.		      172800 IN	A	144.228.255.10
 ns1.sr.net.				      172800 IN	A	200.1.159.148
 ns2.sr.net.				      172800 IN	A	200.2.162.30
 ns.telefonica-ca.net.			      172800 IN	A	216.184.96.4
