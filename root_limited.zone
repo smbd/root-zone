@@ -556,7 +556,7 @@ co.					      172800 IN	NS	ns3.cctld.co.
 co.					      172800 IN	NS	ns4.cctld.co.
 co.					      172800 IN	NS	ns5.cctld.co.
 co.					      172800 IN	NS	ns6.cctld.co.
-co.					      86400 IN NSEC	com. NS RRSIG NSEC
+co.					      86400 IN NSEC	com. NS DS RRSIG NSEC
 ns1.cctld.co.				      172800 IN	A	156.154.100.25
 ns2.cctld.co.				      172800 IN	A	156.154.101.25
 ns3.cctld.co.				      172800 IN	A	156.154.102.25
