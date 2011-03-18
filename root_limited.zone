@@ -1369,7 +1369,9 @@ jo.					      172800 IN	NS	ns-jo.ripe.net.
 jo.					      172800 IN	NS	petra.nic.gov.jo.
 jo.					      86400 IN NSEC	jobs. NS RRSIG NSEC
 amra.nic.gov.jo.			      172800 IN	A	193.188.66.103
+amra.nic.gov.jo.			      172800 IN	AAAA	2a02:9c0:0:408::103
 petra.nic.gov.jo.			      172800 IN	A	193.188.66.2
+petra.nic.gov.jo.			      172800 IN	AAAA	2a02:9c0:0:407::2
 jobs.					      172800 IN	NS	a5.nstld.com.
 jobs.					      172800 IN	NS	c5.nstld.com.
 jobs.					      172800 IN	NS	d5.nstld.com.
