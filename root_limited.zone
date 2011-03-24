@@ -1322,6 +1322,7 @@ is.					      172800 IN	NS	sns-pb.isc.org.
 is.					      86400 IN NSEC	it. NS RRSIG NSEC
 isgate.is.				      172800 IN	A	193.4.58.51
 sab.isnic.is.				      172800 IN	A	194.146.106.58
+sab.isnic.is.				      172800 IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.			      172800 IN	A	130.208.16.20
 it.					      172800 IN	NS	c.dns.it.
 it.					      172800 IN	NS	m.dns.it.
@@ -2151,6 +2152,7 @@ ns-gy.ripe.net.				      172800 IN	A	193.0.12.95
 ns-gy.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:95
 ns-il.ripe.net.				      172800 IN	A	193.0.12.108
 ns-is.ripe.net.				      172800 IN	A	193.0.12.102
+ns-is.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:102
 ns-jm.ripe.net.				      172800 IN	A	193.0.12.110
 ns-jo.ripe.net.				      172800 IN	A	193.0.12.112
 ns-jo.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:112
