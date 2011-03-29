@@ -61,18 +61,15 @@ aero.					      172800 IN	NS	ns5.knipp.de.
 aero.					      172800 IN	NS	dns7.denic.de.
 aero.					      172800 IN	NS	merapi.switch.ch.
 aero.					      86400 IN NSEC	af. NS RRSIG NSEC
-af.					      172800 IN	NS	ns.undp.org.
 af.					      172800 IN	NS	ns.anycast.nic.af.
 af.					      172800 IN	NS	af1.dyntld.net.
 af.					      172800 IN	NS	af2.dyntld.net.
 af.					      172800 IN	NS	af3.dyntld.net.
 af.					      172800 IN	NS	af4.dyntld.net.
-af.					      172800 IN	NS	ns2.undp.org.
-af.					      172800 IN	NS	ns3.nic.fr.
-af.					      172800 IN	NS	flag.ep.net.
-af.					      172800 IN	NS	alpha.undp.org.
+af.					      172800 IN	NS	adras.nic.af.
 af.					      172800 IN	NS	ns-af.ripe.net.
 af.					      86400 IN NSEC	ag. NS RRSIG NSEC
+adras.nic.af.				      172800 IN	A	203.119.84.241
 ns.anycast.nic.af.			      172800 IN	A	204.61.216.13
 ns.anycast.nic.af.			      172800 IN	AAAA	2001:500:14:6013:ad::1
 ag.					      172800 IN	NS	a0.cctld.afilias-nst.info.
@@ -2017,7 +2014,6 @@ f.edu-servers.net.			      172800 IN	A	192.35.51.36
 g.edu-servers.net.			      172800 IN	A	192.42.93.36
 g.edu-servers.net.			      172800 IN	AAAA	2001:503:cc2c::2:36
 l.edu-servers.net.			      172800 IN	A	192.41.162.36
-flag.ep.net.				      172800 IN	A	198.32.4.13
 ns3.ns.esat.net.			      172800 IN	A	192.111.39.100
 ns3.ns.esat.net.			      172800 IN	AAAA	2001:7c8:2:a::64
 ns2.free.net.				      172800 IN	A	193.233.1.67
@@ -2469,9 +2465,6 @@ ns0.punchdown.org.			      172800 IN	A	64.90.188.42
 tld3.ultradns.org.			      172800 IN	A	199.7.66.1
 tld4.ultradns.org.			      172800 IN	A	199.7.67.1
 tld4.ultradns.org.			      172800 IN	AAAA	2001:502:100e::1
-alpha.undp.org.				      172800 IN	A	165.65.35.29
-ns.undp.org.				      172800 IN	A	165.65.6.8
-ns2.undp.org.				      172800 IN	A	192.124.42.15
 euterpe.william.org.			      172800 IN	A	195.153.6.27
 pa.					      172800 IN	NS	ns.cr.
 pa.					      172800 IN	NS	ns.pa.
