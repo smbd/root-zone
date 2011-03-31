@@ -574,7 +574,7 @@ com.					      172800 IN	NS	j.gtld-servers.net.
 com.					      172800 IN	NS	k.gtld-servers.net.
 com.					      172800 IN	NS	l.gtld-servers.net.
 com.					      172800 IN	NS	m.gtld-servers.net.
-com.					      86400 IN NSEC	coop. NS RRSIG NSEC
+com.					      86400 IN NSEC	coop. NS DS RRSIG NSEC
 bcn1.adamsnames.com.			      172800 IN	A	217.147.94.75
 chc1.adamsnames.com.			      172800 IN	A	195.153.6.27
 qew1.adamsnames.com.			      172800 IN	A	82.68.90.198
