@@ -192,25 +192,24 @@ n.nic.at.				      172800 IN	A	87.233.175.130
 ns-uk.nic.at.				      172800 IN	A	195.66.241.82
 r.nic.at.				      172800 IN	A	192.174.68.10
 r.nic.at.				      172800 IN	AAAA	2001:67c:1bc::10
+au.					      172800 IN	NS	b.au.
 au.					      172800 IN	NS	o.audns.net.au.
 au.					      172800 IN	NS	a3.audns.net.au.
 au.					      172800 IN	NS	b1.audns.net.au.
 au.					      172800 IN	NS	b2.audns.net.au.
 au.					      172800 IN	NS	ns1.audns.net.au.
-au.					      172800 IN	NS	ns2.audns.net.au.
 au.					      172800 IN	NS	ns3.audns.net.au.
-au.					      172800 IN	NS	ns4.audns.net.au.
 au.					      86400 IN NSEC	aw. NS RRSIG NSEC
+b.au.					      172800 IN	A	58.65.253.73
 yarrina.connect.com.au.			      172800 IN	A	192.189.54.17
 a3.audns.net.au.			      172800 IN	A	202.12.31.141
+a3.audns.net.au.			      172800 IN	AAAA	2001:dc0:4001:1:0:1836:0:141
 b1.audns.net.au.			      172800 IN	A	128.32.136.3
 b1.audns.net.au.			      172800 IN	AAAA	2607:f140:ffff:fffe::3
 b2.audns.net.au.			      172800 IN	A	128.32.136.14
 b2.audns.net.au.			      172800 IN	AAAA	2607:f140:ffff:fffe::e
 ns1.audns.net.au.			      172800 IN	A	58.65.255.73
-ns2.audns.net.au.			      172800 IN	A	58.65.249.73
 ns3.audns.net.au.			      172800 IN	A	58.65.251.73
-ns4.audns.net.au.			      172800 IN	A	58.65.250.73
 o.audns.net.au.				      172800 IN	A	211.29.133.32
 munnari.oz.au.				      172800 IN	A	202.29.151.3
 aw.					      172800 IN	NS	ns1.setarnet.aw.
@@ -1222,6 +1221,7 @@ in.					      172800 IN	NS	b1.in.afilias-nst.in.
 in.					      172800 IN	NS	b2.in.afilias-nst.org.
 in.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 in.					      172800 IN	NS	d0.cctld.afilias-nst.org.
+in.					      172800 IN	NS	ns7.cdns.net.
 in.					      86400 IN NSEC	info. NS DS RRSIG NSEC
 a1.in.afilias-nst.in.			      172800 IN	A	203.119.49.201
 b1.in.afilias-nst.in.			      172800 IN	A	203.119.50.201
@@ -1920,6 +1920,8 @@ ns2.bahnhof.net.			      172800 IN	A	212.85.64.4
 ns1.barbadosdomain.net.			      172800 IN	A	200.50.92.195
 ns2.barbadosdomain.net.			      172800 IN	A	204.212.242.113
 nsa.cctldmd.net.			      172800 IN	A	217.26.144.5
+ns7.cdns.net.				      172800 IN	A	194.0.1.7
+ns7.cdns.net.				      172800 IN	AAAA	2001:678:4::7
 ns1.centralnic.net.			      172800 IN	A	89.151.83.36
 ns2.centralnic.net.			      172800 IN	A	72.3.240.16
 ns3.centralnic.net.			      172800 IN	A	62.197.40.234
