@@ -12,7 +12,6 @@
 .					      518400 IN	NS	l.root-servers.net.
 .					      518400 IN	NS	m.root-servers.net.
 .					      86400 IN NSEC	ac. NS SOA RRSIG NSEC DNSKEY
-.					      172800 IN	DNSKEY	256 3 8 AwEAAb5gVAzK59YHDxf/DnswfO1RmbRZ6W16JfhFecfI+EUHRXPWlXDi 47t2FHaKyMMEROapL5SZ8HiCzl05lORZGGdN37WY7fkv55rs+kwHdVRS rQdl81fUnEspt67IIgaj3SrGyZqgzyixNk/8oT3yEfKDycTeJy4chKPt 0JegWrjL  ; key id = 21639
 .					      172800 IN	DNSKEY	256 3 8 AwEAAcaGQEA+OJmOzfzVfoYN249JId7gx+OZMbxy69HfUyuGBbRN0+Hu TOpBxxBCkNOL+EJB9qJxt+0FEY6ZUVjEg58sRr4ZQ6Iu6b1xTBKgc193 zUARk4mmQ/PPGxn7Cn5VEGJ/1h6dNaiXuRHwR+7oWh7DnzkIJChcTqlF rXDW3tjt  ; key id = 34525
 .					      172800 IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=  ; key id = 19036
 ac.					      172800 IN	NS	a.nic.ac.
@@ -1298,12 +1297,12 @@ iq.					      172800 IN	NS	d.dns-server.iq.
 iq.					      172800 IN	NS	e.dns-server.iq.
 iq.					      172800 IN	NS	f.dns-server.iq.
 iq.					      86400 IN NSEC	ir. NS RRSIG NSEC
-a.dns-server.iq.			      172800 IN	A	194.117.56.1
-b.dns-server.iq.			      172800 IN	A	194.117.57.1
-c.dns-server.iq.			      172800 IN	A	194.117.58.1
-d.dns-server.iq.			      172800 IN	A	194.117.59.1
-e.dns-server.iq.			      172800 IN	A	194.117.60.1
-f.dns-server.iq.			      172800 IN	A	194.117.61.1
+a.dns-server.iq.			      172800 IN	A	156.154.100.28
+b.dns-server.iq.			      172800 IN	A	156.154.101.28
+c.dns-server.iq.			      172800 IN	A	156.154.102.28
+d.dns-server.iq.			      172800 IN	A	156.154.103.28
+e.dns-server.iq.			      172800 IN	A	156.154.104.28
+f.dns-server.iq.			      172800 IN	A	156.154.105.28
 ir.					      172800 IN	NS	ns1.nic.ir.
 ir.					      172800 IN	NS	ns5.univie.ac.at.
 ir.					      172800 IN	NS	auth02.ns.uu.net.
