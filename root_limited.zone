@@ -1271,6 +1271,9 @@ a2.org.afilias-nst.info.		      172800 IN	A	199.249.112.1
 a2.org.afilias-nst.info.		      172800 IN	AAAA	2001:500:40::1
 c0.org.afilias-nst.info.		      172800 IN	A	199.19.53.1
 c0.org.afilias-nst.info.		      172800 IN	AAAA	2001:500:b::1
+a0.xxx.afilias-nst.info.		      172800 IN	A	199.115.152.1
+a2.xxx.afilias-nst.info.		      172800 IN	A	199.115.156.1
+c0.xxx.afilias-nst.info.		      172800 IN	A	199.115.154.1
 tld.isc-sns.info.			      172800 IN	A	72.52.71.3
 tld.isc-sns.info.			      172800 IN	AAAA	2001:470:1a::3
 tld5.ultradns.info.			      172800 IN	A	192.100.59.11
@@ -2450,6 +2453,9 @@ b2.org.afilias-nst.org.			      172800 IN	A	199.249.120.1
 b2.org.afilias-nst.org.			      172800 IN	AAAA	2001:500:48::1
 d0.org.afilias-nst.org.			      172800 IN	A	199.19.57.1
 d0.org.afilias-nst.org.			      172800 IN	AAAA	2001:500:f::1
+b0.xxx.afilias-nst.org.			      172800 IN	A	199.115.153.1
+b2.xxx.afilias-nst.org.			      172800 IN	A	199.115.157.1
+d0.xxx.afilias-nst.org.			      172800 IN	A	199.115.155.1
 b.ci-servers.org.			      172800 IN	A	82.103.139.220
 c.ci-servers.org.			      172800 IN	A	194.146.106.86
 c.ci-servers.org.			      172800 IN	AAAA	2001:67c:1010:22::53
@@ -3462,7 +3468,14 @@ xn--ygbi2ammx.				      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
 xn--zckzah.				      172800 IN	NS	a.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	b.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	c.iana-servers.net.
-xn--zckzah.				      86400 IN NSEC	ye. NS DS RRSIG NSEC
+xn--zckzah.				      86400 IN NSEC	xxx. NS DS RRSIG NSEC
+xxx.					      172800 IN	NS	a0.xxx.afilias-nst.info.
+xxx.					      172800 IN	NS	a2.xxx.afilias-nst.info.
+xxx.					      172800 IN	NS	b0.xxx.afilias-nst.org.
+xxx.					      172800 IN	NS	b2.xxx.afilias-nst.org.
+xxx.					      172800 IN	NS	c0.xxx.afilias-nst.info.
+xxx.					      172800 IN	NS	d0.xxx.afilias-nst.org.
+xxx.					      86400 IN NSEC	ye. NS RRSIG NSEC
 ye.					      172800 IN	NS	ns1.yemen.net.ye.
 ye.					      172800 IN	NS	ns2.yemen.net.ye.
 ye.					      172800 IN	NS	sah1.ye.
