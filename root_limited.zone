@@ -21,7 +21,7 @@ ac.					      172800 IN	NS	b.nic.io.
 ac.					      172800 IN	NS	b.ns13.net.
 ac.					      172800 IN	NS	ns1.communitydns.net.
 ac.					      172800 IN	NS	ns3.icb.co.uk.
-ac.					      86400 IN NSEC	ad. NS RRSIG NSEC
+ac.					      86400 IN NSEC	ad. NS DS RRSIG NSEC
 a.nic.ac.				      172800 IN	A	64.251.31.177
 b.nic.ac.				      172800 IN	A	78.104.145.37
 ad.					      172800 IN	NS	ad.ns.nic.es.
@@ -1290,7 +1290,7 @@ io.					      172800 IN	NS	b.nic.io.
 io.					      172800 IN	NS	b.ns13.net.
 io.					      172800 IN	NS	ns1.communitydns.net.
 io.					      172800 IN	NS	ns3.icb.co.uk.
-io.					      86400 IN NSEC	iq. NS RRSIG NSEC
+io.					      86400 IN NSEC	iq. NS DS RRSIG NSEC
 a.nic.io.				      172800 IN	A	64.251.31.179
 b.nic.io.				      172800 IN	A	194.0.2.1
 iq.					      172800 IN	NS	a.dns-server.iq.
@@ -2762,7 +2762,7 @@ sh.					      172800 IN	NS	b.nic.io.
 sh.					      172800 IN	NS	b.ns13.net.
 sh.					      172800 IN	NS	ns1.communitydns.net.
 sh.					      172800 IN	NS	ns3.icb.co.uk.
-sh.					      86400 IN NSEC	si. NS RRSIG NSEC
+sh.					      86400 IN NSEC	si. NS DS RRSIG NSEC
 a.nic.sh.				      172800 IN	A	64.251.31.178
 si.					      172800 IN	NS	ns2.arnes.si.
 si.					      172800 IN	NS	ns3.arnes.eu.
