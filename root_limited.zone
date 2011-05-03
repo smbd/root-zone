@@ -753,6 +753,8 @@ dz.					      172800 IN	NS	ns2.nic.dz.
 dz.					      172800 IN	NS	ns3.nic.fr.
 dz.					      172800 IN	NS	ns-dz.ripe.net.
 dz.					      86400 IN NSEC	ec. NS RRSIG NSEC
+idn1.nic.dz.				      172800 IN	A	193.194.64.243
+idn2.nic.dz.				      172800 IN	A	213.179.160.68
 ns1.nic.dz.				      172800 IN	A	193.194.64.242
 ns2.nic.dz.				      172800 IN	A	213.179.160.66
 ec.					      172800 IN	NS	dns1.nic.ec.
@@ -1619,6 +1621,9 @@ ma.					      172800 IN	NS	ns2.nic.fr.
 ma.					      172800 IN	NS	ns3.iam.net.ma.
 ma.					      172800 IN	NS	ns-ma.ripe.net.
 ma.					      86400 IN NSEC	mc. NS RRSIG NSEC
+hariss.anrt.ma.				      172800 IN	A	194.204.241.140
+dns2.menara.ma.				      172800 IN	A	81.192.53.156
+dns3.menara.ma.				      172800 IN	A	196.217.246.51
 ns1.iam.net.ma.				      172800 IN	A	212.217.0.10
 ns2.iam.net.ma.				      172800 IN	A	81.192.53.23
 ns3.iam.net.ma.				      172800 IN	A	212.217.1.13
@@ -3271,7 +3276,11 @@ xn--45brj9c.				      86400 IN NSEC	xn--80akhbyknj4f. NS RRSIG NSEC
 xn--80akhbyknj4f.			      172800 IN	NS	a.iana-servers.net.
 xn--80akhbyknj4f.			      172800 IN	NS	b.iana-servers.net.
 xn--80akhbyknj4f.			      172800 IN	NS	c.iana-servers.net.
-xn--80akhbyknj4f.			      86400 IN NSEC	xn--9t4b11yi5a. NS DS RRSIG NSEC
+xn--80akhbyknj4f.			      86400 IN NSEC	xn--90a3ac. NS DS RRSIG NSEC
+xn--90a3ac.				      172800 IN	NS	a.nic.rs.
+xn--90a3ac.				      172800 IN	NS	g.nic.rs.
+xn--90a3ac.				      172800 IN	NS	h.nic.rs.
+xn--90a3ac.				      86400 IN NSEC	xn--9t4b11yi5a. NS RRSIG NSEC
 xn--9t4b11yi5a.				      172800 IN	NS	a.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	b.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	c.iana-servers.net.
@@ -3374,7 +3383,10 @@ xn--kpry57d.				      172800 IN	NS	e.dns.tw.
 xn--kpry57d.				      172800 IN	NS	f.dns.tw.
 xn--kpry57d.				      172800 IN	NS	g.dns.tw.
 xn--kpry57d.				      172800 IN	NS	h.dns.tw.
-xn--kpry57d.				      86400 IN NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
+xn--kpry57d.				      86400 IN NSEC	xn--lgbbat1ad8j. NS RRSIG NSEC
+xn--lgbbat1ad8j.			      172800 IN	NS	idn1.nic.dz.
+xn--lgbbat1ad8j.			      172800 IN	NS	idn2.nic.dz.
+xn--lgbbat1ad8j.			      86400 IN NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
 xn--mgbaam7a8h.				      172800 IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	sns-pb.isc.org.
@@ -3393,7 +3405,12 @@ xn--mgbbh1a71e.				      172800 IN	NS	b1.in.afilias-nst.in.
 xn--mgbbh1a71e.				      172800 IN	NS	b2.in.afilias-nst.org.
 xn--mgbbh1a71e.				      172800 IN	NS	c0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.				      172800 IN	NS	d0.cctld.afilias-nst.org.
-xn--mgbbh1a71e.				      86400 IN NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
+xn--mgbbh1a71e.				      86400 IN NSEC	xn--mgbc0a9azcg. NS RRSIG NSEC
+xn--mgbc0a9azcg.			      172800 IN	NS	ns2.nic.fr.
+xn--mgbc0a9azcg.			      172800 IN	NS	dns2.menara.ma.
+xn--mgbc0a9azcg.			      172800 IN	NS	dns3.menara.ma.
+xn--mgbc0a9azcg.			      172800 IN	NS	hariss.anrt.ma.
+xn--mgbc0a9azcg.			      86400 IN NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns2.nic.net.sa.
 xn--mgberp4a5d4ar.			      86400 IN NSEC	xn--o3cw4h. NS RRSIG NSEC
