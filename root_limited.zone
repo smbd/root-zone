@@ -191,6 +191,7 @@ n.nic.at.				      172800 IN	A	87.233.175.130
 ns-uk.nic.at.				      172800 IN	A	195.66.241.82
 r.nic.at.				      172800 IN	A	192.174.68.10
 r.nic.at.				      172800 IN	AAAA	2001:67c:1bc::10
+au.					      172800 IN	NS	a.au.
 au.					      172800 IN	NS	b.au.
 au.					      172800 IN	NS	o.audns.net.au.
 au.					      172800 IN	NS	a3.audns.net.au.
@@ -199,6 +200,7 @@ au.					      172800 IN	NS	b2.audns.net.au.
 au.					      172800 IN	NS	ns1.audns.net.au.
 au.					      172800 IN	NS	ns3.audns.net.au.
 au.					      86400 IN NSEC	aw. NS RRSIG NSEC
+a.au.					      172800 IN	A	58.65.254.73
 b.au.					      172800 IN	A	58.65.253.73
 yarrina.connect.com.au.			      172800 IN	A	192.189.54.17
 a3.audns.net.au.			      172800 IN	A	202.12.31.141
