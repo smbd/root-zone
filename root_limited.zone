@@ -1629,11 +1629,12 @@ dns3.menara.ma.				      172800 IN	A	196.217.246.51
 ns1.iam.net.ma.				      172800 IN	A	212.217.0.10
 ns2.iam.net.ma.				      172800 IN	A	81.192.53.23
 ns3.iam.net.ma.				      172800 IN	A	212.217.1.13
-mc.					      172800 IN	NS	ns.nic.mc.
-mc.					      172800 IN	NS	bow.rain.fr.
+mc.					      172800 IN	NS	ns1.nic.mc.
+mc.					      172800 IN	NS	ns2.nic.mc.
 mc.					      172800 IN	NS	ns-mc.ripe.net.
 mc.					      86400 IN NSEC	md. NS RRSIG NSEC
-ns.nic.mc.				      172800 IN	A	195.78.6.131
+ns1.nic.mc.				      172800 IN	A	195.78.19.216
+ns2.nic.mc.				      172800 IN	A	85.31.217.131
 md.					      172800 IN	NS	nsa.cctldmd.net.
 md.					      172800 IN	NS	ns-md.ripe.net.
 md.					      172800 IN	NS	ns-ext.isc.org.
@@ -2751,6 +2752,7 @@ g.ns.se.				      172800 IN	A	130.239.5.114
 g.ns.se.				      172800 IN	AAAA	2001:6b0:e:3::1
 h.ns.se.				      172800 IN	A	199.7.49.30
 i.ns.se.				      172800 IN	A	194.146.106.22
+i.ns.se.				      172800 IN	AAAA	2001:67c:1010:5::53
 j.ns.se.				      172800 IN	A	199.254.63.1
 j.ns.se.				      172800 IN	AAAA	2001:500:2c::1
 sunic.sunet.se.				      172800 IN	A	192.36.125.2
