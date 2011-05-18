@@ -179,7 +179,7 @@ at.					      172800 IN	NS	ns-uk.nic.at.
 at.					      86400 IN NSEC	au. NS RRSIG NSEC
 ns1.univie.ac.at.			      172800 IN	A	193.171.255.2
 ns2.univie.ac.at.			      172800 IN	A	192.92.125.2
-ns2.univie.ac.at.			      172800 IN	AAAA	2001:628:453:4302::53
+ns2.univie.ac.at.			      172800 IN	AAAA	2001:678:1c::2
 ns5.univie.ac.at.			      172800 IN	A	193.171.255.77
 ns9.univie.ac.at.			      172800 IN	A	194.0.10.100
 ns9.univie.ac.at.			      172800 IN	AAAA	2001:678:d::cafe
@@ -3064,12 +3064,14 @@ f.dns.tw.				      172800 IN	A	163.28.1.10
 g.dns.tw.				      172800 IN	A	220.229.225.195
 h.dns.tw.				      172800 IN	A	203.119.3.1
 tz.					      172800 IN	NS	d.ext.nic.cz.
+tz.					      172800 IN	NS	ns.anycast.co.tz.
 tz.					      172800 IN	NS	ns2.tznic.or.tz.
 tz.					      172800 IN	NS	ns2.afrinic.net.
 tz.					      172800 IN	NS	rip.psg.com.
 tz.					      172800 IN	NS	sunic.sunet.se.
 tz.					      172800 IN	NS	sns-pb.isc.org.
 tz.					      86400 IN NSEC	ua. NS RRSIG NSEC
+ns.anycast.co.tz.			      172800 IN	A	204.61.216.15
 ns2.tznic.or.tz.			      172800 IN	A	196.216.162.67
 ns2.tznic.or.tz.			      172800 IN	AAAA	2001:43f8:e0:1::67
 ua.					      172800 IN	NS	cd1.ns.ua.
