@@ -181,6 +181,7 @@ ns1.univie.ac.at.			      172800 IN	A	193.171.255.2
 ns2.univie.ac.at.			      172800 IN	A	192.92.125.2
 ns2.univie.ac.at.			      172800 IN	AAAA	2001:678:1c::2
 ns5.univie.ac.at.			      172800 IN	A	193.171.255.77
+ns5.univie.ac.at.			      172800 IN	AAAA	2001:628:453:4305::53
 ns9.univie.ac.at.			      172800 IN	A	194.0.10.100
 ns9.univie.ac.at.			      172800 IN	AAAA	2001:678:d::cafe
 d.nic.at.				      172800 IN	A	81.91.161.98
@@ -2551,7 +2552,7 @@ pm.					      172800 IN	NS	g.ext.nic.fr.
 pm.					      86400 IN NSEC	pn. NS DS RRSIG NSEC
 pn.					      172800 IN	NS	ns0.pitcairn.net.pn.
 pn.					      172800 IN	NS	ns2.pitcairn.net.pn.
-pn.					      172800 IN	NS	slave1.sth.netnod.se.
+pn.					      172800 IN	NS	fork.sth.dnsnode.net.
 pn.					      172800 IN	NS	sns-pb.isc.org.
 pn.					      86400 IN NSEC	pr. NS RRSIG NSEC
 ns0.pitcairn.net.pn.			      172800 IN	A	173.230.153.180
@@ -2676,6 +2677,8 @@ g.nic.rs.				      172800 IN	A	147.91.8.6
 h.nic.rs.				      172800 IN	A	91.199.17.60
 i.nic.rs.				      172800 IN	A	192.228.90.19
 j.nic.rs.				      172800 IN	A	192.228.89.19
+k.nic.rs.				      172800 IN	A	192.5.4.1
+k.nic.rs.				      172800 IN	AAAA	2001:500:2e::1
 ru.					      172800 IN	NS	e.dns.ripn.net.
 ru.					      172800 IN	NS	f.dns.ripn.net.
 ru.					      172800 IN	NS	ns.ripn.net.
@@ -3286,6 +3289,7 @@ xn--80akhbyknj4f.			      86400 IN NSEC	xn--90a3ac. NS DS RRSIG NSEC
 xn--90a3ac.				      172800 IN	NS	a.nic.rs.
 xn--90a3ac.				      172800 IN	NS	g.nic.rs.
 xn--90a3ac.				      172800 IN	NS	h.nic.rs.
+xn--90a3ac.				      172800 IN	NS	k.nic.rs.
 xn--90a3ac.				      86400 IN NSEC	xn--9t4b11yi5a. NS RRSIG NSEC
 xn--9t4b11yi5a.				      172800 IN	NS	a.iana-servers.net.
 xn--9t4b11yi5a.				      172800 IN	NS	b.iana-servers.net.
@@ -3417,8 +3421,10 @@ xn--mgbc0a9azcg.			      172800 IN	NS	dns2.menara.ma.
 xn--mgbc0a9azcg.			      172800 IN	NS	dns3.menara.ma.
 xn--mgbc0a9azcg.			      172800 IN	NS	hariss.anrt.ma.
 xn--mgbc0a9azcg.			      86400 IN NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
+xn--mgberp4a5d4ar.			      172800 IN	NS	ns1.isu.net.sa.
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.			      172800 IN	NS	ns2.nic.net.sa.
+xn--mgberp4a5d4ar.			      172800 IN	NS	sa-ns.anycast.pch.net.
 xn--mgberp4a5d4ar.			      86400 IN NSEC	xn--o3cw4h. NS RRSIG NSEC
 xn--o3cw4h.				      172800 IN	NS	ns.thnic.net.
 xn--o3cw4h.				      172800 IN	NS	dns1.thnic.co.th.
