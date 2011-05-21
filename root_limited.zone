@@ -1395,6 +1395,7 @@ jp.					      172800 IN	NS	f.dns.jp.
 jp.					      172800 IN	NS	g.dns.jp.
 jp.					      86400 IN NSEC	ke. NS DS RRSIG NSEC
 ns20.iij.ad.jp.				      172800 IN	A	202.232.2.161
+ns20.iij.ad.jp.				      172800 IN	AAAA	2001:240::161
 a.dns.jp.				      172800 IN	A	203.119.1.1
 a.dns.jp.				      172800 IN	AAAA	2001:dc4::1
 b.dns.jp.				      172800 IN	A	202.12.30.131
