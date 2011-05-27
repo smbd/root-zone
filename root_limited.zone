@@ -198,8 +198,6 @@ au.					      172800 IN	NS	o.audns.net.au.
 au.					      172800 IN	NS	a3.audns.net.au.
 au.					      172800 IN	NS	b1.audns.net.au.
 au.					      172800 IN	NS	b2.audns.net.au.
-au.					      172800 IN	NS	ns1.audns.net.au.
-au.					      172800 IN	NS	ns3.audns.net.au.
 au.					      86400 IN NSEC	aw. NS RRSIG NSEC
 a.au.					      172800 IN	A	58.65.254.73
 b.au.					      172800 IN	A	58.65.253.73
@@ -210,8 +208,6 @@ b1.audns.net.au.			      172800 IN	A	128.32.136.3
 b1.audns.net.au.			      172800 IN	AAAA	2607:f140:ffff:fffe::3
 b2.audns.net.au.			      172800 IN	A	128.32.136.14
 b2.audns.net.au.			      172800 IN	AAAA	2607:f140:ffff:fffe::e
-ns1.audns.net.au.			      172800 IN	A	58.65.255.73
-ns3.audns.net.au.			      172800 IN	A	58.65.251.73
 o.audns.net.au.				      172800 IN	A	211.29.133.32
 munnari.oz.au.				      172800 IN	A	202.29.151.3
 aw.					      172800 IN	NS	ns1.setarnet.aw.
@@ -987,8 +983,8 @@ gg.					      86400 IN NSEC	gh. NS RRSIG NSEC
 f.ci-servers.gg.			      172800 IN	A	195.226.128.13
 gh.					      172800 IN	NS	ns1.dns.aq.
 gh.					      172800 IN	NS	rip.psg.com.
+gh.					      172800 IN	NS	fork.sth.dnsnode.net.
 gh.					      172800 IN	NS	hippo.ru.ac.za.
-gh.					      172800 IN	NS	slave.sth.netnod.se.
 gh.					      172800 IN	NS	austin.gh.com.
 gh.					      172800 IN	NS	mantse.gh.com.
 gh.					      86400 IN NSEC	gi. NS RRSIG NSEC
@@ -2700,6 +2696,7 @@ sa.					      172800 IN	NS	ns-sa.ripe.net.
 sa.					      172800 IN	NS	sa-ns.anycast.pch.net.
 sa.					      86400 IN NSEC	sb. NS RRSIG NSEC
 ns1.isu.net.sa.				      172800 IN	A	212.26.18.3
+ns1.isu.net.sa.				      172800 IN	AAAA	2001:1490:0:800::3
 ns1.nic.net.sa.				      172800 IN	A	86.111.192.9
 ns1.nic.net.sa.				      172800 IN	AAAA	2001:67c:130:410::9
 ns2.nic.net.sa.				      172800 IN	A	86.111.196.9
@@ -2743,7 +2740,6 @@ se.					      172800 IN	NS	h.ns.se.
 se.					      172800 IN	NS	i.ns.se.
 se.					      172800 IN	NS	j.ns.se.
 se.					      86400 IN NSEC	sg. NS DS RRSIG NSEC
-slave.sth.netnod.se.			      172800 IN	A	192.36.144.116
 slave1.sth.netnod.se.			      172800 IN	A	192.36.144.116
 a.ns.se.				      172800 IN	A	192.36.144.107
 a.ns.se.				      172800 IN	AAAA	2a01:3f0:0:301::53
