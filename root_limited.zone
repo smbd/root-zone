@@ -1151,23 +1151,26 @@ ht.					      172800 IN	NS	charles.cdec.polymtl.ca.
 ht.					      86400 IN NSEC	hu. NS RRSIG NSEC
 ns1.nic.ht.				      172800 IN	A	64.86.226.26
 ns2.nic.ht.				      172800 IN	A	64.86.226.30
+hu.					      172800 IN	NS	b.hu.
+hu.					      172800 IN	NS	c.hu.
+hu.					      172800 IN	NS	d.hu.
+hu.					      172800 IN	NS	e.hu.
 hu.					      172800 IN	NS	ns.nic.hu.
-hu.					      172800 IN	NS	ns1.nic.hu.
 hu.					      172800 IN	NS	ns2.nic.fr.
-hu.					      172800 IN	NS	ns2.nic.hu.
-hu.					      172800 IN	NS	ns3.nic.hu.
 hu.					      172800 IN	NS	ns-se.nic.hu.
 hu.					      172800 IN	NS	ns-com.nic.hu.
 hu.					      86400 IN NSEC	id. NS RRSIG NSEC
+b.hu.					      172800 IN	A	193.239.149.3
+c.hu.					      172800 IN	A	193.6.16.1
+d.hu.					      172800 IN	A	195.70.35.250
+e.hu.					      172800 IN	A	192.174.68.11
+e.hu.					      172800 IN	AAAA	2001:67c:1bc::11
 ns.nic.hu.				      172800 IN	A	193.239.148.48
 ns.nic.hu.				      172800 IN	AAAA	2001:738:4:8000::48
 ns-com.nic.hu.				      172800 IN	A	194.0.1.12
 ns-com.nic.hu.				      172800 IN	AAAA	2001:678:4::c
 ns-se.nic.hu.				      172800 IN	A	77.72.229.251
 ns-se.nic.hu.				      172800 IN	AAAA	2a01:3f0:0:304::53
-ns1.nic.hu.				      172800 IN	A	193.239.149.3
-ns2.nic.hu.				      172800 IN	A	193.6.16.1
-ns3.nic.hu.				      172800 IN	A	195.70.35.250
 id.					      172800 IN	NS	ns1.id.
 id.					      172800 IN	NS	ns1.rad.net.id.
 id.					      172800 IN	NS	ns1.indo.net.id.
@@ -2052,6 +2055,8 @@ b.iana-servers.net.			      172800 IN	A	193.0.0.236
 b.iana-servers.net.			      172800 IN	AAAA	2001:610:240:2::c100:ec
 c.iana-servers.net.			      172800 IN	A	139.91.1.10
 c.iana-servers.net.			      172800 IN	AAAA	2001:648:2c30::1:10
+test-ns.iana-servers.net.		      172800 IN	A	216.235.14.44
+test-ns.iana-servers.net.		      172800 IN	AAAA	2001:4900:1:393::44
 anyc1.irondns.net.			      172800 IN	A	195.253.64.4
 anyc1.irondns.net.			      172800 IN	AAAA	2a01:5b0:4::4
 tld.isc-sns.net.			      172800 IN	A	63.243.194.3
@@ -3490,6 +3495,7 @@ xn--ygbi2ammx.				      86400 IN NSEC	xn--zckzah. NS RRSIG NSEC
 xn--zckzah.				      172800 IN	NS	a.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	b.iana-servers.net.
 xn--zckzah.				      172800 IN	NS	c.iana-servers.net.
+xn--zckzah.				      172800 IN	NS	test-ns.iana-servers.net.
 xn--zckzah.				      86400 IN NSEC	xxx. NS DS RRSIG NSEC
 xxx.					      172800 IN	NS	a0.xxx.afilias-nst.info.
 xxx.					      172800 IN	NS	a2.xxx.afilias-nst.info.
