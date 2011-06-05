@@ -810,7 +810,6 @@ er.					      86400 IN NSEC	es. NS RRSIG NSEC
 sawanew.noc.net.er.			      172800 IN	A	196.200.96.1
 zaranew.noc.net.er.			      172800 IN	A	196.200.96.2
 es.					      172800 IN	NS	a.nic.es.
-es.					      172800 IN	NS	b.nic.es.
 es.					      172800 IN	NS	f.nic.es.
 es.					      172800 IN	NS	ns1.cesca.es.
 es.					      172800 IN	NS	ns3.nic.fr.
@@ -820,7 +819,6 @@ es.					      172800 IN	NS	sns-pb.isc.org.
 es.					      86400 IN NSEC	et. NS RRSIG NSEC
 ns1.cesca.es.				      172800 IN	A	84.88.0.3
 a.nic.es.				      172800 IN	A	194.69.254.1
-b.nic.es.				      172800 IN	A	195.81.201.11
 f.nic.es.				      172800 IN	A	130.206.1.2
 f.nic.es.				      172800 IN	AAAA	2001:720:418:caf1::2
 n3ns.nic.es.				      172800 IN	A	194.69.254.42
@@ -2798,20 +2796,21 @@ sj.					      172800 IN	NS	nn.uninett.no.
 sj.					      172800 IN	NS	nac.no.
 sj.					      172800 IN	NS	server.nordu.net.
 sj.					      86400 IN NSEC	sk. NS RRSIG NSEC
+sk.					      172800 IN	NS	c.tld.sk.
 sk.					      172800 IN	NS	ns.uu.net.
 sk.					      172800 IN	NS	ns.eunet.sk.
 sk.					      172800 IN	NS	ns.sk-nic.sk.
-sk.					      172800 IN	NS	ns.internet.sk.
 sk.					      172800 IN	NS	ns1.sk-nic.sk.
 sk.					      172800 IN	NS	ns3.sk-nic.sk.
 sk.					      172800 IN	NS	sunic.sunet.se.
 sk.					      172800 IN	NS	ns-ext.vix.com.
 sk.					      86400 IN NSEC	sl. NS RRSIG NSEC
 ns.eunet.sk.				      172800 IN	A	217.75.73.242
-ns.internet.sk.				      172800 IN	A	217.75.73.241
 ns.sk-nic.sk.				      172800 IN	A	195.12.159.2
 ns1.sk-nic.sk.				      172800 IN	A	195.12.159.3
 ns3.sk-nic.sk.				      172800 IN	A	217.75.67.234
+c.tld.sk.				      172800 IN	A	217.75.72.157
+c.tld.sk.				      172800 IN	AAAA	2a02:770:100:100::101
 sl.					      172800 IN	NS	ns1.neoip.com.
 sl.					      172800 IN	NS	ns2.neoip.com.
 sl.					      86400 IN NSEC	sm. NS RRSIG NSEC
