@@ -696,7 +696,7 @@ de.					      172800 IN	NS	f.nic.de.
 de.					      172800 IN	NS	l.de.net.
 de.					      172800 IN	NS	s.de.net.
 de.					      172800 IN	NS	z.nic.de.
-de.					      86400 IN NSEC	dj. NS RRSIG NSEC
+de.					      86400 IN NSEC	dj. NS DS RRSIG NSEC
 dns-ro.denic.de.			      172800 IN	A	81.91.161.99
 dns7.denic.de.				      172800 IN	A	81.91.161.68
 dns8.denic.de.				      172800 IN	A	81.91.161.69
@@ -2030,6 +2030,7 @@ news-tokyo.gip.net.			      172800 IN	A	204.59.64.222
 ns1.gip.net.				      172800 IN	A	204.59.144.222
 ns2.gip.net.				      172800 IN	A	204.59.1.222
 a.gov-servers.net.			      172800 IN	A	69.36.157.30
+a.gov-servers.net.			      172800 IN	AAAA	2001:500:4431::2:30
 b.gov-servers.net.			      172800 IN	A	209.112.123.30
 a.gtld-servers.net.			      172800 IN	A	192.5.6.30
 a.gtld-servers.net.			      172800 IN	AAAA	2001:503:a83e::2:30
