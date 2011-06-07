@@ -512,6 +512,7 @@ cl.					      172800 IN	NS	sns-pb.isc.org.
 cl.					      86400 IN NSEC	cm. NS DS RRSIG NSEC
 a.nic.cl.				      172800 IN	A	200.1.121.10
 b.nic.cl.				      172800 IN	A	200.7.4.7
+b.nic.cl.				      172800 IN	AAAA	2001:1398:274:0:200:7:4:7
 c.nic.cl.				      172800 IN	A	200.16.112.16
 ns-ext.nic.cl.				      172800 IN	A	200.1.123.14
 cm.					      172800 IN	NS	ns.itu.ch.
@@ -2234,6 +2235,7 @@ a.root-servers.net.			      518400 IN	AAAA	2001:503:ba3e::2:30
 b.root-servers.net.			      518400 IN	A	192.228.79.201
 c.root-servers.net.			      518400 IN	A	192.33.4.12
 d.root-servers.net.			      518400 IN	A	128.8.10.90
+d.root-servers.net.			      518400 IN	AAAA	2001:500:2d::d
 e.root-servers.net.			      518400 IN	A	192.203.230.10
 f.root-servers.net.			      518400 IN	A	192.5.5.241
 f.root-servers.net.			      518400 IN	AAAA	2001:500:2f::f
