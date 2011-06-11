@@ -1346,7 +1346,6 @@ osiris.namex.it.			      172800 IN	A	193.201.40.6
 osiris.namex.it.			      172800 IN	AAAA	2001:7f8:10:f00a::6
 seth.namex.it.				      172800 IN	A	193.201.40.7
 seth.namex.it.				      172800 IN	AAAA	2001:7f8:10:f00a::7
-dns.nettuno.it.				      172800 IN	A	193.43.2.1
 dns.nic.it.				      172800 IN	A	192.12.192.5
 dns.nic.it.				      172800 IN	AAAA	2a00:d40:1:1::5
 je.					      172800 IN	NS	a.ci-servers.net.
@@ -2051,8 +2050,8 @@ m.gtld-servers.net.			      172800 IN	A	192.55.83.30
 osi2.gua.net.				      172800 IN	A	205.161.188.3
 a.iana-servers.net.			      172800 IN	A	199.43.132.53
 a.iana-servers.net.			      172800 IN	AAAA	2001:500:8c::53
-b.iana-servers.net.			      172800 IN	A	193.0.0.236
-b.iana-servers.net.			      172800 IN	AAAA	2001:610:240:2::c100:ec
+b.iana-servers.net.			      172800 IN	A	199.43.133.53
+b.iana-servers.net.			      172800 IN	AAAA	2001:500:8d::53
 c.iana-servers.net.			      172800 IN	A	139.91.1.10
 c.iana-servers.net.			      172800 IN	AAAA	2001:648:2c30::1:10
 test-ns.iana-servers.net.		      172800 IN	A	216.235.14.44
@@ -2199,6 +2198,7 @@ ns-sa.ripe.net.				      172800 IN	A	193.0.12.193
 ns-sa.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
 ns-sm.ripe.net.				      172800 IN	A	193.0.12.191
+ns-sm.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:191
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-sy.ripe.net.				      172800 IN	A	193.0.12.215
@@ -2817,13 +2817,15 @@ c.tld.sk.				      172800 IN	AAAA	2a02:770:100:100::101
 sl.					      172800 IN	NS	ns1.neoip.com.
 sl.					      172800 IN	NS	ns2.neoip.com.
 sl.					      86400 IN NSEC	sm. NS RRSIG NSEC
-sm.					      172800 IN	NS	dns.nettuno.it.
 sm.					      172800 IN	NS	dns.omniway.sm.
 sm.					      172800 IN	NS	dns.intelcom.sm.
+sm.					      172800 IN	NS	ns3.telecomitalia.sm.
 sm.					      172800 IN	NS	ns-sm.ripe.net.
 sm.					      86400 IN NSEC	sn. NS RRSIG NSEC
 dns.intelcom.sm.			      172800 IN	A	194.183.64.11
 dns.omniway.sm.				      172800 IN	A	194.183.64.10
+ns3.telecomitalia.sm.			      172800 IN	A	194.0.27.12
+ns3.telecomitalia.sm.			      172800 IN	AAAA	2001:678:28:0:c2:b7:40:12
 sn.					      172800 IN	NS	ns.ucad.sn.
 sn.					      172800 IN	NS	ns.sentoo.sn.
 sn.					      172800 IN	NS	ns1.ird.fr.
