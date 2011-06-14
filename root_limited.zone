@@ -589,6 +589,7 @@ tld.isc-sns.com.			      172800 IN	A	38.103.2.3
 ns-mg.malagasy.com.			      172800 IN	A	87.98.132.231
 ns1.neoip.com.				      172800 IN	A	62.90.247.118
 ns2.neoip.com.				      172800 IN	A	208.109.17.150
+ns5.nominum.com.			      172800 IN	A	74.121.127.35
 a5.nstld.com.				      172800 IN	A	192.5.6.34
 a6.nstld.com.				      172800 IN	A	192.5.6.35
 c5.nstld.com.				      172800 IN	A	192.26.92.34
@@ -855,6 +856,7 @@ p.nic.eu.				      172800 IN	A	195.47.235.130
 x.nic.eu.				      172800 IN	A	194.0.1.19
 y.nic.eu.				      172800 IN	A	194.146.106.90
 y.nic.eu.				      172800 IN	AAAA	2001:67c:1010:23::53
+ns6.nominum.eu.				      172800 IN	A	81.200.69.35
 fi.					      172800 IN	NS	a.fi.
 fi.					      172800 IN	NS	b.fi.
 fi.					      172800 IN	NS	c.fi.
@@ -1855,6 +1857,9 @@ oceano.uem.mz.				      172800 IN	A	196.3.96.69
 zebra.uem.mz.				      172800 IN	A	196.3.96.67
 na.					      172800 IN	NS	na1.dyntld.net.
 na.					      172800 IN	NS	na2.dyntld.net.
+na.					      172800 IN	NS	ns5.nominum.com.
+na.					      172800 IN	NS	ns6.nominum.eu.
+na.					      172800 IN	NS	anyc2.irondns.net.
 na.					      172800 IN	NS	na-ns.anycast.pch.net.
 na.					      172800 IN	NS	merlin.net.na.
 na.					      172800 IN	NS	sns-pb.isc.org.
@@ -2054,10 +2059,11 @@ b.iana-servers.net.			      172800 IN	A	199.43.133.53
 b.iana-servers.net.			      172800 IN	AAAA	2001:500:8d::53
 c.iana-servers.net.			      172800 IN	A	139.91.1.10
 c.iana-servers.net.			      172800 IN	AAAA	2001:648:2c30::1:10
-test-ns.iana-servers.net.		      172800 IN	A	216.235.14.44
 test-ns.iana-servers.net.		      172800 IN	AAAA	2001:4900:1:393::44
 anyc1.irondns.net.			      172800 IN	A	195.253.64.4
 anyc1.irondns.net.			      172800 IN	AAAA	2a01:5b0:4::4
+anyc2.irondns.net.			      172800 IN	A	195.253.64.7
+anyc2.irondns.net.			      172800 IN	AAAA	2a01:5b0:4::7
 tld.isc-sns.net.			      172800 IN	A	63.243.194.3
 tld.isc-sns.net.			      172800 IN	AAAA	2001:5a0:10::3
 ns0.ja.net.				      172800 IN	A	128.86.1.20
@@ -2092,6 +2098,7 @@ ms-ns.anycast.pch.net.			      172800 IN	A	204.61.216.33
 mt-ns.anycast.pch.net.			      172800 IN	A	204.61.216.45
 mv-ns.anycast.pch.net.			      172800 IN	A	204.61.216.24
 na-ns.anycast.pch.net.			      172800 IN	A	204.61.216.35
+na-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6035:ad::1
 np-ns.anycast.pch.net.			      172800 IN	A	204.61.216.11
 pr-ns.anycast.pch.net.			      172800 IN	A	204.61.216.23
 ps-ns.anycast.pch.net.			      172800 IN	A	204.61.216.29
@@ -3347,7 +3354,7 @@ xn--fzc2c9e2c.				      86400 IN NSEC	xn--g6w251d. NS RRSIG NSEC
 xn--g6w251d.				      172800 IN	NS	a.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	b.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	c.iana-servers.net.
-xn--g6w251d.				      86400 IN NSEC	xn--gecrj9c. NS DS RRSIG NSEC
+xn--g6w251d.				      86400 IN NSEC	xn--gecrj9c. NS RRSIG NSEC
 xn--gecrj9c.				      172800 IN	NS	a0.cctld.afilias-nst.info.
 xn--gecrj9c.				      172800 IN	NS	a1.in.afilias-nst.in.
 xn--gecrj9c.				      172800 IN	NS	a2.in.afilias-nst.info.
