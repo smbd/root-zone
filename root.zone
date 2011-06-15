@@ -1,5 +1,5 @@
-.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011061501 1800 900 604800 86400
-.					      86400 IN RRSIG	SOA 8 0 86400 20110623000000 20110615230000 34525 . d4BnzYz9pivSk2SDtmC8WZUmBF41Lc5zZ87vqQ5shljz2Fioemfgw/VY Nbbwzdf78XOcMyRHFObwaa55esiLnXRtuAOcNkfeXKZ/CxnpJIo6s3xH WqhFXoY9ybBOlPdLoQxewjHD3nejBhlhAavnKY26dYKwarYBpZVXbCmP rLo=
+.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011061601 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20110623000000 20110615230000 34525 . o7dWf8GPIG/pBbnGJC5sej3869nt7+ezt6rWH2C/WqPB+30JPH/upcTJ sOndI1yyd6937OaQ1iFG1kuSUNxUOaQsOFUKFEkY5ynpzyc0bPjcR/1i mj4RVyaLoS0I1ROldT7rZcsiylK6LsezNmvsGPO1v7AOKdU1Gr/BTgIj TAA=
 .					      518400 IN	NS	a.root-servers.net.
 .					      518400 IN	NS	b.root-servers.net.
 .					      518400 IN	NS	c.root-servers.net.
@@ -1991,23 +1991,16 @@ mo.					      172800 IN	NS	a.monic.mo.
 mo.					      172800 IN	NS	b.monic.mo.
 mo.					      172800 IN	NS	c.monic.mo.
 mo.					      172800 IN	NS	d.monic.mo.
+mo.					      172800 IN	NS	e.monic.mo.
 mo.					      172800 IN	NS	ns2.cuhk.edu.hk.
-mo.					      172800 IN	NS	umacsn1.umac.mo.
-mo.					      172800 IN	NS	umacsn2.umac.mo.
-mo.					      172800 IN	NS	umacss1.umac.mo.
-mo.					      172800 IN	NS	umacss2.umac.mo.
-mo.					      172800 IN	NS	umacss3.umac.mo.
+mo.					      172800 IN	NS	ns17.cdns.net.
 mo.					      86400 IN NSEC	mobi. NS RRSIG NSEC
 mo.					      86400 IN RRSIG	NSEC 8 1 86400 20110623000000 20110615230000 34525 . lFKoOye9C8EHvdPUeiKGGw6rIoaHRqDnNObSI++kD+fHE4cZUUytnF/N 3CcOgCMrY9ZV8PNWix+DoDD4ZvvV6v4/oACLfLX1cT0fYUoYOm4Z8scQ Eco7nrdaHEiQ7vmX4ikNrwpYEE4YfIqdxZGM9HXLK7qts25TLaKaE2qj xvs=
 a.monic.mo.				      172800 IN	A	202.175.87.47
 b.monic.mo.				      172800 IN	A	202.175.87.48
 c.monic.mo.				      172800 IN	A	202.175.87.49
 d.monic.mo.				      172800 IN	A	202.175.51.115
-umacsn1.umac.mo.			      172800 IN	A	161.64.3.1
-umacsn2.umac.mo.			      172800 IN	A	161.64.3.2
-umacss1.umac.mo.			      172800 IN	A	161.64.7.1
-umacss2.umac.mo.			      172800 IN	A	161.64.7.2
-umacss3.umac.mo.			      172800 IN	A	161.64.7.3
+e.monic.mo.				      172800 IN	A	202.175.51.116
 mobi.					      172800 IN	NS	a0.mobi.afilias-nst.info.
 mobi.					      172800 IN	NS	a2.mobi.afilias-nst.info.
 mobi.					      172800 IN	NS	b0.mobi.afilias-nst.org.
@@ -2227,6 +2220,8 @@ ns2.bahnhof.net.			      172800 IN	A	212.85.64.4
 ns1.barbadosdomain.net.			      172800 IN	A	200.50.92.195
 ns2.barbadosdomain.net.			      172800 IN	A	204.212.242.113
 nsa.cctldmd.net.			      172800 IN	A	217.26.144.5
+ns17.cdns.net.				      172800 IN	A	194.0.1.17
+ns17.cdns.net.				      172800 IN	AAAA	2001:678:4::11
 ns7.cdns.net.				      172800 IN	A	194.0.1.7
 ns7.cdns.net.				      172800 IN	AAAA	2001:678:4::7
 ns1.centralnic.net.			      172800 IN	A	89.151.83.36
@@ -3595,7 +3590,7 @@ uz.					      86400 IN RRSIG	NSEC 8 1 86400 20110623000000 20110615230000 34525 
 ns.uz.					      172800 IN	A	91.212.89.8
 ns2.uz.					      172800 IN	A	81.95.224.158
 ns3.uz.					      172800 IN	A	195.158.1.22
-ns4.uz.					      172800 IN	A	87.139.124.237
+ns4.uz.					      172800 IN	A	87.139.46.51
 ns5.uz.					      172800 IN	A	217.12.81.129
 ns6.uz.					      172800 IN	A	83.69.129.4
 va.					      172800 IN	NS	dns.nic.it.
