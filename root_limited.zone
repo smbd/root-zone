@@ -2054,7 +2054,7 @@ b.iana-servers.net.			      172800 IN	A	199.43.133.53
 b.iana-servers.net.			      172800 IN	AAAA	2001:500:8d::53
 c.iana-servers.net.			      172800 IN	A	139.91.1.10
 c.iana-servers.net.			      172800 IN	AAAA	2001:648:2c30::1:10
-test-ns.iana-servers.net.		      172800 IN	AAAA	2001:4900:1:393::44
+test-ns.iana-servers.net.		      172800 IN	AAAA	2001:4900:1:393::45
 anyc1.irondns.net.			      172800 IN	A	195.253.64.4
 anyc1.irondns.net.			      172800 IN	AAAA	2a01:5b0:4::4
 anyc2.irondns.net.			      172800 IN	A	195.253.64.7
@@ -3349,7 +3349,7 @@ xn--fzc2c9e2c.				      86400 IN NSEC	xn--g6w251d. NS RRSIG NSEC
 xn--g6w251d.				      172800 IN	NS	a.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	b.iana-servers.net.
 xn--g6w251d.				      172800 IN	NS	c.iana-servers.net.
-xn--g6w251d.				      86400 IN NSEC	xn--gecrj9c. NS RRSIG NSEC
+xn--g6w251d.				      86400 IN NSEC	xn--gecrj9c. NS DS RRSIG NSEC
 xn--gecrj9c.				      172800 IN	NS	a0.cctld.afilias-nst.info.
 xn--gecrj9c.				      172800 IN	NS	a1.in.afilias-nst.in.
 xn--gecrj9c.				      172800 IN	NS	a2.in.afilias-nst.info.
