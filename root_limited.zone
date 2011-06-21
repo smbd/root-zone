@@ -746,6 +746,7 @@ do.					      172800 IN	NS	ns.nic.do.
 do.					      172800 IN	NS	ns3.nic.mx.
 do.					      172800 IN	NS	do-dns.nic.pr.
 do.					      172800 IN	NS	phloem.uoregon.edu.
+do.					      172800 IN	NS	sns-pb.isc.org.
 do.					      172800 IN	NS	server1.pucmm.edu.do.
 do.					      86400 IN NSEC	dz. NS RRSIG NSEC
 server1.pucmm.edu.do.			      172800 IN	A	66.98.65.147
