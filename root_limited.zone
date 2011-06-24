@@ -123,8 +123,8 @@ ao.					      172800 IN	NS	ns-ext.vix.com.
 ao.					      172800 IN	NS	phobos.fccn.pt.
 ao.					      86400 IN NSEC	aq. NS RRSIG NSEC
 aq.					      172800 IN	NS	ns1.dns.aq.
+aq.					      172800 IN	NS	fork.sth.dnsnode.net.
 aq.					      172800 IN	NS	ns99.dns.net.nz.
-aq.					      172800 IN	NS	slave1.sth.netnod.se.
 aq.					      172800 IN	NS	sns-pb.isc.org.
 aq.					      86400 IN NSEC	ar. NS RRSIG NSEC
 ns1.dns.aq.				      172800 IN	A	203.119.56.132
@@ -823,6 +823,7 @@ es.					      172800 IN	NS	sns-pb.isc.org.
 es.					      86400 IN NSEC	et. NS RRSIG NSEC
 ns1.cesca.es.				      172800 IN	A	84.88.0.3
 a.nic.es.				      172800 IN	A	194.69.254.1
+a.nic.es.				      172800 IN	AAAA	2001:67c:21cc:2000::64:41
 f.nic.es.				      172800 IN	A	130.206.1.2
 f.nic.es.				      172800 IN	AAAA	2001:720:418:caf1::2
 n3ns.nic.es.				      172800 IN	A	194.69.254.42
@@ -2754,7 +2755,6 @@ se.					      172800 IN	NS	h.ns.se.
 se.					      172800 IN	NS	i.ns.se.
 se.					      172800 IN	NS	j.ns.se.
 se.					      86400 IN NSEC	sg. NS DS RRSIG NSEC
-slave1.sth.netnod.se.			      172800 IN	A	192.36.144.116
 a.ns.se.				      172800 IN	A	192.36.144.107
 a.ns.se.				      172800 IN	AAAA	2a01:3f0:0:301::53
 b.ns.se.				      172800 IN	A	192.36.133.107
