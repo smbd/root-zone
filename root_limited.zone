@@ -1877,13 +1877,15 @@ name.					      172800 IN	NS	k6.nstld.com.
 name.					      172800 IN	NS	l6.nstld.com.
 name.					      172800 IN	NS	m6.nstld.com.
 name.					      86400 IN NSEC	nc. NS RRSIG NSEC
-nc.					      172800 IN	NS	ns1.ird.fr.
+nc.					      172800 IN	NS	ns1.nc.
+nc.					      172800 IN	NS	ns2.nc.
 nc.					      172800 IN	NS	ns-nc.ripe.net.
-nc.					      172800 IN	NS	python.opt.nc.
-nc.					      172800 IN	NS	triton.opt.nc.
+nc.					      172800 IN	NS	any-ns1.nc.
 nc.					      86400 IN NSEC	ne. NS RRSIG NSEC
-python.opt.nc.				      172800 IN	A	202.87.129.43
-triton.opt.nc.				      172800 IN	A	202.87.129.60
+any-ns1.nc.				      172800 IN	A	114.69.222.1
+any-ns1.nc.				      172800 IN	AAAA	2001:500:14:8000:7245:de00:0:1
+ns1.nc.					      172800 IN	A	202.87.129.16
+ns2.nc.					      172800 IN	A	202.87.129.17
 ne.					      172800 IN	NS	ns.intnet.ne.
 ne.					      172800 IN	NS	bow.rain.fr.
 ne.					      172800 IN	NS	ns-ne.ripe.net.
@@ -2194,6 +2196,7 @@ ns-mt.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:136
 ns-mu.ripe.net.				      172800 IN	A	193.0.12.140
 ns-mw.ripe.net.				      172800 IN	A	193.0.12.132
 ns-nc.ripe.net.				      172800 IN	A	193.0.12.157
+ns-nc.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:157
 ns-ne.ripe.net.				      172800 IN	A	193.0.12.160
 ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
