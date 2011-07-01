@@ -591,6 +591,10 @@ com.					      86400 IN NSEC	coop. NS DS RRSIG NSEC
 bcn1.adamsnames.com.			      172800 IN	A	217.147.94.75
 chc1.adamsnames.com.			      172800 IN	A	195.153.6.27
 qew1.adamsnames.com.			      172800 IN	A	82.68.90.198
+ns.blacknightsolutions.com.		      172800 IN	A	217.114.173.6
+ns.blacknightsolutions.com.		      172800 IN	AAAA	2a01:a8:fe00::2
+ns2.blacknightsolutions.com.		      172800 IN	A	82.96.97.64
+ns2.blacknightsolutions.com.		      172800 IN	AAAA	2001:1bc0:ab:3::2
 uucp-gw-1.pa.dec.com.			      172800 IN	A	204.123.2.18
 uucp-gw-2.pa.dec.com.			      172800 IN	A	204.123.2.19
 austin.gh.com.				      172800 IN	A	196.3.64.1
@@ -748,13 +752,12 @@ p.nic.dk.				      172800 IN	AAAA	2001:500:14:6036:ad::1
 s.nic.dk.				      172800 IN	A	77.72.229.252
 s.nic.dk.				      172800 IN	AAAA	2a01:3f0:0:303::53
 ns4.tele.dk.				      172800 IN	A	195.41.46.78
-dm.					      172800 IN	NS	ns.cx-nic.org.nz.
 dm.					      172800 IN	NS	ns.anycast.nic.dm.
-dm.					      172800 IN	NS	ns1.nic.dm.
+dm.					      172800 IN	NS	ns.blacknightsolutions.com.
 dm.					      172800 IN	NS	ns2.nic.dm.
+dm.					      172800 IN	NS	ns2.blacknightsolutions.com.
 dm.					      86400 IN NSEC	do. NS RRSIG NSEC
 ns.anycast.nic.dm.			      172800 IN	A	204.61.216.18
-ns1.nic.dm.				      172800 IN	A	208.0.224.114
 ns2.nic.dm.				      172800 IN	A	208.0.224.115
 do.					      172800 IN	NS	ns.nic.do.
 do.					      172800 IN	NS	ns3.nic.mx.
@@ -1926,8 +1929,8 @@ ns1.admin.net.				      172800 IN	A	198.73.186.1
 ns2.admin.net.				      172800 IN	A	67.202.107.93
 ns3.admin.net.				      172800 IN	A	87.98.180.44
 ns4.admin.net.				      172800 IN	A	202.190.180.244
-ns2.afrinic.net.			      172800 IN	A	196.216.168.10
-ns2.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::10
+ns-tz.afrinic.net.			      172800 IN	A	196.216.168.20
+ns-tz.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::20
 dns2.gt.amnetdatos.net.			      172800 IN	A	200.30.145.4
 ns-cdn.amnic.net.			      172800 IN	A	194.0.1.26
 ns-cdn.amnic.net.			      172800 IN	AAAA	2001:678:4::1a
@@ -2434,7 +2437,6 @@ ns6.dns.net.nz.				      172800 IN	AAAA	2001:502:2eda::14
 ns7.dns.net.nz.				      172800 IN	A	194.146.106.54
 ns7.dns.net.nz.				      172800 IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.			      172800 IN	A	202.46.191.130
-ns.cx-nic.org.nz.			      172800 IN	A	203.119.12.245
 om.					      172800 IN	NS	ns.icann.org.
 om.					      172800 IN	NS	om14.omantel.net.om.
 om.					      172800 IN	NS	om16.omantel.net.om.
@@ -3103,12 +3105,13 @@ h.dns.tw.				      172800 IN	A	203.119.3.1
 tz.					      172800 IN	NS	d.ext.nic.cz.
 tz.					      172800 IN	NS	ns.anycast.co.tz.
 tz.					      172800 IN	NS	ns2.tznic.or.tz.
-tz.					      172800 IN	NS	ns2.afrinic.net.
 tz.					      172800 IN	NS	rip.psg.com.
+tz.					      172800 IN	NS	ns-tz.afrinic.net.
 tz.					      172800 IN	NS	sunic.sunet.se.
 tz.					      172800 IN	NS	sns-pb.isc.org.
 tz.					      86400 IN NSEC	ua. NS RRSIG NSEC
 ns.anycast.co.tz.			      172800 IN	A	204.61.216.15
+ns.anycast.co.tz.			      172800 IN	AAAA	2001:500:14:6015:ad::1
 ns2.tznic.or.tz.			      172800 IN	A	196.216.162.67
 ns2.tznic.or.tz.			      172800 IN	AAAA	2001:43f8:e0:1::67
 ua.					      172800 IN	NS	cd1.ns.ua.
