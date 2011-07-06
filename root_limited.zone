@@ -2041,9 +2041,9 @@ tl1.dyntld.net.				      172800 IN	A	208.78.70.78
 tl2.dyntld.net.				      172800 IN	A	204.13.250.78
 tl3.dyntld.net.				      172800 IN	A	208.78.71.78
 tl4.dyntld.net.				      172800 IN	A	204.13.251.78
-a.edu-servers.net.			      172800 IN	A	192.5.6.36
-c.edu-servers.net.			      172800 IN	A	192.26.92.36
-d.edu-servers.net.			      172800 IN	A	192.31.80.36
+a.edu-servers.net.			      172800 IN	A	192.5.6.30
+c.edu-servers.net.			      172800 IN	A	192.26.92.30
+d.edu-servers.net.			      172800 IN	A	192.31.80.30
 f.edu-servers.net.			      172800 IN	A	192.35.51.36
 g.edu-servers.net.			      172800 IN	A	192.42.93.36
 g.edu-servers.net.			      172800 IN	AAAA	2001:503:cc2c::2:36
