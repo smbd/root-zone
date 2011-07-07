@@ -257,9 +257,8 @@ bd.					      86400 IN NSEC	be. NS RRSIG NSEC
 dns.bd.					      172800 IN	A	209.58.24.3
 jamuna.btcl.net.bd.			      172800 IN	A	203.112.194.231
 surma.btcl.net.bd.			      172800 IN	A	203.112.194.232
-be.					      172800 IN	NS	a.ns.dns.be.
-be.					      172800 IN	NS	b.ns.dns.be.
 be.					      172800 IN	NS	c.ns.dns.be.
+be.					      172800 IN	NS	m.ns.dns.be.
 be.					      172800 IN	NS	x.dns.be.
 be.					      172800 IN	NS	london.ns.dns.be.
 be.					      172800 IN	NS	prague.ns.dns.be.
@@ -268,13 +267,12 @@ be.					      172800 IN	NS	amsterdam.ns.dns.be.
 be.					      86400 IN NSEC	bf. NS DS RRSIG NSEC
 l.eu.dns.be.				      172800 IN	A	193.2.221.60
 l.eu.dns.be.				      172800 IN	AAAA	2001:1470:8000:100::1
-a.ns.dns.be.				      172800 IN	A	193.109.126.140
 amsterdam.ns.dns.be.			      172800 IN	A	91.200.16.101
-b.ns.dns.be.				      172800 IN	A	193.109.126.12
 brussels.ns.dns.be.			      172800 IN	A	193.190.135.4
 brussels.ns.dns.be.			      172800 IN	AAAA	2001:6a8:3c60::be
 c.ns.dns.be.				      172800 IN	A	195.22.139.135
 london.ns.dns.be.			      172800 IN	A	195.66.241.90
+m.ns.dns.be.				      172800 IN	A	194.0.6.1
 prague.ns.dns.be.			      172800 IN	A	195.47.235.138
 x.dns.be.				      172800 IN	A	194.0.1.10
 x.dns.be.				      172800 IN	AAAA	2001:678:4::a
@@ -3127,6 +3125,7 @@ az.hostmaster.net.ua.			      172800 IN	A	217.12.194.26
 cd1.ns.ua.				      172800 IN	A	194.0.1.9
 cd1.ns.ua.				      172800 IN	AAAA	2001:678:4::9
 he1.ns.ua.				      172800 IN	A	216.218.215.27
+he1.ns.ua.				      172800 IN	AAAA	2001:470:2e:1::27
 ho1.ns.ua.				      172800 IN	A	195.47.253.1
 ho1.ns.ua.				      172800 IN	AAAA	2001:67c:258::1
 pch.ns.ua.				      172800 IN	A	204.61.216.12
