@@ -2041,10 +2041,10 @@ tl4.dyntld.net.				      172800 IN	A	204.13.251.78
 a.edu-servers.net.			      172800 IN	A	192.5.6.30
 c.edu-servers.net.			      172800 IN	A	192.26.92.30
 d.edu-servers.net.			      172800 IN	A	192.31.80.30
-f.edu-servers.net.			      172800 IN	A	192.35.51.36
-g.edu-servers.net.			      172800 IN	A	192.42.93.36
+f.edu-servers.net.			      172800 IN	A	192.35.51.30
+g.edu-servers.net.			      172800 IN	A	192.42.93.30
 g.edu-servers.net.			      172800 IN	AAAA	2001:503:cc2c::2:36
-l.edu-servers.net.			      172800 IN	A	192.41.162.36
+l.edu-servers.net.			      172800 IN	A	192.41.162.30
 ns3.ns.esat.net.			      172800 IN	A	192.111.39.100
 ns3.ns.esat.net.			      172800 IN	AAAA	2001:7c8:2:a::64
 ns2.free.net.				      172800 IN	A	193.233.1.67
