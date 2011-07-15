@@ -1512,7 +1512,7 @@ kz.					      172800 IN	NS	ns.nursat.net.
 kz.					      172800 IN	NS	ns-kz.ripe.net.
 kz.					      172800 IN	NS	auth00.ns.uu.net.
 kz.					      86400 IN NSEC	la. NS RRSIG NSEC
-ns.nic.kz.				      172800 IN	A	75.126.233.106
+ns.nic.kz.				      172800 IN	A	194.0.21.5
 la.					      172800 IN	NS	ns1.centralnic.net.
 la.					      172800 IN	NS	ns2.centralnic.net.
 la.					      172800 IN	NS	ns3.centralnic.net.
