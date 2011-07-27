@@ -1315,6 +1315,7 @@ io.					      172800 IN	NS	ns3.icb.co.uk.
 io.					      86400 IN NSEC	iq. NS DS RRSIG NSEC
 a.nic.io.				      172800 IN	A	64.251.31.179
 b.nic.io.				      172800 IN	A	194.0.2.1
+b.nic.io.				      172800 IN	AAAA	2001:678:5::1
 iq.					      172800 IN	NS	a.dns-server.iq.
 iq.					      172800 IN	NS	b.dns-server.iq.
 iq.					      172800 IN	NS	c.dns-server.iq.
@@ -2102,8 +2103,8 @@ ns1-mq.mediaserv.net.			      172800 IN	A	213.16.20.3
 ns5.msk-ix.net.				      172800 IN	A	193.232.128.6
 ns5.msk-ix.net.				      172800 IN	AAAA	2001:678:17:0:193:232:128:6
 server.nordu.net.			      172800 IN	A	193.10.252.19
-a.ns13.net.				      172800 IN	A	202.181.97.168
-b.ns13.net.				      172800 IN	A	202.181.96.60
+a.ns13.net.				      172800 IN	A	49.212.31.192
+b.ns13.net.				      172800 IN	A	49.212.51.85
 ns.nursat.net.				      172800 IN	A	195.82.0.1
 cl-ns.anycast.pch.net.			      172800 IN	A	204.61.216.30
 cl-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6030:ad::1
