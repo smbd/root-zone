@@ -177,7 +177,8 @@ at.					      172800 IN	NS	ns2.univie.ac.at.
 at.					      172800 IN	NS	ns9.univie.ac.at.
 at.					      172800 IN	NS	ns-uk.nic.at.
 at.					      86400 IN NSEC	au. NS RRSIG NSEC
-ns1.univie.ac.at.			      172800 IN	A	193.171.255.2
+ns1.univie.ac.at.			      172800 IN	A	78.104.144.2
+ns1.univie.ac.at.			      172800 IN	AAAA	2001:628:2030:4301::2
 ns2.univie.ac.at.			      172800 IN	A	192.92.125.2
 ns2.univie.ac.at.			      172800 IN	AAAA	2001:678:1c::2
 ns5.univie.ac.at.			      172800 IN	A	193.171.255.77
