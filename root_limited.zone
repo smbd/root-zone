@@ -1021,7 +1021,7 @@ gl.					      172800 IN	NS	gl1.dyntld.net.
 gl.					      172800 IN	NS	gl2.dyntld.net.
 gl.					      172800 IN	NS	gl3.dyntld.net.
 gl.					      172800 IN	NS	gl4.dyntld.net.
-gl.					      86400 IN NSEC	gm. NS RRSIG NSEC
+gl.					      86400 IN NSEC	gm. NS DS RRSIG NSEC
 b.nic.gl.				      172800 IN	A	91.221.196.228
 d.nic.gl.				      172800 IN	A	204.61.216.49
 d.nic.gl.				      172800 IN	AAAA	2001:500:14:6049:ad::1
