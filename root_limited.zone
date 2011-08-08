@@ -1897,6 +1897,7 @@ nc.					      172800 IN	NS	ns1.nc.
 nc.					      172800 IN	NS	ns2.nc.
 nc.					      172800 IN	NS	ns-nc.ripe.net.
 nc.					      172800 IN	NS	any-ns1.nc.
+nc.					      172800 IN	NS	censvrns0001.ird.fr.
 nc.					      86400 IN NSEC	ne. NS DS RRSIG NSEC
 any-ns1.nc.				      172800 IN	A	114.69.222.1
 any-ns1.nc.				      172800 IN	AAAA	2001:500:14:8000:7245:de00:0:1
