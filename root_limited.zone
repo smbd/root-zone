@@ -1706,12 +1706,13 @@ eur1.nipr.mil.				      172800 IN	A	199.252.154.234
 eur2.nipr.mil.				      172800 IN	A	199.252.143.234
 pac1.nipr.mil.				      172800 IN	A	199.252.180.234
 pac2.nipr.mil.				      172800 IN	A	199.252.155.234
-mk.					      172800 IN	NS	ns1.arnes.si.
+mk.					      172800 IN	NS	ns2.arnes.si.
 mk.					      172800 IN	NS	ns5.univie.ac.at.
 mk.					      172800 IN	NS	rip.psg.com.
 mk.					      172800 IN	NS	kitka.marnet.net.mk.
 mk.					      86400 IN NSEC	ml. NS RRSIG NSEC
 kitka.marnet.net.mk.			      172800 IN	A	194.149.131.2
+kitka.marnet.net.mk.			      172800 IN	AAAA	2a02:e48:0:3::2
 ml.					      172800 IN	NS	askia.sotelma.ml.
 ml.					      172800 IN	NS	dogon.sotelma.ml.
 ml.					      172800 IN	NS	ns-ml.ripe.net.
@@ -2814,7 +2815,6 @@ si.					      172800 IN	NS	ns8.arnes.si.
 si.					      172800 IN	NS	ns9.arnes.si.
 si.					      172800 IN	NS	sss.arnes.si.
 si.					      86400 IN NSEC	sj. NS RRSIG NSEC
-ns1.arnes.si.				      172800 IN	A	193.2.1.86
 ns2.arnes.si.				      172800 IN	A	193.2.1.91
 ns2.arnes.si.				      172800 IN	AAAA	2001:1470:8000::91
 ns8.arnes.si.				      172800 IN	A	194.0.1.20
