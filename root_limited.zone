@@ -257,7 +257,6 @@ bd.					      86400 IN NSEC	be. NS RRSIG NSEC
 dns.bd.					      172800 IN	A	209.58.24.3
 jamuna.btcl.net.bd.			      172800 IN	A	203.112.194.231
 surma.btcl.net.bd.			      172800 IN	A	203.112.194.232
-be.					      172800 IN	NS	c.ns.dns.be.
 be.					      172800 IN	NS	m.ns.dns.be.
 be.					      172800 IN	NS	x.dns.be.
 be.					      172800 IN	NS	london.ns.dns.be.
@@ -270,7 +269,6 @@ l.eu.dns.be.				      172800 IN	AAAA	2001:1470:8000:100::1
 amsterdam.ns.dns.be.			      172800 IN	A	91.200.16.101
 brussels.ns.dns.be.			      172800 IN	A	193.190.135.4
 brussels.ns.dns.be.			      172800 IN	AAAA	2001:6a8:3c60::be
-c.ns.dns.be.				      172800 IN	A	195.22.139.135
 london.ns.dns.be.			      172800 IN	A	195.66.241.90
 m.ns.dns.be.				      172800 IN	A	194.0.6.1
 prague.ns.dns.be.			      172800 IN	A	195.47.235.138
@@ -305,6 +303,7 @@ bi.					      172800 IN	NS	ns.nic.bi.
 bi.					      172800 IN	NS	dns.princeton.edu.
 bi.					      172800 IN	NS	ns1.nic.bi.
 bi.					      172800 IN	NS	ns-bi.ripe.net.
+bi.					      172800 IN	NS	ns-bi.afrinic.net.
 bi.					      172800 IN	NS	sunic.sunet.se.
 bi.					      86400 IN NSEC	biz. NS RRSIG NSEC
 ns.nic.bi.				      172800 IN	A	196.2.8.205
@@ -1930,6 +1929,8 @@ ns1.admin.net.				      172800 IN	A	198.73.186.1
 ns2.admin.net.				      172800 IN	A	67.202.107.93
 ns3.admin.net.				      172800 IN	A	87.98.180.44
 ns4.admin.net.				      172800 IN	A	202.190.180.244
+ns-bi.afrinic.net.			      172800 IN	A	196.216.168.23
+ns-bi.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::23
 ns-tz.afrinic.net.			      172800 IN	A	196.216.168.20
 ns-tz.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::20
 dns2.gt.amnetdatos.net.			      172800 IN	A	200.30.145.4
@@ -2139,10 +2140,11 @@ hk-ns.pch.net.				      172800 IN	A	204.61.216.46
 nic.lk-anycast.pch.net.			      172800 IN	A	204.61.216.27
 nf-ns.pch.net.				      172800 IN	A	204.61.216.51
 nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
-ns1.pch.net.				      172800 IN	A	206.220.231.1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
+tt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.50
+tt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::50
 sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
 sec2.authdns.ripe.net.			      172800 IN	AAAA	2001:67c:e0::4
 ns.ripe.net.				      172800 IN	A	193.0.0.193
@@ -3057,21 +3059,13 @@ d.gtld.travel.				      172800 IN	A	156.154.103.1
 d.gtld.travel.				      172800 IN	AAAA	2001:502:2eda::1
 e.gtld.travel.				      172800 IN	A	156.154.104.1
 f.gtld.travel.				      172800 IN	A	156.154.105.1
+tt.					      172800 IN	NS	tt.cctld.authdns.ripe.net.
 tt.					      172800 IN	NS	ns0.nic.tt.
-tt.					      172800 IN	NS	ns1.nic.tt.
-tt.					      172800 IN	NS	ns1.pch.net.
-tt.					      172800 IN	NS	ns2.nic.tt.
-tt.					      172800 IN	NS	ns3.nic.tt.
-tt.					      172800 IN	NS	ns4.nic.tt.
-tt.					      172800 IN	NS	ns5.nic.tt.
+tt.					      172800 IN	NS	ns3.nic.mx.
 tt.					      172800 IN	NS	anyns.pch.net.
+tt.					      172800 IN	NS	sns-pb.isc.org.
 tt.					      86400 IN NSEC	tv. NS RRSIG NSEC
 ns0.nic.tt.				      172800 IN	A	156.154.100.17
-ns1.nic.tt.				      172800 IN	A	156.154.101.17
-ns2.nic.tt.				      172800 IN	A	156.154.102.17
-ns3.nic.tt.				      172800 IN	A	156.154.103.17
-ns4.nic.tt.				      172800 IN	A	156.154.104.17
-ns5.nic.tt.				      172800 IN	A	156.154.105.17
 tv.					      172800 IN	NS	a5.nstld.com.
 tv.					      172800 IN	NS	c5.nstld.com.
 tv.					      172800 IN	NS	d5.nstld.com.
