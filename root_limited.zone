@@ -214,6 +214,8 @@ l.au.					      172800 IN	A	156.154.100.18
 l.au.					      172800 IN	AAAA	2001:502:ad09::18
 m.au.					      172800 IN	A	156.154.101.18
 n.au.					      172800 IN	A	156.154.102.18
+ns1.ausregistry.net.au.			      172800 IN	A	202.65.12.73
+ns2.ausregistry.net.au.			      172800 IN	A	202.65.13.73
 o.au.					      172800 IN	A	156.154.103.18
 o.au.					      172800 IN	AAAA	2001:502:2eda::18
 munnari.oz.au.				      172800 IN	A	202.29.151.3
@@ -302,10 +304,13 @@ ns4.batelco.com.bh.			      172800 IN	A	193.188.97.209
 bi.					      172800 IN	NS	ns.nic.bi.
 bi.					      172800 IN	NS	dns.princeton.edu.
 bi.					      172800 IN	NS	ns1.nic.bi.
+bi.					      172800 IN	NS	anyns.nic.bi.
 bi.					      172800 IN	NS	ns-bi.ripe.net.
 bi.					      172800 IN	NS	ns-bi.afrinic.net.
 bi.					      172800 IN	NS	sunic.sunet.se.
 bi.					      86400 IN NSEC	biz. NS RRSIG NSEC
+anyns.nic.bi.				      172800 IN	A	204.61.216.61
+anyns.nic.bi.				      172800 IN	AAAA	2001:500:14:6061:ad::1
 ns.nic.bi.				      172800 IN	A	196.2.8.205
 ns1.nic.bi.				      172800 IN	A	196.2.12.205
 biz.					      172800 IN	NS	a.gtld.biz.
@@ -2143,6 +2148,8 @@ nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
+qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
+qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
 tt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.50
 tt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::50
 sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
@@ -2659,15 +2666,20 @@ py.					      172800 IN	NS	merapi.switch.ch.
 py.					      86400 IN NSEC	qa. NS RRSIG NSEC
 ns.cnc.una.py.				      172800 IN	A	200.10.228.132
 sce.cnc.una.py.				      172800 IN	A	200.10.228.133
+qa.					      172800 IN	NS	qa.cctld.authdns.ripe.net.
 qa.					      172800 IN	NS	ns1.qatar.net.qa.
+qa.					      172800 IN	NS	ns1.registry.qa.
+qa.					      172800 IN	NS	ns1.ausregistry.net.au.
 qa.					      172800 IN	NS	ns2.qatar.net.qa.
+qa.					      172800 IN	NS	ns2.registry.qa.
+qa.					      172800 IN	NS	ns2.ausregistry.net.au.
 qa.					      172800 IN	NS	ns3.qatar.net.qa.
 qa.					      86400 IN NSEC	re. NS RRSIG NSEC
 ns1.qatar.net.qa.			      172800 IN	A	212.77.192.10
 ns2.qatar.net.qa.			      172800 IN	A	212.77.192.13
 ns3.qatar.net.qa.			      172800 IN	A	212.77.192.15
-ans0.qaregistry.qa.			      172800 IN	A	178.23.18.5
-ans1.qaregistry.qa.			      172800 IN	A	178.23.18.6
+ns1.registry.qa.			      172800 IN	A	178.23.16.104
+ns2.registry.qa.			      172800 IN	A	178.23.17.104
 re.					      172800 IN	NS	a.nic.fr.
 re.					      172800 IN	NS	c.nic.fr.
 re.					      172800 IN	NS	d.ext.nic.fr.
@@ -3491,10 +3503,14 @@ xn--wgbh1c.				      172800 IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns3.dotmasr.eg.
 xn--wgbh1c.				      86400 IN NSEC	xn--wgbl6a. NS RRSIG NSEC
+xn--wgbl6a.				      172800 IN	NS	qa.cctld.authdns.ripe.net.
 xn--wgbl6a.				      172800 IN	NS	ns1.qatar.net.qa.
+xn--wgbl6a.				      172800 IN	NS	ns1.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	ns1.ausregistry.net.au.
 xn--wgbl6a.				      172800 IN	NS	ns2.qatar.net.qa.
-xn--wgbl6a.				      172800 IN	NS	ans0.qaregistry.qa.
-xn--wgbl6a.				      172800 IN	NS	ans1.qaregistry.qa.
+xn--wgbl6a.				      172800 IN	NS	ns2.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	ns2.ausregistry.net.au.
+xn--wgbl6a.				      172800 IN	NS	ns3.qatar.net.qa.
 xn--wgbl6a.				      86400 IN NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
 xn--xkc2al3hye2a.			      172800 IN	NS	lk.communitydns.net.
 xn--xkc2al3hye2a.			      172800 IN	NS	nic.lk-anycast.pch.net.
