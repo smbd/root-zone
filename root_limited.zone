@@ -196,11 +196,6 @@ r.nic.at.				      172800 IN	AAAA	2001:67c:1bc::10
 au.					      172800 IN	NS	a.au.
 au.					      172800 IN	NS	b.au.
 au.					      172800 IN	NS	h.au.
-au.					      172800 IN	NS	l.au.
-au.					      172800 IN	NS	m.au.
-au.					      172800 IN	NS	n.au.
-au.					      172800 IN	NS	o.au.
-au.					      172800 IN	NS	p.au.
 au.					      172800 IN	NS	r.au.
 au.					      172800 IN	NS	s.au.
 au.					      172800 IN	NS	u.au.
@@ -210,16 +205,9 @@ a.au.					      172800 IN	A	58.65.254.73
 b.au.					      172800 IN	A	58.65.253.73
 yarrina.connect.com.au.			      172800 IN	A	192.189.54.17
 h.au.					      172800 IN	A	202.65.13.73
-l.au.					      172800 IN	A	156.154.100.18
-l.au.					      172800 IN	AAAA	2001:502:ad09::18
-m.au.					      172800 IN	A	156.154.101.18
-n.au.					      172800 IN	A	156.154.102.18
 ns1.ausregistry.net.au.			      172800 IN	A	202.65.12.73
 ns2.ausregistry.net.au.			      172800 IN	A	202.65.13.73
-o.au.					      172800 IN	A	156.154.103.18
-o.au.					      172800 IN	AAAA	2001:502:2eda::18
 munnari.oz.au.				      172800 IN	A	202.29.151.3
-p.au.					      172800 IN	A	156.154.104.18
 r.au.					      172800 IN	A	128.32.136.3
 r.au.					      172800 IN	AAAA	2607:f140:ffff:fffe::3
 s.au.					      172800 IN	A	128.32.136.14
@@ -1819,7 +1807,7 @@ museum.					      172800 IN	NS	ns.icann.org.
 museum.					      172800 IN	NS	nic.museum.
 museum.					      172800 IN	NS	ns5.knipp.de.
 museum.					      172800 IN	NS	anyc1.irondns.net.
-museum.					      172800 IN	NS	ns-ext.vix.com.
+museum.					      172800 IN	NS	sns-pb.isc.org.
 museum.					      86400 IN NSEC	mv. NS DS RRSIG NSEC
 nic.museum.				      172800 IN	A	130.242.24.5
 mv.					      172800 IN	NS	ns.dhivehinet.net.mv.
