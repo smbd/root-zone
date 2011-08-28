@@ -2835,7 +2835,7 @@ sk.					      172800 IN	NS	ns.sk-nic.sk.
 sk.					      172800 IN	NS	ns1.sk-nic.sk.
 sk.					      172800 IN	NS	ns3.sk-nic.sk.
 sk.					      172800 IN	NS	sunic.sunet.se.
-sk.					      172800 IN	NS	ns-ext.vix.com.
+sk.					      172800 IN	NS	sns-pb.isc.org.
 sk.					      86400 IN NSEC	sl. NS RRSIG NSEC
 ns.eunet.sk.				      172800 IN	A	217.75.73.242
 ns.sk-nic.sk.				      172800 IN	A	195.12.159.2
