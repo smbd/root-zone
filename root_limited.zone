@@ -1237,8 +1237,8 @@ in.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 in.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 in.					      172800 IN	NS	ns7.cdns.net.
 in.					      86400 IN NSEC	info. NS DS RRSIG NSEC
-a1.in.afilias-nst.in.			      172800 IN	A	203.119.49.201
-b1.in.afilias-nst.in.			      172800 IN	A	203.119.50.201
+a1.in.afilias-nst.in.			      172800 IN	A	220.226.100.30
+b1.in.afilias-nst.in.			      172800 IN	A	125.19.40.90
 info.					      172800 IN	NS	a0.info.afilias-nst.info.
 info.					      172800 IN	NS	a2.info.afilias-nst.info.
 info.					      172800 IN	NS	b0.info.afilias-nst.org.
@@ -1952,7 +1952,7 @@ ns7.cdns.net.				      172800 IN	AAAA	2001:678:4::7
 ns1.centralnic.net.			      172800 IN	A	89.151.83.36
 ns2.centralnic.net.			      172800 IN	A	72.3.240.16
 ns3.centralnic.net.			      172800 IN	A	62.197.40.234
-ns4.centralnic.net.			      172800 IN	A	194.169.218.16
+ns4.centralnic.net.			      172800 IN	A	89.151.83.34
 ns5.centralnic.net.			      172800 IN	A	217.151.106.82
 ns5.centralnic.net.			      172800 IN	AAAA	2001:ac8:2:1::20
 ns6.centralnic.net.			      172800 IN	A	194.0.2.2
@@ -2138,8 +2138,6 @@ sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
-tt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.50
-tt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::50
 sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
 sec2.authdns.ripe.net.			      172800 IN	AAAA	2001:67c:e0::4
 ns.ripe.net.				      172800 IN	A	193.0.0.193
@@ -3059,13 +3057,17 @@ d.gtld.travel.				      172800 IN	A	156.154.103.1
 d.gtld.travel.				      172800 IN	AAAA	2001:502:2eda::1
 e.gtld.travel.				      172800 IN	A	156.154.104.1
 f.gtld.travel.				      172800 IN	A	156.154.105.1
-tt.					      172800 IN	NS	tt.cctld.authdns.ripe.net.
 tt.					      172800 IN	NS	ns0.nic.tt.
 tt.					      172800 IN	NS	ns3.nic.mx.
-tt.					      172800 IN	NS	anyns.pch.net.
+tt.					      172800 IN	NS	pch.nic.tt.
+tt.					      172800 IN	NS	ripe.nic.tt.
 tt.					      172800 IN	NS	sns-pb.isc.org.
 tt.					      86400 IN NSEC	tv. NS RRSIG NSEC
 ns0.nic.tt.				      172800 IN	A	156.154.100.17
+pch.nic.tt.				      172800 IN	A	204.61.216.63
+pch.nic.tt.				      172800 IN	AAAA	2001:500:14:6063:ad::1
+ripe.nic.tt.				      172800 IN	A	193.0.9.50
+ripe.nic.tt.				      172800 IN	AAAA	2001:67c:e0::50
 tv.					      172800 IN	NS	a5.nstld.com.
 tv.					      172800 IN	NS	c5.nstld.com.
 tv.					      172800 IN	NS	d5.nstld.com.
@@ -3130,11 +3132,9 @@ ya1.ns.ua.				      172800 IN	A	77.88.210.88
 ya1.ns.ua.				      172800 IN	AAAA	2a01:758:ffff::88
 ug.					      172800 IN	NS	ns.icann.org.
 ug.					      172800 IN	NS	web.eahd.or.ug.
-ug.					      172800 IN	NS	demon.mtn.co.ug.
 ug.					      172800 IN	NS	ns-ug.ripe.net.
-ug.					      172800 IN	NS	ns-ext.vix.com.
+ug.					      172800 IN	NS	ns-ext.isc.org.
 ug.					      86400 IN NSEC	uk. NS RRSIG NSEC
-demon.mtn.co.ug.			      172800 IN	A	212.88.97.20
 web.eahd.or.ug.				      172800 IN	A	216.104.202.101
 uk.					      172800 IN	NS	ns1.nic.uk.
 uk.					      172800 IN	NS	ns2.nic.uk.
