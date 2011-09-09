@@ -1111,13 +1111,12 @@ gy.					      86400 IN NSEC	hk. NS RRSIG NSEC
 ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
 hk.					      172800 IN	NS	b.dns.tw.
+hk.					      172800 IN	NS	z.hkirc.net.hk.
 hk.					      172800 IN	NS	ns1.hkirc.net.hk.
 hk.					      172800 IN	NS	ns2.cuhk.edu.hk.
 hk.					      172800 IN	NS	ns2.hkirc.net.hk.
-hk.					      172800 IN	NS	ns3.cuhk.edu.hk.
 hk.					      172800 IN	NS	sec3.apnic.net.
 hk.					      172800 IN	NS	adns1.berkeley.edu.
-hk.					      172800 IN	NS	adns2.berkeley.edu.
 hk.					      172800 IN	NS	hk-ns.pch.net.
 hk.					      86400 IN NSEC	hm. NS RRSIG NSEC
 ns2.cuhk.edu.hk.			      172800 IN	A	137.189.6.21
@@ -1125,6 +1124,8 @@ ns2.cuhk.edu.hk.			      172800 IN	AAAA	2405:3000:3:60::21
 ns3.cuhk.edu.hk.			      172800 IN	A	202.45.188.39
 ns1.hkirc.net.hk.			      172800 IN	A	203.119.2.18
 ns2.hkirc.net.hk.			      172800 IN	A	203.119.2.19
+z.hkirc.net.hk.				      172800 IN	A	194.146.106.70
+z.hkirc.net.hk.				      172800 IN	AAAA	2001:67c:1010:17::53
 hm.					      172800 IN	NS	ns1.registry.hm.
 hm.					      172800 IN	NS	ns2.registry.hm.
 hm.					      172800 IN	NS	ns3.registry.hm.
