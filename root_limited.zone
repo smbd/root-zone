@@ -1023,7 +1023,7 @@ gm.					      172800 IN	NS	ns1.asap-asp.net.
 gm.					      172800 IN	NS	ns2.nic.gm.
 gm.					      86400 IN NSEC	gn. NS RRSIG NSEC
 ns1.nic.gm.				      172800 IN	A	194.63.250.217
-ns2.nic.gm.				      172800 IN	A	212.60.72.93
+ns2.nic.gm.				      172800 IN	A	212.60.81.100
 gn.					      172800 IN	NS	ns1.dns.aq.
 gn.					      172800 IN	NS	rip.psg.com.
 gn.					      172800 IN	NS	hippo.ru.ac.za.
