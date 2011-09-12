@@ -196,6 +196,11 @@ r.nic.at.				      172800 IN	AAAA	2001:67c:1bc::10
 au.					      172800 IN	NS	a.au.
 au.					      172800 IN	NS	b.au.
 au.					      172800 IN	NS	h.au.
+au.					      172800 IN	NS	l.au.
+au.					      172800 IN	NS	m.au.
+au.					      172800 IN	NS	n.au.
+au.					      172800 IN	NS	o.au.
+au.					      172800 IN	NS	p.au.
 au.					      172800 IN	NS	r.au.
 au.					      172800 IN	NS	s.au.
 au.					      172800 IN	NS	u.au.
@@ -205,9 +210,15 @@ a.au.					      172800 IN	A	58.65.254.73
 b.au.					      172800 IN	A	58.65.253.73
 yarrina.connect.com.au.			      172800 IN	A	192.189.54.17
 h.au.					      172800 IN	A	202.65.13.73
+l.au.					      172800 IN	A	209.112.113.34
+l.au.					      172800 IN	AAAA	2001:500:856e::6:34
+m.au.					      172800 IN	A	209.112.114.34
+n.au.					      172800 IN	A	69.36.145.34
 ns1.ausregistry.net.au.			      172800 IN	A	202.65.12.73
 ns2.ausregistry.net.au.			      172800 IN	A	202.65.13.73
+o.au.					      172800 IN	A	69.36.146.34
 munnari.oz.au.				      172800 IN	A	202.29.151.3
+p.au.					      172800 IN	A	72.13.46.34
 r.au.					      172800 IN	A	128.32.136.3
 r.au.					      172800 IN	AAAA	2607:f140:ffff:fffe::3
 s.au.					      172800 IN	A	128.32.136.14
