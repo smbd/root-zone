@@ -2692,7 +2692,7 @@ re.					      86400 IN NSEC	ro. NS DS RRSIG NSEC
 ro.					      172800 IN	NS	ns.uu.net.
 ro.					      172800 IN	NS	dns-at.rotld.ro.
 ro.					      172800 IN	NS	dns-ro.denic.de.
-ro.					      172800 IN	NS	ns-ext.vix.com.
+ro.					      172800 IN	NS	ns-ext.isc.org.
 ro.					      172800 IN	NS	primary.rotld.ro.
 ro.					      172800 IN	NS	secondary.rotld.ro.
 ro.					      86400 IN NSEC	rs. NS RRSIG NSEC
