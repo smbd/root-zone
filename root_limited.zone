@@ -1630,6 +1630,7 @@ ns5.dns.lu.				      172800 IN	A	81.91.161.100
 lv.					      172800 IN	NS	a.nic.lv.
 lv.					      172800 IN	NS	b.nic.lv.
 lv.					      172800 IN	NS	c.nic.lv.
+lv.					      172800 IN	NS	d.nic.lv.
 lv.					      172800 IN	NS	lt.nic.lv.
 lv.					      172800 IN	NS	ns-lv.ripe.net.
 lv.					      172800 IN	NS	sunic.sunet.se.
@@ -1639,6 +1640,8 @@ a.nic.lv.				      172800 IN	AAAA	2a02:500:4400:700::4
 b.nic.lv.				      172800 IN	A	92.240.70.1
 c.nic.lv.				      172800 IN	A	194.0.1.24
 c.nic.lv.				      172800 IN	AAAA	2001:678:4::18
+d.nic.lv.				      172800 IN	A	194.0.8.1
+d.nic.lv.				      172800 IN	AAAA	2001:678:b:1::1
 lt.nic.lv.				      172800 IN	A	83.171.8.137
 ly.					      172800 IN	NS	dns.lttnet.net.
 ly.					      172800 IN	NS	dns1.lttnet.net.
@@ -2584,7 +2587,6 @@ h-dns.pl.				      172800 IN	A	194.0.1.2
 h-dns.pl.				      172800 IN	AAAA	2001:678:4::2
 i-dns.pl.				      172800 IN	A	156.154.100.15
 arwena.nask.waw.pl.			      172800 IN	A	193.59.201.28
-pm.					      172800 IN	NS	a.nic.fr.
 pm.					      172800 IN	NS	c.nic.fr.
 pm.					      172800 IN	NS	d.ext.nic.fr.
 pm.					      172800 IN	NS	d.nic.fr.
@@ -2681,7 +2683,6 @@ ns2.qatar.net.qa.			      172800 IN	A	212.77.192.13
 ns3.qatar.net.qa.			      172800 IN	A	212.77.192.15
 ns1.registry.qa.			      172800 IN	A	178.23.16.104
 ns2.registry.qa.			      172800 IN	A	178.23.17.104
-re.					      172800 IN	NS	a.nic.fr.
 re.					      172800 IN	NS	c.nic.fr.
 re.					      172800 IN	NS	d.ext.nic.fr.
 re.					      172800 IN	NS	d.nic.fr.
@@ -2951,7 +2952,6 @@ f.dns.nic.tel.				      172800 IN	A	199.7.67.1
 f.dns.nic.tel.				      172800 IN	AAAA	2001:502:100e::1
 g.dns.nic.tel.				      172800 IN	A	192.100.59.11
 h.dns.nic.tel.				      172800 IN	A	198.133.199.11
-tf.					      172800 IN	NS	a.nic.fr.
 tf.					      172800 IN	NS	c.nic.fr.
 tf.					      172800 IN	NS	d.ext.nic.fr.
 tf.					      172800 IN	NS	d.nic.fr.
@@ -3284,7 +3284,6 @@ efate.vanuatu.com.vu.			      172800 IN	A	202.80.32.5
 futuna.vanuatu.com.vu.			      172800 IN	A	202.80.32.3
 maringo.vanuatu.com.vu.			      172800 IN	A	125.255.96.208
 santo.vanuatu.com.vu.			      172800 IN	A	202.80.32.7
-wf.					      172800 IN	NS	a.nic.fr.
 wf.					      172800 IN	NS	c.nic.fr.
 wf.					      172800 IN	NS	d.ext.nic.fr.
 wf.					      172800 IN	NS	d.nic.fr.
@@ -3564,7 +3563,6 @@ ns1.yemen.net.ye.			      172800 IN	A	65.162.184.33
 ns2.yemen.net.ye.			      172800 IN	A	65.162.184.34
 sah1.ye.				      172800 IN	A	195.94.0.34
 sah2.ye.				      172800 IN	A	195.94.0.35
-yt.					      172800 IN	NS	a.nic.fr.
 yt.					      172800 IN	NS	c.nic.fr.
 yt.					      172800 IN	NS	d.ext.nic.fr.
 yt.					      172800 IN	NS	d.nic.fr.
