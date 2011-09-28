@@ -931,7 +931,6 @@ fo.					      172800 IN	NS	copenhagen.nic.fo.
 fo.					      86400 IN NSEC	fr. NS RRSIG NSEC
 copenhagen.nic.fo.			      172800 IN	A	193.163.102.12
 frankfurt.nic.fo.			      172800 IN	A	81.91.161.88
-fr.					      172800 IN	NS	a.nic.fr.
 fr.					      172800 IN	NS	c.nic.fr.
 fr.					      172800 IN	NS	d.ext.nic.fr.
 fr.					      172800 IN	NS	d.nic.fr.
@@ -942,8 +941,6 @@ fr.					      86400 IN NSEC	ga. NS DS RRSIG NSEC
 dns.inria.fr.				      172800 IN	A	193.51.208.13
 censvrns0001.ird.fr.			      172800 IN	A	91.203.32.147
 ns1.ird.fr.				      172800 IN	A	193.50.53.3
-a.nic.fr.				      172800 IN	A	192.93.0.129
-a.nic.fr.				      172800 IN	AAAA	2001:660:3005:3::1:1
 c.nic.fr.				      172800 IN	A	192.134.0.129
 c.nic.fr.				      172800 IN	AAAA	2001:660:3006:4::1:1
 d.nic.fr.				      172800 IN	A	194.0.9.1
@@ -1135,7 +1132,8 @@ ns2.cuhk.edu.hk.			      172800 IN	A	137.189.6.21
 ns2.cuhk.edu.hk.			      172800 IN	AAAA	2405:3000:3:60::21
 ns3.cuhk.edu.hk.			      172800 IN	A	202.45.188.39
 ns1.hkirc.net.hk.			      172800 IN	A	203.119.2.18
-ns2.hkirc.net.hk.			      172800 IN	A	203.119.2.19
+ns2.hkirc.net.hk.			      172800 IN	A	203.119.87.19
+ns2.hkirc.net.hk.			      172800 IN	AAAA	2001:dca:1000::cb77:5713
 z.hkirc.net.hk.				      172800 IN	A	194.146.106.70
 z.hkirc.net.hk.				      172800 IN	AAAA	2001:67c:1010:17::53
 hm.					      172800 IN	NS	ns1.registry.hm.
@@ -2156,6 +2154,8 @@ sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
+ug.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.52
+ug.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::52
 sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
 sec2.authdns.ripe.net.			      172800 IN	AAAA	2001:67c:e0::4
 ns.ripe.net.				      172800 IN	A	193.0.0.193
@@ -2256,8 +2256,6 @@ ns-tp.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:250
 ns-tr.ripe.net.				      172800 IN	A	193.0.12.227
 ns-ua.ripe.net.				      172800 IN	A	193.0.12.232
 ns-ua.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:232
-ns-ug.ripe.net.				      172800 IN	A	193.0.12.231
-ns-ug.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:231
 ns-uy.ripe.net.				      172800 IN	A	193.0.12.237
 ns-va.ripe.net.				      172800 IN	A	193.0.12.98
 ns-va.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:98
@@ -3146,11 +3144,14 @@ pch.ns.ua.				      172800 IN	AAAA	2001:500:14:6012:ad::1
 ya1.ns.ua.				      172800 IN	A	77.88.210.88
 ya1.ns.ua.				      172800 IN	AAAA	2a01:758:ffff::88
 ug.					      172800 IN	NS	ns.icann.org.
-ug.					      172800 IN	NS	web.eahd.or.ug.
-ug.					      172800 IN	NS	ns-ug.ripe.net.
+ug.					      172800 IN	NS	ug.cctld.authdns.ripe.net.
+ug.					      172800 IN	NS	root.eahd.or.ug.
 ug.					      172800 IN	NS	ns-ext.isc.org.
+ug.					      172800 IN	NS	anycast.eahd.or.ug.
 ug.					      86400 IN NSEC	uk. NS RRSIG NSEC
-web.eahd.or.ug.				      172800 IN	A	216.104.202.101
+anycast.eahd.or.ug.			      172800 IN	A	204.61.216.60
+anycast.eahd.or.ug.			      172800 IN	AAAA	2001:500:14:6060:ad::1
+root.eahd.or.ug.			      172800 IN	A	212.88.97.132
 uk.					      172800 IN	NS	ns1.nic.uk.
 uk.					      172800 IN	NS	ns2.nic.uk.
 uk.					      172800 IN	NS	ns3.nic.uk.
