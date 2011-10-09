@@ -659,12 +659,12 @@ cr.					      172800 IN	NS	ns-ext.nic.cl.
 cr.					      86400 IN NSEC	cu. NS RRSIG NSEC
 ns.cr.					      172800 IN	A	163.178.8.2
 ns.ucr.cr.				      172800 IN	A	163.178.8.3
+cu.					      172800 IN	NS	cu.cctld.authdns.ripe.net.
 cu.					      172800 IN	NS	ns.dns.br.
 cu.					      172800 IN	NS	ns.ceniai.net.cu.
 cu.					      172800 IN	NS	ns2.gip.net.
 cu.					      172800 IN	NS	ns2.ceniai.net.cu.
 cu.					      172800 IN	NS	rip.psg.com.
-cu.					      172800 IN	NS	ns-cu.ripe.net.
 cu.					      86400 IN NSEC	cv. NS RRSIG NSEC
 ns.ceniai.net.cu.			      172800 IN	A	169.158.128.136
 ns.ceniai.net.cu.			      172800 IN	AAAA	2001:1340:1:128::136
@@ -1339,9 +1339,9 @@ ir.					      172800 IN	NS	ns5.univie.ac.at.
 ir.					      172800 IN	NS	auth02.ns.uu.net.
 ir.					      86400 IN NSEC	is. NS RRSIG NSEC
 ns1.nic.ir.				      172800 IN	A	194.225.70.83
+is.					      172800 IN	NS	is.cctld.authdns.ripe.net.
 is.					      172800 IN	NS	ns4.tele.dk.
 is.					      172800 IN	NS	sab.isnic.is.
-is.					      172800 IN	NS	ns-is.ripe.net.
 is.					      172800 IN	NS	sunic.sunet.se.
 is.					      172800 IN	NS	durinn.rhnet.is.
 is.					      172800 IN	NS	isgate.is.
@@ -1667,8 +1667,8 @@ mc.					      172800 IN	NS	ns-mc.ripe.net.
 mc.					      86400 IN NSEC	md. NS RRSIG NSEC
 ns1.nic.mc.				      172800 IN	A	195.78.19.216
 ns2.nic.mc.				      172800 IN	A	85.31.217.131
+md.					      172800 IN	NS	md.cctld.authdns.ripe.net.
 md.					      172800 IN	NS	nsa.cctldmd.net.
-md.					      172800 IN	NS	ns-md.ripe.net.
 md.					      172800 IN	NS	ns-ext.isc.org.
 md.					      172800 IN	NS	central.dns.md.
 md.					      172800 IN	NS	primary.rotld.ro.
@@ -2152,6 +2152,12 @@ nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
+cu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.70
+cu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::70
+is.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.81
+is.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::81
+md.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.93
+md.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::93
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
 ug.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.52
@@ -2184,8 +2190,6 @@ ns-ci.ripe.net.				      172800 IN	A	193.0.12.56
 ns-ci.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:56
 ns-cr.ripe.net.				      172800 IN	A	193.0.12.55
 ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
-ns-cu.ripe.net.				      172800 IN	A	193.0.12.58
-ns-cu.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:58
 ns-dz.ripe.net.				      172800 IN	A	193.0.12.4
 ns-dz.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:4
 ns-er.ripe.net.				      172800 IN	A	193.0.12.69
@@ -2200,8 +2204,6 @@ ns-gu.ripe.net.				      172800 IN	A	193.0.12.91
 ns-gy.ripe.net.				      172800 IN	A	193.0.12.95
 ns-gy.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:95
 ns-il.ripe.net.				      172800 IN	A	193.0.12.108
-ns-is.ripe.net.				      172800 IN	A	193.0.12.102
-ns-is.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:102
 ns-jm.ripe.net.				      172800 IN	A	193.0.12.110
 ns-jo.ripe.net.				      172800 IN	A	193.0.12.112
 ns-jo.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:112
@@ -2219,7 +2221,6 @@ ns-ly.ripe.net.				      172800 IN	A	193.0.12.125
 ns-ma.ripe.net.				      172800 IN	A	193.0.12.149
 ns-mc.ripe.net.				      172800 IN	A	193.0.12.145
 ns-mc.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:145
-ns-md.ripe.net.				      172800 IN	A	193.0.12.144
 ns-mg.ripe.net.				      172800 IN	A	193.0.12.131
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
 ns-mm.ripe.net.				      172800 IN	A	193.0.12.151
@@ -3071,13 +3072,11 @@ d.gtld.travel.				      172800 IN	A	156.154.103.1
 d.gtld.travel.				      172800 IN	AAAA	2001:502:2eda::1
 e.gtld.travel.				      172800 IN	A	156.154.104.1
 f.gtld.travel.				      172800 IN	A	156.154.105.1
-tt.					      172800 IN	NS	ns0.nic.tt.
 tt.					      172800 IN	NS	ns3.nic.mx.
 tt.					      172800 IN	NS	pch.nic.tt.
 tt.					      172800 IN	NS	ripe.nic.tt.
 tt.					      172800 IN	NS	sns-pb.isc.org.
 tt.					      86400 IN NSEC	tv. NS RRSIG NSEC
-ns0.nic.tt.				      172800 IN	A	156.154.100.17
 pch.nic.tt.				      172800 IN	A	204.61.216.63
 pch.nic.tt.				      172800 IN	AAAA	2001:500:14:6063:ad::1
 ripe.nic.tt.				      172800 IN	A	193.0.9.50
