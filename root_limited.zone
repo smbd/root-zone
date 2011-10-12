@@ -628,7 +628,6 @@ l5.nstld.com.				      172800 IN	A	192.41.162.34
 l6.nstld.com.				      172800 IN	A	192.41.162.35
 m6.nstld.com.				      172800 IN	A	192.55.83.35
 ns1.orangecaraibe.com.			      172800 IN	A	193.251.160.222
-manta.outremer.com.			      172800 IN	A	213.16.1.106
 ns1.pair.com.				      172800 IN	A	209.68.1.11
 kynse01.perimeterusa.com.		      172800 IN	A	216.54.168.26
 kynse02.perimeterusa.com.		      172800 IN	A	216.54.168.27
@@ -1427,7 +1426,7 @@ d.dns.jp.				      172800 IN	A	210.138.175.244
 d.dns.jp.				      172800 IN	AAAA	2001:240::53
 e.dns.jp.				      172800 IN	A	192.50.43.53
 e.dns.jp.				      172800 IN	AAAA	2001:200:c000::35
-f.dns.jp.				      172800 IN	A	150.100.2.3
+f.dns.jp.				      172800 IN	A	150.100.6.8
 f.dns.jp.				      172800 IN	AAAA	2001:2f8:0:100::153
 g.dns.jp.				      172800 IN	A	203.119.40.1
 ke.					      172800 IN	NS	ns.anycast.kenic.or.ke.
@@ -1656,9 +1655,9 @@ dns3.menara.ma.				      172800 IN	A	196.217.246.51
 ns1.iam.net.ma.				      172800 IN	A	212.217.0.10
 ns2.iam.net.ma.				      172800 IN	A	81.192.53.23
 ns3.iam.net.ma.				      172800 IN	A	212.217.1.13
+mc.					      172800 IN	NS	mc.cctld.authdns.ripe.net.
 mc.					      172800 IN	NS	ns1.nic.mc.
 mc.					      172800 IN	NS	ns2.nic.mc.
-mc.					      172800 IN	NS	ns-mc.ripe.net.
 mc.					      86400 IN NSEC	md. NS RRSIG NSEC
 ns1.nic.mc.				      172800 IN	A	195.78.19.216
 ns2.nic.mc.				      172800 IN	A	85.31.217.131
@@ -1776,9 +1775,9 @@ ns1.nic.mp.				      172800 IN	A	202.128.29.2
 ns2.nic.mp.				      172800 IN	A	202.128.29.135
 ns3.nic.mp.				      172800 IN	A	75.101.129.89
 ns4.nic.mp.				      172800 IN	A	75.101.133.101
-mq.					      172800 IN	NS	fado.mediaserv.net.
-mq.					      172800 IN	NS	manta.outremer.com.
-mq.					      172800 IN	NS	biguine.mediaserv.net.
+mq.					      172800 IN	NS	ns1-fr.mediaserv.net.
+mq.					      172800 IN	NS	ns1-gp.mediaserv.net.
+mq.					      172800 IN	NS	ns1-mq.mediaserv.net.
 mq.					      86400 IN NSEC	mr. NS RRSIG NSEC
 mr.					      172800 IN	NS	ns.univ-nkc.mr.
 mr.					      172800 IN	NS	ns3.nic.fr.
@@ -2102,8 +2101,7 @@ kwns.kems.net.				      172800 IN	A	168.187.5.12
 ns1.krnic.net.				      172800 IN	A	202.30.50.51
 dns.lttnet.net.				      172800 IN	A	62.240.36.9
 dns1.lttnet.net.			      172800 IN	A	62.68.42.9
-biguine.mediaserv.net.			      172800 IN	A	213.188.164.16
-fado.mediaserv.net.			      172800 IN	A	213.188.160.10
+ns1-fr.mediaserv.net.			      172800 IN	A	188.165.38.14
 ns1-gp.mediaserv.net.			      172800 IN	A	213.188.172.1
 ns1-mq.mediaserv.net.			      172800 IN	A	213.16.20.3
 ns5.msk-ix.net.				      172800 IN	A	193.232.128.6
@@ -2156,12 +2154,16 @@ is.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.81
 is.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::81
 kz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.87
 kz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::87
+mc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.92
+mc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::92
 md.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.93
 md.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::93
 nc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::100
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
+tj.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.117
+tj.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::117
 to.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.118
 to.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::118
 ug.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.52
@@ -2218,8 +2220,6 @@ ns-lv.ripe.net.				      172800 IN	A	193.0.12.121
 ns-lv.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:121
 ns-ly.ripe.net.				      172800 IN	A	193.0.12.125
 ns-ma.ripe.net.				      172800 IN	A	193.0.12.149
-ns-mc.ripe.net.				      172800 IN	A	193.0.12.145
-ns-mc.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:145
 ns-mg.ripe.net.				      172800 IN	A	193.0.12.131
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
 ns-mm.ripe.net.				      172800 IN	A	193.0.12.151
@@ -2247,8 +2247,6 @@ ns-sy.ripe.net.				      172800 IN	A	193.0.12.215
 ns-sz.ripe.net.				      172800 IN	A	193.0.12.212
 ns-tc.ripe.net.				      172800 IN	A	193.0.12.229
 ns-th.ripe.net.				      172800 IN	A	193.0.12.219
-ns-tj.ripe.net.				      172800 IN	A	193.0.12.217
-ns-tj.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:217
 ns-tp.ripe.net.				      172800 IN	A	193.0.12.250
 ns-tp.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:250
 ns-tr.ripe.net.				      172800 IN	A	193.0.12.227
@@ -2975,9 +2973,9 @@ dns1.thnic.co.th.			      172800 IN	AAAA	2001:3c8:1209:1::22
 ns-a.thnic.co.th.			      172800 IN	A	61.19.242.38
 ns-e.thnic.co.th.			      172800 IN	A	194.0.1.28
 ns-e.thnic.co.th.			      172800 IN	AAAA	2001:678:4::1c
+tj.					      172800 IN	NS	tj.cctld.authdns.ripe.net.
 tj.					      172800 IN	NS	ns1.nic.tj.
 tj.					      172800 IN	NS	ns2.tojikiston.com.
-tj.					      172800 IN	NS	ns-tj.ripe.net.
 tj.					      172800 IN	NS	phloem.uoregon.edu.
 tj.					      86400 IN NSEC	tk. NS RRSIG NSEC
 ns1.nic.tj.				      172800 IN	A	62.122.137.16
