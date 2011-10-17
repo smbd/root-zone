@@ -1,5 +1,5 @@
-.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011101800 1800 900 604800 86400
-.					      86400 IN RRSIG	SOA 8 0 86400 20111025000000 20111017230000 55231 . vB1qK+CzXXE7AQh0V7E/N0xQlShKamwrwnBk/ER+QWB1Ttva9Y4RCItR WlfUvDBA1LhiGUEBCA2mnWZplOoXCyzDjL+yTzds+apS2kRWgzdBhK1L eOhddnxRiNv+epF6rOZDSGBOipGbr8x1V805Uvhwn3srN12e2kAEUJef xkk=
+.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2011101801 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20111025000000 20111017230000 55231 . NW69ww4T8Bl7ah8BnwRL68gSw6/MilkJ4i0CPbChpnQG4UJWtWF0pgtp n02eQcGCA4X4fER5BBNN4DY1tUGIiPVAsMbWH5TXcTqLTwL+MLUtBWov jGzrJDKu5ThXfq5ZQRwddYsF/vA4zGJ7NBKf/7lMVLjkCXMecj7LbKqD t0A=
 .					      518400 IN	NS	a.root-servers.net.
 .					      518400 IN	NS	b.root-servers.net.
 .					      518400 IN	NS	c.root-servers.net.
@@ -2464,6 +2464,8 @@ nc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::100
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
+sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
+sm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::110
 tj.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.117
 tj.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::117
 to.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.118
@@ -2541,8 +2543,6 @@ ns-py.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:172
 ns-sa.ripe.net.				      172800 IN	A	193.0.12.193
 ns-sa.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
-ns-sm.ripe.net.				      172800 IN	A	193.0.12.191
-ns-sm.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:191
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-sy.ripe.net.				      172800 IN	A	193.0.12.215
@@ -2552,8 +2552,6 @@ ns-th.ripe.net.				      172800 IN	A	193.0.12.219
 ns-tp.ripe.net.				      172800 IN	A	193.0.12.250
 ns-tp.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:250
 ns-tr.ripe.net.				      172800 IN	A	193.0.12.227
-ns-ua.ripe.net.				      172800 IN	A	193.0.12.232
-ns-ua.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:232
 ns-uy.ripe.net.				      172800 IN	A	193.0.12.237
 ns-va.ripe.net.				      172800 IN	A	193.0.12.98
 ns-va.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:98
@@ -3225,10 +3223,10 @@ sl.					      172800 IN	NS	ns1.neoip.com.
 sl.					      172800 IN	NS	ns2.neoip.com.
 sl.					      86400 IN NSEC	sm. NS RRSIG NSEC
 sl.					      86400 IN RRSIG	NSEC 8 1 86400 20111025000000 20111017230000 55231 . v894RWLVbfA+DhlnYfh2vHAcWyWZZfR/HMRkjt6f1Ng4MD3t3vIVjFeF V06Ct1noyAZNlNlOgj0XaGOz+43gWEqimkz3/GCaoDwcOMXj2l7zd/2f ywptggMs6ZzkNfGrWqbnI3Aq9s71kNwGAIXu1PXTv0ErzspX4lSS1I98 Q6I=
+sm.					      172800 IN	NS	sm.cctld.authdns.ripe.net.
 sm.					      172800 IN	NS	dns.omniway.sm.
 sm.					      172800 IN	NS	dns.intelcom.sm.
 sm.					      172800 IN	NS	ns3.telecomitalia.sm.
-sm.					      172800 IN	NS	ns-sm.ripe.net.
 sm.					      86400 IN NSEC	sn. NS RRSIG NSEC
 sm.					      86400 IN RRSIG	NSEC 8 1 86400 20111025000000 20111017230000 55231 . jV7RPp+J7ACTKd3zrbLv51RrDjDKprG9+lxDZVOay2k+ZRGmkaVOo4sD 56gpholT7YrQ5Ef7YZMKez6nadhLSp96gIFJMjlV9TWXA8T6paa775hZ OiFl0MD1kZRGgjltJxGE+KwTCyBgyjSOOmytbrxwV8G2qTh2S0XdyW25 ohQ=
 dns.intelcom.sm.			      172800 IN	A	194.183.64.11
@@ -3528,8 +3526,7 @@ ua.					      172800 IN	NS	cd1.ns.ua.
 ua.					      172800 IN	NS	he1.ns.ua.
 ua.					      172800 IN	NS	ho1.ns.ua.
 ua.					      172800 IN	NS	pch.ns.ua.
-ua.					      172800 IN	NS	ya1.ns.ua.
-ua.					      172800 IN	NS	ns-ua.ripe.net.
+ua.					      172800 IN	NS	ripe.ns.ua.
 ua.					      172800 IN	NS	sunic.sunet.se.
 ua.					      172800 IN	NS	sns-pb.isc.org.
 ua.					      86400 IN NSEC	ug. NS RRSIG NSEC
@@ -3543,8 +3540,8 @@ ho1.ns.ua.				      172800 IN	A	195.47.253.1
 ho1.ns.ua.				      172800 IN	AAAA	2001:67c:258::1
 pch.ns.ua.				      172800 IN	A	204.61.216.12
 pch.ns.ua.				      172800 IN	AAAA	2001:500:14:6012:ad::1
-ya1.ns.ua.				      172800 IN	A	77.88.210.88
-ya1.ns.ua.				      172800 IN	AAAA	2a01:758:ffff::88
+ripe.ns.ua.				      172800 IN	A	193.0.9.121
+ripe.ns.ua.				      172800 IN	AAAA	2001:67c:e0::121
 ug.					      172800 IN	NS	ns.icann.org.
 ug.					      172800 IN	NS	ug.cctld.authdns.ripe.net.
 ug.					      172800 IN	NS	root.eahd.or.ug.
@@ -3627,7 +3624,7 @@ uz.					      86400 IN RRSIG	NSEC 8 1 86400 20111025000000 20111017230000 55231 
 ns.uz.					      172800 IN	A	91.212.89.8
 ns2.uz.					      172800 IN	A	81.95.224.158
 ns3.uz.					      172800 IN	A	195.158.1.22
-ns4.uz.					      172800 IN	A	87.139.46.51
+ns4.uz.					      172800 IN	A	87.139.105.60
 ns5.uz.					      172800 IN	A	217.12.81.129
 ns6.uz.					      172800 IN	A	83.69.129.4
 va.					      172800 IN	NS	dns.nic.it.
