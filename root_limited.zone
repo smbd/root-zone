@@ -2181,6 +2181,8 @@ nc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::100
 ph.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::104
+py.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.106
+py.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::106
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
 sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
@@ -2244,8 +2246,6 @@ ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
 ns-ps.ripe.net.				      172800 IN	A	193.0.12.169
-ns-py.ripe.net.				      172800 IN	A	193.0.12.172
-ns-py.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:172
 ns-sa.ripe.net.				      172800 IN	A	193.0.12.193
 ns-sa.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
@@ -2658,9 +2658,9 @@ ns4.registry.pw.			      172800 IN	A	75.125.56.33
 ns4.registry.pw.			      172800 IN	A	75.125.56.249
 py.					      172800 IN	NS	ns.cnc.una.py.
 py.					      172800 IN	NS	ns.dns.br.
+py.					      172800 IN	NS	py.cctld.authdns.ripe.net.
 py.					      172800 IN	NS	ns3.nic.mx.
 py.					      172800 IN	NS	sce.cnc.una.py.
-py.					      172800 IN	NS	ns-py.ripe.net.
 py.					      172800 IN	NS	sunic.sunet.se.
 py.					      172800 IN	NS	auth00.ns.uu.net.
 py.					      172800 IN	NS	merapi.switch.ch.
