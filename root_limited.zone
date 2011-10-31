@@ -1348,6 +1348,7 @@ isgate.is.				      172800 IN	A	193.4.58.51
 sab.isnic.is.				      172800 IN	A	194.146.106.58
 sab.isnic.is.				      172800 IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.			      172800 IN	A	130.208.16.20
+it.					      172800 IN	NS	a.dns.it.
 it.					      172800 IN	NS	c.dns.it.
 it.					      172800 IN	NS	m.dns.it.
 it.					      172800 IN	NS	r.dns.it.
@@ -1358,9 +1359,13 @@ it.					      86400 IN NSEC	je. NS RRSIG NSEC
 ns-al.isti.cnr.it.			      172800 IN	A	194.119.192.3
 ns-al.isti.cnr.it.			      172800 IN	A	194.119.192.4
 nameserver.cnr.it.			      172800 IN	A	194.119.192.34
+nameserver.cnr.it.			      172800 IN	AAAA	2a00:1620:c0:220:194:119:192:34
+a.dns.it.				      172800 IN	A	194.0.16.215
+a.dns.it.				      172800 IN	AAAA	2001:678:12:0:194:0:16:215
 c.dns.it.				      172800 IN	A	194.0.1.22
 c.dns.it.				      172800 IN	AAAA	2001:678:4::16
 m.dns.it.				      172800 IN	A	217.29.76.4
+m.dns.it.				      172800 IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.				      172800 IN	A	193.206.141.46
 r.dns.it.				      172800 IN	AAAA	2001:760:ffff:ffff::ca
 s.dns.it.				      172800 IN	A	194.146.106.30
@@ -2185,6 +2190,8 @@ py.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.106
 py.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::106
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
+sa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.108
+sa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::108
 sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::110
 tc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.115
@@ -2246,8 +2253,6 @@ ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
 ns-ps.ripe.net.				      172800 IN	A	193.0.12.169
-ns-sa.ripe.net.				      172800 IN	A	193.0.12.193
-ns-sa.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
@@ -2737,11 +2742,11 @@ rw.					      172800 IN	NS	dns.dnsafrica.net.
 rw.					      172800 IN	NS	dns.princeton.edu.
 rw.					      172800 IN	NS	sunic.sunet.se.
 rw.					      86400 IN NSEC	sa. NS RRSIG NSEC
+sa.					      172800 IN	NS	sa.cctld.authdns.ripe.net.
 sa.					      172800 IN	NS	ns1.isu.net.sa.
 sa.					      172800 IN	NS	ns1.nic.net.sa.
 sa.					      172800 IN	NS	ns2.nic.net.sa.
 sa.					      172800 IN	NS	rip.psg.com.
-sa.					      172800 IN	NS	ns-sa.ripe.net.
 sa.					      172800 IN	NS	sa-ns.anycast.pch.net.
 sa.					      86400 IN NSEC	sb. NS RRSIG NSEC
 ns1.isu.net.sa.				      172800 IN	A	212.26.18.3
