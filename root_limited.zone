@@ -98,12 +98,10 @@ am.					      172800 IN	NS	ns-cdn.amnic.net.
 am.					      172800 IN	NS	ns-pri.amnic.net.
 am.					      172800 IN	NS	sns-pb.isc.org.
 am.					      86400 IN NSEC	an. NS DS RRSIG NSEC
+an.					      172800 IN	NS	an.cctld.authdns.ripe.net.
 an.					      172800 IN	NS	ns0.ja.net.
 an.					      172800 IN	NS	ns3.cura.net.
-an.					      172800 IN	NS	ns-an.ripe.net.
-an.					      172800 IN	NS	sunic.sunet.se.
 an.					      172800 IN	NS	engine0.una.an.
-an.					      172800 IN	NS	engine1.una.net.
 an.					      172800 IN	NS	engine2.una.an.
 an.					      172800 IN	NS	engine3.una.an.
 an.					      172800 IN	NS	kadushi.curinfo.an.
@@ -942,7 +940,7 @@ ns1.ird.fr.				      172800 IN	A	193.50.53.3
 c.nic.fr.				      172800 IN	A	192.134.0.129
 c.nic.fr.				      172800 IN	AAAA	2001:660:3006:4::1:1
 d.nic.fr.				      172800 IN	A	194.0.9.1
-d.nic.fr.				      172800 IN	AAAA	2001:678:c:1::1
+d.nic.fr.				      172800 IN	AAAA	2001:678:c::1
 d.ext.nic.fr.				      172800 IN	A	192.5.4.2
 d.ext.nic.fr.				      172800 IN	AAAA	2001:500:2e::2
 e.ext.nic.fr.				      172800 IN	A	193.176.144.6
@@ -2152,6 +2150,8 @@ ae.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.54
 ae.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::54
 am.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.57
 am.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::57
+an.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.58
+an.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::58
 ar.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.59
 ar.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::59
 ba.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.60
@@ -2214,7 +2214,6 @@ ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.				      172800 IN	A	193.0.12.3
 ns-al.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:3
-ns-an.ripe.net.				      172800 IN	A	193.0.12.156
 ns-bi.ripe.net.				      172800 IN	A	193.0.12.36
 ns-bi.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:36
 ns-bj.ripe.net.				      172800 IN	A	193.0.12.24
@@ -2314,7 +2313,6 @@ ns1.tosa.twtelecom.net.			      172800 IN	A	204.95.160.2
 tld1.ultradns.net.			      172800 IN	A	204.74.112.1
 tld1.ultradns.net.			      172800 IN	AAAA	2001:502:d399::1
 tld2.ultradns.net.			      172800 IN	A	204.74.113.1
-engine1.una.net.			      172800 IN	A	198.93.177.21
 ns.uu.net.				      172800 IN	A	137.39.1.3
 auth00.ns.uu.net.			      172800 IN	A	198.6.1.65
 auth02.ns.uu.net.			      172800 IN	A	198.6.1.82
