@@ -3098,7 +3098,7 @@ tw.					      172800 IN	NS	f.dns.tw.
 tw.					      172800 IN	NS	g.dns.tw.
 tw.					      172800 IN	NS	h.dns.tw.
 tw.					      172800 IN	NS	ns.twnic.net.
-tw.					      86400 IN NSEC	tz. NS RRSIG NSEC
+tw.					      86400 IN NSEC	tz. NS DS RRSIG NSEC
 a.dns.tw.				      172800 IN	A	203.73.24.8
 a.dns.tw.				      172800 IN	AAAA	2001:cd8:800::8
 b.dns.tw.				      172800 IN	A	210.201.138.58
@@ -3438,13 +3438,13 @@ xn--kprw13d.				      172800 IN	NS	e.dns.tw.
 xn--kprw13d.				      172800 IN	NS	f.dns.tw.
 xn--kprw13d.				      172800 IN	NS	g.dns.tw.
 xn--kprw13d.				      172800 IN	NS	h.dns.tw.
-xn--kprw13d.				      86400 IN NSEC	xn--kpry57d. NS RRSIG NSEC
+xn--kprw13d.				      86400 IN NSEC	xn--kpry57d. NS DS RRSIG NSEC
 xn--kpry57d.				      172800 IN	NS	d.dns.tw.
 xn--kpry57d.				      172800 IN	NS	e.dns.tw.
 xn--kpry57d.				      172800 IN	NS	f.dns.tw.
 xn--kpry57d.				      172800 IN	NS	g.dns.tw.
 xn--kpry57d.				      172800 IN	NS	h.dns.tw.
-xn--kpry57d.				      86400 IN NSEC	xn--lgbbat1ad8j. NS RRSIG NSEC
+xn--kpry57d.				      86400 IN NSEC	xn--lgbbat1ad8j. NS DS RRSIG NSEC
 xn--lgbbat1ad8j.			      172800 IN	NS	idn1.nic.dz.
 xn--lgbbat1ad8j.			      172800 IN	NS	idn2.nic.dz.
 xn--lgbbat1ad8j.			      86400 IN NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
