@@ -430,8 +430,8 @@ ca.					      172800 IN	NS	f.ca-servers.ca.
 ca.					      172800 IN	NS	j.ca-servers.ca.
 ca.					      172800 IN	NS	k.ca-servers.ca.
 ca.					      172800 IN	NS	l.ca-servers.ca.
-ca.					      172800 IN	NS	m.ca-servers.ca.
 ca.					      172800 IN	NS	z.ca-servers.ca.
+ca.					      172800 IN	NS	tld.isc-sns.net.
 ca.					      172800 IN	NS	sns-pb.isc.org.
 ca.					      86400 IN NSEC	cat. NS RRSIG NSEC
 a.ca-servers.ca.			      172800 IN	A	192.228.27.11
@@ -442,7 +442,6 @@ j.ca-servers.ca.			      172800 IN	A	198.182.167.1
 j.ca-servers.ca.			      172800 IN	AAAA	2001:500:83::1
 k.ca-servers.ca.			      172800 IN	A	156.154.100.4
 l.ca-servers.ca.			      172800 IN	A	156.154.101.4
-m.ca-servers.ca.			      172800 IN	A	156.154.102.4
 z.ca-servers.ca.			      172800 IN	A	192.228.25.66
 charles.cdec.polymtl.ca.		      172800 IN	A	132.207.144.2
 cat.					      172800 IN	NS	b.nic.ch.
@@ -586,7 +585,7 @@ com.					      172800 IN	NS	k.gtld-servers.net.
 com.					      172800 IN	NS	l.gtld-servers.net.
 com.					      172800 IN	NS	m.gtld-servers.net.
 com.					      86400 IN NSEC	coop. NS DS RRSIG NSEC
-bcn1.adamsnames.com.			      172800 IN	A	217.147.94.75
+bcn1.adamsnames.com.			      172800 IN	A	89.145.97.75
 chc1.adamsnames.com.			      172800 IN	A	195.153.6.27
 qew1.adamsnames.com.			      172800 IN	A	82.68.90.198
 ns.blacknightsolutions.com.		      172800 IN	A	217.114.173.6
@@ -680,17 +679,16 @@ cx.					      172800 IN	NS	cx4.dyntld.net.
 cx.					      172800 IN	NS	nsa.cx.coccaregistry.net.
 cx.					      86400 IN NSEC	cy. NS RRSIG NSEC
 ns.anycast.nic.cx.			      172800 IN	A	204.61.216.16
-cy.					      172800 IN	NS	ns1.mt.
-cy.					      172800 IN	NS	ns2.cc.ucy.ac.cy.
+cy.					      172800 IN	NS	ns1.ucy.ac.cy.
+cy.					      172800 IN	NS	ns2.ucy.ac.cy.
 cy.					      172800 IN	NS	ns02.savvis.net.
 cy.					      172800 IN	NS	sec3.apnic.net.
-cy.					      172800 IN	NS	zeus.cc.ucy.ac.cy.
 cy.					      172800 IN	NS	cy-ns.anycast.pch.net.
 cy.					      172800 IN	NS	cynic.dns.cy.
 cy.					      172800 IN	NS	estia.ics.forth.gr.
 cy.					      86400 IN NSEC	cz. NS RRSIG NSEC
-ns2.cc.ucy.ac.cy.			      172800 IN	A	194.42.1.5
-zeus.cc.ucy.ac.cy.			      172800 IN	A	194.42.1.1
+ns1.ucy.ac.cy.				      172800 IN	A	194.42.1.50
+ns2.ucy.ac.cy.				      172800 IN	A	194.42.1.55
 cynic.dns.cy.				      172800 IN	A	194.42.29.1
 cz.					      172800 IN	NS	a.ns.nic.cz.
 cz.					      172800 IN	NS	b.ns.nic.cz.
@@ -766,10 +764,10 @@ do.					      172800 IN	NS	server1.pucmm.edu.do.
 do.					      86400 IN NSEC	dz. NS RRSIG NSEC
 server1.pucmm.edu.do.			      172800 IN	A	66.98.65.147
 ns.nic.do.				      172800 IN	A	66.98.65.146
+dz.					      172800 IN	NS	dz.cctld.authdns.ripe.net.
 dz.					      172800 IN	NS	ns1.nic.dz.
 dz.					      172800 IN	NS	ns2.nic.dz.
 dz.					      172800 IN	NS	ns3.nic.fr.
-dz.					      172800 IN	NS	ns-dz.ripe.net.
 dz.					      86400 IN NSEC	ec. NS RRSIG NSEC
 idn1.nic.dz.				      172800 IN	A	193.194.64.243
 idn2.nic.dz.				      172800 IN	A	213.179.160.68
@@ -844,7 +842,6 @@ f.nic.es.				      172800 IN	AAAA	2001:720:418:caf1::2
 n3ns.nic.es.				      172800 IN	A	194.69.254.42
 ad.ns.nic.es.				      172800 IN	A	194.69.254.15
 ns1.nic.es.				      172800 IN	A	194.69.254.1
-ns.pixar.es.				      172800 IN	A	194.143.196.3
 et.					      172800 IN	NS	ns1.telecom.net.et.
 et.					      172800 IN	NS	ns2.telecom.net.et.
 et.					      172800 IN	NS	ns-et.ripe.net.
@@ -974,10 +971,10 @@ gb.					      172800 IN	NS	ns.uu.net.
 gb.					      172800 IN	NS	ns0.ja.net.
 gb.					      172800 IN	NS	ns4.ja.net.
 gb.					      86400 IN NSEC	gd. NS RRSIG NSEC
+gd.					      172800 IN	NS	gd.cctld.authdns.ripe.net.
 gd.					      172800 IN	NS	bcn1.adamsnames.com.
 gd.					      172800 IN	NS	chc1.adamsnames.com.
 gd.					      172800 IN	NS	qew1.adamsnames.com.
-gd.					      172800 IN	NS	ns-gd.ripe.net.
 gd.					      86400 IN NSEC	ge. NS RRSIG NSEC
 ge.					      172800 IN	NS	ns.uu.net.
 ge.					      172800 IN	NS	ns.nic.ge.
@@ -1037,10 +1034,9 @@ gn.					      86400 IN NSEC	gov. NS RRSIG NSEC
 gov.					      172800 IN	NS	a.gov-servers.net.
 gov.					      172800 IN	NS	b.gov-servers.net.
 gov.					      86400 IN NSEC	gp. NS DS RRSIG NSEC
-gp.					      172800 IN	NS	ns.pixar.es.
+gp.					      172800 IN	NS	gp.cctld.authdns.ripe.net.
 gp.					      172800 IN	NS	ns1.nic.gp.
 gp.					      172800 IN	NS	ns1.orangecaraibe.com.
-gp.					      172800 IN	NS	ns-gp.ripe.net.
 gp.					      86400 IN NSEC	gq. NS RRSIG NSEC
 ns1.nic.gp.				      172800 IN	A	193.218.114.2
 gq.					      172800 IN	NS	ns.ucad.sn.
@@ -1909,9 +1905,9 @@ any-ns1.nc.				      172800 IN	A	114.69.222.1
 any-ns1.nc.				      172800 IN	AAAA	2001:500:14:8000:7245:de00:0:1
 ns1.nc.					      172800 IN	A	202.87.129.16
 ns2.nc.					      172800 IN	A	202.87.129.17
+ne.					      172800 IN	NS	ne.cctld.authdns.ripe.net.
 ne.					      172800 IN	NS	ns.intnet.ne.
 ne.					      172800 IN	NS	bow.rain.fr.
-ne.					      172800 IN	NS	ns-ne.ripe.net.
 ne.					      86400 IN NSEC	net. NS RRSIG NSEC
 ns.intnet.ne.				      172800 IN	A	193.251.228.10
 net.					      172800 IN	NS	a.gtld-servers.net.
@@ -2115,6 +2111,7 @@ b.ns13.net.				      172800 IN	A	49.212.51.85
 cl-ns.anycast.pch.net.			      172800 IN	A	204.61.216.30
 cl-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6030:ad::1
 cy-ns.anycast.pch.net.			      172800 IN	A	204.61.216.44
+cy-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6044:ad::1
 gy-ns.anycast.pch.net.			      172800 IN	A	204.61.216.34
 gy-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6034:ad::1
 ht-ns.anycast.pch.net.			      172800 IN	A	204.61.216.38
@@ -2166,6 +2163,12 @@ ci.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.67
 ci.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::67
 cu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::70
+dz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.71
+dz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::71
+gd.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.75
+gd.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::75
+gp.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.76
+gp.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::76
 gu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.78
 gu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::78
 gy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.79
@@ -2190,6 +2193,8 @@ mt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.97
 mt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::97
 nc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::100
+ne.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.101
+ne.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::101
 ph.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::104
 py.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.106
@@ -2230,14 +2235,10 @@ ns-bt.ripe.net.				      172800 IN	A	193.0.12.26
 ns-bt.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:26
 ns-cr.ripe.net.				      172800 IN	A	193.0.12.55
 ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
-ns-dz.ripe.net.				      172800 IN	A	193.0.12.4
-ns-dz.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:4
 ns-er.ripe.net.				      172800 IN	A	193.0.12.69
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-gd.ripe.net.				      172800 IN	A	193.0.12.38
-ns-gp.ripe.net.				      172800 IN	A	193.0.12.90
 ns-gs.ripe.net.				      172800 IN	A	193.0.12.206
 ns-gs.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:206
 ns-il.ripe.net.				      172800 IN	A	193.0.12.108
@@ -2252,7 +2253,6 @@ ns-ma.ripe.net.				      172800 IN	A	193.0.12.149
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
 ns-mu.ripe.net.				      172800 IN	A	193.0.12.140
 ns-mw.ripe.net.				      172800 IN	A	193.0.12.132
-ns-ne.ripe.net.				      172800 IN	A	193.0.12.160
 ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
@@ -3147,7 +3147,7 @@ ug.					      172800 IN	NS	ug.cctld.authdns.ripe.net.
 ug.					      172800 IN	NS	root.eahd.or.ug.
 ug.					      172800 IN	NS	ns-ext.isc.org.
 ug.					      172800 IN	NS	anycast.eahd.or.ug.
-ug.					      86400 IN NSEC	uk. NS RRSIG NSEC
+ug.					      86400 IN NSEC	uk. NS DS RRSIG NSEC
 anycast.eahd.or.ug.			      172800 IN	A	204.61.216.60
 anycast.eahd.or.ug.			      172800 IN	AAAA	2001:500:14:6060:ad::1
 root.eahd.or.ug.			      172800 IN	A	212.88.97.132
