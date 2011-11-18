@@ -215,6 +215,8 @@ ns1.ausregistry.net.au.			      172800 IN	A	202.65.12.73
 ns2.ausregistry.net.au.			      172800 IN	A	202.65.13.73
 o.au.					      172800 IN	A	69.36.146.34
 munnari.oz.au.				      172800 IN	A	202.29.151.3
+munnari.oz.au.				      172800 IN	AAAA	2001:3c8:9007:1::21
+munnari.oz.au.				      172800 IN	AAAA	2001:3c8:9009:181::2
 p.au.					      172800 IN	A	72.13.46.34
 r.au.					      172800 IN	A	128.32.136.3
 r.au.					      172800 IN	AAAA	2607:f140:ffff:fffe::3
@@ -1066,13 +1068,13 @@ gr-us.ics.forth.gr.			      172800 IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 grdns.ics.forth.gr.			      172800 IN	A	139.91.1.1
 grdns-at.ics.forth.gr.			      172800 IN	A	193.171.255.40
 grdns-br.ics.forth.gr.			      172800 IN	A	200.160.7.163
+gs.					      172800 IN	NS	gs.cctld.authdns.ripe.net.
 gs.					      172800 IN	NS	ns.anycast.nic.gs.
 gs.					      172800 IN	NS	gs1.dyntld.net.
 gs.					      172800 IN	NS	gs2.dyntld.net.
 gs.					      172800 IN	NS	gs3.dyntld.net.
 gs.					      172800 IN	NS	gs4.dyntld.net.
 gs.					      172800 IN	NS	nsa.nic.gs.
-gs.					      172800 IN	NS	ns-gs.ripe.net.
 gs.					      86400 IN NSEC	gt. NS RRSIG NSEC
 ns.anycast.nic.gs.			      172800 IN	A	204.61.216.21
 nsa.nic.gs.				      172800 IN	A	203.119.84.244
@@ -1388,13 +1390,15 @@ jm.					      86400 IN NSEC	jo. NS RRSIG NSEC
 ns.utechjamaica.edu.jm.			      172800 IN	A	200.9.115.2
 ns.jm.					      172800 IN	A	196.2.1.6
 ns3-jm.fsl.org.jm.			      172800 IN	A	196.3.191.66
+jo.					      172800 IN	NS	jo.cctld.authdns.ripe.net.
 jo.					      172800 IN	NS	rip.psg.com.
 jo.					      172800 IN	NS	amra.nic.gov.jo.
-jo.					      172800 IN	NS	ns-jo.ripe.net.
 jo.					      172800 IN	NS	petra.nic.gov.jo.
+jo.					      172800 IN	NS	jordan1st.nic.gov.jo.
 jo.					      86400 IN NSEC	jobs. NS RRSIG NSEC
 amra.nic.gov.jo.			      172800 IN	A	193.188.66.103
 amra.nic.gov.jo.			      172800 IN	AAAA	2a02:9c0:0:408::103
+jordan1st.nic.gov.jo.			      172800 IN	A	193.188.69.19
 petra.nic.gov.jo.			      172800 IN	A	193.188.66.2
 petra.nic.gov.jo.			      172800 IN	AAAA	2a02:9c0:0:407::2
 jobs.					      172800 IN	NS	a5.nstld.com.
@@ -2174,12 +2178,16 @@ gd.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.75
 gd.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::75
 gp.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.76
 gp.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::76
+gs.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.77
+gs.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::77
 gu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.78
 gu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::78
 gy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.79
 gy.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::79
 is.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.81
 is.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::81
+jo.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.83
+jo.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::83
 kz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.87
 kz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::87
 lv.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.89
@@ -2210,6 +2218,8 @@ sa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::108
 sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::110
+sy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.113
+sy.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::113
 tc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.115
 tc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::115
 th.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.116
@@ -2243,12 +2253,8 @@ ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-gs.ripe.net.				      172800 IN	A	193.0.12.206
-ns-gs.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:206
 ns-il.ripe.net.				      172800 IN	A	193.0.12.108
 ns-jm.ripe.net.				      172800 IN	A	193.0.12.110
-ns-jo.ripe.net.				      172800 IN	A	193.0.12.112
-ns-jo.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:112
 ns-kg.ripe.net.				      172800 IN	A	193.0.12.119
 ns-kg.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:119
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
@@ -2264,7 +2270,6 @@ ns-ps.ripe.net.				      172800 IN	A	193.0.12.169
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
-ns-sy.ripe.net.				      172800 IN	A	193.0.12.215
 ns-sz.ripe.net.				      172800 IN	A	193.0.12.212
 ns-tp.ripe.net.				      172800 IN	A	193.0.12.250
 ns-tp.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:250
@@ -2919,9 +2924,9 @@ sv.					      172800 IN	NS	ns-sv.ripe.net.
 sv.					      172800 IN	NS	auth02.ns.uu.net.
 sv.					      86400 IN NSEC	sy. NS RRSIG NSEC
 cir.red.sv.				      172800 IN	A	168.243.254.1
+sy.					      172800 IN	NS	sy.cctld.authdns.ripe.net.
 sy.					      172800 IN	NS	ns1.tld.sy.
 sy.					      172800 IN	NS	ns2.tld.sy.
-sy.					      172800 IN	NS	ns-sy.ripe.net.
 sy.					      86400 IN NSEC	sz. NS RRSIG NSEC
 ns1.tld.sy.				      172800 IN	A	82.137.200.85
 ns2.tld.sy.				      172800 IN	A	82.137.192.145
@@ -3460,10 +3465,11 @@ xn--mgbaam7a8h.				      172800 IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	sns-pb.isc.org.
 xn--mgbaam7a8h.				      172800 IN	NS	nsext-pch.aedns.ae.
 xn--mgbaam7a8h.				      86400 IN NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
+xn--mgbayh7gpa.				      172800 IN	NS	jo.cctld.authdns.ripe.net.
 xn--mgbayh7gpa.				      172800 IN	NS	rip.psg.com.
 xn--mgbayh7gpa.				      172800 IN	NS	amra.nic.gov.jo.
-xn--mgbayh7gpa.				      172800 IN	NS	ns-jo.ripe.net.
 xn--mgbayh7gpa.				      172800 IN	NS	petra.nic.gov.jo.
+xn--mgbayh7gpa.				      172800 IN	NS	jordan1st.nic.gov.jo.
 xn--mgbayh7gpa.				      86400 IN NSEC	xn--mgbbh1a71e. NS RRSIG NSEC
 xn--mgbbh1a71e.				      172800 IN	NS	a0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.				      172800 IN	NS	a1.in.afilias-nst.in.
@@ -3488,9 +3494,9 @@ xn--o3cw4h.				      172800 IN	NS	ns.thnic.net.
 xn--o3cw4h.				      172800 IN	NS	dns1.thnic.co.th.
 xn--o3cw4h.				      172800 IN	NS	ns-a.thnic.co.th.
 xn--o3cw4h.				      86400 IN NSEC	xn--ogbpf8fl. NS RRSIG NSEC
+xn--ogbpf8fl.				      172800 IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.				      172800 IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.				      172800 IN	NS	ns2.tld.sy.
-xn--ogbpf8fl.				      172800 IN	NS	ns-sy.ripe.net.
 xn--ogbpf8fl.				      86400 IN NSEC	xn--p1ai. NS RRSIG NSEC
 xn--p1ai.				      172800 IN	NS	e.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	f.dns.ripn.net.
