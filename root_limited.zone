@@ -1210,17 +1210,18 @@ gns2.domainregistry.ie.			      172800 IN	A	198.133.199.103
 b.iedr.ie.				      172800 IN	A	77.72.72.34
 b.iedr.ie.				      172800 IN	AAAA	2a01:4b0::2
 ice.netsource.ie.			      172800 IN	A	212.17.32.2
+il.					      172800 IN	NS	nsa.ns.il.
 il.					      172800 IN	NS	nsb.ns.il.
 il.					      172800 IN	NS	nsd.ns.il.
 il.					      172800 IN	NS	nse.ns.il.
 il.					      172800 IN	NS	dns8.denic.de.
 il.					      172800 IN	NS	ildns.huji.ac.il.
-il.					      172800 IN	NS	ns-il.ripe.net.
 il.					      172800 IN	NS	lookup.iucc.ac.il.
 il.					      172800 IN	NS	sns-pb.isc.org.
 il.					      86400 IN NSEC	im. NS RRSIG NSEC
 ildns.huji.ac.il.			      172800 IN	A	128.139.6.66
 lookup.iucc.ac.il.			      172800 IN	A	128.139.34.240
+nsa.ns.il.				      172800 IN	A	192.115.210.58
 nsb.ns.il.				      172800 IN	A	192.115.210.60
 nsd.ns.il.				      172800 IN	A	149.20.56.132
 nsd.ns.il.				      172800 IN	AAAA	2001:4f8:3:37::11
@@ -1731,7 +1732,7 @@ mm.					      172800 IN	NS	mm.cctld.authdns.ripe.net.
 mm.					      172800 IN	NS	ns0.nic.net.mm.
 mm.					      172800 IN	NS	ns1.nic.net.mm.
 mm.					      172800 IN	NS	ns2.nic.net.mm.
-mm.					      86400 IN NSEC	mn. NS RRSIG NSEC
+mm.					      86400 IN NSEC	mn. NS DS RRSIG NSEC
 ns0.nic.net.mm.				      172800 IN	A	203.81.64.20
 ns1.nic.net.mm.				      172800 IN	A	203.81.81.85
 ns2.nic.net.mm.				      172800 IN	A	203.81.92.10
@@ -2210,6 +2211,8 @@ ne.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::101
 ph.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::104
+ps.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.105
+ps.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::105
 py.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.106
 py.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::106
 qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
@@ -2255,7 +2258,6 @@ ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-il.ripe.net.				      172800 IN	A	193.0.12.108
 ns-jm.ripe.net.				      172800 IN	A	193.0.12.110
 ns-kg.ripe.net.				      172800 IN	A	193.0.12.119
 ns-kg.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:119
@@ -2267,7 +2269,6 @@ ns-mw.ripe.net.				      172800 IN	A	193.0.12.132
 ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
-ns-ps.ripe.net.				      172800 IN	A	193.0.12.169
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
 ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
@@ -2277,6 +2278,8 @@ ns-va.ripe.net.				      172800 IN	A	193.0.12.98
 ns-va.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:98
 ns-vi.ripe.net.				      172800 IN	A	193.0.12.243
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
+d.dns.ripn.net.				      172800 IN	A	194.190.124.17
+d.dns.ripn.net.				      172800 IN	AAAA	2001:678:18:0:194:190:124:17
 e.dns.ripn.net.				      172800 IN	A	193.232.142.17
 e.dns.ripn.net.				      172800 IN	AAAA	2001:678:15:0:193:232:142:17
 f.dns.ripn.net.				      172800 IN	A	193.232.156.17
@@ -2631,11 +2634,11 @@ a.gtld.pro.				      172800 IN	A	192.149.62.10
 b.gtld.pro.				      172800 IN	A	192.149.63.10
 c.gtld.pro.				      172800 IN	A	192.149.64.10
 d.gtld.pro.				      172800 IN	A	192.149.66.10
+ps.					      172800 IN	NS	ps.cctld.authdns.ripe.net.
 ps.					      172800 IN	NS	ns1.pnina.ps.
 ps.					      172800 IN	NS	rip.psg.com.
 ps.					      172800 IN	NS	dns1.gov.ps.
 ps.					      172800 IN	NS	fork.sth.dnsnode.net.
-ps.					      172800 IN	NS	ns-ps.ripe.net.
 ps.					      172800 IN	NS	ps-ns.anycast.pch.net.
 ps.					      86400 IN NSEC	pt. NS RRSIG NSEC
 dns1.gov.ps.				      172800 IN	A	213.244.82.147
@@ -2906,6 +2909,7 @@ st.					      172800 IN	NS	auth61.ns.uu.net.
 st.					      172800 IN	NS	dns-au.st.
 st.					      86400 IN NSEC	su. NS RRSIG NSEC
 dns-au.st.				      172800 IN	A	203.19.59.140
+su.					      172800 IN	NS	d.dns.ripn.net.
 su.					      172800 IN	NS	e.dns.ripn.net.
 su.					      172800 IN	NS	f.dns.ripn.net.
 su.					      172800 IN	NS	ns.ripn.net.
