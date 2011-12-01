@@ -775,6 +775,7 @@ idn1.nic.dz.				      172800 IN	A	193.194.64.243
 idn2.nic.dz.				      172800 IN	A	213.179.160.68
 ns1.nic.dz.				      172800 IN	A	193.194.64.242
 ns2.nic.dz.				      172800 IN	A	213.179.160.66
+ec.					      172800 IN	NS	n2.nic.ec.
 ec.					      172800 IN	NS	dns1.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
 ec.					      172800 IN	NS	dns3.nic.ec.
@@ -785,6 +786,7 @@ dns1.nic.ec.				      172800 IN	A	157.100.1.44
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
 dns3.nic.ec.				      172800 IN	A	200.1.6.51
 dns4.nic.ec.				      172800 IN	A	200.105.231.153
+n2.nic.ec.				      172800 IN	A	200.12.199.1
 edu.					      172800 IN	NS	a.edu-servers.net.
 edu.					      172800 IN	NS	c.edu-servers.net.
 edu.					      172800 IN	NS	d.edu-servers.net.
@@ -1384,7 +1386,6 @@ je.					      86400 IN NSEC	jm. NS RRSIG NSEC
 d.ci-servers.je.			      172800 IN	A	193.201.42.178
 jm.					      172800 IN	NS	ns.jm.
 jm.					      172800 IN	NS	ns.utechjamaica.edu.jm.
-jm.					      172800 IN	NS	ns-jm.ripe.net.
 jm.					      172800 IN	NS	ns3-jm.fsl.org.jm.
 jm.					      172800 IN	NS	phloem.uoregon.edu.
 jm.					      86400 IN NSEC	jo. NS RRSIG NSEC
@@ -2221,8 +2222,12 @@ sa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::108
 sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::110
+sn.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.111
+sn.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::111
 sy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.113
 sy.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::113
+sz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.114
+sz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::114
 tc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.115
 tc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::115
 th.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.116
@@ -2233,6 +2238,8 @@ to.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.118
 to.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::118
 tp.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.119
 tp.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::119
+tr.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.120
+tr.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::120
 ug.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.52
 ug.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::52
 uy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.122
@@ -2258,7 +2265,6 @@ ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-jm.ripe.net.				      172800 IN	A	193.0.12.110
 ns-kg.ripe.net.				      172800 IN	A	193.0.12.119
 ns-kg.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:119
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
@@ -2270,13 +2276,9 @@ ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
 ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
-ns-sn.ripe.net.				      172800 IN	A	193.0.12.195
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
-ns-sz.ripe.net.				      172800 IN	A	193.0.12.212
-ns-tr.ripe.net.				      172800 IN	A	193.0.12.227
 ns-va.ripe.net.				      172800 IN	A	193.0.12.98
 ns-va.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:98
-ns-vi.ripe.net.				      172800 IN	A	193.0.12.243
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
 d.dns.ripn.net.				      172800 IN	A	194.190.124.17
 d.dns.ripn.net.				      172800 IN	AAAA	2001:678:18:0:194:190:124:17
@@ -2885,9 +2887,9 @@ ns3.telecomitalia.sm.			      172800 IN	A	194.0.27.12
 ns3.telecomitalia.sm.			      172800 IN	AAAA	2001:678:28:0:c2:b7:40:12
 sn.					      172800 IN	NS	ns.ucad.sn.
 sn.					      172800 IN	NS	ns.sentoo.sn.
+sn.					      172800 IN	NS	sn.cctld.authdns.ripe.net.
 sn.					      172800 IN	NS	ns1.ird.fr.
 sn.					      172800 IN	NS	ns3.nic.fr.
-sn.					      172800 IN	NS	ns-sn.ripe.net.
 sn.					      86400 IN NSEC	so. NS RRSIG NSEC
 ns.sentoo.sn.				      172800 IN	A	213.154.64.13
 ns.ucad.sn.				      172800 IN	A	196.1.95.1
@@ -2933,9 +2935,9 @@ sy.					      172800 IN	NS	ns2.tld.sy.
 sy.					      86400 IN NSEC	sz. NS RRSIG NSEC
 ns1.tld.sy.				      172800 IN	A	82.137.200.85
 ns2.tld.sy.				      172800 IN	A	82.137.192.145
+sz.					      172800 IN	NS	sz.cctld.authdns.ripe.net.
 sz.					      172800 IN	NS	dns.sispa.org.sz.
 sz.					      172800 IN	NS	rip.psg.com.
-sz.					      172800 IN	NS	ns-sz.ripe.net.
 sz.					      86400 IN NSEC	tc. NS RRSIG NSEC
 dns.sispa.org.sz.			      172800 IN	A	212.85.220.11
 tc.					      172800 IN	NS	tc.cctld.authdns.ripe.net.
@@ -3061,15 +3063,17 @@ tp.					      172800 IN	NS	auth02.ns.uu.net.
 tp.					      172800 IN	NS	uucp-gw-1.pa.dec.com.
 tp.					      172800 IN	NS	uucp-gw-2.pa.dec.com.
 tp.					      86400 IN NSEC	tr. NS RRSIG NSEC
+tr.					      172800 IN	NS	tr.cctld.authdns.ripe.net.
 tr.					      172800 IN	NS	ns1.nic.tr.
 tr.					      172800 IN	NS	ns2.nic.tr.
 tr.					      172800 IN	NS	ns3.nic.tr.
 tr.					      172800 IN	NS	ns4.nic.tr.
 tr.					      172800 IN	NS	ns5.nic.tr.
-tr.					      172800 IN	NS	ns-tr.ripe.net.
 tr.					      86400 IN NSEC	travel. NS RRSIG NSEC
 ns1.nic.tr.				      172800 IN	A	144.122.95.51
+ns1.nic.tr.				      172800 IN	AAAA	2001:a98:30:ad::11
 ns2.nic.tr.				      172800 IN	A	144.122.95.52
+ns2.nic.tr.				      172800 IN	AAAA	2001:a98:30:ad::12
 ns3.nic.tr.				      172800 IN	A	213.248.162.131
 ns4.nic.tr.				      172800 IN	A	193.140.100.200
 ns5.nic.tr.				      172800 IN	A	213.139.255.18
@@ -3274,7 +3278,6 @@ vg.					      86400 IN NSEC	vi. NS RRSIG NSEC
 vi.					      172800 IN	NS	ns1.cobex.net.
 vi.					      172800 IN	NS	ns1.krnic.net.
 vi.					      172800 IN	NS	ns2.cobex.net.
-vi.					      172800 IN	NS	ns-vi.ripe.net.
 vi.					      172800 IN	NS	auth100.ns.uu.net.
 vi.					      172800 IN	NS	auth110.ns.uu.net.
 vi.					      86400 IN NSEC	vn. NS RRSIG NSEC
