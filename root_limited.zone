@@ -948,8 +948,8 @@ e.ext.nic.fr.				      172800 IN	A	193.176.144.6
 e.ext.nic.fr.				      172800 IN	AAAA	2a00:d78:0:102:193:176:144:6
 f.ext.nic.fr.				      172800 IN	A	194.146.106.46
 f.ext.nic.fr.				      172800 IN	AAAA	2001:67c:1010:11::53
-g.ext.nic.fr.				      172800 IN	A	204.61.216.39
-g.ext.nic.fr.				      172800 IN	AAAA	2001:500:14:6039:ad::1
+g.ext.nic.fr.				      172800 IN	A	194.0.36.1
+g.ext.nic.fr.				      172800 IN	AAAA	2001:678:4c::1
 b.hosting.nic.fr.			      172800 IN	A	192.93.0.4
 b.hosting.nic.fr.			      172800 IN	AAAA	2001:660:3005:1::1:2
 ci.hosting.nic.fr.			      172800 IN	A	192.134.0.49
@@ -3505,6 +3505,7 @@ xn--ogbpf8fl.				      172800 IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.				      172800 IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.				      172800 IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.				      86400 IN NSEC	xn--p1ai. NS RRSIG NSEC
+xn--p1ai.				      172800 IN	NS	d.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	e.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	f.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	ns.ripn.net.
