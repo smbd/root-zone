@@ -84,10 +84,10 @@ ai.					      172800 IN	NS	whois.ai.
 ai.					      86400 IN NSEC	al. NS RRSIG NSEC
 ns2.offshore.ai.			      172800 IN	A	208.75.85.241
 whois.ai.				      172800 IN	A	209.59.119.1
+al.					      172800 IN	NS	al.cctld.authdns.ripe.net.
 al.					      172800 IN	NS	ns1.nic.al.
 al.					      172800 IN	NS	rip.psg.com.
 al.					      172800 IN	NS	ns-al.isti.cnr.it.
-al.					      172800 IN	NS	ns-al.ripe.net.
 al.					      172800 IN	NS	sunic.sunet.se.
 al.					      172800 IN	NS	munnari.oz.au.
 al.					      86400 IN NSEC	am. NS RRSIG NSEC
@@ -644,13 +644,13 @@ coop.					      172800 IN	NS	coop2.dyntld.net.
 coop.					      172800 IN	NS	coop3.dyntld.net.
 coop.					      172800 IN	NS	coop4.dyntld.net.
 coop.					      86400 IN NSEC	cr. NS RRSIG NSEC
+cr.					      172800 IN	NS	cr.cctld.authdns.ripe.net.
 cr.					      172800 IN	NS	ns.cr.
 cr.					      172800 IN	NS	ns.ucr.cr.
 cr.					      172800 IN	NS	ns3.nic.mx.
 cr.					      172800 IN	NS	tld.isc-sns.com.
 cr.					      172800 IN	NS	tld.isc-sns.net.
 cr.					      172800 IN	NS	tld.isc-sns.info.
-cr.					      172800 IN	NS	ns-cr.ripe.net.
 cr.					      172800 IN	NS	ns-ext.nic.cl.
 cr.					      86400 IN NSEC	cu. NS RRSIG NSEC
 ns.cr.					      172800 IN	A	163.178.8.2
@@ -1384,6 +1384,7 @@ je.					      172800 IN	NS	ns0.ja.net.
 je.					      172800 IN	NS	ns99.dns.net.nz.
 je.					      86400 IN NSEC	jm. NS RRSIG NSEC
 d.ci-servers.je.			      172800 IN	A	193.201.42.178
+jm.					      172800 IN	NS	jm.cctld.authdns.ripe.net.
 jm.					      172800 IN	NS	ns.jm.
 jm.					      172800 IN	NS	ns.utechjamaica.edu.jm.
 jm.					      172800 IN	NS	ns3-jm.fsl.org.jm.
@@ -2131,6 +2132,7 @@ np-ns.anycast.pch.net.			      172800 IN	A	204.61.216.11
 pr-ns.anycast.pch.net.			      172800 IN	A	204.61.216.23
 pr-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6023:ad::1
 ps-ns.anycast.pch.net.			      172800 IN	A	204.61.216.29
+ps-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6029:ad::1
 sa-ns.anycast.pch.net.			      172800 IN	A	204.61.216.41
 sa-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6041:ad::1
 sb-ns.anycast.pch.net.			      172800 IN	A	204.61.216.31
@@ -2152,6 +2154,8 @@ sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
 ae.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.54
 ae.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::54
+al.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.56
+al.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::56
 am.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.57
 am.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::57
 an.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.58
@@ -2168,6 +2172,8 @@ by.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.66
 by.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::66
 ci.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.67
 ci.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::67
+cr.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.69
+cr.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::69
 cu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::70
 dz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.71
@@ -2186,6 +2192,8 @@ gy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.79
 gy.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::79
 is.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.81
 is.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::81
+jm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.82
+jm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::82
 jo.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.83
 jo.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::83
 kz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.87
@@ -2254,14 +2262,10 @@ ns.ripe.net.				      172800 IN	A	193.0.0.193
 ns-ad.ripe.net.				      172800 IN	A	193.0.12.6
 ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
-ns-al.ripe.net.				      172800 IN	A	193.0.12.3
-ns-al.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:3
 ns-bj.ripe.net.				      172800 IN	A	193.0.12.24
 ns-bn.ripe.net.				      172800 IN	A	193.0.12.33
 ns-bt.ripe.net.				      172800 IN	A	193.0.12.26
 ns-bt.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:26
-ns-cr.ripe.net.				      172800 IN	A	193.0.12.55
-ns-cr.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
@@ -2744,6 +2748,7 @@ i.nic.rs.				      172800 IN	A	192.228.90.19
 j.nic.rs.				      172800 IN	A	192.228.89.19
 k.nic.rs.				      172800 IN	A	192.5.4.1
 k.nic.rs.				      172800 IN	AAAA	2001:500:2e::1
+ru.					      172800 IN	NS	d.dns.ripn.net.
 ru.					      172800 IN	NS	e.dns.ripn.net.
 ru.					      172800 IN	NS	f.dns.ripn.net.
 ru.					      172800 IN	NS	ns.ripn.net.
