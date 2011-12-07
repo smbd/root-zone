@@ -425,7 +425,6 @@ bz.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 bz.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 bz.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 bz.					      86400 IN NSEC	ca. NS DS RRSIG NSEC
-ca.					      172800 IN	NS	a.ca-servers.ca.
 ca.					      172800 IN	NS	c.ca-servers.ca.
 ca.					      172800 IN	NS	e.ca-servers.ca.
 ca.					      172800 IN	NS	f.ca-servers.ca.
@@ -436,7 +435,6 @@ ca.					      172800 IN	NS	z.ca-servers.ca.
 ca.					      172800 IN	NS	tld.isc-sns.net.
 ca.					      172800 IN	NS	sns-pb.isc.org.
 ca.					      86400 IN NSEC	cat. NS RRSIG NSEC
-a.ca-servers.ca.			      172800 IN	A	192.228.27.11
 c.ca-servers.ca.			      172800 IN	A	192.228.28.9
 e.ca-servers.ca.			      172800 IN	A	192.228.30.9
 f.ca-servers.ca.			      172800 IN	A	199.4.28.220
@@ -671,8 +669,17 @@ cv.					      172800 IN	NS	sunic.sunet.se.
 cv.					      172800 IN	NS	auth02.ns.uu.net.
 cv.					      172800 IN	NS	ns-ext.isc.org.
 cv.					      172800 IN	NS	phobos.fccn.pt.
-cv.					      86400 IN NSEC	cx. NS RRSIG NSEC
+cv.					      86400 IN NSEC	cw. NS RRSIG NSEC
 ns.dns.cv.				      172800 IN	A	41.221.192.220
+cw.					      172800 IN	NS	cw.cctld.authdns.ripe.net.
+cw.					      172800 IN	NS	ns0.ja.net.
+cw.					      172800 IN	NS	ns3.cura.net.
+cw.					      172800 IN	NS	engine0.una.an.
+cw.					      172800 IN	NS	engine2.una.an.
+cw.					      172800 IN	NS	engine3.una.an.
+cw.					      172800 IN	NS	kadushi.curinfo.an.
+cw.					      172800 IN	NS	ns01-server.curinfo.an.
+cw.					      86400 IN NSEC	cx. NS RRSIG NSEC
 cx.					      172800 IN	NS	ns.anycast.nic.cx.
 cx.					      172800 IN	NS	cx1.dyntld.net.
 cx.					      172800 IN	NS	cx2.dyntld.net.
@@ -2176,6 +2183,8 @@ cr.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.69
 cr.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::69
 cu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::70
+cw.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.86
+cw.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::86
 dz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.71
 dz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::71
 er.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.72
