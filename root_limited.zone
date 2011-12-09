@@ -1448,8 +1448,8 @@ ns.anycast.kenic.or.ke.			      172800 IN	A	204.61.216.7
 ns.anycast.kenic.or.ke.			      172800 IN	AAAA	2001:500:14:6007:ad::1
 mzizi.kenic.or.ke.			      172800 IN	A	196.1.4.130
 mzizi.kenic.or.ke.			      172800 IN	A	198.32.67.9
+kg.					      172800 IN	NS	kg.cctld.authdns.ripe.net.
 kg.					      172800 IN	NS	ns.kg.
-kg.					      172800 IN	NS	ns-kg.ripe.net.
 kg.					      86400 IN NSEC	kh. NS DS RRSIG NSEC
 ns.kg.					      172800 IN	A	195.38.160.36
 kh.					      172800 IN	NS	ns.camnet.com.kh.
@@ -2205,6 +2205,8 @@ jm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.82
 jm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::82
 jo.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.83
 jo.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::83
+kg.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.84
+kg.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::84
 kz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.87
 kz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::87
 lv.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.89
@@ -2278,8 +2280,6 @@ ns-bt.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:26
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-kg.ripe.net.				      172800 IN	A	193.0.12.119
-ns-kg.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:119
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
 ns-ki.ripe.net.				      172800 IN	A	193.0.12.115
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
@@ -2941,8 +2941,16 @@ sv.					      172800 IN	NS	ns.telefonica-ca.net.
 sv.					      172800 IN	NS	cir.red.sv.
 sv.					      172800 IN	NS	ns-sv.ripe.net.
 sv.					      172800 IN	NS	auth02.ns.uu.net.
-sv.					      86400 IN NSEC	sy. NS RRSIG NSEC
+sv.					      86400 IN NSEC	sx. NS RRSIG NSEC
 cir.red.sv.				      172800 IN	A	168.243.254.1
+sx.					      172800 IN	NS	a.ns.sx.
+sx.					      172800 IN	NS	b.ns.sx.
+sx.					      172800 IN	NS	c.ns.sx.
+sx.					      86400 IN NSEC	sy. NS DS RRSIG NSEC
+a.ns.sx.				      172800 IN	A	89.207.184.65
+a.ns.sx.				      172800 IN	AAAA	2a02:2790::600d:deed
+b.ns.sx.				      172800 IN	A	80.92.90.160
+c.ns.sx.				      172800 IN	A	70.38.21.233
 sy.					      172800 IN	NS	sy.cctld.authdns.ripe.net.
 sy.					      172800 IN	NS	ns1.tld.sy.
 sy.					      172800 IN	NS	ns2.tld.sy.
