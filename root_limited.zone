@@ -1818,12 +1818,12 @@ mt.					      86400 IN NSEC	mu. NS RRSIG NSEC
 ns.mt.					      172800 IN	A	193.188.47.252
 p.ns.mt.				      172800 IN	A	204.61.216.45
 ns1.mt.					      172800 IN	A	193.188.34.241
+mu.					      172800 IN	NS	mu.cctld.authdns.ripe.net.
 mu.					      172800 IN	NS	mu1.dyntld.net.
 mu.					      172800 IN	NS	mu2.dyntld.net.
 mu.					      172800 IN	NS	mu3.dyntld.net.
 mu.					      172800 IN	NS	mu4.dyntld.net.
 mu.					      172800 IN	NS	ns3.iafrica.com.
-mu.					      172800 IN	NS	ns-mu.ripe.net.
 mu.					      172800 IN	NS	udns1.tld.mu.
 mu.					      86400 IN NSEC	museum. NS RRSIG NSEC
 udns1.tld.mu.				      172800 IN	A	204.61.216.10
@@ -2225,6 +2225,8 @@ mm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.96
 mm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::96
 mt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.97
 mt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::97
+mu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.98
+mu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::98
 nc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::100
 ne.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.101
@@ -2283,7 +2285,6 @@ ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
 ns-ki.ripe.net.				      172800 IN	A	193.0.12.115
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
-ns-mu.ripe.net.				      172800 IN	A	193.0.12.140
 ns-mw.ripe.net.				      172800 IN	A	193.0.12.132
 ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
@@ -2460,7 +2461,7 @@ nz.					      172800 IN	NS	ns4.dns.net.nz.
 nz.					      172800 IN	NS	ns5.dns.net.nz.
 nz.					      172800 IN	NS	ns6.dns.net.nz.
 nz.					      172800 IN	NS	ns7.dns.net.nz.
-nz.					      86400 IN NSEC	om. NS RRSIG NSEC
+nz.					      86400 IN NSEC	om. NS DS RRSIG NSEC
 circa.mcs.vuw.ac.nz.			      172800 IN	A	130.195.5.12
 downstage.mcs.vuw.ac.nz.		      172800 IN	A	130.195.6.10
 ns1.dns.net.nz.				      172800 IN	A	202.46.190.130
