@@ -25,12 +25,12 @@ ac.					      86400 IN NSEC	ad. NS DS RRSIG NSEC
 a.nic.ac.				      172800 IN	A	64.251.31.177
 b.nic.ac.				      172800 IN	A	78.104.145.37
 ad.					      172800 IN	NS	ad.ns.nic.es.
+ad.					      172800 IN	NS	ad.cctld.authdns.ripe.net.
 ad.					      172800 IN	NS	ns3.nic.fr.
 ad.					      172800 IN	NS	dns2.ad.
 ad.					      172800 IN	NS	dns3.ad.
 ad.					      172800 IN	NS	dns4.ad.
 ad.					      172800 IN	NS	dinis.ad.
-ad.					      172800 IN	NS	ns-ad.ripe.net.
 ad.					      172800 IN	NS	ns-ext.isc.org.
 ad.					      86400 IN NSEC	ae. NS RRSIG NSEC
 dinis.ad.				      172800 IN	A	194.158.64.7
@@ -2161,6 +2161,8 @@ nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
 ns1.punchdown.net.			      172800 IN	A	66.92.19.36
+ad.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.53
+ad.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::53
 ae.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.54
 ae.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::54
 al.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.56
@@ -2278,7 +2280,6 @@ vn.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::126
 sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
 sec2.authdns.ripe.net.			      172800 IN	AAAA	2001:67c:e0::4
 ns.ripe.net.				      172800 IN	A	193.0.0.193
-ns-ad.ripe.net.				      172800 IN	A	193.0.12.6
 ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-bj.ripe.net.				      172800 IN	A	193.0.12.24
