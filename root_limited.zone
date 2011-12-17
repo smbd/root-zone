@@ -383,17 +383,20 @@ bs.					      172800 IN	NS	upr1.upr.clu.edu.
 bs.					      172800 IN	NS	anyns.pch.net.
 bs.					      86400 IN NSEC	bt. NS RRSIG NSEC
 dns.nic.bs.				      172800 IN	A	206.48.3.168
+bt.					      172800 IN	NS	bt.cctld.authdns.ripe.net.
 bt.					      172800 IN	NS	ns.itu.ch.
 bt.					      172800 IN	NS	ns1.druknet.bt.
 bt.					      172800 IN	NS	ns2.druknet.bt.
 bt.					      172800 IN	NS	ns3.druknet.bt.
-bt.					      172800 IN	NS	ns-bt.ripe.net.
 bt.					      172800 IN	NS	auth00.ns.uu.net.
 bt.					      172800 IN	NS	auth61.ns.uu.net.
 bt.					      86400 IN NSEC	bv. NS RRSIG NSEC
 ns1.druknet.bt.				      172800 IN	A	202.144.128.200
+ns1.druknet.bt.				      172800 IN	AAAA	2405:d000:0:100::200
 ns2.druknet.bt.				      172800 IN	A	202.144.128.210
+ns2.druknet.bt.				      172800 IN	AAAA	2405:d000:0:100::210
 ns3.druknet.bt.				      172800 IN	A	204.61.216.17
+ns3.druknet.bt.				      172800 IN	AAAA	2001:500:14:6017:ad::1
 bv.					      172800 IN	NS	nn.uninett.no.
 bv.					      172800 IN	NS	nac.no.
 bv.					      172800 IN	NS	server.nordu.net.
@@ -2179,6 +2182,8 @@ bg.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.61
 bg.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::61
 bi.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::62
+bt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.65
+bt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::65
 by.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.66
 by.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::66
 ci.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.67
@@ -2284,8 +2289,6 @@ ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-bj.ripe.net.				      172800 IN	A	193.0.12.24
 ns-bn.ripe.net.				      172800 IN	A	193.0.12.33
-ns-bt.ripe.net.				      172800 IN	A	193.0.12.26
-ns-bt.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:26
 ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
