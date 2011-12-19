@@ -569,11 +569,17 @@ co.					      172800 IN	NS	ns5.cctld.co.
 co.					      172800 IN	NS	ns6.cctld.co.
 co.					      86400 IN NSEC	com. NS DS RRSIG NSEC
 ns1.cctld.co.				      172800 IN	A	156.154.100.25
+ns1.cctld.co.				      172800 IN	AAAA	2001:502:2eda::21
 ns2.cctld.co.				      172800 IN	A	156.154.101.25
+ns2.cctld.co.				      172800 IN	AAAA	2001:502:ad09::21
 ns3.cctld.co.				      172800 IN	A	156.154.102.25
+ns3.cctld.co.				      172800 IN	AAAA	2610:a1:1009::21
 ns4.cctld.co.				      172800 IN	A	156.154.103.25
+ns4.cctld.co.				      172800 IN	AAAA	2610:a1:1010::21
 ns5.cctld.co.				      172800 IN	A	156.154.104.25
+ns5.cctld.co.				      172800 IN	AAAA	2610:a1:1011::21
 ns6.cctld.co.				      172800 IN	A	156.154.105.25
+ns6.cctld.co.				      172800 IN	AAAA	2610:a1:1012::21
 com.					      172800 IN	NS	a.gtld-servers.net.
 com.					      172800 IN	NS	b.gtld-servers.net.
 com.					      172800 IN	NS	c.gtld-servers.net.
