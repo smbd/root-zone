@@ -12,6 +12,7 @@
 .					      518400 IN	NS	l.root-servers.net.
 .					      518400 IN	NS	m.root-servers.net.
 .					      86400 IN NSEC	ac. NS SOA RRSIG NSEC DNSKEY
+.					      172800 IN	DNSKEY	256 3 8 AwEAAZ/NErKzyMlImJ+2HTmK9qeH2sLUywlsF+mJbTP5GKoYFHoU2vn2 Zqr261Lk7a6jfBKYny5GX7BDRJcVvig36TgOinE9QP5KVS0RxdrOl98g KLwFMORfNf/wjCwjPdEl1GgaGYl0npJ4c+x+o6aa/xmDKJo9zUlpvb7B LxbJ7HwF  ; key id = 51201
 .					      172800 IN	DNSKEY	256 3 8 AwEAAdNW7YIhcTdqXrzgZjJJ35VjAFT1ArvnhAzXDm7AuGxSQqmGBRmj JvBv0xS4gahB9mj6ekF0dVKoeZgLmNAjo8hj2JI7K281YTo2R5k3mKSc 4hOCP55hR22r5hIsPJoT19pv/VdZQfyTzZ96frQ16qRa9+/GSjzjtFfQ v16FwE7R  ; key id = 55231
 .					      172800 IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=  ; key id = 19036
 ac.					      172800 IN	NS	a.nic.ac.
@@ -1212,7 +1213,6 @@ ns1.indo.net.id.			      172800 IN	A	202.159.32.2
 ns1.rad.net.id.				      172800 IN	A	202.154.1.2
 ns1.id.					      172800 IN	A	202.155.30.227
 ie.					      172800 IN	NS	b.iedr.ie.
-ie.					      172800 IN	NS	ice.netsource.ie.
 ie.					      172800 IN	NS	ns3.ns.esat.net.
 ie.					      172800 IN	NS	gns1.domainregistry.ie.
 ie.					      172800 IN	NS	gns2.domainregistry.ie.
@@ -1227,7 +1227,6 @@ gns1.domainregistry.ie.			      172800 IN	A	198.133.199.102
 gns2.domainregistry.ie.			      172800 IN	A	198.133.199.103
 b.iedr.ie.				      172800 IN	A	77.72.72.34
 b.iedr.ie.				      172800 IN	AAAA	2a01:4b0::2
-ice.netsource.ie.			      172800 IN	A	212.17.32.2
 il.					      172800 IN	NS	nsa.ns.il.
 il.					      172800 IN	NS	nsb.ns.il.
 il.					      172800 IN	NS	nsd.ns.il.
