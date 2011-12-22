@@ -792,6 +792,7 @@ idn1.nic.dz.				      172800 IN	A	193.194.64.243
 idn2.nic.dz.				      172800 IN	A	213.179.160.68
 ns1.nic.dz.				      172800 IN	A	193.194.64.242
 ns2.nic.dz.				      172800 IN	A	213.179.160.66
+ec.					      172800 IN	NS	n1.nic.ec.
 ec.					      172800 IN	NS	n2.nic.ec.
 ec.					      172800 IN	NS	dns1.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
@@ -803,6 +804,7 @@ dns1.nic.ec.				      172800 IN	A	157.100.1.44
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
 dns3.nic.ec.				      172800 IN	A	200.1.6.51
 dns4.nic.ec.				      172800 IN	A	200.105.231.153
+n1.nic.ec.				      172800 IN	A	200.12.198.1
 n2.nic.ec.				      172800 IN	A	200.12.199.1
 edu.					      172800 IN	NS	a.edu-servers.net.
 edu.					      172800 IN	NS	c.edu-servers.net.
@@ -861,6 +863,7 @@ a.nic.es.				      172800 IN	AAAA	2001:67c:21cc:2000::64:41
 f.nic.es.				      172800 IN	A	130.206.1.2
 f.nic.es.				      172800 IN	AAAA	2001:720:418:caf1::2
 n3ns.nic.es.				      172800 IN	A	194.69.254.42
+n3ns.nic.es.				      172800 IN	AAAA	2001:67c:21cc:2000::64:42
 ad.ns.nic.es.				      172800 IN	A	194.69.254.15
 ns1.nic.es.				      172800 IN	A	194.69.254.1
 et.					      172800 IN	NS	ns1.telecom.net.et.
@@ -1166,7 +1169,6 @@ hn.					      86400 IN NSEC	hr. NS DS RRSIG NSEC
 tld1.rds.org.hn.			      172800 IN	A	200.107.121.97
 tld2.rds.org.hn.			      172800 IN	A	200.107.121.98
 hr.					      172800 IN	NS	ns.uu.net.
-hr.					      172800 IN	NS	dns.srce.hr.
 hr.					      172800 IN	NS	ns5.univie.ac.at.
 hr.					      172800 IN	NS	n3ns.nic.es.
 hr.					      172800 IN	NS	sns-pb.isc.org.
@@ -1174,7 +1176,6 @@ hr.					      172800 IN	NS	hr-ns-1.carnet.hr.
 hr.					      86400 IN NSEC	ht. NS RRSIG NSEC
 hr-ns-1.carnet.hr.			      172800 IN	A	161.53.160.100
 hr-ns-1.carnet.hr.			      172800 IN	AAAA	2001:b68:ff:1::100
-dns.srce.hr.				      172800 IN	A	161.53.3.7
 ht.					      172800 IN	NS	dns.princeton.edu.
 ht.					      172800 IN	NS	ns1.nic.ht.
 ht.					      172800 IN	NS	ns2.nic.ht.
@@ -2257,6 +2258,8 @@ qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
 sa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::108
+sd.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.109
+sd.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::109
 sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::110
 sn.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.111
@@ -2303,7 +2306,6 @@ ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
 ns-np.ripe.net.				      172800 IN	A	193.0.12.154
 ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
-ns-sd.ripe.net.				      172800 IN	A	193.0.12.209
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
 d.dns.ripn.net.				      172800 IN	A	194.190.124.17
@@ -2812,13 +2814,13 @@ sc.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 sc.					      172800 IN	NS	ns1.nic.sc.
 sc.					      86400 IN NSEC	sd. NS DS RRSIG NSEC
 ns1.nic.sc.				      172800 IN	A	41.191.121.129
+sd.					      172800 IN	NS	sd.cctld.authdns.ripe.net.
 sd.					      172800 IN	NS	ns1.coza.net.za.
 sd.					      172800 IN	NS	ns1.uaenic.ae.
 sd.					      172800 IN	NS	ns2.uaenic.ae.
 sd.					      172800 IN	NS	ans1.sis.sd.
 sd.					      172800 IN	NS	ans1.canar.sd.
 sd.					      172800 IN	NS	ans2.canar.sd.
-sd.					      172800 IN	NS	ns-sd.ripe.net.
 sd.					      86400 IN NSEC	se. NS RRSIG NSEC
 ans1.canar.sd.				      172800 IN	A	196.29.180.14
 ans2.canar.sd.				      172800 IN	A	196.29.164.14
