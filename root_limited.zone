@@ -881,13 +881,6 @@ eu.					      172800 IN	NS	p.nic.eu.
 eu.					      172800 IN	NS	x.nic.eu.
 eu.					      172800 IN	NS	y.nic.eu.
 eu.					      86400 IN NSEC	fi. NS DS RRSIG NSEC
-ns3.arnes.eu.				      172800 IN	A	192.93.0.4
-ns3.arnes.eu.				      172800 IN	AAAA	2001:660:3005:1::1:2
-ns4.arnes.eu.				      172800 IN	A	130.59.1.30
-ns4.arnes.eu.				      172800 IN	A	130.59.10.30
-ns4.arnes.eu.				      172800 IN	AAAA	2001:620::1
-ns7.arnes.eu.				      172800 IN	A	194.146.106.62
-ns7.arnes.eu.				      172800 IN	AAAA	2001:67c:1010:15::53
 a.nic.eu.				      172800 IN	A	91.200.16.100
 l.nic.eu.				      172800 IN	A	195.66.241.178
 m.nic.eu.				      172800 IN	A	217.29.76.13
@@ -2868,21 +2861,33 @@ sh.					      172800 IN	NS	ns1.communitydns.net.
 sh.					      172800 IN	NS	ns3.icb.co.uk.
 sh.					      86400 IN NSEC	si. NS DS RRSIG NSEC
 a.nic.sh.				      172800 IN	A	64.251.31.178
-si.					      172800 IN	NS	ns2.arnes.si.
-si.					      172800 IN	NS	ns3.arnes.eu.
-si.					      172800 IN	NS	ns4.arnes.eu.
-si.					      172800 IN	NS	ns7.arnes.eu.
-si.					      172800 IN	NS	ns8.arnes.si.
-si.					      172800 IN	NS	ns9.arnes.si.
-si.					      172800 IN	NS	sss.arnes.si.
-si.					      86400 IN NSEC	sj. NS RRSIG NSEC
+si.					      172800 IN	NS	b.dns.si.
+si.					      172800 IN	NS	c.dns.si.
+si.					      172800 IN	NS	d.dns.si.
+si.					      172800 IN	NS	e.dns.si.
+si.					      172800 IN	NS	f.dns.si.
+si.					      172800 IN	NS	g.dns.si.
+si.					      172800 IN	NS	h.dns.si.
+si.					      172800 IN	NS	sss.dns.si.
+si.					      86400 IN NSEC	sj. NS DS RRSIG NSEC
 ns2.arnes.si.				      172800 IN	A	193.2.1.91
 ns2.arnes.si.				      172800 IN	AAAA	2001:1470:8000::91
-ns8.arnes.si.				      172800 IN	A	194.0.1.20
-ns8.arnes.si.				      172800 IN	AAAA	2001:678:4::14
-ns9.arnes.si.				      172800 IN	A	204.61.216.54
-ns9.arnes.si.				      172800 IN	AAAA	2001:500:14:6054:ad::1
-sss.arnes.si.				      172800 IN	A	81.91.161.101
+b.dns.si.				      172800 IN	A	193.2.1.91
+b.dns.si.				      172800 IN	AAAA	2001:1470:8000::91
+c.dns.si.				      172800 IN	A	192.93.0.4
+c.dns.si.				      172800 IN	AAAA	2001:660:3005:1::1:2
+d.dns.si.				      172800 IN	A	130.59.1.30
+d.dns.si.				      172800 IN	A	130.59.10.30
+d.dns.si.				      172800 IN	AAAA	2001:620::1
+e.dns.si.				      172800 IN	A	63.243.194.3
+e.dns.si.				      172800 IN	AAAA	2001:5a0:10::3
+f.dns.si.				      172800 IN	A	194.146.106.62
+f.dns.si.				      172800 IN	AAAA	2001:67c:1010:15::53
+g.dns.si.				      172800 IN	A	194.0.1.20
+g.dns.si.				      172800 IN	AAAA	2001:678:4::14
+h.dns.si.				      172800 IN	A	204.61.216.54
+h.dns.si.				      172800 IN	AAAA	2001:500:14:6054:ad::1
+sss.dns.si.				      172800 IN	A	81.91.161.101
 sj.					      172800 IN	NS	nn.uninett.no.
 sj.					      172800 IN	NS	nac.no.
 sj.					      172800 IN	NS	server.nordu.net.
