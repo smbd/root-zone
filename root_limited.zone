@@ -1655,6 +1655,7 @@ lt.nic.lv.				      172800 IN	A	83.171.8.137
 ly.					      172800 IN	NS	ly.cctld.authdns.ripe.net.
 ly.					      172800 IN	NS	dns.lttnet.net.
 ly.					      172800 IN	NS	dns1.lttnet.net.
+ly.					      172800 IN	NS	ns-ly.afrinic.net.
 ly.					      172800 IN	NS	auth02.ns.uu.net.
 ly.					      172800 IN	NS	phloem.uoregon.edu.
 ly.					      86400 IN NSEC	ma. NS RRSIG NSEC
@@ -1952,6 +1953,8 @@ ns3.admin.net.				      172800 IN	A	87.98.180.44
 ns4.admin.net.				      172800 IN	A	202.190.180.244
 ns-bi.afrinic.net.			      172800 IN	A	196.216.168.23
 ns-bi.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::23
+ns-ly.afrinic.net.			      172800 IN	A	196.216.168.24
+ns-ly.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::24
 ns-tz.afrinic.net.			      172800 IN	A	196.216.168.20
 ns-tz.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::20
 ns-cdn.amnic.net.			      172800 IN	A	194.0.1.26
