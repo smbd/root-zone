@@ -429,6 +429,7 @@ bz.					      172800 IN	NS	b2.cctld.afilias-nst.org.
 bz.					      172800 IN	NS	c0.cctld.afilias-nst.info.
 bz.					      172800 IN	NS	d0.cctld.afilias-nst.org.
 bz.					      86400 IN NSEC	ca. NS DS RRSIG NSEC
+ca.					      172800 IN	NS	a.ca-servers.ca.
 ca.					      172800 IN	NS	c.ca-servers.ca.
 ca.					      172800 IN	NS	e.ca-servers.ca.
 ca.					      172800 IN	NS	f.ca-servers.ca.
@@ -439,6 +440,8 @@ ca.					      172800 IN	NS	z.ca-servers.ca.
 ca.					      172800 IN	NS	tld.isc-sns.net.
 ca.					      172800 IN	NS	sns-pb.isc.org.
 ca.					      86400 IN NSEC	cat. NS RRSIG NSEC
+a.ca-servers.ca.			      172800 IN	A	199.253.251.2
+a.ca-servers.ca.			      172800 IN	AAAA	2001:500:80:5000::2
 c.ca-servers.ca.			      172800 IN	A	192.228.28.9
 e.ca-servers.ca.			      172800 IN	A	192.228.30.9
 f.ca-servers.ca.			      172800 IN	A	199.4.28.220
@@ -797,13 +800,11 @@ ec.					      172800 IN	NS	n2.nic.ec.
 ec.					      172800 IN	NS	dns1.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
 ec.					      172800 IN	NS	dns3.nic.ec.
-ec.					      172800 IN	NS	dns4.nic.ec.
 ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
 dns1.nic.ec.				      172800 IN	A	157.100.1.44
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
 dns3.nic.ec.				      172800 IN	A	200.1.6.51
-dns4.nic.ec.				      172800 IN	A	200.105.231.153
 n1.nic.ec.				      172800 IN	A	200.12.198.1
 n2.nic.ec.				      172800 IN	A	200.12.199.1
 edu.					      172800 IN	NS	a.edu-servers.net.
@@ -866,9 +867,9 @@ n3ns.nic.es.				      172800 IN	A	194.69.254.42
 n3ns.nic.es.				      172800 IN	AAAA	2001:67c:21cc:2000::64:42
 ad.ns.nic.es.				      172800 IN	A	194.69.254.15
 ns1.nic.es.				      172800 IN	A	194.69.254.1
+et.					      172800 IN	NS	et.cctld.authdns.ripe.net.
 et.					      172800 IN	NS	ns1.telecom.net.et.
 et.					      172800 IN	NS	ns2.telecom.net.et.
-et.					      172800 IN	NS	ns-et.ripe.net.
 et.					      172800 IN	NS	phloem.uoregon.edu.
 et.					      86400 IN NSEC	eu. NS RRSIG NSEC
 ns1.telecom.net.et.			      172800 IN	A	213.55.64.36
@@ -1242,14 +1243,14 @@ im.					      172800 IN	NS	hoppy.iom.com.
 im.					      172800 IN	NS	barney.advsys.co.uk.
 im.					      172800 IN	NS	pebbles.iom.com.
 im.					      86400 IN NSEC	in. NS RRSIG NSEC
-in.					      172800 IN	NS	a0.cctld.afilias-nst.info.
+in.					      172800 IN	NS	a0.in.afilias-nst.info.
 in.					      172800 IN	NS	a1.in.afilias-nst.in.
 in.					      172800 IN	NS	a2.in.afilias-nst.info.
-in.					      172800 IN	NS	b0.cctld.afilias-nst.org.
+in.					      172800 IN	NS	b0.in.afilias-nst.org.
 in.					      172800 IN	NS	b1.in.afilias-nst.in.
 in.					      172800 IN	NS	b2.in.afilias-nst.org.
-in.					      172800 IN	NS	c0.cctld.afilias-nst.info.
-in.					      172800 IN	NS	d0.cctld.afilias-nst.org.
+in.					      172800 IN	NS	c0.in.afilias-nst.info.
+in.					      172800 IN	NS	d0.in.afilias-nst.org.
 in.					      172800 IN	NS	ns7.cdns.net.
 in.					      86400 IN NSEC	info. NS DS RRSIG NSEC
 a1.in.afilias-nst.in.			      172800 IN	A	220.226.100.30
@@ -1279,8 +1280,12 @@ a2.cctld.afilias-nst.info.		      172800 IN	A	199.249.116.1
 a2.cctld.afilias-nst.info.		      172800 IN	AAAA	2001:500:44::1
 c0.cctld.afilias-nst.info.		      172800 IN	A	199.254.61.1
 c0.cctld.afilias-nst.info.		      172800 IN	AAAA	2001:500:27::1
+a0.in.afilias-nst.info.			      172800 IN	A	199.7.87.1
+a0.in.afilias-nst.info.			      172800 IN	AAAA	2001:500:29::1
 a2.in.afilias-nst.info.			      172800 IN	A	199.249.117.1
 a2.in.afilias-nst.info.			      172800 IN	AAAA	2001:500:45::1
+c0.in.afilias-nst.info.			      172800 IN	A	199.253.57.1
+c0.in.afilias-nst.info.			      172800 IN	AAAA	2001:500:51::1
 a0.info.afilias-nst.info.		      172800 IN	A	199.254.31.1
 a0.info.afilias-nst.info.		      172800 IN	AAAA	2001:500:19::1
 a2.info.afilias-nst.info.		      172800 IN	A	199.249.113.1
@@ -1762,7 +1767,7 @@ mn.					      86400 IN NSEC	mo. NS DS RRSIG NSEC
 ns1.magic.mn.				      172800 IN	A	202.131.0.10
 ns2.magic.mn.				      172800 IN	A	202.72.241.5
 ns3.magic.mn.				      172800 IN	A	202.131.224.80
-ns4.magic.mn.				      172800 IN	A	202.55.176.12
+ns4.magic.mn.				      172800 IN	A	218.100.84.26
 mo.					      172800 IN	NS	a.monic.mo.
 mo.					      172800 IN	NS	b.monic.mo.
 mo.					      172800 IN	NS	c.monic.mo.
@@ -2200,6 +2205,8 @@ dz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.71
 dz.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::71
 er.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.72
 er.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::72
+et.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.73
+et.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::73
 gd.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.75
 gd.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::75
 gp.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.76
@@ -2293,7 +2300,6 @@ ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-bj.ripe.net.				      172800 IN	A	193.0.12.24
 ns-bn.ripe.net.				      172800 IN	A	193.0.12.33
-ns-et.ripe.net.				      172800 IN	A	193.0.12.71
 ns-ga.ripe.net.				      172800 IN	A	193.0.12.81
 ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
@@ -2517,8 +2523,12 @@ b2.cctld.afilias-nst.org.		      172800 IN	A	199.249.124.1
 b2.cctld.afilias-nst.org.		      172800 IN	AAAA	2001:500:4c::1
 d0.cctld.afilias-nst.org.		      172800 IN	A	199.254.62.1
 d0.cctld.afilias-nst.org.		      172800 IN	AAAA	2001:500:28::1
+b0.in.afilias-nst.org.			      172800 IN	A	199.253.56.1
+b0.in.afilias-nst.org.			      172800 IN	AAAA	2001:500:50::1
 b2.in.afilias-nst.org.			      172800 IN	A	199.249.125.1
 b2.in.afilias-nst.org.			      172800 IN	AAAA	2001:500:4d::1
+d0.in.afilias-nst.org.			      172800 IN	A	199.253.58.1
+d0.in.afilias-nst.org.			      172800 IN	AAAA	2001:500:52::1
 b0.info.afilias-nst.org.		      172800 IN	A	199.254.48.1
 b0.info.afilias-nst.org.		      172800 IN	AAAA	2001:500:1a::1
 b2.info.afilias-nst.org.		      172800 IN	A	199.249.121.1
