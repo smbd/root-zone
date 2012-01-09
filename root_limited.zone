@@ -2148,6 +2148,7 @@ mv-ns.anycast.pch.net.			      172800 IN	A	204.61.216.24
 na-ns.anycast.pch.net.			      172800 IN	A	204.61.216.35
 na-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6035:ad::1
 np-ns.anycast.pch.net.			      172800 IN	A	204.61.216.11
+np-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6011:ad::1
 pr-ns.anycast.pch.net.			      172800 IN	A	204.61.216.23
 pr-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6023:ad::1
 ps-ns.anycast.pch.net.			      172800 IN	A	204.61.216.29
@@ -2251,6 +2252,8 @@ nc.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::100
 ne.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::101
+np.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.102
+np.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::102
 ph.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::104
 ps.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.105
@@ -2305,8 +2308,6 @@ ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
 ns-ki.ripe.net.				      172800 IN	A	193.0.12.115
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
-ns-np.ripe.net.				      172800 IN	A	193.0.12.154
-ns-np.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.				      172800 IN	A	193.0.12.166
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
@@ -2438,10 +2439,10 @@ njet.norid.no.				      172800 IN	A	156.154.101.12
 not.norid.no.				      172800 IN	A	156.154.100.12
 not.norid.no.				      172800 IN	AAAA	2001:502:ad09::12
 nn.uninett.no.				      172800 IN	A	158.38.0.181
+np.					      172800 IN	NS	np.cctld.authdns.ripe.net.
 np.					      172800 IN	NS	sec3.apnic.net.
 np.					      172800 IN	NS	np-ns.npix.net.np.
 np.					      172800 IN	NS	np-ns.anycast.pch.net.
-np.					      172800 IN	NS	ns-np.ripe.net.
 np.					      172800 IN	NS	ns-ext.isc.org.
 np.					      172800 IN	NS	shikhar.mos.com.np.
 np.					      172800 IN	NS	yarrina.connect.com.au.
