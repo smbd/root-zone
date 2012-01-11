@@ -13,7 +13,6 @@
 .					      518400 IN	NS	m.root-servers.net.
 .					      86400 IN NSEC	ac. NS SOA RRSIG NSEC DNSKEY
 .					      172800 IN	DNSKEY	256 3 8 AwEAAZ/NErKzyMlImJ+2HTmK9qeH2sLUywlsF+mJbTP5GKoYFHoU2vn2 Zqr261Lk7a6jfBKYny5GX7BDRJcVvig36TgOinE9QP5KVS0RxdrOl98g KLwFMORfNf/wjCwjPdEl1GgaGYl0npJ4c+x+o6aa/xmDKJo9zUlpvb7B LxbJ7HwF  ; key id = 51201
-.					      172800 IN	DNSKEY	256 3 8 AwEAAdNW7YIhcTdqXrzgZjJJ35VjAFT1ArvnhAzXDm7AuGxSQqmGBRmj JvBv0xS4gahB9mj6ekF0dVKoeZgLmNAjo8hj2JI7K281YTo2R5k3mKSc 4hOCP55hR22r5hIsPJoT19pv/VdZQfyTzZ96frQ16qRa9+/GSjzjtFfQ v16FwE7R  ; key id = 55231
 .					      172800 IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=  ; key id = 19036
 ac.					      172800 IN	NS	a.nic.ac.
 ac.					      172800 IN	NS	a.ns13.net.
@@ -1626,6 +1625,7 @@ lu.					      172800 IN	NS	g.dns.lu.
 lu.					      172800 IN	NS	i.dns.lu.
 lu.					      172800 IN	NS	j.dns.lu.
 lu.					      172800 IN	NS	k.dns.lu.
+lu.					      172800 IN	NS	p.dns.lu.
 lu.					      172800 IN	NS	ns1.dns.lu.
 lu.					      172800 IN	NS	ns5.dns.lu.
 lu.					      172800 IN	NS	merapi.switch.ch.
@@ -1641,6 +1641,8 @@ k.dns.lu.				      172800 IN	AAAA	2001:678:4::d
 ns1.dns.lu.				      172800 IN	A	158.64.229.2
 ns1.dns.lu.				      172800 IN	AAAA	2001:a18:4::2
 ns5.dns.lu.				      172800 IN	A	81.91.161.100
+p.dns.lu.				      172800 IN	A	194.0.42.42
+p.dns.lu.				      172800 IN	AAAA	2001:678:60::42:42
 lv.					      172800 IN	NS	a.nic.lv.
 lv.					      172800 IN	NS	b.nic.lv.
 lv.					      172800 IN	NS	c.nic.lv.
@@ -2019,6 +2021,7 @@ nl1.dnsnode.net.			      172800 IN	A	194.146.106.42
 nl1.dnsnode.net.			      172800 IN	AAAA	2001:67c:1010:10::53
 pe1.dnsnode.net.			      172800 IN	A	194.146.106.82
 fork.sth.dnsnode.net.			      172800 IN	A	77.72.229.254
+fork.sth.dnsnode.net.			      172800 IN	AAAA	2a01:3f0:0:306::53
 za1.dnsnode.net.			      172800 IN	A	194.146.106.78
 za1.dnsnode.net.			      172800 IN	AAAA	2001:67c:1010:19::53
 af1.dyntld.net.				      172800 IN	A	208.78.70.94
