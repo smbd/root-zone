@@ -796,12 +796,10 @@ ns1.nic.dz.				      172800 IN	A	193.194.64.242
 ns2.nic.dz.				      172800 IN	A	213.179.160.66
 ec.					      172800 IN	NS	n1.nic.ec.
 ec.					      172800 IN	NS	n2.nic.ec.
-ec.					      172800 IN	NS	dns1.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
 ec.					      172800 IN	NS	dns3.nic.ec.
 ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
-dns1.nic.ec.				      172800 IN	A	157.100.1.44
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
 dns3.nic.ec.				      172800 IN	A	200.1.6.51
 n1.nic.ec.				      172800 IN	A	200.12.198.1

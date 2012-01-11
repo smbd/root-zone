@@ -1,5 +1,5 @@
-.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2012011200 1800 900 604800 86400
-.					      86400 IN RRSIG	SOA 8 0 86400 20120119000000 20120111230000 51201 . h+VoUzG6aJ+vPwJVWj70pZCJ4Q+inUmGdH46XE5uFG/FTkEEbJ3KF0cw TS/Cm1x3qriHJZPTpFYdKs9Ysra0FFdfgYi8dcBWyxiPqp5pYUAyk/l5 LyxiLaGFkfHCMCXG7tPRASJ4SUwVkWLoBrV0nYWoauhD27UNgEZ1SHOF 1Qo=
+.					      86400 IN SOA	a.root-servers.net. nstld.verisign-grs.com. 2012011201 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20120119000000 20120111230000 51201 . Po8t3XdY3dvP6xFjlNyPBQ7Z8MJ92DtphmspV/KVZJE6HhTvTP4P3rIq 4t3wxGHD8IH85ePK09PwSg4DTyD+3Gq+I5GFoqugE1amHaYNI3expTNZ wvS8+iZuXmQ8DreDwr5gyx/BrS/T95fbZ6OsqZJelQRVUYn2RD3m+Ev+ KLo=
 .					      518400 IN	NS	a.root-servers.net.
 .					      518400 IN	NS	b.root-servers.net.
 .					      518400 IN	NS	c.root-servers.net.
@@ -919,13 +919,11 @@ ns1.nic.dz.				      172800 IN	A	193.194.64.242
 ns2.nic.dz.				      172800 IN	A	213.179.160.66
 ec.					      172800 IN	NS	n1.nic.ec.
 ec.					      172800 IN	NS	n2.nic.ec.
-ec.					      172800 IN	NS	dns1.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
 ec.					      172800 IN	NS	dns3.nic.ec.
 ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
 ec.					      86400 IN RRSIG	NSEC 8 1 86400 20120119000000 20120111230000 51201 . i25hjRyQ78pM0CmKvmzReW4jDrPNwm90cXSm2Ysggv/xsic2nohT0CfQ TTb1TQT4mhgNlpldsWrU7dFkreAwhXT3lL7N90cPB2Jh8Z/FZ0jlwRGv M0hsc/E83ngVhboS5Z9HbJRUNWKodS7zK2gAxNV02vR5tCGKgmsrGcHX LAg=
-dns1.nic.ec.				      172800 IN	A	157.100.1.44
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
 dns3.nic.ec.				      172800 IN	A	200.1.6.51
 n1.nic.ec.				      172800 IN	A	200.12.198.1
