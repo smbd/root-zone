@@ -2255,6 +2255,8 @@ ne.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::101
 np.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.102
 np.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::102
+om.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.103
+om.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::103
 ph.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::104
 ps.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.105
@@ -2309,7 +2311,6 @@ ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
 ns-ki.ripe.net.				      172800 IN	A	193.0.12.115
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
-ns-om.ripe.net.				      172800 IN	A	193.0.12.166
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
 d.dns.ripn.net.				      172800 IN	A	194.190.124.17
@@ -2496,10 +2497,10 @@ ns7.dns.net.nz.				      172800 IN	A	194.146.106.54
 ns7.dns.net.nz.				      172800 IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.			      172800 IN	A	202.46.191.130
 om.					      172800 IN	NS	ns.icann.org.
+om.					      172800 IN	NS	om.cctld.authdns.ripe.net.
 om.					      172800 IN	NS	om14.omantel.net.om.
 om.					      172800 IN	NS	om16.omantel.net.om.
 om.					      172800 IN	NS	om41.omantel.net.om.
-om.					      172800 IN	NS	ns-om.ripe.net.
 om.					      86400 IN NSEC	org. NS RRSIG NSEC
 om14.omantel.net.om.			      172800 IN	A	212.72.23.4
 om16.omantel.net.om.			      172800 IN	A	212.72.1.186
