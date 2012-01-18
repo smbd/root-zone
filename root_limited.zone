@@ -1367,8 +1367,7 @@ it.					      172800 IN	NS	s.dns.it.
 it.					      172800 IN	NS	dns.nic.it.
 it.					      172800 IN	NS	nameserver.cnr.it.
 it.					      86400 IN NSEC	je. NS RRSIG NSEC
-ns-al.isti.cnr.it.			      172800 IN	A	194.119.192.3
-ns-al.isti.cnr.it.			      172800 IN	A	194.119.192.4
+ns-al.isti.cnr.it.			      172800 IN	A	194.119.192.8
 nameserver.cnr.it.			      172800 IN	A	194.119.192.34
 nameserver.cnr.it.			      172800 IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.				      172800 IN	A	194.0.16.215
@@ -3060,21 +3059,31 @@ tj.					      172800 IN	NS	ns2.tojikiston.com.
 tj.					      172800 IN	NS	phloem.uoregon.edu.
 tj.					      86400 IN NSEC	tk. NS RRSIG NSEC
 ns1.nic.tj.				      172800 IN	A	62.122.137.16
+tk.					      172800 IN	NS	a.ns.tk.
+tk.					      172800 IN	NS	b.ns.tk.
+tk.					      172800 IN	NS	c.ns.tk.
+tk.					      172800 IN	NS	d.ns.tk.
 tk.					      172800 IN	NS	root-a.taloha.tk.
 tk.					      172800 IN	NS	root-b.taloha.tk.
 tk.					      172800 IN	NS	root-c.taloha.tk.
 tk.					      172800 IN	NS	root-d.taloha.tk.
 tk.					      172800 IN	NS	root-e.taloha.tk.
 tk.					      172800 IN	NS	root-f.taloha.tk.
-tk.					      172800 IN	NS	root-g.taloha.tk.
 tk.					      86400 IN NSEC	tl. NS RRSIG NSEC
+a.ns.tk.				      172800 IN	A	194.0.38.1
+a.ns.tk.				      172800 IN	AAAA	2001:678:50::1
+b.ns.tk.				      172800 IN	A	194.0.39.1
+b.ns.tk.				      172800 IN	AAAA	2001:678:54::1
+c.ns.tk.				      172800 IN	A	194.0.40.1
+c.ns.tk.				      172800 IN	AAAA	2001:678:58::1
+d.ns.tk.				      172800 IN	A	194.0.41.1
+d.ns.tk.				      172800 IN	AAAA	2001:678:5c::1
 root-a.taloha.tk.			      172800 IN	A	194.109.152.138
 root-b.taloha.tk.			      172800 IN	A	85.214.136.249
 root-c.taloha.tk.			      172800 IN	A	207.36.228.217
 root-d.taloha.tk.			      172800 IN	A	217.199.176.121
 root-e.taloha.tk.			      172800 IN	A	66.36.231.236
 root-f.taloha.tk.			      172800 IN	A	202.125.44.173
-root-g.taloha.tk.			      172800 IN	A	217.68.243.17
 tl.					      172800 IN	NS	ns.anycast.nic.tl.
 tl.					      172800 IN	NS	soa.nic.tl.
 tl.					      172800 IN	NS	tl1.dyntld.net.
