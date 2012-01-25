@@ -797,11 +797,9 @@ ns2.nic.dz.				      172800 IN	A	213.179.160.66
 ec.					      172800 IN	NS	n1.nic.ec.
 ec.					      172800 IN	NS	n2.nic.ec.
 ec.					      172800 IN	NS	dns2.nic.ec.
-ec.					      172800 IN	NS	dns3.nic.ec.
 ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
 dns2.nic.ec.				      172800 IN	A	200.6.84.2
-dns3.nic.ec.				      172800 IN	A	200.1.6.51
 n1.nic.ec.				      172800 IN	A	200.12.198.1
 n2.nic.ec.				      172800 IN	A	200.12.199.1
 edu.					      172800 IN	NS	a.edu-servers.net.
@@ -1188,7 +1186,7 @@ hu.					      86400 IN NSEC	id. NS RRSIG NSEC
 b.hu.					      172800 IN	A	193.239.149.3
 c.hu.					      172800 IN	A	193.6.16.1
 d.hu.					      172800 IN	A	195.70.35.250
-e.hu.					      172800 IN	A	192.174.68.11
+e.hu.					      172800 IN	A	194.0.25.11
 e.hu.					      172800 IN	AAAA	2001:67c:1bc::11
 ns.nic.hu.				      172800 IN	A	193.239.148.48
 ns.nic.hu.				      172800 IN	AAAA	2001:738:4:8000::48
@@ -2757,12 +2755,9 @@ rs.					      172800 IN	NS	a.nic.rs.
 rs.					      172800 IN	NS	b.nic.rs.
 rs.					      172800 IN	NS	c.nic.rs.
 rs.					      172800 IN	NS	d.nic.rs.
-rs.					      172800 IN	NS	e.nic.rs.
 rs.					      172800 IN	NS	f.nic.rs.
 rs.					      172800 IN	NS	g.nic.rs.
 rs.					      172800 IN	NS	h.nic.rs.
-rs.					      172800 IN	NS	i.nic.rs.
-rs.					      172800 IN	NS	j.nic.rs.
 rs.					      172800 IN	NS	k.nic.rs.
 rs.					      86400 IN NSEC	ru. NS RRSIG NSEC
 a.nic.rs.				      172800 IN	A	91.199.17.59
@@ -2770,14 +2765,10 @@ b.nic.rs.				      172800 IN	A	195.178.32.2
 c.nic.rs.				      172800 IN	A	212.124.160.1
 d.nic.rs.				      172800 IN	A	193.0.9.107
 d.nic.rs.				      172800 IN	AAAA	2001:67c:e0::107
-e.nic.rs.				      172800 IN	A	204.152.184.64
-e.nic.rs.				      172800 IN	AAAA	2001:4f8:0:2::13
 f.nic.rs.				      172800 IN	A	204.61.216.32
 f.nic.rs.				      172800 IN	AAAA	2001:500:14:6032:ad::1
 g.nic.rs.				      172800 IN	A	147.91.8.6
 h.nic.rs.				      172800 IN	A	91.199.17.60
-i.nic.rs.				      172800 IN	A	192.228.90.19
-j.nic.rs.				      172800 IN	A	192.228.89.19
 k.nic.rs.				      172800 IN	A	192.5.4.1
 k.nic.rs.				      172800 IN	AAAA	2001:500:2e::1
 ru.					      172800 IN	NS	d.dns.ripn.net.
