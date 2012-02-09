@@ -173,7 +173,7 @@ at.					      172800 IN	NS	ns1.univie.ac.at.
 at.					      172800 IN	NS	ns2.univie.ac.at.
 at.					      172800 IN	NS	ns9.univie.ac.at.
 at.					      172800 IN	NS	ns-uk.nic.at.
-at.					      86400 IN NSEC	au. NS RRSIG NSEC
+at.					      86400 IN NSEC	au. NS DS RRSIG NSEC
 ns1.univie.ac.at.			      172800 IN	A	78.104.144.2
 ns1.univie.ac.at.			      172800 IN	AAAA	2001:628:2030:4301::2
 ns2.univie.ac.at.			      172800 IN	A	192.92.125.2
@@ -2621,7 +2621,7 @@ pl.					      172800 IN	NS	f-dns.pl.
 pl.					      172800 IN	NS	g-dns.pl.
 pl.					      172800 IN	NS	h-dns.pl.
 pl.					      172800 IN	NS	i-dns.pl.
-pl.					      86400 IN NSEC	pm. NS RRSIG NSEC
+pl.					      86400 IN NSEC	pm. NS DS RRSIG NSEC
 a-dns.pl.				      172800 IN	A	195.187.245.44
 c-dns.pl.				      172800 IN	A	195.47.235.226
 d-dns.pl.				      172800 IN	A	213.172.174.70
