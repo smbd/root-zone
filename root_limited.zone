@@ -3265,7 +3265,7 @@ uy.					      172800 IN	NS	uy.cctld.authdns.ripe.net.
 uy.					      172800 IN	NS	ns3.nic.mx.
 uy.					      172800 IN	NS	seciu.edu.uy.
 uy.					      172800 IN	NS	ultra.seciu.uy.
-uy.					      172800 IN	NS	ns-ext.isc.org.
+uy.					      172800 IN	NS	sns-pb.isc.org.
 uy.					      86400 IN NSEC	uz. NS RRSIG NSEC
 seciu.edu.uy.				      172800 IN	A	164.73.128.5
 seciu.edu.uy.				      172800 IN	AAAA	2001:1328:6::5
