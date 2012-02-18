@@ -1177,7 +1177,6 @@ hu.					      172800 IN	NS	d.hu.
 hu.					      172800 IN	NS	e.hu.
 hu.					      172800 IN	NS	ns.nic.hu.
 hu.					      172800 IN	NS	ns2.nic.fr.
-hu.					      172800 IN	NS	ns-se.nic.hu.
 hu.					      172800 IN	NS	ns-com.nic.hu.
 hu.					      86400 IN NSEC	id. NS RRSIG NSEC
 b.hu.					      172800 IN	A	193.239.149.3
@@ -1189,8 +1188,6 @@ ns.nic.hu.				      172800 IN	A	193.239.148.48
 ns.nic.hu.				      172800 IN	AAAA	2001:738:4:8000::48
 ns-com.nic.hu.				      172800 IN	A	194.0.1.12
 ns-com.nic.hu.				      172800 IN	AAAA	2001:678:4::c
-ns-se.nic.hu.				      172800 IN	A	77.72.229.251
-ns-se.nic.hu.				      172800 IN	AAAA	2a01:3f0:0:304::53
 id.					      172800 IN	NS	ns1.id.
 id.					      172800 IN	NS	ns1.rad.net.id.
 id.					      172800 IN	NS	ns1.indo.net.id.
