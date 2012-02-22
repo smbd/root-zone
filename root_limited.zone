@@ -412,15 +412,12 @@ bw.					      86400 IN NSEC	by. NS RRSIG NSEC
 ns1.btc.bw.				      172800 IN	A	168.167.168.34
 ns4.btc.bw.				      172800 IN	A	168.167.253.20
 vpsm.btc.bw.				      172800 IN	A	168.167.253.21
-by.					      172800 IN	NS	by.cctld.authdns.ripe.net.
-by.					      172800 IN	NS	ns.ru.net.
-by.					      172800 IN	NS	dns.belpak.by.
-by.					      172800 IN	NS	ns1.open.by.
-by.					      172800 IN	NS	ns2.free.net.
-by.					      172800 IN	NS	arwena.nask.waw.pl.
+by.					      172800 IN	NS	dns1.tld.tutby.com.
+by.					      172800 IN	NS	dns2.tld.tutby.com.
+by.					      172800 IN	NS	dns3.tld.tutby.com.
+by.					      172800 IN	NS	dns4.tld.tutby.com.
+by.					      172800 IN	NS	dns5.tld.tutby.com.
 by.					      86400 IN NSEC	bz. NS RRSIG NSEC
-dns.belpak.by.				      172800 IN	A	193.232.248.45
-ns1.open.by.				      172800 IN	A	193.232.92.1
 bz.					      172800 IN	NS	a0.cctld.afilias-nst.info.
 bz.					      172800 IN	NS	a2.cctld.afilias-nst.info.
 bz.					      172800 IN	NS	b0.cctld.afilias-nst.org.
@@ -648,6 +645,12 @@ rip.psg.com.				      172800 IN	A	147.28.0.39
 rip.psg.com.				      172800 IN	AAAA	2001:418:1::39
 ns1.net.reach.com.			      172800 IN	A	134.159.2.140
 ns2.tojikiston.com.			      172800 IN	A	193.111.11.4
+dns1.tld.tutby.com.			      172800 IN	A	178.124.133.53
+dns2.tld.tutby.com.			      172800 IN	A	93.125.30.44
+dns3.tld.tutby.com.			      172800 IN	A	195.137.160.10
+dns3.tld.tutby.com.			      172800 IN	AAAA	2a01:d8:2:1::2
+dns4.tld.tutby.com.			      172800 IN	A	85.17.148.67
+dns5.tld.tutby.com.			      172800 IN	A	82.208.35.204
 ns-ext.vix.com.				      172800 IN	A	204.152.184.64
 coop.					      172800 IN	NS	coop1.dyntld.net.
 coop.					      172800 IN	NS	coop2.dyntld.net.
@@ -935,7 +938,6 @@ fo.					      172800 IN	NS	copenhagen.nic.fo.
 fo.					      86400 IN NSEC	fr. NS RRSIG NSEC
 copenhagen.nic.fo.			      172800 IN	A	193.163.102.12
 frankfurt.nic.fo.			      172800 IN	A	81.91.161.88
-fr.					      172800 IN	NS	c.nic.fr.
 fr.					      172800 IN	NS	d.ext.nic.fr.
 fr.					      172800 IN	NS	d.nic.fr.
 fr.					      172800 IN	NS	e.ext.nic.fr.
@@ -945,8 +947,6 @@ fr.					      86400 IN NSEC	ga. NS DS RRSIG NSEC
 dns.inria.fr.				      172800 IN	A	193.51.208.13
 censvrns0001.ird.fr.			      172800 IN	A	91.203.32.147
 ns1.ird.fr.				      172800 IN	A	193.50.53.3
-c.nic.fr.				      172800 IN	A	192.134.0.129
-c.nic.fr.				      172800 IN	AAAA	2001:660:3006:4::1:1
 d.nic.fr.				      172800 IN	A	194.0.9.1
 d.nic.fr.				      172800 IN	AAAA	2001:678:c::1
 d.ext.nic.fr.				      172800 IN	A	192.5.4.2
@@ -2072,8 +2072,6 @@ g.edu-servers.net.			      172800 IN	AAAA	2001:503:cc2c::2:36
 l.edu-servers.net.			      172800 IN	A	192.41.162.30
 ns3.ns.esat.net.			      172800 IN	A	192.111.39.100
 ns3.ns.esat.net.			      172800 IN	AAAA	2001:7c8:2:a::64
-ns2.free.net.				      172800 IN	A	193.233.1.67
-ns2.free.net.				      172800 IN	AAAA	2001:640:1:1::67
 dca.tld.gdns.net.			      172800 IN	A	198.65.143.254
 news-tokyo.gip.net.			      172800 IN	A	204.59.64.222
 ns2.gip.net.				      172800 IN	A	204.59.1.222
@@ -2184,8 +2182,6 @@ bi.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::62
 bt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.65
 bt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::65
-by.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.66
-by.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::66
 ci.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.67
 ci.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::67
 cr.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.69
@@ -2336,7 +2332,6 @@ l.root-servers.net.			      518400 IN	A	199.7.83.42
 l.root-servers.net.			      518400 IN	AAAA	2001:500:3::42
 m.root-servers.net.			      518400 IN	A	202.12.27.33
 m.root-servers.net.			      518400 IN	AAAA	2001:dc3::35
-ns.ru.net.				      172800 IN	A	193.124.22.65
 igubu.saix.net.				      172800 IN	A	196.25.1.1
 sabela.saix.net.			      172800 IN	A	196.43.1.9
 ns02.savvis.net.			      172800 IN	A	204.70.57.242
@@ -2630,8 +2625,6 @@ g-dns.pl.				      172800 IN	AAAA	2001:6d8:0:1::a:6
 h-dns.pl.				      172800 IN	A	194.0.1.2
 h-dns.pl.				      172800 IN	AAAA	2001:678:4::2
 i-dns.pl.				      172800 IN	A	156.154.100.15
-arwena.nask.waw.pl.			      172800 IN	A	193.59.201.28
-pm.					      172800 IN	NS	c.nic.fr.
 pm.					      172800 IN	NS	d.ext.nic.fr.
 pm.					      172800 IN	NS	d.nic.fr.
 pm.					      172800 IN	NS	e.ext.nic.fr.
@@ -2727,7 +2720,6 @@ ns2.qatar.net.qa.			      172800 IN	A	212.77.192.13
 ns3.qatar.net.qa.			      172800 IN	A	212.77.192.15
 ns1.registry.qa.			      172800 IN	A	178.23.16.104
 ns2.registry.qa.			      172800 IN	A	178.23.17.104
-re.					      172800 IN	NS	c.nic.fr.
 re.					      172800 IN	NS	d.ext.nic.fr.
 re.					      172800 IN	NS	d.nic.fr.
 re.					      172800 IN	NS	e.ext.nic.fr.
@@ -3011,7 +3003,6 @@ f.dns.nic.tel.				      172800 IN	A	199.7.67.1
 f.dns.nic.tel.				      172800 IN	AAAA	2001:502:100e::1
 g.dns.nic.tel.				      172800 IN	A	192.100.59.11
 h.dns.nic.tel.				      172800 IN	A	198.133.199.11
-tf.					      172800 IN	NS	c.nic.fr.
 tf.					      172800 IN	NS	d.ext.nic.fr.
 tf.					      172800 IN	NS	d.nic.fr.
 tf.					      172800 IN	NS	e.ext.nic.fr.
@@ -3158,6 +3149,7 @@ tw.					      172800 IN	NS	f.dns.tw.
 tw.					      172800 IN	NS	g.dns.tw.
 tw.					      172800 IN	NS	h.dns.tw.
 tw.					      172800 IN	NS	ns.twnic.net.
+tw.					      172800 IN	NS	sec4.apnic.net.
 tw.					      86400 IN NSEC	tz. NS DS RRSIG NSEC
 a.dns.tw.				      172800 IN	A	203.73.24.8
 a.dns.tw.				      172800 IN	AAAA	2001:cd8:800::8
@@ -3346,7 +3338,6 @@ efate.vanuatu.com.vu.			      172800 IN	A	202.80.32.5
 futuna.vanuatu.com.vu.			      172800 IN	A	202.80.32.3
 maringo.vanuatu.com.vu.			      172800 IN	A	125.255.96.208
 santo.vanuatu.com.vu.			      172800 IN	A	202.80.32.7
-wf.					      172800 IN	NS	c.nic.fr.
 wf.					      172800 IN	NS	d.ext.nic.fr.
 wf.					      172800 IN	NS	d.nic.fr.
 wf.					      172800 IN	NS	e.ext.nic.fr.
@@ -3496,12 +3487,14 @@ xn--kprw13d.				      172800 IN	NS	e.dns.tw.
 xn--kprw13d.				      172800 IN	NS	f.dns.tw.
 xn--kprw13d.				      172800 IN	NS	g.dns.tw.
 xn--kprw13d.				      172800 IN	NS	h.dns.tw.
+xn--kprw13d.				      172800 IN	NS	sec4.apnic.net.
 xn--kprw13d.				      86400 IN NSEC	xn--kpry57d. NS DS RRSIG NSEC
 xn--kpry57d.				      172800 IN	NS	d.dns.tw.
 xn--kpry57d.				      172800 IN	NS	e.dns.tw.
 xn--kpry57d.				      172800 IN	NS	f.dns.tw.
 xn--kpry57d.				      172800 IN	NS	g.dns.tw.
 xn--kpry57d.				      172800 IN	NS	h.dns.tw.
+xn--kpry57d.				      172800 IN	NS	sec4.apnic.net.
 xn--kpry57d.				      86400 IN NSEC	xn--lgbbat1ad8j. NS DS RRSIG NSEC
 xn--lgbbat1ad8j.			      172800 IN	NS	idn1.nic.dz.
 xn--lgbbat1ad8j.			      172800 IN	NS	idn2.nic.dz.
@@ -3626,7 +3619,6 @@ ns1.yemen.net.ye.			      172800 IN	A	65.162.184.33
 ns2.yemen.net.ye.			      172800 IN	A	65.162.184.34
 sah1.ye.				      172800 IN	A	195.94.0.34
 sah2.ye.				      172800 IN	A	195.94.0.35
-yt.					      172800 IN	NS	c.nic.fr.
 yt.					      172800 IN	NS	d.ext.nic.fr.
 yt.					      172800 IN	NS	d.nic.fr.
 yt.					      172800 IN	NS	e.ext.nic.fr.
