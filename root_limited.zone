@@ -2466,7 +2466,7 @@ nz.					      172800 IN	NS	ns4.dns.net.nz.
 nz.					      172800 IN	NS	ns5.dns.net.nz.
 nz.					      172800 IN	NS	ns6.dns.net.nz.
 nz.					      172800 IN	NS	ns7.dns.net.nz.
-nz.					      86400 IN NSEC	om. NS RRSIG NSEC
+nz.					      86400 IN NSEC	om. NS DS RRSIG NSEC
 circa.mcs.vuw.ac.nz.			      172800 IN	A	130.195.5.12
 downstage.mcs.vuw.ac.nz.		      172800 IN	A	130.195.6.10
 ns1.dns.net.nz.				      172800 IN	A	202.46.190.130
