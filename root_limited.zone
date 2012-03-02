@@ -378,6 +378,7 @@ e.dns.br.				      172800 IN	A	200.229.248.10
 e.dns.br.				      172800 IN	AAAA	2001:12f8:1::10
 f.dns.br.				      172800 IN	A	200.219.159.10
 ns.dns.br.				      172800 IN	A	200.160.0.5
+ns.dns.br.				      172800 IN	AAAA	2001:12ff:0:a20::5
 bs.					      172800 IN	NS	dns.nic.bs.
 bs.					      172800 IN	NS	upr1.upr.clu.edu.
 bs.					      172800 IN	NS	anyns.pch.net.
@@ -3388,7 +3389,10 @@ xn--45brj9c.				      86400 IN NSEC	xn--80akhbyknj4f. NS RRSIG NSEC
 xn--80akhbyknj4f.			      172800 IN	NS	a.iana-servers.net.
 xn--80akhbyknj4f.			      172800 IN	NS	b.iana-servers.net.
 xn--80akhbyknj4f.			      172800 IN	NS	c.iana-servers.net.
-xn--80akhbyknj4f.			      86400 IN NSEC	xn--90a3ac. NS DS RRSIG NSEC
+xn--80akhbyknj4f.			      86400 IN NSEC	xn--80ao21a. NS DS RRSIG NSEC
+xn--80ao21a.				      172800 IN	NS	kz.cctld.authdns.ripe.net.
+xn--80ao21a.				      172800 IN	NS	ns.nic.kz.
+xn--80ao21a.				      86400 IN NSEC	xn--90a3ac. NS RRSIG NSEC
 xn--90a3ac.				      172800 IN	NS	a.nic.rs.
 xn--90a3ac.				      172800 IN	NS	f.nic.rs.
 xn--90a3ac.				      172800 IN	NS	g.nic.rs.
