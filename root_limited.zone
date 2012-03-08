@@ -666,7 +666,7 @@ cr.					      172800 IN	NS	tld.isc-sns.com.
 cr.					      172800 IN	NS	tld.isc-sns.net.
 cr.					      172800 IN	NS	tld.isc-sns.info.
 cr.					      172800 IN	NS	ns-ext.nic.cl.
-cr.					      86400 IN NSEC	cu. NS RRSIG NSEC
+cr.					      86400 IN NSEC	cu. NS DS RRSIG NSEC
 ns.cr.					      172800 IN	A	163.178.8.2
 ns.ucr.cr.				      172800 IN	A	163.178.8.3
 cu.					      172800 IN	NS	cu.cctld.authdns.ripe.net.
