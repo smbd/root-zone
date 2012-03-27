@@ -2824,7 +2824,6 @@ se.					      172800 IN	NS	d.ns.se.
 se.					      172800 IN	NS	e.ns.se.
 se.					      172800 IN	NS	f.ns.se.
 se.					      172800 IN	NS	g.ns.se.
-se.					      172800 IN	NS	h.ns.se.
 se.					      172800 IN	NS	i.ns.se.
 se.					      172800 IN	NS	j.ns.se.
 se.					      86400 IN NSEC	sg. NS DS RRSIG NSEC
@@ -2837,7 +2836,6 @@ e.ns.se.				      172800 IN	A	81.228.10.57
 f.ns.se.				      172800 IN	A	192.71.53.53
 g.ns.se.				      172800 IN	A	130.239.5.114
 g.ns.se.				      172800 IN	AAAA	2001:6b0:e:3::1
-h.ns.se.				      172800 IN	A	199.7.49.30
 i.ns.se.				      172800 IN	A	194.146.106.22
 i.ns.se.				      172800 IN	AAAA	2001:67c:1010:5::53
 j.ns.se.				      172800 IN	A	199.254.63.1
