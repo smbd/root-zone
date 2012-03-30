@@ -469,10 +469,13 @@ cc.					      172800 IN	NS	h5.nstld.com.
 cc.					      172800 IN	NS	l5.nstld.com.
 cc.					      86400 IN NSEC	cd. NS RRSIG NSEC
 cd.					      172800 IN	NS	dns.princeton.edu.
+cd.					      172800 IN	NS	ns1.pch.nic.cd.
 cd.					      172800 IN	NS	igubu.saix.net.
 cd.					      172800 IN	NS	sunic.sunet.se.
 cd.					      172800 IN	NS	sabela.saix.net.
 cd.					      86400 IN NSEC	cf. NS RRSIG NSEC
+ns1.pch.nic.cd.				      172800 IN	A	204.61.216.66
+ns1.pch.nic.cd.				      172800 IN	AAAA	2001:500:14:6066:ad::1
 cf.					      172800 IN	NS	bow.intnet.cf.
 cf.					      172800 IN	NS	rip.psg.com.
 cf.					      86400 IN NSEC	cg. NS RRSIG NSEC
@@ -3173,7 +3176,6 @@ tz.					      172800 IN	NS	ns.anycast.co.tz.
 tz.					      172800 IN	NS	ns2.tznic.or.tz.
 tz.					      172800 IN	NS	rip.psg.com.
 tz.					      172800 IN	NS	ns-tz.afrinic.net.
-tz.					      172800 IN	NS	sunic.sunet.se.
 tz.					      172800 IN	NS	sns-pb.isc.org.
 tz.					      86400 IN NSEC	ua. NS RRSIG NSEC
 ns.anycast.co.tz.			      172800 IN	A	204.61.216.15
