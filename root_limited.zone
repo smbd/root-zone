@@ -820,6 +820,7 @@ edu.					      172800 IN	NS	g.edu-servers.net.
 edu.					      172800 IN	NS	l.edu-servers.net.
 edu.					      86400 IN NSEC	ee. NS DS RRSIG NSEC
 adns1.berkeley.edu.			      172800 IN	A	128.32.136.3
+adns1.berkeley.edu.			      172800 IN	AAAA	2607:f140:ffff:fffe::3
 adns2.berkeley.edu.			      172800 IN	A	128.32.136.14
 upr1.upr.clu.edu.			      172800 IN	A	136.145.1.4
 dns.princeton.edu.			      172800 IN	A	128.112.129.15
