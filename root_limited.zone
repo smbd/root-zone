@@ -1000,7 +1000,6 @@ gd.					      86400 IN NSEC	ge. NS RRSIG NSEC
 ge.					      172800 IN	NS	ns.uu.net.
 ge.					      172800 IN	NS	ns.nic.ge.
 ge.					      172800 IN	NS	ns2.nic.fr.
-ge.					      172800 IN	NS	sunic.sunet.se.
 ge.					      86400 IN NSEC	gf. NS RRSIG NSEC
 ns.nic.ge.				      172800 IN	A	212.72.130.11
 gf.					      172800 IN	NS	ns1-gp.mediaserv.net.
@@ -1673,7 +1672,7 @@ ma.					      172800 IN	NS	ns2.nic.fr.
 ma.					      172800 IN	NS	ns3.iam.net.ma.
 ma.					      86400 IN NSEC	mc. NS RRSIG NSEC
 hariss.anrt.ma.				      172800 IN	A	194.204.241.140
-dns2.menara.ma.				      172800 IN	A	81.192.53.156
+dns2.menara.ma.				      172800 IN	A	81.192.108.228
 dns3.menara.ma.				      172800 IN	A	196.217.246.51
 ns1.iam.net.ma.				      172800 IN	A	212.217.0.10
 ns2.iam.net.ma.				      172800 IN	A	81.192.53.23
@@ -2252,8 +2251,6 @@ ne.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::101
 np.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.102
 np.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::102
-om.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.103
-om.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::103
 ph.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::104
 ps.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.105
@@ -2493,15 +2490,13 @@ ns6.dns.net.nz.				      172800 IN	AAAA	2001:502:2eda::14
 ns7.dns.net.nz.				      172800 IN	A	194.146.106.54
 ns7.dns.net.nz.				      172800 IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.			      172800 IN	A	202.46.191.130
-om.					      172800 IN	NS	ns.icann.org.
-om.					      172800 IN	NS	om.cctld.authdns.ripe.net.
-om.					      172800 IN	NS	om14.omantel.net.om.
-om.					      172800 IN	NS	om16.omantel.net.om.
-om.					      172800 IN	NS	om41.omantel.net.om.
+om.					      172800 IN	NS	ns1.registry.om.
+om.					      172800 IN	NS	ns1.ausregistry.net.au.
+om.					      172800 IN	NS	ns2.registry.om.
+om.					      172800 IN	NS	ns2.ausregistry.net.au.
 om.					      86400 IN NSEC	org. NS RRSIG NSEC
-om14.omantel.net.om.			      172800 IN	A	212.72.23.4
-om16.omantel.net.om.			      172800 IN	A	212.72.1.186
-om41.omantel.net.om.			      172800 IN	A	62.231.243.249
+ns1.registry.om.			      172800 IN	A	212.72.15.101
+ns2.registry.om.			      172800 IN	A	188.135.6.231
 org.					      172800 IN	NS	a0.org.afilias-nst.info.
 org.					      172800 IN	NS	a2.org.afilias-nst.info.
 org.					      172800 IN	NS	b0.org.afilias-nst.org.
