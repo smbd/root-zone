@@ -2398,21 +2398,21 @@ ns.ideay.net.ni.			      172800 IN	A	200.9.190.130
 ns.ni.					      172800 IN	A	165.98.1.2
 ns2.ni.					      172800 IN	A	200.9.187.2
 nl.					      172800 IN	NS	nl1.dnsnode.net.
-nl.					      172800 IN	NS	ns1.nic.nl.
+nl.					      172800 IN	NS	ns1.dns.nl.
 nl.					      172800 IN	NS	ns2.nic.nl.
-nl.					      172800 IN	NS	ns3.nic.nl.
+nl.					      172800 IN	NS	ns3.dns.nl.
 nl.					      172800 IN	NS	ns4.nic.nl.
 nl.					      172800 IN	NS	ns-nl.nic.fr.
 nl.					      172800 IN	NS	sns-pb.isc.org.
 nl.					      86400 IN NSEC	no. NS DS RRSIG NSEC
+ns1.dns.nl.				      172800 IN	A	193.176.144.5
+ns1.dns.nl.				      172800 IN	AAAA	2a00:d78:0:102:193:176:144:5
+ns3.dns.nl.				      172800 IN	A	194.171.17.10
+ns3.dns.nl.				      172800 IN	AAAA	2001:610:0:800d::10
 ns3.domain-registry.nl.			      172800 IN	A	193.176.144.6
 ns3.domain-registry.nl.			      172800 IN	AAAA	2a00:d78:0:102:193:176:144:6
-ns1.nic.nl.				      172800 IN	A	193.176.144.2
-ns1.nic.nl.				      172800 IN	AAAA	2a00:d78:0:102:193:176:144:2
 ns2.nic.nl.				      172800 IN	A	213.154.241.28
 ns2.nic.nl.				      172800 IN	AAAA	2001:7b8:606::28
-ns3.nic.nl.				      172800 IN	A	194.171.17.2
-ns3.nic.nl.				      172800 IN	AAAA	2001:610:0:800d::2
 ns4.nic.nl.				      172800 IN	A	95.142.99.212
 ns4.nic.nl.				      172800 IN	AAAA	2a00:1188:5::212
 ns-pt.nlnetlabs.nl.			      172800 IN	A	213.154.224.141
