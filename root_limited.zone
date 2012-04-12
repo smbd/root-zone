@@ -3185,9 +3185,8 @@ ua.					      172800 IN	NS	he1.ns.ua.
 ua.					      172800 IN	NS	ho1.ns.ua.
 ua.					      172800 IN	NS	pch.ns.ua.
 ua.					      172800 IN	NS	ripe.ns.ua.
-ua.					      172800 IN	NS	sunic.sunet.se.
 ua.					      172800 IN	NS	sns-pb.isc.org.
-ua.					      86400 IN NSEC	ug. NS RRSIG NSEC
+ua.					      86400 IN NSEC	ug. NS DS RRSIG NSEC
 ge.hostmaster.ua.			      172800 IN	A	195.47.253.18
 ge.hostmaster.ua.			      172800 IN	AAAA	2001:67c:258::18
 az.hostmaster.net.ua.			      172800 IN	A	217.12.194.26
