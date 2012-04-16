@@ -82,7 +82,7 @@ ai.					      172800 IN	NS	ns1.pair.com.
 ai.					      172800 IN	NS	ns2.offshore.ai.
 ai.					      172800 IN	NS	whois.ai.
 ai.					      86400 IN NSEC	al. NS RRSIG NSEC
-ns2.offshore.ai.			      172800 IN	A	208.75.85.241
+ns2.offshore.ai.			      172800 IN	A	108.166.113.245
 whois.ai.				      172800 IN	A	209.59.119.1
 al.					      172800 IN	NS	al.cctld.authdns.ripe.net.
 al.					      172800 IN	NS	ns1.nic.al.
@@ -1038,6 +1038,7 @@ gl.					      172800 IN	NS	gl3.dyntld.net.
 gl.					      172800 IN	NS	gl4.dyntld.net.
 gl.					      86400 IN NSEC	gm. NS DS RRSIG NSEC
 b.nic.gl.				      172800 IN	A	91.221.196.228
+b.nic.gl.				      172800 IN	AAAA	2001:67c:3c0:112::10
 d.nic.gl.				      172800 IN	A	204.61.216.49
 d.nic.gl.				      172800 IN	AAAA	2001:500:14:6049:ad::1
 a.nuuk.nic.gl.				      172800 IN	A	194.177.224.13
