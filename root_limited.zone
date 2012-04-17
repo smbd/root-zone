@@ -739,6 +739,7 @@ f.ns.nic.cz.				      172800 IN	AAAA	2001:628:453:420::48
 de.					      172800 IN	NS	a.nic.de.
 de.					      172800 IN	NS	f.nic.de.
 de.					      172800 IN	NS	l.de.net.
+de.					      172800 IN	NS	n.de.net.
 de.					      172800 IN	NS	s.de.net.
 de.					      172800 IN	NS	z.nic.de.
 de.					      86400 IN NSEC	dj. NS DS RRSIG NSEC
@@ -2014,6 +2015,8 @@ euro-ns2.cw.net.			      172800 IN	A	212.80.175.2
 euro-ns3.cw.net.			      172800 IN	A	141.1.27.251
 l.de.net.				      172800 IN	A	77.67.63.105
 l.de.net.				      172800 IN	AAAA	2001:668:1f:11::105
+n.de.net.				      172800 IN	A	194.146.107.6
+n.de.net.				      172800 IN	AAAA	2001:67c:1011:1::53
 s.de.net.				      172800 IN	A	195.243.137.26
 dns.dnsafrica.net.			      172800 IN	A	213.193.157.30
 cl1.dnsnode.net.			      172800 IN	A	194.146.106.34
