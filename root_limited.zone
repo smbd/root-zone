@@ -1602,8 +1602,8 @@ ripe.nic.lk.				      172800 IN	A	193.0.9.88
 ripe.nic.lk.				      172800 IN	AAAA	2001:67c:e0::88
 t.nic.lk.				      172800 IN	A	203.94.66.129
 lr.					      172800 IN	NS	rip.psg.com.
+lr.					      172800 IN	NS	fork.sth.dnsnode.net.
 lr.					      172800 IN	NS	hippo.ru.ac.za.
-lr.					      172800 IN	NS	sunic.sunet.se.
 lr.					      86400 IN NSEC	ls. NS RRSIG NSEC
 ls.					      172800 IN	NS	rain.psg.com.
 ls.					      172800 IN	NS	hippo.ru.ac.za.
