@@ -88,7 +88,6 @@ al.					      172800 IN	NS	al.cctld.authdns.ripe.net.
 al.					      172800 IN	NS	ns1.nic.al.
 al.					      172800 IN	NS	rip.psg.com.
 al.					      172800 IN	NS	ns-al.isti.cnr.it.
-al.					      172800 IN	NS	sunic.sunet.se.
 al.					      172800 IN	NS	munnari.oz.au.
 al.					      86400 IN NSEC	am. NS RRSIG NSEC
 ns1.nic.al.				      172800 IN	A	194.1.149.230
@@ -305,7 +304,6 @@ bi.					      172800 IN	NS	dns.princeton.edu.
 bi.					      172800 IN	NS	ns1.nic.bi.
 bi.					      172800 IN	NS	anyns.nic.bi.
 bi.					      172800 IN	NS	ns-bi.afrinic.net.
-bi.					      172800 IN	NS	sunic.sunet.se.
 bi.					      86400 IN NSEC	biz. NS RRSIG NSEC
 anyns.nic.bi.				      172800 IN	A	204.61.216.61
 anyns.nic.bi.				      172800 IN	AAAA	2001:500:14:6061:ad::1
@@ -470,7 +468,6 @@ cc.					      86400 IN NSEC	cd. NS RRSIG NSEC
 cd.					      172800 IN	NS	dns.princeton.edu.
 cd.					      172800 IN	NS	ns1.pch.nic.cd.
 cd.					      172800 IN	NS	igubu.saix.net.
-cd.					      172800 IN	NS	sunic.sunet.se.
 cd.					      172800 IN	NS	sabela.saix.net.
 cd.					      86400 IN NSEC	cf. NS RRSIG NSEC
 ns1.pch.nic.cd.				      172800 IN	A	204.61.216.66
@@ -812,6 +809,7 @@ ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
 n1.nic.ec.				      172800 IN	A	200.12.198.1
 n2.nic.ec.				      172800 IN	A	200.12.199.1
+n2.nic.ec.				      172800 IN	AAAA	2801:0:60::1
 edu.					      172800 IN	NS	a.edu-servers.net.
 edu.					      172800 IN	NS	c.edu-servers.net.
 edu.					      172800 IN	NS	d.edu-servers.net.
@@ -1819,16 +1817,21 @@ ms.					      172800 IN	NS	phloem.uoregon.edu.
 ms.					      172800 IN	NS	mnidns1.mninet.ms.
 ms.					      86400 IN NSEC	mt. NS RRSIG NSEC
 mnidns1.mninet.ms.			      172800 IN	A	199.7.90.2
-mt.					      172800 IN	NS	b.hosting.nic.fr.
+mt.					      172800 IN	NS	f.ns.mt.
+mt.					      172800 IN	NS	i.ns.mt.
 mt.					      172800 IN	NS	p.ns.mt.
-mt.					      172800 IN	NS	mt.cctld.authdns.ripe.net.
+mt.					      172800 IN	NS	r.ns.mt.
 mt.					      172800 IN	NS	ns.mt.
 mt.					      172800 IN	NS	ns1.mt.
-mt.					      172800 IN	NS	sunic.sunet.se.
-mt.					      172800 IN	NS	sns-pb.isc.org.
 mt.					      86400 IN NSEC	mu. NS RRSIG NSEC
 ns.mt.					      172800 IN	A	193.188.47.252
+f.ns.mt.				      172800 IN	A	192.93.0.4
+f.ns.mt.				      172800 IN	AAAA	2001:660:3005:1::1:2
+i.ns.mt.				      172800 IN	A	192.5.4.1
+i.ns.mt.				      172800 IN	AAAA	2001:500:2e::1
 p.ns.mt.				      172800 IN	A	204.61.216.45
+r.ns.mt.				      172800 IN	A	193.0.9.97
+r.ns.mt.				      172800 IN	AAAA	2001:67c:e0::97
 ns1.mt.					      172800 IN	A	193.188.34.241
 mu.					      172800 IN	NS	mu.cctld.authdns.ripe.net.
 mu.					      172800 IN	NS	mu1.dyntld.net.
@@ -2245,8 +2248,6 @@ mg.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.94
 mg.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::94
 mm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.96
 mm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::96
-mt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.97
-mt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::97
 mu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.98
 mu.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::98
 mw.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.99
