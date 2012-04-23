@@ -2713,7 +2713,6 @@ py.					      172800 IN	NS	ns.dns.br.
 py.					      172800 IN	NS	py.cctld.authdns.ripe.net.
 py.					      172800 IN	NS	ns3.nic.mx.
 py.					      172800 IN	NS	sce.cnc.una.py.
-py.					      172800 IN	NS	sunic.sunet.se.
 py.					      172800 IN	NS	auth00.ns.uu.net.
 py.					      172800 IN	NS	merapi.switch.ch.
 py.					      86400 IN NSEC	qa. NS RRSIG NSEC
