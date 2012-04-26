@@ -283,12 +283,14 @@ bg.					      172800 IN	NS	bg.cctld.authdns.ripe.net.
 bg.					      172800 IN	NS	ns.register.bg.
 bg.					      172800 IN	NS	ns2.register.bg.
 bg.					      172800 IN	NS	ns3.register.bg.
-bg.					      172800 IN	NS	sunic.sunet.se.
+bg.					      172800 IN	NS	ns4.register.bg.
 bg.					      172800 IN	NS	ns-ext.isc.org.
 bg.					      86400 IN NSEC	bh. NS DS RRSIG NSEC
 ns.register.bg.				      172800 IN	A	192.92.129.99
 ns2.register.bg.			      172800 IN	A	193.68.3.232
 ns3.register.bg.			      172800 IN	A	94.155.14.10
+ns4.register.bg.			      172800 IN	A	194.0.32.1
+ns4.register.bg.			      172800 IN	AAAA	2001:678:3c::1
 bh.					      172800 IN	NS	ns.batelco.com.bh.
 bh.					      172800 IN	NS	ns2.batelco.com.bh.
 bh.					      172800 IN	NS	ns3.batelco.com.bh.
