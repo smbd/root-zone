@@ -371,8 +371,8 @@ br.					      172800 IN	NS	f.dns.br.
 br.					      86400 IN NSEC	bs. NS DS RRSIG NSEC
 a.dns.br.				      172800 IN	A	200.160.0.10
 a.dns.br.				      172800 IN	AAAA	2001:12ff::10
-b.dns.br.				      172800 IN	A	200.189.40.10
-c.dns.br.				      172800 IN	A	200.192.232.10
+b.dns.br.				      172800 IN	A	200.189.41.10
+c.dns.br.				      172800 IN	A	200.192.233.10
 d.dns.br.				      172800 IN	A	200.219.154.10
 e.dns.br.				      172800 IN	A	200.229.248.10
 e.dns.br.				      172800 IN	AAAA	2001:12f8:1::10
@@ -682,11 +682,11 @@ ns.ceniai.net.cu.			      172800 IN	A	169.158.128.136
 ns.ceniai.net.cu.			      172800 IN	AAAA	2001:1340:1:128::136
 ns2.ceniai.net.cu.			      172800 IN	A	169.158.128.88
 cv.					      172800 IN	NS	ns.dns.cv.
-cv.					      172800 IN	NS	dns.fccn.pt.
-cv.					      172800 IN	NS	sunic.sunet.se.
+cv.					      172800 IN	NS	ns01.fccn.pt.
 cv.					      172800 IN	NS	auth02.ns.uu.net.
 cv.					      172800 IN	NS	ns-ext.isc.org.
 cv.					      172800 IN	NS	phobos.fccn.pt.
+cv.					      172800 IN	NS	sns-pb.isc.org.
 cv.					      86400 IN NSEC	cw. NS RRSIG NSEC
 ns.dns.cv.				      172800 IN	A	41.221.192.220
 cw.					      172800 IN	NS	cw.cctld.authdns.ripe.net.
@@ -1051,8 +1051,8 @@ ns1.nic.gm.				      172800 IN	A	194.63.250.217
 ns2.nic.gm.				      172800 IN	A	212.60.81.100
 gn.					      172800 IN	NS	ns1.dns.aq.
 gn.					      172800 IN	NS	rip.psg.com.
+gn.					      172800 IN	NS	fork.sth.dnsnode.net.
 gn.					      172800 IN	NS	hippo.ru.ac.za.
-gn.					      172800 IN	NS	sunic.sunet.se.
 gn.					      86400 IN NSEC	gov. NS RRSIG NSEC
 gov.					      172800 IN	NS	a.gov-servers.net.
 gov.					      172800 IN	NS	b.gov-servers.net.
@@ -2410,7 +2410,7 @@ nl.					      172800 IN	NS	nl1.dnsnode.net.
 nl.					      172800 IN	NS	ns1.dns.nl.
 nl.					      172800 IN	NS	ns2.nic.nl.
 nl.					      172800 IN	NS	ns3.dns.nl.
-nl.					      172800 IN	NS	ns4.nic.nl.
+nl.					      172800 IN	NS	ns4.dns.nl.
 nl.					      172800 IN	NS	ns-nl.nic.fr.
 nl.					      172800 IN	NS	sns-pb.isc.org.
 nl.					      86400 IN NSEC	no. NS DS RRSIG NSEC
@@ -2418,12 +2418,12 @@ ns1.dns.nl.				      172800 IN	A	193.176.144.5
 ns1.dns.nl.				      172800 IN	AAAA	2a00:d78:0:102:193:176:144:5
 ns3.dns.nl.				      172800 IN	A	194.171.17.10
 ns3.dns.nl.				      172800 IN	AAAA	2001:610:0:800d::10
+ns4.dns.nl.				      172800 IN	A	95.142.99.212
+ns4.dns.nl.				      172800 IN	AAAA	2a00:1188:5::212
 ns3.domain-registry.nl.			      172800 IN	A	193.176.144.6
 ns3.domain-registry.nl.			      172800 IN	AAAA	2a00:d78:0:102:193:176:144:6
 ns2.nic.nl.				      172800 IN	A	213.154.241.28
 ns2.nic.nl.				      172800 IN	AAAA	2001:7b8:606::28
-ns4.nic.nl.				      172800 IN	A	95.142.99.212
-ns4.nic.nl.				      172800 IN	AAAA	2a00:1188:5::212
 ns-pt.nlnetlabs.nl.			      172800 IN	A	213.154.224.141
 ns-pt.nlnetlabs.nl.			      172800 IN	AAAA	2001:7b8:206:1::4:141
 no.					      172800 IN	NS	i.nic.no.
@@ -2696,6 +2696,8 @@ ns.dns.pt.				      172800 IN	A	193.136.0.1
 ns2.dns.pt.				      172800 IN	A	193.136.2.226
 ns2.dns.pt.				      172800 IN	AAAA	2001:690:a80:4001::100
 dns.fccn.pt.				      172800 IN	A	193.136.192.10
+ns01.fccn.pt.				      172800 IN	A	193.136.192.40
+ns01.fccn.pt.				      172800 IN	AAAA	2001:690:a00:4001::200
 phobos.fccn.pt.				      172800 IN	A	193.136.7.17
 pw.					      172800 IN	NS	ns1.registry.pw.
 pw.					      172800 IN	NS	ns2.registry.pw.
@@ -2896,19 +2898,20 @@ sj.					      172800 IN	NS	nn.uninett.no.
 sj.					      172800 IN	NS	nac.no.
 sj.					      172800 IN	NS	server.nordu.net.
 sj.					      86400 IN NSEC	sk. NS RRSIG NSEC
+sk.					      172800 IN	NS	a.tld.sk.
 sk.					      172800 IN	NS	c.tld.sk.
 sk.					      172800 IN	NS	ns.uu.net.
 sk.					      172800 IN	NS	ns.eunet.sk.
 sk.					      172800 IN	NS	ns.sk-nic.sk.
 sk.					      172800 IN	NS	ns1.sk-nic.sk.
 sk.					      172800 IN	NS	ns3.sk-nic.sk.
-sk.					      172800 IN	NS	sunic.sunet.se.
 sk.					      172800 IN	NS	sns-pb.isc.org.
 sk.					      86400 IN NSEC	sl. NS RRSIG NSEC
 ns.eunet.sk.				      172800 IN	A	217.75.73.242
 ns.sk-nic.sk.				      172800 IN	A	195.12.159.2
 ns1.sk-nic.sk.				      172800 IN	A	195.12.159.3
 ns3.sk-nic.sk.				      172800 IN	A	217.75.67.234
+a.tld.sk.				      172800 IN	A	194.0.45.1
 c.tld.sk.				      172800 IN	A	217.75.72.157
 c.tld.sk.				      172800 IN	AAAA	2a02:770:100:100::101
 sl.					      172800 IN	NS	ns1.neoip.com.
