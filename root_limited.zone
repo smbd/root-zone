@@ -234,7 +234,7 @@ ax.					      172800 IN	NS	ns1.aalnet.net.
 ax.					      172800 IN	NS	ns2.aalnet.net.
 ax.					      172800 IN	NS	ns3.aalnet.net.
 ax.					      86400 IN NSEC	az. NS RRSIG NSEC
-az.					      172800 IN	NS	az.hostmaster.net.ua.
+az.					      172800 IN	NS	az.hostmaster.ua.
 az.					      172800 IN	NS	ns.demos.su.
 az.					      172800 IN	NS	rip.psg.com.
 az.					      86400 IN NSEC	ba. NS RRSIG NSEC
@@ -3196,9 +3196,10 @@ ua.					      172800 IN	NS	pch.ns.ua.
 ua.					      172800 IN	NS	ripe.ns.ua.
 ua.					      172800 IN	NS	sns-pb.isc.org.
 ua.					      86400 IN NSEC	ug. NS DS RRSIG NSEC
+az.hostmaster.ua.			      172800 IN	A	195.47.253.13
+az.hostmaster.ua.			      172800 IN	AAAA	2001:67c:258::13
 ge.hostmaster.ua.			      172800 IN	A	195.47.253.18
 ge.hostmaster.ua.			      172800 IN	AAAA	2001:67c:258::18
-az.hostmaster.net.ua.			      172800 IN	A	217.12.194.26
 cd1.ns.ua.				      172800 IN	A	194.0.1.9
 cd1.ns.ua.				      172800 IN	AAAA	2001:678:4::9
 he1.ns.ua.				      172800 IN	A	216.218.215.27
