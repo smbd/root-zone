@@ -1943,7 +1943,7 @@ ne.					      172800 IN	NS	ne.cctld.authdns.ripe.net.
 ne.					      172800 IN	NS	ns.intnet.ne.
 ne.					      172800 IN	NS	bow.rain.fr.
 ne.					      86400 IN NSEC	net. NS RRSIG NSEC
-ns.intnet.ne.				      172800 IN	A	193.251.228.10
+ns.intnet.ne.				      172800 IN	A	41.138.54.10
 net.					      172800 IN	NS	a.gtld-servers.net.
 net.					      172800 IN	NS	b.gtld-servers.net.
 net.					      172800 IN	NS	c.gtld-servers.net.
