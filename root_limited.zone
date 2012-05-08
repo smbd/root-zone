@@ -1585,7 +1585,7 @@ lk.					      172800 IN	NS	ripe.nic.lk.
 lk.					      172800 IN	NS	pendragon.cs.purdue.edu.
 lk.					      86400 IN NSEC	lr. NS DS RRSIG NSEC
 ns1.ac.lk.				      172800 IN	A	192.248.1.162
-ns1.ac.lk.				      172800 IN	AAAA	2001:df0:17:1::162
+ns1.ac.lk.				      172800 IN	AAAA	2401:dd00:1::162
 ns3.ac.lk.				      172800 IN	A	202.124.166.178
 c.nic.lk.				      172800 IN	A	203.143.29.3
 c.nic.lk.				      172800 IN	AAAA	2405:5400:3:1:203:143:29:3
@@ -3049,7 +3049,7 @@ tj.					      172800 IN	NS	ns1.nic.tj.
 tj.					      172800 IN	NS	ns2.tojikiston.com.
 tj.					      172800 IN	NS	phloem.uoregon.edu.
 tj.					      86400 IN NSEC	tk. NS RRSIG NSEC
-ns1.nic.tj.				      172800 IN	A	62.122.137.16
+ns1.nic.tj.				      172800 IN	A	91.218.160.197
 tk.					      172800 IN	NS	a.ns.tk.
 tk.					      172800 IN	NS	b.ns.tk.
 tk.					      172800 IN	NS	c.ns.tk.
@@ -3085,7 +3085,6 @@ tn.					      172800 IN	NS	ns.ati.tn.
 tn.					      172800 IN	NS	ns2.ati.tn.
 tn.					      172800 IN	NS	ns2.nic.fr.
 tn.					      172800 IN	NS	rip.psg.com.
-tn.					      172800 IN	NS	sunic.sunet.se.
 tn.					      86400 IN NSEC	to. NS RRSIG NSEC
 ns.ati.tn.				      172800 IN	A	193.95.66.10
 ns.ati.tn.				      172800 IN	AAAA	2001:4350:1:1::10
