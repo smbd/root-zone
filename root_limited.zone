@@ -111,10 +111,10 @@ ns01-server.curinfo.an.			      172800 IN	A	65.208.122.36
 engine0.una.an.				      172800 IN	A	200.26.199.99
 engine2.una.an.				      172800 IN	A	65.174.238.100
 engine3.una.an.				      172800 IN	A	200.26.199.102
-ao.					      172800 IN	NS	dns.fccn.pt.
-ao.					      172800 IN	NS	sunic.sunet.se.
+ao.					      172800 IN	NS	ns02.fccn.pt.
+ao.					      172800 IN	NS	ns03.fccn.pt.
 ao.					      172800 IN	NS	auth02.ns.uu.net.
-ao.					      172800 IN	NS	ns-ext.vix.com.
+ao.					      172800 IN	NS	ns-ext.isc.org.
 ao.					      172800 IN	NS	phobos.fccn.pt.
 ao.					      86400 IN NSEC	aq. NS RRSIG NSEC
 aq.					      172800 IN	NS	ns1.dns.aq.
@@ -655,7 +655,6 @@ dns3.tld.tutby.com.			      172800 IN	A	195.137.160.10
 dns3.tld.tutby.com.			      172800 IN	AAAA	2a01:d8:2:1::2
 dns4.tld.tutby.com.			      172800 IN	A	85.17.148.67
 dns5.tld.tutby.com.			      172800 IN	A	82.208.35.204
-ns-ext.vix.com.				      172800 IN	A	204.152.184.64
 coop.					      172800 IN	NS	coop1.dyntld.net.
 coop.					      172800 IN	NS	coop2.dyntld.net.
 coop.					      172800 IN	NS	coop3.dyntld.net.
@@ -1570,6 +1569,7 @@ b.nic.li.				      172800 IN	AAAA	2001:620::5
 c.nic.li.				      172800 IN	A	147.28.0.39
 c.nic.li.				      172800 IN	AAAA	2001:418:1::39
 d.nic.li.				      172800 IN	A	200.160.0.5
+d.nic.li.				      172800 IN	AAAA	2001:12ff:0:a20::5
 e.nic.li.				      172800 IN	A	194.0.17.1
 e.nic.li.				      172800 IN	AAAA	2001:678:3::1
 f.nic.li.				      172800 IN	A	194.146.106.14
@@ -2696,9 +2696,11 @@ pt.					      86400 IN NSEC	pw. NS DS RRSIG NSEC
 ns.dns.pt.				      172800 IN	A	193.136.0.1
 ns2.dns.pt.				      172800 IN	A	193.136.2.226
 ns2.dns.pt.				      172800 IN	AAAA	2001:690:a80:4001::100
-dns.fccn.pt.				      172800 IN	A	193.136.192.10
 ns01.fccn.pt.				      172800 IN	A	193.136.192.40
 ns01.fccn.pt.				      172800 IN	AAAA	2001:690:a00:4001::200
+ns02.fccn.pt.				      172800 IN	A	193.136.2.228
+ns03.fccn.pt.				      172800 IN	A	138.246.255.249
+ns03.fccn.pt.				      172800 IN	AAAA	2001:4ca0:106:0:250:56ff:fea9:3fd
 phobos.fccn.pt.				      172800 IN	A	193.136.7.17
 pw.					      172800 IN	NS	ns1.registry.pw.
 pw.					      172800 IN	NS	ns2.registry.pw.
