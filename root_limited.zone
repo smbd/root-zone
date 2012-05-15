@@ -819,7 +819,6 @@ edu.					      172800 IN	NS	f.edu-servers.net.
 edu.					      172800 IN	NS	g.edu-servers.net.
 edu.					      172800 IN	NS	l.edu-servers.net.
 edu.					      86400 IN NSEC	ee. NS DS RRSIG NSEC
-arizona.edu.				      172800 IN	A	128.196.128.233
 adns1.berkeley.edu.			      172800 IN	A	128.32.136.3
 adns1.berkeley.edu.			      172800 IN	AAAA	2607:f140:ffff:fffe::3
 adns2.berkeley.edu.			      172800 IN	A	128.32.136.14
@@ -1209,13 +1208,13 @@ ns1.indo.net.id.			      172800 IN	A	202.159.32.2
 ns1.rad.net.id.				      172800 IN	A	202.154.1.2
 ns1.id.					      172800 IN	A	202.155.30.227
 ie.					      172800 IN	NS	b.iedr.ie.
+ie.					      172800 IN	NS	c.iedr.ie.
+ie.					      172800 IN	NS	d.iedr.ie.
 ie.					      172800 IN	NS	ns3.ns.esat.net.
 ie.					      172800 IN	NS	gns1.domainregistry.ie.
 ie.					      172800 IN	NS	gns2.domainregistry.ie.
 ie.					      172800 IN	NS	banba.domainregistry.ie.
 ie.					      172800 IN	NS	ns-ie.nic.fr.
-ie.					      172800 IN	NS	uucp-gw-1.pa.dec.com.
-ie.					      172800 IN	NS	uucp-gw-2.pa.dec.com.
 ie.					      86400 IN NSEC	il. NS RRSIG NSEC
 auth01.connect.ie.			      172800 IN	A	87.198.184.50
 banba.domainregistry.ie.		      172800 IN	A	193.1.142.2
@@ -1223,6 +1222,8 @@ gns1.domainregistry.ie.			      172800 IN	A	198.133.199.102
 gns2.domainregistry.ie.			      172800 IN	A	198.133.199.103
 b.iedr.ie.				      172800 IN	A	77.72.72.34
 b.iedr.ie.				      172800 IN	AAAA	2a01:4b0::2
+c.iedr.ie.				      172800 IN	A	194.146.106.98
+d.iedr.ie.				      172800 IN	A	77.72.229.245
 il.					      172800 IN	NS	nsa.ns.il.
 il.					      172800 IN	NS	nsb.ns.il.
 il.					      172800 IN	NS	nsd.ns.il.
@@ -1483,9 +1484,11 @@ ki.					      86400 IN NSEC	km. NS RRSIG NSEC
 ns.anycast.nic.ki.			      172800 IN	A	204.61.216.26
 ns.sydney.nic.ki.			      172800 IN	A	203.119.12.246
 km.					      172800 IN	NS	dns1.km.
+km.					      172800 IN	NS	dns2.km.
 km.					      172800 IN	NS	phloem.uoregon.edu.
 km.					      86400 IN NSEC	kn. NS RRSIG NSEC
 dns1.km.				      172800 IN	A	80.231.195.18
+dns2.km.				      172800 IN	A	80.231.195.4
 kn.					      172800 IN	NS	a.dns.tw.
 kn.					      172800 IN	NS	b.dns.tw.
 kn.					      172800 IN	NS	c.dns.tw.
@@ -1544,7 +1547,6 @@ lb.					      172800 IN	NS	ns1.dns.aq.
 lb.					      172800 IN	NS	rip.psg.com.
 lb.					      172800 IN	NS	fork.sth.dnsnode.net.
 lb.					      172800 IN	NS	zeina.aub.edu.lb.
-lb.					      172800 IN	NS	arizona.edu.
 lb.					      86400 IN NSEC	lc. NS RRSIG NSEC
 zeina.aub.edu.lb.			      172800 IN	A	193.188.128.14
 lc.					      172800 IN	NS	a0.cctld.afilias-nst.info.
