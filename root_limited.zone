@@ -2143,8 +2143,6 @@ dns1.lttnet.net.			      172800 IN	A	62.68.42.9
 ns1-fr.mediaserv.net.			      172800 IN	A	188.165.38.14
 ns1-gp.mediaserv.net.			      172800 IN	A	213.188.172.1
 ns1-mq.mediaserv.net.			      172800 IN	A	213.16.20.3
-ns5.msk-ix.net.				      172800 IN	A	193.232.128.6
-ns5.msk-ix.net.				      172800 IN	AAAA	2001:678:17:0:193:232:128:6
 server.nordu.net.			      172800 IN	A	193.10.252.19
 a.ns13.net.				      172800 IN	A	49.212.31.192
 b.ns13.net.				      172800 IN	A	49.212.51.85
@@ -2319,16 +2317,16 @@ ns-ki.ripe.net.				      172800 IN	A	193.0.12.115
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
 ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
+a.dns.ripn.net.				      172800 IN	A	193.232.128.6
+a.dns.ripn.net.				      172800 IN	AAAA	2001:678:17:0:193:232:128:6
+b.dns.ripn.net.				      172800 IN	A	194.85.252.62
+b.dns.ripn.net.				      172800 IN	AAAA	2001:678:16:0:194:85:252:62
 d.dns.ripn.net.				      172800 IN	A	194.190.124.17
 d.dns.ripn.net.				      172800 IN	AAAA	2001:678:18:0:194:190:124:17
 e.dns.ripn.net.				      172800 IN	A	193.232.142.17
 e.dns.ripn.net.				      172800 IN	AAAA	2001:678:15:0:193:232:142:17
 f.dns.ripn.net.				      172800 IN	A	193.232.156.17
 f.dns.ripn.net.				      172800 IN	AAAA	2001:678:14:0:193:232:156:17
-ns.ripn.net.				      172800 IN	A	194.85.105.17
-ns.ripn.net.				      172800 IN	AAAA	2001:678:13:0:194:85:105:17
-ns9.ripn.net.				      172800 IN	A	194.85.252.62
-ns9.ripn.net.				      172800 IN	AAAA	2001:678:16:0:194:85:252:62
 a.root-servers.net.			      518400 IN	A	198.41.0.4
 a.root-servers.net.			      518400 IN	AAAA	2001:503:ba3e::2:30
 b.root-servers.net.			      518400 IN	A	192.228.79.201
@@ -2758,6 +2756,7 @@ dns-at.rotld.ro.			      172800 IN	A	193.171.255.54
 dns-at.rotld.ro.			      172800 IN	AAAA	2001:628:453:4001::53
 primary.rotld.ro.			      172800 IN	A	192.162.16.18
 secondary.rotld.ro.			      172800 IN	A	193.230.31.225
+secondary.rotld.ro.			      172800 IN	AAAA	2a03:5e80:0:5:193:230:31:225
 rs.					      172800 IN	NS	a.nic.rs.
 rs.					      172800 IN	NS	b.nic.rs.
 rs.					      172800 IN	NS	c.nic.rs.
@@ -2778,13 +2777,11 @@ g.nic.rs.				      172800 IN	A	147.91.8.6
 h.nic.rs.				      172800 IN	A	91.199.17.60
 k.nic.rs.				      172800 IN	A	192.5.4.1
 k.nic.rs.				      172800 IN	AAAA	2001:500:2e::1
+ru.					      172800 IN	NS	a.dns.ripn.net.
+ru.					      172800 IN	NS	b.dns.ripn.net.
 ru.					      172800 IN	NS	d.dns.ripn.net.
 ru.					      172800 IN	NS	e.dns.ripn.net.
 ru.					      172800 IN	NS	f.dns.ripn.net.
-ru.					      172800 IN	NS	ns.ripn.net.
-ru.					      172800 IN	NS	ns2.nic.fr.
-ru.					      172800 IN	NS	ns5.msk-ix.net.
-ru.					      172800 IN	NS	ns9.ripn.net.
 ru.					      86400 IN NSEC	rw. NS RRSIG NSEC
 rw.					      172800 IN	NS	dns.dnsafrica.net.
 rw.					      172800 IN	NS	dns.princeton.edu.
@@ -2957,12 +2954,11 @@ st.					      172800 IN	NS	auth61.ns.uu.net.
 st.					      172800 IN	NS	dns-au.st.
 st.					      86400 IN NSEC	su. NS RRSIG NSEC
 dns-au.st.				      172800 IN	A	203.19.59.140
+su.					      172800 IN	NS	a.dns.ripn.net.
+su.					      172800 IN	NS	b.dns.ripn.net.
 su.					      172800 IN	NS	d.dns.ripn.net.
 su.					      172800 IN	NS	e.dns.ripn.net.
 su.					      172800 IN	NS	f.dns.ripn.net.
-su.					      172800 IN	NS	ns.ripn.net.
-su.					      172800 IN	NS	ns5.msk-ix.net.
-su.					      172800 IN	NS	ns9.ripn.net.
 su.					      86400 IN NSEC	sv. NS DS RRSIG NSEC
 ns.demos.su.				      172800 IN	A	194.87.0.8
 ns.demos.su.				      172800 IN	A	194.87.0.9
@@ -3560,12 +3556,11 @@ xn--ogbpf8fl.				      172800 IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.				      172800 IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.				      172800 IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.				      86400 IN NSEC	xn--p1ai. NS RRSIG NSEC
+xn--p1ai.				      172800 IN	NS	a.dns.ripn.net.
+xn--p1ai.				      172800 IN	NS	b.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	d.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	e.dns.ripn.net.
 xn--p1ai.				      172800 IN	NS	f.dns.ripn.net.
-xn--p1ai.				      172800 IN	NS	ns.ripn.net.
-xn--p1ai.				      172800 IN	NS	ns5.msk-ix.net.
-xn--p1ai.				      172800 IN	NS	ns9.ripn.net.
 xn--p1ai.				      86400 IN NSEC	xn--pgbs0dh. NS RRSIG NSEC
 xn--pgbs0dh.				      172800 IN	NS	ns2.nic.fr.
 xn--pgbs0dh.				      172800 IN	NS	ns8.ati.tn.
