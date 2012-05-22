@@ -1547,7 +1547,7 @@ lb.					      172800 IN	NS	ns1.dns.aq.
 lb.					      172800 IN	NS	rip.psg.com.
 lb.					      172800 IN	NS	fork.sth.dnsnode.net.
 lb.					      172800 IN	NS	zeina.aub.edu.lb.
-lb.					      86400 IN NSEC	lc. NS RRSIG NSEC
+lb.					      86400 IN NSEC	lc. NS DS RRSIG NSEC
 zeina.aub.edu.lb.			      172800 IN	A	193.188.128.14
 lc.					      172800 IN	NS	a0.cctld.afilias-nst.info.
 lc.					      172800 IN	NS	a2.cctld.afilias-nst.info.
@@ -2755,6 +2755,7 @@ ro.					      86400 IN NSEC	rs. NS RRSIG NSEC
 dns-at.rotld.ro.			      172800 IN	A	193.171.255.54
 dns-at.rotld.ro.			      172800 IN	AAAA	2001:628:453:4001::53
 primary.rotld.ro.			      172800 IN	A	192.162.16.18
+primary.rotld.ro.			      172800 IN	AAAA	2a03:5e80:0:4:192:162:16:18
 secondary.rotld.ro.			      172800 IN	A	193.230.31.225
 secondary.rotld.ro.			      172800 IN	AAAA	2a03:5e80:0:5:193:230:31:225
 rs.					      172800 IN	NS	a.nic.rs.
