@@ -807,8 +807,11 @@ ns1.nic.dz.				      172800 IN	A	193.194.64.242
 ns2.nic.dz.				      172800 IN	A	213.179.160.66
 ec.					      172800 IN	NS	n1.nic.ec.
 ec.					      172800 IN	NS	n2.nic.ec.
+ec.					      172800 IN	NS	n3.dns.ec.
 ec.					      172800 IN	NS	sns-pb.isc.org.
 ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
+n3.dns.ec.				      172800 IN	A	204.61.216.39
+n3.dns.ec.				      172800 IN	AAAA	2001:500:14:6039:ad::1
 n1.nic.ec.				      172800 IN	A	200.12.198.1
 n2.nic.ec.				      172800 IN	A	200.12.199.1
 n2.nic.ec.				      172800 IN	AAAA	2801:0:60::1
