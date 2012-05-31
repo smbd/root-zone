@@ -1135,9 +1135,9 @@ gy.					      86400 IN NSEC	hk. NS RRSIG NSEC
 ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
 hk.					      172800 IN	NS	b.dns.tw.
+hk.					      172800 IN	NS	y.hkirc.net.hk.
 hk.					      172800 IN	NS	z.hkirc.net.hk.
 hk.					      172800 IN	NS	ns1.hkirc.net.hk.
-hk.					      172800 IN	NS	ns2.cuhk.edu.hk.
 hk.					      172800 IN	NS	ns2.hkirc.net.hk.
 hk.					      172800 IN	NS	sec3.apnic.net.
 hk.					      172800 IN	NS	adns1.berkeley.edu.
