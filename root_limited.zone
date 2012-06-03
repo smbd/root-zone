@@ -1339,19 +1339,14 @@ io.					      86400 IN NSEC	iq. NS DS RRSIG NSEC
 a.nic.io.				      172800 IN	A	64.251.31.179
 b.nic.io.				      172800 IN	A	194.0.2.1
 b.nic.io.				      172800 IN	AAAA	2001:678:5::1
-iq.					      172800 IN	NS	a.dns-server.iq.
-iq.					      172800 IN	NS	b.dns-server.iq.
-iq.					      172800 IN	NS	c.dns-server.iq.
-iq.					      172800 IN	NS	d.dns-server.iq.
-iq.					      172800 IN	NS	e.dns-server.iq.
-iq.					      172800 IN	NS	f.dns-server.iq.
+iq.					      172800 IN	NS	iq.dns.cocca.org.nz.
+iq.					      172800 IN	NS	ns1.cmc.iq.
+iq.					      172800 IN	NS	sns-pb.isc.org.
+iq.					      172800 IN	NS	nsp-anycast.cmc.iq.
 iq.					      86400 IN NSEC	ir. NS RRSIG NSEC
-a.dns-server.iq.			      172800 IN	A	156.154.100.28
-b.dns-server.iq.			      172800 IN	A	156.154.101.28
-c.dns-server.iq.			      172800 IN	A	156.154.102.28
-d.dns-server.iq.			      172800 IN	A	156.154.103.28
-e.dns-server.iq.			      172800 IN	A	156.154.104.28
-f.dns-server.iq.			      172800 IN	A	156.154.105.28
+ns1.cmc.iq.				      172800 IN	A	194.117.57.100
+nsp-anycast.cmc.iq.			      172800 IN	A	194.117.58.42
+nsp-anycast.cmc.iq.			      172800 IN	AAAA	2001:500:14:8001:ad::42
 ir.					      172800 IN	NS	ns1.nic.ir.
 ir.					      172800 IN	NS	ns5.univie.ac.at.
 ir.					      172800 IN	NS	auth02.ns.uu.net.
@@ -2505,6 +2500,7 @@ ns6.dns.net.nz.				      172800 IN	AAAA	2001:502:2eda::14
 ns7.dns.net.nz.				      172800 IN	A	194.146.106.54
 ns7.dns.net.nz.				      172800 IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.			      172800 IN	A	202.46.191.130
+iq.dns.cocca.org.nz.			      172800 IN	A	203.119.84.235
 om.					      172800 IN	NS	ns1.registry.om.
 om.					      172800 IN	NS	ns1.ausregistry.net.au.
 om.					      172800 IN	NS	ns2.registry.om.
