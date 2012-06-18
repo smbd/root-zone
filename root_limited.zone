@@ -1136,6 +1136,7 @@ ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
 hk.					      172800 IN	NS	b.dns.tw.
 hk.					      172800 IN	NS	w.hkirc.net.hk.
+hk.					      172800 IN	NS	x.hkirc.net.hk.
 hk.					      172800 IN	NS	y.hkirc.net.hk.
 hk.					      172800 IN	NS	z.hkirc.net.hk.
 hk.					      172800 IN	NS	ns1.hkirc.net.hk.
@@ -1152,6 +1153,8 @@ v.hkirc.net.hk.				      172800 IN	A	204.61.216.46
 v.hkirc.net.hk.				      172800 IN	AAAA	2001:500:14:6046:ad::1
 w.hkirc.net.hk.				      172800 IN	A	202.12.28.140
 w.hkirc.net.hk.				      172800 IN	AAAA	2001:dc0:1:0:4777::140
+x.hkirc.net.hk.				      172800 IN	A	202.45.188.39
+x.hkirc.net.hk.				      172800 IN	AAAA	2405:3001:1:58::1:39
 y.hkirc.net.hk.				      172800 IN	A	137.189.6.21
 y.hkirc.net.hk.				      172800 IN	AAAA	2405:3000:3:60::21
 z.hkirc.net.hk.				      172800 IN	A	194.146.106.70
@@ -3492,6 +3495,7 @@ xn--hlcj6aya9esc7a.			      86400 IN NSEC	xn--j6w193g. NS DS RRSIG NSEC
 xn--j6w193g.				      172800 IN	NS	b.dns.tw.
 xn--j6w193g.				      172800 IN	NS	v.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	w.hkirc.net.hk.
+xn--j6w193g.				      172800 IN	NS	x.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	y.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	z.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	ns1.hkirc.net.hk.
