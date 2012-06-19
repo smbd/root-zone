@@ -12,6 +12,7 @@
 .					      518400 IN	NS	l.root-servers.net.
 .					      518400 IN	NS	m.root-servers.net.
 .					      86400 IN NSEC	ac. NS SOA RRSIG NSEC DNSKEY
+.					      172800 IN	DNSKEY	256 3 8 AwEAAbW4qUZUxSRqUntM9u0pvmkqRB9Z+WRPghllsekdgp8ksT5bwRBE 3xwVWJJpJgVYGvFGgLIutrGyZDJVLQX+tu+qe6HJbA8XRZsL2aA6e4MZ eD4TOUlIH/cVlof3y4gFibjwzuuondVku9ia2MSRYnrBl+LMSRftBkVa 4OvS+dij  ; key id = 50398
 .					      172800 IN	DNSKEY	256 3 8 AwEAAbd0IPTQdvyndWSX6HHcB+JycMl1aCGTHSJUBs/y9S93el05VvXg 1VqSF4vveB9rEuAZ1z8RNWZ9ac+rlaK7PrI5RlCIyKKPbtHbpgQGkwai 8O6BZ4J/ch7DGuhGJfvoECcWjsucs683WFRtmfLx5WNdPxxi30Czt1zP qMWfY6YJ  ; key id = 56158
 .					      172800 IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=  ; key id = 19036
 ac.					      172800 IN	NS	a.nic.ac.
@@ -890,7 +891,9 @@ eu.					      172800 IN	NS	m.nic.eu.
 eu.					      172800 IN	NS	p.nic.eu.
 eu.					      172800 IN	NS	x.nic.eu.
 eu.					      172800 IN	NS	y.nic.eu.
+eu.					      172800 IN	NS	cz.dns.eu.
 eu.					      86400 IN NSEC	fi. NS DS RRSIG NSEC
+cz.dns.eu.				      172800 IN	A	93.190.128.138
 a.nic.eu.				      172800 IN	A	91.200.16.100
 l.nic.eu.				      172800 IN	A	195.66.241.178
 m.nic.eu.				      172800 IN	A	217.29.76.13
@@ -1640,7 +1643,6 @@ lu.					      172800 IN	NS	k.dns.lu.
 lu.					      172800 IN	NS	p.dns.lu.
 lu.					      172800 IN	NS	ns1.dns.lu.
 lu.					      172800 IN	NS	ns5.dns.lu.
-lu.					      172800 IN	NS	merapi.switch.ch.
 lu.					      86400 IN NSEC	lv. NS DS RRSIG NSEC
 g.dns.lu.				      172800 IN	A	194.0.23.5
 g.dns.lu.				      172800 IN	AAAA	2001:678:1b:5::5
