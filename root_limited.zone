@@ -1701,9 +1701,8 @@ ns1.nic.mc.				      172800 IN	A	195.78.19.216
 ns2.nic.mc.				      172800 IN	A	85.31.217.131
 md.					      172800 IN	NS	md.cctld.authdns.ripe.net.
 md.					      172800 IN	NS	nsa.cctldmd.net.
-md.					      172800 IN	NS	ns-ext.isc.org.
+md.					      172800 IN	NS	dns-md.rotld.ro.
 md.					      172800 IN	NS	central.dns.md.
-md.					      172800 IN	NS	primary.rotld.ro.
 md.					      86400 IN NSEC	me. NS RRSIG NSEC
 central.dns.md.				      172800 IN	A	217.26.144.15
 me.					      172800 IN	NS	a0.cctld.afilias-nst.info.
@@ -2764,6 +2763,8 @@ ro.					      172800 IN	NS	secondary.rotld.ro.
 ro.					      86400 IN NSEC	rs. NS RRSIG NSEC
 dns-at.rotld.ro.			      172800 IN	A	193.171.255.54
 dns-at.rotld.ro.			      172800 IN	AAAA	2001:628:453:4001::53
+dns-md.rotld.ro.			      172800 IN	A	192.162.16.19
+dns-md.rotld.ro.			      172800 IN	AAAA	2a03:5e80:0:4:192:162:16:19
 primary.rotld.ro.			      172800 IN	A	192.162.16.18
 primary.rotld.ro.			      172800 IN	AAAA	2a03:5e80:0:4:192:162:16:18
 secondary.rotld.ro.			      172800 IN	A	193.230.31.225
