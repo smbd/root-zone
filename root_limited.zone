@@ -1136,6 +1136,7 @@ gy.					      86400 IN NSEC	hk. NS RRSIG NSEC
 ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
 hk.					      172800 IN	NS	b.dns.tw.
+hk.					      172800 IN	NS	v.hkirc.net.hk.
 hk.					      172800 IN	NS	w.hkirc.net.hk.
 hk.					      172800 IN	NS	x.hkirc.net.hk.
 hk.					      172800 IN	NS	y.hkirc.net.hk.
@@ -1143,13 +1144,14 @@ hk.					      172800 IN	NS	z.hkirc.net.hk.
 hk.					      172800 IN	NS	ns1.hkirc.net.hk.
 hk.					      172800 IN	NS	ns2.hkirc.net.hk.
 hk.					      172800 IN	NS	adns1.berkeley.edu.
-hk.					      172800 IN	NS	hk-ns.pch.net.
 hk.					      86400 IN NSEC	hm. NS RRSIG NSEC
 ns2.cuhk.edu.hk.			      172800 IN	A	137.189.6.21
 ns2.cuhk.edu.hk.			      172800 IN	AAAA	2405:3000:3:60::21
 ns1.hkirc.net.hk.			      172800 IN	A	203.119.2.18
 ns2.hkirc.net.hk.			      172800 IN	A	203.119.87.19
 ns2.hkirc.net.hk.			      172800 IN	AAAA	2001:dca:1000::cb77:5713
+u.hkirc.net.hk.				      172800 IN	A	210.201.138.58
+u.hkirc.net.hk.				      172800 IN	AAAA	2404:0:10a0::58
 v.hkirc.net.hk.				      172800 IN	A	204.61.216.46
 v.hkirc.net.hk.				      172800 IN	AAAA	2001:500:14:6046:ad::1
 w.hkirc.net.hk.				      172800 IN	A	202.12.28.140
@@ -1693,7 +1695,7 @@ ma.					      172800 IN	NS	ns3.iam.net.ma.
 ma.					      86400 IN NSEC	mc. NS RRSIG NSEC
 hariss.anrt.ma.				      172800 IN	A	194.204.241.140
 dns2.menara.ma.				      172800 IN	A	81.192.108.228
-dns3.menara.ma.				      172800 IN	A	196.217.246.51
+dns3.menara.ma.				      172800 IN	A	81.192.108.164
 ns1.iam.net.ma.				      172800 IN	A	212.217.0.10
 ns2.iam.net.ma.				      172800 IN	A	81.192.53.23
 ns3.iam.net.ma.				      172800 IN	A	212.217.1.13
@@ -2187,8 +2189,6 @@ za-ns.anycast.pch.net.			      172800 IN	AAAA	2001:500:14:6055:ad::1
 anyns.pch.net.				      172800 IN	A	204.61.216.4
 cat.pch.net.				      172800 IN	A	204.61.216.20
 cat.pch.net.				      172800 IN	AAAA	2001:500:14:6020:ad::1
-hk-ns.pch.net.				      172800 IN	A	204.61.216.46
-hk-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6046:ad::1
 nic.lk-anycast.pch.net.			      172800 IN	A	204.61.216.27
 nf-ns.pch.net.				      172800 IN	A	204.61.216.51
 nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
@@ -3415,7 +3415,7 @@ xn--3e0b707e.				      172800 IN	NS	d.dns.kr.
 xn--3e0b707e.				      172800 IN	NS	e.dns.kr.
 xn--3e0b707e.				      172800 IN	NS	f.dns.kr.
 xn--3e0b707e.				      172800 IN	NS	g.dns.kr.
-xn--3e0b707e.				      86400 IN NSEC	xn--45brj9c. NS RRSIG NSEC
+xn--3e0b707e.				      86400 IN NSEC	xn--45brj9c. NS DS RRSIG NSEC
 xn--45brj9c.				      172800 IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.				      172800 IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.				      172800 IN	NS	a2.in.afilias-nst.info.
@@ -3511,7 +3511,7 @@ xn--hlcj6aya9esc7a.			      172800 IN	NS	a.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	b.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	c.iana-servers.net.
 xn--hlcj6aya9esc7a.			      86400 IN NSEC	xn--j6w193g. NS DS RRSIG NSEC
-xn--j6w193g.				      172800 IN	NS	b.dns.tw.
+xn--j6w193g.				      172800 IN	NS	u.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	v.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	w.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	x.hkirc.net.hk.
