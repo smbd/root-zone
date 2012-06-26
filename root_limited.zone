@@ -125,6 +125,7 @@ aq.					      172800 IN	NS	sns-pb.isc.org.
 aq.					      86400 IN NSEC	ar. NS RRSIG NSEC
 ns1.dns.aq.				      172800 IN	A	203.119.56.132
 ar.					      172800 IN	NS	ar.cctld.authdns.ripe.net.
+ar.					      172800 IN	NS	ns2.switch.ch.
 ar.					      172800 IN	NS	athea.ar.
 ar.					      172800 IN	NS	ctina.ar.
 ar.					      172800 IN	NS	merapi.switch.ch.
@@ -507,6 +508,8 @@ f.nic.ch.				      172800 IN	AAAA	2001:67c:1010:2::53
 h.nic.ch.				      172800 IN	A	194.42.48.120
 merapi.switch.ch.			      172800 IN	A	130.59.211.10
 merapi.switch.ch.			      172800 IN	AAAA	2001:620::5
+ns2.switch.ch.				      172800 IN	A	130.59.138.49
+ns2.switch.ch.				      172800 IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 ci.					      172800 IN	NS	ci.cctld.authdns.ripe.net.
 ci.					      172800 IN	NS	ci.hosting.nic.fr.
 ci.					      172800 IN	NS	ns.nic.ci.
@@ -2684,10 +2687,6 @@ descartes.nic.pr.			      172800 IN	A	134.202.1.120
 do-dns.nic.pr.				      172800 IN	A	134.202.1.121
 golomb.nic.pr.				      172800 IN	A	134.202.6.100
 pascal.nic.pr.				      172800 IN	A	134.202.0.120
-pro.					      172800 IN	NS	a.gtld.pro.
-pro.					      172800 IN	NS	b.gtld.pro.
-pro.					      172800 IN	NS	c.gtld.pro.
-pro.					      172800 IN	NS	d.gtld.pro.
 pro.					      172800 IN	NS	a0.pro.afilias-nst.info.
 pro.					      172800 IN	NS	a2.pro.afilias-nst.info.
 pro.					      172800 IN	NS	b0.pro.afilias-nst.org.
@@ -2695,10 +2694,6 @@ pro.					      172800 IN	NS	b2.pro.afilias-nst.org.
 pro.					      172800 IN	NS	c0.pro.afilias-nst.info.
 pro.					      172800 IN	NS	d0.pro.afilias-nst.org.
 pro.					      86400 IN NSEC	ps. NS RRSIG NSEC
-a.gtld.pro.				      172800 IN	A	192.149.62.10
-b.gtld.pro.				      172800 IN	A	192.149.63.10
-c.gtld.pro.				      172800 IN	A	192.149.64.10
-d.gtld.pro.				      172800 IN	A	192.149.66.10
 ps.					      172800 IN	NS	ps.cctld.authdns.ripe.net.
 ps.					      172800 IN	NS	ns1.pnina.ps.
 ps.					      172800 IN	NS	rip.psg.com.
