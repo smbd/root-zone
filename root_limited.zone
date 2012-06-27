@@ -613,7 +613,6 @@ uucp-gw-1.pa.dec.com.			      172800 IN	A	204.123.2.18
 uucp-gw-2.pa.dec.com.			      172800 IN	A	204.123.2.19
 austin.gh.com.				      172800 IN	A	196.3.64.1
 mantse.gh.com.				      172800 IN	A	193.194.185.2
-havannah.harbourmsp.com.		      172800 IN	A	203.111.102.146
 ns1.iafrica.com.			      172800 IN	A	196.7.0.139
 ns3.iafrica.com.			      172800 IN	A	196.7.0.137
 hoppy.iom.com.				      172800 IN	A	217.23.163.140
@@ -1138,7 +1137,7 @@ gy.					      172800 IN	NS	sns-pb.isc.org.
 gy.					      86400 IN NSEC	hk. NS RRSIG NSEC
 ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
-hk.					      172800 IN	NS	b.dns.tw.
+hk.					      172800 IN	NS	u.hkirc.net.hk.
 hk.					      172800 IN	NS	v.hkirc.net.hk.
 hk.					      172800 IN	NS	w.hkirc.net.hk.
 hk.					      172800 IN	NS	x.hkirc.net.hk.
@@ -3372,7 +3371,6 @@ vu.					      172800 IN	NS	efate.vanuatu.com.vu.
 vu.					      172800 IN	NS	santo.vanuatu.com.vu.
 vu.					      172800 IN	NS	futuna.vanuatu.com.vu.
 vu.					      172800 IN	NS	maringo.vanuatu.com.vu.
-vu.					      172800 IN	NS	havannah.harbourmsp.com.
 vu.					      86400 IN NSEC	wf. NS RRSIG NSEC
 efate.vanuatu.com.vu.			      172800 IN	A	202.80.32.5
 futuna.vanuatu.com.vu.			      172800 IN	A	202.80.32.3
