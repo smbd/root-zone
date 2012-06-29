@@ -2292,6 +2292,8 @@ sm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::110
 sn.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.111
 sn.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::111
+sv.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.112
+sv.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::112
 sy.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.113
 sy.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::113
 sz.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.114
@@ -2330,7 +2332,6 @@ ns-ga.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-kh.ripe.net.				      172800 IN	A	193.0.12.37
 ns-ki.ripe.net.				      172800 IN	A	193.0.12.115
 ns-ml.ripe.net.				      172800 IN	A	193.0.12.135
-ns-sv.ripe.net.				      172800 IN	A	193.0.12.67
 ns-zw.ripe.net.				      172800 IN	A	193.0.12.249
 a.dns.ripn.net.				      172800 IN	A	193.232.128.6
 a.dns.ripn.net.				      172800 IN	AAAA	2001:678:17:0:193:232:128:6
@@ -2369,7 +2370,6 @@ sabela.saix.net.			      172800 IN	A	196.43.1.9
 ns02.savvis.net.			      172800 IN	A	204.70.57.242
 ns1.sr.net.				      172800 IN	A	200.1.159.148
 ns2.sr.net.				      172800 IN	A	200.2.162.30
-ns.telefonica-ca.net.			      172800 IN	A	216.184.96.4
 ns.thnic.net.				      172800 IN	A	202.28.0.1
 ns.twnic.net.				      172800 IN	A	192.83.166.11
 ns.twnic.net.				      172800 IN	AAAA	2001:288:1:1006::11
@@ -2952,12 +2952,12 @@ dns.omniway.sm.				      172800 IN	A	194.183.64.10
 ns3.telecomitalia.sm.			      172800 IN	A	194.0.27.12
 ns3.telecomitalia.sm.			      172800 IN	AAAA	2001:678:28:0:c2:b7:40:12
 sn.					      172800 IN	NS	ns.ucad.sn.
-sn.					      172800 IN	NS	ns.sentoo.sn.
 sn.					      172800 IN	NS	sn.cctld.authdns.ripe.net.
 sn.					      172800 IN	NS	ns1.ird.fr.
+sn.					      172800 IN	NS	ns1.sonatel.sn.
 sn.					      172800 IN	NS	ns3.nic.fr.
 sn.					      86400 IN NSEC	so. NS RRSIG NSEC
-ns.sentoo.sn.				      172800 IN	A	213.154.64.13
+ns1.sonatel.sn.				      172800 IN	A	213.154.64.11
 ns.ucad.sn.				      172800 IN	A	196.1.95.1
 so.					      172800 IN	NS	a.nic.so.
 so.					      172800 IN	NS	b.nic.so.
@@ -2988,9 +2988,8 @@ ns.demos.su.				      172800 IN	A	194.87.0.9
 sv.					      172800 IN	NS	ns.cr.
 sv.					      172800 IN	NS	ns.uu.net.
 sv.					      172800 IN	NS	ns.dns.br.
-sv.					      172800 IN	NS	ns.telefonica-ca.net.
+sv.					      172800 IN	NS	sv.cctld.authdns.ripe.net.
 sv.					      172800 IN	NS	cir.red.sv.
-sv.					      172800 IN	NS	ns-sv.ripe.net.
 sv.					      172800 IN	NS	auth02.ns.uu.net.
 sv.					      86400 IN NSEC	sx. NS RRSIG NSEC
 cir.red.sv.				      172800 IN	A	168.243.254.1
