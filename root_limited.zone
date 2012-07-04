@@ -1137,6 +1137,8 @@ gy.					      172800 IN	NS	sns-pb.isc.org.
 gy.					      86400 IN NSEC	hk. NS RRSIG NSEC
 ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
+hk.					      172800 IN	NS	s.hkirc.net.hk.
+hk.					      172800 IN	NS	t.hkirc.net.hk.
 hk.					      172800 IN	NS	u.hkirc.net.hk.
 hk.					      172800 IN	NS	v.hkirc.net.hk.
 hk.					      172800 IN	NS	w.hkirc.net.hk.
@@ -1145,13 +1147,16 @@ hk.					      172800 IN	NS	y.hkirc.net.hk.
 hk.					      172800 IN	NS	z.hkirc.net.hk.
 hk.					      172800 IN	NS	ns1.hkirc.net.hk.
 hk.					      172800 IN	NS	ns2.hkirc.net.hk.
-hk.					      172800 IN	NS	adns1.berkeley.edu.
 hk.					      86400 IN NSEC	hm. NS RRSIG NSEC
 ns2.cuhk.edu.hk.			      172800 IN	A	137.189.6.21
 ns2.cuhk.edu.hk.			      172800 IN	AAAA	2405:3000:3:60::21
 ns1.hkirc.net.hk.			      172800 IN	A	203.119.2.18
 ns2.hkirc.net.hk.			      172800 IN	A	203.119.87.19
 ns2.hkirc.net.hk.			      172800 IN	AAAA	2001:dca:1000::cb77:5713
+s.hkirc.net.hk.				      172800 IN	A	128.32.136.3
+s.hkirc.net.hk.				      172800 IN	AAAA	2607:f140:ffff:fffe::3
+t.hkirc.net.hk.				      172800 IN	A	128.32.136.14
+t.hkirc.net.hk.				      172800 IN	AAAA	2607:f140:ffff:fffe::e
 u.hkirc.net.hk.				      172800 IN	A	210.201.138.58
 u.hkirc.net.hk.				      172800 IN	AAAA	2404:0:10a0::58
 v.hkirc.net.hk.				      172800 IN	A	204.61.216.46
@@ -3504,6 +3509,8 @@ xn--hlcj6aya9esc7a.			      172800 IN	NS	a.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	b.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	c.iana-servers.net.
 xn--hlcj6aya9esc7a.			      86400 IN NSEC	xn--j6w193g. NS DS RRSIG NSEC
+xn--j6w193g.				      172800 IN	NS	s.hkirc.net.hk.
+xn--j6w193g.				      172800 IN	NS	t.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	u.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	v.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	w.hkirc.net.hk.
@@ -3512,7 +3519,6 @@ xn--j6w193g.				      172800 IN	NS	y.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	z.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	ns1.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	ns2.hkirc.net.hk.
-xn--j6w193g.				      172800 IN	NS	adns1.berkeley.edu.
 xn--j6w193g.				      86400 IN NSEC	xn--jxalpdlp. NS RRSIG NSEC
 xn--jxalpdlp.				      172800 IN	NS	a.iana-servers.net.
 xn--jxalpdlp.				      172800 IN	NS	b.iana-servers.net.
