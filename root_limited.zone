@@ -3545,7 +3545,12 @@ xn--kpry57d.				      172800 IN	NS	sec4.apnic.net.
 xn--kpry57d.				      86400 IN NSEC	xn--lgbbat1ad8j. NS DS RRSIG NSEC
 xn--lgbbat1ad8j.			      172800 IN	NS	idn1.nic.dz.
 xn--lgbbat1ad8j.			      172800 IN	NS	idn2.nic.dz.
-xn--lgbbat1ad8j.			      86400 IN NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
+xn--lgbbat1ad8j.			      86400 IN NSEC	xn--mgb9awbf. NS RRSIG NSEC
+xn--mgb9awbf.				      172800 IN	NS	ns1.registry.om.
+xn--mgb9awbf.				      172800 IN	NS	ns1.ausregistry.net.au.
+xn--mgb9awbf.				      172800 IN	NS	ns2.registry.om.
+xn--mgb9awbf.				      172800 IN	NS	ns2.ausregistry.net.au.
+xn--mgb9awbf.				      86400 IN NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
 xn--mgbaam7a8h.				      172800 IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.				      172800 IN	NS	sns-pb.isc.org.
