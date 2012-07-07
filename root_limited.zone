@@ -128,7 +128,6 @@ ar.					      172800 IN	NS	ar.cctld.authdns.ripe.net.
 ar.					      172800 IN	NS	ns2.switch.ch.
 ar.					      172800 IN	NS	athea.ar.
 ar.					      172800 IN	NS	ctina.ar.
-ar.					      172800 IN	NS	merapi.switch.ch.
 ar.					      172800 IN	NS	relay1.mecon.gov.ar.
 ar.					      86400 IN NSEC	arpa. NS RRSIG NSEC
 athea.ar.				      172800 IN	A	200.16.98.2
@@ -853,8 +852,8 @@ ns2.dotmasr.eg.				      172800 IN	A	81.21.99.11
 ns3.dotmasr.eg.				      172800 IN	A	81.10.38.11
 frcu.eun.eg.				      172800 IN	A	193.227.1.1
 er.					      172800 IN	NS	er.cctld.authdns.ripe.net.
-er.					      172800 IN	NS	ns0.punchdown.org.
-er.					      172800 IN	NS	ns1.punchdown.net.
+er.					      172800 IN	NS	ns0-er.punchdown.org.
+er.					      172800 IN	NS	ns1-er.punchdown.net.
 er.					      172800 IN	NS	sawanew.noc.net.er.
 er.					      172800 IN	NS	zaranew.noc.net.er.
 er.					      86400 IN NSEC	es. NS RRSIG NSEC
@@ -2202,7 +2201,7 @@ nf-ns.pch.net.				      172800 IN	A	204.61.216.51
 nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
-ns1.punchdown.net.			      172800 IN	A	66.92.19.36
+ns1-er.punchdown.net.			      172800 IN	A	199.4.163.2
 ad.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.53
 ad.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::53
 ae.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.54
@@ -2600,7 +2599,7 @@ ams.sns-pb.isc.org.			      172800 IN	A	199.6.1.30
 ams.sns-pb.isc.org.			      172800 IN	AAAA	2001:500:60::30
 sfba.sns-pb.isc.org.			      172800 IN	A	149.20.64.3
 sfba.sns-pb.isc.org.			      172800 IN	AAAA	2001:4f8:0:2::19
-ns0.punchdown.org.			      172800 IN	A	64.90.188.42
+ns0-er.punchdown.org.			      172800 IN	A	199.4.162.2
 tld3.ultradns.org.			      172800 IN	A	199.7.66.1
 tld4.ultradns.org.			      172800 IN	A	199.7.67.1
 tld4.ultradns.org.			      172800 IN	AAAA	2001:502:100e::1
@@ -2743,10 +2742,10 @@ ns4.registry.pw.			      172800 IN	A	75.125.56.249
 py.					      172800 IN	NS	ns.cnc.una.py.
 py.					      172800 IN	NS	ns.dns.br.
 py.					      172800 IN	NS	py.cctld.authdns.ripe.net.
+py.					      172800 IN	NS	ns2.switch.ch.
 py.					      172800 IN	NS	ns3.nic.mx.
 py.					      172800 IN	NS	sce.cnc.una.py.
 py.					      172800 IN	NS	auth00.ns.uu.net.
-py.					      172800 IN	NS	merapi.switch.ch.
 py.					      86400 IN NSEC	qa. NS RRSIG NSEC
 ns.cnc.una.py.				      172800 IN	A	200.10.228.132
 sce.cnc.una.py.				      172800 IN	A	200.10.228.133
@@ -3201,10 +3200,13 @@ c.dns.tw.				      172800 IN	A	61.220.48.1
 c.dns.tw.				      172800 IN	AAAA	2001:b020:0:77::1
 d.dns.tw.				      172800 IN	A	210.17.9.230
 d.dns.tw.				      172800 IN	AAAA	2001:c50:ffff:1::230
-e.dns.tw.				      172800 IN	A	211.79.207.26
+e.dns.tw.				      172800 IN	A	211.20.231.11
+e.dns.tw.				      172800 IN	AAAA	2001:b000:1e0:c000::11
 f.dns.tw.				      172800 IN	A	163.28.1.10
 g.dns.tw.				      172800 IN	A	220.229.225.195
+g.dns.tw.				      172800 IN	AAAA	2001:cd8:400::195
 h.dns.tw.				      172800 IN	A	203.119.3.1
+h.dns.tw.				      172800 IN	AAAA	2405:7e00:1001::111
 tz.					      172800 IN	NS	d.ext.nic.cz.
 tz.					      172800 IN	NS	ns.anycast.co.tz.
 tz.					      172800 IN	NS	ns2.tznic.or.tz.
