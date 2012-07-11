@@ -536,8 +536,8 @@ b.nic.cl.				      172800 IN	A	200.7.4.7
 b.nic.cl.				      172800 IN	AAAA	2001:1398:274:0:200:7:4:7
 c.nic.cl.				      172800 IN	A	200.16.112.16
 ns-ext.nic.cl.				      172800 IN	A	200.1.123.14
+cm.					      172800 IN	NS	cm.cctld.authdns.ripe.net.
 cm.					      172800 IN	NS	ns.itu.ch.
-cm.					      172800 IN	NS	ns.ripe.net.
 cm.					      172800 IN	NS	kim.camnet.cm.
 cm.					      172800 IN	NS	lom.camnet.cm.
 cm.					      172800 IN	NS	auth02.ns.uu.net.
@@ -787,6 +787,7 @@ ns2.nic.dm.				      172800 IN	A	208.0.224.115
 do.					      172800 IN	NS	ns.nic.do.
 do.					      172800 IN	NS	ns1.nic.do.
 do.					      172800 IN	NS	ns2.nic.do.
+do.					      172800 IN	NS	ns3.nic.do.
 do.					      172800 IN	NS	ns3.nic.mx.
 do.					      172800 IN	NS	do-dns.nic.pr.
 do.					      172800 IN	NS	phloem.uoregon.edu.
@@ -795,6 +796,7 @@ do.					      86400 IN NSEC	dz. NS RRSIG NSEC
 ns.nic.do.				      172800 IN	A	66.98.65.146
 ns1.nic.do.				      172800 IN	A	200.16.91.226
 ns2.nic.do.				      172800 IN	A	200.16.90.162
+ns3.nic.do.				      172800 IN	A	149.20.61.87
 dz.					      172800 IN	NS	dz.cctld.authdns.ripe.net.
 dz.					      172800 IN	NS	ns1.nic.dz.
 dz.					      172800 IN	NS	ns2.nic.dz.
@@ -1135,6 +1137,7 @@ gy.					      172800 IN	NS	sns-pb.isc.org.
 gy.					      86400 IN NSEC	hk. NS RRSIG NSEC
 ns1.gtt.co.gy.				      172800 IN	A	190.80.0.41
 ns2.gtt.co.gy.				      172800 IN	A	190.80.0.42
+hk.					      172800 IN	NS	b.hkirc.net.hk.
 hk.					      172800 IN	NS	s.hkirc.net.hk.
 hk.					      172800 IN	NS	t.hkirc.net.hk.
 hk.					      172800 IN	NS	u.hkirc.net.hk.
@@ -1144,13 +1147,12 @@ hk.					      172800 IN	NS	x.hkirc.net.hk.
 hk.					      172800 IN	NS	y.hkirc.net.hk.
 hk.					      172800 IN	NS	z.hkirc.net.hk.
 hk.					      172800 IN	NS	ns1.hkirc.net.hk.
-hk.					      172800 IN	NS	ns2.hkirc.net.hk.
 hk.					      86400 IN NSEC	hm. NS RRSIG NSEC
 ns2.cuhk.edu.hk.			      172800 IN	A	137.189.6.21
 ns2.cuhk.edu.hk.			      172800 IN	AAAA	2405:3000:3:60::21
+b.hkirc.net.hk.				      172800 IN	A	203.119.87.19
+b.hkirc.net.hk.				      172800 IN	AAAA	2001:dca:1000::cb77:5713
 ns1.hkirc.net.hk.			      172800 IN	A	203.119.2.18
-ns2.hkirc.net.hk.			      172800 IN	A	203.119.87.19
-ns2.hkirc.net.hk.			      172800 IN	AAAA	2001:dca:1000::cb77:5713
 s.hkirc.net.hk.				      172800 IN	A	128.32.136.3
 s.hkirc.net.hk.				      172800 IN	AAAA	2607:f140:ffff:fffe::3
 t.hkirc.net.hk.				      172800 IN	A	128.32.136.14
@@ -1555,15 +1557,25 @@ kz.					      172800 IN	NS	kz.cctld.authdns.ripe.net.
 kz.					      172800 IN	NS	ns.nic.kz.
 kz.					      86400 IN NSEC	la. NS RRSIG NSEC
 ns.nic.kz.				      172800 IN	A	194.0.21.5
-la.					      172800 IN	NS	ns1.centralnic.net.
-la.					      172800 IN	NS	ns2.centralnic.net.
-la.					      172800 IN	NS	ns3.centralnic.net.
-la.					      172800 IN	NS	ns4.centralnic.net.
-la.					      172800 IN	NS	ns5.centralnic.net.
-la.					      172800 IN	NS	ns6.centralnic.net.
-la.					      172800 IN	NS	ns7.centralnic.net.
-la.					      172800 IN	NS	ns8.centralnic.net.
+la.					      172800 IN	NS	ns1.nic.la.
+la.					      172800 IN	NS	ns2.nic.la.
+la.					      172800 IN	NS	ns3.nic.la.
+la.					      172800 IN	NS	ns4.nic.la.
+la.					      172800 IN	NS	ns5.nic.la.
+la.					      172800 IN	NS	ns6.nic.la.
+la.					      172800 IN	NS	ns7.nic.la.
+la.					      172800 IN	NS	ns8.nic.la.
 la.					      86400 IN NSEC	lb. NS DS RRSIG NSEC
+ns1.nic.la.				      172800 IN	A	194.0.2.2
+ns1.nic.la.				      172800 IN	AAAA	2001:678:5::2
+ns2.nic.la.				      172800 IN	A	72.3.240.16
+ns3.nic.la.				      172800 IN	A	62.197.40.234
+ns4.nic.la.				      172800 IN	A	89.151.83.34
+ns5.nic.la.				      172800 IN	A	217.151.106.82
+ns5.nic.la.				      172800 IN	AAAA	2001:ac8:2:1::20
+ns6.nic.la.				      172800 IN	A	89.151.83.36
+ns7.nic.la.				      172800 IN	A	193.105.170.169
+ns8.nic.la.				      172800 IN	A	64.131.83.34
 lb.					      172800 IN	NS	ns1.dns.aq.
 lb.					      172800 IN	NS	rip.psg.com.
 lb.					      172800 IN	NS	fork.sth.dnsnode.net.
@@ -2016,16 +2028,6 @@ ns17.cdns.net.				      172800 IN	A	194.0.1.17
 ns17.cdns.net.				      172800 IN	AAAA	2001:678:4::11
 ns7.cdns.net.				      172800 IN	A	194.0.1.7
 ns7.cdns.net.				      172800 IN	AAAA	2001:678:4::7
-ns1.centralnic.net.			      172800 IN	A	89.151.83.36
-ns2.centralnic.net.			      172800 IN	A	72.3.240.16
-ns3.centralnic.net.			      172800 IN	A	62.197.40.234
-ns4.centralnic.net.			      172800 IN	A	89.151.83.34
-ns5.centralnic.net.			      172800 IN	A	217.151.106.82
-ns5.centralnic.net.			      172800 IN	AAAA	2001:ac8:2:1::20
-ns6.centralnic.net.			      172800 IN	A	194.0.2.2
-ns6.centralnic.net.			      172800 IN	AAAA	2001:678:5::2
-ns7.centralnic.net.			      172800 IN	A	193.105.170.169
-ns8.centralnic.net.			      172800 IN	A	64.131.83.34
 ns.cernet.net.				      172800 IN	A	202.112.0.44
 a.ci-servers.net.			      172800 IN	A	87.117.194.160
 ns1.cobex.net.				      172800 IN	A	216.152.192.71
@@ -2223,6 +2225,8 @@ bt.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.65
 bt.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::65
 ci.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.67
 ci.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::67
+cm.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.68
+cm.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::68
 cr.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.69
 cr.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::69
 cu.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.70
@@ -2325,7 +2329,6 @@ vn.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.126
 vn.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::126
 sec2.authdns.ripe.net.			      172800 IN	A	193.0.9.4
 sec2.authdns.ripe.net.			      172800 IN	AAAA	2001:67c:e0::4
-ns.ripe.net.				      172800 IN	A	193.0.0.193
 ns-af.ripe.net.				      172800 IN	A	193.0.12.1
 ns-af.ripe.net.				      172800 IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-bj.ripe.net.				      172800 IN	A	193.0.12.24
@@ -2760,6 +2763,20 @@ qa.					      86400 IN NSEC	re. NS RRSIG NSEC
 ns1.qatar.net.qa.			      172800 IN	A	212.77.192.10
 ns2.qatar.net.qa.			      172800 IN	A	212.77.192.13
 ns3.qatar.net.qa.			      172800 IN	A	212.77.192.15
+a.registry.qa.				      172800 IN	A	178.23.16.104
+b.registry.qa.				      172800 IN	A	178.23.17.104
+c.registry.qa.				      172800 IN	A	212.77.192.10
+d.registry.qa.				      172800 IN	A	212.77.192.13
+e.registry.qa.				      172800 IN	A	212.77.192.15
+f.registry.qa.				      172800 IN	A	202.65.12.73
+g.registry.qa.				      172800 IN	A	202.65.13.73
+h.registry.qa.				      172800 IN	A	193.0.9.51
+h.registry.qa.				      172800 IN	AAAA	2001:67c:e0::51
+i.registry.qa.				      172800 IN	A	204.61.216.62
+i.registry.qa.				      172800 IN	AAAA	2001:500:14:6062:ad::1
+j.registry.qa.				      172800 IN	A	38.103.2.3
+k.registry.qa.				      172800 IN	A	72.52.71.3
+k.registry.qa.				      172800 IN	AAAA	2001:470:1a::3
 ns1.registry.qa.			      172800 IN	A	178.23.16.104
 ns2.registry.qa.			      172800 IN	A	178.23.17.104
 re.					      172800 IN	NS	d.ext.nic.fr.
@@ -3510,6 +3527,7 @@ xn--hlcj6aya9esc7a.			      172800 IN	NS	a.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	b.iana-servers.net.
 xn--hlcj6aya9esc7a.			      172800 IN	NS	c.iana-servers.net.
 xn--hlcj6aya9esc7a.			      86400 IN NSEC	xn--j6w193g. NS DS RRSIG NSEC
+xn--j6w193g.				      172800 IN	NS	b.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	s.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	t.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	u.hkirc.net.hk.
@@ -3519,7 +3537,6 @@ xn--j6w193g.				      172800 IN	NS	x.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	y.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	z.hkirc.net.hk.
 xn--j6w193g.				      172800 IN	NS	ns1.hkirc.net.hk.
-xn--j6w193g.				      172800 IN	NS	ns2.hkirc.net.hk.
 xn--j6w193g.				      86400 IN NSEC	xn--jxalpdlp. NS RRSIG NSEC
 xn--jxalpdlp.				      172800 IN	NS	a.iana-servers.net.
 xn--jxalpdlp.				      172800 IN	NS	b.iana-servers.net.
@@ -3613,14 +3630,17 @@ xn--wgbh1c.				      172800 IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.				      172800 IN	NS	ns3.dotmasr.eg.
 xn--wgbh1c.				      86400 IN NSEC	xn--wgbl6a. NS RRSIG NSEC
-xn--wgbl6a.				      172800 IN	NS	qa.cctld.authdns.ripe.net.
-xn--wgbl6a.				      172800 IN	NS	ns1.qatar.net.qa.
-xn--wgbl6a.				      172800 IN	NS	ns1.registry.qa.
-xn--wgbl6a.				      172800 IN	NS	ns1.ausregistry.net.au.
-xn--wgbl6a.				      172800 IN	NS	ns2.qatar.net.qa.
-xn--wgbl6a.				      172800 IN	NS	ns2.registry.qa.
-xn--wgbl6a.				      172800 IN	NS	ns2.ausregistry.net.au.
-xn--wgbl6a.				      172800 IN	NS	ns3.qatar.net.qa.
+xn--wgbl6a.				      172800 IN	NS	a.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	b.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	c.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	d.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	e.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	f.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	g.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	h.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	i.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	j.registry.qa.
+xn--wgbl6a.				      172800 IN	NS	k.registry.qa.
 xn--wgbl6a.				      86400 IN NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
 xn--xkc2al3hye2a.			      172800 IN	NS	lk.communitydns.net.
 xn--xkc2al3hye2a.			      172800 IN	NS	nic.lk-anycast.pch.net.
