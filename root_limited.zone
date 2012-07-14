@@ -1761,7 +1761,7 @@ mil.					      172800 IN	NS	eur1.nipr.mil.
 mil.					      172800 IN	NS	eur2.nipr.mil.
 mil.					      172800 IN	NS	pac1.nipr.mil.
 mil.					      172800 IN	NS	pac2.nipr.mil.
-mil.					      86400 IN NSEC	mk. NS RRSIG NSEC
+mil.					      86400 IN NSEC	mk. NS DS RRSIG NSEC
 con1.nipr.mil.				      172800 IN	A	199.252.157.234
 con2.nipr.mil.				      172800 IN	A	199.252.162.234
 eur1.nipr.mil.				      172800 IN	A	199.252.154.234
