@@ -1125,7 +1125,6 @@ gw.					      172800 IN	NS	ns2.nic.gw.
 gw.					      172800 IN	NS	ns3.nic.gw.
 gw.					      86400 IN NSEC	gy. NS RRSIG NSEC
 ns1.nic.gw.				      172800 IN	A	81.91.170.10
-ns1.nic.gw.				      172800 IN	AAAA	2001:608:6::3
 ns2.nic.gw.				      172800 IN	A	87.233.175.20
 ns3.nic.gw.				      172800 IN	A	193.171.255.35
 gy.					      172800 IN	NS	gy.cctld.authdns.ripe.net.
@@ -2289,8 +2288,6 @@ ps.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.105
 ps.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::105
 py.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.106
 py.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::106
-qa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.51
-qa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::51
 sa.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::108
 sd.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.109
@@ -2751,18 +2748,18 @@ py.					      172800 IN	NS	auth00.ns.uu.net.
 py.					      86400 IN NSEC	qa. NS RRSIG NSEC
 ns.cnc.una.py.				      172800 IN	A	200.10.228.132
 sce.cnc.una.py.				      172800 IN	A	200.10.228.133
-qa.					      172800 IN	NS	qa.cctld.authdns.ripe.net.
-qa.					      172800 IN	NS	ns1.qatar.net.qa.
-qa.					      172800 IN	NS	ns1.registry.qa.
-qa.					      172800 IN	NS	ns1.ausregistry.net.au.
-qa.					      172800 IN	NS	ns2.qatar.net.qa.
-qa.					      172800 IN	NS	ns2.registry.qa.
-qa.					      172800 IN	NS	ns2.ausregistry.net.au.
-qa.					      172800 IN	NS	ns3.qatar.net.qa.
+qa.					      172800 IN	NS	a.registry.qa.
+qa.					      172800 IN	NS	b.registry.qa.
+qa.					      172800 IN	NS	c.registry.qa.
+qa.					      172800 IN	NS	d.registry.qa.
+qa.					      172800 IN	NS	e.registry.qa.
+qa.					      172800 IN	NS	f.registry.qa.
+qa.					      172800 IN	NS	g.registry.qa.
+qa.					      172800 IN	NS	h.registry.qa.
+qa.					      172800 IN	NS	i.registry.qa.
+qa.					      172800 IN	NS	j.registry.qa.
+qa.					      172800 IN	NS	k.registry.qa.
 qa.					      86400 IN NSEC	re. NS RRSIG NSEC
-ns1.qatar.net.qa.			      172800 IN	A	212.77.192.10
-ns2.qatar.net.qa.			      172800 IN	A	212.77.192.13
-ns3.qatar.net.qa.			      172800 IN	A	212.77.192.15
 a.registry.qa.				      172800 IN	A	178.23.16.104
 b.registry.qa.				      172800 IN	A	178.23.17.104
 c.registry.qa.				      172800 IN	A	212.77.192.10
@@ -2777,8 +2774,6 @@ i.registry.qa.				      172800 IN	AAAA	2001:500:14:6062:ad::1
 j.registry.qa.				      172800 IN	A	38.103.2.3
 k.registry.qa.				      172800 IN	A	72.52.71.3
 k.registry.qa.				      172800 IN	AAAA	2001:470:1a::3
-ns1.registry.qa.			      172800 IN	A	178.23.16.104
-ns2.registry.qa.			      172800 IN	A	178.23.17.104
 re.					      172800 IN	NS	d.ext.nic.fr.
 re.					      172800 IN	NS	d.nic.fr.
 re.					      172800 IN	NS	e.ext.nic.fr.
