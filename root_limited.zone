@@ -853,8 +853,6 @@ ns2.dotmasr.eg.				      172800 IN	A	81.21.99.11
 ns3.dotmasr.eg.				      172800 IN	A	81.10.38.11
 frcu.eun.eg.				      172800 IN	A	193.227.1.1
 er.					      172800 IN	NS	er.cctld.authdns.ripe.net.
-er.					      172800 IN	NS	ns0-er.punchdown.org.
-er.					      172800 IN	NS	ns1-er.punchdown.net.
 er.					      172800 IN	NS	sawanew.noc.net.er.
 er.					      172800 IN	NS	zaranew.noc.net.er.
 er.					      86400 IN NSEC	es. NS RRSIG NSEC
@@ -2201,7 +2199,6 @@ nf-ns.pch.net.				      172800 IN	A	204.61.216.51
 nf-ns.pch.net.				      172800 IN	AAAA	2001:500:14:6051:ad::1
 sec1.dns.uk.psi.net.			      172800 IN	A	154.32.105.34
 sec2.dns.uk.psi.net.			      172800 IN	A	154.32.107.34
-ns1-er.punchdown.net.			      172800 IN	A	199.4.163.2
 ad.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.53
 ad.cctld.authdns.ripe.net.		      172800 IN	AAAA	2001:67c:e0::53
 ae.cctld.authdns.ripe.net.		      172800 IN	A	193.0.9.54
@@ -2598,7 +2595,6 @@ ams.sns-pb.isc.org.			      172800 IN	A	199.6.1.30
 ams.sns-pb.isc.org.			      172800 IN	AAAA	2001:500:60::30
 sfba.sns-pb.isc.org.			      172800 IN	A	149.20.64.3
 sfba.sns-pb.isc.org.			      172800 IN	AAAA	2001:4f8:0:2::19
-ns0-er.punchdown.org.			      172800 IN	A	199.4.162.2
 tld3.ultradns.org.			      172800 IN	A	199.7.66.1
 tld4.ultradns.org.			      172800 IN	A	199.7.67.1
 tld4.ultradns.org.			      172800 IN	AAAA	2001:502:100e::1
