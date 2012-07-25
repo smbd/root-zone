@@ -1978,6 +1978,7 @@ ns2.nc.					      172800 IN	A	202.87.129.17
 ne.					      172800 IN	NS	ne.cctld.authdns.ripe.net.
 ne.					      172800 IN	NS	ns.intnet.ne.
 ne.					      172800 IN	NS	bow.rain.fr.
+ne.					      172800 IN	NS	ns-ne.afrinic.net.
 ne.					      86400 IN NSEC	net. NS RRSIG NSEC
 ns.intnet.ne.				      172800 IN	A	41.138.54.10
 net.					      172800 IN	NS	a.gtld-servers.net.
@@ -2007,6 +2008,8 @@ ns-dz.afrinic.net.			      172800 IN	A	196.216.168.36
 ns-dz.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::36
 ns-ly.afrinic.net.			      172800 IN	A	196.216.168.24
 ns-ly.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::24
+ns-ne.afrinic.net.			      172800 IN	A	196.216.168.45
+ns-ne.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::45
 ns-tz.afrinic.net.			      172800 IN	A	196.216.168.20
 ns-tz.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::20
 ns-cdn.amnic.net.			      172800 IN	A	194.0.1.26
