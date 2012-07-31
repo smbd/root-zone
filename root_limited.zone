@@ -264,8 +264,6 @@ be.					      172800 IN	NS	prague.ns.dns.be.
 be.					      172800 IN	NS	brussels.ns.dns.be.
 be.					      172800 IN	NS	amsterdam.ns.dns.be.
 be.					      86400 IN NSEC	bf. NS DS RRSIG NSEC
-l.eu.dns.be.				      172800 IN	A	193.2.221.60
-l.eu.dns.be.				      172800 IN	AAAA	2001:1470:8000:100::1
 amsterdam.ns.dns.be.			      172800 IN	A	91.200.16.101
 brussels.ns.dns.be.			      172800 IN	A	193.190.135.4
 brussels.ns.dns.be.			      172800 IN	AAAA	2001:6a8:3c60::be
@@ -449,7 +447,6 @@ k.ca-servers.ca.			      172800 IN	A	156.154.100.4
 l.ca-servers.ca.			      172800 IN	A	156.154.101.4
 z.ca-servers.ca.			      172800 IN	A	192.228.25.66
 charles.cdec.polymtl.ca.		      172800 IN	A	132.207.144.2
-cat.					      172800 IN	NS	b.nic.ch.
 cat.					      172800 IN	NS	ns.nic.cat.
 cat.					      172800 IN	NS	cat.pch.net.
 cat.					      172800 IN	NS	ns1.nic.es.
@@ -457,9 +454,12 @@ cat.					      172800 IN	NS	nsc.nic.de.
 cat.					      172800 IN	NS	dns4.ad.
 cat.					      172800 IN	NS	anyc1.irondns.net.
 cat.					      172800 IN	NS	sns-pb.isc.org.
+cat.					      172800 IN	NS	switch.nic.cat.
 cat.					      86400 IN NSEC	cc. NS DS RRSIG NSEC
 ns.nic.cat.				      172800 IN	A	84.88.0.162
 ns.nic.cat.				      172800 IN	AAAA	2001:40b0:1:3::2
+switch.nic.cat.				      172800 IN	A	130.59.138.49
+switch.nic.cat.				      172800 IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 cc.					      172800 IN	NS	a5.nstld.com.
 cc.					      172800 IN	NS	c5.nstld.com.
 cc.					      172800 IN	NS	d5.nstld.com.
@@ -877,6 +877,7 @@ n3ns.nic.es.				      172800 IN	A	194.69.254.42
 n3ns.nic.es.				      172800 IN	AAAA	2001:67c:21cc:2000::64:42
 ad.ns.nic.es.				      172800 IN	A	194.69.254.15
 ns1.nic.es.				      172800 IN	A	194.69.254.1
+ns1.nic.es.				      172800 IN	AAAA	2001:67c:21cc:2000::64:41
 et.					      172800 IN	NS	et.cctld.authdns.ripe.net.
 et.					      172800 IN	NS	ns1.telecom.net.et.
 et.					      172800 IN	NS	ns2.telecom.net.et.
@@ -885,19 +886,23 @@ et.					      86400 IN NSEC	eu. NS RRSIG NSEC
 ns1.telecom.net.et.			      172800 IN	A	213.55.64.36
 ns2.telecom.net.et.			      172800 IN	A	213.55.64.38
 eu.					      172800 IN	NS	a.nic.eu.
-eu.					      172800 IN	NS	l.eu.dns.be.
 eu.					      172800 IN	NS	l.nic.eu.
 eu.					      172800 IN	NS	m.nic.eu.
 eu.					      172800 IN	NS	x.dns.eu.
+eu.					      172800 IN	NS	y.dns.eu.
 eu.					      172800 IN	NS	y.nic.eu.
 eu.					      172800 IN	NS	cz.dns.eu.
+eu.					      172800 IN	NS	nl.dns.eu.
 eu.					      172800 IN	NS	si.dns.eu.
 eu.					      86400 IN NSEC	fi. NS DS RRSIG NSEC
 cz.dns.eu.				      172800 IN	A	93.190.128.138
+nl.dns.eu.				      172800 IN	A	91.200.16.100
 si.dns.eu.				      172800 IN	A	193.2.221.60
 si.dns.eu.				      172800 IN	AAAA	2001:1470:8000:100::1
 x.dns.eu.				      172800 IN	A	194.0.1.19
 x.dns.eu.				      172800 IN	AAAA	2001:678:4::13
+y.dns.eu.				      172800 IN	A	194.146.106.90
+y.dns.eu.				      172800 IN	AAAA	2001:67c:1010:23::53
 a.nic.eu.				      172800 IN	A	91.200.16.100
 l.nic.eu.				      172800 IN	A	195.66.241.178
 m.nic.eu.				      172800 IN	A	217.29.76.13
