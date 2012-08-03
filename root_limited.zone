@@ -1516,8 +1516,8 @@ km.					      172800 IN	NS	dns1.km.
 km.					      172800 IN	NS	dns2.km.
 km.					      172800 IN	NS	phloem.uoregon.edu.
 km.					      86400 IN NSEC	kn. NS RRSIG NSEC
-dns1.km.				      172800 IN	A	80.231.195.18
-dns2.km.				      172800 IN	A	80.231.195.4
+dns1.km.				      172800 IN	A	197.255.224.18
+dns2.km.				      172800 IN	A	197.255.224.4
 kn.					      172800 IN	NS	a.dns.tw.
 kn.					      172800 IN	NS	b.dns.tw.
 kn.					      172800 IN	NS	c.dns.tw.
