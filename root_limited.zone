@@ -1336,6 +1336,12 @@ a2.org.afilias-nst.info.		      172800 IN	A	199.249.112.1
 a2.org.afilias-nst.info.		      172800 IN	AAAA	2001:500:40::1
 c0.org.afilias-nst.info.		      172800 IN	A	199.19.53.1
 c0.org.afilias-nst.info.		      172800 IN	AAAA	2001:500:b::1
+a0.post.afilias-nst.info.		      172800 IN	A	65.22.0.1
+a0.post.afilias-nst.info.		      172800 IN	AAAA	2a01:8840::1
+a2.post.afilias-nst.info.		      172800 IN	A	65.22.4.1
+a2.post.afilias-nst.info.		      172800 IN	AAAA	2a01:8840:4::1
+c0.post.afilias-nst.info.		      172800 IN	A	65.22.2.1
+c0.post.afilias-nst.info.		      172800 IN	AAAA	2a01:8840:2::1
 a0.pro.afilias-nst.info.		      172800 IN	A	199.182.0.1
 a0.pro.afilias-nst.info.		      172800 IN	AAAA	2001:500:c0::1
 a2.pro.afilias-nst.info.		      172800 IN	A	199.182.32.1
@@ -2586,6 +2592,12 @@ b2.org.afilias-nst.org.			      172800 IN	A	199.249.120.1
 b2.org.afilias-nst.org.			      172800 IN	AAAA	2001:500:48::1
 d0.org.afilias-nst.org.			      172800 IN	A	199.19.57.1
 d0.org.afilias-nst.org.			      172800 IN	AAAA	2001:500:f::1
+b0.post.afilias-nst.org.		      172800 IN	A	65.22.1.1
+b0.post.afilias-nst.org.		      172800 IN	AAAA	2a01:8840:1::1
+b2.post.afilias-nst.org.		      172800 IN	A	65.22.5.1
+b2.post.afilias-nst.org.		      172800 IN	AAAA	2a01:8840:5::1
+d0.post.afilias-nst.org.		      172800 IN	A	65.22.3.1
+d0.post.afilias-nst.org.		      172800 IN	AAAA	2a01:8840:3::1
 b0.pro.afilias-nst.org.			      172800 IN	A	199.182.1.1
 b0.pro.afilias-nst.org.			      172800 IN	AAAA	2001:500:c1::1
 b2.pro.afilias-nst.org.			      172800 IN	A	199.182.40.1
@@ -2688,9 +2700,16 @@ pn.					      172800 IN	NS	ns0.pitcairn.net.pn.
 pn.					      172800 IN	NS	ns2.pitcairn.net.pn.
 pn.					      172800 IN	NS	fork.sth.dnsnode.net.
 pn.					      172800 IN	NS	sns-pb.isc.org.
-pn.					      86400 IN NSEC	pr. NS RRSIG NSEC
+pn.					      86400 IN NSEC	post. NS RRSIG NSEC
 ns0.pitcairn.net.pn.			      172800 IN	A	173.230.153.180
 ns2.pitcairn.net.pn.			      172800 IN	A	80.68.93.100
+post.					      172800 IN	NS	a0.post.afilias-nst.info.
+post.					      172800 IN	NS	a2.post.afilias-nst.info.
+post.					      172800 IN	NS	b0.post.afilias-nst.org.
+post.					      172800 IN	NS	b2.post.afilias-nst.org.
+post.					      172800 IN	NS	c0.post.afilias-nst.info.
+post.					      172800 IN	NS	d0.post.afilias-nst.org.
+post.					      86400 IN NSEC	pr. NS DS RRSIG NSEC
 pr.					      172800 IN	NS	pr-ns.anycast.pch.net.
 pr.					      172800 IN	NS	golomb.nic.pr.
 pr.					      172800 IN	NS	pascal.nic.pr.
