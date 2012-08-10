@@ -1396,6 +1396,7 @@ is.					      172800 IN	NS	isgate.is.
 is.					      172800 IN	NS	sns-pb.isc.org.
 is.					      86400 IN NSEC	it. NS RRSIG NSEC
 isgate.is.				      172800 IN	A	193.4.58.51
+isgate.is.				      172800 IN	AAAA	2001:67c:6c:58::51
 sab.isnic.is.				      172800 IN	A	194.146.106.58
 sab.isnic.is.				      172800 IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.			      172800 IN	A	130.208.16.20
@@ -2402,6 +2403,7 @@ tld1.ultradns.net.			      172800 IN	AAAA	2001:502:d399::1
 tld2.ultradns.net.			      172800 IN	A	204.74.113.1
 ns.uu.net.				      172800 IN	A	137.39.1.3
 auth00.ns.uu.net.			      172800 IN	A	198.6.1.65
+auth00.ns.uu.net.			      172800 IN	AAAA	2600:803:408:2::10
 auth02.ns.uu.net.			      172800 IN	A	198.6.1.82
 auth03.ns.uu.net.			      172800 IN	A	198.6.1.83
 auth100.ns.uu.net.			      172800 IN	A	198.6.1.202
