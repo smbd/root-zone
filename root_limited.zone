@@ -56,9 +56,9 @@ aero.					      172800 IN	NS	b0.aero.afilias-nst.org.
 aero.					      172800 IN	NS	b2.aero.afilias-nst.org.
 aero.					      172800 IN	NS	c0.aero.afilias-nst.info.
 aero.					      172800 IN	NS	d0.aero.afilias-nst.org.
+aero.					      172800 IN	NS	ns2.switch.ch.
 aero.					      172800 IN	NS	ns5.knipp.de.
 aero.					      172800 IN	NS	dns7.denic.de.
-aero.					      172800 IN	NS	merapi.switch.ch.
 aero.					      86400 IN NSEC	af. NS RRSIG NSEC
 af.					      172800 IN	NS	ns.anycast.nic.af.
 af.					      172800 IN	NS	af1.dyntld.net.
@@ -505,8 +505,6 @@ e.nic.ch.				      172800 IN	AAAA	2001:678:3::1
 f.nic.ch.				      172800 IN	A	194.146.106.10
 f.nic.ch.				      172800 IN	AAAA	2001:67c:1010:2::53
 h.nic.ch.				      172800 IN	A	194.42.48.120
-merapi.switch.ch.			      172800 IN	A	130.59.211.10
-merapi.switch.ch.			      172800 IN	AAAA	2001:620::5
 ns2.switch.ch.				      172800 IN	A	130.59.138.49
 ns2.switch.ch.				      172800 IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 ci.					      172800 IN	NS	ci.cctld.authdns.ripe.net.
