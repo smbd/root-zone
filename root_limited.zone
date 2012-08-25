@@ -833,18 +833,24 @@ dns.princeton.edu.			      172800 IN	A	128.112.129.15
 pendragon.cs.purdue.edu.		      172800 IN	A	128.10.2.5
 phloem.uoregon.edu.			      172800 IN	A	128.223.32.35
 phloem.uoregon.edu.			      172800 IN	AAAA	2001:468:d01:20::80df:2023
+ee.					      172800 IN	NS	b.tld.ee.
+ee.					      172800 IN	NS	ee.aso.ee.
 ee.					      172800 IN	NS	ns.ut.ee.
 ee.					      172800 IN	NS	ns.uu.net.
 ee.					      172800 IN	NS	ns.tld.ee.
 ee.					      172800 IN	NS	ns.eenet.ee.
 ee.					      172800 IN	NS	ns.uninet.ee.
-ee.					      172800 IN	NS	ns2.elion.ee.
 ee.					      172800 IN	NS	sunic.sunet.se.
 ee.					      86400 IN NSEC	eg. NS RRSIG NSEC
+ee.aso.ee.				      172800 IN	A	213.184.51.122
+ee.aso.ee.				      172800 IN	AAAA	2a02:88:0:21::2
 ns.eenet.ee.				      172800 IN	A	193.40.56.245
-ns2.elion.ee.				      172800 IN	A	195.50.193.163
+ns.eenet.ee.				      172800 IN	AAAA	2001:bb8::1
+b.tld.ee.				      172800 IN	A	194.146.106.110
+b.tld.ee.				      172800 IN	AAAA	2001:67c:1010:28::53
 ns.tld.ee.				      172800 IN	A	195.43.87.10
 ns.uninet.ee.				      172800 IN	A	194.204.0.1
+ns.uninet.ee.				      172800 IN	AAAA	2001:1530:60:10::1
 ns.ut.ee.				      172800 IN	A	193.40.5.99
 eg.					      172800 IN	NS	ns5.univie.ac.at.
 eg.					      172800 IN	NS	rip.psg.com.
@@ -2028,6 +2034,8 @@ ns-tn.afrinic.net.			      172800 IN	A	196.216.168.25
 ns-tn.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::25
 ns-tz.afrinic.net.			      172800 IN	A	196.216.168.20
 ns-tz.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::20
+ns-zm.afrinic.net.			      172800 IN	A	196.216.168.44
+ns-zm.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::44
 ns-cdn.amnic.net.			      172800 IN	A	194.0.1.26
 ns-cdn.amnic.net.			      172800 IN	AAAA	2001:678:4::1a
 ns-pri.amnic.net.			      172800 IN	A	195.43.74.53
@@ -3741,13 +3749,12 @@ ns1.coza.net.za.			      172800 IN	A	66.135.62.20
 zm.					      172800 IN	NS	ns1.zamnet.zm.
 zm.					      172800 IN	NS	ns1.coppernet.zm.
 zm.					      172800 IN	NS	ns2.zamnet.zm.
-zm.					      172800 IN	NS	ns3.zamnet.zm.
 zm.					      172800 IN	NS	hippo.ru.ac.za.
+zm.					      172800 IN	NS	ns-zm.afrinic.net.
 zm.					      86400 IN NSEC	zw. NS RRSIG NSEC
 ns1.coppernet.zm.			      172800 IN	A	41.222.240.15
 ns1.zamnet.zm.				      172800 IN	A	196.46.192.26
 ns2.zamnet.zm.				      172800 IN	A	196.46.192.21
-ns3.zamnet.zm.				      172800 IN	A	196.46.213.15
 zw.					      172800 IN	NS	ns1.telone.co.zw.
 zw.					      172800 IN	NS	ns2.gip.net.
 zw.					      172800 IN	NS	ns2.telone.co.zw.
