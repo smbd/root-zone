@@ -814,6 +814,7 @@ ec.					      86400 IN NSEC	edu. NS RRSIG NSEC
 n3.dns.ec.				      172800 IN	A	204.61.216.39
 n3.dns.ec.				      172800 IN	AAAA	2001:500:14:6039:ad::1
 n1.nic.ec.				      172800 IN	A	200.12.198.1
+n1.nic.ec.				      172800 IN	AAAA	2801:0:61::1
 n2.nic.ec.				      172800 IN	A	200.12.199.1
 n2.nic.ec.				      172800 IN	AAAA	2801:0:60::1
 edu.					      172800 IN	NS	a.edu-servers.net.
