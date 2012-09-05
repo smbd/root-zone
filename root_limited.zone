@@ -2030,6 +2030,8 @@ ns-ly.afrinic.net.			      172800 IN	A	196.216.168.24
 ns-ly.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::24
 ns-ne.afrinic.net.			      172800 IN	A	196.216.168.45
 ns-ne.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::45
+ns-rw.afrinic.net.			      172800 IN	A	196.216.168.28
+ns-rw.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::28
 ns-tn.afrinic.net.			      172800 IN	A	196.216.168.25
 ns-tn.afrinic.net.			      172800 IN	AAAA	2001:43f8:120::25
 ns-tz.afrinic.net.			      172800 IN	A	196.216.168.20
@@ -2861,10 +2863,11 @@ ru.					      172800 IN	NS	d.dns.ripn.net.
 ru.					      172800 IN	NS	e.dns.ripn.net.
 ru.					      172800 IN	NS	f.dns.ripn.net.
 ru.					      86400 IN NSEC	rw. NS RRSIG NSEC
-rw.					      172800 IN	NS	dns.dnsafrica.net.
-rw.					      172800 IN	NS	dns.princeton.edu.
-rw.					      172800 IN	NS	sunic.sunet.se.
+rw.					      172800 IN	NS	ns1.ricta.org.rw.
+rw.					      172800 IN	NS	fork.sth.dnsnode.net.
+rw.					      172800 IN	NS	ns-rw.afrinic.net.
 rw.					      86400 IN NSEC	sa. NS RRSIG NSEC
+ns1.ricta.org.rw.			      172800 IN	A	41.74.173.250
 sa.					      172800 IN	NS	sa.cctld.authdns.ripe.net.
 sa.					      172800 IN	NS	ns1.isu.net.sa.
 sa.					      172800 IN	NS	ns1.nic.net.sa.
