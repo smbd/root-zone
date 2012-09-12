@@ -1197,7 +1197,7 @@ hn.			172800	IN	NS	c0.cctld.afilias-nst.info.
 hn.			172800	IN	NS	d0.cctld.afilias-nst.org.
 hn.			172800	IN	NS	tld1.rds.org.hn.
 hn.			172800	IN	NS	tld2.rds.org.hn.
-hn.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
+hn.			86400	IN	NSEC	hr. NS RRSIG NSEC
 tld1.rds.org.hn.	172800	IN	A	200.107.121.97
 tld2.rds.org.hn.	172800	IN	A	200.107.121.98
 hr.			172800	IN	NS	ns.uu.net.
@@ -1664,6 +1664,7 @@ lr.			86400	IN	NSEC	ls. NS RRSIG NSEC
 ls.			172800	IN	NS	rain.psg.com.
 ls.			172800	IN	NS	hippo.ru.ac.za.
 ls.			172800	IN	NS	ls-ns.anycast.pch.net.
+ls.			172800	IN	NS	ns-ls.afrinic.net.
 ls.			86400	IN	NSEC	lt. NS RRSIG NSEC
 lt.			172800	IN	NS	a.tld.lt.
 lt.			172800	IN	NS	b.tld.lt.
@@ -2027,6 +2028,8 @@ ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
+ns-ls.afrinic.net.	172800	IN	A	196.216.168.70
+ns-ls.afrinic.net.	172800	IN	AAAA	2001:43f8:120::70
 ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
 ns-ly.afrinic.net.	172800	IN	AAAA	2001:43f8:120::24
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
@@ -2209,6 +2212,7 @@ gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad::1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
 ls-ns.anycast.pch.net.	172800	IN	A	204.61.216.28
+ls-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6028:ad::1
 ms-ns.anycast.pch.net.	172800	IN	A	204.61.216.33
 mv-ns.anycast.pch.net.	172800	IN	A	204.61.216.24
 na-ns.anycast.pch.net.	172800	IN	A	204.61.216.35
