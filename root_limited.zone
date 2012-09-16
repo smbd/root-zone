@@ -961,11 +961,18 @@ fm.			172800	IN	NS	tld4.ultradns.org.
 fm.			172800	IN	NS	tld5.ultradns.info.
 fm.			172800	IN	NS	tld6.ultradns.co.uk.
 fm.			86400	IN	NSEC	fo. NS RRSIG NSEC
+fo.			172800	IN	NS	pch.nic.fo.
+fo.			172800	IN	NS	arnhem.nic.fo.
 fo.			172800	IN	NS	frankfurt.nic.fo.
 fo.			172800	IN	NS	copenhagen.nic.fo.
-fo.			86400	IN	NSEC	fr. NS RRSIG NSEC
+fo.			86400	IN	NSEC	fr. NS DS RRSIG NSEC
+arnhem.nic.fo.		172800	IN	A	193.176.144.6
+arnhem.nic.fo.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:6
 copenhagen.nic.fo.	172800	IN	A	193.163.102.12
+copenhagen.nic.fo.	172800	IN	AAAA	2a01:630:0:40::12
 frankfurt.nic.fo.	172800	IN	A	81.91.161.88
+pch.nic.fo.		172800	IN	A	204.61.216.65
+pch.nic.fo.		172800	IN	AAAA	2001:500:14:6065:ad::1
 fr.			86400	IN	NSEC	ga. NS DS RRSIG NSEC
 fr.			172800	IN	NS	d.ext.nic.fr.
 fr.			172800	IN	NS	d.nic.fr.
@@ -2178,8 +2185,8 @@ a.iana-servers.net.	172800	IN	A	199.43.132.53
 a.iana-servers.net.	172800	IN	AAAA	2001:500:8c::53
 b.iana-servers.net.	172800	IN	A	199.43.133.53
 b.iana-servers.net.	172800	IN	AAAA	2001:500:8d::53
-c.iana-servers.net.	172800	IN	A	139.91.1.10
-c.iana-servers.net.	172800	IN	AAAA	2001:648:2c30::1:10
+c.iana-servers.net.	172800	IN	A	199.43.134.53
+c.iana-servers.net.	172800	IN	AAAA	2001:500:8e::53
 test-ns.iana-servers.net. 172800 IN	AAAA	2001:4900:1:393::45
 anyc1.irondns.net.	172800	IN	A	195.253.64.4
 anyc1.irondns.net.	172800	IN	AAAA	2a01:5b0:4::4
