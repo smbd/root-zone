@@ -3649,7 +3649,15 @@ xn--mgberp4a5d4ar.	172800	IN	NS	ns1.isu.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	sa-ns.anycast.pch.net.
-xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--o3cw4h. NS RRSIG NSEC
+xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
+xn--mgbx4cd0ab.		172800	IN	NS	dns.mynic.net.my.
+xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
+xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
+xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
+xn--mgbx4cd0ab.		172800	IN	NS	dns2.mynic.net.my.
+xn--mgbx4cd0ab.		172800	IN	NS	ns20.iij.ad.jp.
+xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
+xn--mgbx4cd0ab.		86400	IN	NSEC	xn--o3cw4h. NS DS RRSIG NSEC
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
 xn--o3cw4h.		172800	IN	NS	ns-a.thnic.co.th.
