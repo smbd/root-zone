@@ -615,7 +615,6 @@ ns1.iafrica.com.	172800	IN	A	196.7.0.139
 ns3.iafrica.com.	172800	IN	A	196.7.0.137
 hoppy.iom.com.		172800	IN	A	217.23.163.140
 pebbles.iom.com.	172800	IN	A	80.168.83.242
-tld.isc-sns.com.	172800	IN	A	38.103.2.3
 ns-mg.malagasy.com.	172800	IN	A	87.98.132.231
 ns1.neoip.com.		172800	IN	A	62.90.247.118
 ns2.neoip.com.		172800	IN	A	208.109.17.150
@@ -661,17 +660,25 @@ coop.			172800	IN	NS	coop2.dyntld.net.
 coop.			172800	IN	NS	coop3.dyntld.net.
 coop.			172800	IN	NS	coop4.dyntld.net.
 coop.			86400	IN	NSEC	cr. NS RRSIG NSEC
-cr.			172800	IN	NS	cr.cctld.authdns.ripe.net.
-cr.			172800	IN	NS	ns.cr.
-cr.			172800	IN	NS	ns.ucr.cr.
-cr.			172800	IN	NS	ns3.nic.mx.
-cr.			172800	IN	NS	tld.isc-sns.com.
-cr.			172800	IN	NS	tld.isc-sns.net.
-cr.			172800	IN	NS	tld.isc-sns.info.
-cr.			172800	IN	NS	ns-ext.nic.cl.
 cr.			86400	IN	NSEC	cu. NS DS RRSIG NSEC
+cr.			172800	IN	NS	a.ns.cr.
+cr.			172800	IN	NS	b.ns.cr.
+cr.			172800	IN	NS	c.ns.cr.
+cr.			172800	IN	NS	d.ns.cr.
+cr.			172800	IN	NS	e.ns.cr.
+cr.			172800	IN	NS	f.ns.cr.
+cr.			172800	IN	NS	ns3.nic.mx.
+cr.			172800	IN	NS	ns-ext.nic.cl.
 ns.cr.			172800	IN	A	163.178.8.2
-ns.ucr.cr.		172800	IN	A	163.178.8.3
+a.ns.cr.		172800	IN	A	200.107.82.100
+a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
+b.ns.cr.		172800	IN	A	75.125.255.162
+c.ns.cr.		172800	IN	A	193.0.9.69
+d.ns.cr.		172800	IN	A	38.103.2.3
+e.ns.cr.		172800	IN	A	72.52.71.3
+e.ns.cr.		172800	IN	AAAA	2001:470:1a::3
+f.ns.cr.		172800	IN	A	63.243.194.3
+f.ns.cr.		172800	IN	AAAA	2001:5a0:10::3
 cu.			172800	IN	NS	cu.cctld.authdns.ripe.net.
 cu.			172800	IN	NS	ns.dns.br.
 cu.			172800	IN	NS	ns.ceniai.net.cu.
@@ -1368,8 +1375,6 @@ a2.xxx.afilias-nst.info. 172800	IN	A	199.115.156.1
 a2.xxx.afilias-nst.info. 172800	IN	AAAA	2001:500:a4::1
 c0.xxx.afilias-nst.info. 172800	IN	A	199.115.154.1
 c0.xxx.afilias-nst.info. 172800	IN	AAAA	2001:500:a2::1
-tld.isc-sns.info.	172800	IN	A	72.52.71.3
-tld.isc-sns.info.	172800	IN	AAAA	2001:470:1a::3
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
 int.			172800	IN	NS	ns.uu.net.
 int.			172800	IN	NS	ns.icann.org.
@@ -2268,8 +2273,6 @@ ci.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.67
 ci.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::67
 cm.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.68
 cm.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::68
-cr.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.69
-cr.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::69
 cu.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::70
 cw.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.86
@@ -3215,7 +3218,7 @@ ns2.nic.tr.		172800	IN	A	144.122.95.52
 ns2.nic.tr.		172800	IN	AAAA	2001:a98:30:ad::12
 ns3.nic.tr.		172800	IN	A	213.248.162.131
 ns4.nic.tr.		172800	IN	A	193.140.100.200
-ns5.nic.tr.		172800	IN	A	213.139.255.18
+ns5.nic.tr.		172800	IN	A	178.251.42.18
 travel.			172800	IN	NS	a.gtld.travel.
 travel.			172800	IN	NS	b.gtld.travel.
 travel.			172800	IN	NS	c.gtld.travel.
