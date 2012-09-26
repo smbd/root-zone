@@ -1009,6 +1009,8 @@ ns-my.nic.fr.		172800	IN	A	192.134.0.49
 ns-my.nic.fr.		172800	IN	AAAA	2001:660:3006:1::1:1
 ns-nl.nic.fr.		172800	IN	A	192.93.0.4
 ns-nl.nic.fr.		172800	IN	AAAA	2001:660:3005:1::1:2
+ns-td.nic.fr.		172800	IN	A	192.134.0.49
+ns-td.nic.fr.		172800	IN	AAAA	2001:660:3006:1::1:1
 ns2.nic.fr.		172800	IN	A	192.93.0.4
 ns2.nic.fr.		172800	IN	AAAA	2001:660:3005:1::1:2
 ns3.nic.fr.		172800	IN	A	192.134.0.49
@@ -1203,17 +1205,10 @@ hm.			86400	IN	NSEC	hn. NS RRSIG NSEC
 ns1.registry.hm.	172800	IN	A	208.70.79.25
 ns2.registry.hm.	172800	IN	A	208.70.79.24
 ns3.registry.hm.	172800	IN	A	202.169.96.24
-hn.			172800	IN	NS	a0.cctld.afilias-nst.info.
-hn.			172800	IN	NS	a2.cctld.afilias-nst.info.
-hn.			172800	IN	NS	b0.cctld.afilias-nst.org.
-hn.			172800	IN	NS	b2.cctld.afilias-nst.org.
-hn.			172800	IN	NS	c0.cctld.afilias-nst.info.
-hn.			172800	IN	NS	d0.cctld.afilias-nst.org.
-hn.			172800	IN	NS	tld1.rds.org.hn.
-hn.			172800	IN	NS	tld2.rds.org.hn.
+hn.			172800	IN	NS	hn.cctld.cocca.org.nz.
+hn.			172800	IN	NS	hn-ns.anycast.pch.net.
+hn.			172800	IN	NS	sns-pb.isc.org.
 hn.			86400	IN	NSEC	hr. NS RRSIG NSEC
-tld1.rds.org.hn.	172800	IN	A	200.107.121.97
-tld2.rds.org.hn.	172800	IN	A	200.107.121.98
 hr.			172800	IN	NS	ns.uu.net.
 hr.			172800	IN	NS	ns5.univie.ac.at.
 hr.			172800	IN	NS	n3ns.nic.es.
@@ -2048,6 +2043,8 @@ ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
 ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120::45
 ns-rw.afrinic.net.	172800	IN	A	196.216.168.28
 ns-rw.afrinic.net.	172800	IN	AAAA	2001:43f8:120::28
+ns-td.afrinic.net.	172800	IN	A	196.216.168.31
+ns-td.afrinic.net.	172800	IN	AAAA	2001:43f8:120::31
 ns-tn.afrinic.net.	172800	IN	A	196.216.168.25
 ns-tn.afrinic.net.	172800	IN	AAAA	2001:43f8:120::25
 ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
@@ -2222,6 +2219,8 @@ cy-ns.anycast.pch.net.	172800	IN	A	204.61.216.44
 cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad::1
 gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad::1
+hn-ns.anycast.pch.net.	172800	IN	A	204.61.216.64
+hn-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6064:ad::1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
 ls-ns.anycast.pch.net.	172800	IN	A	204.61.216.28
 ls-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6028:ad::1
@@ -2564,6 +2563,7 @@ ns6.dns.net.nz.		172800	IN	AAAA	2001:502:2eda::14
 ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.	172800	IN	A	202.46.191.130
+hn.cctld.cocca.org.nz.	172800	IN	A	203.119.84.237
 iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns1.ausregistry.net.au.
@@ -3091,10 +3091,11 @@ tc.			172800	IN	NS	chc1.adamsnames.com.
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
 ns1.root-servers.tc.	172800	IN	A	194.0.11.101
 ns1.root-servers.tc.	172800	IN	AAAA	2001:678:e:101::53
-td.			172800	IN	NS	bow.rain.fr.
-td.			172800	IN	NS	bow.intnet.td.
+td.			172800	IN	NS	ns1.nic.td.
+td.			172800	IN	NS	ns-td.nic.fr.
+td.			172800	IN	NS	ns-td.afrinic.net.
 td.			86400	IN	NSEC	tel. NS RRSIG NSEC
-bow.intnet.td.		172800	IN	A	193.251.147.253
+ns1.nic.td.		172800	IN	A	41.74.44.43
 tel.			172800	IN	NS	a.dns.nic.tel.
 tel.			172800	IN	NS	b.dns.nic.tel.
 tel.			172800	IN	NS	c.dns.nic.tel.
