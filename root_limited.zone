@@ -328,9 +328,10 @@ f.gtld.biz.		172800	IN	A	209.173.58.66
 f.gtld.biz.		172800	IN	AAAA	2001:500:3682::12
 k.gtld.biz.		172800	IN	A	156.154.128.65
 k.gtld.biz.		172800	IN	AAAA	2001:503:e239::3:2
+bj.			172800	IN	NS	bj.cctld.authdns.ripe.net.
 bj.			172800	IN	NS	bow.rain.fr.
 bj.			172800	IN	NS	ns1.intnet.bj.
-bj.			172800	IN	NS	ns-bj.ripe.net.
+bj.			172800	IN	NS	ns-bj.afrinic.net.
 bj.			172800	IN	NS	nakayo.leland.bj.
 bj.			86400	IN	NSEC	bm. NS RRSIG NSEC
 ns1.intnet.bj.		172800	IN	A	81.91.225.18
@@ -2027,6 +2028,8 @@ ns3.admin.net.		172800	IN	A	87.98.180.44
 ns4.admin.net.		172800	IN	A	202.190.180.244
 ns-bi.afrinic.net.	172800	IN	A	196.216.168.23
 ns-bi.afrinic.net.	172800	IN	AAAA	2001:43f8:120::23
+ns-bj.afrinic.net.	172800	IN	A	196.216.168.33
+ns-bj.afrinic.net.	172800	IN	AAAA	2001:43f8:120::33
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
@@ -2262,6 +2265,8 @@ bg.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.61
 bg.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::61
 bi.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::62
+bj.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.63
+bj.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::63
 bt.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.65
 bt.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::65
 ci.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.67
@@ -2368,7 +2373,6 @@ sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0::4
 ns-af.ripe.net.		172800	IN	A	193.0.12.1
 ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
-ns-bj.ripe.net.		172800	IN	A	193.0.12.24
 ns-bn.ripe.net.		172800	IN	A	193.0.12.33
 ns-ga.ripe.net.		172800	IN	A	193.0.12.81
 ns-ga.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:81
