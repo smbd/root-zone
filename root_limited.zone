@@ -1202,10 +1202,13 @@ hm.			86400	IN	NSEC	hn. NS RRSIG NSEC
 ns1.registry.hm.	172800	IN	A	208.70.79.25
 ns2.registry.hm.	172800	IN	A	208.70.79.24
 ns3.registry.hm.	172800	IN	A	202.169.96.24
-hn.			172800	IN	NS	hn.cctld.cocca.org.nz.
-hn.			172800	IN	NS	hn-ns.anycast.pch.net.
+hn.			172800	IN	NS	cocca.rds.org.hn.
 hn.			172800	IN	NS	sns-pb.isc.org.
-hn.			86400	IN	NSEC	hr. NS RRSIG NSEC
+hn.			172800	IN	NS	pch-anycast.rds.org.hn.
+hn.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
+cocca.rds.org.hn.	172800	IN	A	203.119.84.237
+pch-anycast.rds.org.hn.	172800	IN	A	204.61.216.64
+pch-anycast.rds.org.hn.	172800	IN	AAAA	2001:500:14:6064:ad::1
 hr.			172800	IN	NS	ns.uu.net.
 hr.			172800	IN	NS	ns5.univie.ac.at.
 hr.			172800	IN	NS	n3ns.nic.es.
@@ -2218,8 +2221,6 @@ cy-ns.anycast.pch.net.	172800	IN	A	204.61.216.44
 cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad::1
 gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad::1
-hn-ns.anycast.pch.net.	172800	IN	A	204.61.216.64
-hn-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6064:ad::1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
 ls-ns.anycast.pch.net.	172800	IN	A	204.61.216.28
 ls-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6028:ad::1
@@ -2563,7 +2564,6 @@ ns6.dns.net.nz.		172800	IN	AAAA	2001:502:2eda::14
 ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.	172800	IN	A	202.46.191.130
-hn.cctld.cocca.org.nz.	172800	IN	A	203.119.84.237
 iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns1.ausregistry.net.au.
