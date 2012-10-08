@@ -2854,16 +2854,15 @@ secondary.rotld.ro.	172800	IN	A	193.230.31.225
 secondary.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:225
 rs.			172800	IN	NS	a.nic.rs.
 rs.			172800	IN	NS	b.nic.rs.
-rs.			172800	IN	NS	c.nic.rs.
 rs.			172800	IN	NS	d.nic.rs.
 rs.			172800	IN	NS	f.nic.rs.
 rs.			172800	IN	NS	g.nic.rs.
 rs.			172800	IN	NS	h.nic.rs.
 rs.			172800	IN	NS	k.nic.rs.
+rs.			172800	IN	NS	l.nic.rs.
 rs.			86400	IN	NSEC	ru. NS RRSIG NSEC
 a.nic.rs.		172800	IN	A	91.199.17.59
 b.nic.rs.		172800	IN	A	195.178.32.2
-c.nic.rs.		172800	IN	A	212.124.160.1
 d.nic.rs.		172800	IN	A	193.0.9.107
 d.nic.rs.		172800	IN	AAAA	2001:67c:e0::107
 f.nic.rs.		172800	IN	A	204.61.216.32
@@ -2872,6 +2871,8 @@ g.nic.rs.		172800	IN	A	147.91.8.6
 h.nic.rs.		172800	IN	A	91.199.17.60
 k.nic.rs.		172800	IN	A	192.5.4.1
 k.nic.rs.		172800	IN	AAAA	2001:500:2e::1
+l.nic.rs.		172800	IN	A	194.146.106.114
+l.nic.rs.		172800	IN	AAAA	2001:67c:1010:29::53
 ru.			172800	IN	NS	a.dns.ripn.net.
 ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
