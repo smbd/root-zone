@@ -3509,6 +3509,7 @@ xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
+xn--90a3ac.		172800	IN	NS	l.nic.rs.
 xn--90a3ac.		86400	IN	NSEC	xn--9t4b11yi5a. NS RRSIG NSEC
 xn--9t4b11yi5a.		172800	IN	NS	a.iana-servers.net.
 xn--9t4b11yi5a.		172800	IN	NS	b.iana-servers.net.
