@@ -12,7 +12,6 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
-.			172800	IN	DNSKEY	256 3 8 AwEAAbW4qUZUxSRqUntM9u0pvmkqRB9Z+WRPghllsekdgp8ksT5bwRBE 3xwVWJJpJgVYGvFGgLIutrGyZDJVLQX+tu+qe6HJbA8XRZsL2aA6e4MZ eD4TOUlIH/cVlof3y4gFibjwzuuondVku9ia2MSRYnrBl+LMSRftBkVa 4OvS+dij
 .			172800	IN	DNSKEY	256 3 8 AwEAAfIcorkCycOAeOdN+0Qc27XSLXCLy8rPIO6boD/v/otODYbB+hIc 6giAiJlxXD1uYStCYhY2dXWBP57aKdBwFXETM+KhZ1gNWovzYzJDvT2S E41UAShBLglKTEekddzmK/0P5yvoPZomiJCjnEM/nYH/T3GguTEm+8BP whrPxqcL
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
@@ -904,12 +903,10 @@ eu.			86400	IN	NSEC	fi. NS DS RRSIG NSEC
 eu.			172800	IN	NS	x.dns.eu.
 eu.			172800	IN	NS	y.dns.eu.
 eu.			172800	IN	NS	cz.dns.eu.
-eu.			172800	IN	NS	it.dns.eu.
 eu.			172800	IN	NS	nl.dns.eu.
 eu.			172800	IN	NS	si.dns.eu.
 eu.			172800	IN	NS	uk.dns.eu.
 cz.dns.eu.		172800	IN	A	93.190.128.138
-it.dns.eu.		172800	IN	A	217.29.76.13
 nl.dns.eu.		172800	IN	A	91.200.16.100
 si.dns.eu.		172800	IN	A	193.2.221.60
 si.dns.eu.		172800	IN	AAAA	2001:1470:8000:100::1
