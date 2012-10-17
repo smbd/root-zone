@@ -2474,6 +2474,7 @@ nl.			172800	IN	NS	ns1.dns.nl.
 nl.			172800	IN	NS	ns2.dns.nl.
 nl.			172800	IN	NS	ns3.dns.nl.
 nl.			172800	IN	NS	ns4.dns.nl.
+nl.			172800	IN	NS	ns5.dns.nl.
 nl.			172800	IN	NS	ns-nl.nic.fr.
 nl.			172800	IN	NS	sns-pb.isc.org.
 ns1.dns.nl.		172800	IN	A	193.176.144.5
@@ -2484,6 +2485,8 @@ ns3.dns.nl.		172800	IN	A	194.171.17.10
 ns3.dns.nl.		172800	IN	AAAA	2001:610:0:800d::10
 ns4.dns.nl.		172800	IN	A	95.142.99.212
 ns4.dns.nl.		172800	IN	AAAA	2a00:1188:5::212
+ns5.dns.nl.		172800	IN	A	194.0.28.53
+ns5.dns.nl.		172800	IN	AAAA	2001:678:2c:0:194:0:28:53
 ns3.domain-registry.nl.	172800	IN	A	193.176.144.6
 ns3.domain-registry.nl.	172800	IN	AAAA	2a00:d78:0:102:193:176:144:6
 ns-pt.nlnetlabs.nl.	172800	IN	A	213.154.224.141
