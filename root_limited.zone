@@ -469,7 +469,7 @@ cc.			172800	IN	NS	f5.nstld.com.
 cc.			172800	IN	NS	g5.nstld.com.
 cc.			172800	IN	NS	h5.nstld.com.
 cc.			172800	IN	NS	l5.nstld.com.
-cc.			86400	IN	NSEC	cd. NS RRSIG NSEC
+cc.			86400	IN	NSEC	cd. NS DS RRSIG NSEC
 cd.			172800	IN	NS	dns.princeton.edu.
 cd.			172800	IN	NS	ns1.pch.nic.cd.
 cd.			172800	IN	NS	igubu.saix.net.
