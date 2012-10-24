@@ -2048,6 +2048,8 @@ ns-tn.afrinic.net.	172800	IN	A	196.216.168.25
 ns-tn.afrinic.net.	172800	IN	AAAA	2001:43f8:120::25
 ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
 ns-tz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::20
+ns-ug.afrinic.net.	172800	IN	A	196.216.168.42
+ns-ug.afrinic.net.	172800	IN	AAAA	2001:43f8:120::42
 ns-zm.afrinic.net.	172800	IN	A	196.216.168.44
 ns-zm.afrinic.net.	172800	IN	AAAA	2001:43f8:120::44
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
@@ -3078,7 +3080,10 @@ c.ns.sx.		172800	IN	A	70.38.21.233
 sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
 sy.			172800	IN	NS	ns2.tld.sy.
+sy.			172800	IN	NS	pch.anycast.tld.sy.
 sy.			86400	IN	NSEC	sz. NS RRSIG NSEC
+pch.anycast.tld.sy.	172800	IN	A	204.61.216.71
+pch.anycast.tld.sy.	172800	IN	AAAA	2001:500:14:6071:ad::1
 ns1.tld.sy.		172800	IN	A	82.137.200.85
 ns2.tld.sy.		172800	IN	A	82.137.192.145
 sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
@@ -3314,7 +3319,7 @@ ripe.ns.ua.		172800	IN	AAAA	2001:67c:e0::121
 ug.			172800	IN	NS	ns.icann.org.
 ug.			172800	IN	NS	ug.cctld.authdns.ripe.net.
 ug.			172800	IN	NS	root.eahd.or.ug.
-ug.			172800	IN	NS	ns-ext.isc.org.
+ug.			172800	IN	NS	ns-ug.afrinic.net.
 ug.			172800	IN	NS	anycast.eahd.or.ug.
 ug.			86400	IN	NSEC	uk. NS DS RRSIG NSEC
 anycast.eahd.or.ug.	172800	IN	A	204.61.216.60
