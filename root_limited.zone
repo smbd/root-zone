@@ -431,7 +431,6 @@ ca.			86400	IN	NSEC	cat. NS RRSIG NSEC
 ca.			172800	IN	NS	a.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
-ca.			172800	IN	NS	f.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
 ca.			172800	IN	NS	k.ca-servers.ca.
 ca.			172800	IN	NS	l.ca-servers.ca.
@@ -442,7 +441,6 @@ a.ca-servers.ca.	172800	IN	A	199.253.251.2
 a.ca-servers.ca.	172800	IN	AAAA	2001:500:80:5000::2
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
 e.ca-servers.ca.	172800	IN	A	192.228.30.9
-f.ca-servers.ca.	172800	IN	A	199.4.28.220
 j.ca-servers.ca.	172800	IN	A	198.182.167.1
 j.ca-servers.ca.	172800	IN	AAAA	2001:500:83::1
 k.ca-servers.ca.	172800	IN	A	156.154.100.4
@@ -3696,7 +3694,7 @@ xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
-xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS RRSIG NSEC
+xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS DS RRSIG NSEC
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
 xn--pgbs0dh.		172800	IN	NS	ns8.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns9.ati.tn.
