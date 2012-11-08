@@ -1391,11 +1391,12 @@ iq.			86400	IN	NSEC	ir. NS RRSIG NSEC
 ns1.cmc.iq.		172800	IN	A	194.117.57.100
 nsp-anycast.cmc.iq.	172800	IN	A	194.117.58.42
 nsp-anycast.cmc.iq.	172800	IN	AAAA	2001:500:14:8001:ad::42
-ir.			172800	IN	NS	ns1.nic.ir.
+ir.			172800	IN	NS	a.nic.ir.
+ir.			172800	IN	NS	ns.irnic.ir.
 ir.			172800	IN	NS	ns5.univie.ac.at.
-ir.			172800	IN	NS	auth02.ns.uu.net.
 ir.			86400	IN	NSEC	is. NS RRSIG NSEC
-ns1.nic.ir.		172800	IN	A	194.225.70.83
+ns.irnic.ir.		172800	IN	A	193.189.122.83
+a.nic.ir.		172800	IN	A	193.189.123.2
 is.			172800	IN	NS	is.cctld.authdns.ripe.net.
 is.			172800	IN	NS	ns4.tele.dk.
 is.			172800	IN	NS	sab.isnic.is.
