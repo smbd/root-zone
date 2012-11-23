@@ -3058,7 +3058,7 @@ st.			172800	IN	NS	ns2.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-us.st.
 st.			86400	IN	NSEC	su. NS RRSIG NSEC
-dns-au.st.		172800	IN	A	203.19.59.140
+dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
 su.			86400	IN	NSEC	sv. NS DS RRSIG NSEC
 su.			172800	IN	NS	a.dns.ripn.net.
