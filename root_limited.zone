@@ -167,14 +167,14 @@ b0.asia.afilias-nst.asia. 172800 IN	AAAA	2001:500:16::1
 d0.asia.afilias-nst.asia. 172800 IN	A	199.254.30.1
 d0.asia.afilias-nst.asia. 172800 IN	AAAA	2001:500:18::1
 at.			86400	IN	NSEC	au. NS DS RRSIG NSEC
-at.			172800	IN	NS	d.nic.at.
-at.			172800	IN	NS	j.nic.at.
-at.			172800	IN	NS	n.nic.at.
-at.			172800	IN	NS	r.nic.at.
+at.			172800	IN	NS	d.ns.at.
+at.			172800	IN	NS	j.ns.at.
+at.			172800	IN	NS	n.ns.at.
+at.			172800	IN	NS	r.ns.at.
+at.			172800	IN	NS	u.ns.at.
 at.			172800	IN	NS	ns1.univie.ac.at.
 at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
-at.			172800	IN	NS	ns-uk.nic.at.
 ns1.univie.ac.at.	172800	IN	A	78.104.144.2
 ns1.univie.ac.at.	172800	IN	AAAA	2001:628:2030:4301::2
 ns2.univie.ac.at.	172800	IN	A	192.92.125.2
@@ -183,14 +183,14 @@ ns5.univie.ac.at.	172800	IN	A	193.171.255.77
 ns5.univie.ac.at.	172800	IN	AAAA	2001:628:453:4305::53
 ns9.univie.ac.at.	172800	IN	A	194.0.10.100
 ns9.univie.ac.at.	172800	IN	AAAA	2001:678:d::cafe
-d.nic.at.		172800	IN	A	81.91.161.98
-d.nic.at.		172800	IN	AAAA	2a02:568:20:1::d
-j.nic.at.		172800	IN	A	194.146.106.50
-j.nic.at.		172800	IN	AAAA	2001:67c:1010:12::53
-n.nic.at.		172800	IN	A	87.233.175.130
-ns-uk.nic.at.		172800	IN	A	195.66.241.82
-r.nic.at.		172800	IN	A	194.0.25.10
-r.nic.at.		172800	IN	AAAA	2001:67c:1bc::10
+d.ns.at.		172800	IN	A	81.91.161.98
+d.ns.at.		172800	IN	AAAA	2a02:568:20:1::d
+j.ns.at.		172800	IN	A	194.146.106.50
+j.ns.at.		172800	IN	AAAA	2001:67c:1010:12::53
+n.ns.at.		172800	IN	A	87.233.175.130
+r.ns.at.		172800	IN	A	194.0.25.10
+r.ns.at.		172800	IN	AAAA	2001:67c:1bc::10
+u.ns.at.		172800	IN	A	195.66.241.82
 au.			86400	IN	NSEC	aw. NS RRSIG NSEC
 au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	b.au.
