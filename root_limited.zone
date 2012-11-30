@@ -799,7 +799,7 @@ do.			172800	IN	NS	do-dns.nic.pr.
 do.			172800	IN	NS	phloem.uoregon.edu.
 do.			172800	IN	NS	sns-pb.isc.org.
 do.			86400	IN	NSEC	dz. NS RRSIG NSEC
-ns.nic.do.		172800	IN	A	66.98.65.146
+ns.nic.do.		172800	IN	A	200.16.91.228
 ns1.nic.do.		172800	IN	A	200.16.91.226
 ns2.nic.do.		172800	IN	A	200.16.90.162
 ns3.nic.do.		172800	IN	A	149.20.61.87
