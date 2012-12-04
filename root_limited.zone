@@ -419,6 +419,7 @@ by.			172800	IN	NS	dns2.tld.tutby.com.
 by.			172800	IN	NS	dns3.tld.tutby.com.
 by.			172800	IN	NS	dns4.tld.tutby.com.
 by.			172800	IN	NS	dns5.tld.tutby.com.
+by.			172800	IN	NS	dns6.tld.tutby.com.
 by.			86400	IN	NSEC	bz. NS RRSIG NSEC
 bz.			172800	IN	NS	a0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -653,6 +654,7 @@ dns3.tld.tutby.com.	172800	IN	A	195.137.160.10
 dns3.tld.tutby.com.	172800	IN	AAAA	2a01:d8:2:1::2
 dns4.tld.tutby.com.	172800	IN	A	85.17.148.67
 dns5.tld.tutby.com.	172800	IN	A	82.208.35.204
+dns6.tld.tutby.com.	172800	IN	A	198.7.60.60
 coop.			172800	IN	NS	coop1.dyntld.net.
 coop.			172800	IN	NS	coop2.dyntld.net.
 coop.			172800	IN	NS	coop3.dyntld.net.
