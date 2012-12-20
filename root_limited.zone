@@ -12,6 +12,7 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
+.			172800	IN	DNSKEY	256 3 8 AwEAAaYCmqKPwuX/gckHK0xh0oPMzbLAR9BhlOOfvxG537GKKs0subof zyzNjsXZLefCeagHfjT6HKzkV6Pzs31LtgJRFDn9lsZeOXtFIP4t2SpQ kxl1Sw8L0VhNFLb6BwKhD1yz7wKh96wpErLHilwDSL9ScwlfTvRwCAsc wh5vQtcd
 .			172800	IN	DNSKEY	256 3 8 AwEAAfIcorkCycOAeOdN+0Qc27XSLXCLy8rPIO6boD/v/otODYbB+hIc 6giAiJlxXD1uYStCYhY2dXWBP57aKdBwFXETM+KhZ1gNWovzYzJDvT2S E41UAShBLglKTEekddzmK/0P5yvoPZomiJCjnEM/nYH/T3GguTEm+8BP whrPxqcL
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
@@ -113,12 +114,15 @@ ns01-server.curinfo.an.	172800	IN	A	65.208.122.36
 engine0.una.an.		172800	IN	A	200.26.199.99
 engine2.una.an.		172800	IN	A	65.174.238.100
 engine3.una.an.		172800	IN	A	200.26.199.102
+ao.			172800	IN	NS	ns02.dns.ao.
 ao.			172800	IN	NS	ns02.fccn.pt.
 ao.			172800	IN	NS	ns03.fccn.pt.
 ao.			172800	IN	NS	auth02.ns.uu.net.
 ao.			172800	IN	NS	ns-ext.isc.org.
 ao.			172800	IN	NS	phobos.fccn.pt.
 ao.			86400	IN	NSEC	aq. NS RRSIG NSEC
+ns02.dns.ao.		172800	IN	A	197.149.149.11
+ns02.dns.ao.		172800	IN	AAAA	2c0f:f828:2::b
 aq.			172800	IN	NS	ns1.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
@@ -2783,6 +2787,7 @@ ns2.dns.pt.		172800	IN	AAAA	2001:690:a80:4001::100
 ns01.fccn.pt.		172800	IN	A	193.136.192.40
 ns01.fccn.pt.		172800	IN	AAAA	2001:690:a00:4001::200
 ns02.fccn.pt.		172800	IN	A	193.136.2.228
+ns02.fccn.pt.		172800	IN	AAAA	2001:690:a80:4001::200
 ns03.fccn.pt.		172800	IN	A	138.246.255.249
 ns03.fccn.pt.		172800	IN	AAAA	2001:4ca0:106:0:250:56ff:fea9:3fd
 phobos.fccn.pt.		172800	IN	A	193.136.7.17
@@ -2794,7 +2799,7 @@ pw.			172800	IN	NS	ns5.nic.pw.
 pw.			172800	IN	NS	ns6.nic.pw.
 pw.			172800	IN	NS	ns7.nic.pw.
 pw.			172800	IN	NS	ns8.nic.pw.
-pw.			86400	IN	NSEC	py. NS RRSIG NSEC
+pw.			86400	IN	NSEC	py. NS DS RRSIG NSEC
 ns1.nic.pw.		172800	IN	A	89.151.83.36
 ns2.nic.pw.		172800	IN	A	72.3.240.16
 ns3.nic.pw.		172800	IN	A	62.197.40.234
@@ -2888,7 +2893,7 @@ ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
-ru.			86400	IN	NSEC	rw. NS RRSIG NSEC
+ru.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
