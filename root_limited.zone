@@ -2400,7 +2400,7 @@ a.root-servers.net.	518400	IN	A	198.41.0.4
 a.root-servers.net.	518400	IN	AAAA	2001:503:ba3e::2:30
 b.root-servers.net.	518400	IN	A	192.228.79.201
 c.root-servers.net.	518400	IN	A	192.33.4.12
-d.root-servers.net.	518400	IN	A	128.8.10.90
+d.root-servers.net.	518400	IN	A	199.7.91.13
 d.root-servers.net.	518400	IN	AAAA	2001:500:2d::d
 e.root-servers.net.	518400	IN	A	192.203.230.10
 f.root-servers.net.	518400	IN	A	192.5.5.241
