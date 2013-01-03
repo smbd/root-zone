@@ -2029,9 +2029,14 @@ ns1.aalnet.net.		172800	IN	A	194.112.0.1
 ns2.aalnet.net.		172800	IN	A	194.112.0.5
 ns3.aalnet.net.		172800	IN	A	82.199.186.130
 ns1.admin.net.		172800	IN	A	198.73.186.1
-ns2.admin.net.		172800	IN	A	67.202.107.93
+ns2.admin.net.		172800	IN	A	198.71.89.236
+ns2.admin.net.		172800	IN	AAAA	2605:f700:40:400::196b:8127
 ns3.admin.net.		172800	IN	A	87.98.180.44
-ns4.admin.net.		172800	IN	A	202.190.180.244
+ns3.admin.net.		172800	IN	AAAA	2001:41d0:8:94e4::2
+ns4.admin.net.		172800	IN	A	116.251.210.160
+ns4.admin.net.		172800	IN	AAAA	2405:4200:202::923a:d47b
+ns5.admin.net.		172800	IN	A	188.165.33.42
+ns5.admin.net.		172800	IN	AAAA	2001:41d0:8:5c79::3
 ns-bi.afrinic.net.	172800	IN	A	196.216.168.23
 ns-bi.afrinic.net.	172800	IN	AAAA	2001:43f8:120::23
 ns-bj.afrinic.net.	172800	IN	A	196.216.168.33
@@ -3148,6 +3153,7 @@ tg.			172800	IN	NS	ns1.admin.net.
 tg.			172800	IN	NS	ns2.admin.net.
 tg.			172800	IN	NS	ns3.admin.net.
 tg.			172800	IN	NS	ns4.admin.net.
+tg.			172800	IN	NS	ns5.admin.net.
 tg.			172800	IN	NS	tld.cafe.tg.
 tg.			86400	IN	NSEC	th. NS RRSIG NSEC
 tld.cafe.tg.		172800	IN	A	80.248.64.20
