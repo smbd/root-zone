@@ -1536,12 +1536,12 @@ ki.			172800	IN	NS	ns-ki.ripe.net.
 ki.			86400	IN	NSEC	km. NS RRSIG NSEC
 ns.anycast.nic.ki.	172800	IN	A	204.61.216.26
 ns.sydney.nic.ki.	172800	IN	A	203.119.12.246
-km.			172800	IN	NS	dns1.km.
-km.			172800	IN	NS	dns2.km.
-km.			172800	IN	NS	phloem.uoregon.edu.
+km.			172800	IN	NS	dns1.nic.km.
+km.			172800	IN	NS	dns2.nic.km.
+km.			172800	IN	NS	ns-km.afrinic.net.
 km.			86400	IN	NSEC	kn. NS RRSIG NSEC
-dns1.km.		172800	IN	A	197.255.224.18
-dns2.km.		172800	IN	A	197.255.224.4
+dns1.nic.km.		172800	IN	A	197.255.224.18
+dns2.nic.km.		172800	IN	A	197.255.224.66
 kn.			172800	IN	NS	a.dns.tw.
 kn.			172800	IN	NS	b.dns.tw.
 kn.			172800	IN	NS	c.dns.tw.
@@ -2045,6 +2045,8 @@ ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
+ns-km.afrinic.net.	172800	IN	A	196.216.168.46
+ns-km.afrinic.net.	172800	IN	AAAA	2001:43f8:120::46
 ns-ls.afrinic.net.	172800	IN	A	196.216.168.70
 ns-ls.afrinic.net.	172800	IN	AAAA	2001:43f8:120::70
 ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
