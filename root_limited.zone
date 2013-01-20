@@ -615,7 +615,6 @@ uucp-gw-2.pa.dec.com.	172800	IN	A	204.123.2.19
 austin.gh.com.		172800	IN	A	196.3.64.1
 mantse.gh.com.		172800	IN	A	193.194.185.2
 ns1.iafrica.com.	172800	IN	A	196.7.0.139
-ns3.iafrica.com.	172800	IN	A	196.7.0.137
 hoppy.iom.com.		172800	IN	A	217.23.163.140
 pebbles.iom.com.	172800	IN	A	80.168.83.242
 ns-mg.malagasy.com.	172800	IN	A	87.98.132.231
@@ -1905,8 +1904,8 @@ mu.			172800	IN	NS	mu1.dyntld.net.
 mu.			172800	IN	NS	mu2.dyntld.net.
 mu.			172800	IN	NS	mu3.dyntld.net.
 mu.			172800	IN	NS	mu4.dyntld.net.
-mu.			172800	IN	NS	ns3.iafrica.com.
 mu.			172800	IN	NS	udns1.tld.mu.
+mu.			172800	IN	NS	anycast1.irondns.net.
 mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
 udns1.tld.mu.		172800	IN	A	204.61.216.10
 museum.			172800	IN	NS	ns.icann.org.
@@ -2208,6 +2207,8 @@ anyc1.irondns.net.	172800	IN	A	195.253.64.4
 anyc1.irondns.net.	172800	IN	AAAA	2a01:5b0:4::4
 anyc2.irondns.net.	172800	IN	A	195.253.64.7
 anyc2.irondns.net.	172800	IN	AAAA	2a01:5b0:4::7
+anycast1.irondns.net.	172800	IN	A	195.253.64.5
+anycast1.irondns.net.	172800	IN	AAAA	2a01:5b0:4::5
 tld.isc-sns.net.	172800	IN	A	63.243.194.3
 tld.isc-sns.net.	172800	IN	AAAA	2001:5a0:10::3
 ns0.ja.net.		172800	IN	A	128.86.1.20
