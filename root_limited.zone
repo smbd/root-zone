@@ -432,7 +432,7 @@ bz.			172800	IN	NS	b2.cctld.afilias-nst.org.
 bz.			172800	IN	NS	c0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	d0.cctld.afilias-nst.org.
 bz.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
-ca.			86400	IN	NSEC	cat. NS RRSIG NSEC
+ca.			86400	IN	NSEC	cat. NS DS RRSIG NSEC
 ca.			172800	IN	NS	a.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
