@@ -3452,10 +3452,13 @@ ns2.nic.ve.		172800	IN	AAAA	2001:1338::3
 azmodan.ula.ve.		172800	IN	A	150.185.130.16
 vg.			172800	IN	NS	vg.cctld.authdns.ripe.net.
 vg.			172800	IN	NS	ns1.root-servers.vg.
-vg.			172800	IN	NS	chc1.adamsnames.com.
+vg.			172800	IN	NS	asia.zone.vg.
+vg.			172800	IN	NS	europe.zone.vg.
 vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
 ns1.root-servers.vg.	172800	IN	A	194.0.11.102
 ns1.root-servers.vg.	172800	IN	AAAA	2001:678:e:102::53
+asia.zone.vg.		172800	IN	A	31.169.81.226
+europe.zone.vg.		172800	IN	A	77.79.104.226
 vi.			172800	IN	NS	ns1.cobex.net.
 vi.			172800	IN	NS	ns1.krnic.net.
 vi.			172800	IN	NS	ns2.cobex.net.
