@@ -1080,7 +1080,7 @@ gm.			172800	IN	NS	ns1.nic.gm.
 gm.			172800	IN	NS	ns1.asap-asp.net.
 gm.			172800	IN	NS	ns2.nic.gm.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
-ns2.nic.gm.		172800	IN	A	212.60.81.100
+ns2.nic.gm.		172800	IN	A	197.255.194.102
 gn.			86400	IN	NSEC	gov. NS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
@@ -2077,8 +2077,8 @@ sec4.apnic.net.		172800	IN	A	202.12.31.141
 ns1.as6453.net.		172800	IN	A	66.198.145.55
 ns2.as6453.net.		172800	IN	A	66.198.145.99
 ns1.asap-asp.net.	172800	IN	A	195.225.3.100
+dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
-ns2.bahnhof.net.	172800	IN	A	212.85.64.4
 ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
 ns2.barbadosdomain.net.	172800	IN	A	204.212.242.113
 nsa.cctldmd.net.	172800	IN	A	217.26.144.5
@@ -3073,8 +3073,8 @@ sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
 st.			86400	IN	NSEC	su. NS RRSIG NSEC
 st.			172800	IN	NS	ns1.bahnhof.net.
-st.			172800	IN	NS	ns2.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
+st.			172800	IN	NS	dns-st.bahnhof.net.
 st.			172800	IN	NS	dns-us.st.
 dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
