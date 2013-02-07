@@ -1219,13 +1219,9 @@ hr-ns-1.carnet.hr.	172800	IN	AAAA	2001:b68:ff:1::100
 hr-ns-1.carnet.hr.	172800	IN	A	161.53.160.100
 ht.			86400	IN	NSEC	hu. NS RRSIG NSEC
 ht.			172800	IN	NS	dns.princeton.edu.
-ht.			172800	IN	NS	ns1.nic.ht.
-ht.			172800	IN	NS	ns2.nic.ht.
 ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
 ht.			172800	IN	NS	charles.cdec.polymtl.ca.
-ns1.nic.ht.		172800	IN	A	64.86.226.26
-ns2.nic.ht.		172800	IN	A	64.86.226.30
 hu.			86400	IN	NSEC	id. NS RRSIG NSEC
 hu.			172800	IN	NS	b.hu.
 hu.			172800	IN	NS	c.hu.
@@ -2234,6 +2230,7 @@ cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad::1
 cy-ns.anycast.pch.net.	172800	IN	A	204.61.216.44
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad::1
 gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
+ht-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6038:ad::1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
 ls-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6028:ad::1
 ls-ns.anycast.pch.net.	172800	IN	A	204.61.216.28
@@ -3310,7 +3307,7 @@ g.dns.tw.		172800	IN	AAAA	2001:cd8:400::195
 g.dns.tw.		172800	IN	A	220.229.225.195
 h.dns.tw.		172800	IN	AAAA	2405:7e00:1001::111
 h.dns.tw.		172800	IN	A	203.119.3.1
-tz.			86400	IN	NSEC	ua. NS RRSIG NSEC
+tz.			86400	IN	NSEC	ua. NS DS RRSIG NSEC
 tz.			172800	IN	NS	d.ext.nic.cz.
 tz.			172800	IN	NS	ns.anycast.co.tz.
 tz.			172800	IN	NS	ns2.tznic.or.tz.
