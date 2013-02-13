@@ -289,9 +289,12 @@ bg.			172800	IN	NS	ns2.register.bg.
 bg.			172800	IN	NS	ns3.register.bg.
 bg.			172800	IN	NS	ns4.register.bg.
 bg.			172800	IN	NS	ns-ext.isc.org.
+ns.register.bg.		172800	IN	AAAA	2a02:6a80::192:92:129:99
 ns.register.bg.		172800	IN	A	192.92.129.99
+ns2.register.bg.	172800	IN	AAAA	2a02:6a80::193:68:3:232
 ns2.register.bg.	172800	IN	A	193.68.3.232
-ns3.register.bg.	172800	IN	A	94.155.14.10
+ns3.register.bg.	172800	IN	AAAA	2a02:6a80::193:68:99:99
+ns3.register.bg.	172800	IN	A	193.68.99.99
 ns4.register.bg.	172800	IN	AAAA	2001:678:3c::1
 ns4.register.bg.	172800	IN	A	194.0.32.1
 bh.			86400	IN	NSEC	bi. NS RRSIG NSEC
@@ -1234,7 +1237,7 @@ b.hu.			172800	IN	AAAA	2001:738:4:4000::3
 b.hu.			172800	IN	A	193.239.149.3
 c.hu.			172800	IN	A	193.6.16.1
 d.hu.			172800	IN	A	195.70.35.250
-e.hu.			172800	IN	AAAA	2001:67c:1bc::11
+e.hu.			172800	IN	AAAA	2001:678:20::11
 e.hu.			172800	IN	A	194.0.25.11
 ns.nic.hu.		172800	IN	AAAA	2001:738:4:8000::48
 ns.nic.hu.		172800	IN	A	193.239.148.48
@@ -1500,6 +1503,7 @@ ke.			86400	IN	NSEC	kg. NS RRSIG NSEC
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
 ke.			172800	IN	NS	mzizi.kenic.or.ke.
+ke.			172800	IN	NS	ns-ke.afrinic.net.
 ns.anycast.kenic.or.ke.	172800	IN	AAAA	2001:500:14:6007:ad::1
 ns.anycast.kenic.or.ke.	172800	IN	A	204.61.216.7
 mzizi.kenic.or.ke.	172800	IN	A	196.1.4.130
@@ -2040,6 +2044,7 @@ ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
+ns-ke.afrinic.net.	172800	IN	A	196.216.168.22
 ns-km.afrinic.net.	172800	IN	AAAA	2001:43f8:120::46
 ns-km.afrinic.net.	172800	IN	A	196.216.168.46
 ns-ls.afrinic.net.	172800	IN	AAAA	2001:43f8:120::70
