@@ -2449,7 +2449,9 @@ auth03.ns.uu.net.	172800	IN	A	198.6.1.83
 auth100.ns.uu.net.	172800	IN	A	198.6.1.202
 auth101.ns.uu.net.	172800	IN	A	198.6.1.210
 auth110.ns.uu.net.	172800	IN	A	198.6.1.114
+auth200.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e000::35:2
 auth200.ns.uu.net.	172800	IN	A	195.129.12.82
+auth210.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e001::35:2
 auth210.ns.uu.net.	172800	IN	A	195.129.12.74
 auth51.ns.uu.net.	172800	IN	A	198.6.1.162
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
@@ -2791,6 +2793,7 @@ pt.			172800	IN	NS	sns-pb.isc.org.
 pt.			172800	IN	NS	auth200.ns.uu.net.
 pt.			172800	IN	NS	auth210.ns.uu.net.
 pt.			86400	IN	NSEC	pw. NS DS RRSIG NSEC
+ns.dns.pt.		172800	IN	AAAA	2001:690:a00:1016:905::1
 ns.dns.pt.		172800	IN	A	193.136.0.1
 ns2.dns.pt.		172800	IN	AAAA	2001:690:a80:4001::100
 ns2.dns.pt.		172800	IN	A	193.136.2.226
