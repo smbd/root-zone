@@ -608,7 +608,6 @@ com.			172800	IN	NS	k.gtld-servers.net.
 com.			172800	IN	NS	l.gtld-servers.net.
 com.			172800	IN	NS	m.gtld-servers.net.
 com.			86400	IN	NSEC	coop. NS DS RRSIG NSEC
-chc1.adamsnames.com.	172800	IN	A	195.153.6.27
 ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:fe00::2
 ns.blacknightsolutions.com. 172800 IN	A	217.114.173.6
 ns2.blacknightsolutions.com. 172800 IN	AAAA	2001:1bc0:ab:3::2
@@ -1030,7 +1029,6 @@ gb.			172800	IN	NS	ns4.ja.net.
 gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	ns1.root-servers.gd.
-gd.			172800	IN	NS	chc1.adamsnames.com.
 ns1.root-servers.gd.	172800	IN	AAAA	2001:678:e:103::53
 ns1.root-servers.gd.	172800	IN	A	194.0.11.103
 ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
@@ -1251,19 +1249,20 @@ id.			172800	IN	NS	sec3.apnic.net.
 ns1.indo.net.id.	172800	IN	A	202.159.32.2
 ns1.rad.net.id.		172800	IN	A	202.154.1.2
 ns1.id.			172800	IN	A	202.155.30.227
+ie.			172800	IN	NS	a.iedr.ie.
 ie.			172800	IN	NS	b.iedr.ie.
 ie.			172800	IN	NS	c.iedr.ie.
 ie.			172800	IN	NS	d.iedr.ie.
 ie.			172800	IN	NS	ns3.ns.esat.net.
 ie.			172800	IN	NS	gns1.domainregistry.ie.
 ie.			172800	IN	NS	gns2.domainregistry.ie.
-ie.			172800	IN	NS	banba.domainregistry.ie.
 ie.			172800	IN	NS	ns-ie.nic.fr.
 ie.			86400	IN	NSEC	il. NS RRSIG NSEC
 auth01.connect.ie.	172800	IN	A	87.198.184.50
-banba.domainregistry.ie. 172800	IN	A	193.1.142.2
 gns1.domainregistry.ie.	172800	IN	A	198.133.199.102
 gns2.domainregistry.ie.	172800	IN	A	198.133.199.103
+a.iedr.ie.		172800	IN	AAAA	2a01:4b0::3
+a.iedr.ie.		172800	IN	A	77.72.72.44
 b.iedr.ie.		172800	IN	AAAA	2a01:4b0::2
 b.iedr.ie.		172800	IN	A	77.72.72.34
 c.iedr.ie.		172800	IN	A	194.146.106.98
@@ -1675,7 +1674,7 @@ ls.			172800	IN	NS	rain.psg.com.
 ls.			172800	IN	NS	hippo.ru.ac.za.
 ls.			172800	IN	NS	ls-ns.anycast.pch.net.
 ls.			172800	IN	NS	ns-ls.afrinic.net.
-lt.			86400	IN	NSEC	lu. NS RRSIG NSEC
+lt.			86400	IN	NSEC	lu. NS DS RRSIG NSEC
 lt.			172800	IN	NS	a.tld.lt.
 lt.			172800	IN	NS	b.tld.lt.
 lt.			172800	IN	NS	c.tld.lt.
