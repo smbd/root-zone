@@ -485,8 +485,13 @@ ns1.pch.nic.cd.		172800	IN	AAAA	2001:500:14:6066:ad::1
 ns1.pch.nic.cd.		172800	IN	A	204.61.216.66
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
 cf.			172800	IN	NS	bow.intnet.cf.
-cf.			172800	IN	NS	rip.psg.com.
+cf.			172800	IN	NS	root1.nic.cf.
+cf.			172800	IN	NS	root2.nic.cf.
+cf.			172800	IN	NS	root3.nic.cf.
 bow.intnet.cf.		172800	IN	A	196.32.200.10
+root1.nic.cf.		172800	IN	A	71.6.218.254
+root2.nic.cf.		172800	IN	A	85.10.201.202
+root3.nic.cf.		172800	IN	A	80.90.43.30
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
 cg.			172800	IN	NS	dns.dnsafrica.net.
 cg.			172800	IN	NS	dns.princeton.edu.
