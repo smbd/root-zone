@@ -484,11 +484,9 @@ cd.			172800	IN	NS	sabela.saix.net.
 ns1.pch.nic.cd.		172800	IN	AAAA	2001:500:14:6066:ad::1
 ns1.pch.nic.cd.		172800	IN	A	204.61.216.66
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
-cf.			172800	IN	NS	bow.intnet.cf.
 cf.			172800	IN	NS	root1.nic.cf.
 cf.			172800	IN	NS	root2.nic.cf.
 cf.			172800	IN	NS	root3.nic.cf.
-bow.intnet.cf.		172800	IN	A	196.32.200.10
 root1.nic.cf.		172800	IN	A	71.6.218.254
 root2.nic.cf.		172800	IN	A	85.10.201.202
 root3.nic.cf.		172800	IN	A	80.90.43.30
@@ -1692,7 +1690,7 @@ c.tld.lt.		172800	IN	AAAA	2001:678:4::4
 c.tld.lt.		172800	IN	A	194.0.1.4
 d.tld.lt.		172800	IN	AAAA	2001:678:6::1
 d.tld.lt.		172800	IN	A	194.0.3.1
-e.tld.lt.		172800	IN	A	195.182.72.234
+e.tld.lt.		172800	IN	A	194.0.18.1
 lu.			86400	IN	NSEC	lv. NS DS RRSIG NSEC
 lu.			172800	IN	NS	g.dns.lu.
 lu.			172800	IN	NS	i.dns.lu.
