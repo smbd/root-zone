@@ -1903,14 +1903,14 @@ r.ns.mt.		172800	IN	AAAA	2001:67c:e0::97
 r.ns.mt.		172800	IN	A	193.0.9.97
 ns1.mt.			172800	IN	A	193.188.34.241
 mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
-mu.			172800	IN	NS	mu.cctld.authdns.ripe.net.
-mu.			172800	IN	NS	mu1.dyntld.net.
-mu.			172800	IN	NS	mu2.dyntld.net.
-mu.			172800	IN	NS	mu3.dyntld.net.
-mu.			172800	IN	NS	mu4.dyntld.net.
+mu.			172800	IN	NS	fork.sth.dnsnode.net.
 mu.			172800	IN	NS	udns1.tld.mu.
+mu.			172800	IN	NS	udns2.tld.mu.
 mu.			172800	IN	NS	anycast1.irondns.net.
+udns1.tld.mu.		172800	IN	AAAA	2001:500:14:6010:ad::1
 udns1.tld.mu.		172800	IN	A	204.61.216.10
+udns2.tld.mu.		172800	IN	AAAA	2001:67c:e0::98
+udns2.tld.mu.		172800	IN	A	193.0.9.98
 museum.			86400	IN	NSEC	mv. NS DS RRSIG NSEC
 museum.			172800	IN	NS	ns.icann.org.
 museum.			172800	IN	NS	nic.museum.
@@ -2151,10 +2151,6 @@ ms1.dyntld.net.		172800	IN	A	208.78.70.84
 ms2.dyntld.net.		172800	IN	A	204.13.250.84
 ms3.dyntld.net.		172800	IN	A	208.78.71.84
 ms4.dyntld.net.		172800	IN	A	204.13.251.84
-mu1.dyntld.net.		172800	IN	A	208.78.70.79
-mu2.dyntld.net.		172800	IN	A	204.13.250.79
-mu3.dyntld.net.		172800	IN	A	208.78.71.79
-mu4.dyntld.net.		172800	IN	A	204.13.251.79
 na1.dyntld.net.		172800	IN	A	208.78.70.90
 na2.dyntld.net.		172800	IN	A	204.13.250.90
 nf1.dyntld.net.		172800	IN	A	208.78.70.88
@@ -2335,8 +2331,6 @@ mg.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::94
 mg.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.94
 mm.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::96
 mm.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.96
-mu.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::98
-mu.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.98
 mw.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::99
 mw.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.99
 nc.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::100
