@@ -1111,7 +1111,6 @@ gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-us.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	gr-aix.ics.forth.gr.
-gr.			172800	IN	NS	grdns-at.ics.forth.gr.
 gr.			172800	IN	NS	grdns-br.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
@@ -1123,7 +1122,6 @@ gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 gr-us.ics.forth.gr.	172800	IN	A	199.4.28.219
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
-grdns-at.ics.forth.gr.	172800	IN	A	193.171.255.40
 grdns-br.ics.forth.gr.	172800	IN	A	200.160.7.163
 gs.			86400	IN	NSEC	gt. NS RRSIG NSEC
 gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
