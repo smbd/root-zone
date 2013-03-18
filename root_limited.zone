@@ -617,6 +617,7 @@ ns2.blacknightsolutions.com. 172800 IN	AAAA	2001:1bc0:ab:3::2
 ns2.blacknightsolutions.com. 172800 IN	A	82.96.97.64
 uucp-gw-1.pa.dec.com.	172800	IN	A	204.123.2.18
 uucp-gw-2.pa.dec.com.	172800	IN	A	204.123.2.19
+dns3.dotukr.com.	172800	IN	A	195.64.155.254
 austin.gh.com.		172800	IN	A	196.3.64.1
 mantse.gh.com.		172800	IN	A	193.194.185.2
 ns1.iafrica.com.	172800	IN	A	196.7.0.139
@@ -663,6 +664,7 @@ dns3.tld.tutby.com.	172800	IN	A	195.137.160.10
 dns4.tld.tutby.com.	172800	IN	A	85.17.148.67
 dns5.tld.tutby.com.	172800	IN	A	82.208.35.204
 dns6.tld.tutby.com.	172800	IN	A	198.7.60.60
+dns1.u-registry.com.	172800	IN	A	91.231.86.6
 coop.			86400	IN	NSEC	cr. NS RRSIG NSEC
 coop.			172800	IN	NS	coop1.dyntld.net.
 coop.			172800	IN	NS	coop2.dyntld.net.
@@ -2437,6 +2439,8 @@ ns.twnic.net.		172800	IN	AAAA	2001:288:1:1006::11
 ns.twnic.net.		172800	IN	A	192.83.166.11
 ins2.tosa.twtelecom.net. 172800	IN	A	204.95.160.4
 ns1.tosa.twtelecom.net.	172800	IN	A	204.95.160.2
+dns2.u-registry.net.	172800	IN	A	188.40.51.250
+nsi.uanic.net.		172800	IN	A	212.1.66.247
 tld1.ultradns.net.	172800	IN	AAAA	2001:502:d399::1
 tld1.ultradns.net.	172800	IN	A	204.74.112.1
 tld2.ultradns.net.	172800	IN	A	204.74.113.1
@@ -3341,6 +3345,7 @@ az.hostmaster.ua.	172800	IN	AAAA	2001:67c:258::13
 az.hostmaster.ua.	172800	IN	A	195.47.253.13
 ge.hostmaster.ua.	172800	IN	AAAA	2001:67c:258::18
 ge.hostmaster.ua.	172800	IN	A	195.47.253.18
+tier1.num.net.ua.	172800	IN	A	193.110.163.134
 cd1.ns.ua.		172800	IN	AAAA	2001:678:4::9
 cd1.ns.ua.		172800	IN	A	194.0.1.9
 he1.ns.ua.		172800	IN	AAAA	2001:470:2e:1::27
@@ -3625,10 +3630,16 @@ xn--hgbk6aj7f53bba.	86400	IN	NSEC	xn--hlcj6aya9esc7a. NS DS RRSIG NSEC
 xn--hgbk6aj7f53bba.	172800	IN	NS	a.iana-servers.net.
 xn--hgbk6aj7f53bba.	172800	IN	NS	b.iana-servers.net.
 xn--hgbk6aj7f53bba.	172800	IN	NS	c.iana-servers.net.
-xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j6w193g. NS DS RRSIG NSEC
+xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j1amh. NS DS RRSIG NSEC
 xn--hlcj6aya9esc7a.	172800	IN	NS	a.iana-servers.net.
 xn--hlcj6aya9esc7a.	172800	IN	NS	b.iana-servers.net.
 xn--hlcj6aya9esc7a.	172800	IN	NS	c.iana-servers.net.
+xn--j1amh.		86400	IN	NSEC	xn--j6w193g. NS RRSIG NSEC
+xn--j1amh.		172800	IN	NS	nsi.uanic.net.
+xn--j1amh.		172800	IN	NS	dns1.u-registry.com.
+xn--j1amh.		172800	IN	NS	dns2.u-registry.net.
+xn--j1amh.		172800	IN	NS	dns3.dotukr.com.
+xn--j1amh.		172800	IN	NS	tier1.num.net.ua.
 xn--j6w193g.		86400	IN	NSEC	xn--jxalpdlp. NS RRSIG NSEC
 xn--j6w193g.		172800	IN	NS	a.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	b.hkirc.net.hk.
