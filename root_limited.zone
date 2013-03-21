@@ -3290,7 +3290,7 @@ pch.nic.tt.		172800	IN	AAAA	2001:500:14:6063:ad::1
 pch.nic.tt.		172800	IN	A	204.61.216.63
 ripe.nic.tt.		172800	IN	AAAA	2001:67c:e0::50
 ripe.nic.tt.		172800	IN	A	193.0.9.50
-tv.			86400	IN	NSEC	tw. NS RRSIG NSEC
+tv.			86400	IN	NSEC	tw. NS DS RRSIG NSEC
 tv.			172800	IN	NS	a5.nstld.com.
 tv.			172800	IN	NS	c5.nstld.com.
 tv.			172800	IN	NS	d5.nstld.com.
