@@ -999,8 +999,8 @@ d.nic.fr.		172800	IN	AAAA	2001:678:c::1
 d.nic.fr.		172800	IN	A	194.0.9.1
 d.ext.nic.fr.		172800	IN	AAAA	2001:500:2e::2
 d.ext.nic.fr.		172800	IN	A	192.5.4.2
-e.ext.nic.fr.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:6
-e.ext.nic.fr.		172800	IN	A	193.176.144.6
+e.ext.nic.fr.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:22
+e.ext.nic.fr.		172800	IN	A	193.176.144.22
 f.ext.nic.fr.		172800	IN	AAAA	2001:67c:1010:11::53
 f.ext.nic.fr.		172800	IN	A	194.146.106.46
 g.ext.nic.fr.		172800	IN	AAAA	2001:678:4c::1
@@ -1422,7 +1422,6 @@ it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	c.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
-it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 it.			86400	IN	NSEC	je. NS RRSIG NSEC
@@ -1437,7 +1436,6 @@ m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 m.dns.it.		172800	IN	A	217.29.76.4
 r.dns.it.		172800	IN	AAAA	2001:760:ffff:ffff::ca
 r.dns.it.		172800	IN	A	193.206.141.46
-s.dns.it.		172800	IN	A	194.146.106.30
 osiris.namex.it.	172800	IN	AAAA	2001:7f8:10:f00a::6
 osiris.namex.it.	172800	IN	A	193.201.40.6
 seth.namex.it.		172800	IN	AAAA	2001:7f8:10:f00a::7
