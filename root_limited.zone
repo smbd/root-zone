@@ -720,10 +720,8 @@ cw.			172800	IN	NS	ns01-server.curinfo.an.
 cx.			86400	IN	NSEC	cy. NS RRSIG NSEC
 cx.			172800	IN	NS	ns.anycast.nic.cx.
 cx.			172800	IN	NS	cx1.dyntld.net.
-cx.			172800	IN	NS	cx2.dyntld.net.
 cx.			172800	IN	NS	cx3.dyntld.net.
-cx.			172800	IN	NS	cx4.dyntld.net.
-cx.			172800	IN	NS	nsa.cx.coccaregistry.net.
+ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad::1
 ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 cy.			86400	IN	NSEC	cz. NS RRSIG NSEC
 cy.			172800	IN	NS	ns1.ucy.ac.cy.
@@ -1809,12 +1807,24 @@ mk.			172800	IN	NS	kitka.marnet.net.mk.
 kitka.marnet.net.mk.	172800	IN	AAAA	2a02:e48:0:3::2
 kitka.marnet.net.mk.	172800	IN	A	194.149.131.2
 ml.			86400	IN	NSEC	mm. NS RRSIG NSEC
+ml.			172800	IN	NS	a.ns.ml.
+ml.			172800	IN	NS	b.ns.ml.
+ml.			172800	IN	NS	c.ns.ml.
+ml.			172800	IN	NS	d.ns.ml.
 ml.			172800	IN	NS	karite.nic.ml.
 ml.			172800	IN	NS	kapioka.nic.ml.
 ml.			172800	IN	NS	cailcedra.nic.ml.
 cailcedra.nic.ml.	172800	IN	A	85.10.201.202
 kapioka.nic.ml.		172800	IN	A	71.6.218.254
 karite.nic.ml.		172800	IN	A	80.90.43.30
+a.ns.ml.		172800	IN	AAAA	2a04:1b00::1
+a.ns.ml.		172800	IN	A	185.21.168.1
+b.ns.ml.		172800	IN	AAAA	2a04:1b00:1::1
+b.ns.ml.		172800	IN	A	185.21.169.1
+c.ns.ml.		172800	IN	AAAA	2a04:1b00:2::1
+c.ns.ml.		172800	IN	A	185.21.170.1
+d.ns.ml.		172800	IN	AAAA	2a04:1b00:3::1
+d.ns.ml.		172800	IN	A	185.21.171.1
 mm.			86400	IN	NSEC	mn. NS DS RRSIG NSEC
 mm.			172800	IN	NS	mm.cctld.authdns.ripe.net.
 mm.			172800	IN	NS	ns0.nic.net.mm.
@@ -2092,7 +2102,6 @@ ns.cernet.net.		172800	IN	A	202.112.0.44
 a.ci-servers.net.	172800	IN	A	87.117.194.160
 ns1.cobex.net.		172800	IN	A	216.152.192.71
 ns2.cobex.net.		172800	IN	A	216.152.192.72
-nsa.cx.coccaregistry.net. 172800 IN	A	203.119.84.245
 lk.communitydns.net.	172800	IN	A	194.0.1.27
 ns1.communitydns.net.	172800	IN	AAAA	2001:678:4::1
 ns1.communitydns.net.	172800	IN	A	194.0.1.1
@@ -2126,10 +2135,10 @@ coop1.dyntld.net.	172800	IN	A	208.78.70.80
 coop2.dyntld.net.	172800	IN	A	204.13.250.80
 coop3.dyntld.net.	172800	IN	A	208.78.71.80
 coop4.dyntld.net.	172800	IN	A	204.13.251.80
+cx1.dyntld.net.		172800	IN	AAAA	2001:500:90::77
 cx1.dyntld.net.		172800	IN	A	208.78.70.77
-cx2.dyntld.net.		172800	IN	A	204.13.250.77
+cx3.dyntld.net.		172800	IN	AAAA	2001:500:94::77
 cx3.dyntld.net.		172800	IN	A	208.78.71.77
-cx4.dyntld.net.		172800	IN	A	204.13.251.77
 gl1.dyntld.net.		172800	IN	A	208.78.70.97
 gl2.dyntld.net.		172800	IN	A	204.13.250.97
 gl3.dyntld.net.		172800	IN	A	208.78.71.97
@@ -2152,10 +2161,10 @@ ms3.dyntld.net.		172800	IN	A	208.78.71.84
 ms4.dyntld.net.		172800	IN	A	204.13.251.84
 na1.dyntld.net.		172800	IN	A	208.78.70.90
 na2.dyntld.net.		172800	IN	A	204.13.250.90
+nf1.dyntld.net.		172800	IN	AAAA	2001:500:90::88
 nf1.dyntld.net.		172800	IN	A	208.78.70.88
-nf2.dyntld.net.		172800	IN	A	204.13.250.88
+nf3.dyntld.net.		172800	IN	AAAA	2001:500:94::88
 nf3.dyntld.net.		172800	IN	A	208.78.71.88
-nf4.dyntld.net.		172800	IN	A	204.13.251.88
 sb1.dyntld.net.		172800	IN	A	208.78.70.83
 sb2.dyntld.net.		172800	IN	A	204.13.250.83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
@@ -2258,8 +2267,6 @@ anyns.pch.net.		172800	IN	A	204.61.216.4
 cat.pch.net.		172800	IN	AAAA	2001:500:14:6020:ad::1
 cat.pch.net.		172800	IN	A	204.61.216.20
 nic.lk-anycast.pch.net.	172800	IN	A	204.61.216.27
-nf-ns.pch.net.		172800	IN	AAAA	2001:500:14:6051:ad::1
-nf-ns.pch.net.		172800	IN	A	204.61.216.51
 ad.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::53
 ad.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.53
 ae.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::54
@@ -2452,13 +2459,11 @@ auth210.ns.uu.net.	172800	IN	A	195.129.12.74
 auth51.ns.uu.net.	172800	IN	A	198.6.1.162
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
 nf.			86400	IN	NSEC	ng. NS RRSIG NSEC
+nf.			172800	IN	NS	ns.anycast.nic.nf.
 nf.			172800	IN	NS	nf1.dyntld.net.
-nf.			172800	IN	NS	nf2.dyntld.net.
 nf.			172800	IN	NS	nf3.dyntld.net.
-nf.			172800	IN	NS	nf4.dyntld.net.
-nf.			172800	IN	NS	nsa.nic.nf.
-nf.			172800	IN	NS	nf-ns.pch.net.
-nsa.nic.nf.		172800	IN	A	203.119.84.239
+ns.anycast.nic.nf.	172800	IN	AAAA	2001:500:14:6051:ad::1
+ns.anycast.nic.nf.	172800	IN	A	204.61.216.51
 ng.			86400	IN	NSEC	ni. NS RRSIG NSEC
 ng.			172800	IN	NS	ns1.nic.net.ng.
 ng.			172800	IN	NS	ns2.nic.net.ng.
