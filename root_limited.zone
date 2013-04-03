@@ -485,12 +485,24 @@ cd.			172800	IN	NS	sabela.saix.net.
 ns1.pch.nic.cd.		172800	IN	AAAA	2001:500:14:6066:ad::1
 ns1.pch.nic.cd.		172800	IN	A	204.61.216.66
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
+cf.			172800	IN	NS	a.ns.cf.
+cf.			172800	IN	NS	b.ns.cf.
+cf.			172800	IN	NS	c.ns.cf.
+cf.			172800	IN	NS	d.ns.cf.
 cf.			172800	IN	NS	root1.nic.cf.
 cf.			172800	IN	NS	root2.nic.cf.
 cf.			172800	IN	NS	root3.nic.cf.
 root1.nic.cf.		172800	IN	A	71.6.218.254
 root2.nic.cf.		172800	IN	A	85.10.201.202
 root3.nic.cf.		172800	IN	A	80.90.43.30
+a.ns.cf.		172800	IN	AAAA	2a04:1b00:4::1
+a.ns.cf.		172800	IN	A	185.21.168.17
+b.ns.cf.		172800	IN	AAAA	2a04:1b00:5::1
+b.ns.cf.		172800	IN	A	185.21.169.17
+c.ns.cf.		172800	IN	AAAA	2a04:1b00:6::1
+c.ns.cf.		172800	IN	A	185.21.170.17
+d.ns.cf.		172800	IN	AAAA	2a04:1b00:7::1
+d.ns.cf.		172800	IN	A	185.21.171.17
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
 cg.			172800	IN	NS	dns.dnsafrica.net.
 cg.			172800	IN	NS	dns.princeton.edu.
@@ -1811,12 +1823,6 @@ ml.			172800	IN	NS	a.ns.ml.
 ml.			172800	IN	NS	b.ns.ml.
 ml.			172800	IN	NS	c.ns.ml.
 ml.			172800	IN	NS	d.ns.ml.
-ml.			172800	IN	NS	karite.nic.ml.
-ml.			172800	IN	NS	kapioka.nic.ml.
-ml.			172800	IN	NS	cailcedra.nic.ml.
-cailcedra.nic.ml.	172800	IN	A	85.10.201.202
-kapioka.nic.ml.		172800	IN	A	71.6.218.254
-karite.nic.ml.		172800	IN	A	80.90.43.30
 a.ns.ml.		172800	IN	AAAA	2a04:1b00::1
 a.ns.ml.		172800	IN	A	185.21.168.1
 b.ns.ml.		172800	IN	AAAA	2a04:1b00:1::1
@@ -2169,10 +2175,10 @@ sb1.dyntld.net.		172800	IN	A	208.78.70.83
 sb2.dyntld.net.		172800	IN	A	204.13.250.83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
 sb4.dyntld.net.		172800	IN	A	204.13.251.83
+tl1.dyntld.net.		172800	IN	AAAA	2001:500:90::78
 tl1.dyntld.net.		172800	IN	A	208.78.70.78
-tl2.dyntld.net.		172800	IN	A	204.13.250.78
+tl3.dyntld.net.		172800	IN	AAAA	2001:500:94::78
 tl3.dyntld.net.		172800	IN	A	208.78.71.78
-tl4.dyntld.net.		172800	IN	A	204.13.251.78
 a.edu-servers.net.	172800	IN	A	192.5.6.30
 c.edu-servers.net.	172800	IN	A	192.26.92.30
 d.edu-servers.net.	172800	IN	A	192.31.80.30
@@ -3205,13 +3211,10 @@ d.ns.tk.		172800	IN	AAAA	2001:678:5c::1
 d.ns.tk.		172800	IN	A	194.0.41.1
 tl.			86400	IN	NSEC	tm. NS RRSIG NSEC
 tl.			172800	IN	NS	ns.anycast.nic.tl.
-tl.			172800	IN	NS	soa.nic.tl.
 tl.			172800	IN	NS	tl1.dyntld.net.
-tl.			172800	IN	NS	tl2.dyntld.net.
 tl.			172800	IN	NS	tl3.dyntld.net.
-tl.			172800	IN	NS	tl4.dyntld.net.
+ns.anycast.nic.tl.	172800	IN	AAAA	2001:500:14:6019:ad::1
 ns.anycast.nic.tl.	172800	IN	A	204.61.216.19
-soa.nic.tl.		172800	IN	A	203.119.12.247
 tm.			86400	IN	NSEC	tn. NS DS RRSIG NSEC
 tm.			172800	IN	NS	a.nic.tm.
 tm.			172800	IN	NS	a.ns13.net.
