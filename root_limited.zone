@@ -1044,9 +1044,12 @@ gb.			172800	IN	NS	ns0.ja.net.
 gb.			172800	IN	NS	ns4.ja.net.
 gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
-gd.			172800	IN	NS	ns1.root-servers.gd.
-ns1.root-servers.gd.	172800	IN	AAAA	2001:678:e:103::53
-ns1.root-servers.gd.	172800	IN	A	194.0.11.103
+gd.			172800	IN	NS	asia.zone.gd.
+gd.			172800	IN	NS	europe.zone.gd.
+gd.			172800	IN	NS	grenada.zone.gd.
+asia.zone.gd.		172800	IN	A	31.169.81.226
+europe.zone.gd.		172800	IN	A	77.79.104.226
+grenada.zone.gd.	172800	IN	A	63.245.66.83
 ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
 ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
@@ -3130,13 +3133,10 @@ sz.			172800	IN	NS	rip.psg.com.
 dns.sispa.org.sz.	172800	IN	A	212.85.220.11
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
 tc.			172800	IN	NS	tc.cctld.authdns.ripe.net.
-tc.			172800	IN	NS	ns1.root-servers.tc.
 tc.			172800	IN	NS	asia.zone.tc.
 tc.			172800	IN	NS	asia.zone.vg.
 tc.			172800	IN	NS	europe.zone.tc.
 tc.			172800	IN	NS	europe.zone.vg.
-ns1.root-servers.tc.	172800	IN	AAAA	2001:678:e:101::53
-ns1.root-servers.tc.	172800	IN	A	194.0.11.101
 asia.zone.tc.		172800	IN	A	31.169.81.225
 europe.zone.tc.		172800	IN	A	77.79.104.225
 td.			86400	IN	NSEC	tel. NS RRSIG NSEC
