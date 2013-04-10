@@ -1,6 +1,5 @@
 
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
-.			172800	IN	DNSKEY	256 3 8 AwEAAaYCmqKPwuX/gckHK0xh0oPMzbLAR9BhlOOfvxG537GKKs0subof zyzNjsXZLefCeagHfjT6HKzkV6Pzs31LtgJRFDn9lsZeOXtFIP4t2SpQ kxl1Sw8L0VhNFLb6BwKhD1yz7wKh96wpErLHilwDSL9ScwlfTvRwCAsc wh5vQtcd
 .			172800	IN	DNSKEY	256 3 8 AwEAAc5byZvwmHUlCQt7WSeAr3OZ2ao4x0Yj/3UcbtFzQ0T67N7CpYmN qFmfvXxksS1/E+mtT0axFVDjiJjtklUsyqIm9ZlWGZKU3GZqI9Sfp1Bj Qkhi+yLa4m4y4z2N28rxWXsWHCY740PREnmUtgXRdthwABYaB2WPum3y RGxNCP1/
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
 .			518400	IN	NS	a.root-servers.net.
@@ -30,14 +29,10 @@ ad.			86400	IN	NSEC	ae. NS RRSIG NSEC
 ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ad.cctld.authdns.ripe.net.
 ad.			172800	IN	NS	ns3.nic.fr.
-ad.			172800	IN	NS	dns2.ad.
-ad.			172800	IN	NS	dns3.ad.
 ad.			172800	IN	NS	dns4.ad.
 ad.			172800	IN	NS	dinis.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
 dinis.ad.		172800	IN	A	194.158.64.7
-dns2.ad.		172800	IN	A	194.158.64.8
-dns3.ad.		172800	IN	A	194.158.64.9
 dns4.ad.		172800	IN	A	194.158.64.10
 ae.			172800	IN	NS	ae.cctld.authdns.ripe.net.
 ae.			172800	IN	NS	ns1.aedns.ae.
@@ -489,12 +484,6 @@ cf.			172800	IN	NS	a.ns.cf.
 cf.			172800	IN	NS	b.ns.cf.
 cf.			172800	IN	NS	c.ns.cf.
 cf.			172800	IN	NS	d.ns.cf.
-cf.			172800	IN	NS	root1.nic.cf.
-cf.			172800	IN	NS	root2.nic.cf.
-cf.			172800	IN	NS	root3.nic.cf.
-root1.nic.cf.		172800	IN	A	71.6.218.254
-root2.nic.cf.		172800	IN	A	85.10.201.202
-root3.nic.cf.		172800	IN	A	80.90.43.30
 a.ns.cf.		172800	IN	AAAA	2a04:1b00:4::1
 a.ns.cf.		172800	IN	A	185.21.168.17
 b.ns.cf.		172800	IN	AAAA	2a04:1b00:5::1
@@ -733,6 +722,7 @@ cx.			86400	IN	NSEC	cy. NS RRSIG NSEC
 cx.			172800	IN	NS	ns.anycast.nic.cx.
 cx.			172800	IN	NS	cx1.dyntld.net.
 cx.			172800	IN	NS	cx3.dyntld.net.
+cx.			172800	IN	NS	sns-pb.isc.org.
 ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad::1
 ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 cy.			86400	IN	NSEC	cz. NS RRSIG NSEC
@@ -1143,12 +1133,9 @@ gs.			86400	IN	NSEC	gt. NS RRSIG NSEC
 gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
 gs.			172800	IN	NS	ns.anycast.nic.gs.
 gs.			172800	IN	NS	gs1.dyntld.net.
-gs.			172800	IN	NS	gs2.dyntld.net.
 gs.			172800	IN	NS	gs3.dyntld.net.
-gs.			172800	IN	NS	gs4.dyntld.net.
-gs.			172800	IN	NS	nsa.nic.gs.
+ns.anycast.nic.gs.	172800	IN	AAAA	2001:500:14:6021:ad::1
 ns.anycast.nic.gs.	172800	IN	A	204.61.216.21
-nsa.nic.gs.		172800	IN	A	203.119.84.244
 gt.			86400	IN	NSEC	gu. NS RRSIG NSEC
 gt.			172800	IN	NS	ns.dns.br.
 gt.			172800	IN	NS	ns.uvg.edu.gt.
@@ -1768,13 +1755,14 @@ ns1.nic.mc.		172800	IN	A	195.78.19.216
 ns2.nic.mc.		172800	IN	A	85.31.217.131
 md.			86400	IN	NSEC	me. NS RRSIG NSEC
 md.			172800	IN	NS	md.cctld.authdns.ripe.net.
-md.			172800	IN	NS	nsa.cctldmd.net.
+md.			172800	IN	NS	nsb.dns.md.
+md.			172800	IN	NS	nsc.dns.md.
 md.			172800	IN	NS	dns-md.rotld.ro.
 md.			172800	IN	NS	ns-ext.isc.org.
 md.			172800	IN	NS	ns-int.dns.md.
-md.			172800	IN	NS	central.dns.md.
-central.dns.md.		172800	IN	A	217.26.144.15
 ns-int.dns.md.		172800	IN	A	217.26.144.5
+nsb.dns.md.		172800	IN	A	217.26.144.15
+nsc.dns.md.		172800	IN	A	95.65.9.3
 me.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
 me.			172800	IN	NS	a0.cctld.afilias-nst.info.
 me.			172800	IN	NS	a2.me.afilias-nst.info.
@@ -2102,7 +2090,6 @@ dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
 ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
 ns2.barbadosdomain.net.	172800	IN	A	204.212.242.113
-nsa.cctldmd.net.	172800	IN	A	217.26.144.5
 ns17.cdns.net.		172800	IN	AAAA	2001:678:4::11
 ns17.cdns.net.		172800	IN	A	194.0.1.17
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
@@ -2152,10 +2139,10 @@ gl1.dyntld.net.		172800	IN	A	208.78.70.97
 gl2.dyntld.net.		172800	IN	A	204.13.250.97
 gl3.dyntld.net.		172800	IN	A	208.78.71.97
 gl4.dyntld.net.		172800	IN	A	204.13.251.97
+gs1.dyntld.net.		172800	IN	AAAA	2001:500:90::86
 gs1.dyntld.net.		172800	IN	A	208.78.70.86
-gs2.dyntld.net.		172800	IN	A	204.13.250.86
+gs3.dyntld.net.		172800	IN	AAAA	2001:500:94::86
 gs3.dyntld.net.		172800	IN	A	208.78.71.86
-gs4.dyntld.net.		172800	IN	A	204.13.251.86
 ki1.dyntld.net.		172800	IN	A	208.78.70.87
 ki2.dyntld.net.		172800	IN	A	204.13.250.87
 ki3.dyntld.net.		172800	IN	A	208.78.71.87
