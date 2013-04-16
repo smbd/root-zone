@@ -30,10 +30,16 @@ ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ad.cctld.authdns.ripe.net.
 ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	dns4.ad.
+ad.			172800	IN	NS	dnsc.ad.
+ad.			172800	IN	NS	dnsm.ad.
 ad.			172800	IN	NS	dinis.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
 dinis.ad.		172800	IN	A	194.158.64.7
 dns4.ad.		172800	IN	A	194.158.64.10
+dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa::b
+dnsc.ad.		172800	IN	A	194.158.74.10
+dnsm.ad.		172800	IN	AAAA	2a02:8060:32fa::a
+dnsm.ad.		172800	IN	A	194.158.74.9
 ae.			172800	IN	NS	ae.cctld.authdns.ripe.net.
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
@@ -718,7 +724,7 @@ cw.			172800	IN	NS	engine2.una.an.
 cw.			172800	IN	NS	engine3.una.an.
 cw.			172800	IN	NS	kadushi.curinfo.an.
 cw.			172800	IN	NS	ns01-server.curinfo.an.
-cx.			86400	IN	NSEC	cy. NS RRSIG NSEC
+cx.			86400	IN	NSEC	cy. NS DS RRSIG NSEC
 cx.			172800	IN	NS	ns.anycast.nic.cx.
 cx.			172800	IN	NS	cx1.dyntld.net.
 cx.			172800	IN	NS	cx3.dyntld.net.
@@ -979,8 +985,8 @@ fo.			172800	IN	NS	pch.nic.fo.
 fo.			172800	IN	NS	arnhem.nic.fo.
 fo.			172800	IN	NS	frankfurt.nic.fo.
 fo.			172800	IN	NS	copenhagen.nic.fo.
-arnhem.nic.fo.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:6
-arnhem.nic.fo.		172800	IN	A	193.176.144.6
+arnhem.nic.fo.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:24
+arnhem.nic.fo.		172800	IN	A	193.176.144.24
 copenhagen.nic.fo.	172800	IN	AAAA	2a01:630:0:40::12
 copenhagen.nic.fo.	172800	IN	A	193.163.102.12
 frankfurt.nic.fo.	172800	IN	A	81.91.161.88
@@ -2458,6 +2464,7 @@ nf.			86400	IN	NSEC	ng. NS RRSIG NSEC
 nf.			172800	IN	NS	ns.anycast.nic.nf.
 nf.			172800	IN	NS	nf1.dyntld.net.
 nf.			172800	IN	NS	nf3.dyntld.net.
+nf.			172800	IN	NS	sns-pb.isc.org.
 ns.anycast.nic.nf.	172800	IN	AAAA	2001:500:14:6051:ad::1
 ns.anycast.nic.nf.	172800	IN	A	204.61.216.51
 ng.			86400	IN	NSEC	ni. NS RRSIG NSEC
@@ -3708,7 +3715,7 @@ xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	dns2.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns20.iij.ad.jp.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
-xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS RRSIG NSEC
+xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS DS RRSIG NSEC
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
 xn--o3cw4h.		172800	IN	NS	ns-a.thnic.co.th.
