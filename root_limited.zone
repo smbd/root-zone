@@ -1120,6 +1120,7 @@ dns.intnet.gq.		172800	IN	A	193.251.153.67
 gr.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gr.			172800	IN	NS	gr-m.ics.forth.gr.
 gr.			172800	IN	NS	estia.ics.forth.gr.
+gr.			172800	IN	NS	gr-at.ics.forth.gr.
 gr.			172800	IN	NS	gr-us.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	gr-aix.ics.forth.gr.
@@ -1129,6 +1130,7 @@ estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
 gr-aix.ics.forth.gr.	172800	IN	AAAA	2001:648:2100::130
 gr-aix.ics.forth.gr.	172800	IN	A	83.212.8.130
+gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
 gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7::4:10
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
@@ -2460,7 +2462,7 @@ auth210.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e001::35:2
 auth210.ns.uu.net.	172800	IN	A	195.129.12.74
 auth51.ns.uu.net.	172800	IN	A	198.6.1.162
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
-nf.			86400	IN	NSEC	ng. NS RRSIG NSEC
+nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
 nf.			172800	IN	NS	ns.anycast.nic.nf.
 nf.			172800	IN	NS	nf1.dyntld.net.
 nf.			172800	IN	NS	nf3.dyntld.net.
