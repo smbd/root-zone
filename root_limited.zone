@@ -2106,6 +2106,7 @@ ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns.cernet.net.		172800	IN	A	202.112.0.44
 a.ci-servers.net.	172800	IN	A	87.117.194.160
+root-b.cloud9global.net. 172800	IN	A	50.22.82.251
 ns1.cobex.net.		172800	IN	A	216.152.192.71
 ns2.cobex.net.		172800	IN	A	216.152.192.72
 lk.communitydns.net.	172800	IN	A	194.0.1.27
@@ -2720,10 +2721,13 @@ ph.			172800	IN	NS	sec4.apnic.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
 ns1.domains.ph.		172800	IN	A	203.119.6.78
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
-pk.			172800	IN	NS	m-2.pknic.net.pk.
 pk.			172800	IN	NS	auth51.ns.uu.net.
+pk.			172800	IN	NS	root-b.cloud9global.net.
+pk.			172800	IN	NS	root-p.pknic.pk.
+pk.			172800	IN	NS	root-s.pknic.pk.
 pk.			172800	IN	NS	auth101.ns.uu.net.
-m-2.pknic.net.pk.	172800	IN	A	203.128.7.123
+root-p.pknic.pk.	172800	IN	A	203.128.7.123
+root-s.pknic.pk.	172800	IN	A	119.81.34.90
 pl.			86400	IN	NSEC	pm. NS DS RRSIG NSEC
 pl.			172800	IN	NS	a-dns.pl.
 pl.			172800	IN	NS	c-dns.pl.
