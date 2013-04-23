@@ -769,7 +769,6 @@ de.			172800	IN	NS	z.nic.de.
 de.			86400	IN	NSEC	dj. NS DS RRSIG NSEC
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
 dns7.denic.de.		172800	IN	A	81.91.161.68
-dns8.denic.de.		172800	IN	A	81.91.161.69
 grdns-de.denic.de.	172800	IN	A	81.91.161.80
 pr-dns.denic.de.	172800	IN	A	81.91.161.82
 ns5.knipp.de.		172800	IN	AAAA	2a01:5b0:0:29::3e
@@ -1284,17 +1283,20 @@ il.			172800	IN	NS	nsa.ns.il.
 il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nsd.ns.il.
 il.			172800	IN	NS	nse.ns.il.
-il.			172800	IN	NS	dns8.denic.de.
+il.			172800	IN	NS	nsg.ns.il.
 il.			172800	IN	NS	ildns.huji.ac.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			172800	IN	NS	sns-pb.isc.org.
 ildns.huji.ac.il.	172800	IN	A	128.139.6.66
+lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6::808b:22f0
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 nsa.ns.il.		172800	IN	A	192.115.210.58
 nsb.ns.il.		172800	IN	A	192.115.210.60
 nsd.ns.il.		172800	IN	AAAA	2001:4f8:3:37::11
 nsd.ns.il.		172800	IN	A	149.20.56.132
 nse.ns.il.		172800	IN	A	192.115.141.253
+nsg.ns.il.		172800	IN	AAAA	2a02:568:ffff:8::53
+nsg.ns.il.		172800	IN	A	81.91.161.212
 im.			86400	IN	NSEC	in. NS RRSIG NSEC
 im.			172800	IN	NS	ns4.ja.net.
 im.			172800	IN	NS	hoppy.iom.com.
@@ -3487,6 +3489,7 @@ vn.			172800	IN	NS	f.dns-servers.vn.
 vn.			172800	IN	NS	vn.cctld.authdns.ripe.net.
 a.dns-servers.vn.	172800	IN	AAAA	2001:678:4::12
 a.dns-servers.vn.	172800	IN	A	194.0.1.18
+b.dns-servers.vn.	172800	IN	AAAA	2001:dc8:0:7::105
 b.dns-servers.vn.	172800	IN	A	203.119.10.105
 c.dns-servers.vn.	172800	IN	A	203.119.38.105
 d.dns-servers.vn.	172800	IN	A	203.119.44.105
