@@ -269,8 +269,6 @@ be.			172800	IN	NS	x.dns.be.
 be.			172800	IN	NS	london.ns.dns.be.
 be.			172800	IN	NS	prague.ns.dns.be.
 be.			172800	IN	NS	brussels.ns.dns.be.
-be.			172800	IN	NS	amsterdam.ns.dns.be.
-amsterdam.ns.dns.be.	172800	IN	A	91.200.16.101
 brussels.ns.dns.be.	172800	IN	AAAA	2001:6a8:3c60::be
 brussels.ns.dns.be.	172800	IN	A	193.190.135.4
 london.ns.dns.be.	172800	IN	A	195.66.241.90
