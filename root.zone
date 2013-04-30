@@ -1,9 +1,9 @@
 
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013050100 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013050101 1800 900 604800 86400
 .			86400	IN	RRSIG	NSEC 8 0 86400 20130508000000 20130430230000 20580 . NCIKO+G9Z+YcXSLNoIAvBw5eJHXG+1Nty3pmNbuCZjRVJA/djOSiARff 0iGMqsrmnBoXHetEHdzd3k2cF2FD6Mr+JcStfLqem/BV0fg9f8SMliDi mIZ2/JFMntkvXu5uC73wAAjSG5UZNS5wqeaf3S6m51C1WaqsMUkFWq+D hWk=
 .			172800	IN	RRSIG	DNSKEY 8 0 172800 20130515235959 20130501000000 19036 . dqe6uoARQcR0dfW5bqISOvg04dJdhv7Q3HYRUpH+iM/83UBz657aLyml e+S8TDbx+WmTAo5S/Nt3YIOBVkxjIkaj3q/ldRvZJVZeGf3GGhWeV2ng nxrGex+cHI7eUhliAydv9DgCidDvqGmnRRHuZTN4TjAWqW+XhU1SDXs3 IKXwF/OI4h2DdRGBJkanVs1FJZTQ5QVi0o47/j8FEjJ8rjoMgk3R+GMe 6csv3OkGxOnNzpzxA2hjyh2oYNNhPei0i9aJetWD+c4p+4fFXDCnaFvR MMmhZEeEcFdYRyufdzazafPxsmlo56RmahLXRLwkePN/og6H0A0FKeij V/OiGw==
 .			518400	IN	RRSIG	NS 8 0 518400 20130508000000 20130430230000 20580 . F8Az7MCxHeIoXf/wYMJG7djZjNLQW4+ZZhbJ/pB1dU1bTNvnXbj3aKzr WIMaAEArhkYEFhTTBlod6efPPxsBh+9RilnOfMWe6WVoRHBuuo32tFWo 1sbiqlylK3WUK8B7UpOI2hXuzAFDTQnIyDF9GqdG0aKdBw6wifGTENJu X0Y=
-.			86400	IN	RRSIG	SOA 8 0 86400 20130508000000 20130430230000 20580 . BjjGAswxcSEWlBX/ZPFNy8BcU+/xLP9VR1qo3DSmLz4fvfR0oiZxqo2T sWerv91yb71XNjlXIK2jdZogp5h6GZ8OdVeqgO2cGMhuonGfL6t89vKq 3vxBX6xZfm5yc4eqYjqlqMz+33LIsui3Q139bT62lCImXl8m2IdNmz/f 1Qc=
+.			86400	IN	RRSIG	SOA 8 0 86400 20130508000000 20130430230000 20580 . zDJlZx4fcNCLlOa/M4o6PvrPLRp16fPaWZmpSEekpy1UuSA10y6lS/wW q8MrwYxCFgp0g+K4cgLwJxn19ze/LFTxrXDx6w8XKOigIjrXC9hm1Wje fOzwPEMvfhUkPOzlFb7QZ2Peg5I296kEbbE5ZeNsytPrQR3E4BG4hbP2 QxQ=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAc5byZvwmHUlCQt7WSeAr3OZ2ao4x0Yj/3UcbtFzQ0T67N7CpYmN qFmfvXxksS1/E+mtT0axFVDjiJjtklUsyqIm9ZlWGZKU3GZqI9Sfp1Bj Qkhi+yLa4m4y4z2N28rxWXsWHCY740PREnmUtgXRdthwABYaB2WPum3y RGxNCP1/
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
@@ -1196,13 +1196,8 @@ gb.			172800	IN	NS	ns0.ja.net.
 gb.			172800	IN	NS	ns4.ja.net.
 gd.			86400	IN	RRSIG	NSEC 8 1 86400 20130508000000 20130430230000 20580 . KKSMyjZQHcK1V+IcCG/QBpVeC4vqQ8XHMAcesuU20oRq/ES5AwEf0htu T9iG4LipABk8aW7zclmP2fYcuxT1uepzDe04RLQaVIacdqdNWo2lKqes EeHPQNZMg1jSMvwN8z8VWLFyG9PPjINfGGeEgcuOpXl9vHDZxzyJ+vd9 sf0=
 gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
-gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
-gd.			172800	IN	NS	asia.zone.gd.
-gd.			172800	IN	NS	europe.zone.gd.
-gd.			172800	IN	NS	grenada.zone.gd.
-asia.zone.gd.		172800	IN	A	31.169.81.226
-europe.zone.gd.		172800	IN	A	77.79.104.226
-grenada.zone.gd.	172800	IN	A	63.245.66.83
+gd.			172800	IN	NS	gd-ns.anycast.pch.net.
+gd.			172800	IN	NS	gd-ns.ksregistry.net.
 ge.			86400	IN	RRSIG	NSEC 8 1 86400 20130508000000 20130430230000 20580 . ZsSZZgUzzdrqnYcWCeRNlZD/fOLbB4T38yb8wosPQBRXrj2T+Ct1jiOi /ajPE0C2z5UKwh9uND0kAZ14ixxtlYhciOgECjbwN2bDxzFPVfHcqni8 bW2XMijZqX5PIN1qwwdQWg5jd3XUL/tD9ucceL1Cm05V3imnPMAxNRsV VT8=
 ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
 ge.			172800	IN	NS	ge.hostmaster.ua.
@@ -2490,10 +2485,10 @@ nf1.dyntld.net.		172800	IN	AAAA	2001:500:90::88
 nf1.dyntld.net.		172800	IN	A	208.78.70.88
 nf3.dyntld.net.		172800	IN	AAAA	2001:500:94::88
 nf3.dyntld.net.		172800	IN	A	208.78.71.88
+sb1.dyntld.net.		172800	IN	AAAA	2001:500:90::83
 sb1.dyntld.net.		172800	IN	A	208.78.70.83
-sb2.dyntld.net.		172800	IN	A	204.13.250.83
+sb3.dyntld.net.		172800	IN	AAAA	2001:500:94::83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
-sb4.dyntld.net.		172800	IN	A	204.13.251.83
 tl1.dyntld.net.		172800	IN	AAAA	2001:500:90::78
 tl1.dyntld.net.		172800	IN	A	208.78.70.78
 tl3.dyntld.net.		172800	IN	AAAA	2001:500:94::78
@@ -2552,6 +2547,8 @@ ns4.ja.net.		172800	IN	AAAA	2001:630:0:47::42
 ns4.ja.net.		172800	IN	A	193.62.157.66
 kwns.kems.net.		172800	IN	A	168.187.5.12
 ns1.krnic.net.		172800	IN	A	202.30.50.51
+gd-ns.ksregistry.net.	172800	IN	AAAA	2001:678:e:103::53
+gd-ns.ksregistry.net.	172800	IN	A	194.0.11.103
 dns.lttnet.net.		172800	IN	A	62.240.36.9
 dns1.lttnet.net.	172800	IN	A	62.68.42.9
 ns1-fr.mediaserv.net.	172800	IN	A	188.165.38.14
@@ -2564,6 +2561,8 @@ cl-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6030:ad::1
 cl-ns.anycast.pch.net.	172800	IN	A	204.61.216.30
 cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad::1
 cy-ns.anycast.pch.net.	172800	IN	A	204.61.216.44
+gd-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6047:ad::1
+gd-ns.anycast.pch.net.	172800	IN	A	204.61.216.47
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad::1
 gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
 ht-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6038:ad::1
@@ -2582,8 +2581,6 @@ ps-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6029:ad::1
 ps-ns.anycast.pch.net.	172800	IN	A	204.61.216.29
 sa-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6041:ad::1
 sa-ns.anycast.pch.net.	172800	IN	A	204.61.216.41
-sb-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6031:ad::1
-sb-ns.anycast.pch.net.	172800	IN	A	204.61.216.31
 sg-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6057:ad::1
 sg-ns.anycast.pch.net.	172800	IN	A	204.61.216.57
 za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad::1
@@ -2628,8 +2625,6 @@ er.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::72
 er.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.72
 et.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::73
 et.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.73
-gd.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::75
-gd.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.75
 gp.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::76
 gp.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.76
 gs.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::77
@@ -3319,13 +3314,11 @@ ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10::9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
 sb.			86400	IN	RRSIG	NSEC 8 1 86400 20130508000000 20130430230000 20580 . R0tn9swLXjbSYCpv+JmIgEDA+iOY/LLddExDSbj2QFIgrsflRu4gffWe oFfGdHnmmj+W/mzPKuZn6zrHFA57sAhNqs2DM14wJxup64dWagBmj5RE V0cR19z6VJUDaoVMMb1n2/PoA8lvB0fBga4w5VLOUs8/t8M+UCMA4sMD 8YI=
 sb.			86400	IN	NSEC	sc. NS RRSIG NSEC
-sb.			172800	IN	NS	nsa.nic.sb.
+sb.			172800	IN	NS	pch.nic.sb.
 sb.			172800	IN	NS	sb1.dyntld.net.
-sb.			172800	IN	NS	sb2.dyntld.net.
 sb.			172800	IN	NS	sb3.dyntld.net.
-sb.			172800	IN	NS	sb4.dyntld.net.
-sb.			172800	IN	NS	sb-ns.anycast.pch.net.
-nsa.nic.sb.		172800	IN	A	203.119.84.243
+pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
+pch.nic.sb.		172800	IN	A	204.61.216.31
 sc.			86400	IN	RRSIG	NSEC 8 1 86400 20130508000000 20130430230000 20580 . AdwMgXLTKy8jO9d8saPbBx0IIRyi9Nf0pi6ql4X5QZpdLr7TM+aCQq/L sIofB8F4E1Qy43SmN2RAwHLMuE1ibLxEOS55uVIqbGABeGXtpOzacFLA qs7/flXhISctaiA2ZMHJtPbiKtiaw9oNuvI8pnyyWjsECO7TYs+5fjkY GCw=
 sc.			86400	IN	RRSIG	DS 8 1 86400 20130508000000 20130430230000 20580 . AGDSIfahtl9mlCs01HtQAtYe2JZQeR5edKxkFNJl861M3cweDuGpT56N g8QQr/4Fqt2wq9yOr11a1nKMg1EzFaborFYaHLzNI/HTFyW5Wndubsaq 9duBBJUYfSZ8qncA6cZ1Zkj9n47T5qA+wMoONboMbrWOtuVi8T3LVaBK 2wA=
 sc.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
@@ -4431,5 +4424,5 @@ zw.			172800	IN	NS	ns-zw.ripe.net.
 zw.			172800	IN	NS	news-tokyo.gip.net.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013050100 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013050101 1800 900 604800 86400
 
