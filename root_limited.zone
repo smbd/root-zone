@@ -198,7 +198,6 @@ r.ns.at.		172800	IN	A	194.0.25.10
 u.ns.at.		172800	IN	A	195.66.241.82
 au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	b.au.
-au.			172800	IN	NS	h.au.
 au.			172800	IN	NS	l.au.
 au.			172800	IN	NS	m.au.
 au.			172800	IN	NS	n.au.
@@ -212,7 +211,6 @@ au.			86400	IN	NSEC	aw. NS RRSIG NSEC
 a.au.			172800	IN	A	58.65.254.73
 b.au.			172800	IN	A	58.65.253.73
 yarrina.connect.com.au.	172800	IN	A	192.189.54.17
-h.au.			172800	IN	A	202.65.13.73
 l.au.			172800	IN	AAAA	2001:500:856e::6:34
 l.au.			172800	IN	A	209.112.113.34
 m.au.			172800	IN	A	209.112.114.34
@@ -1120,13 +1118,10 @@ gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-at.ics.forth.gr.
 gr.			172800	IN	NS	gr-us.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
-gr.			172800	IN	NS	gr-aix.ics.forth.gr.
 gr.			172800	IN	NS	grdns-br.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
-gr-aix.ics.forth.gr.	172800	IN	AAAA	2001:648:2100::130
-gr-aix.ics.forth.gr.	172800	IN	A	83.212.8.130
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
 gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7::4:10
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
@@ -1724,7 +1719,6 @@ lv.			172800	IN	NS	a.nic.lv.
 lv.			172800	IN	NS	b.nic.lv.
 lv.			172800	IN	NS	c.nic.lv.
 lv.			172800	IN	NS	d.nic.lv.
-lv.			172800	IN	NS	lt.nic.lv.
 lv.			172800	IN	NS	lv.cctld.authdns.ripe.net.
 lv.			172800	IN	NS	sunic.sunet.se.
 a.nic.lv.		172800	IN	AAAA	2a02:500:4400:700::4
@@ -1734,7 +1728,6 @@ c.nic.lv.		172800	IN	AAAA	2001:678:4::18
 c.nic.lv.		172800	IN	A	194.0.1.24
 d.nic.lv.		172800	IN	AAAA	2001:678:b:1::1
 d.nic.lv.		172800	IN	A	194.0.8.1
-lt.nic.lv.		172800	IN	A	83.171.8.137
 ly.			86400	IN	NSEC	ma. NS RRSIG NSEC
 ly.			172800	IN	NS	ly.cctld.authdns.ripe.net.
 ly.			172800	IN	NS	dns.lttnet.net.
@@ -2455,13 +2448,11 @@ auth00.ns.uu.net.	172800	IN	A	198.6.1.65
 auth02.ns.uu.net.	172800	IN	A	198.6.1.82
 auth03.ns.uu.net.	172800	IN	A	198.6.1.83
 auth100.ns.uu.net.	172800	IN	A	198.6.1.202
-auth101.ns.uu.net.	172800	IN	A	198.6.1.210
 auth110.ns.uu.net.	172800	IN	A	198.6.1.114
 auth200.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e000::35:2
 auth200.ns.uu.net.	172800	IN	A	195.129.12.82
 auth210.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e001::35:2
 auth210.ns.uu.net.	172800	IN	A	195.129.12.74
-auth51.ns.uu.net.	172800	IN	A	198.6.1.162
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
 nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
 nf.			172800	IN	NS	ns.anycast.nic.nf.
@@ -2719,11 +2710,9 @@ ph.			172800	IN	NS	sec4.apnic.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
 ns1.domains.ph.		172800	IN	A	203.119.6.78
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
-pk.			172800	IN	NS	auth51.ns.uu.net.
 pk.			172800	IN	NS	root-b.cloud9global.net.
 pk.			172800	IN	NS	root-p.pknic.pk.
 pk.			172800	IN	NS	root-s.pknic.pk.
-pk.			172800	IN	NS	auth101.ns.uu.net.
 root-p.pknic.pk.	172800	IN	A	203.128.7.123
 root-s.pknic.pk.	172800	IN	A	119.81.34.90
 pl.			86400	IN	NSEC	pm. NS DS RRSIG NSEC
