@@ -2358,8 +2358,6 @@ sy.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::113
 sy.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.113
 sz.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::114
 sz.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.114
-tc.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::115
-tc.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.115
 th.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::116
 th.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.116
 tj.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::117
@@ -3114,13 +3112,14 @@ sz.			172800	IN	NS	dns.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
 dns.sispa.org.sz.	172800	IN	A	212.85.220.11
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
-tc.			172800	IN	NS	tc.cctld.authdns.ripe.net.
 tc.			172800	IN	NS	asia.zone.tc.
 tc.			172800	IN	NS	asia.zone.vg.
 tc.			172800	IN	NS	europe.zone.tc.
 tc.			172800	IN	NS	europe.zone.vg.
+tc.			172800	IN	NS	northamerica.zone.tc.
 asia.zone.tc.		172800	IN	A	31.169.81.225
 europe.zone.tc.		172800	IN	A	77.79.104.225
+northamerica.zone.tc.	172800	IN	A	166.78.254.145
 td.			86400	IN	NSEC	tel. NS RRSIG NSEC
 td.			172800	IN	NS	ns1.nic.td.
 td.			172800	IN	NS	ns-td.nic.fr.
