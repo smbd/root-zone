@@ -1034,6 +1034,7 @@ gb.			172800	IN	NS	ns.uu.net.
 gb.			172800	IN	NS	ns0.ja.net.
 gb.			172800	IN	NS	ns4.ja.net.
 gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
+gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 gd.			172800	IN	NS	gd-ns.ksregistry.net.
 ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
@@ -2298,6 +2299,8 @@ er.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::72
 er.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.72
 et.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::73
 et.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.73
+gd.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::75
+gd.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.75
 gp.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::76
 gp.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.76
 gs.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::77
