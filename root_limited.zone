@@ -3716,6 +3716,7 @@ xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
+xn--ogbpf8fl.		172800	IN	NS	ns-sy.afrinic.net.
 xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS DS RRSIG NSEC
 xn--p1ai.		172800	IN	NS	a.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
