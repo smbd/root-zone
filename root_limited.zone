@@ -3314,6 +3314,7 @@ tz.			172800	IN	NS	d.ext.nic.cz.
 tz.			172800	IN	NS	ns.anycast.co.tz.
 tz.			172800	IN	NS	ns2.tznic.or.tz.
 tz.			172800	IN	NS	rip.psg.com.
+tz.			172800	IN	NS	fork.sth.dnsnode.net.
 tz.			172800	IN	NS	ns-tz.afrinic.net.
 tz.			172800	IN	NS	sns-pb.isc.org.
 ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad::1
