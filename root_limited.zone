@@ -1088,7 +1088,7 @@ gm.			172800	IN	NS	ns1.asap-asp.net.
 gm.			172800	IN	NS	ns2.nic.gm.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
 ns2.nic.gm.		172800	IN	A	197.255.194.102
-gn.			86400	IN	NSEC	gov. NS RRSIG NSEC
+gn.			86400	IN	NSEC	gov. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
@@ -3024,7 +3024,6 @@ sj.			172800	IN	NS	server.nordu.net.
 sk.			86400	IN	NSEC	sl. NS RRSIG NSEC
 sk.			172800	IN	NS	a.tld.sk.
 sk.			172800	IN	NS	c.tld.sk.
-sk.			172800	IN	NS	ns.uu.net.
 sk.			172800	IN	NS	ns.eunet.sk.
 sk.			172800	IN	NS	ns.sk-nic.sk.
 sk.			172800	IN	NS	ns1.sk-nic.sk.
@@ -3034,6 +3033,7 @@ ns.eunet.sk.		172800	IN	A	217.75.73.242
 ns.sk-nic.sk.		172800	IN	A	195.12.159.2
 ns1.sk-nic.sk.		172800	IN	A	195.12.159.3
 ns3.sk-nic.sk.		172800	IN	A	217.75.67.234
+a.tld.sk.		172800	IN	AAAA	2001:678:70::1
 a.tld.sk.		172800	IN	A	194.0.45.1
 c.tld.sk.		172800	IN	AAAA	2a02:770:100:100::101
 c.tld.sk.		172800	IN	A	217.75.72.157
@@ -3605,7 +3605,7 @@ xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--h2brj9c.		86400	IN	NSEC	xn--hgbk6aj7f53bba. NS RRSIG NSEC
+xn--h2brj9c.		86400	IN	NSEC	xn--hgbk6aj7f53bba. NS DS RRSIG NSEC
 xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
