@@ -153,7 +153,7 @@ arpa.			172800	IN	NS	k.root-servers.net.
 arpa.			172800	IN	NS	l.root-servers.net.
 arpa.			172800	IN	NS	m.root-servers.net.
 as.			86400	IN	NSEC	asia. NS RRSIG NSEC
-as.			172800	IN	NS	dca.tld.gdns.net.
+as.			172800	IN	NS	tld.gdns.net.
 as.			172800	IN	NS	tld1.ultradns.net.
 as.			172800	IN	NS	tld2.ultradns.net.
 as.			172800	IN	NS	tld3.ultradns.org.
@@ -813,9 +813,13 @@ do.			172800	IN	NS	ns3.nic.mx.
 do.			172800	IN	NS	do-dns.nic.pr.
 do.			172800	IN	NS	phloem.uoregon.edu.
 do.			172800	IN	NS	sns-pb.isc.org.
+ns.nic.do.		172800	IN	AAAA	2001:13e0:85d0:101::228
 ns.nic.do.		172800	IN	A	200.16.91.228
+ns1.nic.do.		172800	IN	AAAA	2001:13e0:85d0:101::226
 ns1.nic.do.		172800	IN	A	200.16.91.226
+ns2.nic.do.		172800	IN	AAAA	2001:13e0:5d0:101::162
 ns2.nic.do.		172800	IN	A	200.16.90.162
+ns3.nic.do.		172800	IN	AAAA	2001:4f8:3:3d:2e0:81ff:fe46:41f2
 ns3.nic.do.		172800	IN	A	149.20.61.87
 dz.			172800	IN	NS	dz.cctld.authdns.ripe.net.
 dz.			172800	IN	NS	ns1.nic.dz.
@@ -1211,7 +1215,6 @@ cocca.rds.org.hn.	172800	IN	A	203.119.84.237
 pch-anycast.rds.org.hn.	172800	IN	AAAA	2001:500:14:6064:ad::1
 pch-anycast.rds.org.hn.	172800	IN	A	204.61.216.64
 hr.			86400	IN	NSEC	ht. NS RRSIG NSEC
-hr.			172800	IN	NS	ns.uu.net.
 hr.			172800	IN	NS	ns5.univie.ac.at.
 hr.			172800	IN	NS	n3ns.nic.es.
 hr.			172800	IN	NS	sns-pb.isc.org.
@@ -2178,7 +2181,7 @@ g.edu-servers.net.	172800	IN	A	192.42.93.30
 l.edu-servers.net.	172800	IN	A	192.41.162.30
 ns3.ns.esat.net.	172800	IN	AAAA	2001:7c8:2:a::64
 ns3.ns.esat.net.	172800	IN	A	192.111.39.100
-dca.tld.gdns.net.	172800	IN	A	198.65.143.254
+tld.gdns.net.		172800	IN	A	68.178.129.149
 news-tokyo.gip.net.	172800	IN	A	204.59.64.222
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gov-servers.net.	172800	IN	AAAA	2001:500:4431::2:30
