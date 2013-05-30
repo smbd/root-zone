@@ -3227,7 +3227,7 @@ ns.ati.tn.		172800	IN	A	193.95.66.10
 ns2.ati.tn.		172800	IN	A	193.95.67.22
 ns8.ati.tn.		172800	IN	AAAA	2001:4350:1:1::6
 ns8.ati.tn.		172800	IN	A	193.95.66.6
-ns9.ati.tn.		172800	IN	AAAA	2001:4350:2048::26
+ns9.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::26
 ns9.ati.tn.		172800	IN	A	193.95.67.26
 to.			86400	IN	NSEC	tp. NS RRSIG NSEC
 to.			172800	IN	NS	to.cctld.authdns.ripe.net.
