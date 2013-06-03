@@ -3224,6 +3224,7 @@ tn.			172800	IN	NS	ns-tn.afrinic.net.
 tn.			86400	IN	NSEC	to. NS RRSIG NSEC
 ns.ati.tn.		172800	IN	AAAA	2001:4350:1:1::10
 ns.ati.tn.		172800	IN	A	193.95.66.10
+ns2.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::22
 ns2.ati.tn.		172800	IN	A	193.95.67.22
 ns8.ati.tn.		172800	IN	AAAA	2001:4350:1:1::6
 ns8.ati.tn.		172800	IN	A	193.95.66.6
