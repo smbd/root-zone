@@ -2063,8 +2063,6 @@ ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120::45
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
 ns-rw.afrinic.net.	172800	IN	AAAA	2001:43f8:120::28
 ns-rw.afrinic.net.	172800	IN	A	196.216.168.28
-ns-sy.afrinic.net.	172800	IN	AAAA	2001:43f8:120::76
-ns-sy.afrinic.net.	172800	IN	A	196.216.168.76
 ns-td.afrinic.net.	172800	IN	AAAA	2001:43f8:120::31
 ns-td.afrinic.net.	172800	IN	A	196.216.168.31
 ns-tn.afrinic.net.	172800	IN	AAAA	2001:43f8:120::25
@@ -3112,7 +3110,6 @@ sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
 sy.			172800	IN	NS	ns2.tld.sy.
 sy.			172800	IN	NS	pch.anycast.tld.sy.
-sy.			172800	IN	NS	ns-sy.afrinic.net.
 pch.anycast.tld.sy.	172800	IN	AAAA	2001:500:14:6071:ad::1
 pch.anycast.tld.sy.	172800	IN	A	204.61.216.71
 ns1.tld.sy.		172800	IN	A	82.137.200.85
@@ -3725,7 +3722,6 @@ xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
-xn--ogbpf8fl.		172800	IN	NS	ns-sy.afrinic.net.
 xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS DS RRSIG NSEC
 xn--p1ai.		172800	IN	NS	a.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
