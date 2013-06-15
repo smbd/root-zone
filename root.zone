@@ -1,9 +1,9 @@
 
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013061600 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013061601 1800 900 604800 86400
 .			86400	IN	RRSIG	NSEC 8 0 86400 20130623000000 20130615230000 20580 . hSeGUfHF+sOlbEwOZXqMSLN1AF8wQt+UbNcEkuTyr4IS4yzb4CHOO1q+ 42UT+/40+iWV3260nLbuBaQrMXoaM3Asf63LgnWsnf/uDqWSgrHKUoy6 PZts7P1CRh3poSWI1r3FZT66wtIXo0G1d7DL0n9EKNqC8AywHWM8oC53 Tjo=
 .			172800	IN	RRSIG	DNSKEY 8 0 172800 20130624235959 20130610000000 19036 . p+ABj7gR34s5FkfZsLol1bdCnoSs+5qdCfAzVtsEgLMtoCIX6z1Mbt9d QvnNXwVLcNXiyLGj53CLsHS3D41VgIbWpIyUcm3hHnDUTFjeqqyStOrQ u747UV++Xw4JfOXjhFoxfAmrLDrED6Oo05ULJFRlgY2VxhsMjt8LxET9 /loPOJyg/T8kIZ6/8bthqwoSGaByGIx0vqgVFgiJhbsR4BNaJm/9T0bA ueEJB4r+d25FX3GXrkBmKL4OdU46sTRMpKhC+UJpB5yg+hFjZ/qGzIyT bumf4S+2oOXuot+nkCE+SB9r7HRSiSoQ0CaSFpHcpe4my+k2q31rDT+0 z29+MA==
 .			518400	IN	RRSIG	NS 8 0 518400 20130623000000 20130615230000 20580 . aTkyb+Nn0IT5ubEn+BPCuznIeSaerRD9OFEVtER0G8fUmkSx/L3jsJJu yuSl9vTzcadkgTTA+oCa/KMHch7LLfD3qZtr5QW8c4Bav7P3A+4QKIK+ EoCFqLepokSJ3NxS6pybF8as8Kiynmm7UGfXrnC8g4MfTVVu8UHlFZyG yOc=
-.			86400	IN	RRSIG	SOA 8 0 86400 20130623000000 20130615230000 20580 . xRg9DUb1kA1X6gqGsfYAQOh1zER4gxIRUWkwC/Ow6aa4cUUjVQri44X7 baC7DjvG1m3XEYidf9/n9i/92zfFXPGtnONwbtkpjleaJeDpH5NDu93a oyhj7SbL/nBCQ+pOS+AYC+ax28Xa9oQUm5vcxwyymjRuBv3fFClF0J6q xqM=
+.			86400	IN	RRSIG	SOA 8 0 86400 20130623000000 20130615230000 20580 . YoeYdvEk8UZGWl/KHcStCmkOlia7+xqZqXVbrw9+j/cysZJAq8sgdDmI c2yU12uXolxpdEGkjvLPeTWRSpZWGFVTwEF1pEDDZ9Zj0hTqm5eFGpEO J+HsXyLIIrdhzcEgx5t7Oh/ovHOGEXLmdik6DbOXVQhRYdpRgyj7ajUm NWw=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAc5byZvwmHUlCQt7WSeAr3OZ2ao4x0Yj/3UcbtFzQ0T67N7CpYmN qFmfvXxksS1/E+mtT0axFVDjiJjtklUsyqIm9ZlWGZKU3GZqI9Sfp1Bj Qkhi+yLa4m4y4z2N28rxWXsWHCY740PREnmUtgXRdthwABYaB2WPum3y RGxNCP1/
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
@@ -127,7 +127,6 @@ an.			86400	IN	RRSIG	NSEC 8 1 86400 20130623000000 20130615230000 20580 . Zytxwx
 an.			86400	IN	NSEC	ao. NS RRSIG NSEC
 an.			172800	IN	NS	an.cctld.authdns.ripe.net.
 an.			172800	IN	NS	ns0.ja.net.
-an.			172800	IN	NS	ns3.cura.net.
 an.			172800	IN	NS	engine0.una.an.
 an.			172800	IN	NS	engine2.una.an.
 an.			172800	IN	NS	engine3.una.an.
@@ -543,7 +542,7 @@ cat.			172800	IN	NS	ns.nic.cat.
 cat.			172800	IN	NS	cat.pch.net.
 cat.			172800	IN	NS	ns1.nic.es.
 cat.			172800	IN	NS	nsc.nic.de.
-cat.			172800	IN	NS	dns4.ad.
+cat.			172800	IN	NS	dnsc.ad.
 cat.			172800	IN	NS	anyc1.irondns.net.
 cat.			172800	IN	NS	sns-pb.isc.org.
 cat.			172800	IN	NS	switch.nic.cat.
@@ -830,7 +829,6 @@ cw.			86400	IN	RRSIG	NSEC 8 1 86400 20130623000000 20130615230000 20580 . qAi1DI
 cw.			86400	IN	NSEC	cx. NS RRSIG NSEC
 cw.			172800	IN	NS	cw.cctld.authdns.ripe.net.
 cw.			172800	IN	NS	ns0.ja.net.
-cw.			172800	IN	NS	ns3.cura.net.
 cw.			172800	IN	NS	engine0.una.an.
 cw.			172800	IN	NS	engine2.una.an.
 cw.			172800	IN	NS	engine3.una.an.
@@ -1189,10 +1187,6 @@ ga.			172800	IN	NS	a.ns.ga.
 ga.			172800	IN	NS	b.ns.ga.
 ga.			172800	IN	NS	c.ns.ga.
 ga.			172800	IN	NS	d.ns.ga.
-ga.			172800	IN	NS	ozigo.aninf.ga.
-ga.			172800	IN	NS	okoume.aninf.ga.
-okoume.aninf.ga.	172800	IN	A	71.6.218.252
-ozigo.aninf.ga.		172800	IN	A	78.46.37.112
 a.ns.ga.		172800	IN	AAAA	2a04:1b00:c::1
 a.ns.ga.		172800	IN	A	185.21.168.49
 b.ns.ga.		172800	IN	AAAA	2a04:1b00:d::1
@@ -1270,8 +1264,8 @@ a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
 gm.			86400	IN	RRSIG	NSEC 8 1 86400 20130623000000 20130615230000 20580 . bxzyrHIBOQYByrYjSKk1u4bDgq6+mZwCxmVrxOo8v/Wb31MrChZTd89R s9cctb976QKoaihF++mWy/JsOjO+s6nlop09O4xbAhBrn8MYh7+mffPR NtDV/y0VCeISaqfRJXxg13SraHTate0dh1eSUcGnXOqiXFwa5Z09IbU/ +aU=
 gm.			86400	IN	NSEC	gn. NS RRSIG NSEC
 gm.			172800	IN	NS	ns1.nic.gm.
-gm.			172800	IN	NS	ns1.asap-asp.net.
 gm.			172800	IN	NS	ns2.nic.gm.
+gm.			172800	IN	NS	ns-gm.afrinic.net.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
 ns2.nic.gm.		172800	IN	A	197.255.194.102
 gn.			86400	IN	RRSIG	NSEC 8 1 86400 20130623000000 20130615230000 20580 . quv24iMagDrXHaJcJ9Lt6v57WuGUdzd6YE4S1GWosv282jD+EF9dwIP3 zReGFenv6BH80Yz4qOMaQZVKG5NG8+jMzOKOxJoUkDUKRHw0U3kxdLk0 Rl21rTYx6VOivCuBwx3FTCUXozwqUKa8QlN5627/igUEcK8J2GiNpeRD zbQ=
@@ -2392,6 +2386,8 @@ ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
+ns-gm.afrinic.net.	172800	IN	AAAA	2001:43f8:120::29
+ns-gm.afrinic.net.	172800	IN	A	196.216.168.29
 ns-ke.afrinic.net.	172800	IN	A	196.216.168.22
 ns-km.afrinic.net.	172800	IN	AAAA	2001:43f8:120::46
 ns-km.afrinic.net.	172800	IN	A	196.216.168.46
@@ -2425,7 +2421,6 @@ sec4.apnic.net.		172800	IN	AAAA	2001:dc0:4001:1:0:1836:0:141
 sec4.apnic.net.		172800	IN	A	202.12.31.141
 ns1.as6453.net.		172800	IN	A	66.198.145.55
 ns2.as6453.net.		172800	IN	A	66.198.145.99
-ns1.asap-asp.net.	172800	IN	A	195.225.3.100
 dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
 ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
@@ -2445,7 +2440,6 @@ ns1.communitydns.net.	172800	IN	A	194.0.1.1
 ns15.communitydns.net.	172800	IN	AAAA	2001:678:4::f
 ns15.communitydns.net.	172800	IN	A	194.0.1.15
 ph.communitydns.net.	172800	IN	A	194.0.1.23
-ns3.cura.net.		172800	IN	A	200.26.226.6
 euro-ns1.cw.net.	172800	IN	A	141.1.27.248
 euro-ns2.cw.net.	172800	IN	A	212.80.175.2
 euro-ns3.cw.net.	172800	IN	A	141.1.27.251
@@ -4443,5 +4437,5 @@ zw.			172800	IN	NS	ns-zw.ripe.net.
 zw.			172800	IN	NS	news-tokyo.gip.net.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013061600 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013061601 1800 900 604800 86400
 

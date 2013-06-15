@@ -104,7 +104,6 @@ am.			172800	IN	NS	sns-pb.isc.org.
 an.			86400	IN	NSEC	ao. NS RRSIG NSEC
 an.			172800	IN	NS	an.cctld.authdns.ripe.net.
 an.			172800	IN	NS	ns0.ja.net.
-an.			172800	IN	NS	ns3.cura.net.
 an.			172800	IN	NS	engine0.una.an.
 an.			172800	IN	NS	engine2.una.an.
 an.			172800	IN	NS	engine3.una.an.
@@ -458,7 +457,7 @@ cat.			172800	IN	NS	ns.nic.cat.
 cat.			172800	IN	NS	cat.pch.net.
 cat.			172800	IN	NS	ns1.nic.es.
 cat.			172800	IN	NS	nsc.nic.de.
-cat.			172800	IN	NS	dns4.ad.
+cat.			172800	IN	NS	dnsc.ad.
 cat.			172800	IN	NS	anyc1.irondns.net.
 cat.			172800	IN	NS	sns-pb.isc.org.
 cat.			172800	IN	NS	switch.nic.cat.
@@ -714,7 +713,6 @@ ns.dns.cv.		172800	IN	A	41.221.192.220
 cw.			86400	IN	NSEC	cx. NS RRSIG NSEC
 cw.			172800	IN	NS	cw.cctld.authdns.ripe.net.
 cw.			172800	IN	NS	ns0.ja.net.
-cw.			172800	IN	NS	ns3.cura.net.
 cw.			172800	IN	NS	engine0.una.an.
 cw.			172800	IN	NS	engine2.una.an.
 cw.			172800	IN	NS	engine3.una.an.
@@ -1029,10 +1027,6 @@ ga.			172800	IN	NS	a.ns.ga.
 ga.			172800	IN	NS	b.ns.ga.
 ga.			172800	IN	NS	c.ns.ga.
 ga.			172800	IN	NS	d.ns.ga.
-ga.			172800	IN	NS	ozigo.aninf.ga.
-ga.			172800	IN	NS	okoume.aninf.ga.
-okoume.aninf.ga.	172800	IN	A	71.6.218.252
-ozigo.aninf.ga.		172800	IN	A	78.46.37.112
 a.ns.ga.		172800	IN	AAAA	2a04:1b00:c::1
 a.ns.ga.		172800	IN	A	185.21.168.49
 b.ns.ga.		172800	IN	AAAA	2a04:1b00:d::1
@@ -1096,8 +1090,8 @@ d.nic.gl.		172800	IN	A	204.61.216.49
 a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
 gm.			86400	IN	NSEC	gn. NS RRSIG NSEC
 gm.			172800	IN	NS	ns1.nic.gm.
-gm.			172800	IN	NS	ns1.asap-asp.net.
 gm.			172800	IN	NS	ns2.nic.gm.
+gm.			172800	IN	NS	ns-gm.afrinic.net.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
 ns2.nic.gm.		172800	IN	A	197.255.194.102
 gn.			86400	IN	NSEC	gov. NS DS RRSIG NSEC
@@ -2063,6 +2057,8 @@ ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
+ns-gm.afrinic.net.	172800	IN	AAAA	2001:43f8:120::29
+ns-gm.afrinic.net.	172800	IN	A	196.216.168.29
 ns-ke.afrinic.net.	172800	IN	A	196.216.168.22
 ns-km.afrinic.net.	172800	IN	AAAA	2001:43f8:120::46
 ns-km.afrinic.net.	172800	IN	A	196.216.168.46
@@ -2096,7 +2092,6 @@ sec4.apnic.net.		172800	IN	AAAA	2001:dc0:4001:1:0:1836:0:141
 sec4.apnic.net.		172800	IN	A	202.12.31.141
 ns1.as6453.net.		172800	IN	A	66.198.145.55
 ns2.as6453.net.		172800	IN	A	66.198.145.99
-ns1.asap-asp.net.	172800	IN	A	195.225.3.100
 dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
 ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
@@ -2116,7 +2111,6 @@ ns1.communitydns.net.	172800	IN	A	194.0.1.1
 ns15.communitydns.net.	172800	IN	AAAA	2001:678:4::f
 ns15.communitydns.net.	172800	IN	A	194.0.1.15
 ph.communitydns.net.	172800	IN	A	194.0.1.23
-ns3.cura.net.		172800	IN	A	200.26.226.6
 euro-ns1.cw.net.	172800	IN	A	141.1.27.248
 euro-ns2.cw.net.	172800	IN	A	212.80.175.2
 euro-ns3.cw.net.	172800	IN	A	141.1.27.251
