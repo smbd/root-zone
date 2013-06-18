@@ -636,10 +636,12 @@ c5.nstld.com.		172800	IN	A	192.26.92.34
 c6.nstld.com.		172800	IN	A	192.26.92.35
 d5.nstld.com.		172800	IN	A	192.31.80.34
 d6.nstld.com.		172800	IN	A	192.31.80.35
+f5.nstld.com.		172800	IN	AAAA	2001:503:d414::2:34
 f5.nstld.com.		172800	IN	A	192.35.51.34
 f6.nstld.com.		172800	IN	A	192.35.51.35
 g5.nstld.com.		172800	IN	A	192.42.93.34
 g6.nstld.com.		172800	IN	A	192.42.93.35
+h5.nstld.com.		172800	IN	AAAA	2001:502:8cc::2:34
 h5.nstld.com.		172800	IN	A	192.54.112.34
 h6.nstld.com.		172800	IN	A	192.54.112.35
 j6.nstld.com.		172800	IN	A	192.48.79.35
@@ -1213,10 +1215,10 @@ ns1.registry.hm.	172800	IN	A	208.70.79.25
 ns2.registry.hm.	172800	IN	A	208.70.79.24
 ns3.registry.hm.	172800	IN	A	202.169.96.24
 hn.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
-hn.			172800	IN	NS	cocca.rds.org.hn.
 hn.			172800	IN	NS	sns-pb.isc.org.
 hn.			172800	IN	NS	pch-anycast.rds.org.hn.
-cocca.rds.org.hn.	172800	IN	A	203.119.84.237
+hn.			172800	IN	NS	nicmx-anycast.rds.org.hn.
+nicmx-anycast.rds.org.hn. 172800 IN	A	200.33.111.1
 pch-anycast.rds.org.hn.	172800	IN	AAAA	2001:500:14:6064:ad::1
 pch-anycast.rds.org.hn.	172800	IN	A	204.61.216.64
 hr.			86400	IN	NSEC	ht. NS RRSIG NSEC
