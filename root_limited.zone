@@ -364,9 +364,12 @@ dns2-tl.brunet.bn.	172800	IN	A	202.160.9.10
 jtb.brunet.bn.		172800	IN	A	202.160.8.2
 ns2.brunet.bn.		172800	IN	A	202.160.8.20
 bo.			86400	IN	NSEC	br. NS RRSIG NSEC
+bo.			172800	IN	NS	ns.dns.br.
 bo.			172800	IN	NS	utama.bolnet.bo.
-bo.			172800	IN	NS	auth100.ns.uu.net.
+bo.			172800	IN	NS	anycast.ns.nic.bo.
 utama.bolnet.bo.	172800	IN	A	166.114.1.40
+anycast.ns.nic.bo.	172800	IN	AAAA	2001:500:14:6048:ad::1
+anycast.ns.nic.bo.	172800	IN	A	204.61.216.48
 br.			172800	IN	NS	a.dns.br.
 br.			172800	IN	NS	b.dns.br.
 br.			172800	IN	NS	c.dns.br.
