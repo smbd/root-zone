@@ -193,7 +193,7 @@ d.ns.at.		172800	IN	A	81.91.161.98
 j.ns.at.		172800	IN	AAAA	2001:67c:1010:12::53
 j.ns.at.		172800	IN	A	194.146.106.50
 n.ns.at.		172800	IN	A	87.233.175.130
-r.ns.at.		172800	IN	AAAA	2001:67c:1bc::10
+r.ns.at.		172800	IN	AAAA	2001:678:20::10
 r.ns.at.		172800	IN	A	194.0.25.10
 u.ns.at.		172800	IN	A	195.66.241.82
 au.			172800	IN	NS	a.au.
@@ -215,6 +215,14 @@ l.au.			172800	IN	AAAA	2001:500:856e::6:34
 l.au.			172800	IN	A	209.112.113.34
 m.au.			172800	IN	A	209.112.114.34
 n.au.			172800	IN	A	69.36.145.34
+cctld.alpha.aridns.net.au. 172800 IN	AAAA	2001:dcd:1::6
+cctld.alpha.aridns.net.au. 172800 IN	A	37.209.192.6
+cctld.beta.aridns.net.au. 172800 IN	AAAA	2001:dcd:2::6
+cctld.beta.aridns.net.au. 172800 IN	A	37.209.194.6
+cctld.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::6
+cctld.delta.aridns.net.au. 172800 IN	A	37.209.198.6
+cctld.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::6
+cctld.gamma.aridns.net.au. 172800 IN	A	37.209.196.6
 ns1.ausregistry.net.au.	172800	IN	A	202.65.12.73
 ns2.ausregistry.net.au.	172800	IN	A	202.65.13.73
 o.au.			172800	IN	A	69.36.146.34
@@ -2602,9 +2610,11 @@ ns99.dns.net.nz.	172800	IN	A	202.46.191.130
 iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
 om.			86400	IN	NSEC	org. NS RRSIG NSEC
 om.			172800	IN	NS	ns1.registry.om.
-om.			172800	IN	NS	ns1.ausregistry.net.au.
 om.			172800	IN	NS	ns2.registry.om.
-om.			172800	IN	NS	ns2.ausregistry.net.au.
+om.			172800	IN	NS	cctld.beta.aridns.net.au.
+om.			172800	IN	NS	cctld.alpha.aridns.net.au.
+om.			172800	IN	NS	cctld.delta.aridns.net.au.
+om.			172800	IN	NS	cctld.gamma.aridns.net.au.
 ns1.registry.om.	172800	IN	A	212.72.15.101
 ns2.registry.om.	172800	IN	A	188.135.6.231
 org.			172800	IN	NS	a0.org.afilias-nst.info.
