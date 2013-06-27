@@ -1,9 +1,9 @@
 
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013062800 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013062801 1800 900 604800 86400
 .			86400	IN	RRSIG	NSEC 8 0 86400 20130705000000 20130627230000 20580 . OBStNnYruODEMogTiVHI59NB0xL9cHuOP9QD3s9HeC6Is6RFJk2JL6cT k8huo1Kg7IxnEdQbPbGspah62T4ZyIRKvWLk55Eyk28wtfzatGVHzMzM KGW/XhdR4w8pQdi84EprNjg2YlYyMOa3Sv8c+NX+9QSqNnVpDr9nN0yJ WrA=
 .			172800	IN	RRSIG	DNSKEY 8 0 172800 20130705235959 20130620000000 19036 . oBuNIVpZZc8Uln7a8o8VtHlE4sELSDSj5eyIlYi0U79gXwOKnNfG1a+g FZEdX892bRwEGXgMtHm5vpzHwfC8hO/QAy7izJu2+9b7zYjuzrHj6ERu tLcLBp+/LdfbJ8ulnFXD9nIITPT4al2lk0bjjhphgA+/Whu07qDYrlwy 48oy/ibE8QqEKx1/+Z1tOvjoPlbkBsJ+Zt3qb6d8B0WJTjFdhFEURFCt MAyyQYMxYJKH9nXxbhPPA6/Iup9/3l948w+MZme8BEe/wYh6zaoMLJBc QHtvACoquVhK+t/CBQFRzQkCtqCm4nJdlI8oxj8GlhALgJFy2hUPxBPk rApHVA==
 .			518400	IN	RRSIG	NS 8 0 518400 20130705000000 20130627230000 20580 . qcP3zzWDyNkZC6gt6dPRvJlk0XpI60x4LJzffSE9l/FBJ4v9dk4ylqGA mfEJM81Hexz1B/eCCs6KojB5NPfO1cPRR+AVO2YdC2cza0ocEQA4Is7O s4Oig5Y3H3a/EH5/x+ahKYFm1SJwqcSlfWUQECA/yMVLpavuU8cbWom6 nnk=
-.			86400	IN	RRSIG	SOA 8 0 86400 20130705000000 20130627230000 20580 . HF/yko5aDzjJfxp2heF8wPc9ujcYkVkO+53QlRWnpt9rDcdJzUkFC+WO Cqo1QYmxGta5i/+wxeJ9BDgsRD7Az/btdvH3Znmyi1+ARvnBwezTCchT a2MovgCNC0xfIhYq4u7EUPX/bpdTpTlfhz1FIuByY4TjfeuS7xf0/w1F 1TQ=
+.			86400	IN	RRSIG	SOA 8 0 86400 20130705000000 20130627230000 20580 . GFxHDk/D+Z9bPe2fXKsoAS64esbHU/nybxQigQ09NCorqDVRRSyxhPyi eDltkjZT9fmCJ+uuC5YpFkWi+l7SEsTD+NFybGZMj3KQjTCZr0gHUcJl hNnryqMm6MGcADOqZa1Rv2h9VOjuYnpna7t3tVNNaVOHESNjokkseri+ r8E=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAcFTyWsmpTs49Q0FKVepUqft+7+c3elhdsfh+amh+orgWLcitLM1 bBBiWe6eymWW0EakLZAG4tej28tyx4f+j37Q9VX+m5NAhO/Y0riQonVW fzxLGymx3Ti5x/x7VKvF5Y5hf5OWv2J7pvEumYFFCtu4glit9T9J85+i 3UgqSHqf
 .			172800	IN	DNSKEY	256 3 8 AwEAAc5byZvwmHUlCQt7WSeAr3OZ2ao4x0Yj/3UcbtFzQ0T67N7CpYmN qFmfvXxksS1/E+mtT0axFVDjiJjtklUsyqIm9ZlWGZKU3GZqI9Sfp1Bj Qkhi+yLa4m4y4z2N28rxWXsWHCY740PREnmUtgXRdthwABYaB2WPum3y RGxNCP1/
@@ -263,8 +263,6 @@ cctld.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::6
 cctld.delta.aridns.net.au. 172800 IN	A	37.209.198.6
 cctld.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::6
 cctld.gamma.aridns.net.au. 172800 IN	A	37.209.196.6
-ns1.ausregistry.net.au.	172800	IN	A	202.65.12.73
-ns2.ausregistry.net.au.	172800	IN	A	202.65.13.73
 o.au.			172800	IN	A	69.36.146.34
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1::21
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181::2
@@ -4253,9 +4251,11 @@ xn--lgbbat1ad8j.	172800	IN	NS	idn2.nic.dz.
 xn--mgb9awbf.		86400	IN	RRSIG	NSEC 8 1 86400 20130705000000 20130627230000 20580 . Dj7QyOHbSF9+JUIbHaInsiOdmHT+sZifwu/cA9neuEztUw3P6oJSYUCc PyCgELkNr99fqsmmpQoitlwyxVXfjSDT0CX4+rDeoYvvz5U7yp+Umi73 Fkr4SWcm7YTquzxIizqfsBnsxYeTxUPoj6PLUs6x4gJNcwbsB5O8bhTQ Zqc=
 xn--mgb9awbf.		86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
 xn--mgb9awbf.		172800	IN	NS	ns1.registry.om.
-xn--mgb9awbf.		172800	IN	NS	ns1.ausregistry.net.au.
 xn--mgb9awbf.		172800	IN	NS	ns2.registry.om.
-xn--mgb9awbf.		172800	IN	NS	ns2.ausregistry.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.beta.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.alpha.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.delta.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
 xn--mgbaam7a8h.		86400	IN	RRSIG	NSEC 8 1 86400 20130705000000 20130627230000 20580 . GHgwFaVKEzlvql8pDQf49OrgL3jFTrsKgKYZ3pkBTXdXJdGdn3QTV/nJ HwFkmf2Cq/+6wLmszO9rTsPAvaI5rPaoK009nVcm+cP0VFamCIj9ia2K cEPDJ7PJQV1Q0leUIbo95wHMCMwEOhxRguFvWmCzbOfJ772UcksvRgK6 uYE=
 xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
@@ -4462,5 +4462,5 @@ zw.			172800	IN	NS	ns-zw.ripe.net.
 zw.			172800	IN	NS	news-tokyo.gip.net.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013062800 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013062801 1800 900 604800 86400
 

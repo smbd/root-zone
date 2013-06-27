@@ -223,8 +223,6 @@ cctld.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::6
 cctld.delta.aridns.net.au. 172800 IN	A	37.209.198.6
 cctld.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::6
 cctld.gamma.aridns.net.au. 172800 IN	A	37.209.196.6
-ns1.ausregistry.net.au.	172800	IN	A	202.65.12.73
-ns2.ausregistry.net.au.	172800	IN	A	202.65.13.73
 o.au.			172800	IN	A	69.36.146.34
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1::21
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181::2
@@ -3695,9 +3693,11 @@ xn--lgbbat1ad8j.	172800	IN	NS	idn1.nic.dz.
 xn--lgbbat1ad8j.	172800	IN	NS	idn2.nic.dz.
 xn--mgb9awbf.		86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
 xn--mgb9awbf.		172800	IN	NS	ns1.registry.om.
-xn--mgb9awbf.		172800	IN	NS	ns1.ausregistry.net.au.
 xn--mgb9awbf.		172800	IN	NS	ns2.registry.om.
-xn--mgb9awbf.		172800	IN	NS	ns2.ausregistry.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.beta.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.alpha.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.delta.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
 xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
