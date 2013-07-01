@@ -813,7 +813,7 @@ dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
 dm.			172800	IN	NS	ns2.blacknightsolutions.com.
 ns.anycast.nic.dm.	172800	IN	A	204.61.216.18
-ns2.nic.dm.		172800	IN	A	208.0.224.115
+ns2.nic.dm.		172800	IN	A	199.127.197.69
 do.			86400	IN	NSEC	dz. NS RRSIG NSEC
 do.			172800	IN	NS	ns.nic.do.
 do.			172800	IN	NS	ns1.nic.do.
