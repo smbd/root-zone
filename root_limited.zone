@@ -3125,7 +3125,7 @@ sx.			172800	IN	NS	c.ns.sx.
 a.ns.sx.		172800	IN	AAAA	2a02:2790::600d:deed
 a.ns.sx.		172800	IN	A	89.207.184.65
 b.ns.sx.		172800	IN	A	80.92.90.160
-c.ns.sx.		172800	IN	A	70.38.21.233
+c.ns.sx.		172800	IN	A	192.95.19.109
 sy.			86400	IN	NSEC	sz. NS RRSIG NSEC
 sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
