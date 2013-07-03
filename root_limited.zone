@@ -1617,11 +1617,14 @@ la.			172800	IN	NS	ns7.nic.la.
 la.			172800	IN	NS	ns8.nic.la.
 ns1.nic.la.		172800	IN	AAAA	2001:678:5::2
 ns1.nic.la.		172800	IN	A	194.0.2.2
-ns2.nic.la.		172800	IN	A	72.3.240.16
-ns3.nic.la.		172800	IN	A	62.197.40.234
-ns4.nic.la.		172800	IN	A	89.151.83.34
-ns5.nic.la.		172800	IN	AAAA	2001:ac8:2:1::20
-ns5.nic.la.		172800	IN	A	217.151.106.82
+ns2.nic.la.		172800	IN	AAAA	2001:67c:13cc::1:14
+ns2.nic.la.		172800	IN	A	194.169.218.14
+ns3.nic.la.		172800	IN	AAAA	2a04:2b00:13cc::1:14
+ns3.nic.la.		172800	IN	A	185.24.64.14
+ns4.nic.la.		172800	IN	AAAA	2001:67c:13cc::1:15
+ns4.nic.la.		172800	IN	A	194.169.218.15
+ns5.nic.la.		172800	IN	AAAA	2a04:2b00:13cc::1:15
+ns5.nic.la.		172800	IN	A	185.24.64.15
 ns6.nic.la.		172800	IN	A	89.151.83.36
 ns7.nic.la.		172800	IN	A	193.105.170.169
 ns8.nic.la.		172800	IN	A	64.131.83.34
@@ -2886,7 +2889,6 @@ re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
 re.			172800	IN	NS	f.ext.nic.fr.
 re.			172800	IN	NS	g.ext.nic.fr.
-ro.			172800	IN	NS	ns.uu.net.
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	ns-ext.isc.org.
