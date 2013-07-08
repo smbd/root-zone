@@ -1,9 +1,9 @@
 
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013070900 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013070901 1800 900 604800 86400
 .			86400	IN	RRSIG	NSEC 8 0 86400 20130716000000 20130708230000 49656 . pApOQby2C7TwY+h3GFYVXWqYvYvwg7O7iNqP7K8pO4I5dVwwpIUIO/e1 8y+WFKrjvUs0T155dbIgV2u7UOHxe+JwbYbRjdpLm6GnN8HcbCipKgaV i1MamowBVXMBXB2J8DgrlqwcfLXXgidwDTeg5cVwvfWYp0QwddmXKB7a Pbo=
 .			172800	IN	RRSIG	DNSKEY 8 0 172800 20130715235959 20130701000000 19036 . j1a+YCbYCHmjML6dWv9eZ/JzpOSBCeGVDxml1v49h+B6iJhIe4E+atT4 +NaUveFSriu8rNEWrIEkbsuCsNHlJwkJHp+q/rXQSbWxBQKmV62WpXs0 wwNRPpa8h0xgTbNAJYG7Boz9ZoYZ05wkrySGRIPLcEMoh9Kh98I9UrZN h0HesmrCE40KscMdCZvf01PnQt4Tkct4j6/VJOKrQrslsvLrrCFVmbJS 7fDpS3i4tj0hGM0dr6VuFJOyfxitpIcdxZ0GR6Hm3KnOi2BiIjZujoxi CnSweDfS/OEZCs7GEinDjntjnIAWJjzXgjMiGl6a4lePVsXoCxgOJXFa bZ28Ng==
 .			518400	IN	RRSIG	NS 8 0 518400 20130716000000 20130708230000 49656 . tNWRrkioaeZvBE7ke7rCKlRPBLbPxPWPoWXBecfdvy7lQlNIIQ64/u/L cKUzc9ekSxQKyXZSfgPJ8XNA/GUUIrJfEHV/6YHYfrzCztIpwKd0zG+S 8JlkfWosiWTDI0dlNC7AGb86U32svpEqtRYCbxK5WdYKAPRAVBouB9KX erk=
-.			86400	IN	RRSIG	SOA 8 0 86400 20130716000000 20130708230000 49656 . di9OD3P+N4gq7bh2kSP/Yyll5nKTLtTV9/8APYXjp1obF37E9juU8c6s GyEAHLqVmWgKxOxWR6ZuXo0UFVtaeWzql/R7Fuc3USP+BPEzj+kx7wqJ 1uN32bEFAPNRLTcItHTeM4jYwImn5z9swrTBmKa10eWwDEYJgi3YSN5o mm8=
+.			86400	IN	RRSIG	SOA 8 0 86400 20130716000000 20130708230000 49656 . XtyXWrj/3HhSqdmUxPvZwU4tfFdC4wYiwtZlmXdOtFTuB5Ox0cvnrxRa ZEuOzGIqkE/4hjh4GIw9ibkVT5DVwAGvaVSu+y6k3UBt0hamtozYV+rq OORxs+6X4qs+bSIFfG/WgR3R+V56OM4TAMtzXlmJjaRT2HFEWji5zsxq VLk=
 .			86400	IN	NSEC	ac. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAcFTyWsmpTs49Q0FKVepUqft+7+c3elhdsfh+amh+orgWLcitLM1 bBBiWe6eymWW0EakLZAG4tej28tyx4f+j37Q9VX+m5NAhO/Y0riQonVW fzxLGymx3Ti5x/x7VKvF5Y5hf5OWv2J7pvEumYFFCtu4glit9T9J85+i 3UgqSHqf
 .			172800	IN	DNSKEY	256 3 8 AwEAAc5byZvwmHUlCQt7WSeAr3OZ2ao4x0Yj/3UcbtFzQ0T67N7CpYmN qFmfvXxksS1/E+mtT0axFVDjiJjtklUsyqIm9ZlWGZKU3GZqI9Sfp1Bj Qkhi+yLa4m4y4z2N28rxWXsWHCY740PREnmUtgXRdthwABYaB2WPum3y RGxNCP1/
@@ -40,13 +40,9 @@ ad.			86400	IN	NSEC	ae. NS RRSIG NSEC
 ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ad.cctld.authdns.ripe.net.
 ad.			172800	IN	NS	ns3.nic.fr.
-ad.			172800	IN	NS	dns4.ad.
 ad.			172800	IN	NS	dnsc.ad.
 ad.			172800	IN	NS	dnsm.ad.
-ad.			172800	IN	NS	dinis.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
-dinis.ad.		172800	IN	A	194.158.64.7
-dns4.ad.		172800	IN	A	194.158.64.10
 dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa::b
 dnsc.ad.		172800	IN	A	194.158.74.10
 dnsm.ad.		172800	IN	AAAA	2a02:8060:32fa::a
@@ -323,13 +319,11 @@ be.			86400	IN	DS	26221 8 2 C84F8184571FF4C60521F35A9FCF355EF0253370F8487F72D66A
 be.			172800	IN	NS	m.ns.dns.be.
 be.			172800	IN	NS	x.dns.be.
 be.			172800	IN	NS	london.ns.dns.be.
-be.			172800	IN	NS	prague.ns.dns.be.
 be.			172800	IN	NS	brussels.ns.dns.be.
 brussels.ns.dns.be.	172800	IN	AAAA	2001:6a8:3c60::be
 brussels.ns.dns.be.	172800	IN	A	193.190.135.4
 london.ns.dns.be.	172800	IN	A	195.66.241.90
 m.ns.dns.be.		172800	IN	A	194.0.6.1
-prague.ns.dns.be.	172800	IN	A	195.47.235.138
 x.dns.be.		172800	IN	AAAA	2001:678:4::a
 x.dns.be.		172800	IN	A	194.0.1.10
 bf.			86400	IN	RRSIG	NSEC 8 1 86400 20130716000000 20130708230000 49656 . eR03iPeScgm/6awaNAIxhZX1eqjt3bQZHaMSuLATblx16uVRyxP1of+t xGbUsIdU3qlyoITeqESsCUe+UUqui/68+/kgM2PKYOQEhf9gQS2992hQ AgmOVzYRQLP1Y9o8cX5BiNxp7gC2d/FiI37SXTMgJxifwQUi6psv9OdW Ric=
@@ -3259,8 +3253,10 @@ b.registry.qa.		172800	IN	A	178.23.17.104
 c.registry.qa.		172800	IN	A	212.77.192.10
 d.registry.qa.		172800	IN	A	212.77.192.13
 e.registry.qa.		172800	IN	A	212.77.192.15
-f.registry.qa.		172800	IN	A	202.65.12.73
-g.registry.qa.		172800	IN	A	202.65.13.73
+f.registry.qa.		172800	IN	AAAA	2001:dcd:1::6
+f.registry.qa.		172800	IN	A	37.209.192.6
+g.registry.qa.		172800	IN	AAAA	2001:dcd:2::6
+g.registry.qa.		172800	IN	A	37.209.194.6
 h.registry.qa.		172800	IN	AAAA	2001:67c:e0::51
 h.registry.qa.		172800	IN	A	193.0.9.51
 i.registry.qa.		172800	IN	AAAA	2001:500:14:6062:ad::1
@@ -4464,5 +4460,5 @@ zw.			172800	IN	NS	ns-zw.ripe.net.
 zw.			172800	IN	NS	news-tokyo.gip.net.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013070900 1800 900 604800 86400
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013070901 1800 900 604800 86400
 
