@@ -193,23 +193,18 @@ r.ns.at.		172800	IN	A	194.0.25.10
 u.ns.at.		172800	IN	A	195.66.241.82
 au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	b.au.
-au.			172800	IN	NS	l.au.
-au.			172800	IN	NS	m.au.
-au.			172800	IN	NS	n.au.
-au.			172800	IN	NS	o.au.
-au.			172800	IN	NS	p.au.
 au.			172800	IN	NS	r.au.
 au.			172800	IN	NS	s.au.
 au.			172800	IN	NS	u.au.
 au.			172800	IN	NS	v.au.
+au.			172800	IN	NS	w.au.
+au.			172800	IN	NS	x.au.
+au.			172800	IN	NS	y.au.
+au.			172800	IN	NS	z.au.
 au.			86400	IN	NSEC	aw. NS RRSIG NSEC
 a.au.			172800	IN	A	58.65.254.73
 b.au.			172800	IN	A	58.65.253.73
 yarrina.connect.com.au.	172800	IN	A	192.189.54.17
-l.au.			172800	IN	AAAA	2001:500:856e::6:34
-l.au.			172800	IN	A	209.112.113.34
-m.au.			172800	IN	A	209.112.114.34
-n.au.			172800	IN	A	69.36.145.34
 cctld.alpha.aridns.net.au. 172800 IN	AAAA	2001:dcd:1::6
 cctld.alpha.aridns.net.au. 172800 IN	A	37.209.192.6
 cctld.beta.aridns.net.au. 172800 IN	AAAA	2001:dcd:2::6
@@ -218,11 +213,9 @@ cctld.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::6
 cctld.delta.aridns.net.au. 172800 IN	A	37.209.198.6
 cctld.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::6
 cctld.gamma.aridns.net.au. 172800 IN	A	37.209.196.6
-o.au.			172800	IN	A	69.36.146.34
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1::21
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181::2
 munnari.oz.au.		172800	IN	A	202.29.151.3
-p.au.			172800	IN	A	72.13.46.34
 r.au.			172800	IN	AAAA	2607:f140:ffff:fffe::3
 r.au.			172800	IN	A	128.32.136.3
 s.au.			172800	IN	AAAA	2607:f140:ffff:fffe::e
@@ -230,6 +223,14 @@ s.au.			172800	IN	A	128.32.136.14
 u.au.			172800	IN	A	211.29.133.32
 v.au.			172800	IN	AAAA	2001:dc0:4001:1:0:1836:0:141
 v.au.			172800	IN	A	202.12.31.141
+w.au.			172800	IN	AAAA	2001:dcd:1::5
+w.au.			172800	IN	A	37.209.192.5
+x.au.			172800	IN	AAAA	2001:dcd:2::5
+x.au.			172800	IN	A	37.209.194.5
+y.au.			172800	IN	AAAA	2001:dcd:3::5
+y.au.			172800	IN	A	37.209.196.5
+z.au.			172800	IN	AAAA	2001:dcd:4::5
+z.au.			172800	IN	A	37.209.198.5
 aw.			86400	IN	NSEC	ax. NS RRSIG NSEC
 aw.			172800	IN	NS	ns1.setarnet.aw.
 aw.			172800	IN	NS	ns2.setarnet.aw.
@@ -2929,6 +2930,7 @@ rw.			86400	IN	NSEC	sa. NS RRSIG NSEC
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
+rw.			172800	IN	NS	sns-pb.isc.org.
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
 sa.			86400	IN	NSEC	sb. NS RRSIG NSEC
 sa.			172800	IN	NS	sa.cctld.authdns.ripe.net.
