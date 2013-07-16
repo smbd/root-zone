@@ -202,7 +202,9 @@ au.			172800	IN	NS	x.au.
 au.			172800	IN	NS	y.au.
 au.			172800	IN	NS	z.au.
 au.			86400	IN	NSEC	aw. NS RRSIG NSEC
+a.au.			172800	IN	AAAA	2407:6e00:254:306::73
 a.au.			172800	IN	A	58.65.254.73
+b.au.			172800	IN	AAAA	2407:6e00:253:306::73
 b.au.			172800	IN	A	58.65.253.73
 yarrina.connect.com.au.	172800	IN	A	192.189.54.17
 cctld.alpha.aridns.net.au. 172800 IN	AAAA	2001:dcd:1::6
