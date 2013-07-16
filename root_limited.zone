@@ -1606,9 +1606,6 @@ la.			172800	IN	NS	ns2.nic.la.
 la.			172800	IN	NS	ns3.nic.la.
 la.			172800	IN	NS	ns4.nic.la.
 la.			172800	IN	NS	ns5.nic.la.
-la.			172800	IN	NS	ns6.nic.la.
-la.			172800	IN	NS	ns7.nic.la.
-la.			172800	IN	NS	ns8.nic.la.
 ns1.nic.la.		172800	IN	AAAA	2001:678:5::2
 ns1.nic.la.		172800	IN	A	194.0.2.2
 ns2.nic.la.		172800	IN	AAAA	2001:67c:13cc::1:14
@@ -1619,9 +1616,6 @@ ns4.nic.la.		172800	IN	AAAA	2001:67c:13cc::1:15
 ns4.nic.la.		172800	IN	A	194.169.218.15
 ns5.nic.la.		172800	IN	AAAA	2a04:2b00:13cc::1:15
 ns5.nic.la.		172800	IN	A	185.24.64.15
-ns6.nic.la.		172800	IN	A	89.151.83.36
-ns7.nic.la.		172800	IN	A	193.105.170.169
-ns8.nic.la.		172800	IN	A	64.131.83.34
 lb.			86400	IN	NSEC	lc. NS DS RRSIG NSEC
 lb.			172800	IN	NS	ns1.dns.aq.
 lb.			172800	IN	NS	rip.psg.com.
@@ -2559,10 +2553,6 @@ nu.			86400	IN	NSEC	nz. NS DS RRSIG NSEC
 nu.			172800	IN	NS	a.nic.nu.
 nu.			172800	IN	NS	b.nic.nu.
 nu.			172800	IN	NS	c.nic.nu.
-nu.			172800	IN	NS	ns.de.nic.nu.
-nu.			172800	IN	NS	ns.eu.nic.nu.
-nu.			172800	IN	NS	ns.nl.nic.nu.
-nu.			172800	IN	NS	ns.se.nic.nu.
 nu.			172800	IN	NS	ns.nic.nu.
 a.nic.nu.		172800	IN	AAAA	2001:67c:1010:5::53
 a.nic.nu.		172800	IN	A	194.146.106.22
@@ -2570,15 +2560,7 @@ b.nic.nu.		172800	IN	AAAA	2a01:8840:10::1
 b.nic.nu.		172800	IN	A	65.22.164.1
 c.nic.nu.		172800	IN	AAAA	2a01:3f0:0:301::53
 c.nic.nu.		172800	IN	A	192.36.144.107
-ns.de.nic.nu.		172800	IN	AAAA	2a01:5b0:5::9
-ns.de.nic.nu.		172800	IN	A	195.253.65.9
-ns.eu.nic.nu.		172800	IN	AAAA	2a01:5b0:4::9
-ns.eu.nic.nu.		172800	IN	A	195.253.64.9
-ns.nl.nic.nu.		172800	IN	AAAA	2a01:5b0:4::8
-ns.nl.nic.nu.		172800	IN	A	195.253.64.8
 ns.nic.nu.		172800	IN	A	69.25.75.70
-ns.se.nic.nu.		172800	IN	AAAA	2a01:5b0:5::8
-ns.se.nic.nu.		172800	IN	A	195.253.65.8
 nz.			172800	IN	NS	ns1.dns.net.nz.
 nz.			172800	IN	NS	ns2.dns.net.nz.
 nz.			172800	IN	NS	ns3.dns.net.nz.
