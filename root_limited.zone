@@ -1315,7 +1315,6 @@ in.			172800	IN	NS	b0.in.afilias-nst.org.
 in.			172800	IN	NS	b1.in.afilias-nst.in.
 in.			172800	IN	NS	b2.in.afilias-nst.org.
 in.			172800	IN	NS	c0.in.afilias-nst.info.
-in.			172800	IN	NS	d0.in.afilias-nst.org.
 in.			172800	IN	NS	ns7.cdns.net.
 a1.in.afilias-nst.in.	172800	IN	A	220.226.100.30
 b1.in.afilias-nst.in.	172800	IN	A	125.19.40.90
@@ -2621,8 +2620,6 @@ b0.in.afilias-nst.org.	172800	IN	AAAA	2001:500:50::1
 b0.in.afilias-nst.org.	172800	IN	A	199.253.56.1
 b2.in.afilias-nst.org.	172800	IN	AAAA	2001:500:4d::1
 b2.in.afilias-nst.org.	172800	IN	A	199.249.125.1
-d0.in.afilias-nst.org.	172800	IN	AAAA	2001:500:52::1
-d0.in.afilias-nst.org.	172800	IN	A	199.253.58.1
 b0.info.afilias-nst.org. 172800	IN	AAAA	2001:500:1a::1
 b0.info.afilias-nst.org. 172800	IN	A	199.254.48.1
 b2.info.afilias-nst.org. 172800	IN	AAAA	2001:500:49::1
