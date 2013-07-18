@@ -1258,12 +1258,19 @@ ns.nic.hu.		172800	IN	A	193.239.148.48
 ns-com.nic.hu.		172800	IN	AAAA	2001:678:4::c
 ns-com.nic.hu.		172800	IN	A	194.0.1.12
 id.			86400	IN	NSEC	ie. NS RRSIG NSEC
+id.			172800	IN	NS	g.dns.id.
 id.			172800	IN	NS	ns1.id.
 id.			172800	IN	NS	ns1.rad.net.id.
 id.			172800	IN	NS	ns1.indo.net.id.
+id.			172800	IN	NS	ns2.cbn.net.id.
 id.			172800	IN	NS	sec3.apnic.net.
+g.dns.id.		172800	IN	AAAA	2001:dd8:1f:4::84
+g.dns.id.		172800	IN	A	203.119.112.84
+ns2.cbn.net.id.		172800	IN	AAAA	2001:d10:a:53::53
+ns2.cbn.net.id.		172800	IN	A	202.158.40.1
 ns1.indo.net.id.	172800	IN	A	202.159.32.2
 ns1.rad.net.id.		172800	IN	A	202.154.1.2
+ns1.id.			172800	IN	AAAA	2001:e00:1800::2
 ns1.id.			172800	IN	A	202.155.30.227
 ie.			172800	IN	NS	a.iedr.ie.
 ie.			172800	IN	NS	b.iedr.ie.
