@@ -1060,14 +1060,16 @@ ns.nic.ge.		172800	IN	A	212.72.130.11
 gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
-gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
 gg.			172800	IN	NS	a.ci-servers.net.
 gg.			172800	IN	NS	b.ci-servers.org.
 gg.			172800	IN	NS	c.ci-servers.org.
 gg.			172800	IN	NS	d.ci-servers.je.
-gg.			172800	IN	NS	f.ci-servers.gg.
+gg.			172800	IN	NS	e.ci-servers.gg.
 gg.			172800	IN	NS	ns0.ja.net.
 gg.			172800	IN	NS	ns99.dns.net.nz.
+gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
+e.ci-servers.gg.	172800	IN	AAAA	2001:500:14:6074:ad::1
+e.ci-servers.gg.	172800	IN	A	204.61.216.74
 f.ci-servers.gg.	172800	IN	A	195.226.128.13
 gh.			86400	IN	NSEC	gi. NS RRSIG NSEC
 gh.			172800	IN	NS	ns1.dns.aq.
@@ -1990,6 +1992,7 @@ dns2.mynic.net.my.	172800	IN	A	202.75.39.36
 mz.			86400	IN	NSEC	na. NS RRSIG NSEC
 mz.			172800	IN	NS	anyns.uem.mz.
 mz.			172800	IN	NS	dzowo.uem.mz.
+mz.			172800	IN	NS	ns-mz.afrinic.net.
 mz.			172800	IN	NS	zebra.uem.mz.
 mz.			172800	IN	NS	oceano.uem.mz.
 mz.			172800	IN	NS	phloem.uoregon.edu.
@@ -2077,6 +2080,8 @@ ns-ls.afrinic.net.	172800	IN	AAAA	2001:43f8:120::70
 ns-ls.afrinic.net.	172800	IN	A	196.216.168.70
 ns-ly.afrinic.net.	172800	IN	AAAA	2001:43f8:120::24
 ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
+ns-mz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::40
+ns-mz.afrinic.net.	172800	IN	A	196.216.168.40
 ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120::45
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
 ns-rw.afrinic.net.	172800	IN	AAAA	2001:43f8:120::28
