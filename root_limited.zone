@@ -266,10 +266,13 @@ dns.bd.			172800	IN	A	209.58.24.3
 jamuna.btcl.net.bd.	172800	IN	A	203.112.194.231
 surma.btcl.net.bd.	172800	IN	A	203.112.194.232
 be.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+be.			172800	IN	NS	b.ns.dns.be.
 be.			172800	IN	NS	m.ns.dns.be.
 be.			172800	IN	NS	x.dns.be.
 be.			172800	IN	NS	london.ns.dns.be.
 be.			172800	IN	NS	brussels.ns.dns.be.
+b.ns.dns.be.		172800	IN	AAAA	2001:678:64::1
+b.ns.dns.be.		172800	IN	A	194.0.37.1
 brussels.ns.dns.be.	172800	IN	AAAA	2001:6a8:3c60::be
 brussels.ns.dns.be.	172800	IN	A	193.190.135.4
 london.ns.dns.be.	172800	IN	A	195.66.241.90
@@ -835,6 +838,7 @@ dz.			172800	IN	NS	ns-dz.afrinic.net.
 dz.			86400	IN	NSEC	ec. NS RRSIG NSEC
 idn1.nic.dz.		172800	IN	A	193.194.64.243
 idn2.nic.dz.		172800	IN	A	213.179.160.68
+ns1.nic.dz.		172800	IN	AAAA	2001:4340:1030:2::2
 ns1.nic.dz.		172800	IN	A	193.194.64.242
 ns2.nic.dz.		172800	IN	A	213.179.160.66
 ec.			86400	IN	NSEC	edu. NS RRSIG NSEC
@@ -3211,7 +3215,7 @@ c.ns.tk.		172800	IN	AAAA	2001:678:58::1
 c.ns.tk.		172800	IN	A	194.0.40.1
 d.ns.tk.		172800	IN	AAAA	2001:678:5c::1
 d.ns.tk.		172800	IN	A	194.0.41.1
-tl.			86400	IN	NSEC	tm. NS RRSIG NSEC
+tl.			86400	IN	NSEC	tm. NS DS RRSIG NSEC
 tl.			172800	IN	NS	ns.anycast.nic.tl.
 tl.			172800	IN	NS	tl1.dyntld.net.
 tl.			172800	IN	NS	tl3.dyntld.net.
@@ -3462,6 +3466,7 @@ vc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 ve.			86400	IN	NSEC	vg. NS RRSIG NSEC
 ve.			172800	IN	NS	ns1.nic.ve.
 ve.			172800	IN	NS	ns2.nic.ve.
+ve.			172800	IN	NS	ns3.nic.ve.
 ve.			172800	IN	NS	ns-ext.isc.org.
 ve.			172800	IN	NS	ns-ext.nic.cl.
 ve.			172800	IN	NS	azmodan.ula.ve.
@@ -3469,6 +3474,7 @@ ns1.nic.ve.		172800	IN	AAAA	2001:1338::2
 ns1.nic.ve.		172800	IN	A	150.188.228.4
 ns2.nic.ve.		172800	IN	AAAA	2001:1338::3
 ns2.nic.ve.		172800	IN	A	150.188.228.5
+ns3.nic.ve.		172800	IN	A	190.9.129.56
 azmodan.ula.ve.		172800	IN	A	150.185.130.16
 vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
 vg.			172800	IN	NS	vg.cctld.authdns.ripe.net.
