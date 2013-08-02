@@ -623,6 +623,7 @@ com.			172800	IN	NS	k.gtld-servers.net.
 com.			172800	IN	NS	l.gtld-servers.net.
 com.			172800	IN	NS	m.gtld-servers.net.
 com.			86400	IN	NSEC	coop. NS DS RRSIG NSEC
+ns.amarshallinc.com.	172800	IN	A	71.163.249.97
 ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:fe00::2
 ns.blacknightsolutions.com. 172800 IN	A	217.114.173.6
 ns2.blacknightsolutions.com. 172800 IN	AAAA	2001:1bc0:ab:3::2
@@ -1064,6 +1065,7 @@ ns.nic.ge.		172800	IN	A	212.72.130.11
 gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
+gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
 gg.			172800	IN	NS	a.ci-servers.net.
 gg.			172800	IN	NS	b.ci-servers.org.
 gg.			172800	IN	NS	c.ci-servers.org.
@@ -1071,10 +1073,8 @@ gg.			172800	IN	NS	d.ci-servers.je.
 gg.			172800	IN	NS	e.ci-servers.gg.
 gg.			172800	IN	NS	ns0.ja.net.
 gg.			172800	IN	NS	ns99.dns.net.nz.
-gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
 e.ci-servers.gg.	172800	IN	AAAA	2001:500:14:6074:ad::1
 e.ci-servers.gg.	172800	IN	A	204.61.216.74
-f.ci-servers.gg.	172800	IN	A	195.226.128.13
 gh.			86400	IN	NSEC	gi. NS RRSIG NSEC
 gh.			172800	IN	NS	ns1.dns.aq.
 gh.			172800	IN	NS	rip.psg.com.
@@ -1148,7 +1148,7 @@ gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 gr-us.ics.forth.gr.	172800	IN	A	199.4.28.219
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
-gs.			86400	IN	NSEC	gt. NS RRSIG NSEC
+gs.			86400	IN	NSEC	gt. NS DS RRSIG NSEC
 gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
 gs.			172800	IN	NS	ns.anycast.nic.gs.
 gs.			172800	IN	NS	gs1.dyntld.net.
@@ -1474,7 +1474,7 @@ je.			172800	IN	NS	a.ci-servers.net.
 je.			172800	IN	NS	b.ci-servers.org.
 je.			172800	IN	NS	c.ci-servers.org.
 je.			172800	IN	NS	d.ci-servers.je.
-je.			172800	IN	NS	f.ci-servers.gg.
+je.			172800	IN	NS	e.ci-servers.gg.
 je.			172800	IN	NS	ns0.ja.net.
 je.			172800	IN	NS	ns99.dns.net.nz.
 d.ci-servers.je.	172800	IN	A	193.201.42.178
@@ -1809,8 +1809,8 @@ mg.			172800	IN	NS	ns-mg.malagasy.com.
 ns.dts.mg.		172800	IN	A	196.192.32.2
 ns.nic.mg.		172800	IN	A	196.192.42.153
 mh.			86400	IN	NSEC	mil. NS RRSIG NSEC
-mh.			172800	IN	NS	ns1.tosa.twtelecom.net.
-mh.			172800	IN	NS	ins2.tosa.twtelecom.net.
+mh.			172800	IN	NS	ns.ntamar.net.
+mh.			172800	IN	NS	ns.amarshallinc.com.
 mil.			86400	IN	NSEC	mk. NS DS RRSIG NSEC
 mil.			172800	IN	NS	con1.nipr.mil.
 mil.			172800	IN	NS	con2.nipr.mil.
@@ -2259,6 +2259,7 @@ ns1-mq.mediaserv.net.	172800	IN	A	213.16.20.3
 server.nordu.net.	172800	IN	A	193.10.252.19
 a.ns13.net.		172800	IN	A	49.212.31.192
 b.ns13.net.		172800	IN	A	49.212.51.85
+ns.ntamar.net.		172800	IN	A	117.103.88.33
 cl-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6030:ad::1
 cl-ns.anycast.pch.net.	172800	IN	A	204.61.216.30
 cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad::1
@@ -2457,8 +2458,6 @@ ns2.sr.net.		172800	IN	A	200.2.162.30
 ns.thnic.net.		172800	IN	A	202.28.0.1
 ns.twnic.net.		172800	IN	AAAA	2001:288:1:1006::11
 ns.twnic.net.		172800	IN	A	192.83.166.11
-ins2.tosa.twtelecom.net. 172800	IN	A	204.95.160.4
-ns1.tosa.twtelecom.net.	172800	IN	A	204.95.160.2
 dns2.u-registry.net.	172800	IN	A	188.40.51.250
 nsi.uanic.net.		172800	IN	A	212.1.66.247
 tld1.ultradns.net.	172800	IN	AAAA	2001:502:d399::1
@@ -2610,7 +2609,7 @@ om.			172800	IN	NS	cctld.alpha.aridns.net.au.
 om.			172800	IN	NS	cctld.delta.aridns.net.au.
 om.			172800	IN	NS	cctld.gamma.aridns.net.au.
 ns1.registry.om.	172800	IN	A	212.72.15.101
-ns2.registry.om.	172800	IN	A	188.135.6.231
+ns2.registry.om.	172800	IN	A	185.27.91.69
 org.			172800	IN	NS	a0.org.afilias-nst.info.
 org.			172800	IN	NS	a2.org.afilias-nst.info.
 org.			172800	IN	NS	b0.org.afilias-nst.org.
