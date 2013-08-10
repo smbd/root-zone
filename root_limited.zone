@@ -2573,14 +2573,12 @@ nu.			86400	IN	NSEC	nz. NS DS RRSIG NSEC
 nu.			172800	IN	NS	a.nic.nu.
 nu.			172800	IN	NS	b.nic.nu.
 nu.			172800	IN	NS	c.nic.nu.
-nu.			172800	IN	NS	ns.nic.nu.
 a.nic.nu.		172800	IN	AAAA	2001:67c:1010:5::53
 a.nic.nu.		172800	IN	A	194.146.106.22
 b.nic.nu.		172800	IN	AAAA	2a01:8840:10::1
 b.nic.nu.		172800	IN	A	65.22.164.1
 c.nic.nu.		172800	IN	AAAA	2a01:3f0:0:301::53
 c.nic.nu.		172800	IN	A	192.36.144.107
-ns.nic.nu.		172800	IN	A	69.25.75.70
 nz.			172800	IN	NS	ns1.dns.net.nz.
 nz.			172800	IN	NS	ns2.dns.net.nz.
 nz.			172800	IN	NS	ns3.dns.net.nz.
