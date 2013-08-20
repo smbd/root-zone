@@ -268,19 +268,17 @@ surma.btcl.net.bd.	172800	IN	A	203.112.194.232
 be.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
 be.			172800	IN	NS	a.ns.dns.be.
 be.			172800	IN	NS	b.ns.dns.be.
+be.			172800	IN	NS	c.ns.dns.be.
 be.			172800	IN	NS	d.ns.dns.be.
 be.			172800	IN	NS	x.ns.dns.be.
-be.			172800	IN	NS	london.ns.dns.be.
-be.			172800	IN	NS	brussels.ns.dns.be.
 a.ns.dns.be.		172800	IN	AAAA	2001:678:9::1
 a.ns.dns.be.		172800	IN	A	194.0.6.1
 b.ns.dns.be.		172800	IN	AAAA	2001:678:64::1
 b.ns.dns.be.		172800	IN	A	194.0.37.1
-brussels.ns.dns.be.	172800	IN	AAAA	2001:6a8:3c60::be
-brussels.ns.dns.be.	172800	IN	A	193.190.135.4
+c.ns.dns.be.		172800	IN	AAAA	2001:678:68::1
+c.ns.dns.be.		172800	IN	A	194.0.43.1
 d.ns.dns.be.		172800	IN	AAAA	2001:678:6c::1
 d.ns.dns.be.		172800	IN	A	194.0.44.1
-london.ns.dns.be.	172800	IN	A	195.66.241.90
 x.ns.dns.be.		172800	IN	AAAA	2001:678:4::a
 x.ns.dns.be.		172800	IN	A	194.0.1.10
 bf.			86400	IN	NSEC	bg. NS RRSIG NSEC
@@ -296,6 +294,7 @@ bg.			172800	IN	NS	ns2.register.bg.
 bg.			172800	IN	NS	ns3.register.bg.
 bg.			172800	IN	NS	ns4.register.bg.
 bg.			172800	IN	NS	ns-ext.isc.org.
+bg.			172800	IN	NS	sns-pb.isc.org.
 ns.register.bg.		172800	IN	AAAA	2a02:6a80::192:92:129:99
 ns.register.bg.		172800	IN	A	192.92.129.99
 ns2.register.bg.	172800	IN	AAAA	2a02:6a80::193:68:3:232
