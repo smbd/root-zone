@@ -1757,7 +1757,6 @@ ly.			172800	IN	NS	ly.cctld.authdns.ripe.net.
 ly.			172800	IN	NS	dns.lttnet.net.
 ly.			172800	IN	NS	dns1.lttnet.net.
 ly.			172800	IN	NS	ns-ly.afrinic.net.
-ly.			172800	IN	NS	auth02.ns.uu.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 ma.			172800	IN	NS	ma.cctld.authdns.ripe.net.
 ma.			172800	IN	NS	dns.inria.fr.
