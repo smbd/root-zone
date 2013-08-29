@@ -2946,10 +2946,11 @@ ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410::9
 ns1.nic.net.sa.		172800	IN	A	86.111.192.9
 ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10::9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
-sb.			86400	IN	NSEC	sc. NS RRSIG NSEC
+sb.			86400	IN	NSEC	sc. NS DS RRSIG NSEC
 sb.			172800	IN	NS	pch.nic.sb.
 sb.			172800	IN	NS	sb1.dyntld.net.
 sb.			172800	IN	NS	sb3.dyntld.net.
+sb.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
 pch.nic.sb.		172800	IN	A	204.61.216.31
 sc.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
