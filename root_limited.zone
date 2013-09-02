@@ -3137,8 +3137,10 @@ ns2.tld.sy.		172800	IN	A	82.137.192.145
 sz.			86400	IN	NSEC	tc. NS RRSIG NSEC
 sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
 sz.			172800	IN	NS	dns.sispa.org.sz.
+sz.			172800	IN	NS	ns1.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
 dns.sispa.org.sz.	172800	IN	A	212.85.220.11
+ns1.sispa.org.sz.	172800	IN	A	41.77.232.4
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
 tc.			172800	IN	NS	asia.zone.tc.
 tc.			172800	IN	NS	asia.zone.vg.
