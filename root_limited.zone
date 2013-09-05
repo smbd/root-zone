@@ -3480,6 +3480,7 @@ ve.			172800	IN	NS	ns2.nic.ve.
 ve.			172800	IN	NS	ns3.nic.ve.
 ve.			172800	IN	NS	ns-ext.isc.org.
 ve.			172800	IN	NS	ns-ext.nic.cl.
+ve.			172800	IN	NS	sns-pb.isc.org.
 ve.			172800	IN	NS	azmodan.ula.ve.
 ns1.nic.ve.		172800	IN	AAAA	2001:1338::2
 ns1.nic.ve.		172800	IN	A	150.188.228.4
