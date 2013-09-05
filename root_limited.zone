@@ -420,16 +420,15 @@ bv.			172800	IN	NS	nn.uninett.no.
 bv.			172800	IN	NS	nac.no.
 bv.			172800	IN	NS	server.nordu.net.
 bw.			86400	IN	NSEC	by. NS RRSIG NSEC
-bw.			172800	IN	NS	ns.uu.net.
 bw.			172800	IN	NS	ns1.btc.bw.
-bw.			172800	IN	NS	ns4.btc.bw.
-bw.			172800	IN	NS	rain.psg.com.
-bw.			172800	IN	NS	vpsm.btc.bw.
-bw.			172800	IN	NS	daisy.ee.und.ac.za.
-bw.			172800	IN	NS	hippo.ru.ac.za.
+bw.			172800	IN	NS	pch.nic.net.bw.
+bw.			172800	IN	NS	dns1.nic.net.bw.
+bw.			172800	IN	NS	dns2.nic.net.bw.
+bw.			172800	IN	NS	ns-bw.afrinic.net.
 ns1.btc.bw.		172800	IN	A	168.167.168.34
-ns4.btc.bw.		172800	IN	A	168.167.253.20
-vpsm.btc.bw.		172800	IN	A	168.167.253.21
+dns1.nic.net.bw.	172800	IN	A	168.167.98.226
+dns2.nic.net.bw.	172800	IN	A	168.167.98.218
+pch.nic.net.bw.		172800	IN	A	204.61.216.70
 by.			86400	IN	NSEC	bz. NS RRSIG NSEC
 by.			172800	IN	NS	dns1.tld.tutby.com.
 by.			172800	IN	NS	dns2.tld.tutby.com.
@@ -632,7 +631,8 @@ ns2.blacknightsolutions.com. 172800 IN	AAAA	2001:1bc0:ab:3::2
 ns2.blacknightsolutions.com. 172800 IN	A	82.96.97.64
 uucp-gw-1.pa.dec.com.	172800	IN	A	204.123.2.18
 uucp-gw-2.pa.dec.com.	172800	IN	A	204.123.2.19
-dns3.dotukr.com.	172800	IN	A	195.64.155.254
+dns3.dotukr.com.	172800	IN	AAAA	2001:41d0:a:2b1f::1
+dns3.dotukr.com.	172800	IN	A	37.187.75.31
 austin.gh.com.		172800	IN	A	196.3.64.1
 mantse.gh.com.		172800	IN	A	193.194.185.2
 ns1.iafrica.com.	172800	IN	A	196.7.0.139
@@ -680,7 +680,8 @@ dns3.tld.tutby.com.	172800	IN	AAAA	2a01:d8:2:1::2
 dns3.tld.tutby.com.	172800	IN	A	195.137.160.10
 dns4.tld.tutby.com.	172800	IN	A	85.17.148.67
 dns5.tld.tutby.com.	172800	IN	A	82.208.35.204
-dns1.u-registry.com.	172800	IN	A	91.231.86.6
+dns1.u-registry.com.	172800	IN	AAAA	2607:f878:3:39c::2
+dns1.u-registry.com.	172800	IN	A	184.22.82.74
 coop.			86400	IN	NSEC	cr. NS RRSIG NSEC
 coop.			172800	IN	NS	coop1.dyntld.net.
 coop.			172800	IN	NS	coop2.dyntld.net.
@@ -2075,6 +2076,8 @@ ns-bi.afrinic.net.	172800	IN	AAAA	2001:43f8:120::23
 ns-bi.afrinic.net.	172800	IN	A	196.216.168.23
 ns-bj.afrinic.net.	172800	IN	AAAA	2001:43f8:120::33
 ns-bj.afrinic.net.	172800	IN	A	196.216.168.33
+ns-bw.afrinic.net.	172800	IN	AAAA	2001:43f8:120::72
+ns-bw.afrinic.net.	172800	IN	A	196.216.168.72
 ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120::30
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
@@ -2462,7 +2465,8 @@ ns2.sr.net.		172800	IN	A	200.2.162.30
 ns.thnic.net.		172800	IN	A	202.28.0.1
 ns.twnic.net.		172800	IN	AAAA	2001:288:1:1006::11
 ns.twnic.net.		172800	IN	A	192.83.166.11
-dns2.u-registry.net.	172800	IN	A	188.40.51.250
+dns2.u-registry.net.	172800	IN	AAAA	2a02:128:2::5
+dns2.u-registry.net.	172800	IN	A	195.123.1.7
 nsi.uanic.net.		172800	IN	A	212.1.66.247
 tld1.ultradns.net.	172800	IN	AAAA	2001:502:d399::1
 tld1.ultradns.net.	172800	IN	A	204.74.112.1
@@ -3857,7 +3861,6 @@ hippo.ru.ac.za.		172800	IN	AAAA	2001:4200:1010::1
 hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 disa.tenet.ac.za.	172800	IN	AAAA	2001:4200:ffff:a::1
 disa.tenet.ac.za.	172800	IN	A	196.21.79.50
-daisy.ee.und.ac.za.	172800	IN	A	146.230.192.18
 nsza.is.co.za.		172800	IN	A	196.4.160.27
 ns1.coza.net.za.	172800	IN	A	66.135.62.20
 zm.			86400	IN	NSEC	zw. NS RRSIG NSEC
