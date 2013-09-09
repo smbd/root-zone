@@ -872,9 +872,9 @@ phloem.uoregon.edu.	172800	IN	AAAA	2001:468:d01:20::80df:2023
 phloem.uoregon.edu.	172800	IN	A	128.223.32.35
 ee.			86400	IN	NSEC	eg. NS RRSIG NSEC
 ee.			172800	IN	NS	b.tld.ee.
+ee.			172800	IN	NS	e.tld.ee.
 ee.			172800	IN	NS	ee.aso.ee.
 ee.			172800	IN	NS	ns.ut.ee.
-ee.			172800	IN	NS	ns.uu.net.
 ee.			172800	IN	NS	ns.tld.ee.
 ee.			172800	IN	NS	ns.eenet.ee.
 ee.			172800	IN	NS	ns.uninet.ee.
@@ -885,6 +885,8 @@ ns.eenet.ee.		172800	IN	AAAA	2001:bb8::1
 ns.eenet.ee.		172800	IN	A	193.40.56.245
 b.tld.ee.		172800	IN	AAAA	2001:67c:1010:28::53
 b.tld.ee.		172800	IN	A	194.146.106.110
+e.tld.ee.		172800	IN	AAAA	2001:678:94:53::53
+e.tld.ee.		172800	IN	A	204.61.216.36
 ns.tld.ee.		172800	IN	A	195.43.87.10
 ns.uninet.ee.		172800	IN	AAAA	2001:1530:60:10::1
 ns.uninet.ee.		172800	IN	A	194.204.0.1
