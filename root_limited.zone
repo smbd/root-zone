@@ -62,12 +62,7 @@ aero.			172800	IN	NS	dns7.denic.de.
 af.			86400	IN	NSEC	ag. NS RRSIG NSEC
 af.			172800	IN	NS	ns.anycast.nic.af.
 af.			172800	IN	NS	af1.dyntld.net.
-af.			172800	IN	NS	af2.dyntld.net.
 af.			172800	IN	NS	af3.dyntld.net.
-af.			172800	IN	NS	af4.dyntld.net.
-af.			172800	IN	NS	adras.nic.af.
-af.			172800	IN	NS	ns-af.ripe.net.
-adras.nic.af.		172800	IN	A	203.119.84.241
 ns.anycast.nic.af.	172800	IN	AAAA	2001:500:14:6013:ad::1
 ns.anycast.nic.af.	172800	IN	A	204.61.216.13
 ag.			86400	IN	NSEC	ai. NS DS RRSIG NSEC
@@ -2159,9 +2154,7 @@ fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19::53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
 af1.dyntld.net.		172800	IN	A	208.78.70.94
-af2.dyntld.net.		172800	IN	A	204.13.250.94
 af3.dyntld.net.		172800	IN	A	208.78.71.94
-af4.dyntld.net.		172800	IN	A	204.13.251.94
 coop1.dyntld.net.	172800	IN	A	208.78.70.80
 coop2.dyntld.net.	172800	IN	A	204.13.250.80
 coop3.dyntld.net.	172800	IN	A	208.78.71.80
@@ -2421,8 +2414,6 @@ vn.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::126
 vn.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.126
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0::4
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
-ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
-ns-af.ripe.net.		172800	IN	A	193.0.12.1
 ns-bn.ripe.net.		172800	IN	A	193.0.12.33
 ns-kh.ripe.net.		172800	IN	A	193.0.12.37
 ns-ki.ripe.net.		172800	IN	A	193.0.12.115
