@@ -1553,17 +1553,12 @@ dns1.online.com.kh.	172800	IN	A	203.189.128.1
 ns.telesurf.com.kh.	172800	IN	A	203.144.65.3
 ns1.dns.net.kh.		172800	IN	A	203.223.32.21
 ki.			86400	IN	NSEC	km. NS RRSIG NSEC
-ki.			172800	IN	NS	ns.sydney.nic.ki.
-ki.			172800	IN	NS	ns.anycast.nic.ki.
 ki.			172800	IN	NS	ki1.dyntld.net.
-ki.			172800	IN	NS	ki2.dyntld.net.
 ki.			172800	IN	NS	ki3.dyntld.net.
-ki.			172800	IN	NS	ki4.dyntld.net.
-ki.			172800	IN	NS	sec1.apnic.net.
-ki.			172800	IN	NS	sec3.apnic.net.
-ki.			172800	IN	NS	ns-ki.ripe.net.
-ns.anycast.nic.ki.	172800	IN	A	204.61.216.26
-ns.sydney.nic.ki.	172800	IN	A	203.119.12.246
+ki.			172800	IN	NS	pch.nic.ki.
+ki.			172800	IN	NS	sns-pb.isc.org.
+pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad::1
+pch.nic.ki.		172800	IN	A	204.61.216.26
 km.			86400	IN	NSEC	kn. NS RRSIG NSEC
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
@@ -2172,10 +2167,10 @@ gs1.dyntld.net.		172800	IN	AAAA	2001:500:90::86
 gs1.dyntld.net.		172800	IN	A	208.78.70.86
 gs3.dyntld.net.		172800	IN	AAAA	2001:500:94::86
 gs3.dyntld.net.		172800	IN	A	208.78.71.86
+ki1.dyntld.net.		172800	IN	AAAA	2001:500:90::87
 ki1.dyntld.net.		172800	IN	A	208.78.70.87
-ki2.dyntld.net.		172800	IN	A	204.13.250.87
+ki3.dyntld.net.		172800	IN	AAAA	2001:500:94::87
 ki3.dyntld.net.		172800	IN	A	208.78.71.87
-ki4.dyntld.net.		172800	IN	A	204.13.251.87
 mg1.dyntld.net.		172800	IN	A	208.78.70.96
 mg2.dyntld.net.		172800	IN	A	204.13.250.96
 mg3.dyntld.net.		172800	IN	A	208.78.71.96
@@ -2417,7 +2412,6 @@ sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0::4
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 ns-bn.ripe.net.		172800	IN	A	193.0.12.33
 ns-kh.ripe.net.		172800	IN	A	193.0.12.37
-ns-ki.ripe.net.		172800	IN	A	193.0.12.115
 ns-zw.ripe.net.		172800	IN	A	193.0.12.249
 a.dns.ripn.net.		172800	IN	AAAA	2001:678:17:0:193:232:128:6
 a.dns.ripn.net.		172800	IN	A	193.232.128.6
