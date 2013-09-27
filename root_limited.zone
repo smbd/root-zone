@@ -60,7 +60,7 @@ aero.			172800	IN	NS	d0.aero.afilias-nst.org.
 aero.			172800	IN	NS	ns2.switch.ch.
 aero.			172800	IN	NS	ns5.knipp.de.
 aero.			172800	IN	NS	dns7.denic.de.
-af.			86400	IN	NSEC	ag. NS RRSIG NSEC
+af.			86400	IN	NSEC	ag. NS DS RRSIG NSEC
 af.			172800	IN	NS	ns.anycast.nic.af.
 af.			172800	IN	NS	af1.dyntld.net.
 af.			172800	IN	NS	af3.dyntld.net.
@@ -431,6 +431,7 @@ by.			172800	IN	NS	dns2.tld.tutby.com.
 by.			172800	IN	NS	dns3.tld.tutby.com.
 by.			172800	IN	NS	dns4.tld.tutby.com.
 by.			172800	IN	NS	dns5.tld.tutby.com.
+by.			172800	IN	NS	dns6.tld.tutby.com.
 bz.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
 bz.			172800	IN	NS	a0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -674,8 +675,9 @@ dns1.tld.tutby.com.	172800	IN	A	178.124.133.53
 dns2.tld.tutby.com.	172800	IN	A	93.125.30.44
 dns3.tld.tutby.com.	172800	IN	AAAA	2a01:d8:2:1::2
 dns3.tld.tutby.com.	172800	IN	A	195.137.160.10
-dns4.tld.tutby.com.	172800	IN	A	85.17.148.67
-dns5.tld.tutby.com.	172800	IN	A	82.208.35.204
+dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
+dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
+dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
 dns1.u-registry.com.	172800	IN	AAAA	2607:f878:3:39c::2
 dns1.u-registry.com.	172800	IN	A	184.22.82.74
 coop.			86400	IN	NSEC	cr. NS RRSIG NSEC
@@ -2149,7 +2151,9 @@ fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306::53
 fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19::53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
+af1.dyntld.net.		172800	IN	AAAA	2001:500:90::94
 af1.dyntld.net.		172800	IN	A	208.78.70.94
+af3.dyntld.net.		172800	IN	AAAA	2001:500:94::94
 af3.dyntld.net.		172800	IN	A	208.78.71.94
 coop1.dyntld.net.	172800	IN	A	208.78.70.80
 coop2.dyntld.net.	172800	IN	A	204.13.250.80
@@ -2717,11 +2721,9 @@ ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
 ph.			86400	IN	NSEC	pk. NS RRSIG NSEC
 ph.			172800	IN	NS	ph.cctld.authdns.ripe.net.
 ph.			172800	IN	NS	ph.communitydns.net.
-ph.			172800	IN	NS	ns1.domains.ph.
 ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	sec4.apnic.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
-ns1.domains.ph.		172800	IN	A	203.119.6.78
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
 pk.			172800	IN	NS	root-b.cloud9global.net.
 pk.			172800	IN	NS	root-p.pknic.pk.
@@ -2880,6 +2882,8 @@ ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	ns-ext.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
+ro.			172800	IN	NS	sec-dns-a.rotld.ro.
+ro.			172800	IN	NS	sec-dns-b.rotld.ro.
 ro.			172800	IN	NS	secondary.rotld.ro.
 ro.			86400	IN	NSEC	rs. NS RRSIG NSEC
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:4001::53
@@ -2888,6 +2892,10 @@ dns-md.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:19
 dns-md.rotld.ro.	172800	IN	A	192.162.16.19
 primary.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:18
 primary.rotld.ro.	172800	IN	A	192.162.16.18
+sec-dns-a.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:20
+sec-dns-a.rotld.ro.	172800	IN	A	192.162.16.20
+sec-dns-b.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:230
+sec-dns-b.rotld.ro.	172800	IN	A	193.230.31.230
 secondary.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:225
 secondary.rotld.ro.	172800	IN	A	193.230.31.225
 rs.			86400	IN	NSEC	ru. NS RRSIG NSEC
