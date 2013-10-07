@@ -1435,7 +1435,7 @@ ir.			172800	IN	NS	ns.irnic.ir.
 ir.			172800	IN	NS	ns5.univie.ac.at.
 ns.irnic.ir.		172800	IN	A	193.189.122.83
 a.nic.ir.		172800	IN	A	193.189.123.2
-is.			86400	IN	NSEC	it. NS RRSIG NSEC
+is.			86400	IN	NSEC	it. NS DS RRSIG NSEC
 is.			172800	IN	NS	is.cctld.authdns.ripe.net.
 is.			172800	IN	NS	ns4.tele.dk.
 is.			172800	IN	NS	sab.isnic.is.
@@ -1728,8 +1728,8 @@ j.dns.lu.		172800	IN	AAAA	2a01:3f0:0:307::53
 j.dns.lu.		172800	IN	A	77.72.229.247
 k.dns.lu.		172800	IN	AAAA	2001:678:4::d
 k.dns.lu.		172800	IN	A	194.0.1.13
-ns1.dns.lu.		172800	IN	AAAA	2001:a18:4::2
-ns1.dns.lu.		172800	IN	A	158.64.229.2
+ns1.dns.lu.		172800	IN	AAAA	2001:a18:4:1::18
+ns1.dns.lu.		172800	IN	A	158.64.229.18
 ns5.dns.lu.		172800	IN	A	81.91.161.100
 p.dns.lu.		172800	IN	AAAA	2001:678:60::42:42
 p.dns.lu.		172800	IN	A	194.0.42.42
@@ -2884,7 +2884,6 @@ ro.			172800	IN	NS	ns-ext.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
-ro.			172800	IN	NS	secondary.rotld.ro.
 ro.			86400	IN	NSEC	rs. NS RRSIG NSEC
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:4001::53
 dns-at.rotld.ro.	172800	IN	A	193.171.255.54
@@ -2896,8 +2895,6 @@ sec-dns-a.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:20
 sec-dns-a.rotld.ro.	172800	IN	A	192.162.16.20
 sec-dns-b.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:230
 sec-dns-b.rotld.ro.	172800	IN	A	193.230.31.230
-secondary.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:225
-secondary.rotld.ro.	172800	IN	A	193.230.31.225
 rs.			86400	IN	NSEC	ru. NS RRSIG NSEC
 rs.			172800	IN	NS	a.nic.rs.
 rs.			172800	IN	NS	b.nic.rs.
@@ -3136,10 +3133,8 @@ ns1.tld.sy.		172800	IN	A	82.137.200.85
 ns2.tld.sy.		172800	IN	A	82.137.192.145
 sz.			86400	IN	NSEC	tc. NS RRSIG NSEC
 sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
-sz.			172800	IN	NS	dns.sispa.org.sz.
 sz.			172800	IN	NS	ns1.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
-dns.sispa.org.sz.	172800	IN	A	212.85.220.11
 ns1.sispa.org.sz.	172800	IN	A	41.77.232.4
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
 tc.			172800	IN	NS	asia.zone.tc.
