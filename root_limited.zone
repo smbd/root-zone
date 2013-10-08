@@ -3696,13 +3696,16 @@ xn--l1acc.		172800	IN	NS	ns3.idn.mn.
 xn--lgbbat1ad8j.	86400	IN	NSEC	xn--mgb9awbf. NS RRSIG NSEC
 xn--lgbbat1ad8j.	172800	IN	NS	idn1.nic.dz.
 xn--lgbbat1ad8j.	172800	IN	NS	idn2.nic.dz.
-xn--mgb9awbf.		86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
+xn--mgb9awbf.		86400	IN	NSEC	xn--mgba3a4f16a. NS RRSIG NSEC
 xn--mgb9awbf.		172800	IN	NS	ns1.registry.om.
 xn--mgb9awbf.		172800	IN	NS	ns2.registry.om.
 xn--mgb9awbf.		172800	IN	NS	cctld.beta.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.alpha.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.delta.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
+xn--mgba3a4f16a.	86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
+xn--mgba3a4f16a.	172800	IN	NS	a.nic.ir.
+xn--mgba3a4f16a.	172800	IN	NS	ns.irnic.ir.
 xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
