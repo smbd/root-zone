@@ -789,13 +789,13 @@ dj.			86400	IN	NSEC	dk. NS RRSIG NSEC
 dj.			172800	IN	NS	bow.rain.fr.
 dj.			172800	IN	NS	bow.intnet.dj.
 bow.intnet.dj.		172800	IN	A	193.251.143.162
+dk.			86400	IN	NSEC	dm. NS DS RRSIG NSEC
 dk.			172800	IN	NS	a.nic.dk.
 dk.			172800	IN	NS	b.nic.dk.
 dk.			172800	IN	NS	c.nic.dk.
 dk.			172800	IN	NS	l.nic.dk.
 dk.			172800	IN	NS	p.nic.dk.
 dk.			172800	IN	NS	s.nic.dk.
-dk.			86400	IN	NSEC	dm. NS DS RRSIG NSEC
 a.nic.dk.		172800	IN	A	212.88.78.122
 b.nic.dk.		172800	IN	AAAA	2a01:630:0:80::53
 b.nic.dk.		172800	IN	A	193.163.102.222
@@ -806,7 +806,6 @@ p.nic.dk.		172800	IN	AAAA	2001:678:78:42:ad::53
 p.nic.dk.		172800	IN	A	194.0.47.42
 s.nic.dk.		172800	IN	AAAA	2a01:3f0:0:303::53
 s.nic.dk.		172800	IN	A	77.72.229.252
-ns4.tele.dk.		172800	IN	A	195.41.46.78
 dm.			86400	IN	NSEC	do. NS RRSIG NSEC
 dm.			172800	IN	NS	ns.anycast.nic.dm.
 dm.			172800	IN	NS	ns.blacknightsolutions.com.
@@ -1437,7 +1436,6 @@ ns.irnic.ir.		172800	IN	A	193.189.122.83
 a.nic.ir.		172800	IN	A	193.189.123.2
 is.			86400	IN	NSEC	it. NS DS RRSIG NSEC
 is.			172800	IN	NS	is.cctld.authdns.ripe.net.
-is.			172800	IN	NS	ns4.tele.dk.
 is.			172800	IN	NS	sab.isnic.is.
 is.			172800	IN	NS	sunic.sunet.se.
 is.			172800	IN	NS	durinn.rhnet.is.
