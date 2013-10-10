@@ -2882,8 +2882,8 @@ ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
 ro.			86400	IN	NSEC	rs. NS RRSIG NSEC
-dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:4001::53
-dns-at.rotld.ro.	172800	IN	A	193.171.255.54
+dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb::6
+dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-md.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:19
 dns-md.rotld.ro.	172800	IN	A	192.162.16.19
 primary.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:18
