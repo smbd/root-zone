@@ -2594,8 +2594,8 @@ ns6.dns.net.nz.		172800	IN	AAAA	2001:502:2eda::14
 ns6.dns.net.nz.		172800	IN	A	156.154.101.14
 ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns7.dns.net.nz.		172800	IN	A	194.146.106.54
-ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:4000:2::53
-ns99.dns.net.nz.	172800	IN	A	202.46.191.130
+ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
+ns99.dns.net.nz.	172800	IN	A	202.46.190.131
 iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
 om.			86400	IN	NSEC	org. NS RRSIG NSEC
 om.			172800	IN	NS	ns1.registry.om.
