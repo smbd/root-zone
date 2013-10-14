@@ -1551,7 +1551,7 @@ ns.camnet.com.kh.	172800	IN	A	203.223.32.3
 dns1.online.com.kh.	172800	IN	A	203.189.128.1
 ns.telesurf.com.kh.	172800	IN	A	203.144.65.3
 ns1.dns.net.kh.		172800	IN	A	203.223.32.21
-ki.			86400	IN	NSEC	km. NS RRSIG NSEC
+ki.			86400	IN	NSEC	km. NS DS RRSIG NSEC
 ki.			172800	IN	NS	ki1.dyntld.net.
 ki.			172800	IN	NS	ki3.dyntld.net.
 ki.			172800	IN	NS	pch.nic.ki.
@@ -2117,6 +2117,8 @@ ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
 ns2.barbadosdomain.net.	172800	IN	A	204.212.242.113
 ns17.cdns.net.		172800	IN	AAAA	2001:678:4::11
 ns17.cdns.net.		172800	IN	A	194.0.1.17
+ns30.cdns.net.		172800	IN	AAAA	2001:678:4::1e
+ns30.cdns.net.		172800	IN	A	194.0.1.30
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns.cernet.net.		172800	IN	A	202.112.0.44
@@ -3740,6 +3742,7 @@ xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	dns2.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns20.iij.ad.jp.
+xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
 xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS DS RRSIG NSEC
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
