@@ -1989,6 +1989,7 @@ my.			172800	IN	NS	ns5.jaring.my.
 my.			172800	IN	NS	ns6.jaring.my.
 my.			172800	IN	NS	dns2.mynic.net.my.
 my.			172800	IN	NS	ns20.iij.ad.jp.
+my.			172800	IN	NS	ns30.cdns.net.
 my.			172800	IN	NS	ns-my.nic.fr.
 ns5.jaring.my.		172800	IN	AAAA	2001:328:200:48::400
 ns5.jaring.my.		172800	IN	A	61.6.38.139
