@@ -1131,6 +1131,10 @@ gp.			172800	IN	NS	ns1.nic.gp.
 gp.			172800	IN	NS	ns1.orangecaraibe.com.
 ns1.nic.gp.		172800	IN	A	193.218.114.2
 gq.			86400	IN	NSEC	gr. NS RRSIG NSEC
+gq.			172800	IN	NS	a.gq.globalanycastcloud.freenom.net.
+gq.			172800	IN	NS	b.gq.globalanycastcloud.freenom.net.
+gq.			172800	IN	NS	c.gq.globalanycastcloud.freenom.net.
+gq.			172800	IN	NS	d.gq.globalanycastcloud.freenom.net.
 gq.			172800	IN	NS	ns.ucad.sn.
 gq.			172800	IN	NS	bow.intnet.gq.
 gq.			172800	IN	NS	dns.intnet.gq.
@@ -2214,6 +2218,14 @@ g.edu-servers.net.	172800	IN	A	192.42.93.30
 l.edu-servers.net.	172800	IN	A	192.41.162.30
 ns3.ns.esat.net.	172800	IN	AAAA	2001:7c8:2:a::64
 ns3.ns.esat.net.	172800	IN	A	192.111.39.100
+a.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:8::2
+a.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.168.34
+b.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:9::2
+b.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.169.34
+c.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:a::2
+c.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.170.34
+d.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:b::2
+d.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.34
 tld.gdns.net.		172800	IN	A	68.178.129.149
 news-tokyo.gip.net.	172800	IN	A	204.59.64.222
 ns2.gip.net.		172800	IN	A	204.59.1.222
