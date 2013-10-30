@@ -2248,13 +2248,6 @@ k.gtld-servers.net.	172800	IN	A	192.52.178.30
 l.gtld-servers.net.	172800	IN	A	192.41.162.30
 m.gtld-servers.net.	172800	IN	A	192.55.83.30
 osi2.gua.net.		172800	IN	A	205.161.188.3
-a.iana-servers.net.	172800	IN	AAAA	2001:500:8c::53
-a.iana-servers.net.	172800	IN	A	199.43.132.53
-b.iana-servers.net.	172800	IN	AAAA	2001:500:8d::53
-b.iana-servers.net.	172800	IN	A	199.43.133.53
-c.iana-servers.net.	172800	IN	AAAA	2001:500:8e::53
-c.iana-servers.net.	172800	IN	A	199.43.134.53
-test-ns.iana-servers.net. 172800 IN	AAAA	2001:4900:1:393::45
 anyc1.irondns.net.	172800	IN	AAAA	2a01:5b0:4::4
 anyc1.irondns.net.	172800	IN	A	195.253.64.4
 anyc2.irondns.net.	172800	IN	AAAA	2a01:5b0:4::7
@@ -3553,7 +3546,7 @@ wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
 wf.			172800	IN	NS	f.ext.nic.fr.
 wf.			172800	IN	NS	g.ext.nic.fr.
-ws.			86400	IN	NSEC	xn--0zwm56d. NS RRSIG NSEC
+ws.			86400	IN	NSEC	xn--3e0b707e. NS RRSIG NSEC
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
 ws.			172800	IN	NS	ns4.dns.ws.
@@ -3566,14 +3559,6 @@ ns4.dns.ws.		172800	IN	A	67.221.178.53
 ns5.dns.ws.		172800	IN	A	64.70.19.70
 ns6.dns.ws.		172800	IN	A	77.92.65.172
 ns7.dns.ws.		172800	IN	A	77.92.65.174
-xn--0zwm56d.		86400	IN	NSEC	xn--11b5bs3a9aj6g. NS DS RRSIG NSEC
-xn--0zwm56d.		172800	IN	NS	a.iana-servers.net.
-xn--0zwm56d.		172800	IN	NS	b.iana-servers.net.
-xn--0zwm56d.		172800	IN	NS	c.iana-servers.net.
-xn--11b5bs3a9aj6g.	86400	IN	NSEC	xn--3e0b707e. NS DS RRSIG NSEC
-xn--11b5bs3a9aj6g.	172800	IN	NS	a.iana-servers.net.
-xn--11b5bs3a9aj6g.	172800	IN	NS	b.iana-servers.net.
-xn--11b5bs3a9aj6g.	172800	IN	NS	c.iana-servers.net.
 xn--3e0b707e.		86400	IN	NSEC	xn--45brj9c. NS DS RRSIG NSEC
 xn--3e0b707e.		172800	IN	NS	b.dns.kr.
 xn--3e0b707e.		172800	IN	NS	c.dns.kr.
@@ -3581,7 +3566,7 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--45brj9c.		86400	IN	NSEC	xn--80akhbyknj4f. NS RRSIG NSEC
+xn--45brj9c.		86400	IN	NSEC	xn--80ao21a. NS RRSIG NSEC
 xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -3590,10 +3575,6 @@ xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--80akhbyknj4f.	86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
-xn--80akhbyknj4f.	172800	IN	NS	a.iana-servers.net.
-xn--80akhbyknj4f.	172800	IN	NS	b.iana-servers.net.
-xn--80akhbyknj4f.	172800	IN	NS	c.iana-servers.net.
 xn--80ao21a.		86400	IN	NSEC	xn--80asehdb. NS RRSIG NSEC
 xn--80ao21a.		172800	IN	NS	kz.cctld.authdns.ripe.net.
 xn--80ao21a.		172800	IN	NS	ns.nic.kz.
@@ -3607,26 +3588,18 @@ xn--80aswg.		172800	IN	NS	anycast9.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast10.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast23.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast24.irondns.net.
-xn--90a3ac.		86400	IN	NSEC	xn--9t4b11yi5a. NS RRSIG NSEC
+xn--90a3ac.		86400	IN	NSEC	xn--clchc0ea0b2g2a9gcd. NS RRSIG NSEC
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
-xn--9t4b11yi5a.		86400	IN	NSEC	xn--clchc0ea0b2g2a9gcd. NS DS RRSIG NSEC
-xn--9t4b11yi5a.		172800	IN	NS	a.iana-servers.net.
-xn--9t4b11yi5a.		172800	IN	NS	b.iana-servers.net.
-xn--9t4b11yi5a.		172800	IN	NS	c.iana-servers.net.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--deba0ad. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--fiqs8s. NS RRSIG NSEC
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
-xn--deba0ad.		86400	IN	NSEC	xn--fiqs8s. NS DS RRSIG NSEC
-xn--deba0ad.		172800	IN	NS	a.iana-servers.net.
-xn--deba0ad.		172800	IN	NS	b.iana-servers.net.
-xn--deba0ad.		172800	IN	NS	c.iana-servers.net.
 xn--fiqs8s.		86400	IN	NSEC	xn--fiqz9s. NS RRSIG NSEC
 xn--fiqs8s.		172800	IN	NS	h.dns.cn.
 xn--fiqs8s.		172800	IN	NS	i.dns.cn.
@@ -3648,7 +3621,7 @@ xn--fpcrj9c3d.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--fpcrj9c3d.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--fpcrj9c3d.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--fzc2c9e2c.		86400	IN	NSEC	xn--g6w251d. NS RRSIG NSEC
+xn--fzc2c9e2c.		86400	IN	NSEC	xn--gecrj9c. NS RRSIG NSEC
 xn--fzc2c9e2c.		172800	IN	NS	lk.communitydns.net.
 xn--fzc2c9e2c.		172800	IN	NS	nic.lk-anycast.pch.net.
 xn--fzc2c9e2c.		172800	IN	NS	ns1.ac.lk.
@@ -3657,10 +3630,6 @@ xn--fzc2c9e2c.		172800	IN	NS	ns-c.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-d.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-l.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-t.nic.lk.
-xn--g6w251d.		86400	IN	NSEC	xn--gecrj9c. NS DS RRSIG NSEC
-xn--g6w251d.		172800	IN	NS	a.iana-servers.net.
-xn--g6w251d.		172800	IN	NS	b.iana-servers.net.
-xn--g6w251d.		172800	IN	NS	c.iana-servers.net.
 xn--gecrj9c.		86400	IN	NSEC	xn--h2brj9c. NS RRSIG NSEC
 xn--gecrj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
@@ -3670,7 +3639,7 @@ xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--h2brj9c.		86400	IN	NSEC	xn--hgbk6aj7f53bba. NS DS RRSIG NSEC
+xn--h2brj9c.		86400	IN	NSEC	xn--j1amh. NS DS RRSIG NSEC
 xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -3679,21 +3648,13 @@ xn--h2brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--h2brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--hgbk6aj7f53bba.	86400	IN	NSEC	xn--hlcj6aya9esc7a. NS DS RRSIG NSEC
-xn--hgbk6aj7f53bba.	172800	IN	NS	a.iana-servers.net.
-xn--hgbk6aj7f53bba.	172800	IN	NS	b.iana-servers.net.
-xn--hgbk6aj7f53bba.	172800	IN	NS	c.iana-servers.net.
-xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j1amh. NS DS RRSIG NSEC
-xn--hlcj6aya9esc7a.	172800	IN	NS	a.iana-servers.net.
-xn--hlcj6aya9esc7a.	172800	IN	NS	b.iana-servers.net.
-xn--hlcj6aya9esc7a.	172800	IN	NS	c.iana-servers.net.
 xn--j1amh.		86400	IN	NSEC	xn--j6w193g. NS RRSIG NSEC
 xn--j1amh.		172800	IN	NS	nsi.uanic.net.
 xn--j1amh.		172800	IN	NS	dns1.u-registry.com.
 xn--j1amh.		172800	IN	NS	dns2.u-registry.net.
 xn--j1amh.		172800	IN	NS	dns3.dotukr.com.
 xn--j1amh.		172800	IN	NS	tier1.num.net.ua.
-xn--j6w193g.		86400	IN	NSEC	xn--jxalpdlp. NS RRSIG NSEC
+xn--j6w193g.		86400	IN	NSEC	xn--kprw13d. NS RRSIG NSEC
 xn--j6w193g.		172800	IN	NS	a.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	b.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	s.hkirc.net.hk.
@@ -3704,15 +3665,6 @@ xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	x.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
-xn--jxalpdlp.		86400	IN	NSEC	xn--kgbechtv. NS DS RRSIG NSEC
-xn--jxalpdlp.		172800	IN	NS	a.iana-servers.net.
-xn--jxalpdlp.		172800	IN	NS	b.iana-servers.net.
-xn--jxalpdlp.		172800	IN	NS	c.iana-servers.net.
-xn--jxalpdlp.		172800	IN	NS	test-ns.iana-servers.net.
-xn--kgbechtv.		86400	IN	NSEC	xn--kprw13d. NS DS RRSIG NSEC
-xn--kgbechtv.		172800	IN	NS	a.iana-servers.net.
-xn--kgbechtv.		172800	IN	NS	b.iana-servers.net.
-xn--kgbechtv.		172800	IN	NS	c.iana-servers.net.
 xn--kprw13d.		86400	IN	NSEC	xn--kpry57d. NS DS RRSIG NSEC
 xn--kprw13d.		172800	IN	NS	d.dns.tw.
 xn--kprw13d.		172800	IN	NS	e.dns.tw.
@@ -3871,16 +3823,11 @@ xn--yfro4i67o.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--yfro4i67o.		172800	IN	NS	sec3.apnic.net.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	sg-ns.anycast.pch.net.
-xn--ygbi2ammx.		86400	IN	NSEC	xn--zckzah. NS RRSIG NSEC
+xn--ygbi2ammx.		86400	IN	NSEC	xxx. NS RRSIG NSEC
 xn--ygbi2ammx.		172800	IN	NS	idn.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	ns1.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	dns1.gov.ps.
 xn--ygbi2ammx.		172800	IN	NS	dns3.gov.ps.
-xn--zckzah.		86400	IN	NSEC	xxx. NS DS RRSIG NSEC
-xn--zckzah.		172800	IN	NS	a.iana-servers.net.
-xn--zckzah.		172800	IN	NS	b.iana-servers.net.
-xn--zckzah.		172800	IN	NS	c.iana-servers.net.
-xn--zckzah.		172800	IN	NS	test-ns.iana-servers.net.
 xxx.			86400	IN	NSEC	ye. NS RRSIG NSEC
 xxx.			172800	IN	NS	a0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	a2.xxx.afilias-nst.info.
