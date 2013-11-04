@@ -1713,6 +1713,7 @@ lt.			172800	IN	NS	b.tld.lt.
 lt.			172800	IN	NS	c.tld.lt.
 lt.			172800	IN	NS	d.tld.lt.
 lt.			172800	IN	NS	e.tld.lt.
+lt.			172800	IN	NS	f.tld.lt.
 a.tld.lt.		172800	IN	A	195.8.218.131
 b.tld.lt.		172800	IN	AAAA	2001:678:19::1
 b.tld.lt.		172800	IN	A	194.0.20.1
@@ -1721,6 +1722,8 @@ c.tld.lt.		172800	IN	A	194.0.1.4
 d.tld.lt.		172800	IN	AAAA	2001:678:6::1
 d.tld.lt.		172800	IN	A	194.0.3.1
 e.tld.lt.		172800	IN	A	194.0.18.1
+f.tld.lt.		172800	IN	AAAA	2001:678:8c::1
+f.tld.lt.		172800	IN	A	194.0.19.1
 lu.			86400	IN	NSEC	lv. NS DS RRSIG NSEC
 lu.			172800	IN	NS	g.dns.lu.
 lu.			172800	IN	NS	i.dns.lu.
