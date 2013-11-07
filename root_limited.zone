@@ -1292,7 +1292,7 @@ hu.			172800	IN	NS	ns.nic.hu.
 hu.			172800	IN	NS	ns2.nic.fr.
 hu.			172800	IN	NS	ns-com.nic.hu.
 b.hu.			172800	IN	AAAA	2001:738:4:4000::3
-b.hu.			172800	IN	A	193.239.149.3
+b.hu.			172800	IN	A	193.239.149.161
 c.hu.			172800	IN	A	193.6.16.1
 d.hu.			172800	IN	A	195.70.35.250
 e.hu.			172800	IN	AAAA	2001:678:20::11
