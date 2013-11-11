@@ -590,7 +590,7 @@ cn.			172800	IN	NS	c.dns.cn.
 cn.			172800	IN	NS	d.dns.cn.
 cn.			172800	IN	NS	e.dns.cn.
 cn.			172800	IN	NS	ns.cernet.net.
-cn.			86400	IN	NSEC	co. NS RRSIG NSEC
+cn.			86400	IN	NSEC	co. NS DS RRSIG NSEC
 a.dns.cn.		172800	IN	AAAA	2001:dc7::1
 a.dns.cn.		172800	IN	A	203.119.25.1
 b.dns.cn.		172800	IN	A	203.119.26.1
