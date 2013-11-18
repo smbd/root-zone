@@ -805,7 +805,7 @@ de.			172800	IN	NS	l.de.net.
 de.			172800	IN	NS	n.de.net.
 de.			172800	IN	NS	s.de.net.
 de.			172800	IN	NS	z.nic.de.
-de.			86400	IN	NSEC	dj. NS DS RRSIG NSEC
+de.			86400	IN	NSEC	diamonds. NS DS RRSIG NSEC
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
 dns7.denic.de.		172800	IN	A	81.91.161.68
 grdns-de.denic.de.	172800	IN	A	81.91.161.80
@@ -818,6 +818,16 @@ f.nic.de.		172800	IN	AAAA	2a02:568:0:2::53
 f.nic.de.		172800	IN	A	81.91.164.5
 nsc.nic.de.		172800	IN	A	81.91.161.84
 z.nic.de.		172800	IN	A	194.246.96.1
+diamonds.		86400	IN	NSEC	directory. NS DS RRSIG NSEC
+diamonds.		172800	IN	NS	demand.beta.aridns.net.au.
+diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
+diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
+diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
+directory.		86400	IN	NSEC	dj. NS DS RRSIG NSEC
+directory.		172800	IN	NS	demand.beta.aridns.net.au.
+directory.		172800	IN	NS	demand.alpha.aridns.net.au.
+directory.		172800	IN	NS	demand.delta.aridns.net.au.
+directory.		172800	IN	NS	demand.gamma.aridns.net.au.
 dj.			86400	IN	NSEC	dk. NS RRSIG NSEC
 dj.			172800	IN	NS	bow.rain.fr.
 dj.			172800	IN	NS	bow.intnet.dj.
@@ -924,11 +934,16 @@ ns.ut.ee.		172800	IN	A	193.40.5.99
 eg.			172800	IN	NS	ns5.univie.ac.at.
 eg.			172800	IN	NS	rip.psg.com.
 eg.			172800	IN	NS	frcu.eun.eg.
-eg.			86400	IN	NSEC	equipment. NS RRSIG NSEC
+eg.			86400	IN	NSEC	enterprises. NS RRSIG NSEC
 ns1.dotmasr.eg.		172800	IN	A	81.21.97.155
 ns2.dotmasr.eg.		172800	IN	A	81.21.99.11
 ns3.dotmasr.eg.		172800	IN	A	81.10.38.11
 frcu.eun.eg.		172800	IN	A	193.227.1.1
+enterprises.		86400	IN	NSEC	equipment. NS DS RRSIG NSEC
+enterprises.		172800	IN	NS	demand.beta.aridns.net.au.
+enterprises.		172800	IN	NS	demand.alpha.aridns.net.au.
+enterprises.		172800	IN	NS	demand.delta.aridns.net.au.
+enterprises.		172800	IN	NS	demand.gamma.aridns.net.au.
 equipment.		86400	IN	NSEC	er. NS DS RRSIG NSEC
 equipment.		172800	IN	NS	demand.beta.aridns.net.au.
 equipment.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1622,13 +1637,18 @@ ns.camnet.com.kh.	172800	IN	A	203.223.32.3
 dns1.online.com.kh.	172800	IN	A	203.189.128.1
 ns.telesurf.com.kh.	172800	IN	A	203.144.65.3
 ns1.dns.net.kh.		172800	IN	A	203.223.32.21
-ki.			86400	IN	NSEC	km. NS DS RRSIG NSEC
+ki.			86400	IN	NSEC	kitchen. NS DS RRSIG NSEC
 ki.			172800	IN	NS	ki1.dyntld.net.
 ki.			172800	IN	NS	ki3.dyntld.net.
 ki.			172800	IN	NS	pch.nic.ki.
 ki.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad::1
 pch.nic.ki.		172800	IN	A	204.61.216.26
+kitchen.		86400	IN	NSEC	km. NS DS RRSIG NSEC
+kitchen.		172800	IN	NS	demand.beta.aridns.net.au.
+kitchen.		172800	IN	NS	demand.alpha.aridns.net.au.
+kitchen.		172800	IN	NS	demand.delta.aridns.net.au.
+kitchen.		172800	IN	NS	demand.gamma.aridns.net.au.
 km.			86400	IN	NSEC	kn. NS RRSIG NSEC
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
@@ -2813,12 +2833,17 @@ pg.			172800	IN	NS	munnari.oz.au.
 ns1.unitech.ac.pg.	172800	IN	A	202.1.32.49
 ns1.tiare.net.pg.	172800	IN	A	202.165.192.23
 ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
-ph.			86400	IN	NSEC	pk. NS RRSIG NSEC
+ph.			86400	IN	NSEC	photography. NS RRSIG NSEC
 ph.			172800	IN	NS	ph.cctld.authdns.ripe.net.
 ph.			172800	IN	NS	ph.communitydns.net.
 ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	sec4.apnic.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
+photography.		86400	IN	NSEC	pk. NS DS RRSIG NSEC
+photography.		172800	IN	NS	demand.beta.aridns.net.au.
+photography.		172800	IN	NS	demand.alpha.aridns.net.au.
+photography.		172800	IN	NS	demand.delta.aridns.net.au.
+photography.		172800	IN	NS	demand.gamma.aridns.net.au.
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
 pk.			172800	IN	NS	root-b.cloud9global.net.
 pk.			172800	IN	NS	root-p.pknic.pk.
@@ -3303,7 +3328,7 @@ tg.			172800	IN	NS	ns4.admin.net.
 tg.			172800	IN	NS	ns5.admin.net.
 tg.			172800	IN	NS	tld.cafe.tg.
 tld.cafe.tg.		172800	IN	A	80.248.64.20
-th.			86400	IN	NSEC	tj. NS DS RRSIG NSEC
+th.			86400	IN	NSEC	tips. NS DS RRSIG NSEC
 th.			172800	IN	NS	ns.thnic.net.
 th.			172800	IN	NS	th.cctld.authdns.ripe.net.
 th.			172800	IN	NS	ams.sns-pb.isc.org.
@@ -3316,6 +3341,11 @@ dns1.thnic.co.th.	172800	IN	A	202.28.1.22
 ns-a.thnic.co.th.	172800	IN	A	61.19.242.38
 ns-e.thnic.co.th.	172800	IN	AAAA	2001:678:4::1c
 ns-e.thnic.co.th.	172800	IN	A	194.0.1.28
+tips.			86400	IN	NSEC	tj. NS DS RRSIG NSEC
+tips.			172800	IN	NS	demand.beta.aridns.net.au.
+tips.			172800	IN	NS	demand.alpha.aridns.net.au.
+tips.			172800	IN	NS	demand.delta.aridns.net.au.
+tips.			172800	IN	NS	demand.gamma.aridns.net.au.
 tj.			86400	IN	NSEC	tk. NS RRSIG NSEC
 tj.			172800	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			172800	IN	NS	ns1.nic.tj.
@@ -3366,7 +3396,7 @@ ns8.ati.tn.		172800	IN	AAAA	2001:4350:1:1::6
 ns8.ati.tn.		172800	IN	A	193.95.66.6
 ns9.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::26
 ns9.ati.tn.		172800	IN	A	193.95.67.26
-to.			86400	IN	NSEC	tp. NS RRSIG NSEC
+to.			86400	IN	NSEC	today. NS RRSIG NSEC
 to.			172800	IN	NS	to.cctld.authdns.ripe.net.
 to.			172800	IN	NS	ns1.iafrica.com.
 to.			172800	IN	NS	colo.to.
@@ -3374,6 +3404,11 @@ to.			172800	IN	NS	tonic.to.
 to.			172800	IN	NS	auth02.ns.uu.net.
 colo.to.		172800	IN	A	216.74.32.104
 tonic.to.		172800	IN	A	216.74.32.100
+today.			86400	IN	NSEC	tp. NS DS RRSIG NSEC
+today.			172800	IN	NS	demand.beta.aridns.net.au.
+today.			172800	IN	NS	demand.alpha.aridns.net.au.
+today.			172800	IN	NS	demand.delta.aridns.net.au.
+today.			172800	IN	NS	demand.gamma.aridns.net.au.
 tp.			86400	IN	NSEC	tr. NS RRSIG NSEC
 tp.			172800	IN	NS	tp.cctld.authdns.ripe.net.
 tp.			172800	IN	NS	ns3.ns.esat.net.
