@@ -648,6 +648,16 @@ ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:fe00::2
 ns.blacknightsolutions.com. 172800 IN	A	217.114.173.6
 ns2.blacknightsolutions.com. 172800 IN	AAAA	2001:1bc0:ab:3::2
 ns2.blacknightsolutions.com. 172800 IN	A	82.96.97.64
+ns-tld1.charlestonroadregistry.com. 172800 IN AAAA 2001:4860:4802:32::69
+ns-tld1.charlestonroadregistry.com. 172800 IN A	216.239.32.105
+ns-tld2.charlestonroadregistry.com. 172800 IN AAAA 2001:4860:4802:34::69
+ns-tld2.charlestonroadregistry.com. 172800 IN A	216.239.34.105
+ns-tld3.charlestonroadregistry.com. 172800 IN AAAA 2001:4860:4802:36::69
+ns-tld3.charlestonroadregistry.com. 172800 IN A	216.239.36.105
+ns-tld4.charlestonroadregistry.com. 172800 IN AAAA 2001:4860:4802:38::69
+ns-tld4.charlestonroadregistry.com. 172800 IN A	216.239.38.105
+ns-tld5.charlestonroadregistry.com. 172800 IN AAAA 2001:4860:4805::69
+ns-tld5.charlestonroadregistry.com. 172800 IN A	216.239.60.105
 uucp-gw-1.pa.dec.com.	172800	IN	A	204.123.2.18
 uucp-gw-2.pa.dec.com.	172800	IN	A	204.123.2.19
 dns3.dotukr.com.	172800	IN	AAAA	2001:41d0:a:2b1f::1
@@ -3907,13 +3917,19 @@ xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
-xn--pgbs0dh.		86400	IN	NSEC	xn--s9brj9c. NS RRSIG NSEC
+xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS RRSIG NSEC
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
 xn--pgbs0dh.		172800	IN	NS	ns8.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns9.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
+xn--q9jyb4c.		86400	IN	NSEC	xn--s9brj9c. NS DS RRSIG NSEC
+xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+xn--q9jyb4c.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+xn--q9jyb4c.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+xn--q9jyb4c.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+xn--q9jyb4c.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 xn--s9brj9c.		86400	IN	NSEC	xn--unup4y. NS RRSIG NSEC
 xn--s9brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
