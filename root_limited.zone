@@ -795,7 +795,6 @@ cz.			172800	IN	NS	a.ns.nic.cz.
 cz.			172800	IN	NS	b.ns.nic.cz.
 cz.			172800	IN	NS	c.ns.nic.cz.
 cz.			172800	IN	NS	d.ns.nic.cz.
-cz.			172800	IN	NS	f.ns.nic.cz.
 cz.			86400	IN	NSEC	de. NS DS RRSIG NSEC
 d.ext.nic.cz.		172800	IN	AAAA	2001:678:1::2
 d.ext.nic.cz.		172800	IN	A	193.29.206.2
@@ -807,8 +806,6 @@ c.ns.nic.cz.		172800	IN	AAAA	2001:678:11::1
 c.ns.nic.cz.		172800	IN	A	194.0.14.1
 d.ns.nic.cz.		172800	IN	AAAA	2001:678:1::1
 d.ns.nic.cz.		172800	IN	A	193.29.206.1
-f.ns.nic.cz.		172800	IN	AAAA	2001:628:453:420::48
-f.ns.nic.cz.		172800	IN	A	193.171.255.48
 de.			172800	IN	NS	a.nic.de.
 de.			172800	IN	NS	f.nic.de.
 de.			172800	IN	NS	l.de.net.
@@ -1423,7 +1420,8 @@ in.			172800	IN	NS	b1.in.afilias-nst.in.
 in.			172800	IN	NS	b2.in.afilias-nst.org.
 in.			172800	IN	NS	c0.in.afilias-nst.info.
 in.			172800	IN	NS	ns7.cdns.net.
-a1.in.afilias-nst.in.	172800	IN	A	220.226.100.30
+a1.in.afilias-nst.in.	172800	IN	AAAA	2001:4528:fff:13::142
+a1.in.afilias-nst.in.	172800	IN	A	115.249.164.142
 b1.in.afilias-nst.in.	172800	IN	AAAA	2404:a800:2:1e::19:90
 b1.in.afilias-nst.in.	172800	IN	A	125.19.40.90
 info.			172800	IN	NS	a0.info.afilias-nst.info.
