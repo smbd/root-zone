@@ -3752,13 +3752,13 @@ xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
-xn--fiqs8s.		86400	IN	NSEC	xn--fiqz9s. NS RRSIG NSEC
+xn--fiqs8s.		86400	IN	NSEC	xn--fiqz9s. NS DS RRSIG NSEC
 xn--fiqs8s.		172800	IN	NS	h.dns.cn.
 xn--fiqs8s.		172800	IN	NS	i.dns.cn.
 xn--fiqs8s.		172800	IN	NS	j.dns.cn.
 xn--fiqs8s.		172800	IN	NS	k.dns.cn.
 xn--fiqs8s.		172800	IN	NS	l.dns.cn.
-xn--fiqz9s.		86400	IN	NSEC	xn--fpcrj9c3d. NS RRSIG NSEC
+xn--fiqz9s.		86400	IN	NSEC	xn--fpcrj9c3d. NS DS RRSIG NSEC
 xn--fiqz9s.		172800	IN	NS	h.dns.cn.
 xn--fiqz9s.		172800	IN	NS	i.dns.cn.
 xn--fiqz9s.		172800	IN	NS	j.dns.cn.
