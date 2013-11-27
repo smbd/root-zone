@@ -2911,7 +2911,9 @@ pr.			172800	IN	NS	descartes.nic.pr.
 pr.			86400	IN	NSEC	pro. NS DS RRSIG NSEC
 descartes.nic.pr.	172800	IN	A	134.202.1.120
 do-dns.nic.pr.		172800	IN	A	134.202.1.121
+golomb.nic.pr.		172800	IN	AAAA	2001:500:10::6:100
 golomb.nic.pr.		172800	IN	A	134.202.6.100
+pascal.nic.pr.		172800	IN	AAAA	2001:500:10::120
 pascal.nic.pr.		172800	IN	A	134.202.0.120
 pro.			86400	IN	NSEC	ps. NS RRSIG NSEC
 pro.			172800	IN	NS	a0.pro.afilias-nst.info.
