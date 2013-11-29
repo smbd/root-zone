@@ -1891,7 +1891,7 @@ md.			172800	IN	NS	ns-int.dns.md.
 ns-int.dns.md.		172800	IN	A	217.26.144.5
 nsb.dns.md.		172800	IN	A	217.26.144.15
 nsc.dns.md.		172800	IN	A	95.65.9.3
-me.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
+me.			86400	IN	NSEC	menu. NS DS RRSIG NSEC
 me.			172800	IN	NS	a0.cctld.afilias-nst.info.
 me.			172800	IN	NS	a2.me.afilias-nst.info.
 me.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -1902,6 +1902,19 @@ me.			172800	IN	NS	ns.nic.me.
 me.			172800	IN	NS	ns2.nic.me.
 ns.nic.me.		172800	IN	A	89.188.44.44
 ns2.nic.me.		172800	IN	A	89.188.44.88
+menu.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
+menu.			172800	IN	NS	a.nic.menu.
+menu.			172800	IN	NS	b.nic.menu.
+menu.			172800	IN	NS	c.nic.menu.
+menu.			172800	IN	NS	d.nic.menu.
+a.nic.menu.		172800	IN	AAAA	2001:dcd:1::10
+a.nic.menu.		172800	IN	A	37.209.192.10
+b.nic.menu.		172800	IN	AAAA	2001:dcd:2::10
+b.nic.menu.		172800	IN	A	37.209.194.10
+c.nic.menu.		172800	IN	AAAA	2001:dcd:3::10
+c.nic.menu.		172800	IN	A	37.209.196.10
+d.nic.menu.		172800	IN	AAAA	2001:dcd:4::10
+d.nic.menu.		172800	IN	A	37.209.198.10
 mg.			86400	IN	NSEC	mh. NS RRSIG NSEC
 mg.			172800	IN	NS	mg.cctld.authdns.ripe.net.
 mg.			172800	IN	NS	ns.dts.mg.
@@ -3552,7 +3565,7 @@ uk.			172800	IN	NS	nsa.nic.uk.
 uk.			172800	IN	NS	nsb.nic.uk.
 uk.			172800	IN	NS	nsc.nic.uk.
 uk.			172800	IN	NS	nsd.nic.uk.
-uk.			86400	IN	NSEC	us. NS DS RRSIG NSEC
+uk.			86400	IN	NSEC	uno. NS DS RRSIG NSEC
 ns1.cs.ucl.ac.uk.	172800	IN	A	128.16.5.32
 barney.advsys.co.uk.	172800	IN	A	217.23.160.50
 ns3.icb.co.uk.		172800	IN	A	91.208.95.130
@@ -3571,6 +3584,28 @@ nsa.nic.uk.		172800	IN	A	156.154.100.3
 nsb.nic.uk.		172800	IN	A	156.154.101.3
 nsc.nic.uk.		172800	IN	A	156.154.102.3
 nsd.nic.uk.		172800	IN	A	156.154.103.3
+uno.			86400	IN	NSEC	us. NS DS RRSIG NSEC
+uno.			172800	IN	NS	ns1.gtld.uno.
+uno.			172800	IN	NS	ns2.gtld.uno.
+uno.			172800	IN	NS	ns3.gtld.uno.
+uno.			172800	IN	NS	ns4.gtld.uno.
+uno.			172800	IN	NS	ns5.gtld.uno.
+uno.			172800	IN	NS	ns6.gtld.uno.
+uno.			172800	IN	NS	ns7.gtld.uno.
+ns1.gtld.uno.		172800	IN	AAAA	2610:a1:1071::ad
+ns1.gtld.uno.		172800	IN	A	156.154.144.173
+ns2.gtld.uno.		172800	IN	AAAA	2610:a1:1072::ad
+ns2.gtld.uno.		172800	IN	A	156.154.145.173
+ns3.gtld.uno.		172800	IN	AAAA	2610:a1:1073::ad
+ns3.gtld.uno.		172800	IN	A	156.154.159.173
+ns4.gtld.uno.		172800	IN	AAAA	2610:a1:1074::ad
+ns4.gtld.uno.		172800	IN	A	156.154.156.173
+ns5.gtld.uno.		172800	IN	AAAA	2610:a1:1075::ad
+ns5.gtld.uno.		172800	IN	A	156.154.157.173
+ns6.gtld.uno.		172800	IN	AAAA	2610:a1:1076::ad
+ns6.gtld.uno.		172800	IN	A	156.154.158.173
+ns7.gtld.uno.		172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+ns7.gtld.uno.		172800	IN	A	207.34.5.10
 us.			86400	IN	NSEC	uy. NS DS RRSIG NSEC
 us.			172800	IN	NS	a.cctld.us.
 us.			172800	IN	NS	b.cctld.us.
