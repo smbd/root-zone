@@ -2271,6 +2271,7 @@ cl1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:8::53
 cl1.dnsnode.net.	172800	IN	A	194.146.106.34
 nl1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:10::53
 nl1.dnsnode.net.	172800	IN	A	194.146.106.42
+pe1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:20::53
 pe1.dnsnode.net.	172800	IN	A	194.146.106.82
 fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306::53
 fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
@@ -2836,10 +2837,13 @@ ns.nic.pa.		172800	IN	A	168.77.8.4
 ns.pa.			172800	IN	A	168.77.8.2
 ns2.pa.			172800	IN	A	168.77.8.7
 pe.			86400	IN	NSEC	pf. NS RRSIG NSEC
+pe.			172800	IN	NS	pch.rcp.pe.
 pe.			172800	IN	NS	pe1.dnsnode.net.
 pe.			172800	IN	NS	quipu.rcp.net.pe.
 pe.			172800	IN	NS	sns-pb.isc.org.
 quipu.rcp.net.pe.	172800	IN	A	200.1.176.4
+pch.rcp.pe.		172800	IN	AAAA	2001:500:14:6085:ad::1
+pch.rcp.pe.		172800	IN	A	204.61.216.85
 pf.			86400	IN	NSEC	pg. NS RRSIG NSEC
 pf.			172800	IN	NS	ns1.mana.pf.
 pf.			172800	IN	NS	ns2.mana.pf.
