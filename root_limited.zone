@@ -1284,7 +1284,7 @@ hk.			172800	IN	NS	x.hkirc.net.hk.
 hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
 hk.			86400	IN	NSEC	hm. NS RRSIG NSEC
-ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:60::21
+ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:6::15
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 a.hkirc.net.hk.		172800	IN	A	203.119.2.18
 b.hkirc.net.hk.		172800	IN	AAAA	2001:dca:1000::cb77:5713
