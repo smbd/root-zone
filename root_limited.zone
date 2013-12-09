@@ -924,7 +924,6 @@ ee.			172800	IN	NS	ee.aso.ee.
 ee.			172800	IN	NS	ns.ut.ee.
 ee.			172800	IN	NS	ns.tld.ee.
 ee.			172800	IN	NS	ns.eenet.ee.
-ee.			172800	IN	NS	ns.uninet.ee.
 ee.			172800	IN	NS	sunic.sunet.se.
 ee.aso.ee.		172800	IN	AAAA	2a02:88:0:21::2
 ee.aso.ee.		172800	IN	A	213.184.51.122
@@ -935,8 +934,6 @@ b.tld.ee.		172800	IN	A	194.146.106.110
 e.tld.ee.		172800	IN	AAAA	2001:678:94:53::53
 e.tld.ee.		172800	IN	A	204.61.216.36
 ns.tld.ee.		172800	IN	A	195.43.87.10
-ns.uninet.ee.		172800	IN	AAAA	2001:1530:60:10::1
-ns.uninet.ee.		172800	IN	A	194.204.0.1
 ns.ut.ee.		172800	IN	A	193.40.5.99
 eg.			172800	IN	NS	ns5.univie.ac.at.
 eg.			172800	IN	NS	rip.psg.com.
@@ -3068,12 +3065,17 @@ k.nic.rs.		172800	IN	AAAA	2001:500:2e::1
 k.nic.rs.		172800	IN	A	192.5.4.1
 l.nic.rs.		172800	IN	AAAA	2001:67c:1010:29::53
 l.nic.rs.		172800	IN	A	194.146.106.114
-ru.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
+ru.			86400	IN	NSEC	ruhr. NS DS RRSIG NSEC
 ru.			172800	IN	NS	a.dns.ripn.net.
 ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
+ruhr.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
+ruhr.			172800	IN	NS	anycast9.irondns.net.
+ruhr.			172800	IN	NS	anycast10.irondns.net.
+ruhr.			172800	IN	NS	anycast23.irondns.net.
+ruhr.			172800	IN	NS	anycast24.irondns.net.
 rw.			86400	IN	NSEC	sa. NS RRSIG NSEC
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
