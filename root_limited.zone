@@ -451,18 +451,18 @@ bz.			172800	IN	NS	b0.cctld.afilias-nst.org.
 bz.			172800	IN	NS	b2.cctld.afilias-nst.org.
 bz.			172800	IN	NS	c0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	d0.cctld.afilias-nst.org.
-ca.			172800	IN	NS	a.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
 ca.			172800	IN	NS	k.ca-servers.ca.
 ca.			172800	IN	NS	l.ca-servers.ca.
 ca.			172800	IN	NS	z.ca-servers.ca.
+ca.			172800	IN	NS	any.ca-servers.ca.
 ca.			172800	IN	NS	tld.isc-sns.net.
 ca.			172800	IN	NS	sns-pb.isc.org.
 ca.			86400	IN	NSEC	camera. NS DS RRSIG NSEC
-a.ca-servers.ca.	172800	IN	AAAA	2001:500:80:5000::2
-a.ca-servers.ca.	172800	IN	A	199.253.251.2
+any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
+any.ca-servers.ca.	172800	IN	A	199.4.144.2
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
 e.ca-servers.ca.	172800	IN	A	192.228.30.9
 j.ca-servers.ca.	172800	IN	AAAA	2001:500:83::1
