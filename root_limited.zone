@@ -414,7 +414,7 @@ bs.			172800	IN	NS	dns.nic.bs.
 bs.			172800	IN	NS	upr1.upr.clu.edu.
 bs.			172800	IN	NS	anyns.pch.net.
 dns.nic.bs.		172800	IN	A	206.48.3.168
-bt.			86400	IN	NSEC	bv. NS RRSIG NSEC
+bt.			86400	IN	NSEC	buzz. NS RRSIG NSEC
 bt.			172800	IN	NS	bt.cctld.authdns.ripe.net.
 bt.			172800	IN	NS	ns.itu.ch.
 bt.			172800	IN	NS	ns1.druknet.bt.
@@ -428,6 +428,28 @@ ns2.druknet.bt.		172800	IN	AAAA	2405:d000:0:100::210
 ns2.druknet.bt.		172800	IN	A	202.144.128.210
 ns3.druknet.bt.		172800	IN	AAAA	2001:500:14:6017:ad::1
 ns3.druknet.bt.		172800	IN	A	204.61.216.17
+buzz.			86400	IN	NSEC	bv. NS DS RRSIG NSEC
+buzz.			172800	IN	NS	ns1.dns.nic.buzz.
+buzz.			172800	IN	NS	ns2.dns.nic.buzz.
+buzz.			172800	IN	NS	ns3.dns.nic.buzz.
+buzz.			172800	IN	NS	ns4.dns.nic.buzz.
+buzz.			172800	IN	NS	ns5.dns.nic.buzz.
+buzz.			172800	IN	NS	ns6.dns.nic.buzz.
+buzz.			172800	IN	NS	ns7.dns.nic.buzz.
+ns1.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1071::1d
+ns1.dns.nic.buzz.	172800	IN	A	156.154.144.29
+ns2.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1072::1d
+ns2.dns.nic.buzz.	172800	IN	A	156.154.145.29
+ns3.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1073::1d
+ns3.dns.nic.buzz.	172800	IN	A	156.154.159.29
+ns4.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1074::1d
+ns4.dns.nic.buzz.	172800	IN	A	156.154.156.29
+ns5.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1075::1d
+ns5.dns.nic.buzz.	172800	IN	A	156.154.157.29
+ns6.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1076::1d
+ns6.dns.nic.buzz.	172800	IN	A	156.154.158.29
+ns7.dns.nic.buzz.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+ns7.dns.nic.buzz.	172800	IN	A	207.34.5.10
 bv.			86400	IN	NSEC	bw. NS RRSIG NSEC
 bv.			172800	IN	NS	nn.uninett.no.
 bv.			172800	IN	NS	nac.no.
@@ -3340,9 +3362,14 @@ su.			172800	IN	NS	b.dns.ripn.net.
 su.			172800	IN	NS	d.dns.ripn.net.
 su.			172800	IN	NS	e.dns.ripn.net.
 su.			172800	IN	NS	f.dns.ripn.net.
-su.			86400	IN	NSEC	sv. NS DS RRSIG NSEC
+su.			86400	IN	NSEC	support. NS DS RRSIG NSEC
 ns.demos.su.		172800	IN	A	194.87.0.8
 ns.demos.su.		172800	IN	A	194.87.0.9
+support.		86400	IN	NSEC	sv. NS DS RRSIG NSEC
+support.		172800	IN	NS	demand.beta.aridns.net.au.
+support.		172800	IN	NS	demand.alpha.aridns.net.au.
+support.		172800	IN	NS	demand.delta.aridns.net.au.
+support.		172800	IN	NS	demand.gamma.aridns.net.au.
 sv.			86400	IN	NSEC	sx. NS RRSIG NSEC
 sv.			172800	IN	NS	ns.cr.
 sv.			172800	IN	NS	ns.uu.net.
