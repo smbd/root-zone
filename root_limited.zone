@@ -988,7 +988,7 @@ dns.princeton.edu.	172800	IN	A	128.112.129.15
 pendragon.cs.purdue.edu. 172800	IN	A	128.10.2.5
 phloem.uoregon.edu.	172800	IN	AAAA	2001:468:d01:20::80df:2023
 phloem.uoregon.edu.	172800	IN	A	128.223.32.35
-ee.			86400	IN	NSEC	eg. NS RRSIG NSEC
+ee.			86400	IN	NSEC	eg. NS DS RRSIG NSEC
 ee.			172800	IN	NS	b.tld.ee.
 ee.			172800	IN	NS	e.tld.ee.
 ee.			172800	IN	NS	ee.aso.ee.
@@ -2822,7 +2822,7 @@ om.			172800	IN	NS	cctld.beta.aridns.net.au.
 om.			172800	IN	NS	cctld.alpha.aridns.net.au.
 om.			172800	IN	NS	cctld.delta.aridns.net.au.
 om.			172800	IN	NS	cctld.gamma.aridns.net.au.
-ns1.registry.om.	172800	IN	A	212.72.15.101
+ns1.registry.om.	172800	IN	A	185.27.90.101
 ns2.registry.om.	172800	IN	A	185.27.91.69
 org.			172800	IN	NS	a0.org.afilias-nst.info.
 org.			172800	IN	NS	a2.org.afilias-nst.info.
