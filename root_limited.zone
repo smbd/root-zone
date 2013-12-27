@@ -415,7 +415,7 @@ bs.			172800	IN	NS	dns.nic.bs.
 bs.			172800	IN	NS	upr1.upr.clu.edu.
 bs.			172800	IN	NS	anyns.pch.net.
 dns.nic.bs.		172800	IN	A	206.48.3.168
-bt.			86400	IN	NSEC	buzz. NS RRSIG NSEC
+bt.			86400	IN	NSEC	builders. NS RRSIG NSEC
 bt.			172800	IN	NS	bt.cctld.authdns.ripe.net.
 bt.			172800	IN	NS	ns.itu.ch.
 bt.			172800	IN	NS	ns1.druknet.bt.
@@ -429,6 +429,11 @@ ns2.druknet.bt.		172800	IN	AAAA	2405:d000:0:100::210
 ns2.druknet.bt.		172800	IN	A	202.144.128.210
 ns3.druknet.bt.		172800	IN	AAAA	2001:500:14:6017:ad::1
 ns3.druknet.bt.		172800	IN	A	204.61.216.17
+builders.		86400	IN	NSEC	buzz. NS DS RRSIG NSEC
+builders.		172800	IN	NS	demand.beta.aridns.net.au.
+builders.		172800	IN	NS	demand.alpha.aridns.net.au.
+builders.		172800	IN	NS	demand.delta.aridns.net.au.
+builders.		172800	IN	NS	demand.gamma.aridns.net.au.
 buzz.			86400	IN	NSEC	bv. NS DS RRSIG NSEC
 buzz.			172800	IN	NS	ns1.dns.nic.buzz.
 buzz.			172800	IN	NS	ns2.dns.nic.buzz.
@@ -547,11 +552,33 @@ cd.			172800	IN	NS	igubu.saix.net.
 cd.			172800	IN	NS	sabela.saix.net.
 ns1.pch.nic.cd.		172800	IN	AAAA	2001:500:14:6066:ad::1
 ns1.pch.nic.cd.		172800	IN	A	204.61.216.66
-center.			86400	IN	NSEC	cf. NS DS RRSIG NSEC
+center.			86400	IN	NSEC	ceo. NS DS RRSIG NSEC
 center.			172800	IN	NS	demand.beta.aridns.net.au.
 center.			172800	IN	NS	demand.alpha.aridns.net.au.
 center.			172800	IN	NS	demand.delta.aridns.net.au.
 center.			172800	IN	NS	demand.gamma.aridns.net.au.
+ceo.			86400	IN	NSEC	cf. NS DS RRSIG NSEC
+ceo.			172800	IN	NS	ns1.dns.nic.ceo.
+ceo.			172800	IN	NS	ns2.dns.nic.ceo.
+ceo.			172800	IN	NS	ns3.dns.nic.ceo.
+ceo.			172800	IN	NS	ns4.dns.nic.ceo.
+ceo.			172800	IN	NS	ns5.dns.nic.ceo.
+ceo.			172800	IN	NS	ns6.dns.nic.ceo.
+ceo.			172800	IN	NS	ns7.dns.nic.ceo.
+ns1.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1071::25
+ns1.dns.nic.ceo.	172800	IN	A	156.154.144.37
+ns2.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1072::25
+ns2.dns.nic.ceo.	172800	IN	A	156.154.145.37
+ns3.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1073::25
+ns3.dns.nic.ceo.	172800	IN	A	156.154.159.37
+ns4.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1074::25
+ns4.dns.nic.ceo.	172800	IN	A	156.154.156.37
+ns5.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1075::25
+ns5.dns.nic.ceo.	172800	IN	A	156.154.157.37
+ns6.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1076::25
+ns6.dns.nic.ceo.	172800	IN	A	156.154.158.37
+ns7.dns.nic.ceo.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+ns7.dns.nic.ceo.	172800	IN	A	207.34.5.10
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
 cf.			172800	IN	NS	a.ns.cf.
 cf.			172800	IN	NS	b.ns.cf.
@@ -666,7 +693,7 @@ i.dns.cn.		172800	IN	A	125.208.33.1
 j.dns.cn.		172800	IN	A	125.208.34.1
 k.dns.cn.		172800	IN	A	125.208.35.1
 l.dns.cn.		172800	IN	A	125.208.36.1
-co.			86400	IN	NSEC	com. NS DS RRSIG NSEC
+co.			86400	IN	NSEC	codes. NS DS RRSIG NSEC
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
 co.			172800	IN	NS	ns3.cctld.co.
@@ -685,6 +712,16 @@ ns5.cctld.co.		172800	IN	AAAA	2610:a1:1011::21
 ns5.cctld.co.		172800	IN	A	156.154.104.25
 ns6.cctld.co.		172800	IN	AAAA	2610:a1:1012::21
 ns6.cctld.co.		172800	IN	A	156.154.105.25
+codes.			86400	IN	NSEC	coffee. NS DS RRSIG NSEC
+codes.			172800	IN	NS	demand.beta.aridns.net.au.
+codes.			172800	IN	NS	demand.alpha.aridns.net.au.
+codes.			172800	IN	NS	demand.delta.aridns.net.au.
+codes.			172800	IN	NS	demand.gamma.aridns.net.au.
+coffee.			86400	IN	NSEC	com. NS DS RRSIG NSEC
+coffee.			172800	IN	NS	demand.beta.aridns.net.au.
+coffee.			172800	IN	NS	demand.alpha.aridns.net.au.
+coffee.			172800	IN	NS	demand.delta.aridns.net.au.
+coffee.			172800	IN	NS	demand.gamma.aridns.net.au.
 com.			172800	IN	NS	a.gtld-servers.net.
 com.			172800	IN	NS	b.gtld-servers.net.
 com.			172800	IN	NS	c.gtld-servers.net.
@@ -979,7 +1016,7 @@ edu.			172800	IN	NS	d.edu-servers.net.
 edu.			172800	IN	NS	f.edu-servers.net.
 edu.			172800	IN	NS	g.edu-servers.net.
 edu.			172800	IN	NS	l.edu-servers.net.
-edu.			86400	IN	NSEC	ee. NS DS RRSIG NSEC
+edu.			86400	IN	NSEC	education. NS DS RRSIG NSEC
 adns1.berkeley.edu.	172800	IN	AAAA	2607:f140:ffff:fffe::3
 adns1.berkeley.edu.	172800	IN	A	128.32.136.3
 adns2.berkeley.edu.	172800	IN	A	128.32.136.14
@@ -988,6 +1025,11 @@ dns.princeton.edu.	172800	IN	A	128.112.129.15
 pendragon.cs.purdue.edu. 172800	IN	A	128.10.2.5
 phloem.uoregon.edu.	172800	IN	AAAA	2001:468:d01:20::80df:2023
 phloem.uoregon.edu.	172800	IN	A	128.223.32.35
+education.		86400	IN	NSEC	ee. NS DS RRSIG NSEC
+education.		172800	IN	NS	demand.beta.aridns.net.au.
+education.		172800	IN	NS	demand.alpha.aridns.net.au.
+education.		172800	IN	NS	demand.delta.aridns.net.au.
+education.		172800	IN	NS	demand.gamma.aridns.net.au.
 ee.			86400	IN	NSEC	eg. NS DS RRSIG NSEC
 ee.			172800	IN	NS	b.tld.ee.
 ee.			172800	IN	NS	e.tld.ee.
@@ -1066,7 +1108,7 @@ eu.			172800	IN	NS	cz.dns.eu.
 eu.			172800	IN	NS	nl.dns.eu.
 eu.			172800	IN	NS	si.dns.eu.
 eu.			172800	IN	NS	uk.dns.eu.
-eu.			86400	IN	NSEC	fi. NS DS RRSIG NSEC
+eu.			86400	IN	NSEC	farm. NS DS RRSIG NSEC
 cz.dns.eu.		172800	IN	A	93.190.128.138
 nl.dns.eu.		172800	IN	A	91.200.16.100
 si.dns.eu.		172800	IN	AAAA	2001:1470:8000:100::1
@@ -1077,6 +1119,11 @@ x.dns.eu.		172800	IN	A	194.0.1.19
 y.dns.eu.		172800	IN	AAAA	2001:67c:1010:23::53
 y.dns.eu.		172800	IN	A	194.146.106.90
 ns6.nominum.eu.		172800	IN	A	81.200.69.35
+farm.			86400	IN	NSEC	fi. NS DS RRSIG NSEC
+farm.			172800	IN	NS	demand.beta.aridns.net.au.
+farm.			172800	IN	NS	demand.alpha.aridns.net.au.
+farm.			172800	IN	NS	demand.delta.aridns.net.au.
+farm.			172800	IN	NS	demand.gamma.aridns.net.au.
 fi.			86400	IN	NSEC	fj. NS DS RRSIG NSEC
 fi.			172800	IN	NS	a.fi.
 fi.			172800	IN	NS	b.fi.
@@ -1112,12 +1159,17 @@ fj.			172800	IN	NS	adns2.berkeley.edu.
 fj.			172800	IN	NS	auth00.ns.uu.net.
 manu.usp.ac.fj.		172800	IN	A	144.120.8.10
 teri.usp.ac.fj.		172800	IN	A	144.120.8.1
-fk.			86400	IN	NSEC	fm. NS RRSIG NSEC
+fk.			86400	IN	NSEC	florist. NS RRSIG NSEC
 fk.			172800	IN	NS	ns.horizon.net.fk.
 fk.			172800	IN	NS	euro-ns1.cw.net.
 fk.			172800	IN	NS	euro-ns2.cw.net.
 fk.			172800	IN	NS	euro-ns3.cw.net.
 ns.horizon.net.fk.	172800	IN	A	195.248.193.250
+florist.		86400	IN	NSEC	fm. NS DS RRSIG NSEC
+florist.		172800	IN	NS	demand.beta.aridns.net.au.
+florist.		172800	IN	NS	demand.alpha.aridns.net.au.
+florist.		172800	IN	NS	demand.delta.aridns.net.au.
+florist.		172800	IN	NS	demand.gamma.aridns.net.au.
 fm.			86400	IN	NSEC	fo. NS RRSIG NSEC
 fm.			172800	IN	NS	tld1.ultradns.net.
 fm.			172800	IN	NS	tld2.ultradns.net.
@@ -1229,7 +1281,7 @@ gi.			172800	IN	NS	b0.cctld.afilias-nst.org.
 gi.			172800	IN	NS	b2.cctld.afilias-nst.org.
 gi.			172800	IN	NS	c0.cctld.afilias-nst.info.
 gi.			172800	IN	NS	d0.cctld.afilias-nst.org.
-gl.			86400	IN	NSEC	gm. NS DS RRSIG NSEC
+gl.			86400	IN	NSEC	glass. NS DS RRSIG NSEC
 gl.			172800	IN	NS	a.nuuk.nic.gl.
 gl.			172800	IN	NS	b.nic.gl.
 gl.			172800	IN	NS	d.nic.gl.
@@ -1242,6 +1294,11 @@ b.nic.gl.		172800	IN	A	91.221.196.228
 d.nic.gl.		172800	IN	AAAA	2001:500:14:6049:ad::1
 d.nic.gl.		172800	IN	A	204.61.216.49
 a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
+glass.			86400	IN	NSEC	gm. NS DS RRSIG NSEC
+glass.			172800	IN	NS	demand.beta.aridns.net.au.
+glass.			172800	IN	NS	demand.alpha.aridns.net.au.
+glass.			172800	IN	NS	demand.delta.aridns.net.au.
+glass.			172800	IN	NS	demand.gamma.aridns.net.au.
 gm.			86400	IN	NSEC	gn. NS RRSIG NSEC
 gm.			172800	IN	NS	ns1.nic.gm.
 gm.			172800	IN	NS	ns2.nic.gm.
@@ -1387,11 +1444,21 @@ hn.			172800	IN	NS	nicmx-anycast.rds.org.hn.
 nicmx-anycast.rds.org.hn. 172800 IN	A	200.33.111.1
 pch-anycast.rds.org.hn.	172800	IN	AAAA	2001:500:14:6064:ad::1
 pch-anycast.rds.org.hn.	172800	IN	A	204.61.216.64
-holdings.		86400	IN	NSEC	hr. NS DS RRSIG NSEC
+holdings.		86400	IN	NSEC	holiday. NS DS RRSIG NSEC
 holdings.		172800	IN	NS	demand.beta.aridns.net.au.
 holdings.		172800	IN	NS	demand.alpha.aridns.net.au.
 holdings.		172800	IN	NS	demand.delta.aridns.net.au.
 holdings.		172800	IN	NS	demand.gamma.aridns.net.au.
+holiday.		86400	IN	NSEC	house. NS DS RRSIG NSEC
+holiday.		172800	IN	NS	demand.beta.aridns.net.au.
+holiday.		172800	IN	NS	demand.alpha.aridns.net.au.
+holiday.		172800	IN	NS	demand.delta.aridns.net.au.
+holiday.		172800	IN	NS	demand.gamma.aridns.net.au.
+house.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
+house.			172800	IN	NS	demand.beta.aridns.net.au.
+house.			172800	IN	NS	demand.alpha.aridns.net.au.
+house.			172800	IN	NS	demand.delta.aridns.net.au.
+house.			172800	IN	NS	demand.gamma.aridns.net.au.
 hr.			86400	IN	NSEC	ht. NS RRSIG NSEC
 hr.			172800	IN	NS	ns5.univie.ac.at.
 hr.			172800	IN	NS	n3ns.nic.es.
@@ -1498,7 +1565,7 @@ info.			172800	IN	NS	b0.info.afilias-nst.org.
 info.			172800	IN	NS	b2.info.afilias-nst.org.
 info.			172800	IN	NS	c0.info.afilias-nst.info.
 info.			172800	IN	NS	d0.info.afilias-nst.org.
-info.			86400	IN	NSEC	int. NS DS RRSIG NSEC
+info.			86400	IN	NSEC	institute. NS DS RRSIG NSEC
 a0.aero.afilias-nst.info. 172800 IN	AAAA	2001:500:1d::1
 a0.aero.afilias-nst.info. 172800 IN	A	199.254.51.1
 a2.aero.afilias-nst.info. 172800 IN	AAAA	2001:500:43::1
@@ -1564,12 +1631,22 @@ c0.xxx.afilias-nst.info. 172800	IN	A	199.115.154.1
 tld.isc-sns.info.	172800	IN	AAAA	2001:470:1a::3
 tld.isc-sns.info.	172800	IN	A	72.52.71.3
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
-int.			86400	IN	NSEC	io. NS RRSIG NSEC
+institute.		86400	IN	NSEC	int. NS DS RRSIG NSEC
+institute.		172800	IN	NS	demand.beta.aridns.net.au.
+institute.		172800	IN	NS	demand.alpha.aridns.net.au.
+institute.		172800	IN	NS	demand.delta.aridns.net.au.
+institute.		172800	IN	NS	demand.gamma.aridns.net.au.
+int.			86400	IN	NSEC	international. NS RRSIG NSEC
 int.			172800	IN	NS	ns.uu.net.
 int.			172800	IN	NS	ns.icann.org.
 int.			172800	IN	NS	ns0.ja.net.
 int.			172800	IN	NS	ns1.cs.ucl.ac.uk.
 int.			172800	IN	NS	sec2.authdns.ripe.net.
+international.		86400	IN	NSEC	io. NS DS RRSIG NSEC
+international.		172800	IN	NS	demand.beta.aridns.net.au.
+international.		172800	IN	NS	demand.alpha.aridns.net.au.
+international.		172800	IN	NS	demand.delta.aridns.net.au.
+international.		172800	IN	NS	demand.gamma.aridns.net.au.
 io.			86400	IN	NSEC	iq. NS DS RRSIG NSEC
 io.			172800	IN	NS	a.nic.io.
 io.			172800	IN	NS	a.ns13.net.
@@ -1673,7 +1750,7 @@ jp.			172800	IN	NS	d.dns.jp.
 jp.			172800	IN	NS	e.dns.jp.
 jp.			172800	IN	NS	f.dns.jp.
 jp.			172800	IN	NS	g.dns.jp.
-jp.			86400	IN	NSEC	ke. NS DS RRSIG NSEC
+jp.			86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
 ns20.iij.ad.jp.		172800	IN	AAAA	2001:240::161
 ns20.iij.ad.jp.		172800	IN	A	202.232.2.161
 a.dns.jp.		172800	IN	AAAA	2001:dc4::1
@@ -1689,6 +1766,11 @@ e.dns.jp.		172800	IN	A	192.50.43.53
 f.dns.jp.		172800	IN	AAAA	2001:2f8:0:100::153
 f.dns.jp.		172800	IN	A	150.100.6.8
 g.dns.jp.		172800	IN	A	203.119.40.1
+kaufen.			86400	IN	NSEC	ke. NS DS RRSIG NSEC
+kaufen.			172800	IN	NS	demand.beta.aridns.net.au.
+kaufen.			172800	IN	NS	demand.alpha.aridns.net.au.
+kaufen.			172800	IN	NS	demand.delta.aridns.net.au.
+kaufen.			172800	IN	NS	demand.gamma.aridns.net.au.
 ke.			86400	IN	NSEC	kg. NS RRSIG NSEC
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
@@ -2709,7 +2791,7 @@ ns2.nic.net.ng.		172800	IN	A	204.61.216.40
 ns3.nic.net.ng.		172800	IN	A	208.78.70.93
 ns4.nic.net.ng.		172800	IN	A	204.13.250.93
 nsa.nic.net.ng.		172800	IN	A	41.222.79.3
-ni.			86400	IN	NSEC	nl. NS RRSIG NSEC
+ni.			86400	IN	NSEC	ninja. NS RRSIG NSEC
 ni.			172800	IN	NS	ns.cr.
 ni.			172800	IN	NS	ns.ni.
 ni.			172800	IN	NS	ns.uu.net.
@@ -2722,6 +2804,11 @@ ns.tmx.com.ni.		172800	IN	A	200.62.64.1
 ns.ideay.net.ni.	172800	IN	A	200.9.190.130
 ns.ni.			172800	IN	A	165.98.1.2
 ns2.ni.			172800	IN	A	200.9.187.2
+ninja.			86400	IN	NSEC	nl. NS DS RRSIG NSEC
+ninja.			172800	IN	NS	demand.beta.aridns.net.au.
+ninja.			172800	IN	NS	demand.alpha.aridns.net.au.
+ninja.			172800	IN	NS	demand.delta.aridns.net.au.
+ninja.			172800	IN	NS	demand.gamma.aridns.net.au.
 nl.			172800	IN	NS	nl1.dnsnode.net.
 nl.			172800	IN	NS	ns1.dns.nl.
 nl.			172800	IN	NS	ns2.dns.nl.
@@ -2815,7 +2902,7 @@ ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
 iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
-om.			86400	IN	NSEC	org. NS RRSIG NSEC
+om.			86400	IN	NSEC	onl. NS RRSIG NSEC
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns2.registry.om.
 om.			172800	IN	NS	cctld.beta.aridns.net.au.
@@ -2824,6 +2911,19 @@ om.			172800	IN	NS	cctld.delta.aridns.net.au.
 om.			172800	IN	NS	cctld.gamma.aridns.net.au.
 ns1.registry.om.	172800	IN	A	185.27.90.101
 ns2.registry.om.	172800	IN	A	185.27.91.69
+onl.			86400	IN	NSEC	org. NS DS RRSIG NSEC
+onl.			172800	IN	NS	a0.nic.onl.
+onl.			172800	IN	NS	a2.nic.onl.
+onl.			172800	IN	NS	b0.nic.onl.
+onl.			172800	IN	NS	c0.nic.onl.
+a0.nic.onl.		172800	IN	AAAA	2a01:8840:86::1
+a0.nic.onl.		172800	IN	A	65.22.136.1
+a2.nic.onl.		172800	IN	AAAA	2a01:8840:89::1
+a2.nic.onl.		172800	IN	A	65.22.139.1
+b0.nic.onl.		172800	IN	AAAA	2a01:8840:87::1
+b0.nic.onl.		172800	IN	A	65.22.137.1
+c0.nic.onl.		172800	IN	AAAA	2a01:8840:88::1
+c0.nic.onl.		172800	IN	A	65.22.138.1
 org.			172800	IN	NS	a0.org.afilias-nst.info.
 org.			172800	IN	NS	a2.org.afilias-nst.info.
 org.			172800	IN	NS	b0.org.afilias-nst.org.
@@ -3113,11 +3213,16 @@ re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
 re.			172800	IN	NS	f.ext.nic.fr.
 re.			172800	IN	NS	g.ext.nic.fr.
-recipes.		86400	IN	NSEC	ro. NS DS RRSIG NSEC
+recipes.		86400	IN	NSEC	repair. NS DS RRSIG NSEC
 recipes.		172800	IN	NS	demand.beta.aridns.net.au.
 recipes.		172800	IN	NS	demand.alpha.aridns.net.au.
 recipes.		172800	IN	NS	demand.delta.aridns.net.au.
 recipes.		172800	IN	NS	demand.gamma.aridns.net.au.
+repair.			86400	IN	NSEC	ro. NS DS RRSIG NSEC
+repair.			172800	IN	NS	demand.beta.aridns.net.au.
+repair.			172800	IN	NS	demand.alpha.aridns.net.au.
+repair.			172800	IN	NS	demand.delta.aridns.net.au.
+repair.			172800	IN	NS	demand.gamma.aridns.net.au.
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	ns-ext.isc.org.
@@ -3339,7 +3444,7 @@ sn.			172800	IN	NS	ns1.sonatel.sn.
 sn.			172800	IN	NS	ns3.nic.fr.
 ns1.sonatel.sn.		172800	IN	A	213.154.64.11
 ns.ucad.sn.		172800	IN	A	196.1.95.1
-so.			86400	IN	NSEC	sr. NS RRSIG NSEC
+so.			86400	IN	NSEC	solar. NS RRSIG NSEC
 so.			172800	IN	NS	a.nic.so.
 so.			172800	IN	NS	b.nic.so.
 so.			172800	IN	NS	c.nic.so.
@@ -3348,6 +3453,16 @@ a.nic.so.		172800	IN	A	72.52.71.4
 b.nic.so.		172800	IN	A	38.103.2.4
 c.nic.so.		172800	IN	AAAA	2001:5a0:10::4
 c.nic.so.		172800	IN	A	63.243.194.4
+solar.			86400	IN	NSEC	solutions. NS DS RRSIG NSEC
+solar.			172800	IN	NS	demand.beta.aridns.net.au.
+solar.			172800	IN	NS	demand.alpha.aridns.net.au.
+solar.			172800	IN	NS	demand.delta.aridns.net.au.
+solar.			172800	IN	NS	demand.gamma.aridns.net.au.
+solutions.		86400	IN	NSEC	sr. NS DS RRSIG NSEC
+solutions.		172800	IN	NS	demand.beta.aridns.net.au.
+solutions.		172800	IN	NS	demand.alpha.aridns.net.au.
+solutions.		172800	IN	NS	demand.delta.aridns.net.au.
+solutions.		172800	IN	NS	demand.gamma.aridns.net.au.
 sr.			86400	IN	NSEC	st. NS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
@@ -3551,7 +3666,7 @@ tp.			172800	IN	NS	auth01.connect.ie.
 tp.			172800	IN	NS	auth02.ns.uu.net.
 tp.			172800	IN	NS	uucp-gw-1.pa.dec.com.
 tp.			172800	IN	NS	uucp-gw-2.pa.dec.com.
-tr.			86400	IN	NSEC	travel. NS RRSIG NSEC
+tr.			86400	IN	NSEC	training. NS RRSIG NSEC
 tr.			172800	IN	NS	tr.cctld.authdns.ripe.net.
 tr.			172800	IN	NS	ns1.nic.tr.
 tr.			172800	IN	NS	ns2.nic.tr.
@@ -3565,6 +3680,11 @@ ns2.nic.tr.		172800	IN	A	144.122.95.52
 ns3.nic.tr.		172800	IN	A	213.248.162.131
 ns4.nic.tr.		172800	IN	A	193.140.100.200
 ns5.nic.tr.		172800	IN	A	178.251.42.18
+training.		86400	IN	NSEC	travel. NS DS RRSIG NSEC
+training.		172800	IN	NS	demand.beta.aridns.net.au.
+training.		172800	IN	NS	demand.alpha.aridns.net.au.
+training.		172800	IN	NS	demand.delta.aridns.net.au.
+training.		172800	IN	NS	demand.gamma.aridns.net.au.
 travel.			86400	IN	NSEC	tt. NS RRSIG NSEC
 travel.			172800	IN	NS	a.gtld.travel.
 travel.			172800	IN	NS	b.gtld.travel.
