@@ -1051,11 +1051,16 @@ ns.ut.ee.		172800	IN	A	193.40.5.99
 eg.			172800	IN	NS	ns5.univie.ac.at.
 eg.			172800	IN	NS	rip.psg.com.
 eg.			172800	IN	NS	frcu.eun.eg.
-eg.			86400	IN	NSEC	enterprises. NS RRSIG NSEC
+eg.			86400	IN	NSEC	email. NS RRSIG NSEC
 ns1.dotmasr.eg.		172800	IN	A	81.21.97.155
 ns2.dotmasr.eg.		172800	IN	A	81.21.99.11
 ns3.dotmasr.eg.		172800	IN	A	81.10.38.11
 frcu.eun.eg.		172800	IN	A	193.227.1.1
+email.			86400	IN	NSEC	enterprises. NS DS RRSIG NSEC
+email.			172800	IN	NS	demand.beta.aridns.net.au.
+email.			172800	IN	NS	demand.alpha.aridns.net.au.
+email.			172800	IN	NS	demand.delta.aridns.net.au.
+email.			172800	IN	NS	demand.gamma.aridns.net.au.
 enterprises.		86400	IN	NSEC	equipment. NS DS RRSIG NSEC
 enterprises.		172800	IN	NS	demand.beta.aridns.net.au.
 enterprises.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1541,11 +1546,16 @@ nsd.ns.il.		172800	IN	A	149.20.56.132
 nse.ns.il.		172800	IN	A	192.115.141.253
 nsg.ns.il.		172800	IN	AAAA	2a02:568:ffff:8::53
 nsg.ns.il.		172800	IN	A	81.91.161.212
-im.			86400	IN	NSEC	in. NS RRSIG NSEC
+im.			86400	IN	NSEC	immobilien. NS RRSIG NSEC
 im.			172800	IN	NS	ns4.ja.net.
 im.			172800	IN	NS	hoppy.iom.com.
 im.			172800	IN	NS	barney.advsys.co.uk.
 im.			172800	IN	NS	pebbles.iom.com.
+immobilien.		86400	IN	NSEC	in. NS DS RRSIG NSEC
+immobilien.		172800	IN	NS	demand.beta.aridns.net.au.
+immobilien.		172800	IN	NS	demand.alpha.aridns.net.au.
+immobilien.		172800	IN	NS	demand.delta.aridns.net.au.
+immobilien.		172800	IN	NS	demand.gamma.aridns.net.au.
 in.			86400	IN	NSEC	info. NS DS RRSIG NSEC
 in.			172800	IN	NS	a0.in.afilias-nst.info.
 in.			172800	IN	NS	a1.in.afilias-nst.in.
@@ -3972,7 +3982,7 @@ wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
 wf.			172800	IN	NS	f.ext.nic.fr.
 wf.			172800	IN	NS	g.ext.nic.fr.
-ws.			86400	IN	NSEC	xn--3e0b707e. NS RRSIG NSEC
+ws.			86400	IN	NSEC	xn--3ds443g. NS RRSIG NSEC
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
 ws.			172800	IN	NS	ns4.dns.ws.
@@ -3985,6 +3995,19 @@ ns4.dns.ws.		172800	IN	A	67.221.178.53
 ns5.dns.ws.		172800	IN	A	64.70.19.70
 ns6.dns.ws.		172800	IN	A	77.92.65.172
 ns7.dns.ws.		172800	IN	A	77.92.65.174
+xn--3ds443g.		86400	IN	NSEC	xn--3e0b707e. NS DS RRSIG NSEC
+xn--3ds443g.		172800	IN	NS	a0.nic.xn--3ds443g.
+xn--3ds443g.		172800	IN	NS	a2.nic.xn--3ds443g.
+xn--3ds443g.		172800	IN	NS	b0.nic.xn--3ds443g.
+xn--3ds443g.		172800	IN	NS	c0.nic.xn--3ds443g.
+a0.nic.xn--3ds443g.	172800	IN	AAAA	2a01:8840:b6::9
+a0.nic.xn--3ds443g.	172800	IN	A	65.22.188.9
+a2.nic.xn--3ds443g.	172800	IN	AAAA	2a01:8840:b9::9
+a2.nic.xn--3ds443g.	172800	IN	A	65.22.191.9
+b0.nic.xn--3ds443g.	172800	IN	AAAA	2a01:8840:b7::9
+b0.nic.xn--3ds443g.	172800	IN	A	65.22.189.9
+c0.nic.xn--3ds443g.	172800	IN	AAAA	2a01:8840:b8::9
+c0.nic.xn--3ds443g.	172800	IN	A	65.22.190.9
 xn--3e0b707e.		86400	IN	NSEC	xn--45brj9c. NS DS RRSIG NSEC
 xn--3e0b707e.		172800	IN	NS	b.dns.kr.
 xn--3e0b707e.		172800	IN	NS	c.dns.kr.
