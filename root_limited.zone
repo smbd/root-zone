@@ -806,6 +806,15 @@ dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
 dns1.u-registry.com.	172800	IN	AAAA	2607:f878:3:39c::2
 dns1.u-registry.com.	172800	IN	A	184.22.82.74
+a.zdnscloud.com.	172800	IN	A	1.8.240.1
+b.zdnscloud.com.	172800	IN	A	1.8.241.1
+c.zdnscloud.com.	172800	IN	A	1.8.242.1
+d.zdnscloud.com.	172800	IN	A	1.8.243.1
+e.zdnscloud.com.	172800	IN	A	119.167.248.154
+f.zdnscloud.com.	172800	IN	A	182.131.23.22
+g.zdnscloud.com.	172800	IN	A	111.12.148.111
+i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1::1
+j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2::1
 company.		86400	IN	NSEC	computer. NS DS RRSIG NSEC
 company.		172800	IN	NS	demand.beta.aridns.net.au.
 company.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1812,11 +1821,18 @@ ki.			172800	IN	NS	pch.nic.ki.
 ki.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad::1
 pch.nic.ki.		172800	IN	A	204.61.216.26
-kitchen.		86400	IN	NSEC	km. NS DS RRSIG NSEC
+kitchen.		86400	IN	NSEC	kiwi. NS DS RRSIG NSEC
 kitchen.		172800	IN	NS	demand.beta.aridns.net.au.
 kitchen.		172800	IN	NS	demand.alpha.aridns.net.au.
 kitchen.		172800	IN	NS	demand.delta.aridns.net.au.
 kitchen.		172800	IN	NS	demand.gamma.aridns.net.au.
+kiwi.			86400	IN	NSEC	km. NS DS RRSIG NSEC
+kiwi.			172800	IN	NS	a.ns.nic.kiwi.
+kiwi.			172800	IN	NS	b.ns.nic.kiwi.
+a.ns.nic.kiwi.		172800	IN	AAAA	2620:171:a02:ad::4
+a.ns.nic.kiwi.		172800	IN	A	72.0.50.4
+b.ns.nic.kiwi.		172800	IN	AAAA	2620:171:d02:dc::4
+b.ns.nic.kiwi.		172800	IN	A	72.42.114.4
 km.			86400	IN	NSEC	kn. NS RRSIG NSEC
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
@@ -3967,7 +3983,7 @@ voyage.			172800	IN	NS	demand.beta.aridns.net.au.
 voyage.			172800	IN	NS	demand.alpha.aridns.net.au.
 voyage.			172800	IN	NS	demand.delta.aridns.net.au.
 voyage.			172800	IN	NS	demand.gamma.aridns.net.au.
-vu.			86400	IN	NSEC	wf. NS RRSIG NSEC
+vu.			86400	IN	NSEC	wang. NS RRSIG NSEC
 vu.			172800	IN	NS	efate.vanuatu.com.vu.
 vu.			172800	IN	NS	santo.vanuatu.com.vu.
 vu.			172800	IN	NS	futuna.vanuatu.com.vu.
@@ -3976,6 +3992,16 @@ efate.vanuatu.com.vu.	172800	IN	A	202.80.32.5
 futuna.vanuatu.com.vu.	172800	IN	A	202.80.32.3
 maringo.vanuatu.com.vu.	172800	IN	A	125.255.96.208
 santo.vanuatu.com.vu.	172800	IN	A	202.80.32.7
+wang.			86400	IN	NSEC	wf. NS DS RRSIG NSEC
+wang.			172800	IN	NS	a.zdnscloud.com.
+wang.			172800	IN	NS	b.zdnscloud.com.
+wang.			172800	IN	NS	c.zdnscloud.com.
+wang.			172800	IN	NS	d.zdnscloud.com.
+wang.			172800	IN	NS	e.zdnscloud.com.
+wang.			172800	IN	NS	f.zdnscloud.com.
+wang.			172800	IN	NS	g.zdnscloud.com.
+wang.			172800	IN	NS	i.zdnscloud.com.
+wang.			172800	IN	NS	j.zdnscloud.com.
 wf.			86400	IN	NSEC	wien. NS DS RRSIG NSEC
 wf.			172800	IN	NS	d.ext.nic.fr.
 wf.			172800	IN	NS	d.nic.fr.
@@ -3992,7 +4018,7 @@ b.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:2000::4
 b.dns.nic.wien.		172800	IN	A	193.170.61.4
 c.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:3000::4
 c.dns.nic.wien.		172800	IN	A	193.170.187.4
-ws.			86400	IN	NSEC	xn--3ds443g. NS RRSIG NSEC
+ws.			86400	IN	NSEC	xn--3bst00m. NS RRSIG NSEC
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
 ws.			172800	IN	NS	ns4.dns.ws.
@@ -4005,6 +4031,16 @@ ns4.dns.ws.		172800	IN	A	67.221.178.53
 ns5.dns.ws.		172800	IN	A	64.70.19.70
 ns6.dns.ws.		172800	IN	A	77.92.65.172
 ns7.dns.ws.		172800	IN	A	77.92.65.174
+xn--3bst00m.		86400	IN	NSEC	xn--3ds443g. NS DS RRSIG NSEC
+xn--3bst00m.		172800	IN	NS	a.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	b.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	c.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	d.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	e.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	f.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	g.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	i.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	j.zdnscloud.com.
 xn--3ds443g.		86400	IN	NSEC	xn--3e0b707e. NS DS RRSIG NSEC
 xn--3ds443g.		172800	IN	NS	a0.nic.xn--3ds443g.
 xn--3ds443g.		172800	IN	NS	a2.nic.xn--3ds443g.
@@ -4034,12 +4070,22 @@ xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--55qw42g.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
+xn--55qw42g.		86400	IN	NSEC	xn--6qq986b3xl. NS DS RRSIG NSEC
 xn--55qw42g.		172800	IN	NS	ns1.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns3.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns4.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns5.conac.cn.
+xn--6qq986b3xl.		86400	IN	NSEC	xn--80ao21a. NS RRSIG NSEC
+xn--6qq986b3xl.		172800	IN	NS	a.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	b.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	c.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	d.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	e.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	f.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	g.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	i.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	j.zdnscloud.com.
 xn--80ao21a.		86400	IN	NSEC	xn--80asehdb. NS RRSIG NSEC
 xn--80ao21a.		172800	IN	NS	kz.cctld.authdns.ripe.net.
 xn--80ao21a.		172800	IN	NS	ns.nic.kz.
@@ -4060,11 +4106,24 @@ xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--fiqs8s. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--fiq228c5hs. NS RRSIG NSEC
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
+xn--fiq228c5hs.		86400	IN	NSEC	xn--fiqs8s. NS DS RRSIG NSEC
+xn--fiq228c5hs.		172800	IN	NS	a0.nic.xn--fiq228c5hs.
+xn--fiq228c5hs.		172800	IN	NS	a2.nic.xn--fiq228c5hs.
+xn--fiq228c5hs.		172800	IN	NS	b0.nic.xn--fiq228c5hs.
+xn--fiq228c5hs.		172800	IN	NS	c0.nic.xn--fiq228c5hs.
+a0.nic.xn--fiq228c5hs.	172800	IN	AAAA	2a01:8840:b6::1
+a0.nic.xn--fiq228c5hs.	172800	IN	A	65.22.188.1
+a2.nic.xn--fiq228c5hs.	172800	IN	AAAA	2a01:8840:b9::1
+a2.nic.xn--fiq228c5hs.	172800	IN	A	65.22.191.1
+b0.nic.xn--fiq228c5hs.	172800	IN	AAAA	2a01:8840:b7::1
+b0.nic.xn--fiq228c5hs.	172800	IN	A	65.22.189.1
+c0.nic.xn--fiq228c5hs.	172800	IN	AAAA	2a01:8840:b8::1
+c0.nic.xn--fiq228c5hs.	172800	IN	A	65.22.190.1
 xn--fiqs8s.		86400	IN	NSEC	xn--fiqz9s. NS DS RRSIG NSEC
 xn--fiqs8s.		172800	IN	NS	h.dns.cn.
 xn--fiqs8s.		172800	IN	NS	i.dns.cn.
