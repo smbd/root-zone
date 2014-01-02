@@ -3976,12 +3976,22 @@ efate.vanuatu.com.vu.	172800	IN	A	202.80.32.5
 futuna.vanuatu.com.vu.	172800	IN	A	202.80.32.3
 maringo.vanuatu.com.vu.	172800	IN	A	125.255.96.208
 santo.vanuatu.com.vu.	172800	IN	A	202.80.32.7
-wf.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
+wf.			86400	IN	NSEC	wien. NS DS RRSIG NSEC
 wf.			172800	IN	NS	d.ext.nic.fr.
 wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
 wf.			172800	IN	NS	f.ext.nic.fr.
 wf.			172800	IN	NS	g.ext.nic.fr.
+wien.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
+wien.			172800	IN	NS	a.dns.nic.wien.
+wien.			172800	IN	NS	b.dns.nic.wien.
+wien.			172800	IN	NS	c.dns.nic.wien.
+a.dns.nic.wien.		172800	IN	AAAA	2001:678:20::15
+a.dns.nic.wien.		172800	IN	A	194.0.25.15
+b.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:2000::4
+b.dns.nic.wien.		172800	IN	A	193.170.61.4
+c.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:3000::4
+c.dns.nic.wien.		172800	IN	A	193.170.187.4
 ws.			86400	IN	NSEC	xn--3ds443g. NS RRSIG NSEC
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
