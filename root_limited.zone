@@ -274,7 +274,7 @@ bd.			172800	IN	NS	jamuna.btcl.net.bd.
 dns.bd.			172800	IN	A	209.58.24.3
 jamuna.btcl.net.bd.	172800	IN	A	203.112.194.231
 surma.btcl.net.bd.	172800	IN	A	203.112.194.232
-be.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+be.			86400	IN	NSEC	berlin. NS DS RRSIG NSEC
 be.			172800	IN	NS	a.ns.dns.be.
 be.			172800	IN	NS	b.ns.dns.be.
 be.			172800	IN	NS	c.ns.dns.be.
@@ -290,6 +290,16 @@ d.ns.dns.be.		172800	IN	AAAA	2001:678:6c::1
 d.ns.dns.be.		172800	IN	A	194.0.44.1
 x.ns.dns.be.		172800	IN	AAAA	2001:678:4::a
 x.ns.dns.be.		172800	IN	A	194.0.1.10
+berlin.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+berlin.			172800	IN	NS	a.dns.nic.berlin.
+berlin.			172800	IN	NS	b.dns.nic.berlin.
+berlin.			172800	IN	NS	c.dns.nic.berlin.
+a.dns.nic.berlin.	172800	IN	AAAA	2001:678:20::16
+a.dns.nic.berlin.	172800	IN	A	194.0.25.16
+b.dns.nic.berlin.	172800	IN	AAAA	2001:62a:a:2000::5
+b.dns.nic.berlin.	172800	IN	A	193.170.61.5
+c.dns.nic.berlin.	172800	IN	AAAA	2001:62a:a:3000::5
+c.dns.nic.berlin.	172800	IN	A	193.170.187.5
 bf.			86400	IN	NSEC	bg. NS RRSIG NSEC
 bf.			172800	IN	NS	ns1.ird.fr.
 bf.			172800	IN	NS	ns1.as6453.net.
