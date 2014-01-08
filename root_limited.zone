@@ -4086,7 +4086,7 @@ xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns3.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns4.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns5.conac.cn.
-xn--6qq986b3xl.		86400	IN	NSEC	xn--80ao21a. NS RRSIG NSEC
+xn--6qq986b3xl.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
 xn--6qq986b3xl.		172800	IN	NS	a.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	b.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	c.zdnscloud.com.
