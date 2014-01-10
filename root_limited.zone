@@ -486,6 +486,7 @@ by.			172800	IN	NS	dns3.tld.tutby.com.
 by.			172800	IN	NS	dns4.tld.tutby.com.
 by.			172800	IN	NS	dns5.tld.tutby.com.
 by.			172800	IN	NS	dns6.tld.tutby.com.
+by.			172800	IN	NS	dns7.tld.tutby.com.
 bz.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
 bz.			172800	IN	NS	a0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -813,6 +814,7 @@ dns3.tld.tutby.com.	172800	IN	A	195.137.160.10
 dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
+dns7.tld.tutby.com.	172800	IN	A	103.23.93.36
 dns1.u-registry.com.	172800	IN	AAAA	2607:f878:3:39c::2
 dns1.u-registry.com.	172800	IN	A	184.22.82.74
 a.zdnscloud.com.	172800	IN	A	1.8.240.1
@@ -1407,10 +1409,8 @@ guru.			172800	IN	NS	demand.delta.aridns.net.au.
 guru.			172800	IN	NS	demand.gamma.aridns.net.au.
 gw.			86400	IN	NSEC	gy. NS RRSIG NSEC
 gw.			172800	IN	NS	ns1.nic.gw.
-gw.			172800	IN	NS	ns2.nic.gw.
 gw.			172800	IN	NS	ns3.nic.gw.
 ns1.nic.gw.		172800	IN	A	81.91.170.10
-ns2.nic.gw.		172800	IN	A	87.233.175.20
 ns3.nic.gw.		172800	IN	A	193.171.255.35
 gy.			86400	IN	NSEC	hk. NS RRSIG NSEC
 gy.			172800	IN	NS	gy.cctld.authdns.ripe.net.
@@ -2410,6 +2410,8 @@ ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120::45
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
 ns-rw.afrinic.net.	172800	IN	AAAA	2001:43f8:120::28
 ns-rw.afrinic.net.	172800	IN	A	196.216.168.28
+ns-sd.afrinic.net.	172800	IN	AAAA	2001:43f8:120::26
+ns-sd.afrinic.net.	172800	IN	A	196.216.168.26
 ns-td.afrinic.net.	172800	IN	AAAA	2001:43f8:120::31
 ns-td.afrinic.net.	172800	IN	A	196.216.168.31
 ns-tn.afrinic.net.	172800	IN	AAAA	2001:43f8:120::25
@@ -3350,6 +3352,7 @@ sd.			172800	IN	NS	ns2.uaenic.ae.
 sd.			172800	IN	NS	ans1.sis.sd.
 sd.			172800	IN	NS	ans1.canar.sd.
 sd.			172800	IN	NS	ans2.canar.sd.
+sd.			172800	IN	NS	ns-sd.afrinic.net.
 ans1.canar.sd.		172800	IN	A	196.29.180.14
 ans2.canar.sd.		172800	IN	A	196.29.164.14
 ans1.sis.sd.		172800	IN	A	196.29.166.134
