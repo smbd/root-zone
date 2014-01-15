@@ -284,6 +284,7 @@ be.			172800	IN	NS	b.ns.dns.be.
 be.			172800	IN	NS	c.ns.dns.be.
 be.			172800	IN	NS	d.ns.dns.be.
 be.			172800	IN	NS	x.ns.dns.be.
+be.			172800	IN	NS	y.ns.dns.be.
 a.ns.dns.be.		172800	IN	AAAA	2001:678:9::1
 a.ns.dns.be.		172800	IN	A	194.0.6.1
 b.ns.dns.be.		172800	IN	AAAA	2001:678:64::1
@@ -294,6 +295,8 @@ d.ns.dns.be.		172800	IN	AAAA	2001:678:6c::1
 d.ns.dns.be.		172800	IN	A	194.0.44.1
 x.ns.dns.be.		172800	IN	AAAA	2001:678:4::a
 x.ns.dns.be.		172800	IN	A	194.0.1.10
+y.ns.dns.be.		172800	IN	AAAA	2001:dcd:7::8
+y.ns.dns.be.		172800	IN	A	120.29.253.8
 berlin.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
 berlin.			172800	IN	NS	a.dns.nic.berlin.
 berlin.			172800	IN	NS	b.dns.nic.berlin.
