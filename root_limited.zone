@@ -672,11 +672,33 @@ b.nic.cl.		172800	IN	AAAA	2001:1398:274:0:200:7:4:7
 b.nic.cl.		172800	IN	A	200.7.4.7
 c.nic.cl.		172800	IN	A	200.16.112.16
 ns-ext.nic.cl.		172800	IN	A	200.1.123.14
-clothing.		86400	IN	NSEC	cm. NS DS RRSIG NSEC
+clothing.		86400	IN	NSEC	club. NS DS RRSIG NSEC
 clothing.		172800	IN	NS	demand.beta.aridns.net.au.
 clothing.		172800	IN	NS	demand.alpha.aridns.net.au.
 clothing.		172800	IN	NS	demand.delta.aridns.net.au.
 clothing.		172800	IN	NS	demand.gamma.aridns.net.au.
+club.			86400	IN	NSEC	cm. NS DS RRSIG NSEC
+club.			172800	IN	NS	ns1.dns.nic.club.
+club.			172800	IN	NS	ns2.dns.nic.club.
+club.			172800	IN	NS	ns3.dns.nic.club.
+club.			172800	IN	NS	ns4.dns.nic.club.
+club.			172800	IN	NS	ns5.dns.nic.club.
+club.			172800	IN	NS	ns6.dns.nic.club.
+club.			172800	IN	NS	ns7.dns.nic.club.
+ns1.dns.nic.club.	172800	IN	AAAA	2610:a1:1071::d7
+ns1.dns.nic.club.	172800	IN	A	156.154.144.215
+ns2.dns.nic.club.	172800	IN	AAAA	2610:a1:1072::d7
+ns2.dns.nic.club.	172800	IN	A	156.154.145.215
+ns3.dns.nic.club.	172800	IN	AAAA	2610:a1:1073::d7
+ns3.dns.nic.club.	172800	IN	A	156.154.159.215
+ns4.dns.nic.club.	172800	IN	AAAA	2610:a1:1074::d7
+ns4.dns.nic.club.	172800	IN	A	156.154.156.215
+ns5.dns.nic.club.	172800	IN	AAAA	2610:a1:1075::d7
+ns5.dns.nic.club.	172800	IN	A	156.154.157.215
+ns6.dns.nic.club.	172800	IN	AAAA	2610:a1:1076::d7
+ns6.dns.nic.club.	172800	IN	A	156.154.158.215
+ns7.dns.nic.club.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+ns7.dns.nic.club.	172800	IN	A	207.34.5.10
 cm.			86400	IN	NSEC	cn. NS RRSIG NSEC
 cm.			172800	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			172800	IN	NS	ns.itu.ch.
@@ -1322,13 +1344,18 @@ gh.			172800	IN	NS	fork.sth.dnsnode.net.
 gh.			172800	IN	NS	hippo.ru.ac.za.
 gh.			172800	IN	NS	austin.gh.com.
 gh.			172800	IN	NS	mantse.gh.com.
-gi.			86400	IN	NSEC	gl. NS DS RRSIG NSEC
+gi.			86400	IN	NSEC	gift. NS DS RRSIG NSEC
 gi.			172800	IN	NS	a0.cctld.afilias-nst.info.
 gi.			172800	IN	NS	a2.cctld.afilias-nst.info.
 gi.			172800	IN	NS	b0.cctld.afilias-nst.org.
 gi.			172800	IN	NS	b2.cctld.afilias-nst.org.
 gi.			172800	IN	NS	c0.cctld.afilias-nst.info.
 gi.			172800	IN	NS	d0.cctld.afilias-nst.org.
+gift.			86400	IN	NSEC	gl. NS DS RRSIG NSEC
+gift.			172800	IN	NS	a.ns.uniregistry.net.
+gift.			172800	IN	NS	tld.isc-sns.com.
+gift.			172800	IN	NS	tld.isc-sns.net.
+gift.			172800	IN	NS	tld.isc-sns.info.
 gl.			86400	IN	NSEC	glass. NS DS RRSIG NSEC
 gl.			172800	IN	NS	a.nuuk.nic.gl.
 gl.			172800	IN	NS	b.nic.gl.
@@ -1417,7 +1444,7 @@ gt.			172800	IN	NS	osi2.gua.net.
 gt.			172800	IN	NS	sns-pb.isc.org.
 ns.uvg.edu.gt.		172800	IN	A	168.234.68.2
 ns.uvg.edu.gt.		172800	IN	A	200.9.74.2
-gu.			86400	IN	NSEC	guru. NS RRSIG NSEC
+gu.			86400	IN	NSEC	guitars. NS RRSIG NSEC
 gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
 gu.			172800	IN	NS	ns.gu.
 gu.			172800	IN	NS	ns.edu.gu.
@@ -1425,6 +1452,11 @@ gu.			172800	IN	NS	nsuog.edu.gu.
 ns.edu.gu.		172800	IN	A	168.123.2.50
 nsuog.edu.gu.		172800	IN	A	67.98.164.133
 ns.gu.			172800	IN	A	168.123.4.10
+guitars.		86400	IN	NSEC	guru. NS DS RRSIG NSEC
+guitars.		172800	IN	NS	a.ns.uniregistry.net.
+guitars.		172800	IN	NS	tld.isc-sns.com.
+guitars.		172800	IN	NS	tld.isc-sns.net.
+guitars.		172800	IN	NS	tld.isc-sns.info.
 guru.			86400	IN	NSEC	gw. NS DS RRSIG NSEC
 guru.			172800	IN	NS	demand.beta.aridns.net.au.
 guru.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1976,11 +2008,16 @@ lighting.		172800	IN	NS	demand.beta.aridns.net.au.
 lighting.		172800	IN	NS	demand.alpha.aridns.net.au.
 lighting.		172800	IN	NS	demand.delta.aridns.net.au.
 lighting.		172800	IN	NS	demand.gamma.aridns.net.au.
-limo.			86400	IN	NSEC	lk. NS DS RRSIG NSEC
+limo.			86400	IN	NSEC	link. NS DS RRSIG NSEC
 limo.			172800	IN	NS	demand.beta.aridns.net.au.
 limo.			172800	IN	NS	demand.alpha.aridns.net.au.
 limo.			172800	IN	NS	demand.delta.aridns.net.au.
 limo.			172800	IN	NS	demand.gamma.aridns.net.au.
+link.			86400	IN	NSEC	lk. NS DS RRSIG NSEC
+link.			172800	IN	NS	a.ns.uniregistry.net.
+link.			172800	IN	NS	tld.isc-sns.com.
+link.			172800	IN	NS	tld.isc-sns.net.
+link.			172800	IN	NS	tld.isc-sns.info.
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
 lk.			172800	IN	NS	l.nic.lk.
@@ -2034,7 +2071,7 @@ d.tld.lt.		172800	IN	A	194.0.3.1
 e.tld.lt.		172800	IN	A	194.0.18.1
 f.tld.lt.		172800	IN	AAAA	2001:678:8c::1
 f.tld.lt.		172800	IN	A	194.0.19.1
-lu.			86400	IN	NSEC	lv. NS DS RRSIG NSEC
+lu.			86400	IN	NSEC	luxury. NS DS RRSIG NSEC
 lu.			172800	IN	NS	g.dns.lu.
 lu.			172800	IN	NS	i.dns.lu.
 lu.			172800	IN	NS	j.dns.lu.
@@ -2055,6 +2092,19 @@ ns1.dns.lu.		172800	IN	A	158.64.229.18
 ns5.dns.lu.		172800	IN	A	81.91.161.100
 p.dns.lu.		172800	IN	AAAA	2001:678:60::42:42
 p.dns.lu.		172800	IN	A	194.0.42.42
+luxury.			86400	IN	NSEC	lv. NS DS RRSIG NSEC
+luxury.			172800	IN	NS	a.nic.luxury.
+luxury.			172800	IN	NS	b.nic.luxury.
+luxury.			172800	IN	NS	c.nic.luxury.
+luxury.			172800	IN	NS	d.nic.luxury.
+a.nic.luxury.		172800	IN	AAAA	2001:dcd:1::10
+a.nic.luxury.		172800	IN	A	37.209.192.10
+b.nic.luxury.		172800	IN	AAAA	2001:dcd:2::10
+b.nic.luxury.		172800	IN	A	37.209.194.10
+c.nic.luxury.		172800	IN	AAAA	2001:dcd:3::10
+c.nic.luxury.		172800	IN	A	37.209.196.10
+d.nic.luxury.		172800	IN	AAAA	2001:dcd:4::10
+d.nic.luxury.		172800	IN	A	37.209.198.10
 lv.			86400	IN	NSEC	ly. NS DS RRSIG NSEC
 lv.			172800	IN	NS	a.nic.lv.
 lv.			172800	IN	NS	b.nic.lv.
@@ -3117,11 +3167,29 @@ photography.		172800	IN	NS	demand.beta.aridns.net.au.
 photography.		172800	IN	NS	demand.alpha.aridns.net.au.
 photography.		172800	IN	NS	demand.delta.aridns.net.au.
 photography.		172800	IN	NS	demand.gamma.aridns.net.au.
-photos.			86400	IN	NSEC	pk. NS DS RRSIG NSEC
+photos.			86400	IN	NSEC	pics. NS DS RRSIG NSEC
 photos.			172800	IN	NS	demand.beta.aridns.net.au.
 photos.			172800	IN	NS	demand.alpha.aridns.net.au.
 photos.			172800	IN	NS	demand.delta.aridns.net.au.
 photos.			172800	IN	NS	demand.gamma.aridns.net.au.
+pics.			86400	IN	NSEC	pink. NS DS RRSIG NSEC
+pics.			172800	IN	NS	a.ns.uniregistry.net.
+pics.			172800	IN	NS	tld.isc-sns.com.
+pics.			172800	IN	NS	tld.isc-sns.net.
+pics.			172800	IN	NS	tld.isc-sns.info.
+pink.			86400	IN	NSEC	pk. NS DS RRSIG NSEC
+pink.			172800	IN	NS	a0.nic.pink.
+pink.			172800	IN	NS	a2.nic.pink.
+pink.			172800	IN	NS	b0.nic.pink.
+pink.			172800	IN	NS	c0.nic.pink.
+a0.nic.pink.		172800	IN	AAAA	2a01:8840:1e::17
+a0.nic.pink.		172800	IN	A	65.22.28.17
+a2.nic.pink.		172800	IN	AAAA	2a01:8840:21::17
+a2.nic.pink.		172800	IN	A	65.22.31.17
+b0.nic.pink.		172800	IN	AAAA	2a01:8840:1f::17
+b0.nic.pink.		172800	IN	A	65.22.29.17
+c0.nic.pink.		172800	IN	AAAA	2a01:8840:20::17
+c0.nic.pink.		172800	IN	A	65.22.30.17
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
 pk.			172800	IN	NS	root-b.cloud9global.net.
 pk.			172800	IN	NS	root-p.pknic.pk.
