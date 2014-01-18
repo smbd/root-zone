@@ -3168,7 +3168,7 @@ pa.			172800	IN	NS	sns-pb.isc.org.
 ns.nic.pa.		172800	IN	A	168.77.8.4
 ns.pa.			172800	IN	A	168.77.8.2
 ns2.pa.			172800	IN	A	168.77.8.7
-pe.			86400	IN	NSEC	pf. NS RRSIG NSEC
+pe.			86400	IN	NSEC	pf. NS DS RRSIG NSEC
 pe.			172800	IN	NS	pch.rcp.pe.
 pe.			172800	IN	NS	pe1.dnsnode.net.
 pe.			172800	IN	NS	quipu.rcp.net.pe.
@@ -4100,7 +4100,7 @@ ns3.uz.			172800	IN	A	195.158.1.22
 ns4.uz.			172800	IN	A	87.139.105.60
 ns5.uz.			172800	IN	A	217.12.81.129
 ns6.uz.			172800	IN	A	83.69.129.4
-ns7.uz.			172800	IN	A	54.243.198.194
+ns7.uz.			172800	IN	A	54.200.69.96
 va.			86400	IN	NSEC	vc. NS RRSIG NSEC
 va.			172800	IN	NS	va.cctld.authdns.ripe.net.
 va.			172800	IN	NS	dns.nic.it.
