@@ -131,6 +131,7 @@ aq.			172800	IN	NS	ns99.dns.net.nz.
 aq.			172800	IN	NS	sns-pb.isc.org.
 ns1.dns.aq.		172800	IN	A	203.119.56.132
 ar.			86400	IN	NSEC	arpa. NS RRSIG NSEC
+ar.			172800	IN	NS	a.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
 ar.			172800	IN	NS	athea.ar.
@@ -138,6 +139,8 @@ ar.			172800	IN	NS	ctina.ar.
 ar.			172800	IN	NS	relay1.mecon.gov.ar.
 athea.ar.		172800	IN	A	200.16.98.2
 ctina.ar.		172800	IN	A	200.16.97.17
+a.dns.ar.		172800	IN	AAAA	2801:140::10
+a.dns.ar.		172800	IN	A	200.108.145.50
 relay1.mecon.gov.ar.	172800	IN	A	168.101.16.10
 arpa.			86400	IN	NSEC	as. NS DS RRSIG NSEC
 arpa.			172800	IN	NS	a.root-servers.net.
@@ -2364,11 +2367,12 @@ p.ns.mt.		172800	IN	A	204.61.216.45
 r.ns.mt.		172800	IN	AAAA	2001:67c:e0::97
 r.ns.mt.		172800	IN	A	193.0.9.97
 ns1.mt.			172800	IN	A	193.188.34.241
-mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
 mu.			172800	IN	NS	fork.sth.dnsnode.net.
 mu.			172800	IN	NS	udns1.tld.mu.
 mu.			172800	IN	NS	udns2.tld.mu.
 mu.			172800	IN	NS	anycast1.irondns.net.
+mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
+cctld-vu.orange.mu.	172800	IN	A	196.192.110.15
 udns1.tld.mu.		172800	IN	AAAA	2001:500:14:6010:ad::1
 udns1.tld.mu.		172800	IN	A	204.61.216.10
 udns2.tld.mu.		172800	IN	AAAA	2001:67c:e0::98
@@ -4183,10 +4187,9 @@ vu.			86400	IN	NSEC	wang. NS RRSIG NSEC
 vu.			172800	IN	NS	efate.vanuatu.com.vu.
 vu.			172800	IN	NS	santo.vanuatu.com.vu.
 vu.			172800	IN	NS	futuna.vanuatu.com.vu.
-vu.			172800	IN	NS	maringo.vanuatu.com.vu.
+vu.			172800	IN	NS	cctld-vu.orange.mu.
 efate.vanuatu.com.vu.	172800	IN	A	202.80.32.5
 futuna.vanuatu.com.vu.	172800	IN	A	202.80.32.3
-maringo.vanuatu.com.vu.	172800	IN	A	125.255.96.208
 santo.vanuatu.com.vu.	172800	IN	A	202.80.32.7
 wang.			86400	IN	NSEC	wf. NS DS RRSIG NSEC
 wang.			172800	IN	NS	a.zdnscloud.com.
