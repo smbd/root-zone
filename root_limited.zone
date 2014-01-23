@@ -852,11 +852,13 @@ d5.nstld.com.		172800	IN	A	192.31.80.34
 d6.nstld.com.		172800	IN	A	192.31.80.35
 f5.nstld.com.		172800	IN	AAAA	2001:503:d414::2:34
 f5.nstld.com.		172800	IN	A	192.35.51.34
+f6.nstld.com.		172800	IN	AAAA	2001:503:d414::2:35
 f6.nstld.com.		172800	IN	A	192.35.51.35
 g5.nstld.com.		172800	IN	A	192.42.93.34
 g6.nstld.com.		172800	IN	A	192.42.93.35
 h5.nstld.com.		172800	IN	AAAA	2001:502:8cc::2:34
 h5.nstld.com.		172800	IN	A	192.54.112.34
+h6.nstld.com.		172800	IN	AAAA	2001:502:8cc::2:35
 h6.nstld.com.		172800	IN	A	192.54.112.35
 j6.nstld.com.		172800	IN	A	192.48.79.35
 k6.nstld.com.		172800	IN	A	192.52.178.35
@@ -2486,7 +2488,7 @@ na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
 merlin.net.na.		172800	IN	A	204.152.184.96
-name.			86400	IN	NSEC	nc. NS RRSIG NSEC
+name.			86400	IN	NSEC	nc. NS DS RRSIG NSEC
 name.			172800	IN	NS	a6.nstld.com.
 name.			172800	IN	NS	c6.nstld.com.
 name.			172800	IN	NS	d6.nstld.com.
