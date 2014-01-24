@@ -814,7 +814,7 @@ com.			172800	IN	NS	j.gtld-servers.net.
 com.			172800	IN	NS	k.gtld-servers.net.
 com.			172800	IN	NS	l.gtld-servers.net.
 com.			172800	IN	NS	m.gtld-servers.net.
-com.			86400	IN	NSEC	company. NS DS RRSIG NSEC
+com.			86400	IN	NSEC	community. NS DS RRSIG NSEC
 ns.amarshallinc.com.	172800	IN	A	71.163.249.97
 ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:fe00::2
 ns.blacknightsolutions.com. 172800 IN	A	217.114.173.6
@@ -897,6 +897,11 @@ f.zdnscloud.com.	172800	IN	A	182.131.23.22
 g.zdnscloud.com.	172800	IN	A	111.12.148.111
 i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1::1
 j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2::1
+community.		86400	IN	NSEC	company. NS DS RRSIG NSEC
+community.		172800	IN	NS	demand.beta.aridns.net.au.
+community.		172800	IN	NS	demand.alpha.aridns.net.au.
+community.		172800	IN	NS	demand.delta.aridns.net.au.
+community.		172800	IN	NS	demand.gamma.aridns.net.au.
 company.		86400	IN	NSEC	computer. NS DS RRSIG NSEC
 company.		172800	IN	NS	demand.beta.aridns.net.au.
 company.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1005,11 +1010,16 @@ c.ns.nic.cz.		172800	IN	AAAA	2001:678:11::1
 c.ns.nic.cz.		172800	IN	A	194.0.14.1
 d.ns.nic.cz.		172800	IN	AAAA	2001:678:1::1
 d.ns.nic.cz.		172800	IN	A	193.29.206.1
-dance.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+dance.			86400	IN	NSEC	dating. NS DS RRSIG NSEC
 dance.			172800	IN	NS	demand.beta.aridns.net.au.
 dance.			172800	IN	NS	demand.alpha.aridns.net.au.
 dance.			172800	IN	NS	demand.delta.aridns.net.au.
 dance.			172800	IN	NS	demand.gamma.aridns.net.au.
+dating.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+dating.			172800	IN	NS	demand.beta.aridns.net.au.
+dating.			172800	IN	NS	demand.alpha.aridns.net.au.
+dating.			172800	IN	NS	demand.delta.aridns.net.au.
+dating.			172800	IN	NS	demand.gamma.aridns.net.au.
 de.			172800	IN	NS	a.nic.de.
 de.			172800	IN	NS	f.nic.de.
 de.			172800	IN	NS	l.de.net.
