@@ -2488,7 +2488,7 @@ anyns.uem.mz.		172800	IN	A	204.61.216.14
 dzowo.uem.mz.		172800	IN	A	196.3.96.66
 oceano.uem.mz.		172800	IN	A	196.3.96.69
 zebra.uem.mz.		172800	IN	A	196.3.96.67
-na.			86400	IN	NSEC	name. NS DS RRSIG NSEC
+na.			86400	IN	NSEC	nagoya. NS DS RRSIG NSEC
 na.			172800	IN	NS	na1.dyntld.net.
 na.			172800	IN	NS	na2.dyntld.net.
 na.			172800	IN	NS	ns5.nominum.com.
@@ -2498,6 +2498,12 @@ na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
 merlin.net.na.		172800	IN	A	204.152.184.96
+nagoya.			86400	IN	NSEC	name. NS DS RRSIG NSEC
+nagoya.			172800	IN	NS	a.gmoregistry.net.
+nagoya.			172800	IN	NS	b.gmoregistry.net.
+nagoya.			172800	IN	NS	c.gmoregistry.net.
+nagoya.			172800	IN	NS	d.gmoregistry.net.
+nagoya.			172800	IN	NS	e.gmoregistry.net.
 name.			86400	IN	NSEC	nc. NS DS RRSIG NSEC
 name.			172800	IN	NS	a6.nstld.com.
 name.			172800	IN	NS	c6.nstld.com.
@@ -2706,6 +2712,15 @@ d.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.34
 tld.gdns.net.		172800	IN	A	68.178.129.149
 news-tokyo.gip.net.	172800	IN	A	204.59.64.222
 ns2.gip.net.		172800	IN	A	204.59.1.222
+a.gmoregistry.net.	172800	IN	AAAA	2001:470:1a::9
+a.gmoregistry.net.	172800	IN	A	72.52.71.9
+b.gmoregistry.net.	172800	IN	A	38.103.2.9
+c.gmoregistry.net.	172800	IN	AAAA	2001:5a0:10::9
+c.gmoregistry.net.	172800	IN	A	63.243.194.9
+d.gmoregistry.net.	172800	IN	AAAA	2001:dcd:5::11
+d.gmoregistry.net.	172800	IN	A	120.29.252.11
+e.gmoregistry.net.	172800	IN	AAAA	2001:dcd:6::11
+e.gmoregistry.net.	172800	IN	A	120.29.254.11
 a.gov-servers.net.	172800	IN	AAAA	2001:500:4431::2:30
 a.gov-servers.net.	172800	IN	A	69.36.157.30
 b.gov-servers.net.	172800	IN	A	209.112.123.30
@@ -3930,11 +3945,17 @@ to.			172800	IN	NS	tonic.to.
 to.			172800	IN	NS	auth02.ns.uu.net.
 colo.to.		172800	IN	A	216.74.32.104
 tonic.to.		172800	IN	A	216.74.32.100
-today.			86400	IN	NSEC	tools. NS DS RRSIG NSEC
+today.			86400	IN	NSEC	tokyo. NS DS RRSIG NSEC
 today.			172800	IN	NS	demand.beta.aridns.net.au.
 today.			172800	IN	NS	demand.alpha.aridns.net.au.
 today.			172800	IN	NS	demand.delta.aridns.net.au.
 today.			172800	IN	NS	demand.gamma.aridns.net.au.
+tokyo.			86400	IN	NSEC	tools. NS DS RRSIG NSEC
+tokyo.			172800	IN	NS	a.gmoregistry.net.
+tokyo.			172800	IN	NS	b.gmoregistry.net.
+tokyo.			172800	IN	NS	c.gmoregistry.net.
+tokyo.			172800	IN	NS	d.gmoregistry.net.
+tokyo.			172800	IN	NS	e.gmoregistry.net.
 tools.			86400	IN	NSEC	tp. NS DS RRSIG NSEC
 tools.			172800	IN	NS	demand.beta.aridns.net.au.
 tools.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4217,7 +4238,7 @@ viajes.			172800	IN	NS	demand.beta.aridns.net.au.
 viajes.			172800	IN	NS	demand.alpha.aridns.net.au.
 viajes.			172800	IN	NS	demand.delta.aridns.net.au.
 viajes.			172800	IN	NS	demand.gamma.aridns.net.au.
-vn.			86400	IN	NSEC	voyage. NS RRSIG NSEC
+vn.			86400	IN	NSEC	voting. NS RRSIG NSEC
 vn.			172800	IN	NS	a.dns-servers.vn.
 vn.			172800	IN	NS	b.dns-servers.vn.
 vn.			172800	IN	NS	c.dns-servers.vn.
@@ -4233,6 +4254,16 @@ c.dns-servers.vn.	172800	IN	A	203.119.38.105
 d.dns-servers.vn.	172800	IN	A	203.119.44.105
 e.dns-servers.vn.	172800	IN	A	203.119.60.105
 f.dns-servers.vn.	172800	IN	A	203.119.68.105
+voting.			86400	IN	NSEC	voyage. NS DS RRSIG NSEC
+voting.			172800	IN	NS	a.dns.nic.voting.
+voting.			172800	IN	NS	b.dns.nic.voting.
+voting.			172800	IN	NS	c.dns.nic.voting.
+a.dns.nic.voting.	172800	IN	AAAA	2001:678:20::17
+a.dns.nic.voting.	172800	IN	A	194.0.25.17
+b.dns.nic.voting.	172800	IN	AAAA	2001:62a:a:2000::6
+b.dns.nic.voting.	172800	IN	A	193.170.61.6
+c.dns.nic.voting.	172800	IN	AAAA	2001:62a:a:3000::6
+c.dns.nic.voting.	172800	IN	A	193.170.187.6
 voyage.			86400	IN	NSEC	vu. NS DS RRSIG NSEC
 voyage.			172800	IN	NS	demand.beta.aridns.net.au.
 voyage.			172800	IN	NS	demand.alpha.aridns.net.au.
