@@ -378,7 +378,7 @@ f.gtld.biz.		172800	IN	AAAA	2001:500:3682::12
 f.gtld.biz.		172800	IN	A	209.173.58.66
 k.gtld.biz.		172800	IN	AAAA	2001:503:e239::3:2
 k.gtld.biz.		172800	IN	A	156.154.128.65
-bj.			86400	IN	NSEC	bm. NS RRSIG NSEC
+bj.			86400	IN	NSEC	blue. NS RRSIG NSEC
 bj.			172800	IN	NS	bj.cctld.authdns.ripe.net.
 bj.			172800	IN	NS	bow.rain.fr.
 bj.			172800	IN	NS	ns1.intnet.bj.
@@ -386,6 +386,19 @@ bj.			172800	IN	NS	ns-bj.afrinic.net.
 bj.			172800	IN	NS	nakayo.leland.bj.
 ns1.intnet.bj.		172800	IN	A	81.91.225.18
 nakayo.leland.bj.	172800	IN	A	81.91.225.1
+blue.			86400	IN	NSEC	bm. NS DS RRSIG NSEC
+blue.			172800	IN	NS	a0.nic.blue.
+blue.			172800	IN	NS	a2.nic.blue.
+blue.			172800	IN	NS	b0.nic.blue.
+blue.			172800	IN	NS	c0.nic.blue.
+a0.nic.blue.		172800	IN	AAAA	2a01:8840:1e::9
+a0.nic.blue.		172800	IN	A	65.22.28.9
+a2.nic.blue.		172800	IN	AAAA	2a01:8840:21::9
+a2.nic.blue.		172800	IN	A	65.22.31.9
+b0.nic.blue.		172800	IN	AAAA	2a01:8840:1f::9
+b0.nic.blue.		172800	IN	A	65.22.29.9
+c0.nic.blue.		172800	IN	AAAA	2a01:8840:20::9
+c0.nic.blue.		172800	IN	A	65.22.30.9
 bm.			86400	IN	NSEC	bn. NS RRSIG NSEC
 bm.			172800	IN	NS	ns.uu.net.
 bm.			172800	IN	NS	ns1.bm.
