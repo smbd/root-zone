@@ -4444,12 +4444,25 @@ xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns3.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns4.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns5.conac.cn.
-xn--55qx5d.		86400	IN	NSEC	xn--6qq986b3xl. NS DS RRSIG NSEC
+xn--55qx5d.		86400	IN	NSEC	xn--6frz82g. NS DS RRSIG NSEC
 xn--55qx5d.		172800	IN	NS	a.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	b.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	c.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	d.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	e.ngtld.cn.
+xn--6frz82g.		86400	IN	NSEC	xn--6qq986b3xl. NS DS RRSIG NSEC
+xn--6frz82g.		172800	IN	NS	a0.nic.xn--6frz82g.
+xn--6frz82g.		172800	IN	NS	a2.nic.xn--6frz82g.
+xn--6frz82g.		172800	IN	NS	b0.nic.xn--6frz82g.
+xn--6frz82g.		172800	IN	NS	c0.nic.xn--6frz82g.
+a0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1a::9
+a0.nic.xn--6frz82g.	172800	IN	A	65.22.24.9
+a2.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1d::9
+a2.nic.xn--6frz82g.	172800	IN	A	65.22.27.9
+b0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1b::9
+b0.nic.xn--6frz82g.	172800	IN	A	65.22.25.9
+c0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1c::9
+c0.nic.xn--6frz82g.	172800	IN	A	65.22.26.9
 xn--6qq986b3xl.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
 xn--6qq986b3xl.		172800	IN	NS	a.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	b.zdnscloud.com.
