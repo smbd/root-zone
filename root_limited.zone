@@ -3508,7 +3508,7 @@ py.			172800	IN	NS	sce.cnc.una.py.
 py.			172800	IN	NS	auth00.ns.uu.net.
 ns.cnc.una.py.		172800	IN	A	200.10.228.132
 sce.cnc.una.py.		172800	IN	A	200.10.228.133
-qa.			86400	IN	NSEC	re. NS RRSIG NSEC
+qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
 qa.			172800	IN	NS	a.registry.qa.
 qa.			172800	IN	NS	b.registry.qa.
 qa.			172800	IN	NS	c.registry.qa.
@@ -3536,6 +3536,28 @@ i.registry.qa.		172800	IN	A	204.61.216.62
 j.registry.qa.		172800	IN	A	38.103.2.3
 k.registry.qa.		172800	IN	AAAA	2001:470:1a::3
 k.registry.qa.		172800	IN	A	72.52.71.3
+qpon.			86400	IN	NSEC	re. NS DS RRSIG NSEC
+qpon.			172800	IN	NS	ns1.dns.nic.qpon.
+qpon.			172800	IN	NS	ns2.dns.nic.qpon.
+qpon.			172800	IN	NS	ns3.dns.nic.qpon.
+qpon.			172800	IN	NS	ns4.dns.nic.qpon.
+qpon.			172800	IN	NS	ns5.dns.nic.qpon.
+qpon.			172800	IN	NS	ns6.dns.nic.qpon.
+qpon.			172800	IN	NS	ns7.dns.nic.qpon.
+ns1.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1071::1:20
+ns1.dns.nic.qpon.	172800	IN	A	156.154.169.32
+ns2.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1072::1:20
+ns2.dns.nic.qpon.	172800	IN	A	156.154.170.32
+ns3.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1073::1:20
+ns3.dns.nic.qpon.	172800	IN	A	156.154.171.32
+ns4.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1074::1:20
+ns4.dns.nic.qpon.	172800	IN	A	156.154.172.32
+ns5.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1075::1:20
+ns5.dns.nic.qpon.	172800	IN	A	156.154.173.32
+ns6.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1076::1:20
+ns6.dns.nic.qpon.	172800	IN	A	156.154.174.32
+ns7.dns.nic.qpon.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+ns7.dns.nic.qpon.	172800	IN	A	207.34.5.10
 re.			86400	IN	NSEC	recipes. NS DS RRSIG NSEC
 re.			172800	IN	NS	d.ext.nic.fr.
 re.			172800	IN	NS	d.nic.fr.
