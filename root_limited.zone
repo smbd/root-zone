@@ -2275,11 +2275,16 @@ maison.			172800	IN	NS	demand.beta.aridns.net.au.
 maison.			172800	IN	NS	demand.alpha.aridns.net.au.
 maison.			172800	IN	NS	demand.delta.aridns.net.au.
 maison.			172800	IN	NS	demand.gamma.aridns.net.au.
-management.		86400	IN	NSEC	marketing. NS DS RRSIG NSEC
+management.		86400	IN	NSEC	mango. NS DS RRSIG NSEC
 management.		172800	IN	NS	demand.beta.aridns.net.au.
 management.		172800	IN	NS	demand.alpha.aridns.net.au.
 management.		172800	IN	NS	demand.delta.aridns.net.au.
 management.		172800	IN	NS	demand.gamma.aridns.net.au.
+mango.			86400	IN	NSEC	marketing. NS DS RRSIG NSEC
+mango.			172800	IN	NS	anycast9.irondns.net.
+mango.			172800	IN	NS	anycast10.irondns.net.
+mango.			172800	IN	NS	anycast23.irondns.net.
+mango.			172800	IN	NS	anycast24.irondns.net.
 marketing.		86400	IN	NSEC	mc. NS DS RRSIG NSEC
 marketing.		172800	IN	NS	demand.beta.aridns.net.au.
 marketing.		172800	IN	NS	demand.alpha.aridns.net.au.
