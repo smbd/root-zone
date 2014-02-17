@@ -4700,11 +4700,16 @@ xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
 xn--mgba3a4f16a.	86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
 xn--mgba3a4f16a.	172800	IN	NS	a.nic.ir.
 xn--mgba3a4f16a.	172800	IN	NS	ns.irnic.ir.
-xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
+xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbab2bd. NS RRSIG NSEC
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	sns-pb.isc.org.
 xn--mgbaam7a8h.		172800	IN	NS	nsext-pch.aedns.ae.
+xn--mgbab2bd.		86400	IN	NSEC	xn--mgbayh7gpa. NS DS RRSIG NSEC
+xn--mgbab2bd.		172800	IN	NS	anycast9.irondns.net.
+xn--mgbab2bd.		172800	IN	NS	anycast10.irondns.net.
+xn--mgbab2bd.		172800	IN	NS	anycast23.irondns.net.
+xn--mgbab2bd.		172800	IN	NS	anycast24.irondns.net.
 xn--mgbayh7gpa.		86400	IN	NSEC	xn--mgbbh1a71e. NS RRSIG NSEC
 xn--mgbayh7gpa.		172800	IN	NS	jo.cctld.authdns.ripe.net.
 xn--mgbayh7gpa.		172800	IN	NS	rip.psg.com.
