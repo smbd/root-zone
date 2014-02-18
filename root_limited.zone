@@ -2617,7 +2617,7 @@ net.			172800	IN	NS	j.gtld-servers.net.
 net.			172800	IN	NS	k.gtld-servers.net.
 net.			172800	IN	NS	l.gtld-servers.net.
 net.			172800	IN	NS	m.gtld-servers.net.
-net.			86400	IN	NSEC	nf. NS DS RRSIG NSEC
+net.			86400	IN	NSEC	neustar. NS DS RRSIG NSEC
 ns1.aalnet.net.		172800	IN	A	194.112.0.1
 ns2.aalnet.net.		172800	IN	A	194.112.0.5
 ns3.aalnet.net.		172800	IN	A	82.199.186.130
@@ -3063,6 +3063,28 @@ auth200.ns.uu.net.	172800	IN	A	195.129.12.82
 auth210.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e001::35:2
 auth210.ns.uu.net.	172800	IN	A	195.129.12.74
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
+neustar.		86400	IN	NSEC	nf. NS DS RRSIG NSEC
+neustar.		172800	IN	NS	ns1.dns.nic.neustar.
+neustar.		172800	IN	NS	ns2.dns.nic.neustar.
+neustar.		172800	IN	NS	ns3.dns.nic.neustar.
+neustar.		172800	IN	NS	ns4.dns.nic.neustar.
+neustar.		172800	IN	NS	ns5.dns.nic.neustar.
+neustar.		172800	IN	NS	ns6.dns.nic.neustar.
+neustar.		172800	IN	NS	ns7.dns.nic.neustar.
+ns1.dns.nic.neustar.	172800	IN	AAAA	2001:502:d399::250
+ns1.dns.nic.neustar.	172800	IN	A	204.74.112.250
+ns2.dns.nic.neustar.	172800	IN	AAAA	2610:a1:1007::250
+ns2.dns.nic.neustar.	172800	IN	A	204.74.113.250
+ns3.dns.nic.neustar.	172800	IN	AAAA	2610:a1:1008::250
+ns3.dns.nic.neustar.	172800	IN	A	199.7.66.250
+ns4.dns.nic.neustar.	172800	IN	AAAA	2001:502:100e::250
+ns4.dns.nic.neustar.	172800	IN	A	199.7.67.250
+ns5.dns.nic.neustar.	172800	IN	AAAA	2610:a1:1013::250
+ns5.dns.nic.neustar.	172800	IN	A	192.100.59.250
+ns6.dns.nic.neustar.	172800	IN	AAAA	2610:a1:1021::250
+ns6.dns.nic.neustar.	172800	IN	A	198.133.199.250
+ns7.dns.nic.neustar.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+ns7.dns.nic.neustar.	172800	IN	A	207.34.5.10
 nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
 nf.			172800	IN	NS	ns.anycast.nic.nf.
 nf.			172800	IN	NS	nf1.dyntld.net.
@@ -4448,7 +4470,7 @@ wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
 wf.			172800	IN	NS	f.ext.nic.fr.
 wf.			172800	IN	NS	g.ext.nic.fr.
-wien.			86400	IN	NSEC	works. NS DS RRSIG NSEC
+wien.			86400	IN	NSEC	wiki. NS DS RRSIG NSEC
 wien.			172800	IN	NS	a.dns.nic.wien.
 wien.			172800	IN	NS	b.dns.nic.wien.
 wien.			172800	IN	NS	c.dns.nic.wien.
@@ -4458,6 +4480,19 @@ b.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:2000::4
 b.dns.nic.wien.		172800	IN	A	193.170.61.4
 c.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:3000::4
 c.dns.nic.wien.		172800	IN	A	193.170.187.4
+wiki.			86400	IN	NSEC	works. NS DS RRSIG NSEC
+wiki.			172800	IN	NS	a.nic.wiki.
+wiki.			172800	IN	NS	b.nic.wiki.
+wiki.			172800	IN	NS	c.nic.wiki.
+wiki.			172800	IN	NS	d.nic.wiki.
+a.nic.wiki.		172800	IN	AAAA	2001:67c:13cc::1:30
+a.nic.wiki.		172800	IN	A	194.169.218.30
+b.nic.wiki.		172800	IN	AAAA	2a04:2b00:13cc::1:30
+b.nic.wiki.		172800	IN	A	185.24.64.30
+c.nic.wiki.		172800	IN	AAAA	2001:678:5::2
+c.nic.wiki.		172800	IN	A	194.0.2.2
+d.nic.wiki.		172800	IN	AAAA	2001:678:4::2d
+d.nic.wiki.		172800	IN	A	194.0.1.45
 works.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
 works.			172800	IN	NS	demand.beta.aridns.net.au.
 works.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4849,13 +4884,26 @@ xn--zfr164b.		172800	IN	NS	ns2.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns4.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns5.conac.cn.
-xxx.			86400	IN	NSEC	ye. NS RRSIG NSEC
+xxx.			86400	IN	NSEC	xyz. NS RRSIG NSEC
 xxx.			172800	IN	NS	a0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	a2.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	b2.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
+xyz.			86400	IN	NSEC	ye. NS DS RRSIG NSEC
+xyz.			172800	IN	NS	x.nic.xyz.
+xyz.			172800	IN	NS	y.nic.xyz.
+xyz.			172800	IN	NS	z.nic.xyz.
+xyz.			172800	IN	NS	generationxyz.nic.xyz.
+generationxyz.nic.xyz.	172800	IN	AAAA	2001:678:4::2d
+generationxyz.nic.xyz.	172800	IN	A	194.0.1.45
+x.nic.xyz.		172800	IN	AAAA	2001:67c:13cc::1:42
+x.nic.xyz.		172800	IN	A	194.169.218.42
+y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
+y.nic.xyz.		172800	IN	A	185.24.64.42
+z.nic.xyz.		172800	IN	AAAA	2001:678:5::2
+z.nic.xyz.		172800	IN	A	194.0.2.2
 ye.			86400	IN	NSEC	yt. NS RRSIG NSEC
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
