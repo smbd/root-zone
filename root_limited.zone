@@ -3926,9 +3926,14 @@ su.			172800	IN	NS	b.dns.ripn.net.
 su.			172800	IN	NS	d.dns.ripn.net.
 su.			172800	IN	NS	e.dns.ripn.net.
 su.			172800	IN	NS	f.dns.ripn.net.
-su.			86400	IN	NSEC	supply. NS DS RRSIG NSEC
+su.			86400	IN	NSEC	supplies. NS DS RRSIG NSEC
 ns.demos.su.		172800	IN	A	194.87.0.8
 ns.demos.su.		172800	IN	A	194.87.0.9
+supplies.		86400	IN	NSEC	supply. NS DS RRSIG NSEC
+supplies.		172800	IN	NS	demand.beta.aridns.net.au.
+supplies.		172800	IN	NS	demand.alpha.aridns.net.au.
+supplies.		172800	IN	NS	demand.delta.aridns.net.au.
+supplies.		172800	IN	NS	demand.gamma.aridns.net.au.
 supply.			86400	IN	NSEC	support. NS DS RRSIG NSEC
 supply.			172800	IN	NS	demand.beta.aridns.net.au.
 supply.			172800	IN	NS	demand.alpha.aridns.net.au.
