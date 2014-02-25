@@ -25,11 +25,16 @@ ac.			172800	IN	NS	ns1.communitydns.net.
 ac.			172800	IN	NS	ns3.icb.co.uk.
 a.nic.ac.		172800	IN	A	64.251.31.177
 b.nic.ac.		172800	IN	A	78.104.145.37
-academy.		86400	IN	NSEC	ad. NS DS RRSIG NSEC
+academy.		86400	IN	NSEC	actor. NS DS RRSIG NSEC
 academy.		172800	IN	NS	demand.beta.aridns.net.au.
 academy.		172800	IN	NS	demand.alpha.aridns.net.au.
 academy.		172800	IN	NS	demand.delta.aridns.net.au.
 academy.		172800	IN	NS	demand.gamma.aridns.net.au.
+actor.			86400	IN	NSEC	ad. NS DS RRSIG NSEC
+actor.			172800	IN	NS	demand.beta.aridns.net.au.
+actor.			172800	IN	NS	demand.alpha.aridns.net.au.
+actor.			172800	IN	NS	demand.delta.aridns.net.au.
+actor.			172800	IN	NS	demand.gamma.aridns.net.au.
 ad.			86400	IN	NSEC	ae. NS RRSIG NSEC
 ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ad.cctld.authdns.ripe.net.
@@ -687,11 +692,16 @@ f.nic.ch.		172800	IN	A	194.146.106.10
 h.nic.ch.		172800	IN	A	194.42.48.120
 ns2.switch.ch.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 ns2.switch.ch.		172800	IN	A	130.59.138.49
-cheap.			86400	IN	NSEC	ci. NS DS RRSIG NSEC
+cheap.			86400	IN	NSEC	christmas. NS DS RRSIG NSEC
 cheap.			172800	IN	NS	demand.beta.aridns.net.au.
 cheap.			172800	IN	NS	demand.alpha.aridns.net.au.
 cheap.			172800	IN	NS	demand.delta.aridns.net.au.
 cheap.			172800	IN	NS	demand.gamma.aridns.net.au.
+christmas.		86400	IN	NSEC	ci. NS DS RRSIG NSEC
+christmas.		172800	IN	NS	a.ns.uniregistry.net.
+christmas.		172800	IN	NS	tld.isc-sns.com.
+christmas.		172800	IN	NS	tld.isc-sns.net.
+christmas.		172800	IN	NS	tld.isc-sns.info.
 ci.			86400	IN	NSEC	ck. NS RRSIG NSEC
 ci.			172800	IN	NS	ci.cctld.authdns.ripe.net.
 ci.			172800	IN	NS	ci.hosting.nic.fr.
@@ -3507,7 +3517,7 @@ pt.			172800	IN	NS	ns-pt.nlnetlabs.nl.
 pt.			172800	IN	NS	sns-pb.isc.org.
 pt.			172800	IN	NS	auth200.ns.uu.net.
 pt.			172800	IN	NS	auth210.ns.uu.net.
-pt.			86400	IN	NSEC	pw. NS DS RRSIG NSEC
+pt.			86400	IN	NSEC	pub. NS DS RRSIG NSEC
 ns.dns.pt.		172800	IN	AAAA	2001:690:a00:1016:905::1
 ns.dns.pt.		172800	IN	A	193.136.0.1
 ns2.dns.pt.		172800	IN	AAAA	2001:690:a80:4001::100
@@ -3519,6 +3529,11 @@ ns02.fccn.pt.		172800	IN	A	193.136.2.228
 ns03.fccn.pt.		172800	IN	AAAA	2001:4ca0:106:0:250:56ff:fea9:3fd
 ns03.fccn.pt.		172800	IN	A	138.246.255.249
 phobos.fccn.pt.		172800	IN	A	193.136.7.17
+pub.			86400	IN	NSEC	pw. NS DS RRSIG NSEC
+pub.			172800	IN	NS	demand.beta.aridns.net.au.
+pub.			172800	IN	NS	demand.alpha.aridns.net.au.
+pub.			172800	IN	NS	demand.delta.aridns.net.au.
+pub.			172800	IN	NS	demand.gamma.aridns.net.au.
 pw.			86400	IN	NSEC	py. NS DS RRSIG NSEC
 pw.			172800	IN	NS	ns1.nic.pw.
 pw.			172800	IN	NS	ns2.nic.pw.
@@ -4637,11 +4652,17 @@ xn--cg4bki.		172800	IN	NS	d.dns.kr.
 xn--cg4bki.		172800	IN	NS	e.dns.kr.
 xn--cg4bki.		172800	IN	NS	f.dns.kr.
 xn--cg4bki.		172800	IN	NS	g.dns.kr.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--fiq228c5hs. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--d1acj3b. NS RRSIG NSEC
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
+xn--d1acj3b.		86400	IN	NSEC	xn--fiq228c5hs. NS DS RRSIG NSEC
+xn--d1acj3b.		172800	IN	NS	a.dns.ripn.net.
+xn--d1acj3b.		172800	IN	NS	b.dns.ripn.net.
+xn--d1acj3b.		172800	IN	NS	d.dns.ripn.net.
+xn--d1acj3b.		172800	IN	NS	e.dns.ripn.net.
+xn--d1acj3b.		172800	IN	NS	f.dns.ripn.net.
 xn--fiq228c5hs.		86400	IN	NSEC	xn--fiq64b. NS DS RRSIG NSEC
 xn--fiq228c5hs.		172800	IN	NS	a0.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	a2.nic.xn--fiq228c5hs.
