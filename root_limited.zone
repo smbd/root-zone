@@ -268,7 +268,7 @@ az.			86400	IN	NSEC	ba. NS RRSIG NSEC
 az.			172800	IN	NS	az.hostmaster.ua.
 az.			172800	IN	NS	ns.demos.su.
 az.			172800	IN	NS	rip.psg.com.
-ba.			86400	IN	NSEC	bargains. NS RRSIG NSEC
+ba.			86400	IN	NSEC	bar. NS RRSIG NSEC
 ba.			172800	IN	NS	ba.cctld.authdns.ripe.net.
 ba.			172800	IN	NS	ns.ba.
 ba.			172800	IN	NS	sava.utic.net.ba.
@@ -276,6 +276,19 @@ ba.			172800	IN	NS	auth03.ns.uu.net.
 ba.			172800	IN	NS	munnari.oz.au.
 sava.utic.net.ba.	172800	IN	A	195.130.35.3
 ns.ba.			172800	IN	A	195.130.35.5
+bar.			86400	IN	NSEC	bargains. NS DS RRSIG NSEC
+bar.			172800	IN	NS	a.nic.bar.
+bar.			172800	IN	NS	b.nic.bar.
+bar.			172800	IN	NS	c.nic.bar.
+bar.			172800	IN	NS	d.nic.bar.
+a.nic.bar.		172800	IN	AAAA	2001:67c:13cc::1:56
+a.nic.bar.		172800	IN	A	194.169.218.56
+b.nic.bar.		172800	IN	AAAA	2a04:2b00:13cc::1:56
+b.nic.bar.		172800	IN	A	185.24.64.56
+c.nic.bar.		172800	IN	AAAA	2001:678:5::2
+c.nic.bar.		172800	IN	A	194.0.2.2
+d.nic.bar.		172800	IN	AAAA	2001:678:4::2d
+d.nic.bar.		172800	IN	A	194.0.1.45
 bargains.		86400	IN	NSEC	bb. NS DS RRSIG NSEC
 bargains.		172800	IN	NS	demand.beta.aridns.net.au.
 bargains.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -310,7 +323,7 @@ x.ns.dns.be.		172800	IN	AAAA	2001:678:4::a
 x.ns.dns.be.		172800	IN	A	194.0.1.10
 y.ns.dns.be.		172800	IN	AAAA	2001:dcd:7::8
 y.ns.dns.be.		172800	IN	A	120.29.253.8
-berlin.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+berlin.			86400	IN	NSEC	best. NS DS RRSIG NSEC
 berlin.			172800	IN	NS	a.dns.nic.berlin.
 berlin.			172800	IN	NS	b.dns.nic.berlin.
 berlin.			172800	IN	NS	c.dns.nic.berlin.
@@ -320,6 +333,25 @@ b.dns.nic.berlin.	172800	IN	AAAA	2001:62a:a:2000::5
 b.dns.nic.berlin.	172800	IN	A	193.170.61.5
 c.dns.nic.berlin.	172800	IN	AAAA	2001:62a:a:3000::5
 c.dns.nic.berlin.	172800	IN	A	193.170.187.5
+best.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+best.			172800	IN	NS	ns1.dns.nic.best.
+best.			172800	IN	NS	ns2.dns.nic.best.
+best.			172800	IN	NS	ns3.dns.nic.best.
+best.			172800	IN	NS	ns4.dns.nic.best.
+best.			172800	IN	NS	ns5.dns.nic.best.
+best.			172800	IN	NS	ns6.dns.nic.best.
+ns1.dns.nic.best.	172800	IN	AAAA	2610:a1:1071::18
+ns1.dns.nic.best.	172800	IN	A	156.154.144.24
+ns2.dns.nic.best.	172800	IN	AAAA	2610:a1:1072::18
+ns2.dns.nic.best.	172800	IN	A	156.154.145.24
+ns3.dns.nic.best.	172800	IN	AAAA	2610:a1:1073::18
+ns3.dns.nic.best.	172800	IN	A	156.154.159.24
+ns4.dns.nic.best.	172800	IN	AAAA	2610:a1:1074::18
+ns4.dns.nic.best.	172800	IN	A	156.154.156.24
+ns5.dns.nic.best.	172800	IN	AAAA	2610:a1:1075::18
+ns5.dns.nic.best.	172800	IN	A	156.154.157.24
+ns6.dns.nic.best.	172800	IN	AAAA	2610:a1:1076::18
+ns6.dns.nic.best.	172800	IN	A	156.154.158.24
 bf.			86400	IN	NSEC	bg. NS RRSIG NSEC
 bf.			172800	IN	NS	ns1.ird.fr.
 bf.			172800	IN	NS	ns1.as6453.net.
@@ -2064,7 +2096,7 @@ kp.			172800	IN	NS	ns1.kptc.kp.
 kp.			172800	IN	NS	ns2.kptc.kp.
 ns1.kptc.kp.		172800	IN	A	175.45.176.15
 ns2.kptc.kp.		172800	IN	A	175.45.176.16
-kr.			86400	IN	NSEC	kw. NS DS RRSIG NSEC
+kr.			86400	IN	NSEC	kred. NS DS RRSIG NSEC
 kr.			172800	IN	NS	b.dns.kr.
 kr.			172800	IN	NS	c.dns.kr.
 kr.			172800	IN	NS	d.dns.kr.
@@ -2079,6 +2111,25 @@ e.dns.kr.		172800	IN	A	202.30.124.100
 f.dns.kr.		172800	IN	A	218.38.181.90
 g.dns.kr.		172800	IN	AAAA	2001:dc5:a::1
 g.dns.kr.		172800	IN	A	202.31.190.1
+kred.			86400	IN	NSEC	kw. NS DS RRSIG NSEC
+kred.			172800	IN	NS	ns1.dns.nic.kred.
+kred.			172800	IN	NS	ns2.dns.nic.kred.
+kred.			172800	IN	NS	ns3.dns.nic.kred.
+kred.			172800	IN	NS	ns4.dns.nic.kred.
+kred.			172800	IN	NS	ns5.dns.nic.kred.
+kred.			172800	IN	NS	ns6.dns.nic.kred.
+ns1.dns.nic.kred.	172800	IN	AAAA	2610:a1:1071::63
+ns1.dns.nic.kred.	172800	IN	A	156.154.144.99
+ns2.dns.nic.kred.	172800	IN	AAAA	2610:a1:1072::63
+ns2.dns.nic.kred.	172800	IN	A	156.154.145.99
+ns3.dns.nic.kred.	172800	IN	AAAA	2610:a1:1073::63
+ns3.dns.nic.kred.	172800	IN	A	156.154.159.99
+ns4.dns.nic.kred.	172800	IN	AAAA	2610:a1:1074::63
+ns4.dns.nic.kred.	172800	IN	A	156.154.156.99
+ns5.dns.nic.kred.	172800	IN	AAAA	2610:a1:1075::63
+ns5.dns.nic.kred.	172800	IN	A	156.154.157.99
+ns6.dns.nic.kred.	172800	IN	AAAA	2610:a1:1076::63
+ns6.dns.nic.kred.	172800	IN	A	156.154.158.99
 kw.			86400	IN	NSEC	ky. NS RRSIG NSEC
 kw.			172800	IN	NS	dns1.kw.
 kw.			172800	IN	NS	dns2.kw.
