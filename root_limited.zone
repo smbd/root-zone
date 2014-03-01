@@ -255,11 +255,22 @@ y.au.			172800	IN	A	37.209.196.5
 z.au.			172800	IN	AAAA	2001:dcd:4::5
 z.au.			172800	IN	A	37.209.198.5
 aw.			86400	IN	NSEC	ax. NS RRSIG NSEC
-aw.			172800	IN	NS	ns1.setarnet.aw.
-aw.			172800	IN	NS	ns2.setarnet.aw.
-aw.			172800	IN	NS	ns-aw-ext1.sidn.nl.
-ns1.setarnet.aw.	172800	IN	A	209.88.128.25
-ns2.setarnet.aw.	172800	IN	A	209.88.128.26
+aw.			172800	IN	NS	ns1.dns.aw.
+aw.			172800	IN	NS	ns2.dns.aw.
+aw.			172800	IN	NS	ns3.dns.aw.
+aw.			172800	IN	NS	ns5.dns.aw.
+aw.			172800	IN	NS	aw01.setarnet.aw.
+aw.			172800	IN	NS	aw02.setarnet.aw.
+ns1.dns.aw.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:13
+ns1.dns.aw.		172800	IN	A	193.176.144.13
+ns2.dns.aw.		172800	IN	AAAA	2001:7b8:606::88
+ns2.dns.aw.		172800	IN	A	213.154.241.88
+ns3.dns.aw.		172800	IN	AAAA	2001:610:0:800d::13
+ns3.dns.aw.		172800	IN	A	194.171.17.13
+ns5.dns.aw.		172800	IN	AAAA	2001:678:2c:0:194:0:28:2
+ns5.dns.aw.		172800	IN	A	194.0.28.2
+aw01.setarnet.aw.	172800	IN	A	201.229.0.26
+aw02.setarnet.aw.	172800	IN	A	201.229.0.27
 ax.			86400	IN	NSEC	az. NS RRSIG NSEC
 ax.			172800	IN	NS	ns1.aalnet.net.
 ax.			172800	IN	NS	ns2.aalnet.net.
@@ -383,7 +394,7 @@ ns.batelco.com.bh.	172800	IN	A	193.188.97.197
 ns2.batelco.com.bh.	172800	IN	A	193.188.97.212
 ns3.batelco.com.bh.	172800	IN	A	193.188.97.193
 ns4.batelco.com.bh.	172800	IN	A	193.188.97.209
-bi.			86400	IN	NSEC	bike. NS RRSIG NSEC
+bi.			86400	IN	NSEC	bid. NS RRSIG NSEC
 bi.			172800	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			172800	IN	NS	ns.nic.bi.
 bi.			172800	IN	NS	dns.princeton.edu.
@@ -394,6 +405,25 @@ anyns.nic.bi.		172800	IN	AAAA	2001:500:14:6061:ad::1
 anyns.nic.bi.		172800	IN	A	204.61.216.61
 ns.nic.bi.		172800	IN	A	196.2.8.205
 ns1.nic.bi.		172800	IN	A	196.2.12.205
+bid.			86400	IN	NSEC	bike. NS DS RRSIG NSEC
+bid.			172800	IN	NS	ns1.dns.nic.bid.
+bid.			172800	IN	NS	ns2.dns.nic.bid.
+bid.			172800	IN	NS	ns3.dns.nic.bid.
+bid.			172800	IN	NS	ns4.dns.nic.bid.
+bid.			172800	IN	NS	ns5.dns.nic.bid.
+bid.			172800	IN	NS	ns6.dns.nic.bid.
+ns1.dns.nic.bid.	172800	IN	AAAA	2610:a1:1071::19
+ns1.dns.nic.bid.	172800	IN	A	156.154.144.25
+ns2.dns.nic.bid.	172800	IN	AAAA	2610:a1:1072::19
+ns2.dns.nic.bid.	172800	IN	A	156.154.145.25
+ns3.dns.nic.bid.	172800	IN	AAAA	2610:a1:1073::19
+ns3.dns.nic.bid.	172800	IN	A	156.154.159.25
+ns4.dns.nic.bid.	172800	IN	AAAA	2610:a1:1074::19
+ns4.dns.nic.bid.	172800	IN	A	156.154.156.25
+ns5.dns.nic.bid.	172800	IN	AAAA	2610:a1:1075::19
+ns5.dns.nic.bid.	172800	IN	A	156.154.157.25
+ns6.dns.nic.bid.	172800	IN	AAAA	2610:a1:1076::19
+ns6.dns.nic.bid.	172800	IN	A	156.154.158.25
 bike.			86400	IN	NSEC	biz. NS DS RRSIG NSEC
 bike.			172800	IN	NS	demand.beta.aridns.net.au.
 bike.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3214,8 +3244,6 @@ ns5.dns.nl.		172800	IN	AAAA	2001:678:2c:0:194:0:28:53
 ns5.dns.nl.		172800	IN	A	194.0.28.53
 ns-pt.nlnetlabs.nl.	172800	IN	AAAA	2001:7b8:206:1::4:141
 ns-pt.nlnetlabs.nl.	172800	IN	A	213.154.224.141
-ns-aw-ext1.sidn.nl.	172800	IN	AAAA	2a00:d78:0:102:193:176:144:23
-ns-aw-ext1.sidn.nl.	172800	IN	A	193.176.144.23
 no.			172800	IN	NS	i.nic.no.
 no.			172800	IN	NS	x.nic.no.
 no.			172800	IN	NS	y.nic.no.
@@ -3268,7 +3296,7 @@ nz.			172800	IN	NS	ns4.dns.net.nz.
 nz.			172800	IN	NS	ns5.dns.net.nz.
 nz.			172800	IN	NS	ns6.dns.net.nz.
 nz.			172800	IN	NS	ns7.dns.net.nz.
-nz.			86400	IN	NSEC	om. NS DS RRSIG NSEC
+nz.			86400	IN	NSEC	okinawa. NS DS RRSIG NSEC
 circa.mcs.vuw.ac.nz.	172800	IN	A	130.195.5.12
 downstage.mcs.vuw.ac.nz. 172800	IN	A	130.195.6.10
 ns1.dns.net.nz.		172800	IN	AAAA	2001:dce:2000:2::130
@@ -3286,6 +3314,12 @@ ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
 iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
+okinawa.		86400	IN	NSEC	om. NS DS RRSIG NSEC
+okinawa.		172800	IN	NS	a.gmoregistry.net.
+okinawa.		172800	IN	NS	b.gmoregistry.net.
+okinawa.		172800	IN	NS	c.gmoregistry.net.
+okinawa.		172800	IN	NS	d.gmoregistry.net.
+okinawa.		172800	IN	NS	e.gmoregistry.net.
 om.			86400	IN	NSEC	onl. NS RRSIG NSEC
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns2.registry.om.
@@ -3721,6 +3755,7 @@ c0.nic.rich.		172800	IN	A	65.22.138.17
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	ns-ext.isc.org.
+ro.			172800	IN	NS	sns-pb.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
@@ -4491,7 +4526,7 @@ vision.			172800	IN	NS	demand.beta.aridns.net.au.
 vision.			172800	IN	NS	demand.alpha.aridns.net.au.
 vision.			172800	IN	NS	demand.delta.aridns.net.au.
 vision.			172800	IN	NS	demand.gamma.aridns.net.au.
-vn.			86400	IN	NSEC	voting. NS RRSIG NSEC
+vn.			86400	IN	NSEC	vote. NS RRSIG NSEC
 vn.			172800	IN	NS	a.dns-servers.vn.
 vn.			172800	IN	NS	b.dns-servers.vn.
 vn.			172800	IN	NS	c.dns-servers.vn.
@@ -4507,7 +4542,20 @@ c.dns-servers.vn.	172800	IN	A	203.119.38.105
 d.dns-servers.vn.	172800	IN	A	203.119.44.105
 e.dns-servers.vn.	172800	IN	A	203.119.60.105
 f.dns-servers.vn.	172800	IN	A	203.119.68.105
-voting.			86400	IN	NSEC	voyage. NS DS RRSIG NSEC
+vote.			86400	IN	NSEC	voting. NS DS RRSIG NSEC
+vote.			172800	IN	NS	a0.nic.vote.
+vote.			172800	IN	NS	a2.nic.vote.
+vote.			172800	IN	NS	b0.nic.vote.
+vote.			172800	IN	NS	c0.nic.vote.
+a0.nic.vote.		172800	IN	AAAA	2a01:8840:a2::9
+a0.nic.vote.		172800	IN	A	65.22.168.9
+a2.nic.vote.		172800	IN	AAAA	2a01:8840:a5::9
+a2.nic.vote.		172800	IN	A	65.22.171.9
+b0.nic.vote.		172800	IN	AAAA	2a01:8840:a3::9
+b0.nic.vote.		172800	IN	A	65.22.169.9
+c0.nic.vote.		172800	IN	AAAA	2a01:8840:a4::9
+c0.nic.vote.		172800	IN	A	65.22.170.9
+voting.			86400	IN	NSEC	voto. NS DS RRSIG NSEC
 voting.			172800	IN	NS	a.dns.nic.voting.
 voting.			172800	IN	NS	b.dns.nic.voting.
 voting.			172800	IN	NS	c.dns.nic.voting.
@@ -4517,6 +4565,19 @@ b.dns.nic.voting.	172800	IN	AAAA	2001:62a:a:2000::6
 b.dns.nic.voting.	172800	IN	A	193.170.61.6
 c.dns.nic.voting.	172800	IN	AAAA	2001:62a:a:3000::6
 c.dns.nic.voting.	172800	IN	A	193.170.187.6
+voto.			86400	IN	NSEC	voyage. NS DS RRSIG NSEC
+voto.			172800	IN	NS	a0.nic.voto.
+voto.			172800	IN	NS	a2.nic.voto.
+voto.			172800	IN	NS	b0.nic.voto.
+voto.			172800	IN	NS	c0.nic.voto.
+a0.nic.voto.		172800	IN	AAAA	2a01:8840:a2::1
+a0.nic.voto.		172800	IN	A	65.22.168.1
+a2.nic.voto.		172800	IN	AAAA	2a01:8840:a5::1
+a2.nic.voto.		172800	IN	A	65.22.171.1
+b0.nic.voto.		172800	IN	AAAA	2a01:8840:a3::1
+b0.nic.voto.		172800	IN	A	65.22.169.1
+c0.nic.voto.		172800	IN	AAAA	2a01:8840:a4::1
+c0.nic.voto.		172800	IN	A	65.22.170.1
 voyage.			86400	IN	NSEC	vu. NS DS RRSIG NSEC
 voyage.			172800	IN	NS	demand.beta.aridns.net.au.
 voyage.			172800	IN	NS	demand.alpha.aridns.net.au.
