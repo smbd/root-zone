@@ -188,6 +188,8 @@ at.			172800	IN	NS	ns1.univie.ac.at.
 at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
 at.			86400	IN	NSEC	au. NS DS RRSIG NSEC
+dns-mk.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb::4
+dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
 ns1.univie.ac.at.	172800	IN	AAAA	2001:628:2030:4301::2
 ns1.univie.ac.at.	172800	IN	A	78.104.144.2
 ns2.univie.ac.at.	172800	IN	AAAA	2001:678:1c::2
@@ -2117,10 +2119,15 @@ km.			172800	IN	NS	dns2.nic.km.
 km.			172800	IN	NS	ns-km.afrinic.net.
 dns1.nic.km.		172800	IN	A	197.255.224.18
 dns2.nic.km.		172800	IN	A	197.255.224.66
-kn.			86400	IN	NSEC	kp. NS RRSIG NSEC
+kn.			86400	IN	NSEC	koeln. NS RRSIG NSEC
 kn.			172800	IN	NS	a.dns.tw.
 kn.			172800	IN	NS	b.dns.tw.
 kn.			172800	IN	NS	c.dns.tw.
+koeln.			86400	IN	NSEC	kp. NS DS RRSIG NSEC
+koeln.			172800	IN	NS	anycast9.irondns.net.
+koeln.			172800	IN	NS	anycast10.irondns.net.
+koeln.			172800	IN	NS	anycast23.irondns.net.
+koeln.			172800	IN	NS	anycast24.irondns.net.
 kp.			86400	IN	NSEC	kr. NS RRSIG NSEC
 kp.			172800	IN	NS	ns1.kptc.kp.
 kp.			172800	IN	NS	ns2.kptc.kp.
@@ -2460,12 +2467,10 @@ eur2.nipr.mil.		172800	IN	A	199.252.143.234
 pac1.nipr.mil.		172800	IN	A	199.252.180.234
 pac2.nipr.mil.		172800	IN	A	199.252.155.234
 mk.			86400	IN	NSEC	ml. NS RRSIG NSEC
-mk.			172800	IN	NS	ns2.arnes.si.
-mk.			172800	IN	NS	ns5.univie.ac.at.
-mk.			172800	IN	NS	rip.psg.com.
-mk.			172800	IN	NS	kitka.marnet.net.mk.
-kitka.marnet.net.mk.	172800	IN	AAAA	2a02:e48:0:3::2
-kitka.marnet.net.mk.	172800	IN	A	194.149.131.2
+mk.			172800	IN	NS	d.ext.nic.cz.
+mk.			172800	IN	NS	tld1.marnet.mk.
+mk.			172800	IN	NS	dns-mk.univie.ac.at.
+tld1.marnet.mk.		172800	IN	A	194.149.137.168
 ml.			86400	IN	NSEC	mm. NS RRSIG NSEC
 ml.			172800	IN	NS	a.ns.ml.
 ml.			172800	IN	NS	b.ns.ml.
@@ -3754,7 +3759,6 @@ c0.nic.rich.		172800	IN	AAAA	2a01:8840:88::17
 c0.nic.rich.		172800	IN	A	65.22.138.17
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
-ro.			172800	IN	NS	ns-ext.isc.org.
 ro.			172800	IN	NS	sns-pb.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
@@ -3916,6 +3920,7 @@ shoes.			172800	IN	NS	demand.beta.aridns.net.au.
 shoes.			172800	IN	NS	demand.alpha.aridns.net.au.
 shoes.			172800	IN	NS	demand.delta.aridns.net.au.
 shoes.			172800	IN	NS	demand.gamma.aridns.net.au.
+si.			86400	IN	NSEC	singles. NS DS RRSIG NSEC
 si.			172800	IN	NS	b.dns.si.
 si.			172800	IN	NS	c.dns.si.
 si.			172800	IN	NS	d.dns.si.
@@ -3924,9 +3929,6 @@ si.			172800	IN	NS	f.dns.si.
 si.			172800	IN	NS	g.dns.si.
 si.			172800	IN	NS	h.dns.si.
 si.			172800	IN	NS	sss.dns.si.
-si.			86400	IN	NSEC	singles. NS DS RRSIG NSEC
-ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000::91
-ns2.arnes.si.		172800	IN	A	193.2.1.91
 b.dns.si.		172800	IN	AAAA	2001:1470:8000::91
 b.dns.si.		172800	IN	A	193.2.1.91
 c.dns.si.		172800	IN	AAAA	2001:660:3005:1::1:2
@@ -4750,13 +4752,26 @@ xn--80aswg.		172800	IN	NS	anycast9.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast10.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast23.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast24.irondns.net.
-xn--90a3ac.		86400	IN	NSEC	xn--cg4bki. NS RRSIG NSEC
+xn--90a3ac.		86400	IN	NSEC	xn--c1avg. NS RRSIG NSEC
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
+xn--c1avg.		86400	IN	NSEC	xn--cg4bki. NS DS RRSIG NSEC
+xn--c1avg.		172800	IN	NS	a0.nic.xn--c1avg.
+xn--c1avg.		172800	IN	NS	a2.nic.xn--c1avg.
+xn--c1avg.		172800	IN	NS	b0.nic.xn--c1avg.
+xn--c1avg.		172800	IN	NS	c0.nic.xn--c1avg.
+a0.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b2::25
+a0.nic.xn--c1avg.	172800	IN	A	65.22.184.25
+a2.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b5::25
+a2.nic.xn--c1avg.	172800	IN	A	65.22.187.25
+b0.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b3::25
+b0.nic.xn--c1avg.	172800	IN	A	65.22.185.25
+c0.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b4::25
+c0.nic.xn--c1avg.	172800	IN	A	65.22.186.25
 xn--cg4bki.		86400	IN	NSEC	xn--clchc0ea0b2g2a9gcd. NS DS RRSIG NSEC
 xn--cg4bki.		172800	IN	NS	b.dns.kr.
 xn--cg4bki.		172800	IN	NS	c.dns.kr.
