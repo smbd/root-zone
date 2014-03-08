@@ -4852,7 +4852,7 @@ xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--h2brj9c.		86400	IN	NSEC	xn--io0a7i. NS DS RRSIG NSEC
+xn--h2brj9c.		86400	IN	NSEC	xn--i1b6b1a6a2e. NS DS RRSIG NSEC
 xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -4861,6 +4861,19 @@ xn--h2brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--h2brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
+xn--i1b6b1a6a2e.	86400	IN	NSEC	xn--io0a7i. NS DS RRSIG NSEC
+xn--i1b6b1a6a2e.	172800	IN	NS	a0.nic.xn--i1b6b1a6a2e.
+xn--i1b6b1a6a2e.	172800	IN	NS	a2.nic.xn--i1b6b1a6a2e.
+xn--i1b6b1a6a2e.	172800	IN	NS	b0.nic.xn--i1b6b1a6a2e.
+xn--i1b6b1a6a2e.	172800	IN	NS	c0.nic.xn--i1b6b1a6a2e.
+a0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b2::1
+a0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.184.1
+a2.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b5::1
+a2.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.187.1
+b0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b3::1
+b0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.185.1
+c0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b4::1
+c0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.186.1
 xn--io0a7i.		86400	IN	NSEC	xn--j1amh. NS DS RRSIG NSEC
 xn--io0a7i.		172800	IN	NS	a.ngtld.cn.
 xn--io0a7i.		172800	IN	NS	b.ngtld.cn.
@@ -4959,7 +4972,7 @@ xn--mgbx4cd0ab.		172800	IN	NS	dns2.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns20.iij.ad.jp.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
-xn--ngbc5azd.		86400	IN	NSEC	xn--o3cw4h. NS DS RRSIG NSEC
+xn--ngbc5azd.		86400	IN	NSEC	xn--nqv7f. NS DS RRSIG NSEC
 xn--ngbc5azd.		172800	IN	NS	a.nic.xn--ngbc5azd.
 xn--ngbc5azd.		172800	IN	NS	b.nic.xn--ngbc5azd.
 xn--ngbc5azd.		172800	IN	NS	c.nic.xn--ngbc5azd.
@@ -4972,6 +4985,32 @@ c.nic.xn--ngbc5azd.	172800	IN	AAAA	2001:dcd:3::3
 c.nic.xn--ngbc5azd.	172800	IN	A	37.209.196.3
 d.nic.xn--ngbc5azd.	172800	IN	AAAA	2001:dcd:4::3
 d.nic.xn--ngbc5azd.	172800	IN	A	37.209.198.3
+xn--nqv7f.		86400	IN	NSEC	xn--nqv7fs00ema. NS DS RRSIG NSEC
+xn--nqv7f.		172800	IN	NS	a0.nic.xn--nqv7f.
+xn--nqv7f.		172800	IN	NS	a2.nic.xn--nqv7f.
+xn--nqv7f.		172800	IN	NS	b0.nic.xn--nqv7f.
+xn--nqv7f.		172800	IN	NS	c0.nic.xn--nqv7f.
+a0.nic.xn--nqv7f.	172800	IN	AAAA	2a01:8840:b2::17
+a0.nic.xn--nqv7f.	172800	IN	A	65.22.184.17
+a2.nic.xn--nqv7f.	172800	IN	AAAA	2a01:8840:b5::17
+a2.nic.xn--nqv7f.	172800	IN	A	65.22.187.17
+b0.nic.xn--nqv7f.	172800	IN	AAAA	2a01:8840:b3::17
+b0.nic.xn--nqv7f.	172800	IN	A	65.22.185.17
+c0.nic.xn--nqv7f.	172800	IN	AAAA	2a01:8840:b4::17
+c0.nic.xn--nqv7f.	172800	IN	A	65.22.186.17
+xn--nqv7fs00ema.	86400	IN	NSEC	xn--o3cw4h. NS DS RRSIG NSEC
+xn--nqv7fs00ema.	172800	IN	NS	a0.nic.xn--nqv7fs00ema.
+xn--nqv7fs00ema.	172800	IN	NS	a2.nic.xn--nqv7fs00ema.
+xn--nqv7fs00ema.	172800	IN	NS	b0.nic.xn--nqv7fs00ema.
+xn--nqv7fs00ema.	172800	IN	NS	c0.nic.xn--nqv7fs00ema.
+a0.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b2::9
+a0.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.184.9
+a2.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b5::9
+a2.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.187.9
+b0.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b3::9
+b0.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.185.9
+c0.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b4::9
+c0.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.186.9
 xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS DS RRSIG NSEC
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
