@@ -2353,7 +2353,7 @@ lv.			172800	IN	NS	d.nic.lv.
 lv.			172800	IN	NS	lv.cctld.authdns.ripe.net.
 lv.			172800	IN	NS	sunic.sunet.se.
 a.nic.lv.		172800	IN	AAAA	2a02:500:4400:700::4
-a.nic.lv.		172800	IN	A	91.198.156.99
+a.nic.lv.		172800	IN	A	194.0.48.1
 b.nic.lv.		172800	IN	A	92.240.70.1
 c.nic.lv.		172800	IN	AAAA	2001:678:4::18
 c.nic.lv.		172800	IN	A	194.0.1.24
