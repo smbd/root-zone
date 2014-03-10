@@ -1187,13 +1187,19 @@ p.nic.dk.		172800	IN	AAAA	2001:678:78:42:ad::53
 p.nic.dk.		172800	IN	A	194.0.47.42
 s.nic.dk.		172800	IN	AAAA	2a01:3f0:0:303::53
 s.nic.dk.		172800	IN	A	77.72.229.252
-dm.			86400	IN	NSEC	do. NS RRSIG NSEC
+dm.			86400	IN	NSEC	dnp. NS RRSIG NSEC
 dm.			172800	IN	NS	ns.anycast.nic.dm.
 dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
 dm.			172800	IN	NS	ns2.blacknightsolutions.com.
 ns.anycast.nic.dm.	172800	IN	A	204.61.216.18
 ns2.nic.dm.		172800	IN	A	199.127.197.69
+dnp.			86400	IN	NSEC	do. NS DS RRSIG NSEC
+dnp.			172800	IN	NS	a.gmoregistry.net.
+dnp.			172800	IN	NS	b.gmoregistry.net.
+dnp.			172800	IN	NS	c.gmoregistry.net.
+dnp.			172800	IN	NS	d.gmoregistry.net.
+dnp.			172800	IN	NS	e.gmoregistry.net.
 do.			86400	IN	NSEC	domains. NS RRSIG NSEC
 do.			172800	IN	NS	ns.nic.do.
 do.			172800	IN	NS	ns1.nic.do.
@@ -1851,7 +1857,7 @@ info.			172800	IN	NS	b0.info.afilias-nst.org.
 info.			172800	IN	NS	b2.info.afilias-nst.org.
 info.			172800	IN	NS	c0.info.afilias-nst.info.
 info.			172800	IN	NS	d0.info.afilias-nst.org.
-info.			86400	IN	NSEC	institute. NS DS RRSIG NSEC
+info.			86400	IN	NSEC	ink. NS DS RRSIG NSEC
 a0.aero.afilias-nst.info. 172800 IN	AAAA	2001:500:1d::1
 a0.aero.afilias-nst.info. 172800 IN	A	199.254.51.1
 a2.aero.afilias-nst.info. 172800 IN	AAAA	2001:500:43::1
@@ -1917,6 +1923,19 @@ c0.xxx.afilias-nst.info. 172800	IN	A	199.115.154.1
 tld.isc-sns.info.	172800	IN	AAAA	2001:470:1a::3
 tld.isc-sns.info.	172800	IN	A	72.52.71.3
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
+ink.			86400	IN	NSEC	institute. NS DS RRSIG NSEC
+ink.			172800	IN	NS	a.nic.ink.
+ink.			172800	IN	NS	b.nic.ink.
+ink.			172800	IN	NS	c.nic.ink.
+ink.			172800	IN	NS	d.nic.ink.
+a.nic.ink.		172800	IN	AAAA	2001:67c:13cc::1:41
+a.nic.ink.		172800	IN	A	194.169.218.41
+b.nic.ink.		172800	IN	AAAA	2a04:2b00:13cc::1:41
+b.nic.ink.		172800	IN	A	185.24.64.41
+c.nic.ink.		172800	IN	AAAA	2001:678:5::2
+c.nic.ink.		172800	IN	A	194.0.2.2
+d.nic.ink.		172800	IN	AAAA	2001:678:4::2d
+d.nic.ink.		172800	IN	A	194.0.1.45
 institute.		86400	IN	NSEC	int. NS DS RRSIG NSEC
 institute.		172800	IN	NS	demand.beta.aridns.net.au.
 institute.		172800	IN	NS	demand.alpha.aridns.net.au.
