@@ -188,6 +188,8 @@ at.			172800	IN	NS	ns1.univie.ac.at.
 at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
 at.			86400	IN	NSEC	au. NS DS RRSIG NSEC
+dns-hr.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb::7
+dns-hr.univie.ac.at.	172800	IN	A	78.104.145.7
 dns-mk.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb::4
 dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
 ns1.univie.ac.at.	172800	IN	AAAA	2001:628:2030:4301::2
@@ -1744,6 +1746,7 @@ house.			172800	IN	NS	demand.gamma.aridns.net.au.
 hr.			86400	IN	NSEC	ht. NS RRSIG NSEC
 hr.			172800	IN	NS	ns5.univie.ac.at.
 hr.			172800	IN	NS	n3ns.nic.es.
+hr.			172800	IN	NS	dns-hr.univie.ac.at.
 hr.			172800	IN	NS	sns-pb.isc.org.
 hr.			172800	IN	NS	hr-ns-1.carnet.hr.
 hr-ns-1.carnet.hr.	172800	IN	AAAA	2001:b68:ff:1::100
@@ -5052,12 +5055,31 @@ xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
 xn--pgbs0dh.		172800	IN	NS	ns8.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns9.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
-xn--q9jyb4c.		86400	IN	NSEC	xn--s9brj9c. NS DS RRSIG NSEC
+xn--q9jyb4c.		86400	IN	NSEC	xn--rhqv96g. NS DS RRSIG NSEC
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+xn--rhqv96g.		86400	IN	NSEC	xn--s9brj9c. NS DS RRSIG NSEC
+xn--rhqv96g.		172800	IN	NS	ns1.dns.nic.xn--rhqv96g.
+xn--rhqv96g.		172800	IN	NS	ns2.dns.nic.xn--rhqv96g.
+xn--rhqv96g.		172800	IN	NS	ns3.dns.nic.xn--rhqv96g.
+xn--rhqv96g.		172800	IN	NS	ns4.dns.nic.xn--rhqv96g.
+xn--rhqv96g.		172800	IN	NS	ns5.dns.nic.xn--rhqv96g.
+xn--rhqv96g.		172800	IN	NS	ns6.dns.nic.xn--rhqv96g.
+ns1.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1071::bf
+ns1.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.144.191
+ns2.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1072::bf
+ns2.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.145.191
+ns3.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1073::bf
+ns3.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.159.191
+ns4.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1074::bf
+ns4.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.156.191
+ns5.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1075::bf
+ns5.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.157.191
+ns6.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1076::bf
+ns6.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.158.191
 xn--s9brj9c.		86400	IN	NSEC	xn--unup4y. NS RRSIG NSEC
 xn--s9brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
