@@ -1534,7 +1534,6 @@ gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
 gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
-gg.			172800	IN	NS	a.ci-servers.net.
 gg.			172800	IN	NS	b.ci-servers.org.
 gg.			172800	IN	NS	c.ci-servers.org.
 gg.			172800	IN	NS	d.ci-servers.je.
@@ -2016,8 +2015,7 @@ seth.namex.it.		172800	IN	AAAA	2001:7f8:10:f00a::7
 seth.namex.it.		172800	IN	A	193.201.40.7
 dns.nic.it.		172800	IN	AAAA	2a00:d40:1:1::5
 dns.nic.it.		172800	IN	A	192.12.192.5
-je.			86400	IN	NSEC	jm. NS RRSIG NSEC
-je.			172800	IN	NS	a.ci-servers.net.
+je.			86400	IN	NSEC	jetzt. NS RRSIG NSEC
 je.			172800	IN	NS	b.ci-servers.org.
 je.			172800	IN	NS	c.ci-servers.org.
 je.			172800	IN	NS	d.ci-servers.je.
@@ -2025,6 +2023,25 @@ je.			172800	IN	NS	e.ci-servers.gg.
 je.			172800	IN	NS	ns0.ja.net.
 je.			172800	IN	NS	ns99.dns.net.nz.
 d.ci-servers.je.	172800	IN	A	193.201.42.178
+jetzt.			86400	IN	NSEC	jm. NS DS RRSIG NSEC
+jetzt.			172800	IN	NS	ns1.dns.nic.jetzt.
+jetzt.			172800	IN	NS	ns2.dns.nic.jetzt.
+jetzt.			172800	IN	NS	ns3.dns.nic.jetzt.
+jetzt.			172800	IN	NS	ns4.dns.nic.jetzt.
+jetzt.			172800	IN	NS	ns5.dns.nic.jetzt.
+jetzt.			172800	IN	NS	ns6.dns.nic.jetzt.
+ns1.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1071::56
+ns1.dns.nic.jetzt.	172800	IN	A	156.154.144.86
+ns2.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1072::56
+ns2.dns.nic.jetzt.	172800	IN	A	156.154.145.86
+ns3.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1073::56
+ns3.dns.nic.jetzt.	172800	IN	A	156.154.159.86
+ns4.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1074::56
+ns4.dns.nic.jetzt.	172800	IN	A	156.154.156.86
+ns5.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1075::56
+ns5.dns.nic.jetzt.	172800	IN	A	156.154.157.86
+ns6.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1076::56
+ns6.dns.nic.jetzt.	172800	IN	A	156.154.158.86
 jm.			86400	IN	NSEC	jo. NS RRSIG NSEC
 jm.			172800	IN	NS	jm.cctld.authdns.ripe.net.
 jm.			172800	IN	NS	ns.jm.
@@ -2770,6 +2787,7 @@ ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120::36
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
 ns-gm.afrinic.net.	172800	IN	AAAA	2001:43f8:120::29
 ns-gm.afrinic.net.	172800	IN	A	196.216.168.29
+ns-ke.afrinic.net.	172800	IN	AAAA	2001:43f8:120::22
 ns-ke.afrinic.net.	172800	IN	A	196.216.168.22
 ns-km.afrinic.net.	172800	IN	AAAA	2001:43f8:120::46
 ns-km.afrinic.net.	172800	IN	A	196.216.168.46
@@ -2818,7 +2836,6 @@ ns30.cdns.net.		172800	IN	A	194.0.1.30
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns.cernet.net.		172800	IN	A	202.112.0.44
-a.ci-servers.net.	172800	IN	A	87.117.194.160
 root-b.cloud9global.net. 172800	IN	A	50.22.82.251
 ns1.cobex.net.		172800	IN	A	216.152.192.71
 ns2.cobex.net.		172800	IN	A	216.152.192.72
