@@ -2120,7 +2120,7 @@ kaufen.			172800	IN	NS	demand.beta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.alpha.aridns.net.au.
 kaufen.			172800	IN	NS	demand.delta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.gamma.aridns.net.au.
-ke.			86400	IN	NSEC	kg. NS RRSIG NSEC
+ke.			86400	IN	NSEC	kg. NS DS RRSIG NSEC
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
 ke.			172800	IN	NS	mzizi.kenic.or.ke.
@@ -3348,7 +3348,7 @@ nr.			172800	IN	NS	nrweb.cenpac.net.nr.
 nr.			172800	IN	NS	sns-pb.isc.org.
 dns1.cenpac.net.nr.	172800	IN	A	203.98.225.9
 nrweb.cenpac.net.nr.	172800	IN	A	203.98.224.66
-nu.			86400	IN	NSEC	nz. NS DS RRSIG NSEC
+nu.			86400	IN	NSEC	nyc. NS DS RRSIG NSEC
 nu.			172800	IN	NS	a.nic.nu.
 nu.			172800	IN	NS	b.nic.nu.
 nu.			172800	IN	NS	c.nic.nu.
@@ -3358,6 +3358,25 @@ b.nic.nu.		172800	IN	AAAA	2a01:8840:10::1
 b.nic.nu.		172800	IN	A	65.22.164.1
 c.nic.nu.		172800	IN	AAAA	2a01:3f0:0:301::53
 c.nic.nu.		172800	IN	A	192.36.144.107
+nyc.			86400	IN	NSEC	nz. NS DS RRSIG NSEC
+nyc.			172800	IN	NS	ns1.dns.nic.nyc.
+nyc.			172800	IN	NS	ns2.dns.nic.nyc.
+nyc.			172800	IN	NS	ns3.dns.nic.nyc.
+nyc.			172800	IN	NS	ns4.dns.nic.nyc.
+nyc.			172800	IN	NS	ns5.dns.nic.nyc.
+nyc.			172800	IN	NS	ns6.dns.nic.nyc.
+ns1.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1071::7d
+ns1.dns.nic.nyc.	172800	IN	A	156.154.144.125
+ns2.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1072::7d
+ns2.dns.nic.nyc.	172800	IN	A	156.154.145.125
+ns3.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1073::7d
+ns3.dns.nic.nyc.	172800	IN	A	156.154.159.125
+ns4.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1074::7d
+ns4.dns.nic.nyc.	172800	IN	A	156.154.156.125
+ns5.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1075::7d
+ns5.dns.nic.nyc.	172800	IN	A	156.154.157.125
+ns6.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1076::7d
+ns6.dns.nic.nyc.	172800	IN	A	156.154.158.125
 nz.			172800	IN	NS	ns1.dns.net.nz.
 nz.			172800	IN	NS	ns2.dns.net.nz.
 nz.			172800	IN	NS	ns3.dns.net.nz.
