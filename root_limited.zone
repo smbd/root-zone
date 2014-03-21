@@ -2331,7 +2331,7 @@ lk.			172800	IN	NS	t.nic.lk.
 lk.			172800	IN	NS	ns1.ac.lk.
 lk.			172800	IN	NS	ripe.nic.lk.
 lk.			172800	IN	NS	pendragon.cs.purdue.edu.
-lk.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+lk.			86400	IN	NSEC	london. NS DS RRSIG NSEC
 ns1.ac.lk.		172800	IN	AAAA	2401:dd00:1::162
 ns1.ac.lk.		172800	IN	A	192.248.1.162
 ns3.ac.lk.		172800	IN	A	202.124.166.178
@@ -2349,6 +2349,13 @@ p.nic.lk.		172800	IN	A	204.61.216.27
 ripe.nic.lk.		172800	IN	AAAA	2001:67c:e0::88
 ripe.nic.lk.		172800	IN	A	193.0.9.88
 t.nic.lk.		172800	IN	A	203.94.66.129
+london.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+london.			172800	IN	NS	a.ns.nic.london.
+london.			172800	IN	NS	b.ns.nic.london.
+a.ns.nic.london.	172800	IN	AAAA	2620:171:a02:ad::11
+a.ns.nic.london.	172800	IN	A	72.0.50.11
+b.ns.nic.london.	172800	IN	AAAA	2620:171:d02:dc::11
+b.ns.nic.london.	172800	IN	A	72.42.114.11
 lr.			86400	IN	NSEC	ls. NS RRSIG NSEC
 lr.			172800	IN	NS	rip.psg.com.
 lr.			172800	IN	NS	fork.sth.dnsnode.net.
