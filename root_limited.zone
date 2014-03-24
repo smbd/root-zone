@@ -4092,11 +4092,21 @@ a.nic.so.		172800	IN	A	72.52.71.4
 b.nic.so.		172800	IN	A	38.103.2.4
 c.nic.so.		172800	IN	AAAA	2001:5a0:10::4
 c.nic.so.		172800	IN	A	63.243.194.4
-social.			86400	IN	NSEC	solar. NS DS RRSIG NSEC
+social.			86400	IN	NSEC	sohu. NS DS RRSIG NSEC
 social.			172800	IN	NS	demand.beta.aridns.net.au.
 social.			172800	IN	NS	demand.alpha.aridns.net.au.
 social.			172800	IN	NS	demand.delta.aridns.net.au.
 social.			172800	IN	NS	demand.gamma.aridns.net.au.
+sohu.			86400	IN	NSEC	solar. NS DS RRSIG NSEC
+sohu.			172800	IN	NS	a.zdnscloud.com.
+sohu.			172800	IN	NS	b.zdnscloud.com.
+sohu.			172800	IN	NS	c.zdnscloud.com.
+sohu.			172800	IN	NS	d.zdnscloud.com.
+sohu.			172800	IN	NS	e.zdnscloud.com.
+sohu.			172800	IN	NS	f.zdnscloud.com.
+sohu.			172800	IN	NS	g.zdnscloud.com.
+sohu.			172800	IN	NS	i.zdnscloud.com.
+sohu.			172800	IN	NS	j.zdnscloud.com.
 solar.			86400	IN	NSEC	solutions. NS DS RRSIG NSEC
 solar.			172800	IN	NS	demand.beta.aridns.net.au.
 solar.			172800	IN	NS	demand.alpha.aridns.net.au.
