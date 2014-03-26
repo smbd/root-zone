@@ -469,7 +469,7 @@ f.gtld.biz.		172800	IN	AAAA	2001:500:3682::12
 f.gtld.biz.		172800	IN	A	209.173.58.66
 k.gtld.biz.		172800	IN	AAAA	2001:503:e239::3:2
 k.gtld.biz.		172800	IN	A	156.154.128.65
-bj.			86400	IN	NSEC	blue. NS RRSIG NSEC
+bj.			86400	IN	NSEC	black. NS RRSIG NSEC
 bj.			172800	IN	NS	bj.cctld.authdns.ripe.net.
 bj.			172800	IN	NS	bow.rain.fr.
 bj.			172800	IN	NS	ns1.intnet.bj.
@@ -477,6 +477,19 @@ bj.			172800	IN	NS	ns-bj.afrinic.net.
 bj.			172800	IN	NS	nakayo.leland.bj.
 ns1.intnet.bj.		172800	IN	A	81.91.225.18
 nakayo.leland.bj.	172800	IN	A	81.91.225.1
+black.			86400	IN	NSEC	blue. NS DS RRSIG NSEC
+black.			172800	IN	NS	a0.nic.black.
+black.			172800	IN	NS	a2.nic.black.
+black.			172800	IN	NS	b0.nic.black.
+black.			172800	IN	NS	c0.nic.black.
+a0.nic.black.		172800	IN	AAAA	2a01:8840:42::33
+a0.nic.black.		172800	IN	A	65.22.68.33
+a2.nic.black.		172800	IN	AAAA	2a01:8840:45::33
+a2.nic.black.		172800	IN	A	65.22.71.33
+b0.nic.black.		172800	IN	AAAA	2a01:8840:43::33
+b0.nic.black.		172800	IN	A	65.22.69.33
+c0.nic.black.		172800	IN	AAAA	2a01:8840:44::33
+c0.nic.black.		172800	IN	A	65.22.70.33
 blue.			86400	IN	NSEC	bm. NS DS RRSIG NSEC
 blue.			172800	IN	NS	a0.nic.blue.
 blue.			172800	IN	NS	a2.nic.blue.
@@ -1781,21 +1794,21 @@ ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
 ht.			172800	IN	NS	charles.cdec.polymtl.ca.
 hu.			86400	IN	NSEC	id. NS RRSIG NSEC
+hu.			172800	IN	NS	a.hu.
 hu.			172800	IN	NS	b.hu.
 hu.			172800	IN	NS	c.hu.
 hu.			172800	IN	NS	d.hu.
 hu.			172800	IN	NS	e.hu.
-hu.			172800	IN	NS	ns.nic.hu.
 hu.			172800	IN	NS	ns2.nic.fr.
 hu.			172800	IN	NS	ns-com.nic.hu.
+a.hu.			172800	IN	AAAA	2001:738:4:8000::48
+a.hu.			172800	IN	A	193.239.148.1
 b.hu.			172800	IN	AAAA	2001:738:4:4000::3
 b.hu.			172800	IN	A	193.239.149.161
 c.hu.			172800	IN	A	193.6.16.1
 d.hu.			172800	IN	A	195.70.35.250
 e.hu.			172800	IN	AAAA	2001:678:20::11
 e.hu.			172800	IN	A	194.0.25.11
-ns.nic.hu.		172800	IN	AAAA	2001:738:4:8000::48
-ns.nic.hu.		172800	IN	A	193.239.148.48
 ns-com.nic.hu.		172800	IN	AAAA	2001:678:4::c
 ns-com.nic.hu.		172800	IN	A	194.0.1.12
 id.			86400	IN	NSEC	ie. NS RRSIG NSEC
@@ -2093,6 +2106,7 @@ jobs.			172800	IN	NS	f5.nstld.com.
 jobs.			172800	IN	NS	g5.nstld.com.
 jobs.			172800	IN	NS	h5.nstld.com.
 jobs.			172800	IN	NS	l5.nstld.com.
+jp.			86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
 jp.			172800	IN	NS	a.dns.jp.
 jp.			172800	IN	NS	b.dns.jp.
 jp.			172800	IN	NS	c.dns.jp.
@@ -2100,9 +2114,6 @@ jp.			172800	IN	NS	d.dns.jp.
 jp.			172800	IN	NS	e.dns.jp.
 jp.			172800	IN	NS	f.dns.jp.
 jp.			172800	IN	NS	g.dns.jp.
-jp.			86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
-ns20.iij.ad.jp.		172800	IN	AAAA	2001:240::161
-ns20.iij.ad.jp.		172800	IN	A	202.232.2.161
 a.dns.jp.		172800	IN	AAAA	2001:dc4::1
 a.dns.jp.		172800	IN	A	203.119.1.1
 b.dns.jp.		172800	IN	AAAA	2001:dc2::1
@@ -2485,7 +2496,7 @@ md.			172800	IN	NS	ns-int.dns.md.
 ns-int.dns.md.		172800	IN	A	217.26.144.5
 nsb.dns.md.		172800	IN	A	217.26.144.15
 nsc.dns.md.		172800	IN	A	95.65.9.3
-me.			86400	IN	NSEC	menu. NS DS RRSIG NSEC
+me.			86400	IN	NSEC	meet. NS DS RRSIG NSEC
 me.			172800	IN	NS	a0.cctld.afilias-nst.info.
 me.			172800	IN	NS	a2.me.afilias-nst.info.
 me.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -2496,6 +2507,19 @@ me.			172800	IN	NS	ns.nic.me.
 me.			172800	IN	NS	ns2.nic.me.
 ns.nic.me.		172800	IN	A	89.188.44.44
 ns2.nic.me.		172800	IN	A	89.188.44.88
+meet.			86400	IN	NSEC	menu. NS DS RRSIG NSEC
+meet.			172800	IN	NS	a0.nic.meet.
+meet.			172800	IN	NS	a2.nic.meet.
+meet.			172800	IN	NS	b0.nic.meet.
+meet.			172800	IN	NS	c0.nic.meet.
+a0.nic.meet.		172800	IN	AAAA	2a01:8840:42::25
+a0.nic.meet.		172800	IN	A	65.22.68.25
+a2.nic.meet.		172800	IN	AAAA	2a01:8840:45::25
+a2.nic.meet.		172800	IN	A	65.22.71.25
+b0.nic.meet.		172800	IN	AAAA	2a01:8840:43::25
+b0.nic.meet.		172800	IN	A	65.22.69.25
+c0.nic.meet.		172800	IN	AAAA	2a01:8840:44::25
+c0.nic.meet.		172800	IN	A	65.22.70.25
 menu.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
 menu.			172800	IN	NS	a.nic.menu.
 menu.			172800	IN	NS	b.nic.menu.
@@ -2717,7 +2741,6 @@ my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns5.jaring.my.
 my.			172800	IN	NS	ns6.jaring.my.
 my.			172800	IN	NS	dns2.mynic.net.my.
-my.			172800	IN	NS	ns20.iij.ad.jp.
 my.			172800	IN	NS	ns30.cdns.net.
 my.			172800	IN	NS	ns-my.nic.fr.
 ns5.jaring.my.		172800	IN	AAAA	2001:328:200:48::400
@@ -3803,7 +3826,7 @@ recipes.		172800	IN	NS	demand.beta.aridns.net.au.
 recipes.		172800	IN	NS	demand.alpha.aridns.net.au.
 recipes.		172800	IN	NS	demand.delta.aridns.net.au.
 recipes.		172800	IN	NS	demand.gamma.aridns.net.au.
-red.			86400	IN	NSEC	rentals. NS DS RRSIG NSEC
+red.			86400	IN	NSEC	ren. NS DS RRSIG NSEC
 red.			172800	IN	NS	a0.nic.red.
 red.			172800	IN	NS	a2.nic.red.
 red.			172800	IN	NS	b0.nic.red.
@@ -3816,6 +3839,16 @@ b0.nic.red.		172800	IN	AAAA	2a01:8840:27::25
 b0.nic.red.		172800	IN	A	65.22.37.25
 c0.nic.red.		172800	IN	AAAA	2a01:8840:28::25
 c0.nic.red.		172800	IN	A	65.22.38.25
+ren.			86400	IN	NSEC	rentals. NS DS RRSIG NSEC
+ren.			172800	IN	NS	a.zdnscloud.com.
+ren.			172800	IN	NS	b.zdnscloud.com.
+ren.			172800	IN	NS	c.zdnscloud.com.
+ren.			172800	IN	NS	d.zdnscloud.com.
+ren.			172800	IN	NS	e.zdnscloud.com.
+ren.			172800	IN	NS	f.zdnscloud.com.
+ren.			172800	IN	NS	g.zdnscloud.com.
+ren.			172800	IN	NS	i.zdnscloud.com.
+ren.			172800	IN	NS	j.zdnscloud.com.
 rentals.		86400	IN	NSEC	repair. NS DS RRSIG NSEC
 rentals.		172800	IN	NS	demand.beta.aridns.net.au.
 rentals.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5109,7 +5142,6 @@ xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	dns2.mynic.net.my.
-xn--mgbx4cd0ab.		172800	IN	NS	ns20.iij.ad.jp.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
 xn--ngbc5azd.		86400	IN	NSEC	xn--nqv7f. NS DS RRSIG NSEC
