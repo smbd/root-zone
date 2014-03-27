@@ -259,10 +259,11 @@ y.au.			172800	IN	AAAA	2001:dcd:3::5
 y.au.			172800	IN	A	37.209.196.5
 z.au.			172800	IN	AAAA	2001:dcd:4::5
 z.au.			172800	IN	A	37.209.198.5
-aw.			86400	IN	NSEC	ax. NS RRSIG NSEC
+aw.			86400	IN	NSEC	ax. NS DS RRSIG NSEC
 aw.			172800	IN	NS	ns1.dns.aw.
 aw.			172800	IN	NS	ns2.dns.aw.
 aw.			172800	IN	NS	ns3.dns.aw.
+aw.			172800	IN	NS	ns4.dns.aw.
 aw.			172800	IN	NS	ns5.dns.aw.
 aw.			172800	IN	NS	aw01.setarnet.aw.
 aw.			172800	IN	NS	aw02.setarnet.aw.
@@ -272,6 +273,8 @@ ns2.dns.aw.		172800	IN	AAAA	2001:7b8:606::88
 ns2.dns.aw.		172800	IN	A	213.154.241.88
 ns3.dns.aw.		172800	IN	AAAA	2001:610:0:800d::13
 ns3.dns.aw.		172800	IN	A	194.171.17.13
+ns4.dns.aw.		172800	IN	AAAA	2a00:1188:5::215
+ns4.dns.aw.		172800	IN	A	95.142.99.215
 ns5.dns.aw.		172800	IN	AAAA	2001:678:2c:0:194:0:28:2
 ns5.dns.aw.		172800	IN	A	194.0.28.2
 aw01.setarnet.aw.	172800	IN	A	201.229.0.26
@@ -3638,7 +3641,7 @@ pl.			172800	IN	NS	f-dns.pl.
 pl.			172800	IN	NS	g-dns.pl.
 pl.			172800	IN	NS	h-dns.pl.
 pl.			172800	IN	NS	i-dns.pl.
-a-dns.pl.		172800	IN	A	195.187.245.44
+a-dns.pl.		172800	IN	A	194.181.87.156
 c-dns.pl.		172800	IN	A	195.47.235.226
 d-dns.pl.		172800	IN	A	213.172.174.70
 e-dns.pl.		172800	IN	A	195.80.237.162
