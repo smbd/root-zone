@@ -136,7 +136,7 @@ aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
 aq.			172800	IN	NS	sns-pb.isc.org.
 ns1.dns.aq.		172800	IN	A	203.119.56.132
-ar.			86400	IN	NSEC	arpa. NS RRSIG NSEC
+ar.			86400	IN	NSEC	archi. NS RRSIG NSEC
 ar.			172800	IN	NS	a.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
@@ -148,6 +148,11 @@ ctina.ar.		172800	IN	A	200.16.97.17
 a.dns.ar.		172800	IN	AAAA	2801:140::10
 a.dns.ar.		172800	IN	A	200.108.145.50
 relay1.mecon.gov.ar.	172800	IN	A	168.101.16.10
+archi.			86400	IN	NSEC	arpa. NS DS RRSIG NSEC
+archi.			172800	IN	NS	ns1a.ksregistry.net.
+archi.			172800	IN	NS	ns1b.ksregistry.net.
+archi.			172800	IN	NS	ns2a.ksregistry.com.
+archi.			172800	IN	NS	ns2b.ksregistry.com.
 arpa.			86400	IN	NSEC	as. NS DS RRSIG NSEC
 arpa.			172800	IN	NS	a.root-servers.net.
 arpa.			172800	IN	NS	b.root-servers.net.
@@ -985,6 +990,10 @@ ns1.iafrica.com.	172800	IN	A	196.7.0.139
 hoppy.iom.com.		172800	IN	A	217.23.163.140
 pebbles.iom.com.	172800	IN	A	80.168.83.242
 tld.isc-sns.com.	172800	IN	A	38.103.2.3
+ns2a.ksregistry.com.	172800	IN	AAAA	2001:dd8:7:6076:dc::1
+ns2a.ksregistry.com.	172800	IN	A	203.119.88.76
+ns2b.ksregistry.com.	172800	IN	AAAA	2620:171:a00:ad::76
+ns2b.ksregistry.com.	172800	IN	A	72.0.48.76
 ns-mg.malagasy.com.	172800	IN	A	87.98.132.231
 ns1.neoip.com.		172800	IN	A	62.90.247.118
 ns2.neoip.com.		172800	IN	A	208.109.17.150
@@ -1067,21 +1076,35 @@ construction.		172800	IN	NS	demand.beta.aridns.net.au.
 construction.		172800	IN	NS	demand.alpha.aridns.net.au.
 construction.		172800	IN	NS	demand.delta.aridns.net.au.
 construction.		172800	IN	NS	demand.gamma.aridns.net.au.
-contractors.		86400	IN	NSEC	cool. NS DS RRSIG NSEC
+contractors.		86400	IN	NSEC	cooking. NS DS RRSIG NSEC
 contractors.		172800	IN	NS	demand.beta.aridns.net.au.
 contractors.		172800	IN	NS	demand.alpha.aridns.net.au.
 contractors.		172800	IN	NS	demand.delta.aridns.net.au.
 contractors.		172800	IN	NS	demand.gamma.aridns.net.au.
+cooking.		86400	IN	NSEC	cool. NS DS RRSIG NSEC
+cooking.		172800	IN	NS	a.ns.nic.cooking.
+cooking.		172800	IN	NS	b.ns.nic.cooking.
+a.ns.nic.cooking.	172800	IN	AAAA	2620:171:a02:ad::10
+a.ns.nic.cooking.	172800	IN	A	72.0.50.10
+b.ns.nic.cooking.	172800	IN	AAAA	2620:171:d02:dc::10
+b.ns.nic.cooking.	172800	IN	A	72.42.114.10
 cool.			86400	IN	NSEC	coop. NS DS RRSIG NSEC
 cool.			172800	IN	NS	demand.beta.aridns.net.au.
 cool.			172800	IN	NS	demand.alpha.aridns.net.au.
 cool.			172800	IN	NS	demand.delta.aridns.net.au.
 cool.			172800	IN	NS	demand.gamma.aridns.net.au.
-coop.			86400	IN	NSEC	cr. NS RRSIG NSEC
+coop.			86400	IN	NSEC	country. NS RRSIG NSEC
 coop.			172800	IN	NS	coop1.dyntld.net.
 coop.			172800	IN	NS	coop2.dyntld.net.
 coop.			172800	IN	NS	coop3.dyntld.net.
 coop.			172800	IN	NS	coop4.dyntld.net.
+country.		86400	IN	NSEC	cr. NS DS RRSIG NSEC
+country.		172800	IN	NS	a.ns.nic.country.
+country.		172800	IN	NS	b.ns.nic.country.
+a.ns.nic.country.	172800	IN	AAAA	2620:171:a02:ad::17
+a.ns.nic.country.	172800	IN	A	72.0.50.17
+b.ns.nic.country.	172800	IN	AAAA	2620:171:d02:dc::17
+b.ns.nic.country.	172800	IN	A	72.42.114.17
 cr.			172800	IN	NS	a.ns.cr.
 cr.			172800	IN	NS	b.ns.cr.
 cr.			172800	IN	NS	c.ns.cr.
@@ -1447,11 +1470,18 @@ g.fi.			172800	IN	A	156.154.101.26
 h.fi.			172800	IN	A	156.154.102.26
 i.fi.			172800	IN	AAAA	2001:502:2eda::26
 i.fi.			172800	IN	A	156.154.103.26
-fish.			86400	IN	NSEC	fj. NS DS RRSIG NSEC
+fish.			86400	IN	NSEC	fishing. NS DS RRSIG NSEC
 fish.			172800	IN	NS	demand.beta.aridns.net.au.
 fish.			172800	IN	NS	demand.alpha.aridns.net.au.
 fish.			172800	IN	NS	demand.delta.aridns.net.au.
 fish.			172800	IN	NS	demand.gamma.aridns.net.au.
+fishing.		86400	IN	NSEC	fj. NS DS RRSIG NSEC
+fishing.		172800	IN	NS	a.ns.nic.fishing.
+fishing.		172800	IN	NS	b.ns.nic.fishing.
+a.ns.nic.fishing.	172800	IN	AAAA	2620:171:a02:ad::5
+a.ns.nic.fishing.	172800	IN	A	72.0.50.5
+b.ns.nic.fishing.	172800	IN	AAAA	2620:171:d02:dc::5
+b.ns.nic.fishing.	172800	IN	A	72.42.114.5
 fj.			86400	IN	NSEC	fk. NS RRSIG NSEC
 fj.			172800	IN	NS	rip.psg.com.
 fj.			172800	IN	NS	manu.usp.ac.fj.
@@ -1713,7 +1743,7 @@ gw.			172800	IN	NS	ns1.nic.gw.
 gw.			172800	IN	NS	ns3.nic.gw.
 ns1.nic.gw.		172800	IN	A	81.91.170.10
 ns3.nic.gw.		172800	IN	A	193.171.255.35
-gy.			86400	IN	NSEC	hk. NS RRSIG NSEC
+gy.			86400	IN	NSEC	haus. NS RRSIG NSEC
 gy.			172800	IN	NS	gy.cctld.authdns.ripe.net.
 gy.			172800	IN	NS	ns1.gtt.co.gy.
 gy.			172800	IN	NS	ns2.gtt.co.gy.
@@ -1722,6 +1752,11 @@ gy.			172800	IN	NS	phloem.uoregon.edu.
 gy.			172800	IN	NS	sns-pb.isc.org.
 ns1.gtt.co.gy.		172800	IN	A	190.80.0.41
 ns2.gtt.co.gy.		172800	IN	A	190.80.0.42
+haus.			86400	IN	NSEC	hk. NS DS RRSIG NSEC
+haus.			172800	IN	NS	demand.beta.aridns.net.au.
+haus.			172800	IN	NS	demand.alpha.aridns.net.au.
+haus.			172800	IN	NS	demand.delta.aridns.net.au.
+haus.			172800	IN	NS	demand.gamma.aridns.net.au.
 hk.			172800	IN	NS	a.hkirc.net.hk.
 hk.			172800	IN	NS	b.hkirc.net.hk.
 hk.			172800	IN	NS	s.hkirc.net.hk.
@@ -1773,11 +1808,18 @@ holdings.		172800	IN	NS	demand.beta.aridns.net.au.
 holdings.		172800	IN	NS	demand.alpha.aridns.net.au.
 holdings.		172800	IN	NS	demand.delta.aridns.net.au.
 holdings.		172800	IN	NS	demand.gamma.aridns.net.au.
-holiday.		86400	IN	NSEC	house. NS DS RRSIG NSEC
+holiday.		86400	IN	NSEC	horse. NS DS RRSIG NSEC
 holiday.		172800	IN	NS	demand.beta.aridns.net.au.
 holiday.		172800	IN	NS	demand.alpha.aridns.net.au.
 holiday.		172800	IN	NS	demand.delta.aridns.net.au.
 holiday.		172800	IN	NS	demand.gamma.aridns.net.au.
+horse.			86400	IN	NSEC	house. NS DS RRSIG NSEC
+horse.			172800	IN	NS	a.ns.nic.horse.
+horse.			172800	IN	NS	b.ns.nic.horse.
+a.ns.nic.horse.		172800	IN	AAAA	2620:171:a02:ad::8
+a.ns.nic.horse.		172800	IN	A	72.0.50.8
+b.ns.nic.horse.		172800	IN	AAAA	2620:171:d02:dc::8
+b.ns.nic.horse.		172800	IN	A	72.42.114.8
 house.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
 house.			172800	IN	NS	demand.beta.aridns.net.au.
 house.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2548,9 +2590,16 @@ mg.			172800	IN	NS	ns1.ird.fr.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
 ns.dts.mg.		172800	IN	A	196.192.32.2
 ns.nic.mg.		172800	IN	A	196.192.42.153
-mh.			86400	IN	NSEC	mil. NS RRSIG NSEC
+mh.			86400	IN	NSEC	miami. NS RRSIG NSEC
 mh.			172800	IN	NS	ns.ntamar.net.
 mh.			172800	IN	NS	ns.amarshallinc.com.
+miami.			86400	IN	NSEC	mil. NS DS RRSIG NSEC
+miami.			172800	IN	NS	a.ns.nic.miami.
+miami.			172800	IN	NS	b.ns.nic.miami.
+a.ns.nic.miami.		172800	IN	AAAA	2620:171:a02:ad::21
+a.ns.nic.miami.		172800	IN	A	72.0.50.21
+b.ns.nic.miami.		172800	IN	AAAA	2620:171:d02:dc::21
+b.ns.nic.miami.		172800	IN	A	72.42.114.21
 mil.			86400	IN	NSEC	mk. NS DS RRSIG NSEC
 mil.			172800	IN	NS	con1.nipr.mil.
 mil.			172800	IN	NS	con2.nipr.mil.
@@ -2629,11 +2678,30 @@ mobi.			172800	IN	NS	b0.mobi.afilias-nst.org.
 mobi.			172800	IN	NS	b2.mobi.afilias-nst.org.
 mobi.			172800	IN	NS	c0.mobi.afilias-nst.info.
 mobi.			172800	IN	NS	d0.mobi.afilias-nst.org.
-moda.			86400	IN	NSEC	monash. NS DS RRSIG NSEC
+moda.			86400	IN	NSEC	moe. NS DS RRSIG NSEC
 moda.			172800	IN	NS	demand.beta.aridns.net.au.
 moda.			172800	IN	NS	demand.alpha.aridns.net.au.
 moda.			172800	IN	NS	demand.delta.aridns.net.au.
 moda.			172800	IN	NS	demand.gamma.aridns.net.au.
+moe.			86400	IN	NSEC	monash. NS DS RRSIG NSEC
+moe.			172800	IN	NS	ns1.dns.nic.moe.
+moe.			172800	IN	NS	ns2.dns.nic.moe.
+moe.			172800	IN	NS	ns3.dns.nic.moe.
+moe.			172800	IN	NS	ns4.dns.nic.moe.
+moe.			172800	IN	NS	ns5.dns.nic.moe.
+moe.			172800	IN	NS	ns6.dns.nic.moe.
+ns1.dns.nic.moe.	172800	IN	AAAA	2610:a1:1071::72
+ns1.dns.nic.moe.	172800	IN	A	156.154.144.114
+ns2.dns.nic.moe.	172800	IN	AAAA	2610:a1:1072::72
+ns2.dns.nic.moe.	172800	IN	A	156.154.145.114
+ns3.dns.nic.moe.	172800	IN	AAAA	2610:a1:1073::72
+ns3.dns.nic.moe.	172800	IN	A	156.154.159.114
+ns4.dns.nic.moe.	172800	IN	AAAA	2610:a1:1074::72
+ns4.dns.nic.moe.	172800	IN	A	156.154.156.114
+ns5.dns.nic.moe.	172800	IN	AAAA	2610:a1:1075::72
+ns5.dns.nic.moe.	172800	IN	A	156.154.157.114
+ns6.dns.nic.moe.	172800	IN	AAAA	2610:a1:1076::72
+ns6.dns.nic.moe.	172800	IN	A	156.154.158.114
 monash.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
 monash.			172800	IN	NS	a.nic.monash.
 monash.			172800	IN	NS	b.nic.monash.
@@ -3043,6 +3111,10 @@ kwns.kems.net.		172800	IN	A	168.187.5.12
 ns1.krnic.net.		172800	IN	A	202.30.50.51
 gd-ns.ksregistry.net.	172800	IN	AAAA	2001:678:e:103::53
 gd-ns.ksregistry.net.	172800	IN	A	194.0.11.103
+ns1a.ksregistry.net.	172800	IN	AAAA	2001:dd8:7:6075:dc::1
+ns1a.ksregistry.net.	172800	IN	A	203.119.88.75
+ns1b.ksregistry.net.	172800	IN	AAAA	2620:171:a00:ad::75
+ns1b.ksregistry.net.	172800	IN	A	72.0.48.75
 dns.lttnet.net.		172800	IN	A	62.240.36.9
 dns1.lttnet.net.	172800	IN	A	62.68.42.9
 ns1-fr.mediaserv.net.	172800	IN	A	188.165.38.14
@@ -3891,7 +3963,7 @@ ro.			172800	IN	NS	sns-pb.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
-ro.			86400	IN	NSEC	rs. NS RRSIG NSEC
+ro.			86400	IN	NSEC	rodeo. NS RRSIG NSEC
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb::6
 dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-md.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:19
@@ -3902,6 +3974,13 @@ sec-dns-a.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:20
 sec-dns-a.rotld.ro.	172800	IN	A	192.162.16.20
 sec-dns-b.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:230
 sec-dns-b.rotld.ro.	172800	IN	A	193.230.31.230
+rodeo.			86400	IN	NSEC	rs. NS DS RRSIG NSEC
+rodeo.			172800	IN	NS	a.ns.nic.rodeo.
+rodeo.			172800	IN	NS	b.ns.nic.rodeo.
+a.ns.nic.rodeo.		172800	IN	AAAA	2620:171:a02:ad::3
+a.ns.nic.rodeo.		172800	IN	A	72.0.50.3
+b.ns.nic.rodeo.		172800	IN	AAAA	2620:171:d02:dc::3
+b.ns.nic.rodeo.		172800	IN	A	72.42.114.3
 rs.			86400	IN	NSEC	ru. NS RRSIG NSEC
 rs.			172800	IN	NS	a.nic.rs.
 rs.			172800	IN	NS	b.nic.rs.
@@ -4636,7 +4715,7 @@ vc.			172800	IN	NS	b0.cctld.afilias-nst.org.
 vc.			172800	IN	NS	b2.cctld.afilias-nst.org.
 vc.			172800	IN	NS	c0.cctld.afilias-nst.info.
 vc.			172800	IN	NS	d0.cctld.afilias-nst.org.
-ve.			86400	IN	NSEC	ventures. NS RRSIG NSEC
+ve.			86400	IN	NSEC	vegas. NS RRSIG NSEC
 ve.			172800	IN	NS	ns1.nic.ve.
 ve.			172800	IN	NS	ns2.nic.ve.
 ve.			172800	IN	NS	ns3.nic.ve.
@@ -4650,6 +4729,19 @@ ns2.nic.ve.		172800	IN	AAAA	2001:1338::3
 ns2.nic.ve.		172800	IN	A	150.188.228.5
 ns3.nic.ve.		172800	IN	A	190.9.129.56
 azmodan.ula.ve.		172800	IN	A	150.185.130.16
+vegas.			86400	IN	NSEC	ventures. NS DS RRSIG NSEC
+vegas.			172800	IN	NS	a0.nic.vegas.
+vegas.			172800	IN	NS	a2.nic.vegas.
+vegas.			172800	IN	NS	b0.nic.vegas.
+vegas.			172800	IN	NS	c0.nic.vegas.
+a0.nic.vegas.		172800	IN	AAAA	2a01:8840:42::17
+a0.nic.vegas.		172800	IN	A	65.22.68.17
+a2.nic.vegas.		172800	IN	AAAA	2a01:8840:45::17
+a2.nic.vegas.		172800	IN	A	65.22.71.17
+b0.nic.vegas.		172800	IN	AAAA	2a01:8840:43::17
+b0.nic.vegas.		172800	IN	A	65.22.69.17
+c0.nic.vegas.		172800	IN	AAAA	2a01:8840:44::17
+c0.nic.vegas.		172800	IN	A	65.22.70.17
 ventures.		86400	IN	NSEC	vg. NS DS RRSIG NSEC
 ventures.		172800	IN	NS	demand.beta.aridns.net.au.
 ventures.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4685,7 +4777,7 @@ vision.			172800	IN	NS	demand.beta.aridns.net.au.
 vision.			172800	IN	NS	demand.alpha.aridns.net.au.
 vision.			172800	IN	NS	demand.delta.aridns.net.au.
 vision.			172800	IN	NS	demand.gamma.aridns.net.au.
-vn.			86400	IN	NSEC	vote. NS RRSIG NSEC
+vn.			86400	IN	NSEC	vodka. NS RRSIG NSEC
 vn.			172800	IN	NS	a.dns-servers.vn.
 vn.			172800	IN	NS	b.dns-servers.vn.
 vn.			172800	IN	NS	c.dns-servers.vn.
@@ -4701,6 +4793,13 @@ c.dns-servers.vn.	172800	IN	A	203.119.38.105
 d.dns-servers.vn.	172800	IN	A	203.119.44.105
 e.dns-servers.vn.	172800	IN	A	203.119.60.105
 f.dns-servers.vn.	172800	IN	A	203.119.68.105
+vodka.			86400	IN	NSEC	vote. NS DS RRSIG NSEC
+vodka.			172800	IN	NS	a.ns.nic.vodka.
+vodka.			172800	IN	NS	b.ns.nic.vodka.
+a.ns.nic.vodka.		172800	IN	AAAA	2620:171:a02:ad::23
+a.ns.nic.vodka.		172800	IN	A	72.0.50.23
+b.ns.nic.vodka.		172800	IN	AAAA	2620:171:d02:dc::23
+b.ns.nic.vodka.		172800	IN	A	72.42.114.23
 vote.			86400	IN	NSEC	voting. NS DS RRSIG NSEC
 vote.			172800	IN	NS	a0.nic.vote.
 vote.			172800	IN	NS	a2.nic.vote.
@@ -4955,11 +5054,21 @@ xn--cg4bki.		172800	IN	NS	d.dns.kr.
 xn--cg4bki.		172800	IN	NS	e.dns.kr.
 xn--cg4bki.		172800	IN	NS	f.dns.kr.
 xn--cg4bki.		172800	IN	NS	g.dns.kr.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--d1acj3b. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--czru2d. NS RRSIG NSEC
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
+xn--czru2d.		86400	IN	NSEC	xn--d1acj3b. NS RRSIG NSEC
+xn--czru2d.		172800	IN	NS	a.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	b.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	c.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	d.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	e.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	f.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	g.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	i.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	j.zdnscloud.com.
 xn--d1acj3b.		86400	IN	NSEC	xn--fiq228c5hs. NS DS RRSIG NSEC
 xn--d1acj3b.		172800	IN	NS	a.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	b.dns.ripn.net.
