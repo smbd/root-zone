@@ -1071,11 +1071,16 @@ condos.			172800	IN	NS	demand.beta.aridns.net.au.
 condos.			172800	IN	NS	demand.alpha.aridns.net.au.
 condos.			172800	IN	NS	demand.delta.aridns.net.au.
 condos.			172800	IN	NS	demand.gamma.aridns.net.au.
-construction.		86400	IN	NSEC	contractors. NS DS RRSIG NSEC
+construction.		86400	IN	NSEC	consulting. NS DS RRSIG NSEC
 construction.		172800	IN	NS	demand.beta.aridns.net.au.
 construction.		172800	IN	NS	demand.alpha.aridns.net.au.
 construction.		172800	IN	NS	demand.delta.aridns.net.au.
 construction.		172800	IN	NS	demand.gamma.aridns.net.au.
+consulting.		86400	IN	NSEC	contractors. NS DS RRSIG NSEC
+consulting.		172800	IN	NS	demand.beta.aridns.net.au.
+consulting.		172800	IN	NS	demand.alpha.aridns.net.au.
+consulting.		172800	IN	NS	demand.delta.aridns.net.au.
+consulting.		172800	IN	NS	demand.gamma.aridns.net.au.
 contractors.		86400	IN	NSEC	cooking. NS DS RRSIG NSEC
 contractors.		172800	IN	NS	demand.beta.aridns.net.au.
 contractors.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1826,7 +1831,6 @@ house.			172800	IN	NS	demand.alpha.aridns.net.au.
 house.			172800	IN	NS	demand.delta.aridns.net.au.
 house.			172800	IN	NS	demand.gamma.aridns.net.au.
 hr.			86400	IN	NSEC	ht. NS RRSIG NSEC
-hr.			172800	IN	NS	ns5.univie.ac.at.
 hr.			172800	IN	NS	n3ns.nic.es.
 hr.			172800	IN	NS	dns-hr.univie.ac.at.
 hr.			172800	IN	NS	sns-pb.isc.org.
