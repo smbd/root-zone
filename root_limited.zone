@@ -3938,11 +3938,24 @@ repair.			172800	IN	NS	demand.beta.aridns.net.au.
 repair.			172800	IN	NS	demand.alpha.aridns.net.au.
 repair.			172800	IN	NS	demand.delta.aridns.net.au.
 repair.			172800	IN	NS	demand.gamma.aridns.net.au.
-report.			86400	IN	NSEC	reviews. NS DS RRSIG NSEC
+report.			86400	IN	NSEC	rest. NS DS RRSIG NSEC
 report.			172800	IN	NS	demand.beta.aridns.net.au.
 report.			172800	IN	NS	demand.alpha.aridns.net.au.
 report.			172800	IN	NS	demand.delta.aridns.net.au.
 report.			172800	IN	NS	demand.gamma.aridns.net.au.
+rest.			86400	IN	NSEC	reviews. NS DS RRSIG NSEC
+rest.			172800	IN	NS	a.nic.rest.
+rest.			172800	IN	NS	b.nic.rest.
+rest.			172800	IN	NS	c.nic.rest.
+rest.			172800	IN	NS	d.nic.rest.
+a.nic.rest.		172800	IN	AAAA	2001:67c:13cc::1:35
+a.nic.rest.		172800	IN	A	194.169.218.35
+b.nic.rest.		172800	IN	AAAA	2a04:2b00:13cc::1:35
+b.nic.rest.		172800	IN	A	185.24.64.35
+c.nic.rest.		172800	IN	AAAA	2001:678:5::2
+c.nic.rest.		172800	IN	A	194.0.2.2
+d.nic.rest.		172800	IN	AAAA	2001:678:4::2d
+d.nic.rest.		172800	IN	A	194.0.1.45
 reviews.		86400	IN	NSEC	rich. NS DS RRSIG NSEC
 reviews.		172800	IN	NS	demand.beta.aridns.net.au.
 reviews.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4023,7 +4036,7 @@ rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
-sa.			86400	IN	NSEC	sb. NS RRSIG NSEC
+sa.			86400	IN	NSEC	saarland. NS RRSIG NSEC
 sa.			172800	IN	NS	sa.cctld.authdns.ripe.net.
 sa.			172800	IN	NS	ns1.isu.net.sa.
 sa.			172800	IN	NS	ns1.nic.net.sa.
@@ -4036,6 +4049,11 @@ ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410::9
 ns1.nic.net.sa.		172800	IN	A	86.111.192.9
 ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10::9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
+saarland.		86400	IN	NSEC	sb. NS DS RRSIG NSEC
+saarland.		172800	IN	NS	ns1a.ksregistry.net.
+saarland.		172800	IN	NS	ns1b.ksregistry.net.
+saarland.		172800	IN	NS	ns2a.ksregistry.com.
+saarland.		172800	IN	NS	ns2b.ksregistry.com.
 sb.			86400	IN	NSEC	sc. NS DS RRSIG NSEC
 sb.			172800	IN	NS	pch.nic.sb.
 sb.			172800	IN	NS	sb1.dyntld.net.
