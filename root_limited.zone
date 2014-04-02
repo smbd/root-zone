@@ -4030,12 +4030,18 @@ ruhr.			172800	IN	NS	anycast9.irondns.net.
 ruhr.			172800	IN	NS	anycast10.irondns.net.
 ruhr.			172800	IN	NS	anycast23.irondns.net.
 ruhr.			172800	IN	NS	anycast24.irondns.net.
-rw.			86400	IN	NSEC	sa. NS RRSIG NSEC
+rw.			86400	IN	NSEC	ryukyu. NS RRSIG NSEC
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
+ryukyu.			86400	IN	NSEC	sa. NS DS RRSIG NSEC
+ryukyu.			172800	IN	NS	a.gmoregistry.net.
+ryukyu.			172800	IN	NS	b.gmoregistry.net.
+ryukyu.			172800	IN	NS	c.gmoregistry.net.
+ryukyu.			172800	IN	NS	d.gmoregistry.net.
+ryukyu.			172800	IN	NS	e.gmoregistry.net.
 sa.			86400	IN	NSEC	saarland. NS RRSIG NSEC
 sa.			172800	IN	NS	sa.cctld.authdns.ripe.net.
 sa.			172800	IN	NS	ns1.isu.net.sa.
@@ -5448,7 +5454,7 @@ y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
 y.nic.xyz.		172800	IN	A	185.24.64.42
 z.nic.xyz.		172800	IN	AAAA	2001:678:5::2
 z.nic.xyz.		172800	IN	A	194.0.2.2
-ye.			86400	IN	NSEC	yt. NS RRSIG NSEC
+ye.			86400	IN	NSEC	yokohama. NS RRSIG NSEC
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
 ye.			172800	IN	NS	sah1.ye.
@@ -5457,6 +5463,12 @@ ns1.yemen.net.ye.	172800	IN	A	65.162.184.33
 ns2.yemen.net.ye.	172800	IN	A	65.162.184.34
 sah1.ye.		172800	IN	A	195.94.0.34
 sah2.ye.		172800	IN	A	195.94.0.35
+yokohama.		86400	IN	NSEC	yt. NS DS RRSIG NSEC
+yokohama.		172800	IN	NS	a.gmoregistry.net.
+yokohama.		172800	IN	NS	b.gmoregistry.net.
+yokohama.		172800	IN	NS	c.gmoregistry.net.
+yokohama.		172800	IN	NS	d.gmoregistry.net.
+yokohama.		172800	IN	NS	e.gmoregistry.net.
 yt.			86400	IN	NSEC	za. NS DS RRSIG NSEC
 yt.			172800	IN	NS	d.ext.nic.fr.
 yt.			172800	IN	NS	d.nic.fr.
