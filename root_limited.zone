@@ -1661,11 +1661,18 @@ gm.			172800	IN	NS	ns2.nic.gm.
 gm.			172800	IN	NS	ns-gm.afrinic.net.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
 ns2.nic.gm.		172800	IN	A	197.255.194.102
-gn.			86400	IN	NSEC	gov. NS DS RRSIG NSEC
+gn.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
 gn.			172800	IN	NS	hippo.ru.ac.za.
+gop.			86400	IN	NSEC	gov. NS DS RRSIG NSEC
+gop.			172800	IN	NS	a.ns.nic.gop.
+gop.			172800	IN	NS	b.ns.nic.gop.
+a.ns.nic.gop.		172800	IN	AAAA	2620:171:a02:ad::19
+a.ns.nic.gop.		172800	IN	A	72.0.50.19
+b.ns.nic.gop.		172800	IN	AAAA	2620:171:d02:dc::19
+b.ns.nic.gop.		172800	IN	A	72.42.114.19
 gov.			86400	IN	NSEC	gp. NS DS RRSIG NSEC
 gov.			172800	IN	NS	a.gov-servers.net.
 gov.			172800	IN	NS	b.gov-servers.net.
