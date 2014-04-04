@@ -5094,7 +5094,7 @@ xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
-xn--czru2d.		86400	IN	NSEC	xn--d1acj3b. NS RRSIG NSEC
+xn--czru2d.		86400	IN	NSEC	xn--d1acj3b. NS DS RRSIG NSEC
 xn--czru2d.		172800	IN	NS	a.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	b.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	c.zdnscloud.com.
