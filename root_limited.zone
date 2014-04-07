@@ -743,7 +743,6 @@ ceo.			172800	IN	NS	ns3.dns.nic.ceo.
 ceo.			172800	IN	NS	ns4.dns.nic.ceo.
 ceo.			172800	IN	NS	ns5.dns.nic.ceo.
 ceo.			172800	IN	NS	ns6.dns.nic.ceo.
-ceo.			172800	IN	NS	ns7.dns.nic.ceo.
 ns1.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1071::25
 ns1.dns.nic.ceo.	172800	IN	A	156.154.144.37
 ns2.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1072::25
@@ -756,8 +755,6 @@ ns5.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1075::25
 ns5.dns.nic.ceo.	172800	IN	A	156.154.157.37
 ns6.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1076::25
 ns6.dns.nic.ceo.	172800	IN	A	156.154.158.37
-ns7.dns.nic.ceo.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
-ns7.dns.nic.ceo.	172800	IN	A	207.34.5.10
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
 cf.			172800	IN	NS	a.ns.cf.
 cf.			172800	IN	NS	b.ns.cf.
@@ -855,7 +852,6 @@ club.			172800	IN	NS	ns3.dns.nic.club.
 club.			172800	IN	NS	ns4.dns.nic.club.
 club.			172800	IN	NS	ns5.dns.nic.club.
 club.			172800	IN	NS	ns6.dns.nic.club.
-club.			172800	IN	NS	ns7.dns.nic.club.
 ns1.dns.nic.club.	172800	IN	AAAA	2610:a1:1071::d7
 ns1.dns.nic.club.	172800	IN	A	156.154.144.215
 ns2.dns.nic.club.	172800	IN	AAAA	2610:a1:1072::d7
@@ -868,8 +864,6 @@ ns5.dns.nic.club.	172800	IN	AAAA	2610:a1:1075::d7
 ns5.dns.nic.club.	172800	IN	A	156.154.157.215
 ns6.dns.nic.club.	172800	IN	AAAA	2610:a1:1076::d7
 ns6.dns.nic.club.	172800	IN	A	156.154.158.215
-ns7.dns.nic.club.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
-ns7.dns.nic.club.	172800	IN	A	207.34.5.10
 cm.			86400	IN	NSEC	cn. NS RRSIG NSEC
 cm.			172800	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			172800	IN	NS	ns.itu.ch.
