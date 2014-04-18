@@ -1571,7 +1571,7 @@ fm.			172800	IN	NS	tld3.ultradns.org.
 fm.			172800	IN	NS	tld4.ultradns.org.
 fm.			172800	IN	NS	tld5.ultradns.info.
 fm.			172800	IN	NS	tld6.ultradns.co.uk.
-fo.			86400	IN	NSEC	foundation. NS DS RRSIG NSEC
+fo.			86400	IN	NSEC	foo. NS DS RRSIG NSEC
 fo.			172800	IN	NS	pch.nic.fo.
 fo.			172800	IN	NS	arnhem.nic.fo.
 fo.			172800	IN	NS	frankfurt.nic.fo.
@@ -1583,6 +1583,12 @@ copenhagen.nic.fo.	172800	IN	A	193.163.102.12
 frankfurt.nic.fo.	172800	IN	A	81.91.161.88
 pch.nic.fo.		172800	IN	AAAA	2001:500:14:6065:ad::1
 pch.nic.fo.		172800	IN	A	204.61.216.65
+foo.			86400	IN	NSEC	foundation. NS DS RRSIG NSEC
+foo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+foo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 foundation.		86400	IN	NSEC	fr. NS DS RRSIG NSEC
 foundation.		172800	IN	NS	demand.beta.aridns.net.au.
 foundation.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1593,7 +1599,7 @@ fr.			172800	IN	NS	d.nic.fr.
 fr.			172800	IN	NS	e.ext.nic.fr.
 fr.			172800	IN	NS	f.ext.nic.fr.
 fr.			172800	IN	NS	g.ext.nic.fr.
-fr.			86400	IN	NSEC	futbol. NS DS RRSIG NSEC
+fr.			86400	IN	NSEC	frogans. NS DS RRSIG NSEC
 dns.inria.fr.		172800	IN	A	193.51.208.13
 censvrns0001.ird.fr.	172800	IN	A	91.203.32.147
 ns1.ird.fr.		172800	IN	A	193.50.53.3
@@ -1621,6 +1627,10 @@ ns2.nic.fr.		172800	IN	A	192.93.0.4
 ns3.nic.fr.		172800	IN	AAAA	2001:660:3006:1::1:1
 ns3.nic.fr.		172800	IN	A	192.134.0.49
 bow.rain.fr.		172800	IN	A	194.51.3.49
+frogans.		86400	IN	NSEC	futbol. NS DS RRSIG NSEC
+frogans.		172800	IN	NS	d.nic.fr.
+frogans.		172800	IN	NS	f.ext.nic.fr.
+frogans.		172800	IN	NS	g.ext.nic.fr.
 futbol.			86400	IN	NSEC	ga. NS DS RRSIG NSEC
 futbol.			172800	IN	NS	demand.beta.aridns.net.au.
 futbol.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3701,7 +3711,7 @@ sfba.sns-pb.isc.org.	172800	IN	A	149.20.64.3
 tld3.ultradns.org.	172800	IN	A	199.7.66.1
 tld4.ultradns.org.	172800	IN	AAAA	2001:502:100e::1
 tld4.ultradns.org.	172800	IN	A	199.7.67.1
-pa.			86400	IN	NSEC	partners. NS RRSIG NSEC
+pa.			86400	IN	NSEC	paris. NS RRSIG NSEC
 pa.			172800	IN	NS	ns.cr.
 pa.			172800	IN	NS	ns.pa.
 pa.			172800	IN	NS	ns.dns.br.
@@ -3712,6 +3722,10 @@ pa.			172800	IN	NS	sns-pb.isc.org.
 ns.nic.pa.		172800	IN	A	168.77.8.4
 ns.pa.			172800	IN	A	168.77.8.2
 ns2.pa.			172800	IN	A	168.77.8.7
+paris.			86400	IN	NSEC	partners. NS DS RRSIG NSEC
+paris.			172800	IN	NS	d.nic.fr.
+paris.			172800	IN	NS	f.ext.nic.fr.
+paris.			172800	IN	NS	g.ext.nic.fr.
 partners.		86400	IN	NSEC	parts. NS DS RRSIG NSEC
 partners.		172800	IN	NS	demand.beta.aridns.net.au.
 partners.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4362,11 +4376,17 @@ solar.			172800	IN	NS	demand.beta.aridns.net.au.
 solar.			172800	IN	NS	demand.alpha.aridns.net.au.
 solar.			172800	IN	NS	demand.delta.aridns.net.au.
 solar.			172800	IN	NS	demand.gamma.aridns.net.au.
-solutions.		86400	IN	NSEC	sr. NS DS RRSIG NSEC
+solutions.		86400	IN	NSEC	soy. NS DS RRSIG NSEC
 solutions.		172800	IN	NS	demand.beta.aridns.net.au.
 solutions.		172800	IN	NS	demand.alpha.aridns.net.au.
 solutions.		172800	IN	NS	demand.delta.aridns.net.au.
 solutions.		172800	IN	NS	demand.gamma.aridns.net.au.
+soy.			86400	IN	NSEC	sr. NS DS RRSIG NSEC
+soy.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+soy.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+soy.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+soy.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+soy.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 sr.			86400	IN	NSEC	st. NS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
