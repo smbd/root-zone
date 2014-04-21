@@ -489,7 +489,7 @@ bj.			172800	IN	NS	ns-bj.afrinic.net.
 bj.			172800	IN	NS	nakayo.leland.bj.
 ns1.intnet.bj.		172800	IN	A	81.91.225.18
 nakayo.leland.bj.	172800	IN	A	81.91.225.1
-black.			86400	IN	NSEC	blue. NS DS RRSIG NSEC
+black.			86400	IN	NSEC	blackfriday. NS DS RRSIG NSEC
 black.			172800	IN	NS	a0.nic.black.
 black.			172800	IN	NS	a2.nic.black.
 black.			172800	IN	NS	b0.nic.black.
@@ -502,6 +502,11 @@ b0.nic.black.		172800	IN	AAAA	2a01:8840:43::33
 b0.nic.black.		172800	IN	A	65.22.69.33
 c0.nic.black.		172800	IN	AAAA	2a01:8840:44::33
 c0.nic.black.		172800	IN	A	65.22.70.33
+blackfriday.		86400	IN	NSEC	blue. NS DS RRSIG NSEC
+blackfriday.		172800	IN	NS	a.ns.uniregistry.net.
+blackfriday.		172800	IN	NS	tld.isc-sns.com.
+blackfriday.		172800	IN	NS	tld.isc-sns.net.
+blackfriday.		172800	IN	NS	tld.isc-sns.info.
 blue.			86400	IN	NSEC	bm. NS DS RRSIG NSEC
 blue.			172800	IN	NS	a0.nic.blue.
 blue.			172800	IN	NS	a2.nic.blue.
@@ -852,11 +857,16 @@ b.nic.cl.		172800	IN	AAAA	2001:1398:274:0:200:7:4:7
 b.nic.cl.		172800	IN	A	200.7.4.7
 c.nic.cl.		172800	IN	A	200.16.112.16
 ns-ext.nic.cl.		172800	IN	A	200.1.123.14
-cleaning.		86400	IN	NSEC	clothing. NS DS RRSIG NSEC
+cleaning.		86400	IN	NSEC	clinic. NS DS RRSIG NSEC
 cleaning.		172800	IN	NS	demand.beta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.alpha.aridns.net.au.
 cleaning.		172800	IN	NS	demand.delta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.gamma.aridns.net.au.
+clinic.			86400	IN	NSEC	clothing. NS DS RRSIG NSEC
+clinic.			172800	IN	NS	demand.beta.aridns.net.au.
+clinic.			172800	IN	NS	demand.alpha.aridns.net.au.
+clinic.			172800	IN	NS	demand.delta.aridns.net.au.
+clinic.			172800	IN	NS	demand.gamma.aridns.net.au.
 clothing.		86400	IN	NSEC	club. NS DS RRSIG NSEC
 clothing.		172800	IN	NS	demand.beta.aridns.net.au.
 clothing.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1532,13 +1542,18 @@ fish.			172800	IN	NS	demand.beta.aridns.net.au.
 fish.			172800	IN	NS	demand.alpha.aridns.net.au.
 fish.			172800	IN	NS	demand.delta.aridns.net.au.
 fish.			172800	IN	NS	demand.gamma.aridns.net.au.
-fishing.		86400	IN	NSEC	fj. NS DS RRSIG NSEC
+fishing.		86400	IN	NSEC	fitness. NS DS RRSIG NSEC
 fishing.		172800	IN	NS	a.ns.nic.fishing.
 fishing.		172800	IN	NS	b.ns.nic.fishing.
 a.ns.nic.fishing.	172800	IN	AAAA	2620:171:a02:ad::5
 a.ns.nic.fishing.	172800	IN	A	72.0.50.5
 b.ns.nic.fishing.	172800	IN	AAAA	2620:171:d02:dc::5
 b.ns.nic.fishing.	172800	IN	A	72.42.114.5
+fitness.		86400	IN	NSEC	fj. NS DS RRSIG NSEC
+fitness.		172800	IN	NS	demand.beta.aridns.net.au.
+fitness.		172800	IN	NS	demand.alpha.aridns.net.au.
+fitness.		172800	IN	NS	demand.delta.aridns.net.au.
+fitness.		172800	IN	NS	demand.gamma.aridns.net.au.
 fj.			86400	IN	NSEC	fk. NS RRSIG NSEC
 fj.			172800	IN	NS	rip.psg.com.
 fj.			172800	IN	NS	manu.usp.ac.fj.
@@ -4182,7 +4197,7 @@ sb.			172800	IN	NS	sb3.dyntld.net.
 sb.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
 pch.nic.sb.		172800	IN	A	204.61.216.31
-sc.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
+sc.			86400	IN	NSEC	schule. NS DS RRSIG NSEC
 sc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 sc.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -4191,6 +4206,11 @@ sc.			172800	IN	NS	c0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 ns1.nic.sc.		172800	IN	A	41.191.121.129
+schule.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
+schule.			172800	IN	NS	demand.beta.aridns.net.au.
+schule.			172800	IN	NS	demand.alpha.aridns.net.au.
+schule.			172800	IN	NS	demand.delta.aridns.net.au.
+schule.			172800	IN	NS	demand.gamma.aridns.net.au.
 sd.			86400	IN	NSEC	se. NS RRSIG NSEC
 sd.			172800	IN	NS	sd.cctld.authdns.ripe.net.
 sd.			172800	IN	NS	ns1.coza.net.za.
@@ -4573,18 +4593,12 @@ tn.			86400	IN	NSEC	to. NS RRSIG NSEC
 tn.			172800	IN	NS	ns1.ati.tn.
 tn.			172800	IN	NS	ns2.ati.tn.
 tn.			172800	IN	NS	ns2.nic.fr.
-tn.			172800	IN	NS	ns8.ati.tn.
-tn.			172800	IN	NS	ns9.ati.tn.
 tn.			172800	IN	NS	rip.psg.com.
 tn.			172800	IN	NS	ns-tn.afrinic.net.
 ns1.ati.tn.		172800	IN	AAAA	2001:4350:1:1::10
 ns1.ati.tn.		172800	IN	A	193.95.66.10
 ns2.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::22
 ns2.ati.tn.		172800	IN	A	193.95.67.22
-ns8.ati.tn.		172800	IN	AAAA	2001:4350:1:1::6
-ns8.ati.tn.		172800	IN	A	193.95.66.6
-ns9.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::26
-ns9.ati.tn.		172800	IN	A	193.95.67.26
 to.			86400	IN	NSEC	today. NS RRSIG NSEC
 to.			172800	IN	NS	to.cctld.authdns.ripe.net.
 to.			172800	IN	NS	ns1.iafrica.com.
@@ -5479,8 +5493,6 @@ xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS RRSIG NSEC
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
-xn--pgbs0dh.		172800	IN	NS	ns8.ati.tn.
-xn--pgbs0dh.		172800	IN	NS	ns9.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
 xn--q9jyb4c.		86400	IN	NSEC	xn--rhqv96g. NS DS RRSIG NSEC
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
