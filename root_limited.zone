@@ -702,11 +702,16 @@ capital.		172800	IN	NS	demand.beta.aridns.net.au.
 capital.		172800	IN	NS	demand.alpha.aridns.net.au.
 capital.		172800	IN	NS	demand.delta.aridns.net.au.
 capital.		172800	IN	NS	demand.gamma.aridns.net.au.
-cards.			86400	IN	NSEC	career. NS DS RRSIG NSEC
+cards.			86400	IN	NSEC	care. NS DS RRSIG NSEC
 cards.			172800	IN	NS	demand.beta.aridns.net.au.
 cards.			172800	IN	NS	demand.alpha.aridns.net.au.
 cards.			172800	IN	NS	demand.delta.aridns.net.au.
 cards.			172800	IN	NS	demand.gamma.aridns.net.au.
+care.			86400	IN	NSEC	career. NS DS RRSIG NSEC
+care.			172800	IN	NS	demand.beta.aridns.net.au.
+care.			172800	IN	NS	demand.alpha.aridns.net.au.
+care.			172800	IN	NS	demand.delta.aridns.net.au.
+care.			172800	IN	NS	demand.gamma.aridns.net.au.
 career.			86400	IN	NSEC	careers. NS DS RRSIG NSEC
 career.			172800	IN	NS	a5.nstld.com.
 career.			172800	IN	NS	c5.nstld.com.
@@ -715,11 +720,16 @@ career.			172800	IN	NS	f5.nstld.com.
 career.			172800	IN	NS	g5.nstld.com.
 career.			172800	IN	NS	h5.nstld.com.
 career.			172800	IN	NS	l5.nstld.com.
-careers.		86400	IN	NSEC	cat. NS DS RRSIG NSEC
+careers.		86400	IN	NSEC	cash. NS DS RRSIG NSEC
 careers.		172800	IN	NS	demand.beta.aridns.net.au.
 careers.		172800	IN	NS	demand.alpha.aridns.net.au.
 careers.		172800	IN	NS	demand.delta.aridns.net.au.
 careers.		172800	IN	NS	demand.gamma.aridns.net.au.
+cash.			86400	IN	NSEC	cat. NS DS RRSIG NSEC
+cash.			172800	IN	NS	demand.beta.aridns.net.au.
+cash.			172800	IN	NS	demand.alpha.aridns.net.au.
+cash.			172800	IN	NS	demand.delta.aridns.net.au.
+cash.			172800	IN	NS	demand.gamma.aridns.net.au.
 cat.			86400	IN	NSEC	catering. NS DS RRSIG NSEC
 cat.			172800	IN	NS	ns.nic.cat.
 cat.			172800	IN	NS	cat.pch.net.
@@ -1256,11 +1266,16 @@ f.nic.de.		172800	IN	AAAA	2a02:568:0:2::53
 f.nic.de.		172800	IN	A	81.91.164.5
 nsc.nic.de.		172800	IN	A	81.91.161.84
 z.nic.de.		172800	IN	A	194.246.96.1
-democrat.		86400	IN	NSEC	desi. NS DS RRSIG NSEC
+democrat.		86400	IN	NSEC	dental. NS DS RRSIG NSEC
 democrat.		172800	IN	NS	demand.beta.aridns.net.au.
 democrat.		172800	IN	NS	demand.alpha.aridns.net.au.
 democrat.		172800	IN	NS	demand.delta.aridns.net.au.
 democrat.		172800	IN	NS	demand.gamma.aridns.net.au.
+dental.			86400	IN	NSEC	desi. NS DS RRSIG NSEC
+dental.			172800	IN	NS	demand.beta.aridns.net.au.
+dental.			172800	IN	NS	demand.alpha.aridns.net.au.
+dental.			172800	IN	NS	demand.delta.aridns.net.au.
+dental.			172800	IN	NS	demand.gamma.aridns.net.au.
 desi.			86400	IN	NSEC	diamonds. NS DS RRSIG NSEC
 desi.			172800	IN	NS	ns1a.ksregistry.net.
 desi.			172800	IN	NS	ns1b.ksregistry.net.
@@ -1271,11 +1286,16 @@ diamonds.		172800	IN	NS	demand.beta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
 diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
-directory.		86400	IN	NSEC	dj. NS DS RRSIG NSEC
+directory.		86400	IN	NSEC	discount. NS DS RRSIG NSEC
 directory.		172800	IN	NS	demand.beta.aridns.net.au.
 directory.		172800	IN	NS	demand.alpha.aridns.net.au.
 directory.		172800	IN	NS	demand.delta.aridns.net.au.
 directory.		172800	IN	NS	demand.gamma.aridns.net.au.
+discount.		86400	IN	NSEC	dj. NS DS RRSIG NSEC
+discount.		172800	IN	NS	demand.beta.aridns.net.au.
+discount.		172800	IN	NS	demand.alpha.aridns.net.au.
+discount.		172800	IN	NS	demand.delta.aridns.net.au.
+discount.		172800	IN	NS	demand.gamma.aridns.net.au.
 dj.			86400	IN	NSEC	dk. NS RRSIG NSEC
 dj.			172800	IN	NS	bow.rain.fr.
 dj.			172800	IN	NS	bow.intnet.dj.
@@ -1478,21 +1498,31 @@ eus.			172800	IN	NS	anycast9.irondns.net.
 eus.			172800	IN	NS	anycast10.irondns.net.
 eus.			172800	IN	NS	anycast23.irondns.net.
 eus.			172800	IN	NS	anycast24.irondns.net.
-events.			86400	IN	NSEC	expert. NS DS RRSIG NSEC
+events.			86400	IN	NSEC	exchange. NS DS RRSIG NSEC
 events.			172800	IN	NS	demand.beta.aridns.net.au.
 events.			172800	IN	NS	demand.alpha.aridns.net.au.
 events.			172800	IN	NS	demand.delta.aridns.net.au.
 events.			172800	IN	NS	demand.gamma.aridns.net.au.
+exchange.		86400	IN	NSEC	expert. NS DS RRSIG NSEC
+exchange.		172800	IN	NS	demand.beta.aridns.net.au.
+exchange.		172800	IN	NS	demand.alpha.aridns.net.au.
+exchange.		172800	IN	NS	demand.delta.aridns.net.au.
+exchange.		172800	IN	NS	demand.gamma.aridns.net.au.
 expert.			86400	IN	NSEC	exposed. NS DS RRSIG NSEC
 expert.			172800	IN	NS	demand.beta.aridns.net.au.
 expert.			172800	IN	NS	demand.alpha.aridns.net.au.
 expert.			172800	IN	NS	demand.delta.aridns.net.au.
 expert.			172800	IN	NS	demand.gamma.aridns.net.au.
-exposed.		86400	IN	NSEC	farm. NS DS RRSIG NSEC
+exposed.		86400	IN	NSEC	fail. NS DS RRSIG NSEC
 exposed.		172800	IN	NS	demand.beta.aridns.net.au.
 exposed.		172800	IN	NS	demand.alpha.aridns.net.au.
 exposed.		172800	IN	NS	demand.delta.aridns.net.au.
 exposed.		172800	IN	NS	demand.gamma.aridns.net.au.
+fail.			86400	IN	NSEC	farm. NS DS RRSIG NSEC
+fail.			172800	IN	NS	demand.beta.aridns.net.au.
+fail.			172800	IN	NS	demand.alpha.aridns.net.au.
+fail.			172800	IN	NS	demand.delta.aridns.net.au.
+fail.			172800	IN	NS	demand.gamma.aridns.net.au.
 farm.			86400	IN	NSEC	feedback. NS DS RRSIG NSEC
 farm.			172800	IN	NS	demand.beta.aridns.net.au.
 farm.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1511,7 +1541,7 @@ c.nic.feedback.		172800	IN	AAAA	2001:678:5::2
 c.nic.feedback.		172800	IN	A	194.0.2.2
 d.nic.feedback.		172800	IN	AAAA	2001:678:4::2d
 d.nic.feedback.		172800	IN	A	194.0.1.45
-fi.			86400	IN	NSEC	fish. NS DS RRSIG NSEC
+fi.			86400	IN	NSEC	financial. NS DS RRSIG NSEC
 fi.			172800	IN	NS	a.fi.
 fi.			172800	IN	NS	b.fi.
 fi.			172800	IN	NS	c.fi.
@@ -1537,6 +1567,11 @@ g.fi.			172800	IN	A	156.154.101.26
 h.fi.			172800	IN	A	156.154.102.26
 i.fi.			172800	IN	AAAA	2001:502:2eda::26
 i.fi.			172800	IN	A	156.154.103.26
+financial.		86400	IN	NSEC	fish. NS DS RRSIG NSEC
+financial.		172800	IN	NS	demand.beta.aridns.net.au.
+financial.		172800	IN	NS	demand.alpha.aridns.net.au.
+financial.		172800	IN	NS	demand.delta.aridns.net.au.
+financial.		172800	IN	NS	demand.gamma.aridns.net.au.
 fish.			86400	IN	NSEC	fishing. NS DS RRSIG NSEC
 fish.			172800	IN	NS	demand.beta.aridns.net.au.
 fish.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1642,10 +1677,20 @@ ns2.nic.fr.		172800	IN	A	192.93.0.4
 ns3.nic.fr.		172800	IN	AAAA	2001:660:3006:1::1:1
 ns3.nic.fr.		172800	IN	A	192.134.0.49
 bow.rain.fr.		172800	IN	A	194.51.3.49
-frogans.		86400	IN	NSEC	futbol. NS DS RRSIG NSEC
+frogans.		86400	IN	NSEC	fund. NS DS RRSIG NSEC
 frogans.		172800	IN	NS	d.nic.fr.
 frogans.		172800	IN	NS	f.ext.nic.fr.
 frogans.		172800	IN	NS	g.ext.nic.fr.
+fund.			86400	IN	NSEC	furniture. NS DS RRSIG NSEC
+fund.			172800	IN	NS	demand.beta.aridns.net.au.
+fund.			172800	IN	NS	demand.alpha.aridns.net.au.
+fund.			172800	IN	NS	demand.delta.aridns.net.au.
+fund.			172800	IN	NS	demand.gamma.aridns.net.au.
+furniture.		86400	IN	NSEC	futbol. NS DS RRSIG NSEC
+furniture.		172800	IN	NS	demand.beta.aridns.net.au.
+furniture.		172800	IN	NS	demand.alpha.aridns.net.au.
+furniture.		172800	IN	NS	demand.delta.aridns.net.au.
+furniture.		172800	IN	NS	demand.gamma.aridns.net.au.
 futbol.			86400	IN	NSEC	ga. NS DS RRSIG NSEC
 futbol.			172800	IN	NS	demand.beta.aridns.net.au.
 futbol.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1794,11 +1839,16 @@ gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 gr-us.ics.forth.gr.	172800	IN	A	199.4.28.219
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
-graphics.		86400	IN	NSEC	gripe. NS DS RRSIG NSEC
+graphics.		86400	IN	NSEC	gratis. NS DS RRSIG NSEC
 graphics.		172800	IN	NS	demand.beta.aridns.net.au.
 graphics.		172800	IN	NS	demand.alpha.aridns.net.au.
 graphics.		172800	IN	NS	demand.delta.aridns.net.au.
 graphics.		172800	IN	NS	demand.gamma.aridns.net.au.
+gratis.			86400	IN	NSEC	gripe. NS DS RRSIG NSEC
+gratis.			172800	IN	NS	demand.beta.aridns.net.au.
+gratis.			172800	IN	NS	demand.alpha.aridns.net.au.
+gratis.			172800	IN	NS	demand.delta.aridns.net.au.
+gratis.			172800	IN	NS	demand.gamma.aridns.net.au.
 gripe.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gripe.			172800	IN	NS	demand.beta.aridns.net.au.
 gripe.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2130,11 +2180,16 @@ int.			172800	IN	NS	ns.icann.org.
 int.			172800	IN	NS	ns0.ja.net.
 int.			172800	IN	NS	ns1.cs.ucl.ac.uk.
 int.			172800	IN	NS	sec2.authdns.ripe.net.
-international.		86400	IN	NSEC	io. NS DS RRSIG NSEC
+international.		86400	IN	NSEC	investments. NS DS RRSIG NSEC
 international.		172800	IN	NS	demand.beta.aridns.net.au.
 international.		172800	IN	NS	demand.alpha.aridns.net.au.
 international.		172800	IN	NS	demand.delta.aridns.net.au.
 international.		172800	IN	NS	demand.gamma.aridns.net.au.
+investments.		86400	IN	NSEC	io. NS DS RRSIG NSEC
+investments.		172800	IN	NS	demand.beta.aridns.net.au.
+investments.		172800	IN	NS	demand.alpha.aridns.net.au.
+investments.		172800	IN	NS	demand.delta.aridns.net.au.
+investments.		172800	IN	NS	demand.gamma.aridns.net.au.
 io.			86400	IN	NSEC	iq. NS DS RRSIG NSEC
 io.			172800	IN	NS	a.nic.io.
 io.			172800	IN	NS	a.ns13.net.
@@ -2466,11 +2521,16 @@ e.nic.li.		172800	IN	A	194.0.17.1
 f.nic.li.		172800	IN	AAAA	2001:67c:1010:3::53
 f.nic.li.		172800	IN	A	194.146.106.14
 h.nic.li.		172800	IN	A	194.42.48.120
-lighting.		86400	IN	NSEC	limo. NS DS RRSIG NSEC
+lighting.		86400	IN	NSEC	limited. NS DS RRSIG NSEC
 lighting.		172800	IN	NS	demand.beta.aridns.net.au.
 lighting.		172800	IN	NS	demand.alpha.aridns.net.au.
 lighting.		172800	IN	NS	demand.delta.aridns.net.au.
 lighting.		172800	IN	NS	demand.gamma.aridns.net.au.
+limited.		86400	IN	NSEC	limo. NS DS RRSIG NSEC
+limited.		172800	IN	NS	demand.beta.aridns.net.au.
+limited.		172800	IN	NS	demand.alpha.aridns.net.au.
+limited.		172800	IN	NS	demand.delta.aridns.net.au.
+limited.		172800	IN	NS	demand.gamma.aridns.net.au.
 limo.			86400	IN	NSEC	link. NS DS RRSIG NSEC
 limo.			172800	IN	NS	demand.beta.aridns.net.au.
 limo.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4435,11 +4495,16 @@ supply.			172800	IN	NS	demand.beta.aridns.net.au.
 supply.			172800	IN	NS	demand.alpha.aridns.net.au.
 supply.			172800	IN	NS	demand.delta.aridns.net.au.
 supply.			172800	IN	NS	demand.gamma.aridns.net.au.
-support.		86400	IN	NSEC	sv. NS DS RRSIG NSEC
+support.		86400	IN	NSEC	surgery. NS DS RRSIG NSEC
 support.		172800	IN	NS	demand.beta.aridns.net.au.
 support.		172800	IN	NS	demand.alpha.aridns.net.au.
 support.		172800	IN	NS	demand.delta.aridns.net.au.
 support.		172800	IN	NS	demand.gamma.aridns.net.au.
+surgery.		86400	IN	NSEC	sv. NS DS RRSIG NSEC
+surgery.		172800	IN	NS	demand.beta.aridns.net.au.
+surgery.		172800	IN	NS	demand.alpha.aridns.net.au.
+surgery.		172800	IN	NS	demand.delta.aridns.net.au.
+surgery.		172800	IN	NS	demand.gamma.aridns.net.au.
 sv.			86400	IN	NSEC	sx. NS RRSIG NSEC
 sv.			172800	IN	NS	ns.cr.
 sv.			172800	IN	NS	ns.uu.net.
@@ -4475,11 +4540,16 @@ sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
 sz.			172800	IN	NS	ns1.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
 ns1.sispa.org.sz.	172800	IN	A	41.77.232.4
-tattoo.			86400	IN	NSEC	tc. NS DS RRSIG NSEC
+tattoo.			86400	IN	NSEC	tax. NS DS RRSIG NSEC
 tattoo.			172800	IN	NS	a.ns.uniregistry.net.
 tattoo.			172800	IN	NS	tld.isc-sns.com.
 tattoo.			172800	IN	NS	tld.isc-sns.net.
 tattoo.			172800	IN	NS	tld.isc-sns.info.
+tax.			86400	IN	NSEC	tc. NS DS RRSIG NSEC
+tax.			172800	IN	NS	demand.beta.aridns.net.au.
+tax.			172800	IN	NS	demand.alpha.aridns.net.au.
+tax.			172800	IN	NS	demand.delta.aridns.net.au.
+tax.			172800	IN	NS	demand.gamma.aridns.net.au.
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
 tc.			172800	IN	NS	asia.zone.tc.
 tc.			172800	IN	NS	asia.zone.vg.
@@ -5106,7 +5176,7 @@ works.			172800	IN	NS	demand.beta.aridns.net.au.
 works.			172800	IN	NS	demand.alpha.aridns.net.au.
 works.			172800	IN	NS	demand.delta.aridns.net.au.
 works.			172800	IN	NS	demand.gamma.aridns.net.au.
-ws.			86400	IN	NSEC	xn--3bst00m. NS RRSIG NSEC
+ws.			86400	IN	NSEC	wtf. NS RRSIG NSEC
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
 ws.			172800	IN	NS	ns4.dns.ws.
@@ -5119,6 +5189,11 @@ ns4.dns.ws.		172800	IN	A	67.221.178.53
 ns5.dns.ws.		172800	IN	A	64.70.19.70
 ns6.dns.ws.		172800	IN	A	77.92.65.172
 ns7.dns.ws.		172800	IN	A	77.92.65.174
+wtf.			86400	IN	NSEC	xn--3bst00m. NS DS RRSIG NSEC
+wtf.			172800	IN	NS	demand.beta.aridns.net.au.
+wtf.			172800	IN	NS	demand.alpha.aridns.net.au.
+wtf.			172800	IN	NS	demand.delta.aridns.net.au.
+wtf.			172800	IN	NS	demand.gamma.aridns.net.au.
 xn--3bst00m.		86400	IN	NSEC	xn--3ds443g. NS DS RRSIG NSEC
 xn--3bst00m.		172800	IN	NS	a.zdnscloud.com.
 xn--3bst00m.		172800	IN	NS	b.zdnscloud.com.
