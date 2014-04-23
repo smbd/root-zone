@@ -2870,7 +2870,7 @@ ns5.dns.nic.moe.	172800	IN	AAAA	2610:a1:1075::72
 ns5.dns.nic.moe.	172800	IN	A	156.154.157.114
 ns6.dns.nic.moe.	172800	IN	AAAA	2610:a1:1076::72
 ns6.dns.nic.moe.	172800	IN	A	156.154.158.114
-monash.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
+monash.			86400	IN	NSEC	moscow. NS DS RRSIG NSEC
 monash.			172800	IN	NS	a.nic.monash.
 monash.			172800	IN	NS	b.nic.monash.
 monash.			172800	IN	NS	c.nic.monash.
@@ -2883,6 +2883,12 @@ c.nic.monash.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.monash.		172800	IN	A	37.209.196.9
 d.nic.monash.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.monash.		172800	IN	A	37.209.198.9
+moscow.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
+moscow.			172800	IN	NS	a.dns.ripn.net.
+moscow.			172800	IN	NS	b.dns.ripn.net.
+moscow.			172800	IN	NS	d.dns.ripn.net.
+moscow.			172800	IN	NS	e.dns.ripn.net.
+moscow.			172800	IN	NS	f.dns.ripn.net.
 mp.			86400	IN	NSEC	mq. NS RRSIG NSEC
 mp.			172800	IN	NS	ns1.nic.mp.
 mp.			172800	IN	NS	ns2.nic.mp.
@@ -5258,7 +5264,7 @@ b0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1b::9
 b0.nic.xn--6frz82g.	172800	IN	A	65.22.25.9
 c0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1c::9
 c0.nic.xn--6frz82g.	172800	IN	A	65.22.26.9
-xn--6qq986b3xl.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
+xn--6qq986b3xl.		86400	IN	NSEC	xn--80adxhks. NS DS RRSIG NSEC
 xn--6qq986b3xl.		172800	IN	NS	a.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	b.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	c.zdnscloud.com.
@@ -5268,6 +5274,12 @@ xn--6qq986b3xl.		172800	IN	NS	f.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	g.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	i.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	j.zdnscloud.com.
+xn--80adxhks.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
+xn--80adxhks.		172800	IN	NS	a.dns.ripn.net.
+xn--80adxhks.		172800	IN	NS	b.dns.ripn.net.
+xn--80adxhks.		172800	IN	NS	d.dns.ripn.net.
+xn--80adxhks.		172800	IN	NS	e.dns.ripn.net.
+xn--80adxhks.		172800	IN	NS	f.dns.ripn.net.
 xn--80ao21a.		86400	IN	NSEC	xn--80asehdb. NS RRSIG NSEC
 xn--80ao21a.		172800	IN	NS	kz.cctld.authdns.ripe.net.
 xn--80ao21a.		172800	IN	NS	ns.nic.kz.
