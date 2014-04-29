@@ -87,12 +87,17 @@ agency.			172800	IN	NS	demand.beta.aridns.net.au.
 agency.			172800	IN	NS	demand.alpha.aridns.net.au.
 agency.			172800	IN	NS	demand.delta.aridns.net.au.
 agency.			172800	IN	NS	demand.gamma.aridns.net.au.
-ai.			86400	IN	NSEC	al. NS RRSIG NSEC
+ai.			86400	IN	NSEC	airforce. NS RRSIG NSEC
 ai.			172800	IN	NS	ns1.pair.com.
 ai.			172800	IN	NS	ns2.offshore.ai.
 ai.			172800	IN	NS	whois.ai.
 ns2.offshore.ai.	172800	IN	A	108.166.113.245
 whois.ai.		172800	IN	A	209.59.119.1
+airforce.		86400	IN	NSEC	al. NS DS RRSIG NSEC
+airforce.		172800	IN	NS	demand.beta.aridns.net.au.
+airforce.		172800	IN	NS	demand.alpha.aridns.net.au.
+airforce.		172800	IN	NS	demand.delta.aridns.net.au.
+airforce.		172800	IN	NS	demand.gamma.aridns.net.au.
 al.			86400	IN	NSEC	am. NS RRSIG NSEC
 al.			172800	IN	NS	al.cctld.authdns.ripe.net.
 al.			172800	IN	NS	ns1.nic.al.
