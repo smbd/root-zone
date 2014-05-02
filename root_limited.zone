@@ -341,11 +341,18 @@ c.nic.bar.		172800	IN	AAAA	2001:678:5::2
 c.nic.bar.		172800	IN	A	194.0.2.2
 d.nic.bar.		172800	IN	AAAA	2001:678:4::2d
 d.nic.bar.		172800	IN	A	194.0.1.45
-bargains.		86400	IN	NSEC	bb. NS DS RRSIG NSEC
+bargains.		86400	IN	NSEC	bayern. NS DS RRSIG NSEC
 bargains.		172800	IN	NS	demand.beta.aridns.net.au.
 bargains.		172800	IN	NS	demand.alpha.aridns.net.au.
 bargains.		172800	IN	NS	demand.delta.aridns.net.au.
 bargains.		172800	IN	NS	demand.gamma.aridns.net.au.
+bayern.			86400	IN	NSEC	bb. NS DS RRSIG NSEC
+bayern.			172800	IN	NS	a.ns.nic.bayern.
+bayern.			172800	IN	NS	b.ns.nic.bayern.
+a.ns.nic.bayern.	172800	IN	AAAA	2620:171:a02:ad::13
+a.ns.nic.bayern.	172800	IN	A	72.0.50.13
+b.ns.nic.bayern.	172800	IN	AAAA	2620:171:d02:dc::13
+b.ns.nic.bayern.	172800	IN	A	72.42.114.13
 bb.			86400	IN	NSEC	bd. NS RRSIG NSEC
 bb.			172800	IN	NS	ns1.barbadosdomain.net.
 bb.			172800	IN	NS	ns2.barbadosdomain.net.
@@ -1802,17 +1809,30 @@ b.nic.gl.		172800	IN	A	91.221.196.228
 d.nic.gl.		172800	IN	AAAA	2001:500:14:6049:ad::1
 d.nic.gl.		172800	IN	A	204.61.216.49
 a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
-glass.			86400	IN	NSEC	gm. NS DS RRSIG NSEC
+glass.			86400	IN	NSEC	globo. NS DS RRSIG NSEC
 glass.			172800	IN	NS	demand.beta.aridns.net.au.
 glass.			172800	IN	NS	demand.alpha.aridns.net.au.
 glass.			172800	IN	NS	demand.delta.aridns.net.au.
 glass.			172800	IN	NS	demand.gamma.aridns.net.au.
-gm.			86400	IN	NSEC	gn. NS RRSIG NSEC
+globo.			86400	IN	NSEC	gm. NS DS RRSIG NSEC
+globo.			172800	IN	NS	a.dns.br.
+globo.			172800	IN	NS	b.dns.br.
+globo.			172800	IN	NS	c.dns.br.
+globo.			172800	IN	NS	d.dns.br.
+globo.			172800	IN	NS	e.dns.br.
+globo.			172800	IN	NS	f.dns.br.
+gm.			86400	IN	NSEC	gmo. NS RRSIG NSEC
 gm.			172800	IN	NS	ns1.nic.gm.
 gm.			172800	IN	NS	ns2.nic.gm.
 gm.			172800	IN	NS	ns-gm.afrinic.net.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
 ns2.nic.gm.		172800	IN	A	197.255.194.102
+gmo.			86400	IN	NSEC	gn. NS DS RRSIG NSEC
+gmo.			172800	IN	NS	a.gmoregistry.net.
+gmo.			172800	IN	NS	b.gmoregistry.net.
+gmo.			172800	IN	NS	c.gmoregistry.net.
+gmo.			172800	IN	NS	d.gmoregistry.net.
+gmo.			172800	IN	NS	e.gmoregistry.net.
 gn.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
