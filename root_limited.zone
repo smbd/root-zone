@@ -25,11 +25,16 @@ ac.			172800	IN	NS	ns1.communitydns.net.
 ac.			172800	IN	NS	ns3.icb.co.uk.
 a.nic.ac.		172800	IN	A	64.251.31.177
 b.nic.ac.		172800	IN	A	78.104.145.37
-academy.		86400	IN	NSEC	actor. NS DS RRSIG NSEC
+academy.		86400	IN	NSEC	accountants. NS DS RRSIG NSEC
 academy.		172800	IN	NS	demand.beta.aridns.net.au.
 academy.		172800	IN	NS	demand.alpha.aridns.net.au.
 academy.		172800	IN	NS	demand.delta.aridns.net.au.
 academy.		172800	IN	NS	demand.gamma.aridns.net.au.
+accountants.		86400	IN	NSEC	actor. NS DS RRSIG NSEC
+accountants.		172800	IN	NS	demand.beta.aridns.net.au.
+accountants.		172800	IN	NS	demand.alpha.aridns.net.au.
+accountants.		172800	IN	NS	demand.delta.aridns.net.au.
+accountants.		172800	IN	NS	demand.gamma.aridns.net.au.
 actor.			86400	IN	NSEC	ad. NS DS RRSIG NSEC
 actor.			172800	IN	NS	demand.beta.aridns.net.au.
 actor.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -883,12 +888,17 @@ cl.			172800	IN	NS	c.nic.cl.
 cl.			172800	IN	NS	cl1.dnsnode.net.
 cl.			172800	IN	NS	cl-ns.anycast.pch.net.
 cl.			172800	IN	NS	sns-pb.isc.org.
-cl.			86400	IN	NSEC	cleaning. NS DS RRSIG NSEC
+cl.			86400	IN	NSEC	claims. NS DS RRSIG NSEC
 a.nic.cl.		172800	IN	A	200.1.121.10
 b.nic.cl.		172800	IN	AAAA	2001:1398:274:0:200:7:4:7
 b.nic.cl.		172800	IN	A	200.7.4.7
 c.nic.cl.		172800	IN	A	200.16.112.16
 ns-ext.nic.cl.		172800	IN	A	200.1.123.14
+claims.			86400	IN	NSEC	cleaning. NS DS RRSIG NSEC
+claims.			172800	IN	NS	demand.beta.aridns.net.au.
+claims.			172800	IN	NS	demand.alpha.aridns.net.au.
+claims.			172800	IN	NS	demand.delta.aridns.net.au.
+claims.			172800	IN	NS	demand.gamma.aridns.net.au.
 cleaning.		86400	IN	NSEC	clinic. NS DS RRSIG NSEC
 cleaning.		172800	IN	NS	demand.beta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1184,7 +1194,7 @@ cr.			172800	IN	NS	e.ns.cr.
 cr.			172800	IN	NS	f.ns.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
-cr.			86400	IN	NSEC	creditcard. NS DS RRSIG NSEC
+cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
 ns.cr.			172800	IN	A	163.178.8.2
 a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
 a.ns.cr.		172800	IN	A	200.107.82.100
@@ -1195,6 +1205,11 @@ e.ns.cr.		172800	IN	AAAA	2001:470:1a::3
 e.ns.cr.		172800	IN	A	72.52.71.3
 f.ns.cr.		172800	IN	AAAA	2001:5a0:10::3
 f.ns.cr.		172800	IN	A	63.243.194.3
+credit.			86400	IN	NSEC	creditcard. NS DS RRSIG NSEC
+credit.			172800	IN	NS	demand.beta.aridns.net.au.
+credit.			172800	IN	NS	demand.alpha.aridns.net.au.
+credit.			172800	IN	NS	demand.delta.aridns.net.au.
+credit.			172800	IN	NS	demand.gamma.aridns.net.au.
 creditcard.		86400	IN	NSEC	cruises. NS DS RRSIG NSEC
 creditcard.		172800	IN	NS	demand.beta.aridns.net.au.
 creditcard.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1308,11 +1323,16 @@ desi.			172800	IN	NS	ns1a.ksregistry.net.
 desi.			172800	IN	NS	ns1b.ksregistry.net.
 desi.			172800	IN	NS	ns2a.ksregistry.com.
 desi.			172800	IN	NS	ns2b.ksregistry.com.
-diamonds.		86400	IN	NSEC	directory. NS DS RRSIG NSEC
+diamonds.		86400	IN	NSEC	digital. NS DS RRSIG NSEC
 diamonds.		172800	IN	NS	demand.beta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
 diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
+digital.		86400	IN	NSEC	directory. NS DS RRSIG NSEC
+digital.		172800	IN	NS	demand.beta.aridns.net.au.
+digital.		172800	IN	NS	demand.alpha.aridns.net.au.
+digital.		172800	IN	NS	demand.delta.aridns.net.au.
+digital.		172800	IN	NS	demand.gamma.aridns.net.au.
 directory.		86400	IN	NSEC	discount. NS DS RRSIG NSEC
 directory.		172800	IN	NS	demand.beta.aridns.net.au.
 directory.		172800	IN	NS	demand.alpha.aridns.net.au.
