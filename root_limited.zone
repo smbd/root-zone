@@ -40,7 +40,7 @@ actor.			172800	IN	NS	demand.beta.aridns.net.au.
 actor.			172800	IN	NS	demand.alpha.aridns.net.au.
 actor.			172800	IN	NS	demand.delta.aridns.net.au.
 actor.			172800	IN	NS	demand.gamma.aridns.net.au.
-ad.			86400	IN	NSEC	ae. NS RRSIG NSEC
+ad.			86400	IN	NSEC	ae. NS DS RRSIG NSEC
 ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ad.cctld.authdns.ripe.net.
 ad.			172800	IN	NS	ns3.nic.fr.
@@ -3367,6 +3367,7 @@ dns1.lttnet.net.	172800	IN	A	62.68.42.9
 ns1-fr.mediaserv.net.	172800	IN	A	188.165.38.14
 ns1-gp.mediaserv.net.	172800	IN	A	213.188.172.1
 ns1-mq.mediaserv.net.	172800	IN	A	213.16.20.3
+server.nordu.net.	172800	IN	AAAA	2001:948:4:2::19
 server.nordu.net.	172800	IN	A	193.10.252.19
 a.ns13.net.		172800	IN	A	49.212.31.192
 b.ns13.net.		172800	IN	A	49.212.51.85
@@ -3674,6 +3675,7 @@ no.			172800	IN	NS	z.nic.no.
 no.			172800	IN	NS	not.norid.no.
 no.			172800	IN	NS	njet.norid.no.
 no.			86400	IN	NSEC	np. NS RRSIG NSEC
+nac.no.			172800	IN	AAAA	2001:700:0:102::aa53
 nac.no.			172800	IN	A	128.39.2.22
 i.nic.no.		172800	IN	A	194.146.106.6
 x.nic.no.		172800	IN	A	128.39.8.40
@@ -3684,6 +3686,7 @@ z.nic.no.		172800	IN	A	158.38.8.133
 njet.norid.no.		172800	IN	A	156.154.101.12
 not.norid.no.		172800	IN	AAAA	2001:502:ad09::12
 not.norid.no.		172800	IN	A	156.154.100.12
+nn.uninett.no.		172800	IN	AAAA	2001:700:0:503::aa:5302
 nn.uninett.no.		172800	IN	A	158.38.0.181
 np.			86400	IN	NSEC	nr. NS RRSIG NSEC
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
