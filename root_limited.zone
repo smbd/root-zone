@@ -278,11 +278,24 @@ y.au.			172800	IN	AAAA	2001:dcd:3::5
 y.au.			172800	IN	A	37.209.196.5
 z.au.			172800	IN	AAAA	2001:dcd:4::5
 z.au.			172800	IN	A	37.209.198.5
-audio.			86400	IN	NSEC	aw. NS DS RRSIG NSEC
+audio.			86400	IN	NSEC	autos. NS DS RRSIG NSEC
 audio.			172800	IN	NS	a.ns.uniregistry.net.
 audio.			172800	IN	NS	tld.isc-sns.com.
 audio.			172800	IN	NS	tld.isc-sns.net.
 audio.			172800	IN	NS	tld.isc-sns.info.
+autos.			86400	IN	NSEC	aw. NS DS RRSIG NSEC
+autos.			172800	IN	NS	a0.nic.autos.
+autos.			172800	IN	NS	a2.nic.autos.
+autos.			172800	IN	NS	b0.nic.autos.
+autos.			172800	IN	NS	c0.nic.autos.
+a0.nic.autos.		172800	IN	AAAA	2a01:8840:62::9
+a0.nic.autos.		172800	IN	A	65.22.100.9
+a2.nic.autos.		172800	IN	AAAA	2a01:8840:65::9
+a2.nic.autos.		172800	IN	A	65.22.103.9
+b0.nic.autos.		172800	IN	AAAA	2a01:8840:63::9
+b0.nic.autos.		172800	IN	A	65.22.101.9
+c0.nic.autos.		172800	IN	AAAA	2a01:8840:64::9
+c0.nic.autos.		172800	IN	A	65.22.102.9
 aw.			86400	IN	NSEC	ax. NS DS RRSIG NSEC
 aw.			172800	IN	NS	ns1.dns.aw.
 aw.			172800	IN	NS	ns2.dns.aw.
@@ -2051,11 +2064,24 @@ holdings.		172800	IN	NS	demand.beta.aridns.net.au.
 holdings.		172800	IN	NS	demand.alpha.aridns.net.au.
 holdings.		172800	IN	NS	demand.delta.aridns.net.au.
 holdings.		172800	IN	NS	demand.gamma.aridns.net.au.
-holiday.		86400	IN	NSEC	horse. NS DS RRSIG NSEC
+holiday.		86400	IN	NSEC	homes. NS DS RRSIG NSEC
 holiday.		172800	IN	NS	demand.beta.aridns.net.au.
 holiday.		172800	IN	NS	demand.alpha.aridns.net.au.
 holiday.		172800	IN	NS	demand.delta.aridns.net.au.
 holiday.		172800	IN	NS	demand.gamma.aridns.net.au.
+homes.			86400	IN	NSEC	horse. NS DS RRSIG NSEC
+homes.			172800	IN	NS	a0.nic.homes.
+homes.			172800	IN	NS	a2.nic.homes.
+homes.			172800	IN	NS	b0.nic.homes.
+homes.			172800	IN	NS	c0.nic.homes.
+a0.nic.homes.		172800	IN	AAAA	2a01:8840:62::33
+a0.nic.homes.		172800	IN	A	65.22.100.33
+a2.nic.homes.		172800	IN	AAAA	2a01:8840:65::33
+a2.nic.homes.		172800	IN	A	65.22.103.33
+b0.nic.homes.		172800	IN	AAAA	2a01:8840:63::33
+b0.nic.homes.		172800	IN	A	65.22.101.33
+c0.nic.homes.		172800	IN	AAAA	2a01:8840:64::33
+c0.nic.homes.		172800	IN	A	65.22.102.33
 horse.			86400	IN	NSEC	house. NS DS RRSIG NSEC
 horse.			172800	IN	NS	a.ns.nic.horse.
 horse.			172800	IN	NS	b.ns.nic.horse.
@@ -3004,12 +3030,25 @@ c.nic.monash.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.monash.		172800	IN	A	37.209.196.9
 d.nic.monash.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.monash.		172800	IN	A	37.209.198.9
-moscow.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
+moscow.			86400	IN	NSEC	motorcycles. NS DS RRSIG NSEC
 moscow.			172800	IN	NS	a.dns.ripn.net.
 moscow.			172800	IN	NS	b.dns.ripn.net.
 moscow.			172800	IN	NS	d.dns.ripn.net.
 moscow.			172800	IN	NS	e.dns.ripn.net.
 moscow.			172800	IN	NS	f.dns.ripn.net.
+motorcycles.		86400	IN	NSEC	mp. NS DS RRSIG NSEC
+motorcycles.		172800	IN	NS	a0.nic.motorcycles.
+motorcycles.		172800	IN	NS	a2.nic.motorcycles.
+motorcycles.		172800	IN	NS	b0.nic.motorcycles.
+motorcycles.		172800	IN	NS	c0.nic.motorcycles.
+a0.nic.motorcycles.	172800	IN	AAAA	2a01:8840:66::1
+a0.nic.motorcycles.	172800	IN	A	65.22.104.1
+a2.nic.motorcycles.	172800	IN	AAAA	2a01:8840:69::1
+a2.nic.motorcycles.	172800	IN	A	65.22.107.1
+b0.nic.motorcycles.	172800	IN	AAAA	2a01:8840:67::1
+b0.nic.motorcycles.	172800	IN	A	65.22.105.1
+c0.nic.motorcycles.	172800	IN	AAAA	2a01:8840:68::1
+c0.nic.motorcycles.	172800	IN	A	65.22.106.1
 mp.			86400	IN	NSEC	mq. NS RRSIG NSEC
 mp.			172800	IN	NS	ns1.nic.mp.
 mp.			172800	IN	NS	ns2.nic.mp.
@@ -4215,7 +4254,7 @@ recipes.		172800	IN	NS	demand.beta.aridns.net.au.
 recipes.		172800	IN	NS	demand.alpha.aridns.net.au.
 recipes.		172800	IN	NS	demand.delta.aridns.net.au.
 recipes.		172800	IN	NS	demand.gamma.aridns.net.au.
-red.			86400	IN	NSEC	reisen. NS DS RRSIG NSEC
+red.			86400	IN	NSEC	reise. NS DS RRSIG NSEC
 red.			172800	IN	NS	a0.nic.red.
 red.			172800	IN	NS	a2.nic.red.
 red.			172800	IN	NS	b0.nic.red.
@@ -4228,6 +4267,16 @@ b0.nic.red.		172800	IN	AAAA	2a01:8840:27::25
 b0.nic.red.		172800	IN	A	65.22.37.25
 c0.nic.red.		172800	IN	AAAA	2a01:8840:28::25
 c0.nic.red.		172800	IN	A	65.22.38.25
+reise.			86400	IN	NSEC	reisen. NS DS RRSIG NSEC
+reise.			172800	IN	NS	a.dns.nic.reise.
+reise.			172800	IN	NS	b.dns.nic.reise.
+reise.			172800	IN	NS	c.dns.nic.reise.
+a.dns.nic.reise.	172800	IN	AAAA	2001:678:20::18
+a.dns.nic.reise.	172800	IN	A	194.0.25.18
+b.dns.nic.reise.	172800	IN	AAAA	2001:62a:a:2000::7
+b.dns.nic.reise.	172800	IN	A	193.170.61.7
+c.dns.nic.reise.	172800	IN	AAAA	2001:62a:a:3000::7
+c.dns.nic.reise.	172800	IN	A	193.170.187.7
 reisen.			86400	IN	NSEC	ren. NS DS RRSIG NSEC
 reisen.			172800	IN	NS	demand.beta.aridns.net.au.
 reisen.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4276,7 +4325,7 @@ reviews.		172800	IN	NS	demand.beta.aridns.net.au.
 reviews.		172800	IN	NS	demand.alpha.aridns.net.au.
 reviews.		172800	IN	NS	demand.delta.aridns.net.au.
 reviews.		172800	IN	NS	demand.gamma.aridns.net.au.
-rich.			86400	IN	NSEC	ro. NS DS RRSIG NSEC
+rich.			86400	IN	NSEC	rio. NS DS RRSIG NSEC
 rich.			172800	IN	NS	a0.nic.rich.
 rich.			172800	IN	NS	a2.nic.rich.
 rich.			172800	IN	NS	b0.nic.rich.
@@ -4289,6 +4338,13 @@ b0.nic.rich.		172800	IN	AAAA	2a01:8840:87::17
 b0.nic.rich.		172800	IN	A	65.22.137.17
 c0.nic.rich.		172800	IN	AAAA	2a01:8840:88::17
 c0.nic.rich.		172800	IN	A	65.22.138.17
+rio.			86400	IN	NSEC	ro. NS DS RRSIG NSEC
+rio.			172800	IN	NS	a.dns.br.
+rio.			172800	IN	NS	b.dns.br.
+rio.			172800	IN	NS	c.dns.br.
+rio.			172800	IN	NS	d.dns.br.
+rio.			172800	IN	NS	e.dns.br.
+rio.			172800	IN	NS	f.dns.br.
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	sns-pb.isc.org.
@@ -5124,11 +5180,21 @@ b0.nic.vegas.		172800	IN	AAAA	2a01:8840:43::17
 b0.nic.vegas.		172800	IN	A	65.22.69.17
 c0.nic.vegas.		172800	IN	AAAA	2a01:8840:44::17
 c0.nic.vegas.		172800	IN	A	65.22.70.17
-ventures.		86400	IN	NSEC	vg. NS DS RRSIG NSEC
+ventures.		86400	IN	NSEC	versicherung. NS DS RRSIG NSEC
 ventures.		172800	IN	NS	demand.beta.aridns.net.au.
 ventures.		172800	IN	NS	demand.alpha.aridns.net.au.
 ventures.		172800	IN	NS	demand.delta.aridns.net.au.
 ventures.		172800	IN	NS	demand.gamma.aridns.net.au.
+versicherung.		86400	IN	NSEC	vg. NS DS RRSIG NSEC
+versicherung.		172800	IN	NS	a.dns.nic.versicherung.
+versicherung.		172800	IN	NS	b.dns.nic.versicherung.
+versicherung.		172800	IN	NS	c.dns.nic.versicherung.
+a.dns.nic.versicherung.	172800	IN	AAAA	2001:678:20::13
+a.dns.nic.versicherung.	172800	IN	A	194.0.25.13
+b.dns.nic.versicherung.	172800	IN	AAAA	2001:62a:a:2000::2
+b.dns.nic.versicherung.	172800	IN	A	193.170.61.2
+c.dns.nic.versicherung.	172800	IN	AAAA	2001:62a:a:3000::2
+c.dns.nic.versicherung.	172800	IN	A	193.170.187.2
 vg.			172800	IN	NS	vg-ns.anycast.pch.net.
 vg.			172800	IN	NS	vg-ns.ksregistry.net.
 vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
@@ -5456,11 +5522,21 @@ xn--cg4bki.		172800	IN	NS	d.dns.kr.
 xn--cg4bki.		172800	IN	NS	e.dns.kr.
 xn--cg4bki.		172800	IN	NS	f.dns.kr.
 xn--cg4bki.		172800	IN	NS	g.dns.kr.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--czru2d. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--czr694b. NS RRSIG NSEC
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
+xn--czr694b.		86400	IN	NSEC	xn--czru2d. NS DS RRSIG NSEC
+xn--czr694b.		172800	IN	NS	a.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	b.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	c.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	d.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	e.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	f.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	g.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	i.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	j.zdnscloud.com.
 xn--czru2d.		86400	IN	NSEC	xn--d1acj3b. NS DS RRSIG NSEC
 xn--czru2d.		172800	IN	NS	a.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	b.zdnscloud.com.
@@ -5823,7 +5899,7 @@ xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	b2.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
-xyz.			86400	IN	NSEC	ye. NS DS RRSIG NSEC
+xyz.			86400	IN	NSEC	yachts. NS DS RRSIG NSEC
 xyz.			172800	IN	NS	x.nic.xyz.
 xyz.			172800	IN	NS	y.nic.xyz.
 xyz.			172800	IN	NS	z.nic.xyz.
@@ -5836,6 +5912,19 @@ y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
 y.nic.xyz.		172800	IN	A	185.24.64.42
 z.nic.xyz.		172800	IN	AAAA	2001:678:5::2
 z.nic.xyz.		172800	IN	A	194.0.2.2
+yachts.			86400	IN	NSEC	ye. NS DS RRSIG NSEC
+yachts.			172800	IN	NS	a0.nic.yachts.
+yachts.			172800	IN	NS	a2.nic.yachts.
+yachts.			172800	IN	NS	b0.nic.yachts.
+yachts.			172800	IN	NS	c0.nic.yachts.
+a0.nic.yachts.		172800	IN	AAAA	2a01:8840:62::1
+a0.nic.yachts.		172800	IN	A	65.22.100.1
+a2.nic.yachts.		172800	IN	AAAA	2a01:8840:65::1
+a2.nic.yachts.		172800	IN	A	65.22.103.1
+b0.nic.yachts.		172800	IN	AAAA	2a01:8840:63::1
+b0.nic.yachts.		172800	IN	A	65.22.101.1
+c0.nic.yachts.		172800	IN	AAAA	2a01:8840:64::1
+c0.nic.yachts.		172800	IN	A	65.22.102.1
 ye.			86400	IN	NSEC	yokohama. NS RRSIG NSEC
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
