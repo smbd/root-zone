@@ -5432,7 +5432,7 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--45brj9c.		86400	IN	NSEC	xn--55qw42g. NS RRSIG NSEC
+xn--45brj9c.		86400	IN	NSEC	xn--4gbrim. NS RRSIG NSEC
 xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -5441,6 +5441,19 @@ xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
+xn--4gbrim.		86400	IN	NSEC	xn--55qw42g. NS DS RRSIG NSEC
+xn--4gbrim.		172800	IN	NS	a0.nic.xn--4gbrim.
+xn--4gbrim.		172800	IN	NS	a2.nic.xn--4gbrim.
+xn--4gbrim.		172800	IN	NS	b0.nic.xn--4gbrim.
+xn--4gbrim.		172800	IN	NS	c0.nic.xn--4gbrim.
+a0.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:ee::33
+a0.nic.xn--4gbrim.	172800	IN	A	65.22.244.33
+a2.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:f1::33
+a2.nic.xn--4gbrim.	172800	IN	A	65.22.247.33
+b0.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:ef::33
+b0.nic.xn--4gbrim.	172800	IN	A	65.22.245.33
+c0.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:f0::33
+c0.nic.xn--4gbrim.	172800	IN	A	65.22.246.33
 xn--55qw42g.		86400	IN	NSEC	xn--55qx5d. NS DS RRSIG NSEC
 xn--55qw42g.		172800	IN	NS	ns1.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
