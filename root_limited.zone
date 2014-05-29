@@ -1327,7 +1327,7 @@ de.			172800	IN	NS	l.de.net.
 de.			172800	IN	NS	n.de.net.
 de.			172800	IN	NS	s.de.net.
 de.			172800	IN	NS	z.nic.de.
-de.			86400	IN	NSEC	democrat. NS DS RRSIG NSEC
+de.			86400	IN	NSEC	degree. NS DS RRSIG NSEC
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
 dns7.denic.de.		172800	IN	A	81.91.161.68
 grdns-de.denic.de.	172800	IN	A	81.91.161.80
@@ -1340,6 +1340,11 @@ f.nic.de.		172800	IN	AAAA	2a02:568:0:2::53
 f.nic.de.		172800	IN	A	81.91.164.5
 nsc.nic.de.		172800	IN	A	81.91.161.84
 z.nic.de.		172800	IN	A	194.246.96.1
+degree.			86400	IN	NSEC	democrat. NS DS RRSIG NSEC
+degree.			172800	IN	NS	demand.beta.aridns.net.au.
+degree.			172800	IN	NS	demand.alpha.aridns.net.au.
+degree.			172800	IN	NS	demand.delta.aridns.net.au.
+degree.			172800	IN	NS	demand.gamma.aridns.net.au.
 democrat.		86400	IN	NSEC	dental. NS DS RRSIG NSEC
 democrat.		172800	IN	NS	demand.beta.aridns.net.au.
 democrat.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4647,12 +4652,25 @@ solutions.		172800	IN	NS	demand.beta.aridns.net.au.
 solutions.		172800	IN	NS	demand.alpha.aridns.net.au.
 solutions.		172800	IN	NS	demand.delta.aridns.net.au.
 solutions.		172800	IN	NS	demand.gamma.aridns.net.au.
-soy.			86400	IN	NSEC	sr. NS DS RRSIG NSEC
+soy.			86400	IN	NSEC	space. NS DS RRSIG NSEC
 soy.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+space.			86400	IN	NSEC	sr. NS DS RRSIG NSEC
+space.			172800	IN	NS	a.nic.space.
+space.			172800	IN	NS	b.nic.space.
+space.			172800	IN	NS	c.nic.space.
+space.			172800	IN	NS	d.nic.space.
+a.nic.space.		172800	IN	AAAA	2001:67c:13cc::1:51
+a.nic.space.		172800	IN	A	194.169.218.51
+b.nic.space.		172800	IN	AAAA	2a04:2b00:13cc::1:51
+b.nic.space.		172800	IN	A	185.24.64.51
+c.nic.space.		172800	IN	AAAA	2001:678:5::2
+c.nic.space.		172800	IN	A	194.0.2.2
+d.nic.space.		172800	IN	AAAA	2001:678:4::2d
+d.nic.space.		172800	IN	A	194.0.1.45
 sr.			86400	IN	NSEC	st. NS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
@@ -5308,7 +5326,7 @@ watch.			172800	IN	NS	demand.beta.aridns.net.au.
 watch.			172800	IN	NS	demand.alpha.aridns.net.au.
 watch.			172800	IN	NS	demand.delta.aridns.net.au.
 watch.			172800	IN	NS	demand.gamma.aridns.net.au.
-webcam.			86400	IN	NSEC	wed. NS DS RRSIG NSEC
+webcam.			86400	IN	NSEC	website. NS DS RRSIG NSEC
 webcam.			172800	IN	NS	ns1.dns.nic.webcam.
 webcam.			172800	IN	NS	ns2.dns.nic.webcam.
 webcam.			172800	IN	NS	ns3.dns.nic.webcam.
@@ -5327,6 +5345,19 @@ ns5.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1075::1:3c
 ns5.dns.nic.webcam.	172800	IN	A	156.154.173.60
 ns6.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1076::1:3c
 ns6.dns.nic.webcam.	172800	IN	A	156.154.174.60
+website.		86400	IN	NSEC	wed. NS DS RRSIG NSEC
+website.		172800	IN	NS	a.nic.website.
+website.		172800	IN	NS	b.nic.website.
+website.		172800	IN	NS	c.nic.website.
+website.		172800	IN	NS	d.nic.website.
+a.nic.website.		172800	IN	AAAA	2001:67c:13cc::1:52
+a.nic.website.		172800	IN	A	194.169.218.52
+b.nic.website.		172800	IN	AAAA	2a04:2b00:13cc::1:52
+b.nic.website.		172800	IN	A	185.24.64.52
+c.nic.website.		172800	IN	AAAA	2001:678:5::2
+c.nic.website.		172800	IN	A	194.0.2.2
+d.nic.website.		172800	IN	AAAA	2001:678:4::2d
+d.nic.website.		172800	IN	A	194.0.1.45
 wed.			86400	IN	NSEC	wf. NS DS RRSIG NSEC
 wed.			172800	IN	NS	a.ns.nic.wed.
 wed.			172800	IN	NS	b.ns.nic.wed.
@@ -5805,6 +5836,7 @@ xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS RRSIG NSEC
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
+xn--pgbs0dh.		172800	IN	NS	rip.psg.com.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
 xn--q9jyb4c.		86400	IN	NSEC	xn--rhqv96g. NS DS RRSIG NSEC
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
