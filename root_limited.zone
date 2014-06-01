@@ -507,11 +507,16 @@ ns5.dns.nic.bid.	172800	IN	AAAA	2610:a1:1075::19
 ns5.dns.nic.bid.	172800	IN	A	156.154.157.25
 ns6.dns.nic.bid.	172800	IN	AAAA	2610:a1:1076::19
 ns6.dns.nic.bid.	172800	IN	A	156.154.158.25
-bike.			86400	IN	NSEC	biz. NS DS RRSIG NSEC
+bike.			86400	IN	NSEC	bio. NS DS RRSIG NSEC
 bike.			172800	IN	NS	demand.beta.aridns.net.au.
 bike.			172800	IN	NS	demand.alpha.aridns.net.au.
 bike.			172800	IN	NS	demand.delta.aridns.net.au.
 bike.			172800	IN	NS	demand.gamma.aridns.net.au.
+bio.			86400	IN	NSEC	biz. NS RRSIG NSEC
+bio.			172800	IN	NS	ns1a.ksregistry.net.
+bio.			172800	IN	NS	ns1b.ksregistry.net.
+bio.			172800	IN	NS	ns2a.ksregistry.com.
+bio.			172800	IN	NS	ns2b.ksregistry.com.
 biz.			86400	IN	NSEC	bj. NS DS RRSIG NSEC
 biz.			172800	IN	NS	a.gtld.biz.
 biz.			172800	IN	NS	b.gtld.biz.
@@ -3685,6 +3690,7 @@ f.dns.ripn.net.		172800	IN	AAAA	2001:678:14:0:193:232:156:17
 f.dns.ripn.net.		172800	IN	A	193.232.156.17
 a.root-servers.net.	518400	IN	AAAA	2001:503:ba3e::2:30
 a.root-servers.net.	518400	IN	A	198.41.0.4
+b.root-servers.net.	518400	IN	AAAA	2001:500:84::b
 b.root-servers.net.	518400	IN	A	192.228.79.201
 c.root-servers.net.	518400	IN	AAAA	2001:500:2::c
 c.root-servers.net.	518400	IN	A	192.33.4.12
