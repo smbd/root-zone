@@ -1240,9 +1240,12 @@ cr.			172800	IN	NS	c.ns.cr.
 cr.			172800	IN	NS	d.ns.cr.
 cr.			172800	IN	NS	e.ns.cr.
 cr.			172800	IN	NS	f.ns.cr.
+cr.			172800	IN	NS	p.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
 cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
+p.nic.cr.		172800	IN	AAAA	2001:500:14:6089:ad::1
+p.nic.cr.		172800	IN	A	204.61.216.89
 ns.cr.			172800	IN	A	163.178.8.2
 a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
 a.ns.cr.		172800	IN	A	200.107.82.100
