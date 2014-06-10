@@ -1900,11 +1900,24 @@ b.nic.gl.		172800	IN	A	91.221.196.228
 d.nic.gl.		172800	IN	AAAA	2001:500:14:6049:ad::1
 d.nic.gl.		172800	IN	A	204.61.216.49
 a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
-glass.			86400	IN	NSEC	globo. NS DS RRSIG NSEC
+glass.			86400	IN	NSEC	global. NS DS RRSIG NSEC
 glass.			172800	IN	NS	demand.beta.aridns.net.au.
 glass.			172800	IN	NS	demand.alpha.aridns.net.au.
 glass.			172800	IN	NS	demand.delta.aridns.net.au.
 glass.			172800	IN	NS	demand.gamma.aridns.net.au.
+global.			86400	IN	NSEC	globo. NS DS RRSIG NSEC
+global.			172800	IN	NS	a0.nic.global.
+global.			172800	IN	NS	a2.nic.global.
+global.			172800	IN	NS	b0.nic.global.
+global.			172800	IN	NS	c0.nic.global.
+a0.nic.global.		172800	IN	AAAA	2a01:8840:4e::1
+a0.nic.global.		172800	IN	A	65.22.80.1
+a2.nic.global.		172800	IN	AAAA	2a01:8840:51::1
+a2.nic.global.		172800	IN	A	65.22.83.1
+b0.nic.global.		172800	IN	AAAA	2a01:8840:4f::1
+b0.nic.global.		172800	IN	A	65.22.81.1
+c0.nic.global.		172800	IN	AAAA	2a01:8840:50::1
+c0.nic.global.		172800	IN	A	65.22.82.1
 globo.			86400	IN	NSEC	gm. NS DS RRSIG NSEC
 globo.			172800	IN	NS	a.dns.br.
 globo.			172800	IN	NS	b.dns.br.
