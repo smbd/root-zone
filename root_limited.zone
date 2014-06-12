@@ -3997,7 +3997,7 @@ org.			172800	IN	NS	b0.org.afilias-nst.org.
 org.			172800	IN	NS	b2.org.afilias-nst.org.
 org.			172800	IN	NS	c0.org.afilias-nst.info.
 org.			172800	IN	NS	d0.org.afilias-nst.org.
-org.			86400	IN	NSEC	pa. NS DS RRSIG NSEC
+org.			86400	IN	NSEC	organic. NS DS RRSIG NSEC
 b0.aero.afilias-nst.org. 172800	IN	AAAA	2001:500:1e::1
 b0.aero.afilias-nst.org. 172800	IN	A	199.254.52.1
 b2.aero.afilias-nst.org. 172800	IN	AAAA	2001:500:4b::1
@@ -4070,6 +4070,19 @@ sfba.sns-pb.isc.org.	172800	IN	A	149.20.64.3
 tld3.ultradns.org.	172800	IN	A	199.7.66.1
 tld4.ultradns.org.	172800	IN	AAAA	2001:502:100e::1
 tld4.ultradns.org.	172800	IN	A	199.7.67.1
+organic.		86400	IN	NSEC	pa. NS DS RRSIG NSEC
+organic.		172800	IN	NS	a0.nic.organic.
+organic.		172800	IN	NS	a2.nic.organic.
+organic.		172800	IN	NS	b0.nic.organic.
+organic.		172800	IN	NS	c0.nic.organic.
+a0.nic.organic.		172800	IN	AAAA	2a01:8840:16::40
+a0.nic.organic.		172800	IN	A	65.22.20.40
+a2.nic.organic.		172800	IN	AAAA	2a01:8840:19::40
+a2.nic.organic.		172800	IN	A	65.22.23.40
+b0.nic.organic.		172800	IN	AAAA	2a01:8840:17::40
+b0.nic.organic.		172800	IN	A	65.22.21.40
+c0.nic.organic.		172800	IN	AAAA	2a01:8840:18::40
+c0.nic.organic.		172800	IN	A	65.22.22.40
 pa.			86400	IN	NSEC	paris. NS RRSIG NSEC
 pa.			172800	IN	NS	ns.cr.
 pa.			172800	IN	NS	ns.pa.
@@ -4590,11 +4603,16 @@ sc.			172800	IN	NS	c0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 ns1.nic.sc.		172800	IN	A	41.191.121.129
-schule.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
+schule.			86400	IN	NSEC	scot. NS DS RRSIG NSEC
 schule.			172800	IN	NS	demand.beta.aridns.net.au.
 schule.			172800	IN	NS	demand.alpha.aridns.net.au.
 schule.			172800	IN	NS	demand.delta.aridns.net.au.
 schule.			172800	IN	NS	demand.gamma.aridns.net.au.
+scot.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
+scot.			172800	IN	NS	anycast9.irondns.net.
+scot.			172800	IN	NS	anycast10.irondns.net.
+scot.			172800	IN	NS	anycast23.irondns.net.
+scot.			172800	IN	NS	anycast24.irondns.net.
 sd.			86400	IN	NSEC	se. NS RRSIG NSEC
 sd.			172800	IN	NS	sd.cctld.authdns.ripe.net.
 sd.			172800	IN	NS	ns1.coza.net.za.
