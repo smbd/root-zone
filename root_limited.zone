@@ -715,13 +715,17 @@ by.			172800	IN	NS	dns4.tld.tutby.com.
 by.			172800	IN	NS	dns5.tld.tutby.com.
 by.			172800	IN	NS	dns6.tld.tutby.com.
 by.			172800	IN	NS	dns7.tld.tutby.com.
-bz.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
+bz.			86400	IN	NSEC	bzh. NS DS RRSIG NSEC
 bz.			172800	IN	NS	a0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	a2.cctld.afilias-nst.info.
 bz.			172800	IN	NS	b0.cctld.afilias-nst.org.
 bz.			172800	IN	NS	b2.cctld.afilias-nst.org.
 bz.			172800	IN	NS	c0.cctld.afilias-nst.info.
 bz.			172800	IN	NS	d0.cctld.afilias-nst.org.
+bzh.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
+bzh.			172800	IN	NS	d.nic.fr.
+bzh.			172800	IN	NS	f.ext.nic.fr.
+bzh.			172800	IN	NS	g.ext.nic.fr.
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
@@ -730,7 +734,6 @@ ca.			172800	IN	NS	l.ca-servers.ca.
 ca.			172800	IN	NS	z.ca-servers.ca.
 ca.			172800	IN	NS	any.ca-servers.ca.
 ca.			172800	IN	NS	tld.isc-sns.net.
-ca.			172800	IN	NS	sns-pb.isc.org.
 ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
 any.ca-servers.ca.	172800	IN	A	199.4.144.2
@@ -5882,13 +5885,26 @@ xn--kprw13d.		172800	IN	NS	f.dns.tw.
 xn--kprw13d.		172800	IN	NS	g.dns.tw.
 xn--kprw13d.		172800	IN	NS	h.dns.tw.
 xn--kprw13d.		172800	IN	NS	sec4.apnic.net.
-xn--kpry57d.		86400	IN	NSEC	xn--l1acc. NS DS RRSIG NSEC
+xn--kpry57d.		86400	IN	NSEC	xn--kput3i. NS DS RRSIG NSEC
 xn--kpry57d.		172800	IN	NS	d.dns.tw.
 xn--kpry57d.		172800	IN	NS	e.dns.tw.
 xn--kpry57d.		172800	IN	NS	f.dns.tw.
 xn--kpry57d.		172800	IN	NS	g.dns.tw.
 xn--kpry57d.		172800	IN	NS	h.dns.tw.
 xn--kpry57d.		172800	IN	NS	sec4.apnic.net.
+xn--kput3i.		86400	IN	NSEC	xn--l1acc. NS DS RRSIG NSEC
+xn--kput3i.		172800	IN	NS	a0.nic.xn--kput3i.
+xn--kput3i.		172800	IN	NS	a2.nic.xn--kput3i.
+xn--kput3i.		172800	IN	NS	b0.nic.xn--kput3i.
+xn--kput3i.		172800	IN	NS	c0.nic.xn--kput3i.
+a0.nic.xn--kput3i.	172800	IN	AAAA	2a01:8840:d2::1
+a0.nic.xn--kput3i.	172800	IN	A	65.22.216.1
+a2.nic.xn--kput3i.	172800	IN	AAAA	2a01:8840:d5::1
+a2.nic.xn--kput3i.	172800	IN	A	65.22.219.1
+b0.nic.xn--kput3i.	172800	IN	AAAA	2a01:8840:d3::1
+b0.nic.xn--kput3i.	172800	IN	A	65.22.217.1
+c0.nic.xn--kput3i.	172800	IN	AAAA	2a01:8840:d4::1
+c0.nic.xn--kput3i.	172800	IN	A	65.22.218.1
 xn--l1acc.		86400	IN	NSEC	xn--lgbbat1ad8j. NS DS RRSIG NSEC
 xn--l1acc.		172800	IN	NS	ns1.idn.mn.
 xn--l1acc.		172800	IN	NS	ns2.idn.mn.
