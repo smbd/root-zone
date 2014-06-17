@@ -619,7 +619,7 @@ br.			172800	IN	NS	c.dns.br.
 br.			172800	IN	NS	d.dns.br.
 br.			172800	IN	NS	e.dns.br.
 br.			172800	IN	NS	f.dns.br.
-br.			86400	IN	NSEC	bs. NS DS RRSIG NSEC
+br.			86400	IN	NSEC	brussels. NS DS RRSIG NSEC
 a.dns.br.		172800	IN	AAAA	2001:12ff::10
 a.dns.br.		172800	IN	A	200.160.0.10
 b.dns.br.		172800	IN	A	200.189.41.10
@@ -631,6 +631,18 @@ e.dns.br.		172800	IN	A	200.229.248.10
 f.dns.br.		172800	IN	A	200.219.159.10
 ns.dns.br.		172800	IN	AAAA	2001:12ff:0:a20::5
 ns.dns.br.		172800	IN	A	200.160.0.5
+brussels.		86400	IN	NSEC	bs. NS DS RRSIG NSEC
+brussels.		172800	IN	NS	a.nic.brussels.
+brussels.		172800	IN	NS	b.nic.brussels.
+brussels.		172800	IN	NS	c.ns.dns.be.
+brussels.		172800	IN	NS	d.ns.dns.be.
+brussels.		172800	IN	NS	w.nic.brussels.
+a.nic.brussels.		172800	IN	AAAA	2001:678:9::1
+a.nic.brussels.		172800	IN	A	194.0.6.1
+b.nic.brussels.		172800	IN	AAAA	2001:678:64::1
+b.nic.brussels.		172800	IN	A	194.0.37.1
+w.nic.brussels.		172800	IN	AAAA	2001:678:20::14
+w.nic.brussels.		172800	IN	A	194.0.25.14
 bs.			86400	IN	NSEC	bt. NS RRSIG NSEC
 bs.			172800	IN	NS	dns.nic.bs.
 bs.			172800	IN	NS	upr1.upr.clu.edu.
@@ -4858,11 +4870,18 @@ supply.			172800	IN	NS	demand.beta.aridns.net.au.
 supply.			172800	IN	NS	demand.alpha.aridns.net.au.
 supply.			172800	IN	NS	demand.delta.aridns.net.au.
 supply.			172800	IN	NS	demand.gamma.aridns.net.au.
-support.		86400	IN	NSEC	surgery. NS DS RRSIG NSEC
+support.		86400	IN	NSEC	surf. NS DS RRSIG NSEC
 support.		172800	IN	NS	demand.beta.aridns.net.au.
 support.		172800	IN	NS	demand.alpha.aridns.net.au.
 support.		172800	IN	NS	demand.delta.aridns.net.au.
 support.		172800	IN	NS	demand.gamma.aridns.net.au.
+surf.			86400	IN	NSEC	surgery. NS DS RRSIG NSEC
+surf.			172800	IN	NS	a.ns.nic.surf.
+surf.			172800	IN	NS	b.ns.nic.surf.
+a.ns.nic.surf.		172800	IN	AAAA	2620:171:a02:ad::22
+a.ns.nic.surf.		172800	IN	A	72.0.50.22
+b.ns.nic.surf.		172800	IN	AAAA	2620:171:d02:dc::22
+b.ns.nic.surf.		172800	IN	A	72.42.114.22
 surgery.		86400	IN	NSEC	sv. NS DS RRSIG NSEC
 surgery.		172800	IN	NS	demand.beta.aridns.net.au.
 surgery.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5408,11 +5427,23 @@ villas.			172800	IN	NS	demand.beta.aridns.net.au.
 villas.			172800	IN	NS	demand.alpha.aridns.net.au.
 villas.			172800	IN	NS	demand.delta.aridns.net.au.
 villas.			172800	IN	NS	demand.gamma.aridns.net.au.
-vision.			86400	IN	NSEC	vn. NS DS RRSIG NSEC
+vision.			86400	IN	NSEC	vlaanderen. NS DS RRSIG NSEC
 vision.			172800	IN	NS	demand.beta.aridns.net.au.
 vision.			172800	IN	NS	demand.alpha.aridns.net.au.
 vision.			172800	IN	NS	demand.delta.aridns.net.au.
 vision.			172800	IN	NS	demand.gamma.aridns.net.au.
+vlaanderen.		86400	IN	NSEC	vn. NS DS RRSIG NSEC
+vlaanderen.		172800	IN	NS	a.nic.vlaanderen.
+vlaanderen.		172800	IN	NS	b.nic.vlaanderen.
+vlaanderen.		172800	IN	NS	c.ns.dns.be.
+vlaanderen.		172800	IN	NS	d.ns.dns.be.
+vlaanderen.		172800	IN	NS	w.nic.vlaanderen.
+a.nic.vlaanderen.	172800	IN	AAAA	2001:678:9::1
+a.nic.vlaanderen.	172800	IN	A	194.0.6.1
+b.nic.vlaanderen.	172800	IN	AAAA	2001:678:64::1
+b.nic.vlaanderen.	172800	IN	A	194.0.37.1
+w.nic.vlaanderen.	172800	IN	AAAA	2001:678:20::19
+w.nic.vlaanderen.	172800	IN	A	194.0.25.19
 vn.			86400	IN	NSEC	vodka. NS RRSIG NSEC
 vn.			172800	IN	NS	a.dns-servers.vn.
 vn.			172800	IN	NS	b.dns-servers.vn.
