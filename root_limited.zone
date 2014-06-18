@@ -767,11 +767,15 @@ camera.			172800	IN	NS	demand.beta.aridns.net.au.
 camera.			172800	IN	NS	demand.alpha.aridns.net.au.
 camera.			172800	IN	NS	demand.delta.aridns.net.au.
 camera.			172800	IN	NS	demand.gamma.aridns.net.au.
-camp.			86400	IN	NSEC	capital. NS DS RRSIG NSEC
+camp.			86400	IN	NSEC	capetown. NS DS RRSIG NSEC
 camp.			172800	IN	NS	demand.beta.aridns.net.au.
 camp.			172800	IN	NS	demand.alpha.aridns.net.au.
 camp.			172800	IN	NS	demand.delta.aridns.net.au.
 camp.			172800	IN	NS	demand.gamma.aridns.net.au.
+capetown.		86400	IN	NSEC	capital. NS DS RRSIG NSEC
+capetown.		172800	IN	NS	ns.coza.net.za.
+capetown.		172800	IN	NS	ns1.coza.net.za.
+capetown.		172800	IN	NS	coza1.dnsnode.net.
 capital.		86400	IN	NSEC	cards. NS DS RRSIG NSEC
 capital.		172800	IN	NS	demand.beta.aridns.net.au.
 capital.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1445,6 +1449,7 @@ dm.			172800	IN	NS	ns.anycast.nic.dm.
 dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
 dm.			172800	IN	NS	ns2.blacknightsolutions.com.
+dm.			172800	IN	NS	ns34.cdns.net.
 ns.anycast.nic.dm.	172800	IN	A	204.61.216.18
 ns2.nic.dm.		172800	IN	A	199.127.197.69
 dnp.			86400	IN	NSEC	do. NS DS RRSIG NSEC
@@ -1470,11 +1475,15 @@ ns2.nic.do.		172800	IN	AAAA	2001:13e0:5d0:101::162
 ns2.nic.do.		172800	IN	A	200.16.90.162
 ns3.nic.do.		172800	IN	AAAA	2001:4f8:3:3d:2e0:81ff:fe46:41f2
 ns3.nic.do.		172800	IN	A	149.20.61.87
-domains.		86400	IN	NSEC	dz. NS DS RRSIG NSEC
+domains.		86400	IN	NSEC	durban. NS DS RRSIG NSEC
 domains.		172800	IN	NS	demand.beta.aridns.net.au.
 domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
 domains.		172800	IN	NS	demand.gamma.aridns.net.au.
+durban.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
+durban.			172800	IN	NS	ns.coza.net.za.
+durban.			172800	IN	NS	ns1.coza.net.za.
+durban.			172800	IN	NS	coza1.dnsnode.net.
 dz.			172800	IN	NS	dz.cctld.authdns.ripe.net.
 dz.			172800	IN	NS	ns1.nic.dz.
 dz.			172800	IN	NS	ns2.nic.dz.
@@ -2008,11 +2017,24 @@ graphics.		172800	IN	NS	demand.beta.aridns.net.au.
 graphics.		172800	IN	NS	demand.alpha.aridns.net.au.
 graphics.		172800	IN	NS	demand.delta.aridns.net.au.
 graphics.		172800	IN	NS	demand.gamma.aridns.net.au.
-gratis.			86400	IN	NSEC	gripe. NS DS RRSIG NSEC
+gratis.			86400	IN	NSEC	green. NS DS RRSIG NSEC
 gratis.			172800	IN	NS	demand.beta.aridns.net.au.
 gratis.			172800	IN	NS	demand.alpha.aridns.net.au.
 gratis.			172800	IN	NS	demand.delta.aridns.net.au.
 gratis.			172800	IN	NS	demand.gamma.aridns.net.au.
+green.			86400	IN	NSEC	gripe. NS DS RRSIG NSEC
+green.			172800	IN	NS	a0.nic.green.
+green.			172800	IN	NS	a2.nic.green.
+green.			172800	IN	NS	b0.nic.green.
+green.			172800	IN	NS	c0.nic.green.
+a0.nic.green.		172800	IN	AAAA	2a01:8840:22::9
+a0.nic.green.		172800	IN	A	65.22.32.9
+a2.nic.green.		172800	IN	AAAA	2a01:8840:25::9
+a2.nic.green.		172800	IN	A	65.22.35.9
+b0.nic.green.		172800	IN	AAAA	2a01:8840:23::9
+b0.nic.green.		172800	IN	A	65.22.33.9
+c0.nic.green.		172800	IN	AAAA	2a01:8840:24::9
+c0.nic.green.		172800	IN	A	65.22.34.9
 gripe.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gripe.			172800	IN	NS	demand.beta.aridns.net.au.
 gripe.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2105,6 +2127,7 @@ c0.nic.hiv.		172800	IN	AAAA	2a01:8840:e0::17
 c0.nic.hiv.		172800	IN	A	65.22.230.17
 hk.			172800	IN	NS	a.hkirc.net.hk.
 hk.			172800	IN	NS	b.hkirc.net.hk.
+hk.			172800	IN	NS	c.hkirc.net.hk.
 hk.			172800	IN	NS	s.hkirc.net.hk.
 hk.			172800	IN	NS	t.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
@@ -2119,6 +2142,8 @@ ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 a.hkirc.net.hk.		172800	IN	A	203.119.2.18
 b.hkirc.net.hk.		172800	IN	AAAA	2001:dca:1000::cb77:5713
 b.hkirc.net.hk.		172800	IN	A	203.119.87.19
+c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000::cb77:2da
+c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 s.hkirc.net.hk.		172800	IN	AAAA	2607:f140:ffff:fffe::3
 s.hkirc.net.hk.		172800	IN	A	128.32.136.3
 t.hkirc.net.hk.		172800	IN	AAAA	2607:f140:ffff:fffe::e
@@ -2524,7 +2549,7 @@ jo.			172800	IN	NS	jordan1st.nic.gov.jo.
 amra.nic.gov.jo.	172800	IN	A	193.188.66.103
 jordan1st.nic.gov.jo.	172800	IN	A	193.188.69.19
 petra.nic.gov.jo.	172800	IN	A	193.188.66.2
-jobs.			86400	IN	NSEC	jp. NS RRSIG NSEC
+jobs.			86400	IN	NSEC	joburg. NS RRSIG NSEC
 jobs.			172800	IN	NS	a5.nstld.com.
 jobs.			172800	IN	NS	c5.nstld.com.
 jobs.			172800	IN	NS	d5.nstld.com.
@@ -2532,6 +2557,10 @@ jobs.			172800	IN	NS	f5.nstld.com.
 jobs.			172800	IN	NS	g5.nstld.com.
 jobs.			172800	IN	NS	h5.nstld.com.
 jobs.			172800	IN	NS	l5.nstld.com.
+joburg.			86400	IN	NSEC	jp. NS DS RRSIG NSEC
+joburg.			172800	IN	NS	ns.coza.net.za.
+joburg.			172800	IN	NS	ns1.coza.net.za.
+joburg.			172800	IN	NS	coza1.dnsnode.net.
 jp.			86400	IN	NSEC	juegos. NS DS RRSIG NSEC
 jp.			172800	IN	NS	a.dns.jp.
 jp.			172800	IN	NS	b.dns.jp.
@@ -2816,13 +2845,26 @@ loans.			172800	IN	NS	demand.beta.aridns.net.au.
 loans.			172800	IN	NS	demand.alpha.aridns.net.au.
 loans.			172800	IN	NS	demand.delta.aridns.net.au.
 loans.			172800	IN	NS	demand.gamma.aridns.net.au.
-london.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+london.			86400	IN	NSEC	lotto. NS DS RRSIG NSEC
 london.			172800	IN	NS	a.ns.nic.london.
 london.			172800	IN	NS	b.ns.nic.london.
 a.ns.nic.london.	172800	IN	AAAA	2620:171:a02:ad::11
 a.ns.nic.london.	172800	IN	A	72.0.50.11
 b.ns.nic.london.	172800	IN	AAAA	2620:171:d02:dc::11
 b.ns.nic.london.	172800	IN	A	72.42.114.11
+lotto.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+lotto.			172800	IN	NS	a0.nic.lotto.
+lotto.			172800	IN	NS	a2.nic.lotto.
+lotto.			172800	IN	NS	b0.nic.lotto.
+lotto.			172800	IN	NS	c0.nic.lotto.
+a0.nic.lotto.		172800	IN	AAAA	2a01:8840:1e::25
+a0.nic.lotto.		172800	IN	A	65.22.28.25
+a2.nic.lotto.		172800	IN	AAAA	2a01:8840:21::25
+a2.nic.lotto.		172800	IN	A	65.22.31.25
+b0.nic.lotto.		172800	IN	AAAA	2a01:8840:1f::25
+b0.nic.lotto.		172800	IN	A	65.22.29.25
+c0.nic.lotto.		172800	IN	AAAA	2a01:8840:20::25
+c0.nic.lotto.		172800	IN	A	65.22.30.25
 lr.			86400	IN	NSEC	ls. NS RRSIG NSEC
 lr.			172800	IN	NS	rip.psg.com.
 lr.			172800	IN	NS	fork.sth.dnsnode.net.
@@ -3417,6 +3459,8 @@ ns17.cdns.net.		172800	IN	AAAA	2001:678:4::11
 ns17.cdns.net.		172800	IN	A	194.0.1.17
 ns30.cdns.net.		172800	IN	AAAA	2001:678:4::1e
 ns30.cdns.net.		172800	IN	A	194.0.1.30
+ns34.cdns.net.		172800	IN	AAAA	2001:678:4::22
+ns34.cdns.net.		172800	IN	A	194.0.1.34
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns.cernet.net.		172800	IN	A	202.112.0.44
@@ -3440,6 +3484,8 @@ s.de.net.		172800	IN	A	195.243.137.26
 dns.dnsafrica.net.	172800	IN	A	213.193.157.30
 cl1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:8::53
 cl1.dnsnode.net.	172800	IN	A	194.146.106.34
+coza1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:18::53
+coza1.dnsnode.net.	172800	IN	A	194.146.106.74
 nl1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:10::53
 nl1.dnsnode.net.	172800	IN	A	194.146.106.42
 pe1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:20::53
@@ -4085,7 +4131,7 @@ sfba.sns-pb.isc.org.	172800	IN	A	149.20.64.3
 tld3.ultradns.org.	172800	IN	A	199.7.66.1
 tld4.ultradns.org.	172800	IN	AAAA	2001:502:100e::1
 tld4.ultradns.org.	172800	IN	A	199.7.67.1
-organic.		86400	IN	NSEC	pa. NS DS RRSIG NSEC
+organic.		86400	IN	NSEC	ovh. NS DS RRSIG NSEC
 organic.		172800	IN	NS	a0.nic.organic.
 organic.		172800	IN	NS	a2.nic.organic.
 organic.		172800	IN	NS	b0.nic.organic.
@@ -4098,6 +4144,10 @@ b0.nic.organic.		172800	IN	AAAA	2a01:8840:17::40
 b0.nic.organic.		172800	IN	A	65.22.21.40
 c0.nic.organic.		172800	IN	AAAA	2a01:8840:18::40
 c0.nic.organic.		172800	IN	A	65.22.22.40
+ovh.			86400	IN	NSEC	pa. NS DS RRSIG NSEC
+ovh.			172800	IN	NS	d.nic.fr.
+ovh.			172800	IN	NS	f.ext.nic.fr.
+ovh.			172800	IN	NS	g.ext.nic.fr.
 pa.			86400	IN	NSEC	paris. NS RRSIG NSEC
 pa.			172800	IN	NS	ns.cr.
 pa.			172800	IN	NS	ns.pa.
@@ -4161,11 +4211,24 @@ photography.		172800	IN	NS	demand.beta.aridns.net.au.
 photography.		172800	IN	NS	demand.alpha.aridns.net.au.
 photography.		172800	IN	NS	demand.delta.aridns.net.au.
 photography.		172800	IN	NS	demand.gamma.aridns.net.au.
-photos.			86400	IN	NSEC	pics. NS DS RRSIG NSEC
+photos.			86400	IN	NSEC	physio. NS DS RRSIG NSEC
 photos.			172800	IN	NS	demand.beta.aridns.net.au.
 photos.			172800	IN	NS	demand.alpha.aridns.net.au.
 photos.			172800	IN	NS	demand.delta.aridns.net.au.
 photos.			172800	IN	NS	demand.gamma.aridns.net.au.
+physio.			86400	IN	NSEC	pics. NS DS RRSIG NSEC
+physio.			172800	IN	NS	a.nic.physio.
+physio.			172800	IN	NS	b.nic.physio.
+physio.			172800	IN	NS	c.nic.physio.
+physio.			172800	IN	NS	d.nic.physio.
+a.nic.physio.		172800	IN	AAAA	2001:dcd:1::10
+a.nic.physio.		172800	IN	A	37.209.192.10
+b.nic.physio.		172800	IN	AAAA	2001:dcd:2::10
+b.nic.physio.		172800	IN	A	37.209.194.10
+c.nic.physio.		172800	IN	AAAA	2001:dcd:3::10
+c.nic.physio.		172800	IN	A	37.209.196.10
+d.nic.physio.		172800	IN	AAAA	2001:dcd:4::10
+d.nic.physio.		172800	IN	A	37.209.198.10
 pics.			86400	IN	NSEC	pictures. NS DS RRSIG NSEC
 pics.			172800	IN	NS	a.ns.uniregistry.net.
 pics.			172800	IN	NS	tld.isc-sns.com.
@@ -4206,7 +4269,7 @@ pl.			172800	IN	NS	h-dns.pl.
 pl.			172800	IN	NS	i-dns.pl.
 a-dns.pl.		172800	IN	A	194.181.87.156
 c-dns.pl.		172800	IN	A	195.47.235.226
-d-dns.pl.		172800	IN	A	213.172.174.70
+d-dns.pl.		172800	IN	A	81.15.133.186
 e-dns.pl.		172800	IN	A	195.80.237.162
 f-dns.pl.		172800	IN	AAAA	2001:1a68:0:10::189
 f-dns.pl.		172800	IN	A	217.17.46.189
@@ -5901,6 +5964,7 @@ xn--j1amh.		172800	IN	NS	tier1.num.net.ua.
 xn--j6w193g.		86400	IN	NSEC	xn--kprw13d. NS RRSIG NSEC
 xn--j6w193g.		172800	IN	NS	a.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	b.hkirc.net.hk.
+xn--j6w193g.		172800	IN	NS	c.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	s.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	t.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
@@ -6220,6 +6284,8 @@ hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 disa.tenet.ac.za.	172800	IN	AAAA	2001:4200:ffff:a::1
 disa.tenet.ac.za.	172800	IN	A	196.21.79.50
 nsza.is.co.za.		172800	IN	A	196.4.160.27
+ns.coza.net.za.		172800	IN	AAAA	2001:43f8:30::200
+ns.coza.net.za.		172800	IN	A	206.223.136.200
 ns1.coza.net.za.	172800	IN	A	66.135.62.20
 zm.			86400	IN	NSEC	zone. NS RRSIG NSEC
 zm.			172800	IN	NS	ns1.zamnet.zm.
