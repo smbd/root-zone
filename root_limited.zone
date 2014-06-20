@@ -578,7 +578,7 @@ b0.nic.blue.		172800	IN	AAAA	2a01:8840:1f::9
 b0.nic.blue.		172800	IN	A	65.22.29.9
 c0.nic.blue.		172800	IN	AAAA	2a01:8840:20::9
 c0.nic.blue.		172800	IN	A	65.22.30.9
-bm.			86400	IN	NSEC	bn. NS RRSIG NSEC
+bm.			86400	IN	NSEC	bmw. NS RRSIG NSEC
 bm.			172800	IN	NS	ns.uu.net.
 bm.			172800	IN	NS	ns1.bm.
 bm.			172800	IN	NS	ns1.ibl.bm.
@@ -592,6 +592,11 @@ ns2.ibl.bm.		172800	IN	A	199.172.192.2
 ns1.bm.			172800	IN	A	206.53.190.202
 ns2.bm.			172800	IN	A	69.17.194.1
 ns3.bm.			172800	IN	A	207.228.134.10
+bmw.			86400	IN	NSEC	bn. NS DS RRSIG NSEC
+bmw.			172800	IN	NS	ns1a.ksregistry.net.
+bmw.			172800	IN	NS	ns1b.ksregistry.net.
+bmw.			172800	IN	NS	ns2a.ksregistry.com.
+bmw.			172800	IN	NS	ns2b.ksregistry.com.
 bn.			86400	IN	NSEC	bo. NS RRSIG NSEC
 bn.			172800	IN	NS	jtb.brunet.bn.
 bn.			172800	IN	NS	ns2.brunet.bn.
@@ -3559,7 +3564,6 @@ c.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.170.34
 d.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:b::2
 d.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.34
 tld.gdns.net.		172800	IN	A	68.178.129.149
-news-tokyo.gip.net.	172800	IN	A	204.59.64.222
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gmoregistry.net.	172800	IN	AAAA	2001:470:1a::9
 a.gmoregistry.net.	172800	IN	A	72.52.71.9
@@ -3785,7 +3789,6 @@ sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0::4
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 ns-bn.ripe.net.		172800	IN	A	193.0.12.33
 ns-kh.ripe.net.		172800	IN	A	193.0.12.37
-ns-zw.ripe.net.		172800	IN	A	193.0.12.249
 a.dns.ripn.net.		172800	IN	AAAA	2001:678:17:0:193:232:128:6
 a.dns.ripn.net.		172800	IN	A	193.232.128.6
 b.dns.ripn.net.		172800	IN	AAAA	2001:678:16:0:194:85:252:62
@@ -6306,8 +6309,8 @@ zw.			86400	IN	NSEC	. NS RRSIG NSEC
 zw.			172800	IN	NS	ns1.telone.co.zw.
 zw.			172800	IN	NS	ns2.gip.net.
 zw.			172800	IN	NS	ns2.telone.co.zw.
-zw.			172800	IN	NS	ns-zw.ripe.net.
-zw.			172800	IN	NS	news-tokyo.gip.net.
+zw.			172800	IN	NS	ns3.telone.co.zw.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
+ns3.telone.co.zw.	172800	IN	A	194.133.122.34
 
