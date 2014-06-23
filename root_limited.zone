@@ -3076,7 +3076,7 @@ a.ns.nic.miami.		172800	IN	AAAA	2620:171:a02:ad::21
 a.ns.nic.miami.		172800	IN	A	72.0.50.21
 b.ns.nic.miami.		172800	IN	AAAA	2620:171:d02:dc::21
 b.ns.nic.miami.		172800	IN	A	72.42.114.21
-mil.			86400	IN	NSEC	mk. NS DS RRSIG NSEC
+mil.			86400	IN	NSEC	mini. NS DS RRSIG NSEC
 mil.			172800	IN	NS	con1.nipr.mil.
 mil.			172800	IN	NS	con2.nipr.mil.
 mil.			172800	IN	NS	eur1.nipr.mil.
@@ -3089,6 +3089,11 @@ eur1.nipr.mil.		172800	IN	A	199.252.154.234
 eur2.nipr.mil.		172800	IN	A	199.252.143.234
 pac1.nipr.mil.		172800	IN	A	199.252.180.234
 pac2.nipr.mil.		172800	IN	A	199.252.155.234
+mini.			86400	IN	NSEC	mk. NS DS RRSIG NSEC
+mini.			172800	IN	NS	ns1a.ksregistry.net.
+mini.			172800	IN	NS	ns1b.ksregistry.net.
+mini.			172800	IN	NS	ns2a.ksregistry.com.
+mini.			172800	IN	NS	ns2b.ksregistry.com.
 mk.			86400	IN	NSEC	ml. NS RRSIG NSEC
 mk.			172800	IN	NS	d.ext.nic.cz.
 mk.			172800	IN	NS	ns2.arnes.si.
@@ -6235,14 +6240,14 @@ xyz.			172800	IN	NS	x.nic.xyz.
 xyz.			172800	IN	NS	y.nic.xyz.
 xyz.			172800	IN	NS	z.nic.xyz.
 xyz.			172800	IN	NS	generationxyz.nic.xyz.
-generationxyz.nic.xyz.	172800	IN	AAAA	2001:678:4::2d
-generationxyz.nic.xyz.	172800	IN	A	194.0.1.45
+generationxyz.nic.xyz.	172800	IN	AAAA	2a04:2b03:13cc::230
+generationxyz.nic.xyz.	172800	IN	A	185.24.67.230
 x.nic.xyz.		172800	IN	AAAA	2001:67c:13cc::1:42
 x.nic.xyz.		172800	IN	A	194.169.218.42
 y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
 y.nic.xyz.		172800	IN	A	185.24.64.42
-z.nic.xyz.		172800	IN	AAAA	2001:678:5::2
-z.nic.xyz.		172800	IN	A	194.0.2.2
+z.nic.xyz.		172800	IN	AAAA	2a04:2b03:14bb::230
+z.nic.xyz.		172800	IN	A	212.18.251.230
 yachts.			86400	IN	NSEC	ye. NS DS RRSIG NSEC
 yachts.			172800	IN	NS	a0.nic.yachts.
 yachts.			172800	IN	NS	a2.nic.yachts.
