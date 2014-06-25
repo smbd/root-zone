@@ -3147,10 +3147,15 @@ mo.			172800	IN	NS	d.monic.mo.
 mo.			172800	IN	NS	e.monic.mo.
 mo.			172800	IN	NS	ns2.cuhk.edu.hk.
 mo.			172800	IN	NS	ns17.cdns.net.
+a.monic.mo.		172800	IN	AAAA	2001:f90:2:8::2
 a.monic.mo.		172800	IN	A	202.175.87.47
+b.monic.mo.		172800	IN	AAAA	2001:f90:2:8::3
 b.monic.mo.		172800	IN	A	202.175.87.48
+c.monic.mo.		172800	IN	AAAA	2001:f90:2:8::4
 c.monic.mo.		172800	IN	A	202.175.87.49
+d.monic.mo.		172800	IN	AAAA	2001:f90:8::2
 d.monic.mo.		172800	IN	A	202.175.51.115
+e.monic.mo.		172800	IN	AAAA	2001:f90:8::3
 e.monic.mo.		172800	IN	A	202.175.51.116
 mobi.			86400	IN	NSEC	moda. NS RRSIG NSEC
 mobi.			172800	IN	NS	a0.mobi.afilias-nst.info.
