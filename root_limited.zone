@@ -1427,11 +1427,16 @@ diamonds.		172800	IN	NS	demand.beta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
 diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
-digital.		86400	IN	NSEC	directory. NS DS RRSIG NSEC
+digital.		86400	IN	NSEC	direct. NS DS RRSIG NSEC
 digital.		172800	IN	NS	demand.beta.aridns.net.au.
 digital.		172800	IN	NS	demand.alpha.aridns.net.au.
 digital.		172800	IN	NS	demand.delta.aridns.net.au.
 digital.		172800	IN	NS	demand.gamma.aridns.net.au.
+direct.			86400	IN	NSEC	directory. NS DS RRSIG NSEC
+direct.			172800	IN	NS	demand.beta.aridns.net.au.
+direct.			172800	IN	NS	demand.alpha.aridns.net.au.
+direct.			172800	IN	NS	demand.delta.aridns.net.au.
+direct.			172800	IN	NS	demand.gamma.aridns.net.au.
 directory.		86400	IN	NSEC	discount. NS DS RRSIG NSEC
 directory.		172800	IN	NS	demand.beta.aridns.net.au.
 directory.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4285,7 +4290,7 @@ pk.			172800	IN	NS	root-p.pknic.pk.
 pk.			172800	IN	NS	root-s.pknic.pk.
 root-p.pknic.pk.	172800	IN	A	203.128.7.123
 root-s.pknic.pk.	172800	IN	A	119.81.34.90
-pl.			86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
+pl.			86400	IN	NSEC	place. NS DS RRSIG NSEC
 pl.			172800	IN	NS	a-dns.pl.
 pl.			172800	IN	NS	c-dns.pl.
 pl.			172800	IN	NS	d-dns.pl.
@@ -4305,6 +4310,11 @@ g-dns.pl.		172800	IN	A	149.156.1.6
 h-dns.pl.		172800	IN	AAAA	2001:678:4::2
 h-dns.pl.		172800	IN	A	194.0.1.2
 i-dns.pl.		172800	IN	A	156.154.100.15
+place.			86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
+place.			172800	IN	NS	demand.beta.aridns.net.au.
+place.			172800	IN	NS	demand.alpha.aridns.net.au.
+place.			172800	IN	NS	demand.delta.aridns.net.au.
+place.			172800	IN	NS	demand.gamma.aridns.net.au.
 plumbing.		86400	IN	NSEC	pm. NS DS RRSIG NSEC
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4840,18 +4850,13 @@ sj.			172800	IN	NS	nac.no.
 sj.			172800	IN	NS	server.nordu.net.
 sk.			86400	IN	NSEC	sl. NS RRSIG NSEC
 sk.			172800	IN	NS	a.tld.sk.
+sk.			172800	IN	NS	b.tld.sk.
 sk.			172800	IN	NS	c.tld.sk.
-sk.			172800	IN	NS	ns.eunet.sk.
-sk.			172800	IN	NS	ns.sk-nic.sk.
-sk.			172800	IN	NS	ns1.sk-nic.sk.
-sk.			172800	IN	NS	ns3.sk-nic.sk.
 sk.			172800	IN	NS	sns-pb.isc.org.
-ns.eunet.sk.		172800	IN	A	217.75.73.242
-ns.sk-nic.sk.		172800	IN	A	195.12.159.2
-ns1.sk-nic.sk.		172800	IN	A	195.12.159.3
-ns3.sk-nic.sk.		172800	IN	A	217.75.67.234
 a.tld.sk.		172800	IN	AAAA	2001:678:70::1
 a.tld.sk.		172800	IN	A	194.0.45.1
+b.tld.sk.		172800	IN	AAAA	2001:678:90::1
+b.tld.sk.		172800	IN	A	84.245.96.1
 c.tld.sk.		172800	IN	AAAA	2a02:770:100:100::101
 c.tld.sk.		172800	IN	A	217.75.72.157
 sl.			86400	IN	NSEC	sm. NS RRSIG NSEC
@@ -4972,11 +4977,17 @@ a.ns.nic.surf.		172800	IN	AAAA	2620:171:a02:ad::22
 a.ns.nic.surf.		172800	IN	A	72.0.50.22
 b.ns.nic.surf.		172800	IN	AAAA	2620:171:d02:dc::22
 b.ns.nic.surf.		172800	IN	A	72.42.114.22
-surgery.		86400	IN	NSEC	sv. NS DS RRSIG NSEC
+surgery.		86400	IN	NSEC	suzuki. NS DS RRSIG NSEC
 surgery.		172800	IN	NS	demand.beta.aridns.net.au.
 surgery.		172800	IN	NS	demand.alpha.aridns.net.au.
 surgery.		172800	IN	NS	demand.delta.aridns.net.au.
 surgery.		172800	IN	NS	demand.gamma.aridns.net.au.
+suzuki.			86400	IN	NSEC	sv. NS DS RRSIG NSEC
+suzuki.			172800	IN	NS	a.gmoregistry.net.
+suzuki.			172800	IN	NS	b.gmoregistry.net.
+suzuki.			172800	IN	NS	c.gmoregistry.net.
+suzuki.			172800	IN	NS	d.gmoregistry.net.
+suzuki.			172800	IN	NS	e.gmoregistry.net.
 sv.			86400	IN	NSEC	sx. NS RRSIG NSEC
 sv.			172800	IN	NS	ns.cr.
 sv.			172800	IN	NS	ns.uu.net.
