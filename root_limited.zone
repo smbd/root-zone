@@ -786,11 +786,24 @@ camera.			172800	IN	NS	demand.beta.aridns.net.au.
 camera.			172800	IN	NS	demand.alpha.aridns.net.au.
 camera.			172800	IN	NS	demand.delta.aridns.net.au.
 camera.			172800	IN	NS	demand.gamma.aridns.net.au.
-camp.			86400	IN	NSEC	capetown. NS DS RRSIG NSEC
+camp.			86400	IN	NSEC	cancerresearch. NS DS RRSIG NSEC
 camp.			172800	IN	NS	demand.beta.aridns.net.au.
 camp.			172800	IN	NS	demand.alpha.aridns.net.au.
 camp.			172800	IN	NS	demand.delta.aridns.net.au.
 camp.			172800	IN	NS	demand.gamma.aridns.net.au.
+cancerresearch.		86400	IN	NSEC	capetown. NS DS RRSIG NSEC
+cancerresearch.		172800	IN	NS	a.nic.cancerresearch.
+cancerresearch.		172800	IN	NS	b.nic.cancerresearch.
+cancerresearch.		172800	IN	NS	c.nic.cancerresearch.
+cancerresearch.		172800	IN	NS	d.nic.cancerresearch.
+a.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:1::9
+a.nic.cancerresearch.	172800	IN	A	37.209.192.9
+b.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:2::9
+b.nic.cancerresearch.	172800	IN	A	37.209.194.9
+c.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:3::9
+c.nic.cancerresearch.	172800	IN	A	37.209.196.9
+d.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:4::9
+d.nic.cancerresearch.	172800	IN	A	37.209.198.9
 capetown.		86400	IN	NSEC	capital. NS DS RRSIG NSEC
 capetown.		172800	IN	NS	ns.coza.net.za.
 capetown.		172800	IN	NS	ns1.coza.net.za.
@@ -1309,7 +1322,7 @@ cruises.		172800	IN	NS	demand.beta.aridns.net.au.
 cruises.		172800	IN	NS	demand.alpha.aridns.net.au.
 cruises.		172800	IN	NS	demand.delta.aridns.net.au.
 cruises.		172800	IN	NS	demand.gamma.aridns.net.au.
-cu.			86400	IN	NSEC	cv. NS RRSIG NSEC
+cu.			86400	IN	NSEC	cuisinella. NS RRSIG NSEC
 cu.			172800	IN	NS	cu.cctld.authdns.ripe.net.
 cu.			172800	IN	NS	ns.dns.br.
 cu.			172800	IN	NS	ns.ceniai.net.cu.
@@ -1319,6 +1332,19 @@ cu.			172800	IN	NS	rip.psg.com.
 ns.ceniai.net.cu.	172800	IN	AAAA	2001:1340:1:128::136
 ns.ceniai.net.cu.	172800	IN	A	169.158.128.136
 ns2.ceniai.net.cu.	172800	IN	A	169.158.128.88
+cuisinella.		86400	IN	NSEC	cv. NS DS RRSIG NSEC
+cuisinella.		172800	IN	NS	a.nic.cuisinella.
+cuisinella.		172800	IN	NS	b.nic.cuisinella.
+cuisinella.		172800	IN	NS	c.nic.cuisinella.
+cuisinella.		172800	IN	NS	d.nic.cuisinella.
+a.nic.cuisinella.	172800	IN	AAAA	2001:dcd:1::9
+a.nic.cuisinella.	172800	IN	A	37.209.192.9
+b.nic.cuisinella.	172800	IN	AAAA	2001:dcd:2::9
+b.nic.cuisinella.	172800	IN	A	37.209.194.9
+c.nic.cuisinella.	172800	IN	AAAA	2001:dcd:3::9
+c.nic.cuisinella.	172800	IN	A	37.209.196.9
+d.nic.cuisinella.	172800	IN	AAAA	2001:dcd:4::9
+d.nic.cuisinella.	172800	IN	A	37.209.198.9
 cv.			86400	IN	NSEC	cw. NS RRSIG NSEC
 cv.			172800	IN	NS	ns.dns.cv.
 cv.			172800	IN	NS	ns01.fccn.pt.
@@ -4304,7 +4330,7 @@ c-dns.pl.		172800	IN	A	195.47.235.226
 d-dns.pl.		172800	IN	A	81.15.133.186
 e-dns.pl.		172800	IN	A	195.80.237.162
 f-dns.pl.		172800	IN	AAAA	2001:1a68:0:10::189
-f-dns.pl.		172800	IN	A	217.17.46.189
+f-dns.pl.		172800	IN	A	77.79.212.238
 g-dns.pl.		172800	IN	AAAA	2001:6d8:0:1::a:6
 g-dns.pl.		172800	IN	A	149.156.1.6
 h-dns.pl.		172800	IN	AAAA	2001:678:4::2
@@ -4709,7 +4735,7 @@ sb.			172800	IN	NS	sb3.dyntld.net.
 sb.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
 pch.nic.sb.		172800	IN	A	204.61.216.31
-sc.			86400	IN	NSEC	schule. NS DS RRSIG NSEC
+sc.			86400	IN	NSEC	schmidt. NS DS RRSIG NSEC
 sc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 sc.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -4718,6 +4744,19 @@ sc.			172800	IN	NS	c0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 ns1.nic.sc.		172800	IN	A	41.191.121.129
+schmidt.		86400	IN	NSEC	schule. NS DS RRSIG NSEC
+schmidt.		172800	IN	NS	a.nic.schmidt.
+schmidt.		172800	IN	NS	b.nic.schmidt.
+schmidt.		172800	IN	NS	c.nic.schmidt.
+schmidt.		172800	IN	NS	d.nic.schmidt.
+a.nic.schmidt.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.schmidt.		172800	IN	A	37.209.192.9
+b.nic.schmidt.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.schmidt.		172800	IN	A	37.209.194.9
+c.nic.schmidt.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.schmidt.		172800	IN	A	37.209.196.9
+d.nic.schmidt.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.schmidt.		172800	IN	A	37.209.198.9
 schule.			86400	IN	NSEC	scot. NS DS RRSIG NSEC
 schule.			172800	IN	NS	demand.beta.aridns.net.au.
 schule.			172800	IN	NS	demand.alpha.aridns.net.au.
