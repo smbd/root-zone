@@ -1495,12 +1495,10 @@ p.nic.dk.		172800	IN	A	194.0.47.42
 s.nic.dk.		172800	IN	AAAA	2a01:3f0:0:303::53
 s.nic.dk.		172800	IN	A	77.72.229.252
 dm.			86400	IN	NSEC	dnp. NS RRSIG NSEC
-dm.			172800	IN	NS	ns.anycast.nic.dm.
 dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
 dm.			172800	IN	NS	ns2.blacknightsolutions.com.
 dm.			172800	IN	NS	ns34.cdns.net.
-ns.anycast.nic.dm.	172800	IN	A	204.61.216.18
 ns2.nic.dm.		172800	IN	A	199.127.197.69
 dnp.			86400	IN	NSEC	do. NS DS RRSIG NSEC
 dnp.			172800	IN	NS	a.gmoregistry.net.
@@ -2534,6 +2532,7 @@ it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	c.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
+it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 it.			86400	IN	NSEC	je. NS RRSIG NSEC
@@ -2548,6 +2547,8 @@ m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 m.dns.it.		172800	IN	A	217.29.76.4
 r.dns.it.		172800	IN	AAAA	2001:760:ffff:ffff::ca
 r.dns.it.		172800	IN	A	193.206.141.46
+s.dns.it.		172800	IN	AAAA	2001:67c:1010:7::53
+s.dns.it.		172800	IN	A	194.146.106.30
 osiris.namex.it.	172800	IN	AAAA	2001:7f8:10:f00a::6
 osiris.namex.it.	172800	IN	A	193.201.40.6
 seth.namex.it.		172800	IN	AAAA	2001:7f8:10:f00a::7
