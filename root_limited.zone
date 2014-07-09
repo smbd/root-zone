@@ -964,7 +964,7 @@ ci.			172800	IN	NS	ns-ci.afrinic.net.
 ci.			172800	IN	NS	phloem.uoregon.edu.
 ns.nic.ci.		172800	IN	A	213.136.100.81
 ns1.nic.ci.		172800	IN	A	213.136.100.83
-citic.			86400	IN	NSEC	ck. NS DS RRSIG NSEC
+citic.			86400	IN	NSEC	city. NS DS RRSIG NSEC
 citic.			172800	IN	NS	a.zdnscloud.com.
 citic.			172800	IN	NS	b.zdnscloud.com.
 citic.			172800	IN	NS	c.zdnscloud.com.
@@ -974,6 +974,11 @@ citic.			172800	IN	NS	f.zdnscloud.com.
 citic.			172800	IN	NS	g.zdnscloud.com.
 citic.			172800	IN	NS	i.zdnscloud.com.
 citic.			172800	IN	NS	j.zdnscloud.com.
+city.			86400	IN	NSEC	ck. NS DS RRSIG NSEC
+city.			172800	IN	NS	demand.beta.aridns.net.au.
+city.			172800	IN	NS	demand.alpha.aridns.net.au.
+city.			172800	IN	NS	demand.delta.aridns.net.au.
+city.			172800	IN	NS	demand.gamma.aridns.net.au.
 ck.			86400	IN	NSEC	cl. NS RRSIG NSEC
 ck.			172800	IN	NS	circa.mcs.vuw.ac.nz.
 ck.			172800	IN	NS	parau.oyster.net.ck.
@@ -1410,7 +1415,7 @@ de.			172800	IN	NS	l.de.net.
 de.			172800	IN	NS	n.de.net.
 de.			172800	IN	NS	s.de.net.
 de.			172800	IN	NS	z.nic.de.
-de.			86400	IN	NSEC	degree. NS DS RRSIG NSEC
+de.			86400	IN	NSEC	deals. NS DS RRSIG NSEC
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
 dns7.denic.de.		172800	IN	A	81.91.161.68
 grdns-de.denic.de.	172800	IN	A	81.91.161.80
@@ -1423,6 +1428,11 @@ f.nic.de.		172800	IN	AAAA	2a02:568:0:2::53
 f.nic.de.		172800	IN	A	81.91.164.5
 nsc.nic.de.		172800	IN	A	81.91.161.84
 z.nic.de.		172800	IN	A	194.246.96.1
+deals.			86400	IN	NSEC	degree. NS DS RRSIG NSEC
+deals.			172800	IN	NS	demand.beta.aridns.net.au.
+deals.			172800	IN	NS	demand.alpha.aridns.net.au.
+deals.			172800	IN	NS	demand.delta.aridns.net.au.
+deals.			172800	IN	NS	demand.gamma.aridns.net.au.
 degree.			86400	IN	NSEC	democrat. NS DS RRSIG NSEC
 degree.			172800	IN	NS	demand.beta.aridns.net.au.
 degree.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2127,10 +2137,9 @@ guru.			172800	IN	NS	demand.alpha.aridns.net.au.
 guru.			172800	IN	NS	demand.delta.aridns.net.au.
 guru.			172800	IN	NS	demand.gamma.aridns.net.au.
 gw.			86400	IN	NSEC	gy. NS RRSIG NSEC
-gw.			172800	IN	NS	ns1.nic.gw.
-gw.			172800	IN	NS	ns3.nic.gw.
-ns1.nic.gw.		172800	IN	A	81.91.170.10
-ns3.nic.gw.		172800	IN	A	193.171.255.35
+gw.			172800	IN	NS	ns4.dns.pt.
+gw.			172800	IN	NS	phobos.fccn.pt.
+gw.			172800	IN	NS	sns-pb.isc.org.
 gy.			86400	IN	NSEC	hamburg. NS RRSIG NSEC
 gy.			172800	IN	NS	gy.cctld.authdns.ripe.net.
 gy.			172800	IN	NS	ns1.gtt.co.gy.
@@ -3073,7 +3082,7 @@ media.			172800	IN	NS	demand.beta.aridns.net.au.
 media.			172800	IN	NS	demand.alpha.aridns.net.au.
 media.			172800	IN	NS	demand.delta.aridns.net.au.
 media.			172800	IN	NS	demand.gamma.aridns.net.au.
-meet.			86400	IN	NSEC	menu. NS DS RRSIG NSEC
+meet.			86400	IN	NSEC	melbourne. NS DS RRSIG NSEC
 meet.			172800	IN	NS	a0.nic.meet.
 meet.			172800	IN	NS	a2.nic.meet.
 meet.			172800	IN	NS	b0.nic.meet.
@@ -3086,6 +3095,19 @@ b0.nic.meet.		172800	IN	AAAA	2a01:8840:43::25
 b0.nic.meet.		172800	IN	A	65.22.69.25
 c0.nic.meet.		172800	IN	AAAA	2a01:8840:44::25
 c0.nic.meet.		172800	IN	A	65.22.70.25
+melbourne.		86400	IN	NSEC	menu. NS DS RRSIG NSEC
+melbourne.		172800	IN	NS	a.nic.melbourne.
+melbourne.		172800	IN	NS	b.nic.melbourne.
+melbourne.		172800	IN	NS	c.nic.melbourne.
+melbourne.		172800	IN	NS	d.nic.melbourne.
+a.nic.melbourne.	172800	IN	AAAA	2001:dcd:1::10
+a.nic.melbourne.	172800	IN	A	37.209.192.10
+b.nic.melbourne.	172800	IN	AAAA	2001:dcd:2::10
+b.nic.melbourne.	172800	IN	A	37.209.194.10
+c.nic.melbourne.	172800	IN	AAAA	2001:dcd:3::10
+c.nic.melbourne.	172800	IN	A	37.209.196.10
+d.nic.melbourne.	172800	IN	AAAA	2001:dcd:4::10
+d.nic.melbourne.	172800	IN	A	37.209.198.10
 menu.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
 menu.			172800	IN	NS	a.nic.menu.
 menu.			172800	IN	NS	b.nic.menu.
@@ -4433,6 +4455,7 @@ ns.dns.pt.		172800	IN	AAAA	2001:690:a00:1016:905::1
 ns.dns.pt.		172800	IN	A	193.136.0.1
 ns2.dns.pt.		172800	IN	AAAA	2001:690:a80:4001::100
 ns2.dns.pt.		172800	IN	A	193.136.2.226
+ns4.dns.pt.		172800	IN	A	193.136.3.129
 ns01.fccn.pt.		172800	IN	AAAA	2001:690:a00:4001::200
 ns01.fccn.pt.		172800	IN	A	193.136.192.40
 ns02.fccn.pt.		172800	IN	AAAA	2001:690:a80:4001::200
