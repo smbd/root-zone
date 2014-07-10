@@ -530,7 +530,7 @@ bike.			172800	IN	NS	demand.beta.aridns.net.au.
 bike.			172800	IN	NS	demand.alpha.aridns.net.au.
 bike.			172800	IN	NS	demand.delta.aridns.net.au.
 bike.			172800	IN	NS	demand.gamma.aridns.net.au.
-bio.			86400	IN	NSEC	biz. NS RRSIG NSEC
+bio.			86400	IN	NSEC	biz. NS DS RRSIG NSEC
 bio.			172800	IN	NS	ns1a.ksregistry.net.
 bio.			172800	IN	NS	ns1b.ksregistry.net.
 bio.			172800	IN	NS	ns2a.ksregistry.com.
@@ -2055,7 +2055,6 @@ gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-at.ics.forth.gr.
 gr.			172800	IN	NS	gr-br.ics.forth.gr.
 gr.			172800	IN	NS	gr-ix.ics.forth.gr.
-gr.			172800	IN	NS	gr-us.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
@@ -2066,8 +2065,6 @@ gr-ix.ics.forth.gr.	172800	IN	AAAA	2001:7f8:6e:1::132
 gr-ix.ics.forth.gr.	172800	IN	A	176.126.38.132
 gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7::4:10
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
-gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
-gr-us.ics.forth.gr.	172800	IN	A	199.4.28.219
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
 graphics.		86400	IN	NSEC	gratis. NS DS RRSIG NSEC
 graphics.		172800	IN	NS	demand.beta.aridns.net.au.
@@ -4043,13 +4040,18 @@ np.			172800	IN	NS	shikhar.mos.com.np.
 np.			172800	IN	NS	yarrina.connect.com.au.
 shikhar.mos.com.np.	172800	IN	A	202.52.255.5
 np-ns.npix.net.np.	172800	IN	A	198.32.126.50
-nr.			86400	IN	NSEC	nu. NS RRSIG NSEC
+nr.			86400	IN	NSEC	nrw. NS RRSIG NSEC
 nr.			172800	IN	NS	ns1.net.reach.com.
 nr.			172800	IN	NS	dns1.cenpac.net.nr.
 nr.			172800	IN	NS	nrweb.cenpac.net.nr.
 nr.			172800	IN	NS	sns-pb.isc.org.
 dns1.cenpac.net.nr.	172800	IN	A	203.98.225.9
 nrweb.cenpac.net.nr.	172800	IN	A	203.98.224.66
+nrw.			86400	IN	NSEC	nu. NS DS RRSIG NSEC
+nrw.			172800	IN	NS	anycast9.irondns.net.
+nrw.			172800	IN	NS	anycast10.irondns.net.
+nrw.			172800	IN	NS	anycast23.irondns.net.
+nrw.			172800	IN	NS	anycast24.irondns.net.
 nu.			86400	IN	NSEC	nyc. NS DS RRSIG NSEC
 nu.			172800	IN	NS	a.nic.nu.
 nu.			172800	IN	NS	b.nic.nu.
@@ -4758,7 +4760,7 @@ sb.			172800	IN	NS	sb3.dyntld.net.
 sb.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
 pch.nic.sb.		172800	IN	A	204.61.216.31
-sc.			86400	IN	NSEC	schmidt. NS DS RRSIG NSEC
+sc.			86400	IN	NSEC	scb. NS DS RRSIG NSEC
 sc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 sc.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -4767,6 +4769,19 @@ sc.			172800	IN	NS	c0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 ns1.nic.sc.		172800	IN	A	41.191.121.129
+scb.			86400	IN	NSEC	schmidt. NS DS RRSIG NSEC
+scb.			172800	IN	NS	a.nic.scb.
+scb.			172800	IN	NS	b.nic.scb.
+scb.			172800	IN	NS	c.nic.scb.
+scb.			172800	IN	NS	d.nic.scb.
+a.nic.scb.		172800	IN	AAAA	2001:c38:2000:183::17
+a.nic.scb.		172800	IN	A	122.155.23.51
+b.nic.scb.		172800	IN	AAAA	2001:c00:4618:3000::17
+b.nic.scb.		172800	IN	A	203.159.64.51
+c.nic.scb.		172800	IN	AAAA	2001:678:4::23
+c.nic.scb.		172800	IN	A	194.0.1.35
+d.nic.scb.		172800	IN	AAAA	2607:f180:1a02:3::5
+d.nic.scb.		172800	IN	A	174.139.105.37
 schmidt.		86400	IN	NSEC	schule. NS DS RRSIG NSEC
 schmidt.		172800	IN	NS	a.nic.schmidt.
 schmidt.		172800	IN	NS	b.nic.schmidt.
