@@ -1926,12 +1926,24 @@ gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 gd.			172800	IN	NS	gd-ns.ksregistry.net.
-ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
+ge.			86400	IN	NSEC	gent. NS RRSIG NSEC
 ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
 ge.			172800	IN	NS	ns.nic.ge.
 ge.			172800	IN	NS	ns2.nic.fr.
 ns.nic.ge.		172800	IN	A	212.72.130.11
+gent.			86400	IN	NSEC	gf. NS DS RRSIG NSEC
+gent.			172800	IN	NS	a.ns.nic.gent.
+gent.			172800	IN	NS	c.ns.nic.gent.
+gent.			172800	IN	NS	x.ns.nic.gent.
+gent.			172800	IN	NS	y.ns.nic.gent.
+a.ns.nic.gent.		172800	IN	AAAA	2a02:2790:0:2::53
+a.ns.nic.gent.		172800	IN	A	89.207.184.98
+c.ns.nic.gent.		172800	IN	A	54.247.68.190
+x.ns.nic.gent.		172800	IN	AAAA	2a01:5b0:4::4
+x.ns.nic.gent.		172800	IN	A	195.253.64.4
+y.ns.nic.gent.		172800	IN	AAAA	2a01:5b0:4::7
+y.ns.nic.gent.		172800	IN	A	195.253.64.7
 gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
