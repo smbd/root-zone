@@ -1647,7 +1647,7 @@ es.			172800	IN	NS	ns3.nic.fr.
 es.			172800	IN	NS	ns15.communitydns.net.
 es.			172800	IN	NS	ns-ext.nic.cl.
 es.			172800	IN	NS	sns-pb.isc.org.
-es.			86400	IN	NSEC	estate. NS RRSIG NSEC
+es.			86400	IN	NSEC	estate. NS DS RRSIG NSEC
 ns1.cesca.es.		172800	IN	A	84.88.0.3
 a.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:41
 a.nic.es.		172800	IN	A	194.69.254.1
@@ -2287,7 +2287,7 @@ house.			172800	IN	NS	demand.beta.aridns.net.au.
 house.			172800	IN	NS	demand.alpha.aridns.net.au.
 house.			172800	IN	NS	demand.delta.aridns.net.au.
 house.			172800	IN	NS	demand.gamma.aridns.net.au.
-hr.			86400	IN	NSEC	ht. NS RRSIG NSEC
+hr.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
 hr.			172800	IN	NS	n3ns.nic.es.
 hr.			172800	IN	NS	dns-hr.univie.ac.at.
 hr.			172800	IN	NS	sns-pb.isc.org.
