@@ -261,7 +261,7 @@ au.			172800	IN	NS	w.au.
 au.			172800	IN	NS	x.au.
 au.			172800	IN	NS	y.au.
 au.			172800	IN	NS	z.au.
-au.			86400	IN	NSEC	audio. NS RRSIG NSEC
+au.			86400	IN	NSEC	auction. NS RRSIG NSEC
 a.au.			172800	IN	AAAA	2407:6e00:254:306::73
 a.au.			172800	IN	A	58.65.254.73
 b.au.			172800	IN	AAAA	2407:6e00:253:306::73
@@ -301,6 +301,11 @@ y.au.			172800	IN	AAAA	2001:dcd:3::5
 y.au.			172800	IN	A	37.209.196.5
 z.au.			172800	IN	AAAA	2001:dcd:4::5
 z.au.			172800	IN	A	37.209.198.5
+auction.		86400	IN	NSEC	audio. NS DS RRSIG NSEC
+auction.		172800	IN	NS	demand.beta.aridns.net.au.
+auction.		172800	IN	NS	demand.alpha.aridns.net.au.
+auction.		172800	IN	NS	demand.delta.aridns.net.au.
+auction.		172800	IN	NS	demand.gamma.aridns.net.au.
 audio.			86400	IN	NSEC	autos. NS DS RRSIG NSEC
 audio.			172800	IN	NS	a.ns.uniregistry.net.
 audio.			172800	IN	NS	tld.isc-sns.com.
@@ -5831,12 +5836,31 @@ a.ns.nic.wed.		172800	IN	AAAA	2620:171:a01:ad::1
 a.ns.nic.wed.		172800	IN	A	72.0.49.1
 b.ns.nic.wed.		172800	IN	AAAA	2620:171:d01:dc::1
 b.ns.nic.wed.		172800	IN	A	72.42.113.1
-wf.			86400	IN	NSEC	wien. NS DS RRSIG NSEC
+wf.			86400	IN	NSEC	whoswho. NS DS RRSIG NSEC
 wf.			172800	IN	NS	d.ext.nic.fr.
 wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
 wf.			172800	IN	NS	f.ext.nic.fr.
 wf.			172800	IN	NS	g.ext.nic.fr.
+whoswho.		86400	IN	NSEC	wien. NS DS RRSIG NSEC
+whoswho.		172800	IN	NS	ns1.dns.nic.whoswho.
+whoswho.		172800	IN	NS	ns2.dns.nic.whoswho.
+whoswho.		172800	IN	NS	ns3.dns.nic.whoswho.
+whoswho.		172800	IN	NS	ns4.dns.nic.whoswho.
+whoswho.		172800	IN	NS	ns5.dns.nic.whoswho.
+whoswho.		172800	IN	NS	ns6.dns.nic.whoswho.
+ns1.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1071::b4
+ns1.dns.nic.whoswho.	172800	IN	A	156.154.144.180
+ns2.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1072::b4
+ns2.dns.nic.whoswho.	172800	IN	A	156.154.145.180
+ns3.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1073::b4
+ns3.dns.nic.whoswho.	172800	IN	A	156.154.159.180
+ns4.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1074::b4
+ns4.dns.nic.whoswho.	172800	IN	A	156.154.156.180
+ns5.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1075::b4
+ns5.dns.nic.whoswho.	172800	IN	A	156.154.157.180
+ns6.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1076::b4
+ns6.dns.nic.whoswho.	172800	IN	A	156.154.158.180
 wien.			86400	IN	NSEC	wiki. NS DS RRSIG NSEC
 wien.			172800	IN	NS	a.dns.nic.wien.
 wien.			172800	IN	NS	b.dns.nic.wien.
@@ -6434,7 +6458,7 @@ y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
 y.nic.xyz.		172800	IN	A	185.24.64.42
 z.nic.xyz.		172800	IN	AAAA	2a04:2b03:14bb::230
 z.nic.xyz.		172800	IN	A	212.18.251.230
-yachts.			86400	IN	NSEC	ye. NS DS RRSIG NSEC
+yachts.			86400	IN	NSEC	yandex. NS DS RRSIG NSEC
 yachts.			172800	IN	NS	a0.nic.yachts.
 yachts.			172800	IN	NS	a2.nic.yachts.
 yachts.			172800	IN	NS	b0.nic.yachts.
@@ -6447,6 +6471,25 @@ b0.nic.yachts.		172800	IN	AAAA	2a01:8840:63::1
 b0.nic.yachts.		172800	IN	A	65.22.101.1
 c0.nic.yachts.		172800	IN	AAAA	2a01:8840:64::1
 c0.nic.yachts.		172800	IN	A	65.22.102.1
+yandex.			86400	IN	NSEC	ye. NS DS RRSIG NSEC
+yandex.			172800	IN	NS	ns1.dns.nic.yandex.
+yandex.			172800	IN	NS	ns2.dns.nic.yandex.
+yandex.			172800	IN	NS	ns3.dns.nic.yandex.
+yandex.			172800	IN	NS	ns4.dns.nic.yandex.
+yandex.			172800	IN	NS	ns5.dns.nic.yandex.
+yandex.			172800	IN	NS	ns6.dns.nic.yandex.
+ns1.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1071::ba
+ns1.dns.nic.yandex.	172800	IN	A	156.154.144.186
+ns2.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1072::ba
+ns2.dns.nic.yandex.	172800	IN	A	156.154.145.186
+ns3.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1073::ba
+ns3.dns.nic.yandex.	172800	IN	A	156.154.159.186
+ns4.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1074::ba
+ns4.dns.nic.yandex.	172800	IN	A	156.154.156.186
+ns5.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1075::ba
+ns5.dns.nic.yandex.	172800	IN	A	156.154.157.186
+ns6.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1076::ba
+ns6.dns.nic.yandex.	172800	IN	A	156.154.158.186
 ye.			86400	IN	NSEC	yokohama. NS RRSIG NSEC
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
