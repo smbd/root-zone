@@ -4472,13 +4472,32 @@ pr.			172800	IN	NS	golomb.nic.pr.
 pr.			172800	IN	NS	pascal.nic.pr.
 pr.			172800	IN	NS	pr-dns.denic.de.
 pr.			172800	IN	NS	descartes.nic.pr.
-pr.			86400	IN	NSEC	press. NS DS RRSIG NSEC
+pr.			86400	IN	NSEC	praxi. NS DS RRSIG NSEC
 descartes.nic.pr.	172800	IN	A	134.202.1.120
 do-dns.nic.pr.		172800	IN	A	134.202.1.121
 golomb.nic.pr.		172800	IN	AAAA	2001:500:10::6:100
 golomb.nic.pr.		172800	IN	A	134.202.6.100
 pascal.nic.pr.		172800	IN	AAAA	2001:500:10::120
 pascal.nic.pr.		172800	IN	A	134.202.0.120
+praxi.			86400	IN	NSEC	press. NS DS RRSIG NSEC
+praxi.			172800	IN	NS	ns1.dns.nic.praxi.
+praxi.			172800	IN	NS	ns2.dns.nic.praxi.
+praxi.			172800	IN	NS	ns3.dns.nic.praxi.
+praxi.			172800	IN	NS	ns4.dns.nic.praxi.
+praxi.			172800	IN	NS	ns5.dns.nic.praxi.
+praxi.			172800	IN	NS	ns6.dns.nic.praxi.
+ns1.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1071::8b
+ns1.dns.nic.praxi.	172800	IN	A	156.154.144.139
+ns2.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1072::8b
+ns2.dns.nic.praxi.	172800	IN	A	156.154.145.139
+ns3.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1073::8b
+ns3.dns.nic.praxi.	172800	IN	A	156.154.159.139
+ns4.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1074::8b
+ns4.dns.nic.praxi.	172800	IN	A	156.154.156.139
+ns5.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1075::8b
+ns5.dns.nic.praxi.	172800	IN	A	156.154.157.139
+ns6.dns.nic.praxi.	172800	IN	AAAA	2610:a1:1076::8b
+ns6.dns.nic.praxi.	172800	IN	A	156.154.158.139
 press.			86400	IN	NSEC	pro. NS DS RRSIG NSEC
 press.			172800	IN	NS	a.nic.press.
 press.			172800	IN	NS	b.nic.press.
