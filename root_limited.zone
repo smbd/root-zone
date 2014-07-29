@@ -2172,11 +2172,16 @@ b.dns.nic.hamburg.	172800	IN	AAAA	2001:62a:a:2000::10
 b.dns.nic.hamburg.	172800	IN	A	193.170.61.10
 c.dns.nic.hamburg.	172800	IN	AAAA	2001:62a:a:3000::10
 c.dns.nic.hamburg.	172800	IN	A	193.170.187.10
-haus.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+haus.			86400	IN	NSEC	healthcare. NS DS RRSIG NSEC
 haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
 haus.			172800	IN	NS	demand.delta.aridns.net.au.
 haus.			172800	IN	NS	demand.gamma.aridns.net.au.
+healthcare.		86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+healthcare.		172800	IN	NS	demand.beta.aridns.net.au.
+healthcare.		172800	IN	NS	demand.alpha.aridns.net.au.
+healthcare.		172800	IN	NS	demand.delta.aridns.net.au.
+healthcare.		172800	IN	NS	demand.gamma.aridns.net.au.
 hiphop.			86400	IN	NSEC	hiv. NS DS RRSIG NSEC
 hiphop.			172800	IN	NS	a.ns.uniregistry.net.
 hiphop.			172800	IN	NS	tld.isc-sns.com.
@@ -3432,7 +3437,6 @@ my.			172800	IN	NS	dns.mynic.net.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns5.jaring.my.
 my.			172800	IN	NS	ns6.jaring.my.
-my.			172800	IN	NS	dns2.mynic.net.my.
 my.			172800	IN	NS	ns30.cdns.net.
 my.			172800	IN	NS	ns-my.nic.fr.
 ns5.jaring.my.		172800	IN	AAAA	2001:328:200:48::400
@@ -3441,8 +3445,6 @@ ns6.jaring.my.		172800	IN	AAAA	2001:328:200:ab::600
 ns6.jaring.my.		172800	IN	A	192.228.128.16
 dns.mynic.net.my.	172800	IN	AAAA	2001:328:1000:3::5
 dns.mynic.net.my.	172800	IN	A	192.228.180.5
-dns2.mynic.net.my.	172800	IN	AAAA	2401:b000::36
-dns2.mynic.net.my.	172800	IN	A	202.75.39.36
 mz.			86400	IN	NSEC	na. NS RRSIG NSEC
 mz.			172800	IN	NS	anyns.uem.mz.
 mz.			172800	IN	NS	dzowo.uem.mz.
@@ -4182,7 +4184,7 @@ ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
-iq.dns.cocca.org.nz.	172800	IN	A	203.119.84.235
+iq.dns.cocca.org.nz.	172800	IN	A	185.17.236.235
 okinawa.		86400	IN	NSEC	om. NS DS RRSIG NSEC
 okinawa.		172800	IN	NS	a.gmoregistry.net.
 okinawa.		172800	IN	NS	b.gmoregistry.net.
@@ -4665,12 +4667,20 @@ quebec.			172800	IN	NS	anycast9.irondns.net.
 quebec.			172800	IN	NS	anycast10.irondns.net.
 quebec.			172800	IN	NS	anycast23.irondns.net.
 quebec.			172800	IN	NS	anycast24.irondns.net.
-re.			86400	IN	NSEC	recipes. NS DS RRSIG NSEC
+re.			86400	IN	NSEC	realtor. NS DS RRSIG NSEC
 re.			172800	IN	NS	d.ext.nic.fr.
 re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
 re.			172800	IN	NS	f.ext.nic.fr.
 re.			172800	IN	NS	g.ext.nic.fr.
+realtor.		86400	IN	NSEC	recipes. NS DS RRSIG NSEC
+realtor.		172800	IN	NS	a5.nstld.com.
+realtor.		172800	IN	NS	c5.nstld.com.
+realtor.		172800	IN	NS	d5.nstld.com.
+realtor.		172800	IN	NS	f5.nstld.com.
+realtor.		172800	IN	NS	g5.nstld.com.
+realtor.		172800	IN	NS	h5.nstld.com.
+realtor.		172800	IN	NS	l5.nstld.com.
 recipes.		86400	IN	NSEC	red. NS DS RRSIG NSEC
 recipes.		172800	IN	NS	demand.beta.aridns.net.au.
 recipes.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6336,7 +6346,6 @@ xn--mgbx4cd0ab.		172800	IN	NS	dns.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
-xn--mgbx4cd0ab.		172800	IN	NS	dns2.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
 xn--ngbc5azd.		86400	IN	NSEC	xn--nqv7f. NS DS RRSIG NSEC
