@@ -5391,11 +5391,21 @@ tokyo.			172800	IN	NS	b.gmoregistry.net.
 tokyo.			172800	IN	NS	c.gmoregistry.net.
 tokyo.			172800	IN	NS	d.gmoregistry.net.
 tokyo.			172800	IN	NS	e.gmoregistry.net.
-tools.			86400	IN	NSEC	town. NS DS RRSIG NSEC
+tools.			86400	IN	NSEC	top. NS DS RRSIG NSEC
 tools.			172800	IN	NS	demand.beta.aridns.net.au.
 tools.			172800	IN	NS	demand.alpha.aridns.net.au.
 tools.			172800	IN	NS	demand.delta.aridns.net.au.
 tools.			172800	IN	NS	demand.gamma.aridns.net.au.
+top.			86400	IN	NSEC	town. NS DS RRSIG NSEC
+top.			172800	IN	NS	a.zdnscloud.com.
+top.			172800	IN	NS	b.zdnscloud.com.
+top.			172800	IN	NS	c.zdnscloud.com.
+top.			172800	IN	NS	d.zdnscloud.com.
+top.			172800	IN	NS	e.zdnscloud.com.
+top.			172800	IN	NS	f.zdnscloud.com.
+top.			172800	IN	NS	g.zdnscloud.com.
+top.			172800	IN	NS	i.zdnscloud.com.
+top.			172800	IN	NS	j.zdnscloud.com.
 town.			86400	IN	NSEC	toys. NS DS RRSIG NSEC
 town.			172800	IN	NS	demand.beta.aridns.net.au.
 town.			172800	IN	NS	demand.alpha.aridns.net.au.
