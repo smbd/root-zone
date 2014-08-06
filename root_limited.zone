@@ -1513,7 +1513,7 @@ dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
 dm.			172800	IN	NS	ns2.blacknightsolutions.com.
 dm.			172800	IN	NS	ns34.cdns.net.
-ns2.nic.dm.		172800	IN	A	199.127.197.69
+ns2.nic.dm.		172800	IN	A	199.127.196.35
 dnp.			86400	IN	NSEC	do. NS DS RRSIG NSEC
 dnp.			172800	IN	NS	a.gmoregistry.net.
 dnp.			172800	IN	NS	b.gmoregistry.net.
@@ -5228,11 +5228,17 @@ systems.		172800	IN	NS	demand.beta.aridns.net.au.
 systems.		172800	IN	NS	demand.alpha.aridns.net.au.
 systems.		172800	IN	NS	demand.delta.aridns.net.au.
 systems.		172800	IN	NS	demand.gamma.aridns.net.au.
-sz.			86400	IN	NSEC	tattoo. NS RRSIG NSEC
+sz.			86400	IN	NSEC	tatar. NS RRSIG NSEC
 sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
 sz.			172800	IN	NS	ns1.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
 ns1.sispa.org.sz.	172800	IN	A	41.77.232.4
+tatar.			86400	IN	NSEC	tattoo. NS DS RRSIG NSEC
+tatar.			172800	IN	NS	a.dns.ripn.net.
+tatar.			172800	IN	NS	b.dns.ripn.net.
+tatar.			172800	IN	NS	d.dns.ripn.net.
+tatar.			172800	IN	NS	e.dns.ripn.net.
+tatar.			172800	IN	NS	f.dns.ripn.net.
 tattoo.			86400	IN	NSEC	tax. NS DS RRSIG NSEC
 tattoo.			172800	IN	NS	a.ns.uniregistry.net.
 tattoo.			172800	IN	NS	tld.isc-sns.com.
@@ -5832,7 +5838,7 @@ voyage.			172800	IN	NS	demand.beta.aridns.net.au.
 voyage.			172800	IN	NS	demand.alpha.aridns.net.au.
 voyage.			172800	IN	NS	demand.delta.aridns.net.au.
 voyage.			172800	IN	NS	demand.gamma.aridns.net.au.
-vu.			86400	IN	NSEC	wang. NS RRSIG NSEC
+vu.			86400	IN	NSEC	wales. NS RRSIG NSEC
 vu.			172800	IN	NS	efate.vanuatu.com.vu.
 vu.			172800	IN	NS	santo.vanuatu.com.vu.
 vu.			172800	IN	NS	futuna.vanuatu.com.vu.
@@ -5840,6 +5846,13 @@ vu.			172800	IN	NS	cctld-vu.orange.mu.
 efate.vanuatu.com.vu.	172800	IN	A	202.80.32.5
 futuna.vanuatu.com.vu.	172800	IN	A	202.80.32.3
 santo.vanuatu.com.vu.	172800	IN	A	202.80.32.7
+wales.			86400	IN	NSEC	wang. NS DS RRSIG NSEC
+wales.			172800	IN	NS	ns1.nic.uk.
+wales.			172800	IN	NS	ns2.nic.uk.
+wales.			172800	IN	NS	ns4.nic.uk.
+wales.			172800	IN	NS	ns5.nic.uk.
+wales.			172800	IN	NS	ns6.nic.uk.
+wales.			172800	IN	NS	ns7.nic.uk.
 wang.			86400	IN	NSEC	watch. NS DS RRSIG NSEC
 wang.			172800	IN	NS	a.zdnscloud.com.
 wang.			172800	IN	NS	b.zdnscloud.com.
