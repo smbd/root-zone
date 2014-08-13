@@ -614,7 +614,7 @@ bmw.			172800	IN	NS	ns1a.ksregistry.net.
 bmw.			172800	IN	NS	ns1b.ksregistry.net.
 bmw.			172800	IN	NS	ns2a.ksregistry.com.
 bmw.			172800	IN	NS	ns2b.ksregistry.com.
-bn.			86400	IN	NSEC	bo. NS RRSIG NSEC
+bn.			86400	IN	NSEC	bnpparibas. NS RRSIG NSEC
 bn.			172800	IN	NS	jtb.brunet.bn.
 bn.			172800	IN	NS	ns2.brunet.bn.
 bn.			172800	IN	NS	ns-bn.ripe.net.
@@ -624,6 +624,19 @@ dns1-tl.brunet.bn.	172800	IN	A	202.160.9.9
 dns2-tl.brunet.bn.	172800	IN	A	202.160.9.10
 jtb.brunet.bn.		172800	IN	A	202.160.8.2
 ns2.brunet.bn.		172800	IN	A	202.160.8.20
+bnpparibas.		86400	IN	NSEC	bo. NS DS RRSIG NSEC
+bnpparibas.		172800	IN	NS	a0.nic.bnpparibas.
+bnpparibas.		172800	IN	NS	a2.nic.bnpparibas.
+bnpparibas.		172800	IN	NS	b0.nic.bnpparibas.
+bnpparibas.		172800	IN	NS	c0.nic.bnpparibas.
+a0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:3e::9
+a0.nic.bnpparibas.	172800	IN	A	65.22.64.9
+a2.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:41::9
+a2.nic.bnpparibas.	172800	IN	A	65.22.67.9
+b0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:3f::9
+b0.nic.bnpparibas.	172800	IN	A	65.22.65.9
+c0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:40::9
+c0.nic.bnpparibas.	172800	IN	A	65.22.66.9
 bo.			86400	IN	NSEC	boutique. NS RRSIG NSEC
 bo.			172800	IN	NS	ns.dns.br.
 bo.			172800	IN	NS	utama.bolnet.bo.
@@ -1088,6 +1101,14 @@ c.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffc3::1
 c.ngtld.cn.		172800	IN	A	125.208.42.1
 d.ngtld.cn.		172800	IN	A	125.208.43.1
 e.ngtld.cn.		172800	IN	A	125.208.44.1
+ta.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd1::1
+ta.ngtld.cn.		172800	IN	A	42.83.130.1
+tb.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd2::1
+tb.ngtld.cn.		172800	IN	A	42.83.131.1
+tc.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd3::1
+tc.ngtld.cn.		172800	IN	A	42.83.132.1
+td.ngtld.cn.		172800	IN	A	42.83.133.1
+te.ngtld.cn.		172800	IN	A	42.83.134.1
 co.			86400	IN	NSEC	codes. NS DS RRSIG NSEC
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
@@ -4910,7 +4931,7 @@ sb.			172800	IN	NS	sb3.dyntld.net.
 sb.			172800	IN	NS	sns-pb.isc.org.
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
 pch.nic.sb.		172800	IN	A	204.61.216.31
-sc.			86400	IN	NSEC	scb. NS DS RRSIG NSEC
+sc.			86400	IN	NSEC	sca. NS DS RRSIG NSEC
 sc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 sc.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -4919,6 +4940,14 @@ sc.			172800	IN	NS	c0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 ns1.nic.sc.		172800	IN	A	41.191.121.129
+sca.			86400	IN	NSEC	scb. NS DS RRSIG NSEC
+sca.			172800	IN	NS	a5.nstld.com.
+sca.			172800	IN	NS	c5.nstld.com.
+sca.			172800	IN	NS	d5.nstld.com.
+sca.			172800	IN	NS	f5.nstld.com.
+sca.			172800	IN	NS	g5.nstld.com.
+sca.			172800	IN	NS	h5.nstld.com.
+sca.			172800	IN	NS	l5.nstld.com.
 scb.			86400	IN	NSEC	schmidt. NS DS RRSIG NSEC
 scb.			172800	IN	NS	a.nic.scb.
 scb.			172800	IN	NS	b.nic.scb.
@@ -6030,11 +6059,17 @@ c.nic.wtc.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.wtc.		172800	IN	A	37.209.196.9
 d.nic.wtc.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.wtc.		172800	IN	A	37.209.198.9
-wtf.			86400	IN	NSEC	xn--3bst00m. NS DS RRSIG NSEC
+wtf.			86400	IN	NSEC	xn--1qqw23a. NS DS RRSIG NSEC
 wtf.			172800	IN	NS	demand.beta.aridns.net.au.
 wtf.			172800	IN	NS	demand.alpha.aridns.net.au.
 wtf.			172800	IN	NS	demand.delta.aridns.net.au.
 wtf.			172800	IN	NS	demand.gamma.aridns.net.au.
+xn--1qqw23a.		86400	IN	NSEC	xn--3bst00m. NS DS RRSIG NSEC
+xn--1qqw23a.		172800	IN	NS	ta.ngtld.cn.
+xn--1qqw23a.		172800	IN	NS	tb.ngtld.cn.
+xn--1qqw23a.		172800	IN	NS	tc.ngtld.cn.
+xn--1qqw23a.		172800	IN	NS	td.ngtld.cn.
+xn--1qqw23a.		172800	IN	NS	te.ngtld.cn.
 xn--3bst00m.		86400	IN	NSEC	xn--3ds443g. NS DS RRSIG NSEC
 xn--3bst00m.		172800	IN	NS	a.zdnscloud.com.
 xn--3bst00m.		172800	IN	NS	b.zdnscloud.com.
@@ -6493,7 +6528,6 @@ xn--ses554g.		172800	IN	NS	b.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	c.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	d.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	e.zdnscloud.com.
-xn--ses554g.		172800	IN	NS	f.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	g.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	i.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	j.zdnscloud.com.
@@ -6506,7 +6540,7 @@ xn--wgbh1c.		86400	IN	NSEC	xn--wgbl6a. NS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns3.dotmasr.eg.
-xn--wgbl6a.		86400	IN	NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
+xn--wgbl6a.		86400	IN	NSEC	xn--xhq521b. NS RRSIG NSEC
 xn--wgbl6a.		172800	IN	NS	a.registry.qa.
 xn--wgbl6a.		172800	IN	NS	b.registry.qa.
 xn--wgbl6a.		172800	IN	NS	c.registry.qa.
@@ -6518,6 +6552,12 @@ xn--wgbl6a.		172800	IN	NS	h.registry.qa.
 xn--wgbl6a.		172800	IN	NS	i.registry.qa.
 xn--wgbl6a.		172800	IN	NS	j.registry.qa.
 xn--wgbl6a.		172800	IN	NS	k.registry.qa.
+xn--xhq521b.		86400	IN	NSEC	xn--xkc2al3hye2a. NS DS RRSIG NSEC
+xn--xhq521b.		172800	IN	NS	ta.ngtld.cn.
+xn--xhq521b.		172800	IN	NS	tb.ngtld.cn.
+xn--xhq521b.		172800	IN	NS	tc.ngtld.cn.
+xn--xhq521b.		172800	IN	NS	td.ngtld.cn.
+xn--xhq521b.		172800	IN	NS	te.ngtld.cn.
 xn--xkc2al3hye2a.	86400	IN	NSEC	xn--xkc2dl3a5ee0h. NS RRSIG NSEC
 xn--xkc2al3hye2a.	172800	IN	NS	lk.communitydns.net.
 xn--xkc2al3hye2a.	172800	IN	NS	nic.lk-anycast.pch.net.
