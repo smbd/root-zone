@@ -825,11 +825,30 @@ capetown.		86400	IN	NSEC	capital. NS DS RRSIG NSEC
 capetown.		172800	IN	NS	ns.coza.net.za.
 capetown.		172800	IN	NS	ns1.coza.net.za.
 capetown.		172800	IN	NS	coza1.dnsnode.net.
-capital.		86400	IN	NSEC	cards. NS DS RRSIG NSEC
+capital.		86400	IN	NSEC	caravan. NS DS RRSIG NSEC
 capital.		172800	IN	NS	demand.beta.aridns.net.au.
 capital.		172800	IN	NS	demand.alpha.aridns.net.au.
 capital.		172800	IN	NS	demand.delta.aridns.net.au.
 capital.		172800	IN	NS	demand.gamma.aridns.net.au.
+caravan.		86400	IN	NSEC	cards. NS DS RRSIG NSEC
+caravan.		172800	IN	NS	ns1.dns.nic.caravan.
+caravan.		172800	IN	NS	ns2.dns.nic.caravan.
+caravan.		172800	IN	NS	ns3.dns.nic.caravan.
+caravan.		172800	IN	NS	ns4.dns.nic.caravan.
+caravan.		172800	IN	NS	ns5.dns.nic.caravan.
+caravan.		172800	IN	NS	ns6.dns.nic.caravan.
+ns1.dns.nic.caravan.	172800	IN	AAAA	2610:a1:1071::20
+ns1.dns.nic.caravan.	172800	IN	A	156.154.144.32
+ns2.dns.nic.caravan.	172800	IN	AAAA	2610:a1:1072::20
+ns2.dns.nic.caravan.	172800	IN	A	156.154.145.32
+ns3.dns.nic.caravan.	172800	IN	AAAA	2610:a1:1073::20
+ns3.dns.nic.caravan.	172800	IN	A	156.154.159.32
+ns4.dns.nic.caravan.	172800	IN	AAAA	2610:a1:1074::20
+ns4.dns.nic.caravan.	172800	IN	A	156.154.156.32
+ns5.dns.nic.caravan.	172800	IN	AAAA	2610:a1:1075::20
+ns5.dns.nic.caravan.	172800	IN	A	156.154.157.32
+ns6.dns.nic.caravan.	172800	IN	AAAA	2610:a1:1076::20
+ns6.dns.nic.caravan.	172800	IN	A	156.154.158.32
 cards.			86400	IN	NSEC	care. NS DS RRSIG NSEC
 cards.			172800	IN	NS	demand.beta.aridns.net.au.
 cards.			172800	IN	NS	demand.alpha.aridns.net.au.
