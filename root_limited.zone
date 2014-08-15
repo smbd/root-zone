@@ -915,7 +915,7 @@ center.			172800	IN	NS	demand.beta.aridns.net.au.
 center.			172800	IN	NS	demand.alpha.aridns.net.au.
 center.			172800	IN	NS	demand.delta.aridns.net.au.
 center.			172800	IN	NS	demand.gamma.aridns.net.au.
-ceo.			86400	IN	NSEC	cf. NS DS RRSIG NSEC
+ceo.			86400	IN	NSEC	cern. NS DS RRSIG NSEC
 ceo.			172800	IN	NS	ns1.dns.nic.ceo.
 ceo.			172800	IN	NS	ns2.dns.nic.ceo.
 ceo.			172800	IN	NS	ns3.dns.nic.ceo.
@@ -934,6 +934,19 @@ ns5.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1075::25
 ns5.dns.nic.ceo.	172800	IN	A	156.154.157.37
 ns6.dns.nic.ceo.	172800	IN	AAAA	2610:a1:1076::25
 ns6.dns.nic.ceo.	172800	IN	A	156.154.158.37
+cern.			86400	IN	NSEC	cf. NS DS RRSIG NSEC
+cern.			172800	IN	NS	a0.nic.cern.
+cern.			172800	IN	NS	a2.nic.cern.
+cern.			172800	IN	NS	b0.nic.cern.
+cern.			172800	IN	NS	c0.nic.cern.
+a0.nic.cern.		172800	IN	AAAA	2a01:8840:da::1
+a0.nic.cern.		172800	IN	A	65.22.224.1
+a2.nic.cern.		172800	IN	AAAA	2a01:8840:dd::1
+a2.nic.cern.		172800	IN	A	65.22.227.1
+b0.nic.cern.		172800	IN	AAAA	2a01:8840:db::1
+b0.nic.cern.		172800	IN	A	65.22.225.1
+c0.nic.cern.		172800	IN	AAAA	2a01:8840:dc::1
+c0.nic.cern.		172800	IN	A	65.22.226.1
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
 cf.			172800	IN	NS	a.ns.cf.
 cf.			172800	IN	NS	b.ns.cf.
@@ -1039,11 +1052,16 @@ claims.			172800	IN	NS	demand.beta.aridns.net.au.
 claims.			172800	IN	NS	demand.alpha.aridns.net.au.
 claims.			172800	IN	NS	demand.delta.aridns.net.au.
 claims.			172800	IN	NS	demand.gamma.aridns.net.au.
-cleaning.		86400	IN	NSEC	clinic. NS DS RRSIG NSEC
+cleaning.		86400	IN	NSEC	click. NS DS RRSIG NSEC
 cleaning.		172800	IN	NS	demand.beta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.alpha.aridns.net.au.
 cleaning.		172800	IN	NS	demand.delta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.gamma.aridns.net.au.
+click.			86400	IN	NSEC	clinic. NS DS RRSIG NSEC
+click.			172800	IN	NS	a.ns.uniregistry.net.
+click.			172800	IN	NS	tld.isc-sns.com.
+click.			172800	IN	NS	tld.isc-sns.net.
+click.			172800	IN	NS	tld.isc-sns.info.
 clinic.			86400	IN	NSEC	clothing. NS DS RRSIG NSEC
 clinic.			172800	IN	NS	demand.beta.aridns.net.au.
 clinic.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1509,11 +1527,16 @@ desi.			172800	IN	NS	ns1a.ksregistry.net.
 desi.			172800	IN	NS	ns1b.ksregistry.net.
 desi.			172800	IN	NS	ns2a.ksregistry.com.
 desi.			172800	IN	NS	ns2b.ksregistry.com.
-diamonds.		86400	IN	NSEC	digital. NS DS RRSIG NSEC
+diamonds.		86400	IN	NSEC	diet. NS DS RRSIG NSEC
 diamonds.		172800	IN	NS	demand.beta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
 diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
+diet.			86400	IN	NSEC	digital. NS DS RRSIG NSEC
+diet.			172800	IN	NS	a.ns.uniregistry.net.
+diet.			172800	IN	NS	tld.isc-sns.com.
+diet.			172800	IN	NS	tld.isc-sns.net.
+diet.			172800	IN	NS	tld.isc-sns.info.
 digital.		86400	IN	NSEC	direct. NS DS RRSIG NSEC
 digital.		172800	IN	NS	demand.beta.aridns.net.au.
 digital.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2229,11 +2252,16 @@ haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
 haus.			172800	IN	NS	demand.delta.aridns.net.au.
 haus.			172800	IN	NS	demand.gamma.aridns.net.au.
-healthcare.		86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+healthcare.		86400	IN	NSEC	help. NS DS RRSIG NSEC
 healthcare.		172800	IN	NS	demand.beta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.alpha.aridns.net.au.
 healthcare.		172800	IN	NS	demand.delta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.gamma.aridns.net.au.
+help.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+help.			172800	IN	NS	a.ns.uniregistry.net.
+help.			172800	IN	NS	tld.isc-sns.com.
+help.			172800	IN	NS	tld.isc-sns.net.
+help.			172800	IN	NS	tld.isc-sns.info.
 hiphop.			86400	IN	NSEC	hiv. NS DS RRSIG NSEC
 hiphop.			172800	IN	NS	a.ns.uniregistry.net.
 hiphop.			172800	IN	NS	tld.isc-sns.com.
@@ -2331,7 +2359,7 @@ a.ns.nic.horse.		172800	IN	AAAA	2620:171:a02:ad::8
 a.ns.nic.horse.		172800	IN	A	72.0.50.8
 b.ns.nic.horse.		172800	IN	AAAA	2620:171:d02:dc::8
 b.ns.nic.horse.		172800	IN	A	72.42.114.8
-host.			86400	IN	NSEC	house. NS DS RRSIG NSEC
+host.			86400	IN	NSEC	hosting. NS DS RRSIG NSEC
 host.			172800	IN	NS	a.nic.host.
 host.			172800	IN	NS	b.nic.host.
 host.			172800	IN	NS	c.nic.host.
@@ -2344,11 +2372,22 @@ c.nic.host.		172800	IN	AAAA	2001:678:5::2
 c.nic.host.		172800	IN	A	194.0.2.2
 d.nic.host.		172800	IN	AAAA	2001:678:4::2d
 d.nic.host.		172800	IN	A	194.0.1.45
-house.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
+hosting.		86400	IN	NSEC	house. NS DS RRSIG NSEC
+hosting.		172800	IN	NS	a.ns.uniregistry.net.
+hosting.		172800	IN	NS	tld.isc-sns.com.
+hosting.		172800	IN	NS	tld.isc-sns.net.
+hosting.		172800	IN	NS	tld.isc-sns.info.
+house.			86400	IN	NSEC	how. NS DS RRSIG NSEC
 house.			172800	IN	NS	demand.beta.aridns.net.au.
 house.			172800	IN	NS	demand.alpha.aridns.net.au.
 house.			172800	IN	NS	demand.delta.aridns.net.au.
 house.			172800	IN	NS	demand.gamma.aridns.net.au.
+how.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
+how.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+how.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+how.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+how.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+how.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 hr.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
 hr.			172800	IN	NS	n3ns.nic.es.
 hr.			172800	IN	NS	dns-hr.univie.ac.at.
@@ -3035,7 +3074,7 @@ ls.			172800	IN	NS	rain.psg.com.
 ls.			172800	IN	NS	hippo.ru.ac.za.
 ls.			172800	IN	NS	ls-ns.anycast.pch.net.
 ls.			172800	IN	NS	ns-ls.afrinic.net.
-lt.			86400	IN	NSEC	lu. NS DS RRSIG NSEC
+lt.			86400	IN	NSEC	ltda. NS DS RRSIG NSEC
 lt.			172800	IN	NS	a.tld.lt.
 lt.			172800	IN	NS	b.tld.lt.
 lt.			172800	IN	NS	c.tld.lt.
@@ -3052,6 +3091,19 @@ d.tld.lt.		172800	IN	A	194.0.3.1
 e.tld.lt.		172800	IN	A	194.0.18.1
 f.tld.lt.		172800	IN	AAAA	2001:678:8c::1
 f.tld.lt.		172800	IN	A	194.0.19.1
+ltda.			86400	IN	NSEC	lu. NS DS RRSIG NSEC
+ltda.			172800	IN	NS	a0.nic.ltda.
+ltda.			172800	IN	NS	a2.nic.ltda.
+ltda.			172800	IN	NS	b0.nic.ltda.
+ltda.			172800	IN	NS	c0.nic.ltda.
+a0.nic.ltda.		172800	IN	AAAA	2a01:8840:72::17
+a0.nic.ltda.		172800	IN	A	65.22.116.17
+a2.nic.ltda.		172800	IN	AAAA	2a01:8840:75::17
+a2.nic.ltda.		172800	IN	A	65.22.119.17
+b0.nic.ltda.		172800	IN	AAAA	2a01:8840:73::17
+b0.nic.ltda.		172800	IN	A	65.22.117.17
+c0.nic.ltda.		172800	IN	AAAA	2a01:8840:74::17
+c0.nic.ltda.		172800	IN	A	65.22.118.17
 lu.			86400	IN	NSEC	luxe. NS DS RRSIG NSEC
 lu.			172800	IN	NS	g.dns.lu.
 lu.			172800	IN	NS	i.dns.lu.
@@ -4271,7 +4323,7 @@ c0.nic.ong.		172800	IN	AAAA	2001:500:b::1
 c0.nic.ong.		172800	IN	A	199.19.53.1
 d0.nic.ong.		172800	IN	AAAA	2001:500:f::1
 d0.nic.ong.		172800	IN	A	199.19.57.1
-onl.			86400	IN	NSEC	org. NS DS RRSIG NSEC
+onl.			86400	IN	NSEC	ooo. NS DS RRSIG NSEC
 onl.			172800	IN	NS	a0.nic.onl.
 onl.			172800	IN	NS	a2.nic.onl.
 onl.			172800	IN	NS	b0.nic.onl.
@@ -4284,6 +4336,14 @@ b0.nic.onl.		172800	IN	AAAA	2a01:8840:87::1
 b0.nic.onl.		172800	IN	A	65.22.137.1
 c0.nic.onl.		172800	IN	AAAA	2a01:8840:88::1
 c0.nic.onl.		172800	IN	A	65.22.138.1
+ooo.			86400	IN	NSEC	org. NS DS RRSIG NSEC
+ooo.			172800	IN	NS	a5.nstld.com.
+ooo.			172800	IN	NS	c5.nstld.com.
+ooo.			172800	IN	NS	d5.nstld.com.
+ooo.			172800	IN	NS	f5.nstld.com.
+ooo.			172800	IN	NS	g5.nstld.com.
+ooo.			172800	IN	NS	h5.nstld.com.
+ooo.			172800	IN	NS	l5.nstld.com.
 org.			172800	IN	NS	a0.org.afilias-nst.info.
 org.			172800	IN	NS	a2.org.afilias-nst.info.
 org.			172800	IN	NS	b0.org.afilias-nst.org.
@@ -4596,11 +4656,16 @@ productions.		172800	IN	NS	demand.beta.aridns.net.au.
 productions.		172800	IN	NS	demand.alpha.aridns.net.au.
 productions.		172800	IN	NS	demand.delta.aridns.net.au.
 productions.		172800	IN	NS	demand.gamma.aridns.net.au.
-properties.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
+properties.		86400	IN	NSEC	property. NS DS RRSIG NSEC
 properties.		172800	IN	NS	demand.beta.aridns.net.au.
 properties.		172800	IN	NS	demand.alpha.aridns.net.au.
 properties.		172800	IN	NS	demand.delta.aridns.net.au.
 properties.		172800	IN	NS	demand.gamma.aridns.net.au.
+property.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
+property.		172800	IN	NS	a.ns.uniregistry.net.
+property.		172800	IN	NS	tld.isc-sns.com.
+property.		172800	IN	NS	tld.isc-sns.net.
+property.		172800	IN	NS	tld.isc-sns.info.
 ps.			172800	IN	NS	ps.cctld.authdns.ripe.net.
 ps.			172800	IN	NS	ns1.pnina.ps.
 ps.			172800	IN	NS	rip.psg.com.
@@ -5671,7 +5736,7 @@ university.		172800	IN	NS	demand.beta.aridns.net.au.
 university.		172800	IN	NS	demand.alpha.aridns.net.au.
 university.		172800	IN	NS	demand.delta.aridns.net.au.
 university.		172800	IN	NS	demand.gamma.aridns.net.au.
-uno.			86400	IN	NSEC	us. NS DS RRSIG NSEC
+uno.			86400	IN	NSEC	uol. NS DS RRSIG NSEC
 uno.			172800	IN	NS	ns1.dns.nic.uno.
 uno.			172800	IN	NS	ns2.dns.nic.uno.
 uno.			172800	IN	NS	ns3.dns.nic.uno.
@@ -5693,6 +5758,13 @@ ns6.dns.nic.uno.	172800	IN	AAAA	2610:a1:1076::ad
 ns6.dns.nic.uno.	172800	IN	A	156.154.158.173
 ns7.dns.nic.uno.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 ns7.dns.nic.uno.	172800	IN	A	207.34.5.10
+uol.			86400	IN	NSEC	us. NS DS RRSIG NSEC
+uol.			172800	IN	NS	a.dns.br.
+uol.			172800	IN	NS	b.dns.br.
+uol.			172800	IN	NS	c.dns.br.
+uol.			172800	IN	NS	d.dns.br.
+uol.			172800	IN	NS	e.dns.br.
+uol.			172800	IN	NS	f.dns.br.
 us.			86400	IN	NSEC	uy. NS DS RRSIG NSEC
 us.			172800	IN	NS	a.cctld.us.
 us.			172800	IN	NS	b.cctld.us.
