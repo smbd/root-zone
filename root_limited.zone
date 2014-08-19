@@ -2456,12 +2456,12 @@ il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nsd.ns.il.
 il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	nsg.ns.il.
-il.			172800	IN	NS	ildns.huji.ac.il.
+il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			172800	IN	NS	sns-pb.isc.org.
-ildns.huji.ac.il.	172800	IN	A	128.139.6.66
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6::808b:22f0
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
+ilns.ilan.net.il.	172800	IN	A	128.139.35.5
 nsa.ns.il.		172800	IN	A	192.115.210.58
 nsb.ns.il.		172800	IN	A	192.115.210.60
 nsd.ns.il.		172800	IN	AAAA	2001:4f8:3:37::11
