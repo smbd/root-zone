@@ -2023,7 +2023,6 @@ gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
 gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
-gg.			172800	IN	NS	b.ci-servers.org.
 gg.			172800	IN	NS	c.ci-servers.org.
 gg.			172800	IN	NS	d.ci-servers.je.
 gg.			172800	IN	NS	e.ci-servers.gg.
@@ -2674,7 +2673,6 @@ seth.namex.it.		172800	IN	A	193.201.40.7
 dns.nic.it.		172800	IN	AAAA	2a00:d40:1:1::5
 dns.nic.it.		172800	IN	A	192.12.192.5
 je.			86400	IN	NSEC	jetzt. NS RRSIG NSEC
-je.			172800	IN	NS	b.ci-servers.org.
 je.			172800	IN	NS	c.ci-servers.org.
 je.			172800	IN	NS	d.ci-servers.je.
 je.			172800	IN	NS	e.ci-servers.gg.
@@ -4407,7 +4405,6 @@ b2.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a5::1
 b2.xxx.afilias-nst.org.	172800	IN	A	199.115.157.1
 d0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a3::1
 d0.xxx.afilias-nst.org.	172800	IN	A	199.115.155.1
-b.ci-servers.org.	172800	IN	A	82.103.139.220
 c.ci-servers.org.	172800	IN	AAAA	2001:67c:1010:22::53
 c.ci-servers.org.	172800	IN	A	194.146.106.86
 ns.icann.org.		172800	IN	AAAA	2001:500:89::53
