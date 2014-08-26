@@ -1998,10 +1998,16 @@ gallery.		172800	IN	NS	demand.beta.aridns.net.au.
 gallery.		172800	IN	NS	demand.alpha.aridns.net.au.
 gallery.		172800	IN	NS	demand.delta.aridns.net.au.
 gallery.		172800	IN	NS	demand.gamma.aridns.net.au.
-gb.			86400	IN	NSEC	gd. NS RRSIG NSEC
+gb.			86400	IN	NSEC	gbiz. NS RRSIG NSEC
 gb.			172800	IN	NS	ns.uu.net.
 gb.			172800	IN	NS	ns0.ja.net.
 gb.			172800	IN	NS	ns4.ja.net.
+gbiz.			86400	IN	NSEC	gd. NS DS RRSIG NSEC
+gbiz.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+gbiz.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+gbiz.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+gbiz.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+gbiz.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
@@ -2102,12 +2108,18 @@ globo.			172800	IN	NS	c.dns.br.
 globo.			172800	IN	NS	d.dns.br.
 globo.			172800	IN	NS	e.dns.br.
 globo.			172800	IN	NS	f.dns.br.
-gm.			86400	IN	NSEC	gmo. NS RRSIG NSEC
+gm.			86400	IN	NSEC	gmail. NS RRSIG NSEC
 gm.			172800	IN	NS	ns1.nic.gm.
 gm.			172800	IN	NS	ns2.nic.gm.
 gm.			172800	IN	NS	ns-gm.afrinic.net.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
 ns2.nic.gm.		172800	IN	A	197.255.194.102
+gmail.			86400	IN	NSEC	gmo. NS DS RRSIG NSEC
+gmail.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+gmail.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+gmail.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+gmail.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+gmail.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 gmo.			86400	IN	NSEC	gn. NS DS RRSIG NSEC
 gmo.			172800	IN	NS	a.gmoregistry.net.
 gmo.			172800	IN	NS	b.gmoregistry.net.
@@ -2474,11 +2486,16 @@ nsd.ns.il.		172800	IN	A	149.20.56.132
 nse.ns.il.		172800	IN	A	192.115.141.253
 nsg.ns.il.		172800	IN	AAAA	2a02:568:ffff:8::53
 nsg.ns.il.		172800	IN	A	81.91.161.212
-im.			86400	IN	NSEC	immobilien. NS RRSIG NSEC
+im.			86400	IN	NSEC	immo. NS RRSIG NSEC
 im.			172800	IN	NS	ns4.ja.net.
 im.			172800	IN	NS	hoppy.iom.com.
 im.			172800	IN	NS	barney.advsys.co.uk.
 im.			172800	IN	NS	pebbles.iom.com.
+immo.			86400	IN	NSEC	immobilien. NS DS RRSIG NSEC
+immo.			172800	IN	NS	demand.beta.aridns.net.au.
+immo.			172800	IN	NS	demand.alpha.aridns.net.au.
+immo.			172800	IN	NS	demand.delta.aridns.net.au.
+immo.			172800	IN	NS	demand.gamma.aridns.net.au.
 immobilien.		86400	IN	NSEC	in. NS DS RRSIG NSEC
 immobilien.		172800	IN	NS	demand.beta.aridns.net.au.
 immobilien.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4431,7 +4448,7 @@ sfba.sns-pb.isc.org.	172800	IN	A	149.20.64.3
 tld3.ultradns.org.	172800	IN	A	199.7.66.1
 tld4.ultradns.org.	172800	IN	AAAA	2001:502:100e::1
 tld4.ultradns.org.	172800	IN	A	199.7.67.1
-organic.		86400	IN	NSEC	ovh. NS DS RRSIG NSEC
+organic.		86400	IN	NSEC	otsuka. NS DS RRSIG NSEC
 organic.		172800	IN	NS	a0.nic.organic.
 organic.		172800	IN	NS	a2.nic.organic.
 organic.		172800	IN	NS	b0.nic.organic.
@@ -4444,6 +4461,12 @@ b0.nic.organic.		172800	IN	AAAA	2a01:8840:17::40
 b0.nic.organic.		172800	IN	A	65.22.21.40
 c0.nic.organic.		172800	IN	AAAA	2a01:8840:18::40
 c0.nic.organic.		172800	IN	A	65.22.22.40
+otsuka.			86400	IN	NSEC	ovh. NS DS RRSIG NSEC
+otsuka.			172800	IN	NS	a.gmoregistry.net.
+otsuka.			172800	IN	NS	b.gmoregistry.net.
+otsuka.			172800	IN	NS	c.gmoregistry.net.
+otsuka.			172800	IN	NS	d.gmoregistry.net.
+otsuka.			172800	IN	NS	e.gmoregistry.net.
 ovh.			86400	IN	NSEC	pa. NS DS RRSIG NSEC
 ovh.			172800	IN	NS	d.nic.fr.
 ovh.			172800	IN	NS	f.ext.nic.fr.
@@ -4539,7 +4562,7 @@ pictures.		172800	IN	NS	demand.beta.aridns.net.au.
 pictures.		172800	IN	NS	demand.alpha.aridns.net.au.
 pictures.		172800	IN	NS	demand.delta.aridns.net.au.
 pictures.		172800	IN	NS	demand.gamma.aridns.net.au.
-pink.			86400	IN	NSEC	pk. NS DS RRSIG NSEC
+pink.			86400	IN	NSEC	pizza. NS DS RRSIG NSEC
 pink.			172800	IN	NS	a0.nic.pink.
 pink.			172800	IN	NS	a2.nic.pink.
 pink.			172800	IN	NS	b0.nic.pink.
@@ -4552,6 +4575,11 @@ b0.nic.pink.		172800	IN	AAAA	2a01:8840:1f::17
 b0.nic.pink.		172800	IN	A	65.22.29.17
 c0.nic.pink.		172800	IN	AAAA	2a01:8840:20::17
 c0.nic.pink.		172800	IN	A	65.22.30.17
+pizza.			86400	IN	NSEC	pk. NS DS RRSIG NSEC
+pizza.			172800	IN	NS	demand.beta.aridns.net.au.
+pizza.			172800	IN	NS	demand.alpha.aridns.net.au.
+pizza.			172800	IN	NS	demand.delta.aridns.net.au.
+pizza.			172800	IN	NS	demand.gamma.aridns.net.au.
 pk.			86400	IN	NSEC	pl. NS RRSIG NSEC
 pk.			172800	IN	NS	root-b.cloud9global.net.
 pk.			172800	IN	NS	root-p.pknic.pk.
