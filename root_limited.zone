@@ -2405,12 +2405,15 @@ how.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 how.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 how.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 hr.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
+hr.			172800	IN	NS	pch.carnet.hr.
 hr.			172800	IN	NS	n3ns.nic.es.
 hr.			172800	IN	NS	dns-hr.univie.ac.at.
 hr.			172800	IN	NS	sns-pb.isc.org.
 hr.			172800	IN	NS	hr-ns-1.carnet.hr.
 hr-ns-1.carnet.hr.	172800	IN	AAAA	2001:b68:ff:1::100
 hr-ns-1.carnet.hr.	172800	IN	A	161.53.160.100
+pch.carnet.hr.		172800	IN	AAAA	2001:500:14:6090:ad::1
+pch.carnet.hr.		172800	IN	A	204.61.216.90
 ht.			86400	IN	NSEC	hu. NS RRSIG NSEC
 ht.			172800	IN	NS	dns.princeton.edu.
 ht.			172800	IN	NS	ns3.nic.fr.
