@@ -1727,7 +1727,7 @@ es.			172800	IN	NS	ns3.nic.fr.
 es.			172800	IN	NS	ns15.communitydns.net.
 es.			172800	IN	NS	ns-ext.nic.cl.
 es.			172800	IN	NS	sns-pb.isc.org.
-es.			86400	IN	NSEC	estate. NS DS RRSIG NSEC
+es.			86400	IN	NSEC	esq. NS DS RRSIG NSEC
 ns1.cesca.es.		172800	IN	A	84.88.0.3
 a.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:41
 a.nic.es.		172800	IN	A	194.69.254.1
@@ -1738,6 +1738,12 @@ n3ns.nic.es.		172800	IN	A	194.69.254.42
 ad.ns.nic.es.		172800	IN	A	194.69.254.15
 ns1.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:41
 ns1.nic.es.		172800	IN	A	194.69.254.1
+esq.			86400	IN	NSEC	estate. NS DS RRSIG NSEC
+esq.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+esq.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+esq.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+esq.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+esq.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 estate.			86400	IN	NSEC	et. NS DS RRSIG NSEC
 estate.			172800	IN	NS	demand.beta.aridns.net.au.
 estate.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2273,11 +2279,17 @@ healthcare.		172800	IN	NS	demand.beta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.alpha.aridns.net.au.
 healthcare.		172800	IN	NS	demand.delta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.gamma.aridns.net.au.
-help.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+help.			86400	IN	NSEC	here. NS DS RRSIG NSEC
 help.			172800	IN	NS	a.ns.uniregistry.net.
 help.			172800	IN	NS	tld.isc-sns.com.
 help.			172800	IN	NS	tld.isc-sns.net.
 help.			172800	IN	NS	tld.isc-sns.info.
+here.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+here.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+here.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+here.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+here.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+here.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 hiphop.			86400	IN	NSEC	hiv. NS DS RRSIG NSEC
 hiphop.			172800	IN	NS	a.ns.uniregistry.net.
 hiphop.			172800	IN	NS	tld.isc-sns.com.
@@ -4683,13 +4695,19 @@ c.nic.press.		172800	IN	AAAA	2a04:2b03:13cc::34
 c.nic.press.		172800	IN	A	185.24.67.34
 d.nic.press.		172800	IN	AAAA	2a04:2b03:14bb::34
 d.nic.press.		172800	IN	A	212.18.251.34
-pro.			86400	IN	NSEC	productions. NS RRSIG NSEC
+pro.			86400	IN	NSEC	prod. NS RRSIG NSEC
 pro.			172800	IN	NS	a0.pro.afilias-nst.info.
 pro.			172800	IN	NS	a2.pro.afilias-nst.info.
 pro.			172800	IN	NS	b0.pro.afilias-nst.org.
 pro.			172800	IN	NS	b2.pro.afilias-nst.org.
 pro.			172800	IN	NS	c0.pro.afilias-nst.info.
 pro.			172800	IN	NS	d0.pro.afilias-nst.org.
+prod.			86400	IN	NSEC	productions. NS DS RRSIG NSEC
+prod.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+prod.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+prod.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+prod.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+prod.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 productions.		86400	IN	NSEC	properties. NS DS RRSIG NSEC
 productions.		172800	IN	NS	demand.beta.aridns.net.au.
 productions.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6788,12 +6806,18 @@ ns1.yemen.net.ye.	172800	IN	A	65.162.184.33
 ns2.yemen.net.ye.	172800	IN	A	65.162.184.34
 sah1.ye.		172800	IN	A	195.94.0.34
 sah2.ye.		172800	IN	A	195.94.0.35
-yokohama.		86400	IN	NSEC	yt. NS DS RRSIG NSEC
+yokohama.		86400	IN	NSEC	youtube. NS DS RRSIG NSEC
 yokohama.		172800	IN	NS	a.gmoregistry.net.
 yokohama.		172800	IN	NS	b.gmoregistry.net.
 yokohama.		172800	IN	NS	c.gmoregistry.net.
 yokohama.		172800	IN	NS	d.gmoregistry.net.
 yokohama.		172800	IN	NS	e.gmoregistry.net.
+youtube.		86400	IN	NSEC	yt. NS DS RRSIG NSEC
+youtube.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+youtube.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+youtube.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+youtube.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+youtube.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 yt.			86400	IN	NSEC	za. NS DS RRSIG NSEC
 yt.			172800	IN	NS	d.ext.nic.fr.
 yt.			172800	IN	NS	d.nic.fr.
