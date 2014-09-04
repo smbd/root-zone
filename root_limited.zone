@@ -2162,12 +2162,17 @@ gmail.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-gmo.			86400	IN	NSEC	gn. NS DS RRSIG NSEC
+gmo.			86400	IN	NSEC	gmx. NS DS RRSIG NSEC
 gmo.			172800	IN	NS	a.gmoregistry.net.
 gmo.			172800	IN	NS	b.gmoregistry.net.
 gmo.			172800	IN	NS	c.gmoregistry.net.
 gmo.			172800	IN	NS	d.gmoregistry.net.
 gmo.			172800	IN	NS	e.gmoregistry.net.
+gmx.			86400	IN	NSEC	gn. NS DS RRSIG NSEC
+gmx.			172800	IN	NS	anycast9.irondns.net.
+gmx.			172800	IN	NS	anycast10.irondns.net.
+gmx.			172800	IN	NS	anycast23.irondns.net.
+gmx.			172800	IN	NS	anycast24.irondns.net.
 gn.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
@@ -4593,12 +4598,31 @@ pg.			172800	IN	NS	munnari.oz.au.
 ns1.unitech.ac.pg.	172800	IN	A	202.1.32.49
 ns1.tiare.net.pg.	172800	IN	A	202.165.192.23
 ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
-ph.			86400	IN	NSEC	photo. NS RRSIG NSEC
+ph.			86400	IN	NSEC	pharmacy. NS RRSIG NSEC
 ph.			172800	IN	NS	ph.cctld.authdns.ripe.net.
 ph.			172800	IN	NS	ph.communitydns.net.
 ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	sec4.apnic.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
+pharmacy.		86400	IN	NSEC	photo. NS DS RRSIG NSEC
+pharmacy.		172800	IN	NS	ns1.dns.nic.pharmacy.
+pharmacy.		172800	IN	NS	ns2.dns.nic.pharmacy.
+pharmacy.		172800	IN	NS	ns3.dns.nic.pharmacy.
+pharmacy.		172800	IN	NS	ns4.dns.nic.pharmacy.
+pharmacy.		172800	IN	NS	ns5.dns.nic.pharmacy.
+pharmacy.		172800	IN	NS	ns6.dns.nic.pharmacy.
+ns1.dns.nic.pharmacy.	172800	IN	AAAA	2610:a1:1071::87
+ns1.dns.nic.pharmacy.	172800	IN	A	156.154.144.135
+ns2.dns.nic.pharmacy.	172800	IN	AAAA	2610:a1:1072::87
+ns2.dns.nic.pharmacy.	172800	IN	A	156.154.145.135
+ns3.dns.nic.pharmacy.	172800	IN	AAAA	2610:a1:1073::87
+ns3.dns.nic.pharmacy.	172800	IN	A	156.154.159.135
+ns4.dns.nic.pharmacy.	172800	IN	AAAA	2610:a1:1074::87
+ns4.dns.nic.pharmacy.	172800	IN	A	156.154.156.135
+ns5.dns.nic.pharmacy.	172800	IN	AAAA	2610:a1:1075::87
+ns5.dns.nic.pharmacy.	172800	IN	A	156.154.157.135
+ns6.dns.nic.pharmacy.	172800	IN	AAAA	2610:a1:1076::87
+ns6.dns.nic.pharmacy.	172800	IN	A	156.154.158.135
 photo.			86400	IN	NSEC	photography. NS DS RRSIG NSEC
 photo.			172800	IN	NS	a.ns.uniregistry.net.
 photo.			172800	IN	NS	tld.isc-sns.com.
