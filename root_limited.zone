@@ -5532,14 +5532,18 @@ tax.			172800	IN	NS	demand.alpha.aridns.net.au.
 tax.			172800	IN	NS	demand.delta.aridns.net.au.
 tax.			172800	IN	NS	demand.gamma.aridns.net.au.
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
-tc.			172800	IN	NS	asia.zone.tc.
-tc.			172800	IN	NS	asia.zone.vg.
-tc.			172800	IN	NS	europe.zone.tc.
-tc.			172800	IN	NS	europe.zone.vg.
+tc.			172800	IN	NS	root1.zone.tc.
+tc.			172800	IN	NS	root2.zone.tc.
+tc.			172800	IN	NS	root3.zone.tc.
+tc.			172800	IN	NS	root4.zone.tc.
+tc.			172800	IN	NS	root5.zone.tc.
 tc.			172800	IN	NS	northamerica.zone.tc.
-asia.zone.tc.		172800	IN	A	31.169.81.225
-europe.zone.tc.		172800	IN	A	77.79.104.225
 northamerica.zone.tc.	172800	IN	A	166.78.254.145
+root1.zone.tc.		172800	IN	A	31.169.81.225
+root2.zone.tc.		172800	IN	A	77.79.104.226
+root3.zone.tc.		172800	IN	A	77.79.104.225
+root4.zone.tc.		172800	IN	A	31.169.81.226
+root5.zone.tc.		172800	IN	A	95.173.188.6
 td.			86400	IN	NSEC	technology. NS RRSIG NSEC
 td.			172800	IN	NS	ns1.nic.td.
 td.			172800	IN	NS	ns-td.nic.fr.
@@ -6022,11 +6026,9 @@ vet.			172800	IN	NS	demand.beta.aridns.net.au.
 vet.			172800	IN	NS	demand.alpha.aridns.net.au.
 vet.			172800	IN	NS	demand.delta.aridns.net.au.
 vet.			172800	IN	NS	demand.gamma.aridns.net.au.
+vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
 vg.			172800	IN	NS	vg-ns.anycast.pch.net.
 vg.			172800	IN	NS	vg-ns.ksregistry.net.
-vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
-asia.zone.vg.		172800	IN	A	31.169.81.226
-europe.zone.vg.		172800	IN	A	77.79.104.226
 vi.			86400	IN	NSEC	viajes. NS RRSIG NSEC
 vi.			172800	IN	NS	ns0.nic.vi.
 vi.			172800	IN	NS	ns1.nic.vi.
