@@ -6249,7 +6249,7 @@ c.nic.wiki.		172800	IN	AAAA	2001:678:5::2
 c.nic.wiki.		172800	IN	A	194.0.2.2
 d.nic.wiki.		172800	IN	AAAA	2001:678:4::2d
 d.nic.wiki.		172800	IN	A	194.0.1.45
-williamhill.		86400	IN	NSEC	works. NS DS RRSIG NSEC
+williamhill.		86400	IN	NSEC	wme. NS DS RRSIG NSEC
 williamhill.		172800	IN	NS	ns1.dns.nic.williamhill.
 williamhill.		172800	IN	NS	ns2.dns.nic.williamhill.
 williamhill.		172800	IN	NS	ns3.dns.nic.williamhill.
@@ -6268,6 +6268,19 @@ ns5.dns.nic.williamhill. 172800	IN	AAAA	2610:a1:1075::b5
 ns5.dns.nic.williamhill. 172800	IN	A	156.154.157.181
 ns6.dns.nic.williamhill. 172800	IN	AAAA	2610:a1:1076::b5
 ns6.dns.nic.williamhill. 172800	IN	A	156.154.158.181
+wme.			86400	IN	NSEC	works. NS DS RRSIG NSEC
+wme.			172800	IN	NS	a.nic.wme.
+wme.			172800	IN	NS	b.nic.wme.
+wme.			172800	IN	NS	c.nic.wme.
+wme.			172800	IN	NS	d.nic.wme.
+a.nic.wme.		172800	IN	AAAA	2001:67c:13cc::1:31
+a.nic.wme.		172800	IN	A	194.169.218.31
+b.nic.wme.		172800	IN	AAAA	2a04:2b00:13cc::1:31
+b.nic.wme.		172800	IN	A	185.24.64.31
+c.nic.wme.		172800	IN	AAAA	2001:678:5::2
+c.nic.wme.		172800	IN	A	194.0.2.2
+d.nic.wme.		172800	IN	AAAA	2001:678:4::2d
+d.nic.wme.		172800	IN	A	194.0.1.45
 works.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
 works.			172800	IN	NS	demand.beta.aridns.net.au.
 works.			172800	IN	NS	demand.alpha.aridns.net.au.
