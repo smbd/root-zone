@@ -160,6 +160,7 @@ aq.			172800	IN	NS	sns-pb.isc.org.
 ns1.dns.aq.		172800	IN	A	203.119.56.132
 ar.			86400	IN	NSEC	archi. NS RRSIG NSEC
 ar.			172800	IN	NS	a.dns.ar.
+ar.			172800	IN	NS	c.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
 ar.			172800	IN	NS	athea.ar.
@@ -169,6 +170,8 @@ athea.ar.		172800	IN	A	200.16.98.2
 ctina.ar.		172800	IN	A	200.16.97.17
 a.dns.ar.		172800	IN	AAAA	2801:140::10
 a.dns.ar.		172800	IN	A	200.108.145.50
+c.dns.ar.		172800	IN	AAAA	2801:140:10::10
+c.dns.ar.		172800	IN	A	200.108.148.50
 relay1.mecon.gov.ar.	172800	IN	A	168.101.16.10
 archi.			86400	IN	NSEC	army. NS DS RRSIG NSEC
 archi.			172800	IN	NS	ns1a.ksregistry.net.
@@ -804,11 +807,17 @@ k.ca-servers.ca.	172800	IN	A	156.154.100.4
 l.ca-servers.ca.	172800	IN	AAAA	2001:502:2eda::4
 l.ca-servers.ca.	172800	IN	A	156.154.101.4
 charles.cdec.polymtl.ca. 172800	IN	A	132.207.144.2
-cab.			86400	IN	NSEC	camera. NS DS RRSIG NSEC
+cab.			86400	IN	NSEC	cal. NS DS RRSIG NSEC
 cab.			172800	IN	NS	demand.beta.aridns.net.au.
 cab.			172800	IN	NS	demand.alpha.aridns.net.au.
 cab.			172800	IN	NS	demand.delta.aridns.net.au.
 cab.			172800	IN	NS	demand.gamma.aridns.net.au.
+cal.			86400	IN	NSEC	camera. NS DS RRSIG NSEC
+cal.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+cal.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+cal.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+cal.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+cal.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 camera.			86400	IN	NSEC	camp. NS DS RRSIG NSEC
 camera.			172800	IN	NS	demand.beta.aridns.net.au.
 camera.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -982,7 +991,7 @@ ch.			172800	IN	NS	d.nic.ch.
 ch.			172800	IN	NS	e.nic.ch.
 ch.			172800	IN	NS	f.nic.ch.
 ch.			172800	IN	NS	h.nic.ch.
-ch.			86400	IN	NSEC	cheap. NS DS RRSIG NSEC
+ch.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
 ns.itu.ch.		172800	IN	A	156.106.192.121
 a.nic.ch.		172800	IN	AAAA	2001:620::4
 a.nic.ch.		172800	IN	A	130.59.1.80
@@ -999,16 +1008,28 @@ f.nic.ch.		172800	IN	A	194.146.106.10
 h.nic.ch.		172800	IN	A	194.42.48.120
 ns2.switch.ch.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 ns2.switch.ch.		172800	IN	A	130.59.138.49
+channel.		86400	IN	NSEC	cheap. NS DS RRSIG NSEC
+channel.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+channel.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+channel.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+channel.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+channel.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 cheap.			86400	IN	NSEC	christmas. NS DS RRSIG NSEC
 cheap.			172800	IN	NS	demand.beta.aridns.net.au.
 cheap.			172800	IN	NS	demand.alpha.aridns.net.au.
 cheap.			172800	IN	NS	demand.delta.aridns.net.au.
 cheap.			172800	IN	NS	demand.gamma.aridns.net.au.
-christmas.		86400	IN	NSEC	church. NS DS RRSIG NSEC
+christmas.		86400	IN	NSEC	chrome. NS DS RRSIG NSEC
 christmas.		172800	IN	NS	a.ns.uniregistry.net.
 christmas.		172800	IN	NS	tld.isc-sns.com.
 christmas.		172800	IN	NS	tld.isc-sns.net.
 christmas.		172800	IN	NS	tld.isc-sns.info.
+chrome.			86400	IN	NSEC	church. NS DS RRSIG NSEC
+chrome.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+chrome.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+chrome.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+chrome.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+chrome.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 church.			86400	IN	NSEC	ci. NS DS RRSIG NSEC
 church.			172800	IN	NS	demand.beta.aridns.net.au.
 church.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1918,11 +1939,17 @@ flights.		172800	IN	NS	demand.beta.aridns.net.au.
 flights.		172800	IN	NS	demand.alpha.aridns.net.au.
 flights.		172800	IN	NS	demand.delta.aridns.net.au.
 flights.		172800	IN	NS	demand.gamma.aridns.net.au.
-florist.		86400	IN	NSEC	fm. NS DS RRSIG NSEC
+florist.		86400	IN	NSEC	fly. NS DS RRSIG NSEC
 florist.		172800	IN	NS	demand.beta.aridns.net.au.
 florist.		172800	IN	NS	demand.alpha.aridns.net.au.
 florist.		172800	IN	NS	demand.delta.aridns.net.au.
 florist.		172800	IN	NS	demand.gamma.aridns.net.au.
+fly.			86400	IN	NSEC	fm. NS DS RRSIG NSEC
+fly.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+fly.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+fly.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+fly.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+fly.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 fm.			86400	IN	NSEC	fo. NS RRSIG NSEC
 fm.			172800	IN	NS	tld1.ultradns.net.
 fm.			172800	IN	NS	tld2.ultradns.net.
@@ -2125,11 +2152,17 @@ b.nic.gl.		172800	IN	A	91.221.196.228
 d.nic.gl.		172800	IN	AAAA	2001:500:14:6049:ad::1
 d.nic.gl.		172800	IN	A	204.61.216.49
 a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
-glass.			86400	IN	NSEC	global. NS DS RRSIG NSEC
+glass.			86400	IN	NSEC	gle. NS DS RRSIG NSEC
 glass.			172800	IN	NS	demand.beta.aridns.net.au.
 glass.			172800	IN	NS	demand.alpha.aridns.net.au.
 glass.			172800	IN	NS	demand.delta.aridns.net.au.
 glass.			172800	IN	NS	demand.gamma.aridns.net.au.
+gle.			86400	IN	NSEC	global. NS DS RRSIG NSEC
+gle.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+gle.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+gle.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+gle.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+gle.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 global.			86400	IN	NSEC	globo. NS DS RRSIG NSEC
 global.			172800	IN	NS	a0.nic.global.
 global.			172800	IN	NS	a2.nic.global.
@@ -2173,11 +2206,17 @@ gmx.			172800	IN	NS	anycast9.irondns.net.
 gmx.			172800	IN	NS	anycast10.irondns.net.
 gmx.			172800	IN	NS	anycast23.irondns.net.
 gmx.			172800	IN	NS	anycast24.irondns.net.
-gn.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
+gn.			86400	IN	NSEC	google. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
 gn.			172800	IN	NS	hippo.ru.ac.za.
+google.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
+google.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+google.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+google.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+google.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+google.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 gop.			86400	IN	NSEC	gov. NS DS RRSIG NSEC
 gop.			172800	IN	NS	a.ns.nic.gop.
 gop.			172800	IN	NS	b.ns.nic.gop.
@@ -4196,12 +4235,18 @@ ns6.dns.nic.neustar.	172800	IN	AAAA	2610:a1:1021::250
 ns6.dns.nic.neustar.	172800	IN	A	198.133.199.250
 ns7.dns.nic.neustar.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 ns7.dns.nic.neustar.	172800	IN	A	207.34.5.10
-new.			86400	IN	NSEC	nf. NS DS RRSIG NSEC
+new.			86400	IN	NSEC	nexus. NS DS RRSIG NSEC
 new.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+nexus.			86400	IN	NSEC	nf. NS DS RRSIG NSEC
+nexus.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+nexus.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+nexus.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+nexus.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+nexus.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
 nf.			172800	IN	NS	ns.anycast.nic.nf.
 nf.			172800	IN	NS	nf1.dyntld.net.
@@ -4794,11 +4839,17 @@ prod.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 prod.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 prod.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 prod.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-productions.		86400	IN	NSEC	properties. NS DS RRSIG NSEC
+productions.		86400	IN	NSEC	prof. NS DS RRSIG NSEC
 productions.		172800	IN	NS	demand.beta.aridns.net.au.
 productions.		172800	IN	NS	demand.alpha.aridns.net.au.
 productions.		172800	IN	NS	demand.delta.aridns.net.au.
 productions.		172800	IN	NS	demand.gamma.aridns.net.au.
+prof.			86400	IN	NSEC	properties. NS DS RRSIG NSEC
+prof.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+prof.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+prof.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+prof.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+prof.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 properties.		86400	IN	NSEC	property. NS DS RRSIG NSEC
 properties.		172800	IN	NS	demand.beta.aridns.net.au.
 properties.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6936,7 +6987,7 @@ za.			172800	IN	NS	disa.tenet.ac.za.
 za.			172800	IN	NS	nsza.is.co.za.
 za.			172800	IN	NS	za-ns.anycast.pch.net.
 za.			172800	IN	NS	sns-pb.isc.org.
-za.			86400	IN	NSEC	zm. NS RRSIG NSEC
+za.			86400	IN	NSEC	zip. NS RRSIG NSEC
 hippo.ru.ac.za.		172800	IN	AAAA	2001:4200:1010::1
 hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 disa.tenet.ac.za.	172800	IN	AAAA	2001:4200:ffff:a::1
@@ -6945,6 +6996,12 @@ nsza.is.co.za.		172800	IN	A	196.4.160.27
 ns.coza.net.za.		172800	IN	AAAA	2001:43f8:30::200
 ns.coza.net.za.		172800	IN	A	206.223.136.200
 ns1.coza.net.za.	172800	IN	A	66.135.62.20
+zip.			86400	IN	NSEC	zm. NS DS RRSIG NSEC
+zip.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+zip.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+zip.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+zip.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+zip.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 zm.			86400	IN	NSEC	zone. NS RRSIG NSEC
 zm.			172800	IN	NS	ns1.zamnet.zm.
 zm.			172800	IN	NS	ns1.coppernet.zm.
