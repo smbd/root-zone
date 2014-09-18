@@ -3479,8 +3479,8 @@ mn.			172800	IN	NS	ns2.magic.mn.
 mn.			172800	IN	NS	ns3.magic.mn.
 mn.			172800	IN	NS	ns4.magic.mn.
 mn.			86400	IN	NSEC	mo. NS DS RRSIG NSEC
-ns1.idn.mn.		172800	IN	A	202.170.80.40
-ns2.idn.mn.		172800	IN	A	202.131.0.11
+ns1.idn.mn.		172800	IN	A	218.100.84.27
+ns2.idn.mn.		172800	IN	A	202.170.80.40
 ns3.idn.mn.		172800	IN	A	202.180.216.18
 ns1.magic.mn.		172800	IN	A	202.131.0.10
 ns2.magic.mn.		172800	IN	A	202.72.241.5
@@ -6334,11 +6334,16 @@ c.nic.wme.		172800	IN	AAAA	2001:678:5::2
 c.nic.wme.		172800	IN	A	194.0.2.2
 d.nic.wme.		172800	IN	AAAA	2001:678:4::2d
 d.nic.wme.		172800	IN	A	194.0.1.45
-works.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
+works.			86400	IN	NSEC	world. NS DS RRSIG NSEC
 works.			172800	IN	NS	demand.beta.aridns.net.au.
 works.			172800	IN	NS	demand.alpha.aridns.net.au.
 works.			172800	IN	NS	demand.delta.aridns.net.au.
 works.			172800	IN	NS	demand.gamma.aridns.net.au.
+world.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
+world.			172800	IN	NS	demand.beta.aridns.net.au.
+world.			172800	IN	NS	demand.alpha.aridns.net.au.
+world.			172800	IN	NS	demand.delta.aridns.net.au.
+world.			172800	IN	NS	demand.gamma.aridns.net.au.
 ws.			86400	IN	NSEC	wtc. NS RRSIG NSEC
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
