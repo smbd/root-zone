@@ -2249,15 +2249,21 @@ gp.			172800	IN	NS	ns1.orangecaraibe.com.
 ns1.nic.gp.		172800	IN	A	193.218.114.2
 gq.			86400	IN	NSEC	gr. NS RRSIG NSEC
 gq.			172800	IN	NS	a.gq.globalanycastcloud.freenom.net.
+gq.			172800	IN	NS	a.ns.gq.
 gq.			172800	IN	NS	b.gq.globalanycastcloud.freenom.net.
+gq.			172800	IN	NS	b.ns.gq.
 gq.			172800	IN	NS	c.gq.globalanycastcloud.freenom.net.
+gq.			172800	IN	NS	c.ns.gq.
 gq.			172800	IN	NS	d.gq.globalanycastcloud.freenom.net.
-gq.			172800	IN	NS	ns.ucad.sn.
-gq.			172800	IN	NS	bow.intnet.gq.
-gq.			172800	IN	NS	dns.intnet.gq.
-gq.			172800	IN	NS	phloem.uoregon.edu.
-bow.intnet.gq.		172800	IN	A	193.251.153.78
-dns.intnet.gq.		172800	IN	A	193.251.153.67
+gq.			172800	IN	NS	d.ns.gq.
+a.ns.gq.		172800	IN	AAAA	2a04:1b00:10::1
+a.ns.gq.		172800	IN	A	185.21.168.65
+b.ns.gq.		172800	IN	AAAA	2a04:1b00:11::1
+b.ns.gq.		172800	IN	A	185.21.169.65
+c.ns.gq.		172800	IN	AAAA	2a04:1b00:12::1
+c.ns.gq.		172800	IN	A	185.21.170.65
+d.ns.gq.		172800	IN	AAAA	2a04:1b00:13::1
+d.ns.gq.		172800	IN	A	185.21.171.65
 gr.			86400	IN	NSEC	graphics. NS DS RRSIG NSEC
 gr.			172800	IN	NS	gr-m.ics.forth.gr.
 gr.			172800	IN	NS	estia.ics.forth.gr.
@@ -5723,7 +5729,7 @@ tm.			172800	IN	NS	b.ns13.net.
 tm.			172800	IN	NS	ns1.communitydns.net.
 tm.			172800	IN	NS	ns3.icb.co.uk.
 a.nic.tm.		172800	IN	A	64.251.31.180
-tn.			86400	IN	NSEC	to. NS RRSIG NSEC
+tn.			86400	IN	NSEC	to. NS DS RRSIG NSEC
 tn.			172800	IN	NS	ns1.ati.tn.
 tn.			172800	IN	NS	ns2.ati.tn.
 tn.			172800	IN	NS	ns2.nic.fr.
@@ -6816,7 +6822,7 @@ xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
-xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS RRSIG NSEC
+xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS DS RRSIG NSEC
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
