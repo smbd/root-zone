@@ -1671,10 +1671,15 @@ domains.		172800	IN	NS	demand.beta.aridns.net.au.
 domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
 domains.		172800	IN	NS	demand.gamma.aridns.net.au.
-durban.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
+durban.			86400	IN	NSEC	dvag. NS DS RRSIG NSEC
 durban.			172800	IN	NS	ns.coza.net.za.
 durban.			172800	IN	NS	ns1.coza.net.za.
 durban.			172800	IN	NS	coza1.dnsnode.net.
+dvag.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
+dvag.			172800	IN	NS	ns1a.ksregistry.net.
+dvag.			172800	IN	NS	ns1b.ksregistry.net.
+dvag.			172800	IN	NS	ns2a.ksregistry.com.
+dvag.			172800	IN	NS	ns2b.ksregistry.com.
 dz.			172800	IN	NS	dz.cctld.authdns.ripe.net.
 dz.			172800	IN	NS	ns1.nic.dz.
 dz.			172800	IN	NS	ns2.nic.dz.
@@ -3852,6 +3857,8 @@ ns34.cdns.net.		172800	IN	A	194.0.1.34
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns.cernet.net.		172800	IN	A	202.112.0.44
+tld1.coccaregistry.net.	172800	IN	AAAA	2620:171:a01:ad::2
+tld1.coccaregistry.net.	172800	IN	A	72.0.49.2
 lk.communitydns.net.	172800	IN	A	194.0.1.27
 ns1.communitydns.net.	172800	IN	AAAA	2001:678:4::1
 ns1.communitydns.net.	172800	IN	A	194.0.1.1
@@ -4580,6 +4587,8 @@ d0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a3::1
 d0.xxx.afilias-nst.org.	172800	IN	A	199.115.155.1
 c.ci-servers.org.	172800	IN	AAAA	2001:67c:1010:22::53
 c.ci-servers.org.	172800	IN	A	194.146.106.86
+tld1.coccaregistry.org.	172800	IN	AAAA	2620:171:d01:dc::2
+tld1.coccaregistry.org.	172800	IN	A	72.42.113.2
 ns.icann.org.		172800	IN	AAAA	2001:500:89::53
 ns.icann.org.		172800	IN	A	199.4.138.53
 ns-ext.isc.org.		172800	IN	AAAA	2001:4f8:0:2::13
@@ -4790,13 +4799,18 @@ pm.			172800	IN	NS	d.nic.fr.
 pm.			172800	IN	NS	e.ext.nic.fr.
 pm.			172800	IN	NS	f.ext.nic.fr.
 pm.			172800	IN	NS	g.ext.nic.fr.
-pn.			86400	IN	NSEC	post. NS RRSIG NSEC
+pn.			86400	IN	NSEC	pohl. NS RRSIG NSEC
 pn.			172800	IN	NS	ns0.pitcairn.net.pn.
 pn.			172800	IN	NS	ns2.pitcairn.net.pn.
 pn.			172800	IN	NS	fork.sth.dnsnode.net.
 pn.			172800	IN	NS	sns-pb.isc.org.
 ns0.pitcairn.net.pn.	172800	IN	A	173.230.153.180
 ns2.pitcairn.net.pn.	172800	IN	A	80.68.93.100
+pohl.			86400	IN	NSEC	post. NS DS RRSIG NSEC
+pohl.			172800	IN	NS	ns1a.ksregistry.net.
+pohl.			172800	IN	NS	ns1b.ksregistry.net.
+pohl.			172800	IN	NS	ns2a.ksregistry.com.
+pohl.			172800	IN	NS	ns2b.ksregistry.com.
 post.			86400	IN	NSEC	pr. NS DS RRSIG NSEC
 post.			172800	IN	NS	a0.post.afilias-nst.info.
 post.			172800	IN	NS	a2.post.afilias-nst.info.
@@ -5843,7 +5857,7 @@ d.gtld.travel.		172800	IN	AAAA	2001:502:2eda::1
 d.gtld.travel.		172800	IN	A	156.154.103.1
 e.gtld.travel.		172800	IN	A	156.154.104.1
 f.gtld.travel.		172800	IN	A	156.154.105.1
-tt.			86400	IN	NSEC	tv. NS DS RRSIG NSEC
+tt.			86400	IN	NSEC	tui. NS DS RRSIG NSEC
 tt.			172800	IN	NS	ns3.nic.mx.
 tt.			172800	IN	NS	pch.nic.tt.
 tt.			172800	IN	NS	ripe.nic.tt.
@@ -5852,6 +5866,11 @@ pch.nic.tt.		172800	IN	AAAA	2001:500:14:6063:ad::1
 pch.nic.tt.		172800	IN	A	204.61.216.63
 ripe.nic.tt.		172800	IN	AAAA	2001:67c:e0::50
 ripe.nic.tt.		172800	IN	A	193.0.9.50
+tui.			86400	IN	NSEC	tv. NS DS RRSIG NSEC
+tui.			172800	IN	NS	ns1a.ksregistry.net.
+tui.			172800	IN	NS	ns1b.ksregistry.net.
+tui.			172800	IN	NS	ns2a.ksregistry.com.
+tui.			172800	IN	NS	ns2b.ksregistry.com.
 tv.			86400	IN	NSEC	tw. NS DS RRSIG NSEC
 tv.			172800	IN	NS	a5.nstld.com.
 tv.			172800	IN	NS	c5.nstld.com.
@@ -6811,11 +6830,17 @@ xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS DS RRSIG NSEC
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
 xn--o3cw4h.		172800	IN	NS	ns-a.thnic.co.th.
-xn--ogbpf8fl.		86400	IN	NSEC	xn--p1ai. NS RRSIG NSEC
+xn--ogbpf8fl.		86400	IN	NSEC	xn--p1acf. NS RRSIG NSEC
 xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
+xn--p1acf.		86400	IN	NSEC	xn--p1ai. NS DS RRSIG NSEC
+xn--p1acf.		172800	IN	NS	tld.isc-sns.com.
+xn--p1acf.		172800	IN	NS	tld.isc-sns.net.
+xn--p1acf.		172800	IN	NS	tld.isc-sns.info.
+xn--p1acf.		172800	IN	NS	tld1.coccaregistry.net.
+xn--p1acf.		172800	IN	NS	tld1.coccaregistry.org.
 xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS DS RRSIG NSEC
 xn--p1ai.		172800	IN	NS	a.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
@@ -6871,11 +6896,21 @@ xn--ses554g.		172800	IN	NS	e.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	g.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	i.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	j.zdnscloud.com.
-xn--unup4y.		86400	IN	NSEC	xn--vhquv. NS DS RRSIG NSEC
+xn--unup4y.		86400	IN	NSEC	xn--vermgensberater-ctb. NS DS RRSIG NSEC
 xn--unup4y.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.delta.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.gamma.aridns.net.au.
+xn--vermgensberater-ctb. 86400	IN	NSEC	xn--vermgensberatung-pwb. NS DS RRSIG NSEC
+xn--vermgensberater-ctb. 172800	IN	NS	ns1a.ksregistry.net.
+xn--vermgensberater-ctb. 172800	IN	NS	ns1b.ksregistry.net.
+xn--vermgensberater-ctb. 172800	IN	NS	ns2a.ksregistry.com.
+xn--vermgensberater-ctb. 172800	IN	NS	ns2b.ksregistry.com.
+xn--vermgensberatung-pwb. 86400	IN	NSEC	xn--vhquv. NS DS RRSIG NSEC
+xn--vermgensberatung-pwb. 172800 IN	NS	ns1a.ksregistry.net.
+xn--vermgensberatung-pwb. 172800 IN	NS	ns1b.ksregistry.net.
+xn--vermgensberatung-pwb. 172800 IN	NS	ns2a.ksregistry.com.
+xn--vermgensberatung-pwb. 172800 IN	NS	ns2b.ksregistry.com.
 xn--vhquv.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--vhquv.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.alpha.aridns.net.au.
