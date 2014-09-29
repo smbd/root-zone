@@ -3359,13 +3359,13 @@ ns2.nic.mc.		172800	IN	A	85.31.217.131
 md.			86400	IN	NSEC	me. NS RRSIG NSEC
 md.			172800	IN	NS	md.cctld.authdns.ripe.net.
 md.			172800	IN	NS	nsb.dns.md.
-md.			172800	IN	NS	nsc.dns.md.
+md.			172800	IN	NS	nsf.dns.md.
 md.			172800	IN	NS	dns-md.rotld.ro.
 md.			172800	IN	NS	ns-ext.isc.org.
 md.			172800	IN	NS	ns-int.dns.md.
 ns-int.dns.md.		172800	IN	A	217.26.144.5
 nsb.dns.md.		172800	IN	A	217.26.144.15
-nsc.dns.md.		172800	IN	A	95.65.9.3
+nsf.dns.md.		172800	IN	A	86.106.212.21
 me.			86400	IN	NSEC	media. NS DS RRSIG NSEC
 me.			172800	IN	NS	a0.cctld.afilias-nst.info.
 me.			172800	IN	NS	a2.me.afilias-nst.info.
