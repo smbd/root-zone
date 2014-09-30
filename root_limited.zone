@@ -117,13 +117,18 @@ airforce.		172800	IN	NS	demand.beta.aridns.net.au.
 airforce.		172800	IN	NS	demand.alpha.aridns.net.au.
 airforce.		172800	IN	NS	demand.delta.aridns.net.au.
 airforce.		172800	IN	NS	demand.gamma.aridns.net.au.
-al.			86400	IN	NSEC	am. NS RRSIG NSEC
+al.			86400	IN	NSEC	allfinanz. NS RRSIG NSEC
 al.			172800	IN	NS	al.cctld.authdns.ripe.net.
 al.			172800	IN	NS	ns1.nic.al.
 al.			172800	IN	NS	rip.psg.com.
 al.			172800	IN	NS	ns-al.isti.cnr.it.
 al.			172800	IN	NS	munnari.oz.au.
 ns1.nic.al.		172800	IN	A	194.1.149.230
+allfinanz.		86400	IN	NSEC	am. NS DS RRSIG NSEC
+allfinanz.		172800	IN	NS	ns1a.ksregistry.net.
+allfinanz.		172800	IN	NS	ns1b.ksregistry.net.
+allfinanz.		172800	IN	NS	ns2a.ksregistry.com.
+allfinanz.		172800	IN	NS	ns2b.ksregistry.com.
 am.			86400	IN	NSEC	an. NS DS RRSIG NSEC
 am.			172800	IN	NS	am.cctld.authdns.ripe.net.
 am.			172800	IN	NS	rip.psg.com.
@@ -1989,12 +1994,17 @@ copenhagen.nic.fo.	172800	IN	A	193.163.102.12
 frankfurt.nic.fo.	172800	IN	A	81.91.161.88
 pch.nic.fo.		172800	IN	AAAA	2001:500:14:6065:ad::1
 pch.nic.fo.		172800	IN	A	204.61.216.65
-foo.			86400	IN	NSEC	foundation. NS DS RRSIG NSEC
+foo.			86400	IN	NSEC	forsale. NS DS RRSIG NSEC
 foo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+forsale.		86400	IN	NSEC	foundation. NS DS RRSIG NSEC
+forsale.		172800	IN	NS	demand.beta.aridns.net.au.
+forsale.		172800	IN	NS	demand.alpha.aridns.net.au.
+forsale.		172800	IN	NS	demand.delta.aridns.net.au.
+forsale.		172800	IN	NS	demand.gamma.aridns.net.au.
 foundation.		86400	IN	NSEC	fr. NS DS RRSIG NSEC
 foundation.		172800	IN	NS	demand.beta.aridns.net.au.
 foundation.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2253,13 +2263,9 @@ gp.			172800	IN	NS	ns1.nic.gp.
 gp.			172800	IN	NS	ns1.orangecaraibe.com.
 ns1.nic.gp.		172800	IN	A	193.218.114.2
 gq.			86400	IN	NSEC	gr. NS RRSIG NSEC
-gq.			172800	IN	NS	a.gq.globalanycastcloud.freenom.net.
 gq.			172800	IN	NS	a.ns.gq.
-gq.			172800	IN	NS	b.gq.globalanycastcloud.freenom.net.
 gq.			172800	IN	NS	b.ns.gq.
-gq.			172800	IN	NS	c.gq.globalanycastcloud.freenom.net.
 gq.			172800	IN	NS	c.ns.gq.
-gq.			172800	IN	NS	d.gq.globalanycastcloud.freenom.net.
 gq.			172800	IN	NS	d.ns.gq.
 a.ns.gq.		172800	IN	AAAA	2a04:1b00:10::1
 a.ns.gq.		172800	IN	A	185.21.168.65
@@ -2537,7 +2543,7 @@ ht.			172800	IN	NS	dns.princeton.edu.
 ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
 ht.			172800	IN	NS	charles.cdec.polymtl.ca.
-hu.			86400	IN	NSEC	id. NS RRSIG NSEC
+hu.			86400	IN	NSEC	ibm. NS RRSIG NSEC
 hu.			172800	IN	NS	a.hu.
 hu.			172800	IN	NS	b.hu.
 hu.			172800	IN	NS	c.hu.
@@ -2555,6 +2561,19 @@ e.hu.			172800	IN	AAAA	2001:678:20::11
 e.hu.			172800	IN	A	194.0.25.11
 ns-com.nic.hu.		172800	IN	AAAA	2001:678:4::c
 ns-com.nic.hu.		172800	IN	A	194.0.1.12
+ibm.			86400	IN	NSEC	id. NS DS RRSIG NSEC
+ibm.			172800	IN	NS	a.nic.ibm.
+ibm.			172800	IN	NS	b.nic.ibm.
+ibm.			172800	IN	NS	c.nic.ibm.
+ibm.			172800	IN	NS	d.nic.ibm.
+a.nic.ibm.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.ibm.		172800	IN	A	37.209.192.9
+b.nic.ibm.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.ibm.		172800	IN	A	37.209.194.9
+c.nic.ibm.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.ibm.		172800	IN	A	37.209.196.9
+d.nic.ibm.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.ibm.		172800	IN	A	37.209.198.9
 id.			86400	IN	NSEC	ie. NS RRSIG NSEC
 id.			172800	IN	NS	g.dns.id.
 id.			172800	IN	NS	ns1.id.
@@ -3941,14 +3960,6 @@ g.edu-servers.net.	172800	IN	A	192.42.93.30
 l.edu-servers.net.	172800	IN	A	192.41.162.30
 ns3.ns.esat.net.	172800	IN	AAAA	2001:7c8:2:a::64
 ns3.ns.esat.net.	172800	IN	A	192.111.39.100
-a.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:8::2
-a.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.168.34
-b.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:9::2
-b.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.169.34
-c.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:a::2
-c.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.170.34
-d.gq.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:b::2
-d.gq.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.34
 tld.gdns.net.		172800	IN	A	68.178.129.149
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gmoregistry.net.	172800	IN	AAAA	2001:470:1a::9
