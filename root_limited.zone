@@ -640,10 +640,15 @@ bmw.			172800	IN	NS	ns2a.ksregistry.com.
 bmw.			172800	IN	NS	ns2b.ksregistry.com.
 bn.			86400	IN	NSEC	bnpparibas. NS RRSIG NSEC
 bn.			172800	IN	NS	jtb.brunet.bn.
+bn.			172800	IN	NS	ns1.bnnic.bn.
+bn.			172800	IN	NS	ns2.bnnic.bn.
 bn.			172800	IN	NS	ns2.brunet.bn.
-bn.			172800	IN	NS	ns-bn.ripe.net.
+bn.			172800	IN	NS	sec4.apnic.net.
+bn.			172800	IN	NS	bn-ns.anycast.pch.net.
 bn.			172800	IN	NS	dns1-tl.brunet.bn.
 bn.			172800	IN	NS	dns2-tl.brunet.bn.
+ns1.bnnic.bn.		172800	IN	A	194.0.1.33
+ns2.bnnic.bn.		172800	IN	A	202.93.214.163
 dns1-tl.brunet.bn.	172800	IN	A	202.160.9.9
 dns2-tl.brunet.bn.	172800	IN	A	202.160.9.10
 jtb.brunet.bn.		172800	IN	A	202.160.8.2
@@ -4062,6 +4067,8 @@ server.nordu.net.	172800	IN	A	193.10.252.19
 a.ns13.net.		172800	IN	A	49.212.31.192
 b.ns13.net.		172800	IN	A	49.212.51.85
 ns.ntamar.net.		172800	IN	A	117.103.88.33
+bn-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6087:ad::1
+bn-ns.anycast.pch.net.	172800	IN	A	204.61.216.87
 cl-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6030:ad::1
 cl-ns.anycast.pch.net.	172800	IN	A	204.61.216.30
 cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad::1
@@ -4214,7 +4221,6 @@ vn.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::126
 vn.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.126
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0::4
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
-ns-bn.ripe.net.		172800	IN	A	193.0.12.33
 ns-kh.ripe.net.		172800	IN	A	193.0.12.37
 a.dns.ripn.net.		172800	IN	AAAA	2001:678:17:0:193:232:128:6
 a.dns.ripn.net.		172800	IN	A	193.232.128.6
