@@ -1503,11 +1503,16 @@ ns.dns.cv.		172800	IN	A	41.221.192.220
 cw.			86400	IN	NSEC	cx. NS RRSIG NSEC
 cw.			172800	IN	NS	cw.cctld.authdns.ripe.net.
 cw.			172800	IN	NS	ns0.ja.net.
-cw.			172800	IN	NS	engine0.una.an.
-cw.			172800	IN	NS	engine2.una.an.
-cw.			172800	IN	NS	engine3.una.an.
-cw.			172800	IN	NS	kadushi.curinfo.an.
-cw.			172800	IN	NS	ns01-server.curinfo.an.
+cw.			172800	IN	NS	ns1.uoc.cw.
+cw.			172800	IN	NS	engine0.una.cw.
+cw.			172800	IN	NS	engine2.una.cw.
+cw.			172800	IN	NS	kadushi.curinfo.cw.
+cw.			172800	IN	NS	ns01-server.curinfo.cw.
+kadushi.curinfo.cw.	172800	IN	A	65.208.122.63
+ns01-server.curinfo.cw.	172800	IN	A	65.208.122.36
+engine0.una.cw.		172800	IN	A	200.26.199.99
+engine2.una.cw.		172800	IN	A	65.174.238.100
+ns1.uoc.cw.		172800	IN	A	198.93.177.21
 cx.			86400	IN	NSEC	cy. NS DS RRSIG NSEC
 cx.			172800	IN	NS	ns.anycast.nic.cx.
 cx.			172800	IN	NS	cx1.dyntld.net.
