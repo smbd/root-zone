@@ -1792,11 +1792,24 @@ ns1.dotmasr.eg.		172800	IN	A	81.21.97.155
 ns2.dotmasr.eg.		172800	IN	A	81.21.99.11
 ns3.dotmasr.eg.		172800	IN	A	81.10.38.11
 frcu.eun.eg.		172800	IN	A	193.227.1.1
-email.			86400	IN	NSEC	engineer. NS DS RRSIG NSEC
+email.			86400	IN	NSEC	emerck. NS DS RRSIG NSEC
 email.			172800	IN	NS	demand.beta.aridns.net.au.
 email.			172800	IN	NS	demand.alpha.aridns.net.au.
 email.			172800	IN	NS	demand.delta.aridns.net.au.
 email.			172800	IN	NS	demand.gamma.aridns.net.au.
+emerck.			86400	IN	NSEC	engineer. NS DS RRSIG NSEC
+emerck.			172800	IN	NS	a0.nic.emerck.
+emerck.			172800	IN	NS	a2.nic.emerck.
+emerck.			172800	IN	NS	b0.nic.emerck.
+emerck.			172800	IN	NS	c0.nic.emerck.
+a0.nic.emerck.		172800	IN	AAAA	2a01:8840:9a::1
+a0.nic.emerck.		172800	IN	A	65.22.156.1
+a2.nic.emerck.		172800	IN	AAAA	2a01:8840:9d::1
+a2.nic.emerck.		172800	IN	A	65.22.159.1
+b0.nic.emerck.		172800	IN	AAAA	2a01:8840:9b::1
+b0.nic.emerck.		172800	IN	A	65.22.157.1
+c0.nic.emerck.		172800	IN	AAAA	2a01:8840:9c::1
+c0.nic.emerck.		172800	IN	A	65.22.158.1
 engineer.		86400	IN	NSEC	engineering. NS DS RRSIG NSEC
 engineer.		172800	IN	NS	demand.beta.aridns.net.au.
 engineer.		172800	IN	NS	demand.alpha.aridns.net.au.
