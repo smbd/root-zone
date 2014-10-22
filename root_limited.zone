@@ -5682,11 +5682,30 @@ systems.		172800	IN	NS	demand.beta.aridns.net.au.
 systems.		172800	IN	NS	demand.alpha.aridns.net.au.
 systems.		172800	IN	NS	demand.delta.aridns.net.au.
 systems.		172800	IN	NS	demand.gamma.aridns.net.au.
-sz.			86400	IN	NSEC	tatar. NS RRSIG NSEC
+sz.			86400	IN	NSEC	taipei. NS RRSIG NSEC
 sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
 sz.			172800	IN	NS	ns1.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
 ns1.sispa.org.sz.	172800	IN	A	41.77.232.4
+taipei.			86400	IN	NSEC	tatar. NS DS RRSIG NSEC
+taipei.			172800	IN	NS	ns1.dns.nic.taipei.
+taipei.			172800	IN	NS	ns2.dns.nic.taipei.
+taipei.			172800	IN	NS	ns3.dns.nic.taipei.
+taipei.			172800	IN	NS	ns4.dns.nic.taipei.
+taipei.			172800	IN	NS	ns5.dns.nic.taipei.
+taipei.			172800	IN	NS	ns6.dns.nic.taipei.
+ns1.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1071::9c
+ns1.dns.nic.taipei.	172800	IN	A	156.154.144.156
+ns2.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1072::9c
+ns2.dns.nic.taipei.	172800	IN	A	156.154.145.156
+ns3.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1073::9c
+ns3.dns.nic.taipei.	172800	IN	A	156.154.159.156
+ns4.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1074::9c
+ns4.dns.nic.taipei.	172800	IN	A	156.154.156.156
+ns5.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1075::9c
+ns5.dns.nic.taipei.	172800	IN	A	156.154.157.156
+ns6.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1076::9c
+ns6.dns.nic.taipei.	172800	IN	A	156.154.158.156
 tatar.			86400	IN	NSEC	tattoo. NS DS RRSIG NSEC
 tatar.			172800	IN	NS	a.dns.ripn.net.
 tatar.			172800	IN	NS	b.dns.ripn.net.
