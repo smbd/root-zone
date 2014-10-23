@@ -1673,8 +1673,8 @@ l.nic.dk.		172800	IN	AAAA	2001:7f8:1f::1835:242:0
 l.nic.dk.		172800	IN	A	192.38.7.242
 p.nic.dk.		172800	IN	AAAA	2001:678:78:42:ad::53
 p.nic.dk.		172800	IN	A	194.0.47.42
-s.nic.dk.		172800	IN	AAAA	2a01:3f0:0:303::53
-s.nic.dk.		172800	IN	A	77.72.229.252
+s.nic.dk.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:15
+s.nic.dk.		172800	IN	A	193.176.144.15
 dm.			86400	IN	NSEC	dnp. NS RRSIG NSEC
 dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
@@ -1849,8 +1849,6 @@ a.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:41
 a.nic.es.		172800	IN	A	194.69.254.1
 f.nic.es.		172800	IN	AAAA	2001:720:418:caf1::2
 f.nic.es.		172800	IN	A	130.206.1.2
-n3ns.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:42
-n3ns.nic.es.		172800	IN	A	194.69.254.42
 ad.ns.nic.es.		172800	IN	A	194.69.254.15
 ns1.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:41
 ns1.nic.es.		172800	IN	A	194.69.254.1
@@ -2581,7 +2579,6 @@ how.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 how.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 hr.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
 hr.			172800	IN	NS	pch.carnet.hr.
-hr.			172800	IN	NS	n3ns.nic.es.
 hr.			172800	IN	NS	dns-hr.univie.ac.at.
 hr.			172800	IN	NS	sns-pb.isc.org.
 hr.			172800	IN	NS	hr-ns-1.carnet.hr.
@@ -4014,6 +4011,14 @@ g.edu-servers.net.	172800	IN	A	192.42.93.30
 l.edu-servers.net.	172800	IN	A	192.41.162.30
 ns3.ns.esat.net.	172800	IN	AAAA	2001:7c8:2:a::64
 ns3.ns.esat.net.	172800	IN	A	192.111.39.100
+a.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:8::4
+a.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.168.36
+b.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:9::4
+b.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.169.36
+c.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:a::4
+c.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.170.36
+d.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:b::4
+d.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.36
 tld.gdns.net.		172800	IN	A	68.178.129.149
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gmoregistry.net.	172800	IN	AAAA	2001:470:1a::9
@@ -4105,6 +4110,8 @@ na-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6035:ad::1
 na-ns.anycast.pch.net.	172800	IN	A	204.61.216.35
 np-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6011:ad::1
 np-ns.anycast.pch.net.	172800	IN	A	204.61.216.11
+xn--node.ns.anycast.pch.net. 172800 IN	AAAA	2001:500:14:6088:ad::1
+xn--node.ns.anycast.pch.net. 172800 IN	A	204.61.216.88
 pr-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6023:ad::1
 pr-ns.anycast.pch.net.	172800	IN	A	204.61.216.23
 ps-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6029:ad::1
@@ -6696,12 +6703,17 @@ xn--czru2d.		172800	IN	NS	f.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	g.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	i.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	j.zdnscloud.com.
-xn--d1acj3b.		86400	IN	NSEC	xn--fiq228c5hs. NS DS RRSIG NSEC
+xn--d1acj3b.		86400	IN	NSEC	xn--d1alf. NS DS RRSIG NSEC
 xn--d1acj3b.		172800	IN	NS	a.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	b.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	d.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	e.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	f.dns.ripn.net.
+xn--d1alf.		86400	IN	NSEC	xn--fiq228c5hs. NS RRSIG NSEC
+xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
+xn--d1alf.		172800	IN	NS	ns2.arnes.si.
+xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
+xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
 xn--fiq228c5hs.		86400	IN	NSEC	xn--fiq64b. NS DS RRSIG NSEC
 xn--fiq228c5hs.		172800	IN	NS	a0.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	a2.nic.xn--fiq228c5hs.
@@ -6896,7 +6908,7 @@ xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
-xn--ngbc5azd.		86400	IN	NSEC	xn--nqv7f. NS DS RRSIG NSEC
+xn--ngbc5azd.		86400	IN	NSEC	xn--node. NS DS RRSIG NSEC
 xn--ngbc5azd.		172800	IN	NS	a.nic.xn--ngbc5azd.
 xn--ngbc5azd.		172800	IN	NS	b.nic.xn--ngbc5azd.
 xn--ngbc5azd.		172800	IN	NS	c.nic.xn--ngbc5azd.
@@ -6909,6 +6921,12 @@ c.nic.xn--ngbc5azd.	172800	IN	AAAA	2001:dcd:3::3
 c.nic.xn--ngbc5azd.	172800	IN	A	37.209.196.3
 d.nic.xn--ngbc5azd.	172800	IN	AAAA	2001:dcd:4::3
 d.nic.xn--ngbc5azd.	172800	IN	A	37.209.198.3
+xn--node.		86400	IN	NSEC	xn--nqv7f. NS RRSIG NSEC
+xn--node.		172800	IN	NS	a.xn--node.globalanycastcloud.freenom.net.
+xn--node.		172800	IN	NS	b.xn--node.globalanycastcloud.freenom.net.
+xn--node.		172800	IN	NS	c.xn--node.globalanycastcloud.freenom.net.
+xn--node.		172800	IN	NS	d.xn--node.globalanycastcloud.freenom.net.
+xn--node.		172800	IN	NS	xn--node.ns.anycast.pch.net.
 xn--nqv7f.		86400	IN	NSEC	xn--nqv7fs00ema. NS DS RRSIG NSEC
 xn--nqv7f.		172800	IN	NS	a0.nic.xn--nqv7f.
 xn--nqv7f.		172800	IN	NS	a2.nic.xn--nqv7f.
