@@ -1599,11 +1599,16 @@ deals.			172800	IN	NS	demand.beta.aridns.net.au.
 deals.			172800	IN	NS	demand.alpha.aridns.net.au.
 deals.			172800	IN	NS	demand.delta.aridns.net.au.
 deals.			172800	IN	NS	demand.gamma.aridns.net.au.
-degree.			86400	IN	NSEC	democrat. NS DS RRSIG NSEC
+degree.			86400	IN	NSEC	delivery. NS DS RRSIG NSEC
 degree.			172800	IN	NS	demand.beta.aridns.net.au.
 degree.			172800	IN	NS	demand.alpha.aridns.net.au.
 degree.			172800	IN	NS	demand.delta.aridns.net.au.
 degree.			172800	IN	NS	demand.gamma.aridns.net.au.
+delivery.		86400	IN	NSEC	democrat. NS DS RRSIG NSEC
+delivery.		172800	IN	NS	demand.beta.aridns.net.au.
+delivery.		172800	IN	NS	demand.alpha.aridns.net.au.
+delivery.		172800	IN	NS	demand.delta.aridns.net.au.
+delivery.		172800	IN	NS	demand.gamma.aridns.net.au.
 democrat.		86400	IN	NSEC	dental. NS DS RRSIG NSEC
 democrat.		172800	IN	NS	demand.beta.aridns.net.au.
 democrat.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1797,7 +1802,7 @@ email.			172800	IN	NS	demand.beta.aridns.net.au.
 email.			172800	IN	NS	demand.alpha.aridns.net.au.
 email.			172800	IN	NS	demand.delta.aridns.net.au.
 email.			172800	IN	NS	demand.gamma.aridns.net.au.
-emerck.			86400	IN	NSEC	engineer. NS DS RRSIG NSEC
+emerck.			86400	IN	NSEC	energy. NS DS RRSIG NSEC
 emerck.			172800	IN	NS	a0.nic.emerck.
 emerck.			172800	IN	NS	a2.nic.emerck.
 emerck.			172800	IN	NS	b0.nic.emerck.
@@ -1810,6 +1815,11 @@ b0.nic.emerck.		172800	IN	AAAA	2a01:8840:9b::1
 b0.nic.emerck.		172800	IN	A	65.22.157.1
 c0.nic.emerck.		172800	IN	AAAA	2a01:8840:9c::1
 c0.nic.emerck.		172800	IN	A	65.22.158.1
+energy.			86400	IN	NSEC	engineer. NS DS RRSIG NSEC
+energy.			172800	IN	NS	demand.beta.aridns.net.au.
+energy.			172800	IN	NS	demand.alpha.aridns.net.au.
+energy.			172800	IN	NS	demand.delta.aridns.net.au.
+energy.			172800	IN	NS	demand.gamma.aridns.net.au.
 engineer.		86400	IN	NSEC	engineering. NS DS RRSIG NSEC
 engineer.		172800	IN	NS	demand.beta.aridns.net.au.
 engineer.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5810,14 +5820,11 @@ tips.			172800	IN	NS	demand.delta.aridns.net.au.
 tips.			172800	IN	NS	demand.gamma.aridns.net.au.
 tirol.			86400	IN	NSEC	tj. NS DS RRSIG NSEC
 tirol.			172800	IN	NS	a.dns.nic.tirol.
-tirol.			172800	IN	NS	b.dns.nic.tirol.
-tirol.			172800	IN	NS	c.dns.nic.tirol.
+tirol.			172800	IN	NS	m.dns.nic.tirol.
 a.dns.nic.tirol.	172800	IN	AAAA	2001:678:20::20
 a.dns.nic.tirol.	172800	IN	A	194.0.25.20
-b.dns.nic.tirol.	172800	IN	AAAA	2001:62a:a:2000::9
-b.dns.nic.tirol.	172800	IN	A	193.170.61.9
-c.dns.nic.tirol.	172800	IN	AAAA	2001:62a:a:3000::9
-c.dns.nic.tirol.	172800	IN	A	193.170.187.9
+m.dns.nic.tirol.	172800	IN	AAAA	2001:67c:10e0::9
+m.dns.nic.tirol.	172800	IN	A	194.0.26.9
 tj.			86400	IN	NSEC	tk. NS RRSIG NSEC
 tj.			172800	IN	NS	tj.cctld.authdns.ripe.net.
 tj.			172800	IN	NS	ns1.nic.tj.
