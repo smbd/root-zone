@@ -601,11 +601,19 @@ b0.nic.black.		172800	IN	AAAA	2a01:8840:43::33
 b0.nic.black.		172800	IN	A	65.22.69.33
 c0.nic.black.		172800	IN	AAAA	2a01:8840:44::33
 c0.nic.black.		172800	IN	A	65.22.70.33
-blackfriday.		86400	IN	NSEC	blue. NS DS RRSIG NSEC
+blackfriday.		86400	IN	NSEC	bloomberg. NS DS RRSIG NSEC
 blackfriday.		172800	IN	NS	a.ns.uniregistry.net.
 blackfriday.		172800	IN	NS	tld.isc-sns.com.
 blackfriday.		172800	IN	NS	tld.isc-sns.net.
 blackfriday.		172800	IN	NS	tld.isc-sns.info.
+bloomberg.		86400	IN	NSEC	blue. NS DS RRSIG NSEC
+bloomberg.		172800	IN	NS	a5.nstld.com.
+bloomberg.		172800	IN	NS	c5.nstld.com.
+bloomberg.		172800	IN	NS	d5.nstld.com.
+bloomberg.		172800	IN	NS	f5.nstld.com.
+bloomberg.		172800	IN	NS	g5.nstld.com.
+bloomberg.		172800	IN	NS	h5.nstld.com.
+bloomberg.		172800	IN	NS	l5.nstld.com.
 blue.			86400	IN	NSEC	bm. NS DS RRSIG NSEC
 blue.			172800	IN	NS	a0.nic.blue.
 blue.			172800	IN	NS	a2.nic.blue.
