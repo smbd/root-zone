@@ -2663,7 +2663,7 @@ ie.			172800	IN	NS	ns3.ns.esat.net.
 ie.			172800	IN	NS	gns1.domainregistry.ie.
 ie.			172800	IN	NS	gns2.domainregistry.ie.
 ie.			172800	IN	NS	ns-ie.nic.fr.
-ie.			86400	IN	NSEC	il. NS RRSIG NSEC
+ie.			86400	IN	NSEC	il. NS DS RRSIG NSEC
 ns1.connect.ie.		172800	IN	A	109.123.110.79
 gns1.domainregistry.ie.	172800	IN	A	198.133.199.102
 gns2.domainregistry.ie.	172800	IN	A	198.133.199.103
@@ -5693,7 +5693,7 @@ a.ns.sx.		172800	IN	AAAA	2a02:2790::600d:deed
 a.ns.sx.		172800	IN	A	89.207.184.65
 b.ns.sx.		172800	IN	A	80.92.90.160
 c.ns.sx.		172800	IN	A	192.95.19.109
-sy.			86400	IN	NSEC	systems. NS RRSIG NSEC
+sy.			86400	IN	NSEC	sydney. NS RRSIG NSEC
 sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
 sy.			172800	IN	NS	ns2.tld.sy.
@@ -5702,6 +5702,19 @@ pch.anycast.tld.sy.	172800	IN	AAAA	2001:500:14:6071:ad::1
 pch.anycast.tld.sy.	172800	IN	A	204.61.216.71
 ns1.tld.sy.		172800	IN	A	82.137.200.85
 ns2.tld.sy.		172800	IN	A	82.137.192.145
+sydney.			86400	IN	NSEC	systems. NS DS RRSIG NSEC
+sydney.			172800	IN	NS	a.nic.sydney.
+sydney.			172800	IN	NS	b.nic.sydney.
+sydney.			172800	IN	NS	c.nic.sydney.
+sydney.			172800	IN	NS	d.nic.sydney.
+a.nic.sydney.		172800	IN	AAAA	2001:dcd:1::10
+a.nic.sydney.		172800	IN	A	37.209.192.10
+b.nic.sydney.		172800	IN	AAAA	2001:dcd:2::10
+b.nic.sydney.		172800	IN	A	37.209.194.10
+c.nic.sydney.		172800	IN	AAAA	2001:dcd:3::10
+c.nic.sydney.		172800	IN	A	37.209.196.10
+d.nic.sydney.		172800	IN	AAAA	2001:dcd:4::10
+d.nic.sydney.		172800	IN	A	37.209.198.10
 systems.		86400	IN	NSEC	sz. NS DS RRSIG NSEC
 systems.		172800	IN	NS	demand.beta.aridns.net.au.
 systems.		172800	IN	NS	demand.alpha.aridns.net.au.
