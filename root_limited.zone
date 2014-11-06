@@ -6466,14 +6466,11 @@ ns6.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1076::b4
 ns6.dns.nic.whoswho.	172800	IN	A	156.154.158.180
 wien.			86400	IN	NSEC	wiki. NS DS RRSIG NSEC
 wien.			172800	IN	NS	a.dns.nic.wien.
-wien.			172800	IN	NS	b.dns.nic.wien.
-wien.			172800	IN	NS	c.dns.nic.wien.
+wien.			172800	IN	NS	m.dns.nic.wien.
 a.dns.nic.wien.		172800	IN	AAAA	2001:678:20::15
 a.dns.nic.wien.		172800	IN	A	194.0.25.15
-b.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:2000::4
-b.dns.nic.wien.		172800	IN	A	193.170.61.4
-c.dns.nic.wien.		172800	IN	AAAA	2001:62a:a:3000::4
-c.dns.nic.wien.		172800	IN	A	193.170.187.4
+m.dns.nic.wien.		172800	IN	AAAA	2001:67c:10e0::4
+m.dns.nic.wien.		172800	IN	A	194.0.26.4
 wiki.			86400	IN	NSEC	williamhill. NS DS RRSIG NSEC
 wiki.			172800	IN	NS	a.nic.wiki.
 wiki.			172800	IN	NS	b.nic.wiki.
