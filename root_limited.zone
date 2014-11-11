@@ -146,7 +146,7 @@ am.			172800	IN	NS	fork.sth.dnsnode.net.
 am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
-an.			86400	IN	NSEC	ao. NS RRSIG NSEC
+an.			86400	IN	NSEC	android. NS RRSIG NSEC
 an.			172800	IN	NS	an.cctld.authdns.ripe.net.
 an.			172800	IN	NS	ns0.ja.net.
 an.			172800	IN	NS	engine0.una.an.
@@ -159,6 +159,12 @@ ns01-server.curinfo.an.	172800	IN	A	65.208.122.36
 engine0.una.an.		172800	IN	A	200.26.199.99
 engine2.una.an.		172800	IN	A	65.174.238.100
 engine3.una.an.		172800	IN	A	200.26.199.102
+android.		86400	IN	NSEC	ao. NS DS RRSIG NSEC
+android.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+android.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+android.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+android.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+android.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 ao.			86400	IN	NSEC	aq. NS RRSIG NSEC
 ao.			172800	IN	NS	ns02.dns.ao.
 ao.			172800	IN	NS	ns02.fccn.pt.
@@ -5164,11 +5170,24 @@ b.dns.nic.reise.	172800	IN	AAAA	2001:62a:a:2000::7
 b.dns.nic.reise.	172800	IN	A	193.170.61.7
 c.dns.nic.reise.	172800	IN	AAAA	2001:62a:a:3000::7
 c.dns.nic.reise.	172800	IN	A	193.170.187.7
-reisen.			86400	IN	NSEC	ren. NS DS RRSIG NSEC
+reisen.			86400	IN	NSEC	reit. NS DS RRSIG NSEC
 reisen.			172800	IN	NS	demand.beta.aridns.net.au.
 reisen.			172800	IN	NS	demand.alpha.aridns.net.au.
 reisen.			172800	IN	NS	demand.delta.aridns.net.au.
 reisen.			172800	IN	NS	demand.gamma.aridns.net.au.
+reit.			86400	IN	NSEC	ren. NS DS RRSIG NSEC
+reit.			172800	IN	NS	a.nic.reit.
+reit.			172800	IN	NS	b.nic.reit.
+reit.			172800	IN	NS	c.nic.reit.
+reit.			172800	IN	NS	d.nic.reit.
+a.nic.reit.		172800	IN	AAAA	2001:67c:13cc::1:38
+a.nic.reit.		172800	IN	A	194.169.218.38
+b.nic.reit.		172800	IN	AAAA	2a04:2b00:13cc::1:38
+b.nic.reit.		172800	IN	A	185.24.64.38
+c.nic.reit.		172800	IN	AAAA	2001:678:5::2
+c.nic.reit.		172800	IN	A	194.0.2.2
+d.nic.reit.		172800	IN	AAAA	2001:678:4::2d
+d.nic.reit.		172800	IN	A	194.0.1.45
 ren.			86400	IN	NSEC	rentals. NS DS RRSIG NSEC
 ren.			172800	IN	NS	a.zdnscloud.com.
 ren.			172800	IN	NS	b.zdnscloud.com.
