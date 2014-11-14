@@ -144,6 +144,7 @@ am.			172800	IN	NS	am.cctld.authdns.ripe.net.
 am.			172800	IN	NS	rip.psg.com.
 am.			172800	IN	NS	fork.sth.dnsnode.net.
 am.			172800	IN	NS	ns-cdn.amnic.net.
+am.			172800	IN	NS	ns-pch.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
 an.			86400	IN	NSEC	android. NS RRSIG NSEC
@@ -3928,6 +3929,8 @@ ns-zm.afrinic.net.	172800	IN	AAAA	2001:43f8:120::44
 ns-zm.afrinic.net.	172800	IN	A	196.216.168.44
 ns-cdn.amnic.net.	172800	IN	AAAA	2001:678:4::1a
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
+ns-pch.amnic.net.	172800	IN	AAAA	2001:500:14:6096:ad::1
+ns-pch.amnic.net.	172800	IN	A	204.61.216.96
 ns-pri.amnic.net.	172800	IN	AAAA	2001:67c:21c:53::1
 ns-pri.amnic.net.	172800	IN	A	195.43.74.53
 sec1.apnic.net.		172800	IN	AAAA	2001:dc0:2001:a:4608::59
@@ -4461,7 +4464,7 @@ no.			172800	IN	NS	y.nic.no.
 no.			172800	IN	NS	z.nic.no.
 no.			172800	IN	NS	not.norid.no.
 no.			172800	IN	NS	njet.norid.no.
-no.			86400	IN	NSEC	np. NS RRSIG NSEC
+no.			86400	IN	NSEC	np. NS DS RRSIG NSEC
 nac.no.			172800	IN	AAAA	2001:700:0:102::aa53
 nac.no.			172800	IN	A	128.39.2.22
 i.nic.no.		172800	IN	A	194.146.106.6
@@ -5421,11 +5424,30 @@ c.nic.schmidt.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.schmidt.		172800	IN	A	37.209.196.9
 d.nic.schmidt.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.schmidt.		172800	IN	A	37.209.198.9
-schule.			86400	IN	NSEC	scot. NS DS RRSIG NSEC
+schule.			86400	IN	NSEC	science. NS DS RRSIG NSEC
 schule.			172800	IN	NS	demand.beta.aridns.net.au.
 schule.			172800	IN	NS	demand.alpha.aridns.net.au.
 schule.			172800	IN	NS	demand.delta.aridns.net.au.
 schule.			172800	IN	NS	demand.gamma.aridns.net.au.
+science.		86400	IN	NSEC	scot. NS DS RRSIG NSEC
+science.		172800	IN	NS	ns1.dns.nic.science.
+science.		172800	IN	NS	ns2.dns.nic.science.
+science.		172800	IN	NS	ns3.dns.nic.science.
+science.		172800	IN	NS	ns4.dns.nic.science.
+science.		172800	IN	NS	ns5.dns.nic.science.
+science.		172800	IN	NS	ns6.dns.nic.science.
+ns1.dns.nic.science.	172800	IN	AAAA	2610:a1:1071::1:29
+ns1.dns.nic.science.	172800	IN	A	156.154.169.41
+ns2.dns.nic.science.	172800	IN	AAAA	2610:a1:1072::1:29
+ns2.dns.nic.science.	172800	IN	A	156.154.170.41
+ns3.dns.nic.science.	172800	IN	AAAA	2610:a1:1073::1:29
+ns3.dns.nic.science.	172800	IN	A	156.154.171.41
+ns4.dns.nic.science.	172800	IN	AAAA	2610:a1:1074::1:29
+ns4.dns.nic.science.	172800	IN	A	156.154.172.41
+ns5.dns.nic.science.	172800	IN	AAAA	2610:a1:1075::1:29
+ns5.dns.nic.science.	172800	IN	A	156.154.173.41
+ns6.dns.nic.science.	172800	IN	AAAA	2610:a1:1076::1:29
+ns6.dns.nic.science.	172800	IN	A	156.154.174.41
 scot.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
 scot.			172800	IN	NS	anycast9.irondns.net.
 scot.			172800	IN	NS	anycast10.irondns.net.
@@ -6384,9 +6406,11 @@ vu.			172800	IN	NS	efate.vanuatu.com.vu.
 vu.			172800	IN	NS	santo.vanuatu.com.vu.
 vu.			172800	IN	NS	futuna.vanuatu.com.vu.
 vu.			172800	IN	NS	cctld-vu.orange.mu.
+vu.			172800	IN	NS	ns1-cctld.vunic.vu.
 efate.vanuatu.com.vu.	172800	IN	A	202.80.32.5
 futuna.vanuatu.com.vu.	172800	IN	A	202.80.32.3
 santo.vanuatu.com.vu.	172800	IN	A	202.80.32.7
+ns1-cctld.vunic.vu.	172800	IN	A	202.80.32.9
 wales.			86400	IN	NSEC	wang. NS DS RRSIG NSEC
 wales.			172800	IN	NS	ns1.nic.uk.
 wales.			172800	IN	NS	ns2.nic.uk.
