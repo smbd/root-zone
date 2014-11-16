@@ -1457,11 +1457,30 @@ credit.			172800	IN	NS	demand.beta.aridns.net.au.
 credit.			172800	IN	NS	demand.alpha.aridns.net.au.
 credit.			172800	IN	NS	demand.delta.aridns.net.au.
 credit.			172800	IN	NS	demand.gamma.aridns.net.au.
-creditcard.		86400	IN	NSEC	crs. NS DS RRSIG NSEC
+creditcard.		86400	IN	NSEC	cricket. NS DS RRSIG NSEC
 creditcard.		172800	IN	NS	demand.beta.aridns.net.au.
 creditcard.		172800	IN	NS	demand.alpha.aridns.net.au.
 creditcard.		172800	IN	NS	demand.delta.aridns.net.au.
 creditcard.		172800	IN	NS	demand.gamma.aridns.net.au.
+cricket.		86400	IN	NSEC	crs. NS DS RRSIG NSEC
+cricket.		172800	IN	NS	ns1.dns.nic.cricket.
+cricket.		172800	IN	NS	ns2.dns.nic.cricket.
+cricket.		172800	IN	NS	ns3.dns.nic.cricket.
+cricket.		172800	IN	NS	ns4.dns.nic.cricket.
+cricket.		172800	IN	NS	ns5.dns.nic.cricket.
+cricket.		172800	IN	NS	ns6.dns.nic.cricket.
+ns1.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1071::dc
+ns1.dns.nic.cricket.	172800	IN	A	156.154.144.220
+ns2.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1072::dc
+ns2.dns.nic.cricket.	172800	IN	A	156.154.145.220
+ns3.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1073::dc
+ns3.dns.nic.cricket.	172800	IN	A	156.154.159.220
+ns4.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1074::dc
+ns4.dns.nic.cricket.	172800	IN	A	156.154.156.220
+ns5.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1075::dc
+ns5.dns.nic.cricket.	172800	IN	A	156.154.157.220
+ns6.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1076::dc
+ns6.dns.nic.cricket.	172800	IN	A	156.154.158.220
 crs.			86400	IN	NSEC	cruises. NS DS RRSIG NSEC
 crs.			172800	IN	NS	a5.nstld.com.
 crs.			172800	IN	NS	c5.nstld.com.
@@ -4733,11 +4752,30 @@ partners.		172800	IN	NS	demand.beta.aridns.net.au.
 partners.		172800	IN	NS	demand.alpha.aridns.net.au.
 partners.		172800	IN	NS	demand.delta.aridns.net.au.
 partners.		172800	IN	NS	demand.gamma.aridns.net.au.
-parts.			86400	IN	NSEC	pe. NS DS RRSIG NSEC
+parts.			86400	IN	NSEC	party. NS DS RRSIG NSEC
 parts.			172800	IN	NS	demand.beta.aridns.net.au.
 parts.			172800	IN	NS	demand.alpha.aridns.net.au.
 parts.			172800	IN	NS	demand.delta.aridns.net.au.
 parts.			172800	IN	NS	demand.gamma.aridns.net.au.
+party.			86400	IN	NSEC	pe. NS DS RRSIG NSEC
+party.			172800	IN	NS	ns1.dns.nic.party.
+party.			172800	IN	NS	ns2.dns.nic.party.
+party.			172800	IN	NS	ns3.dns.nic.party.
+party.			172800	IN	NS	ns4.dns.nic.party.
+party.			172800	IN	NS	ns5.dns.nic.party.
+party.			172800	IN	NS	ns6.dns.nic.party.
+ns1.dns.nic.party.	172800	IN	AAAA	2610:a1:1071::1:18
+ns1.dns.nic.party.	172800	IN	A	156.154.169.24
+ns2.dns.nic.party.	172800	IN	AAAA	2610:a1:1072::1:18
+ns2.dns.nic.party.	172800	IN	A	156.154.170.24
+ns3.dns.nic.party.	172800	IN	AAAA	2610:a1:1073::1:18
+ns3.dns.nic.party.	172800	IN	A	156.154.171.24
+ns4.dns.nic.party.	172800	IN	AAAA	2610:a1:1074::1:18
+ns4.dns.nic.party.	172800	IN	A	156.154.172.24
+ns5.dns.nic.party.	172800	IN	AAAA	2610:a1:1075::1:18
+ns5.dns.nic.party.	172800	IN	A	156.154.173.24
+ns6.dns.nic.party.	172800	IN	AAAA	2610:a1:1076::1:18
+ns6.dns.nic.party.	172800	IN	A	156.154.174.24
 pe.			86400	IN	NSEC	pf. NS DS RRSIG NSEC
 pe.			172800	IN	NS	pch.rcp.pe.
 pe.			172800	IN	NS	pe1.dnsnode.net.
@@ -6357,14 +6395,11 @@ c0.nic.vote.		172800	IN	AAAA	2a01:8840:a4::9
 c0.nic.vote.		172800	IN	A	65.22.170.9
 voting.			86400	IN	NSEC	voto. NS DS RRSIG NSEC
 voting.			172800	IN	NS	a.dns.nic.voting.
-voting.			172800	IN	NS	b.dns.nic.voting.
-voting.			172800	IN	NS	c.dns.nic.voting.
+voting.			172800	IN	NS	m.dns.nic.voting.
 a.dns.nic.voting.	172800	IN	AAAA	2001:678:20::17
 a.dns.nic.voting.	172800	IN	A	194.0.25.17
-b.dns.nic.voting.	172800	IN	AAAA	2001:62a:a:2000::6
-b.dns.nic.voting.	172800	IN	A	193.170.61.6
-c.dns.nic.voting.	172800	IN	AAAA	2001:62a:a:3000::6
-c.dns.nic.voting.	172800	IN	A	193.170.187.6
+m.dns.nic.voting.	172800	IN	AAAA	2001:67c:10e0::6
+m.dns.nic.voting.	172800	IN	A	194.0.26.6
 voto.			86400	IN	NSEC	voyage. NS DS RRSIG NSEC
 voto.			172800	IN	NS	a0.nic.voto.
 voto.			172800	IN	NS	a2.nic.voto.
@@ -6625,7 +6660,7 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--45brj9c.		86400	IN	NSEC	xn--4gbrim. NS RRSIG NSEC
+xn--45brj9c.		86400	IN	NSEC	xn--45q11c. NS RRSIG NSEC
 xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -6634,6 +6669,16 @@ xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
+xn--45q11c.		86400	IN	NSEC	xn--4gbrim. NS RRSIG NSEC
+xn--45q11c.		172800	IN	NS	a.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	b.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	c.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	d.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	e.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	f.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	g.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	i.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	j.zdnscloud.com.
 xn--4gbrim.		86400	IN	NSEC	xn--55qw42g. NS DS RRSIG NSEC
 xn--4gbrim.		172800	IN	NS	a0.nic.xn--4gbrim.
 xn--4gbrim.		172800	IN	NS	a2.nic.xn--4gbrim.
