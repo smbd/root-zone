@@ -279,8 +279,6 @@ attorney.		172800	IN	NS	demand.delta.aridns.net.au.
 attorney.		172800	IN	NS	demand.gamma.aridns.net.au.
 au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	b.au.
-au.			172800	IN	NS	r.au.
-au.			172800	IN	NS	s.au.
 au.			172800	IN	NS	u.au.
 au.			172800	IN	NS	v.au.
 au.			172800	IN	NS	w.au.
@@ -312,10 +310,6 @@ demand.gamma.aridns.net.au. 172800 IN	A	37.209.196.7
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1::21
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181::2
 munnari.oz.au.		172800	IN	A	202.29.151.3
-r.au.			172800	IN	AAAA	2607:f140:ffff:fffe::3
-r.au.			172800	IN	A	128.32.136.3
-s.au.			172800	IN	AAAA	2607:f140:ffff:fffe::e
-s.au.			172800	IN	A	128.32.136.14
 u.au.			172800	IN	A	211.29.133.32
 v.au.			172800	IN	AAAA	2001:dc0:4001:1:0:1836:0:141
 v.au.			172800	IN	A	202.12.31.141
@@ -473,14 +467,11 @@ b.ns.nic.beer.		172800	IN	AAAA	2620:171:d02:dc::14
 b.ns.nic.beer.		172800	IN	A	72.42.114.14
 berlin.			86400	IN	NSEC	best. NS DS RRSIG NSEC
 berlin.			172800	IN	NS	a.dns.nic.berlin.
-berlin.			172800	IN	NS	b.dns.nic.berlin.
-berlin.			172800	IN	NS	c.dns.nic.berlin.
+berlin.			172800	IN	NS	m.dns.nic.berlin.
 a.dns.nic.berlin.	172800	IN	AAAA	2001:678:20::16
 a.dns.nic.berlin.	172800	IN	A	194.0.25.16
-b.dns.nic.berlin.	172800	IN	AAAA	2001:62a:a:2000::5
-b.dns.nic.berlin.	172800	IN	A	193.170.61.5
-c.dns.nic.berlin.	172800	IN	AAAA	2001:62a:a:3000::5
-c.dns.nic.berlin.	172800	IN	A	193.170.187.5
+m.dns.nic.berlin.	172800	IN	AAAA	2001:67c:10e0::5
+m.dns.nic.berlin.	172800	IN	A	194.0.26.5
 best.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
 best.			172800	IN	NS	ns1.dns.nic.best.
 best.			172800	IN	NS	ns2.dns.nic.best.
@@ -2447,14 +2438,11 @@ ns1.gtt.co.gy.		172800	IN	A	190.80.0.41
 ns2.gtt.co.gy.		172800	IN	A	190.80.0.42
 hamburg.		86400	IN	NSEC	haus. NS DS RRSIG NSEC
 hamburg.		172800	IN	NS	a.dns.nic.hamburg.
-hamburg.		172800	IN	NS	b.dns.nic.hamburg.
-hamburg.		172800	IN	NS	c.dns.nic.hamburg.
+hamburg.		172800	IN	NS	m.dns.nic.hamburg.
 a.dns.nic.hamburg.	172800	IN	AAAA	2001:678:20::21
 a.dns.nic.hamburg.	172800	IN	A	194.0.25.21
-b.dns.nic.hamburg.	172800	IN	AAAA	2001:62a:a:2000::10
-b.dns.nic.hamburg.	172800	IN	A	193.170.61.10
-c.dns.nic.hamburg.	172800	IN	AAAA	2001:62a:a:3000::10
-c.dns.nic.hamburg.	172800	IN	A	193.170.187.10
+m.dns.nic.hamburg.	172800	IN	AAAA	2001:67c:10e0::10
+m.dns.nic.hamburg.	172800	IN	A	194.0.26.10
 haus.			86400	IN	NSEC	healthcare. NS DS RRSIG NSEC
 haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5165,14 +5153,11 @@ rehab.			172800	IN	NS	demand.delta.aridns.net.au.
 rehab.			172800	IN	NS	demand.gamma.aridns.net.au.
 reise.			86400	IN	NSEC	reisen. NS DS RRSIG NSEC
 reise.			172800	IN	NS	a.dns.nic.reise.
-reise.			172800	IN	NS	b.dns.nic.reise.
-reise.			172800	IN	NS	c.dns.nic.reise.
+reise.			172800	IN	NS	m.dns.nic.reise.
 a.dns.nic.reise.	172800	IN	AAAA	2001:678:20::18
 a.dns.nic.reise.	172800	IN	A	194.0.25.18
-b.dns.nic.reise.	172800	IN	AAAA	2001:62a:a:2000::7
-b.dns.nic.reise.	172800	IN	A	193.170.61.7
-c.dns.nic.reise.	172800	IN	AAAA	2001:62a:a:3000::7
-c.dns.nic.reise.	172800	IN	A	193.170.187.7
+m.dns.nic.reise.	172800	IN	AAAA	2001:67c:10e0::7
+m.dns.nic.reise.	172800	IN	A	194.0.26.7
 reisen.			86400	IN	NSEC	reit. NS DS RRSIG NSEC
 reisen.			172800	IN	NS	demand.beta.aridns.net.au.
 reisen.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6285,14 +6270,11 @@ ventures.		172800	IN	NS	demand.delta.aridns.net.au.
 ventures.		172800	IN	NS	demand.gamma.aridns.net.au.
 versicherung.		86400	IN	NSEC	vet. NS DS RRSIG NSEC
 versicherung.		172800	IN	NS	a.dns.nic.versicherung.
-versicherung.		172800	IN	NS	b.dns.nic.versicherung.
-versicherung.		172800	IN	NS	c.dns.nic.versicherung.
+versicherung.		172800	IN	NS	m.dns.nic.versicherung.
 a.dns.nic.versicherung.	172800	IN	AAAA	2001:678:20::13
 a.dns.nic.versicherung.	172800	IN	A	194.0.25.13
-b.dns.nic.versicherung.	172800	IN	AAAA	2001:62a:a:2000::2
-b.dns.nic.versicherung.	172800	IN	A	193.170.61.2
-c.dns.nic.versicherung.	172800	IN	AAAA	2001:62a:a:3000::2
-c.dns.nic.versicherung.	172800	IN	A	193.170.187.2
+m.dns.nic.versicherung.	172800	IN	AAAA	2001:67c:10e0::2
+m.dns.nic.versicherung.	172800	IN	A	194.0.26.2
 vet.			86400	IN	NSEC	vg. NS DS RRSIG NSEC
 vet.			172800	IN	NS	demand.beta.aridns.net.au.
 vet.			172800	IN	NS	demand.alpha.aridns.net.au.
