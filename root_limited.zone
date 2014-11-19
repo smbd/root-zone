@@ -1802,7 +1802,6 @@ ee.			86400	IN	NSEC	eg. NS DS RRSIG NSEC
 ee.			172800	IN	NS	b.tld.ee.
 ee.			172800	IN	NS	e.tld.ee.
 ee.			172800	IN	NS	ee.aso.ee.
-ee.			172800	IN	NS	ns.ut.ee.
 ee.			172800	IN	NS	ns.tld.ee.
 ee.			172800	IN	NS	ns.eenet.ee.
 ee.			172800	IN	NS	sunic.sunet.se.
@@ -1815,7 +1814,6 @@ b.tld.ee.		172800	IN	A	194.146.106.110
 e.tld.ee.		172800	IN	AAAA	2001:678:94:53::53
 e.tld.ee.		172800	IN	A	204.61.216.36
 ns.tld.ee.		172800	IN	A	195.43.87.10
-ns.ut.ee.		172800	IN	A	193.40.5.99
 eg.			172800	IN	NS	ns5.univie.ac.at.
 eg.			172800	IN	NS	rip.psg.com.
 eg.			172800	IN	NS	frcu.eun.eg.
@@ -2003,11 +2001,18 @@ finance.		172800	IN	NS	demand.beta.aridns.net.au.
 finance.		172800	IN	NS	demand.alpha.aridns.net.au.
 finance.		172800	IN	NS	demand.delta.aridns.net.au.
 finance.		172800	IN	NS	demand.gamma.aridns.net.au.
-financial.		86400	IN	NSEC	fish. NS DS RRSIG NSEC
+financial.		86400	IN	NSEC	firmdale. NS DS RRSIG NSEC
 financial.		172800	IN	NS	demand.beta.aridns.net.au.
 financial.		172800	IN	NS	demand.alpha.aridns.net.au.
 financial.		172800	IN	NS	demand.delta.aridns.net.au.
 financial.		172800	IN	NS	demand.gamma.aridns.net.au.
+firmdale.		86400	IN	NSEC	fish. NS DS RRSIG NSEC
+firmdale.		172800	IN	NS	ns1.nic.firmdale.
+firmdale.		172800	IN	NS	ns2.nic.firmdale.
+ns1.nic.firmdale.	172800	IN	AAAA	2620:171:a03:ad::1
+ns1.nic.firmdale.	172800	IN	A	72.0.51.1
+ns2.nic.firmdale.	172800	IN	AAAA	2620:171:d03:dc::1
+ns2.nic.firmdale.	172800	IN	A	72.42.115.1
 fish.			86400	IN	NSEC	fishing. NS DS RRSIG NSEC
 fish.			172800	IN	NS	demand.beta.aridns.net.au.
 fish.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3435,13 +3440,18 @@ ma.			172800	IN	NS	ns1.iam.net.ma.
 ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns3.iam.net.ma.
-ma.			86400	IN	NSEC	maison. NS RRSIG NSEC
+ma.			86400	IN	NSEC	madrid. NS RRSIG NSEC
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	81.192.108.164
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
 ns2.iam.net.ma.		172800	IN	A	81.192.53.23
 ns3.iam.net.ma.		172800	IN	A	212.217.1.13
+madrid.			86400	IN	NSEC	maison. NS DS RRSIG NSEC
+madrid.			172800	IN	NS	anycast9.irondns.net.
+madrid.			172800	IN	NS	anycast10.irondns.net.
+madrid.			172800	IN	NS	anycast23.irondns.net.
+madrid.			172800	IN	NS	anycast24.irondns.net.
 maison.			86400	IN	NSEC	management. NS DS RRSIG NSEC
 maison.			172800	IN	NS	demand.beta.aridns.net.au.
 maison.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6874,12 +6884,18 @@ xn--fiqs8s.		172800	IN	NS	i.dns.cn.
 xn--fiqs8s.		172800	IN	NS	j.dns.cn.
 xn--fiqs8s.		172800	IN	NS	k.dns.cn.
 xn--fiqs8s.		172800	IN	NS	l.dns.cn.
-xn--fiqz9s.		86400	IN	NSEC	xn--fpcrj9c3d. NS DS RRSIG NSEC
+xn--fiqz9s.		86400	IN	NSEC	xn--flw351e. NS DS RRSIG NSEC
 xn--fiqz9s.		172800	IN	NS	h.dns.cn.
 xn--fiqz9s.		172800	IN	NS	i.dns.cn.
 xn--fiqz9s.		172800	IN	NS	j.dns.cn.
 xn--fiqz9s.		172800	IN	NS	k.dns.cn.
 xn--fiqz9s.		172800	IN	NS	l.dns.cn.
+xn--flw351e.		86400	IN	NSEC	xn--fpcrj9c3d. NS DS RRSIG NSEC
+xn--flw351e.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+xn--flw351e.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+xn--flw351e.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+xn--flw351e.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+xn--flw351e.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 xn--fpcrj9c3d.		86400	IN	NSEC	xn--fzc2c9e2c. NS RRSIG NSEC
 xn--fpcrj9c3d.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	a1.in.afilias-nst.in.
@@ -7111,12 +7127,18 @@ xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
 xn--pgbs0dh.		172800	IN	NS	rip.psg.com.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
-xn--q9jyb4c.		86400	IN	NSEC	xn--rhqv96g. NS DS RRSIG NSEC
+xn--q9jyb4c.		86400	IN	NSEC	xn--qcka1pmc. NS DS RRSIG NSEC
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+xn--qcka1pmc.		86400	IN	NSEC	xn--rhqv96g. NS DS RRSIG NSEC
+xn--qcka1pmc.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+xn--qcka1pmc.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+xn--qcka1pmc.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+xn--qcka1pmc.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+xn--qcka1pmc.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 xn--rhqv96g.		86400	IN	NSEC	xn--s9brj9c. NS DS RRSIG NSEC
 xn--rhqv96g.		172800	IN	NS	ns1.dns.nic.xn--rhqv96g.
 xn--rhqv96g.		172800	IN	NS	ns2.dns.nic.xn--rhqv96g.
