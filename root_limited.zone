@@ -285,7 +285,7 @@ au.			172800	IN	NS	w.au.
 au.			172800	IN	NS	x.au.
 au.			172800	IN	NS	y.au.
 au.			172800	IN	NS	z.au.
-au.			86400	IN	NSEC	auction. NS RRSIG NSEC
+au.			86400	IN	NSEC	auction. NS DS RRSIG NSEC
 a.au.			172800	IN	AAAA	2407:6e00:254:306::73
 a.au.			172800	IN	A	58.65.254.73
 b.au.			172800	IN	AAAA	2407:6e00:253:306::73
@@ -2198,7 +2198,7 @@ gbiz.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
+gd.			86400	IN	NSEC	ge. NS DS RRSIG NSEC
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 gd.			172800	IN	NS	gd-ns.ksregistry.net.
@@ -6715,7 +6715,7 @@ xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--45q11c.		86400	IN	NSEC	xn--4gbrim. NS RRSIG NSEC
+xn--45q11c.		86400	IN	NSEC	xn--4gbrim. NS DS RRSIG NSEC
 xn--45q11c.		172800	IN	NS	a.zdnscloud.com.
 xn--45q11c.		172800	IN	NS	b.zdnscloud.com.
 xn--45q11c.		172800	IN	NS	c.zdnscloud.com.
