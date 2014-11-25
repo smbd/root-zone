@@ -1224,7 +1224,7 @@ tc.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd3::1
 tc.ngtld.cn.		172800	IN	A	42.83.132.1
 td.ngtld.cn.		172800	IN	A	42.83.133.1
 te.ngtld.cn.		172800	IN	A	42.83.134.1
-co.			86400	IN	NSEC	codes. NS DS RRSIG NSEC
+co.			86400	IN	NSEC	coach. NS DS RRSIG NSEC
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
 co.			172800	IN	NS	ns3.cctld.co.
@@ -1243,6 +1243,11 @@ ns5.cctld.co.		172800	IN	AAAA	2610:a1:1011::21
 ns5.cctld.co.		172800	IN	A	156.154.104.25
 ns6.cctld.co.		172800	IN	AAAA	2610:a1:1012::21
 ns6.cctld.co.		172800	IN	A	156.154.105.25
+coach.			86400	IN	NSEC	codes. NS DS RRSIG NSEC
+coach.			172800	IN	NS	demand.beta.aridns.net.au.
+coach.			172800	IN	NS	demand.alpha.aridns.net.au.
+coach.			172800	IN	NS	demand.delta.aridns.net.au.
+coach.			172800	IN	NS	demand.gamma.aridns.net.au.
 codes.			86400	IN	NSEC	coffee. NS DS RRSIG NSEC
 codes.			172800	IN	NS	demand.beta.aridns.net.au.
 codes.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1431,7 +1436,6 @@ a.ns.nic.country.	172800	IN	A	72.0.50.17
 b.ns.nic.country.	172800	IN	AAAA	2620:171:d02:dc::17
 b.ns.nic.country.	172800	IN	A	72.42.114.17
 cr.			172800	IN	NS	a.ns.cr.
-cr.			172800	IN	NS	b.ns.cr.
 cr.			172800	IN	NS	c.ns.cr.
 cr.			172800	IN	NS	d.ns.cr.
 cr.			172800	IN	NS	e.ns.cr.
@@ -1447,7 +1451,6 @@ p.nic.cr.		172800	IN	A	204.61.216.89
 ns.cr.			172800	IN	A	163.178.8.2
 a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
 a.ns.cr.		172800	IN	A	200.107.82.100
-b.ns.cr.		172800	IN	A	198.57.204.98
 c.ns.cr.		172800	IN	A	193.0.9.69
 d.ns.cr.		172800	IN	A	38.103.2.3
 e.ns.cr.		172800	IN	AAAA	2001:470:1a::3
@@ -1927,11 +1930,30 @@ eus.			172800	IN	NS	anycast9.irondns.net.
 eus.			172800	IN	NS	anycast10.irondns.net.
 eus.			172800	IN	NS	anycast23.irondns.net.
 eus.			172800	IN	NS	anycast24.irondns.net.
-events.			86400	IN	NSEC	exchange. NS DS RRSIG NSEC
+events.			86400	IN	NSEC	everbank. NS DS RRSIG NSEC
 events.			172800	IN	NS	demand.beta.aridns.net.au.
 events.			172800	IN	NS	demand.alpha.aridns.net.au.
 events.			172800	IN	NS	demand.delta.aridns.net.au.
 events.			172800	IN	NS	demand.gamma.aridns.net.au.
+everbank.		86400	IN	NSEC	exchange. NS DS RRSIG NSEC
+everbank.		172800	IN	NS	ns1.dns.nic.everbank.
+everbank.		172800	IN	NS	ns2.dns.nic.everbank.
+everbank.		172800	IN	NS	ns3.dns.nic.everbank.
+everbank.		172800	IN	NS	ns4.dns.nic.everbank.
+everbank.		172800	IN	NS	ns5.dns.nic.everbank.
+everbank.		172800	IN	NS	ns6.dns.nic.everbank.
+ns1.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1071::35
+ns1.dns.nic.everbank.	172800	IN	A	156.154.144.53
+ns2.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1072::35
+ns2.dns.nic.everbank.	172800	IN	A	156.154.145.53
+ns3.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1073::35
+ns3.dns.nic.everbank.	172800	IN	A	156.154.159.53
+ns4.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1074::35
+ns4.dns.nic.everbank.	172800	IN	A	156.154.156.53
+ns5.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1075::35
+ns5.dns.nic.everbank.	172800	IN	A	156.154.157.53
+ns6.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1076::35
+ns6.dns.nic.everbank.	172800	IN	A	156.154.158.53
 exchange.		86400	IN	NSEC	expert. NS DS RRSIG NSEC
 exchange.		172800	IN	NS	demand.beta.aridns.net.au.
 exchange.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3218,11 +3240,16 @@ b0.nic.lds.		172800	IN	AAAA	2a01:8840:97::9
 b0.nic.lds.		172800	IN	A	65.22.153.9
 c0.nic.lds.		172800	IN	AAAA	2a01:8840:98::9
 c0.nic.lds.		172800	IN	A	65.22.154.9
-lease.			86400	IN	NSEC	lgbt. NS DS RRSIG NSEC
+lease.			86400	IN	NSEC	legal. NS DS RRSIG NSEC
 lease.			172800	IN	NS	demand.beta.aridns.net.au.
 lease.			172800	IN	NS	demand.alpha.aridns.net.au.
 lease.			172800	IN	NS	demand.delta.aridns.net.au.
 lease.			172800	IN	NS	demand.gamma.aridns.net.au.
+legal.			86400	IN	NSEC	lgbt. NS DS RRSIG NSEC
+legal.			172800	IN	NS	demand.beta.aridns.net.au.
+legal.			172800	IN	NS	demand.alpha.aridns.net.au.
+legal.			172800	IN	NS	demand.delta.aridns.net.au.
+legal.			172800	IN	NS	demand.gamma.aridns.net.au.
 lgbt.			86400	IN	NSEC	li. NS DS RRSIG NSEC
 lgbt.			172800	IN	NS	a0.nic.lgbt.
 lgbt.			172800	IN	NS	a2.nic.lgbt.
@@ -3535,12 +3562,17 @@ c.nic.melbourne.	172800	IN	AAAA	2001:dcd:3::10
 c.nic.melbourne.	172800	IN	A	37.209.196.10
 d.nic.melbourne.	172800	IN	AAAA	2001:dcd:4::10
 d.nic.melbourne.	172800	IN	A	37.209.198.10
-meme.			86400	IN	NSEC	menu. NS DS RRSIG NSEC
+meme.			86400	IN	NSEC	memorial. NS DS RRSIG NSEC
 meme.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 meme.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 meme.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 meme.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 meme.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+memorial.		86400	IN	NSEC	menu. NS DS RRSIG NSEC
+memorial.		172800	IN	NS	demand.beta.aridns.net.au.
+memorial.		172800	IN	NS	demand.alpha.aridns.net.au.
+memorial.		172800	IN	NS	demand.delta.aridns.net.au.
+memorial.		172800	IN	NS	demand.gamma.aridns.net.au.
 menu.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
 menu.			172800	IN	NS	a.nic.menu.
 menu.			172800	IN	NS	b.nic.menu.
@@ -3688,7 +3720,7 @@ ns5.dns.nic.moe.	172800	IN	AAAA	2610:a1:1075::72
 ns5.dns.nic.moe.	172800	IN	A	156.154.157.114
 ns6.dns.nic.moe.	172800	IN	AAAA	2610:a1:1076::72
 ns6.dns.nic.moe.	172800	IN	A	156.154.158.114
-monash.			86400	IN	NSEC	mormon. NS DS RRSIG NSEC
+monash.			86400	IN	NSEC	money. NS DS RRSIG NSEC
 monash.			172800	IN	NS	a.nic.monash.
 monash.			172800	IN	NS	b.nic.monash.
 monash.			172800	IN	NS	c.nic.monash.
@@ -3701,6 +3733,11 @@ c.nic.monash.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.monash.		172800	IN	A	37.209.196.9
 d.nic.monash.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.monash.		172800	IN	A	37.209.198.9
+money.			86400	IN	NSEC	mormon. NS DS RRSIG NSEC
+money.			172800	IN	NS	demand.beta.aridns.net.au.
+money.			172800	IN	NS	demand.alpha.aridns.net.au.
+money.			172800	IN	NS	demand.delta.aridns.net.au.
+money.			172800	IN	NS	demand.gamma.aridns.net.au.
 mormon.			86400	IN	NSEC	mortgage. NS DS RRSIG NSEC
 mormon.			172800	IN	NS	a0.nic.mormon.
 mormon.			172800	IN	NS	a2.nic.mormon.
