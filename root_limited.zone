@@ -2363,10 +2363,16 @@ google.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 gop.			86400	IN	NSEC	gov. NS DS RRSIG NSEC
 gop.			172800	IN	NS	a.ns.nic.gop.
 gop.			172800	IN	NS	b.ns.nic.gop.
+gop.			172800	IN	NS	c.ns.nic.gop.
+gop.			172800	IN	NS	d.ns.nic.gop.
 a.ns.nic.gop.		172800	IN	AAAA	2620:171:a02:ad::19
 a.ns.nic.gop.		172800	IN	A	72.0.50.19
 b.ns.nic.gop.		172800	IN	AAAA	2620:171:d02:dc::19
 b.ns.nic.gop.		172800	IN	A	72.42.114.19
+c.ns.nic.gop.		172800	IN	AAAA	2620:171:c00:c::19
+c.ns.nic.gop.		172800	IN	A	70.40.0.19
+d.ns.nic.gop.		172800	IN	AAAA	2620:171:f00:d::19
+d.ns.nic.gop.		172800	IN	A	70.40.8.19
 gov.			86400	IN	NSEC	gp. NS DS RRSIG NSEC
 gov.			172800	IN	NS	a.gov-servers.net.
 gov.			172800	IN	NS	b.gov-servers.net.
@@ -3091,10 +3097,16 @@ kitchen.		172800	IN	NS	demand.gamma.aridns.net.au.
 kiwi.			86400	IN	NSEC	km. NS DS RRSIG NSEC
 kiwi.			172800	IN	NS	a.ns.nic.kiwi.
 kiwi.			172800	IN	NS	b.ns.nic.kiwi.
+kiwi.			172800	IN	NS	c.ns.nic.kiwi.
+kiwi.			172800	IN	NS	d.ns.nic.kiwi.
 a.ns.nic.kiwi.		172800	IN	AAAA	2620:171:a02:ad::4
 a.ns.nic.kiwi.		172800	IN	A	72.0.50.4
 b.ns.nic.kiwi.		172800	IN	AAAA	2620:171:d02:dc::4
 b.ns.nic.kiwi.		172800	IN	A	72.42.114.4
+c.ns.nic.kiwi.		172800	IN	AAAA	2620:171:c00:c::4
+c.ns.nic.kiwi.		172800	IN	A	70.40.0.4
+d.ns.nic.kiwi.		172800	IN	AAAA	2620:171:f00:d::4
+d.ns.nic.kiwi.		172800	IN	A	70.40.8.4
 km.			86400	IN	NSEC	kn. NS RRSIG NSEC
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
@@ -5151,7 +5163,6 @@ pw.			172800	IN	NS	ns1.nic.pw.
 pw.			172800	IN	NS	ns2.nic.pw.
 pw.			172800	IN	NS	ns3.nic.pw.
 pw.			172800	IN	NS	ns4.nic.pw.
-pw.			172800	IN	NS	ns5.nic.pw.
 ns1.nic.pw.		172800	IN	AAAA	2001:67c:13cc::1:12
 ns1.nic.pw.		172800	IN	A	194.169.218.12
 ns2.nic.pw.		172800	IN	AAAA	2a04:2b00:13cc::1:12
@@ -5160,8 +5171,6 @@ ns3.nic.pw.		172800	IN	AAAA	2001:67c:13cc::1:13
 ns3.nic.pw.		172800	IN	A	194.169.218.13
 ns4.nic.pw.		172800	IN	AAAA	2a04:2b00:13cc::1:13
 ns4.nic.pw.		172800	IN	A	185.24.64.13
-ns5.nic.pw.		172800	IN	AAAA	2001:678:5::2
-ns5.nic.pw.		172800	IN	A	194.0.2.2
 py.			86400	IN	NSEC	qa. NS RRSIG NSEC
 py.			172800	IN	NS	ns.cnc.una.py.
 py.			172800	IN	NS	ns.dns.br.
