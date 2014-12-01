@@ -175,12 +175,16 @@ ao.			172800	IN	NS	ns-ext.isc.org.
 ao.			172800	IN	NS	phobos.fccn.pt.
 ns02.dns.ao.		172800	IN	AAAA	2c0f:f828:2::b
 ns02.dns.ao.		172800	IN	A	197.149.149.11
-aq.			86400	IN	NSEC	ar. NS RRSIG NSEC
+aq.			86400	IN	NSEC	aquarelle. NS RRSIG NSEC
 aq.			172800	IN	NS	ns1.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
 aq.			172800	IN	NS	sns-pb.isc.org.
 ns1.dns.aq.		172800	IN	A	203.119.56.132
+aquarelle.		86400	IN	NSEC	ar. NS DS RRSIG NSEC
+aquarelle.		172800	IN	NS	d.nic.fr.
+aquarelle.		172800	IN	NS	f.ext.nic.fr.
+aquarelle.		172800	IN	NS	g.ext.nic.fr.
 ar.			86400	IN	NSEC	archi. NS RRSIG NSEC
 ar.			172800	IN	NS	a.dns.ar.
 ar.			172800	IN	NS	c.dns.ar.
@@ -2913,12 +2917,25 @@ iq.			172800	IN	NS	nsp-anycast.cmc.iq.
 ns1.cmc.iq.		172800	IN	A	194.117.57.100
 nsp-anycast.cmc.iq.	172800	IN	AAAA	2001:500:14:8001:ad::42
 nsp-anycast.cmc.iq.	172800	IN	A	194.117.58.42
-ir.			86400	IN	NSEC	is. NS RRSIG NSEC
+ir.			86400	IN	NSEC	irish. NS RRSIG NSEC
 ir.			172800	IN	NS	a.nic.ir.
 ir.			172800	IN	NS	ns.irnic.ir.
 ir.			172800	IN	NS	ns5.univie.ac.at.
 ns.irnic.ir.		172800	IN	A	193.189.122.83
 a.nic.ir.		172800	IN	A	193.189.123.2
+irish.			86400	IN	NSEC	is. NS DS RRSIG NSEC
+irish.			172800	IN	NS	a0.nic.irish.
+irish.			172800	IN	NS	a2.nic.irish.
+irish.			172800	IN	NS	b0.nic.irish.
+irish.			172800	IN	NS	c0.nic.irish.
+a0.nic.irish.		172800	IN	AAAA	2a01:8840:be::17
+a0.nic.irish.		172800	IN	A	65.22.196.17
+a2.nic.irish.		172800	IN	AAAA	2a01:8840:c1::17
+a2.nic.irish.		172800	IN	A	65.22.199.17
+b0.nic.irish.		172800	IN	AAAA	2a01:8840:bf::17
+b0.nic.irish.		172800	IN	A	65.22.197.17
+c0.nic.irish.		172800	IN	AAAA	2a01:8840:c0::17
+c0.nic.irish.		172800	IN	A	65.22.198.17
 is.			86400	IN	NSEC	it. NS DS RRSIG NSEC
 is.			172800	IN	NS	is.cctld.authdns.ripe.net.
 is.			172800	IN	NS	sab.isnic.is.
@@ -3216,11 +3233,24 @@ lacaixa.		172800	IN	NS	anycast9.irondns.net.
 lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
 lacaixa.		172800	IN	NS	anycast24.irondns.net.
-land.			86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
+land.			86400	IN	NSEC	latrobe. NS DS RRSIG NSEC
 land.			172800	IN	NS	demand.beta.aridns.net.au.
 land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
 land.			172800	IN	NS	demand.gamma.aridns.net.au.
+latrobe.		86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
+latrobe.		172800	IN	NS	a.nic.latrobe.
+latrobe.		172800	IN	NS	b.nic.latrobe.
+latrobe.		172800	IN	NS	c.nic.latrobe.
+latrobe.		172800	IN	NS	d.nic.latrobe.
+a.nic.latrobe.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.latrobe.		172800	IN	A	37.209.192.9
+b.nic.latrobe.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.latrobe.		172800	IN	A	37.209.194.9
+c.nic.latrobe.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.latrobe.		172800	IN	A	37.209.196.9
+d.nic.latrobe.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.latrobe.		172800	IN	A	37.209.198.9
 lawyer.			86400	IN	NSEC	lb. NS DS RRSIG NSEC
 lawyer.			172800	IN	NS	demand.beta.aridns.net.au.
 lawyer.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6969,7 +6999,7 @@ xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--h2brj9c.		86400	IN	NSEC	xn--i1b6b1a6a2e. NS DS RRSIG NSEC
+xn--h2brj9c.		86400	IN	NSEC	xn--hxt814e. NS DS RRSIG NSEC
 xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -6978,6 +7008,16 @@ xn--h2brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--h2brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
+xn--hxt814e.		86400	IN	NSEC	xn--i1b6b1a6a2e. NS DS RRSIG NSEC
+xn--hxt814e.		172800	IN	NS	a.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	b.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	c.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	d.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	e.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	f.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	g.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	i.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	j.zdnscloud.com.
 xn--i1b6b1a6a2e.	86400	IN	NSEC	xn--io0a7i. NS DS RRSIG NSEC
 xn--i1b6b1a6a2e.	172800	IN	NS	a0.nic.xn--i1b6b1a6a2e.
 xn--i1b6b1a6a2e.	172800	IN	NS	a2.nic.xn--i1b6b1a6a2e.
