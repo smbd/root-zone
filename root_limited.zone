@@ -275,8 +275,6 @@ at.			172800	IN	NS	ns1.univie.ac.at.
 at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
 at.			86400	IN	NSEC	attorney. NS DS RRSIG NSEC
-dns-hr.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb::7
-dns-hr.univie.ac.at.	172800	IN	A	78.104.145.7
 dns-mk.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb::4
 dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
 ns1.univie.ac.at.	172800	IN	AAAA	2001:628:2030:4301::2
@@ -2185,7 +2183,6 @@ g.ext.nic.fr.		172800	IN	AAAA	2001:678:4c::1
 g.ext.nic.fr.		172800	IN	A	194.0.36.1
 ci.hosting.nic.fr.	172800	IN	AAAA	2001:660:3006:1::1:1
 ci.hosting.nic.fr.	172800	IN	A	192.134.0.49
-ns-ie.nic.fr.		172800	IN	A	192.93.0.4
 ns-my.nic.fr.		172800	IN	AAAA	2001:660:3006:1::1:1
 ns-my.nic.fr.		172800	IN	A	192.134.0.49
 ns-nl.nic.fr.		172800	IN	AAAA	2001:660:3005:1::1:2
@@ -2687,7 +2684,6 @@ how.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 how.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 hr.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
 hr.			172800	IN	NS	pch.carnet.hr.
-hr.			172800	IN	NS	dns-hr.univie.ac.at.
 hr.			172800	IN	NS	sns-pb.isc.org.
 hr.			172800	IN	NS	hr-ns-1.carnet.hr.
 hr-ns-1.carnet.hr.	172800	IN	AAAA	2001:b68:ff:1::100
@@ -2745,24 +2741,36 @@ ns1.indo.net.id.	172800	IN	A	202.159.32.2
 ns1.rad.net.id.		172800	IN	A	202.154.1.2
 ns1.id.			172800	IN	AAAA	2001:e00:1800::2
 ns1.id.			172800	IN	A	202.155.30.227
-ie.			172800	IN	NS	a.iedr.ie.
-ie.			172800	IN	NS	b.iedr.ie.
-ie.			172800	IN	NS	c.iedr.ie.
-ie.			172800	IN	NS	d.iedr.ie.
-ie.			172800	IN	NS	ns3.ns.esat.net.
+ie.			172800	IN	NS	a.ns.ie.
+ie.			172800	IN	NS	b.ns.ie.
+ie.			172800	IN	NS	c.ns.ie.
+ie.			172800	IN	NS	d.ns.ie.
+ie.			172800	IN	NS	e.ns.ie.
+ie.			172800	IN	NS	f.ns.ie.
+ie.			172800	IN	NS	g.ns.ie.
+ie.			172800	IN	NS	h.ns.ie.
 ie.			172800	IN	NS	gns1.domainregistry.ie.
 ie.			172800	IN	NS	gns2.domainregistry.ie.
-ie.			172800	IN	NS	ns-ie.nic.fr.
 ie.			86400	IN	NSEC	il. NS DS RRSIG NSEC
 ns1.connect.ie.		172800	IN	A	109.123.110.79
 gns1.domainregistry.ie.	172800	IN	A	198.133.199.102
 gns2.domainregistry.ie.	172800	IN	A	198.133.199.103
-a.iedr.ie.		172800	IN	AAAA	2a01:4b0::3
-a.iedr.ie.		172800	IN	A	77.72.72.44
-b.iedr.ie.		172800	IN	AAAA	2a01:4b0::2
-b.iedr.ie.		172800	IN	A	77.72.72.34
-c.iedr.ie.		172800	IN	A	194.146.106.98
-d.iedr.ie.		172800	IN	A	77.72.229.245
+a.ns.ie.		172800	IN	AAAA	2a01:4b0::3
+a.ns.ie.		172800	IN	A	77.72.72.44
+b.ns.ie.		172800	IN	AAAA	2a01:4b0::2
+b.ns.ie.		172800	IN	A	77.72.72.34
+c.ns.ie.		172800	IN	AAAA	2001:67c:1010:25::53
+c.ns.ie.		172800	IN	A	194.146.106.98
+d.ns.ie.		172800	IN	AAAA	2a01:3f0:0:309::53
+d.ns.ie.		172800	IN	A	77.72.229.245
+e.ns.ie.		172800	IN	AAAA	2001:500:93::1
+e.ns.ie.		172800	IN	A	199.19.2.1
+f.ns.ie.		172800	IN	AAAA	2001:500:95::1
+f.ns.ie.		172800	IN	A	199.19.3.1
+g.ns.ie.		172800	IN	AAAA	2001:7c8:2:a::64
+g.ns.ie.		172800	IN	A	192.111.39.100
+h.ns.ie.		172800	IN	AAAA	2001:660:3005:1::1:2
+h.ns.ie.		172800	IN	A	192.93.0.4
 il.			86400	IN	NSEC	im. NS RRSIG NSEC
 il.			172800	IN	NS	ns1.ns.il.
 il.			172800	IN	NS	nsa.ns.il.
