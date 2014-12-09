@@ -5562,11 +5562,14 @@ ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410::9
 ns1.nic.net.sa.		172800	IN	A	86.111.192.9
 ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10::9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
-saarland.		86400	IN	NSEC	sarl. NS DS RRSIG NSEC
+saarland.		86400	IN	NSEC	samsung. NS DS RRSIG NSEC
 saarland.		172800	IN	NS	ns1a.ksregistry.net.
 saarland.		172800	IN	NS	ns1b.ksregistry.net.
 saarland.		172800	IN	NS	ns2a.ksregistry.com.
 saarland.		172800	IN	NS	ns2b.ksregistry.com.
+samsung.		86400	IN	NSEC	sarl. NS DS RRSIG NSEC
+samsung.		172800	IN	NS	e.dns.kr.
+samsung.		172800	IN	NS	g.dns.kr.
 sarl.			86400	IN	NSEC	sb. NS DS RRSIG NSEC
 sarl.			172800	IN	NS	demand.beta.aridns.net.au.
 sarl.			172800	IN	NS	demand.alpha.aridns.net.au.
