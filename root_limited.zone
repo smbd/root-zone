@@ -848,16 +848,18 @@ bzh.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
 bzh.			172800	IN	NS	d.nic.fr.
 bzh.			172800	IN	NS	f.ext.nic.fr.
 bzh.			172800	IN	NS	g.ext.nic.fr.
+ca.			172800	IN	NS	b.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
 ca.			172800	IN	NS	k.ca-servers.ca.
 ca.			172800	IN	NS	l.ca-servers.ca.
 ca.			172800	IN	NS	any.ca-servers.ca.
-ca.			172800	IN	NS	tld.isc-sns.net.
 ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
 any.ca-servers.ca.	172800	IN	A	199.4.144.2
+b.ca-servers.ca.	172800	IN	AAAA	2a01:8840:1bb::1
+b.ca-servers.ca.	172800	IN	A	65.22.41.1
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
 e.ca-servers.ca.	172800	IN	A	192.228.30.9
 j.ca-servers.ca.	172800	IN	AAAA	2001:500:83::1
@@ -947,11 +949,30 @@ career.			172800	IN	NS	f5.nstld.com.
 career.			172800	IN	NS	g5.nstld.com.
 career.			172800	IN	NS	h5.nstld.com.
 career.			172800	IN	NS	l5.nstld.com.
-careers.		86400	IN	NSEC	casa. NS DS RRSIG NSEC
+careers.		86400	IN	NSEC	cartier. NS DS RRSIG NSEC
 careers.		172800	IN	NS	demand.beta.aridns.net.au.
 careers.		172800	IN	NS	demand.alpha.aridns.net.au.
 careers.		172800	IN	NS	demand.delta.aridns.net.au.
 careers.		172800	IN	NS	demand.gamma.aridns.net.au.
+cartier.		86400	IN	NSEC	casa. NS DS RRSIG NSEC
+cartier.		172800	IN	NS	ns1.dns.nic.cartier.
+cartier.		172800	IN	NS	ns2.dns.nic.cartier.
+cartier.		172800	IN	NS	ns3.dns.nic.cartier.
+cartier.		172800	IN	NS	ns4.dns.nic.cartier.
+cartier.		172800	IN	NS	ns5.dns.nic.cartier.
+cartier.		172800	IN	NS	ns6.dns.nic.cartier.
+ns1.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1071::22
+ns1.dns.nic.cartier.	172800	IN	A	156.154.144.34
+ns2.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1072::22
+ns2.dns.nic.cartier.	172800	IN	A	156.154.145.34
+ns3.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1073::22
+ns3.dns.nic.cartier.	172800	IN	A	156.154.159.34
+ns4.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1074::22
+ns4.dns.nic.cartier.	172800	IN	A	156.154.156.34
+ns5.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1075::22
+ns5.dns.nic.cartier.	172800	IN	A	156.154.157.34
+ns6.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1076::22
+ns6.dns.nic.cartier.	172800	IN	A	156.154.158.34
 casa.			86400	IN	NSEC	cash. NS DS RRSIG NSEC
 casa.			172800	IN	NS	a.ns.nic.casa.
 casa.			172800	IN	NS	b.ns.nic.casa.
