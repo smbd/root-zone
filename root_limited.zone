@@ -2747,21 +2747,18 @@ c.nic.ibm.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.ibm.		172800	IN	A	37.209.196.9
 d.nic.ibm.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.ibm.		172800	IN	A	37.209.198.9
-id.			86400	IN	NSEC	ie. NS RRSIG NSEC
-id.			172800	IN	NS	g.dns.id.
-id.			172800	IN	NS	ns1.id.
-id.			172800	IN	NS	ns1.rad.net.id.
-id.			172800	IN	NS	ns1.indo.net.id.
-id.			172800	IN	NS	ns2.cbn.net.id.
+id.			86400	IN	NSEC	ie. NS DS RRSIG NSEC
+id.			172800	IN	NS	a.dns.id.
+id.			172800	IN	NS	b.dns.id.
+id.			172800	IN	NS	c.dns.id.
+id.			172800	IN	NS	e.dns.id.
 id.			172800	IN	NS	sec3.apnic.net.
-g.dns.id.		172800	IN	AAAA	2001:dd8:1f:4::84
-g.dns.id.		172800	IN	A	203.119.112.84
-ns2.cbn.net.id.		172800	IN	AAAA	2001:d10:a:53::53
-ns2.cbn.net.id.		172800	IN	A	202.158.40.1
-ns1.indo.net.id.	172800	IN	A	202.159.32.2
-ns1.rad.net.id.		172800	IN	A	202.154.1.2
-ns1.id.			172800	IN	AAAA	2001:e00:1800::2
-ns1.id.			172800	IN	A	202.155.30.227
+a.dns.id.		172800	IN	AAAA	2001:e00:1800::2
+a.dns.id.		172800	IN	A	202.155.30.227
+b.dns.id.		172800	IN	A	103.19.179.179
+c.dns.id.		172800	IN	A	103.19.178.178
+e.dns.id.		172800	IN	AAAA	2001:df5:4000:4::4
+e.dns.id.		172800	IN	A	103.19.177.177
 ie.			172800	IN	NS	a.ns.ie.
 ie.			172800	IN	NS	b.ns.ie.
 ie.			172800	IN	NS	c.ns.ie.
@@ -5795,7 +5792,7 @@ sj.			86400	IN	NSEC	sk. NS DS RRSIG NSEC
 sj.			172800	IN	NS	nn.uninett.no.
 sj.			172800	IN	NS	nac.no.
 sj.			172800	IN	NS	server.nordu.net.
-sk.			86400	IN	NSEC	sl. NS RRSIG NSEC
+sk.			86400	IN	NSEC	sky. NS RRSIG NSEC
 sk.			172800	IN	NS	a.tld.sk.
 sk.			172800	IN	NS	b.tld.sk.
 sk.			172800	IN	NS	c.tld.sk.
@@ -5806,6 +5803,14 @@ b.tld.sk.		172800	IN	AAAA	2001:678:90::1
 b.tld.sk.		172800	IN	A	84.245.96.1
 c.tld.sk.		172800	IN	AAAA	2a02:770:100:100::101
 c.tld.sk.		172800	IN	A	217.75.72.157
+sky.			86400	IN	NSEC	sl. NS DS RRSIG NSEC
+sky.			172800	IN	NS	a5.nstld.com.
+sky.			172800	IN	NS	c5.nstld.com.
+sky.			172800	IN	NS	d5.nstld.com.
+sky.			172800	IN	NS	f5.nstld.com.
+sky.			172800	IN	NS	g5.nstld.com.
+sky.			172800	IN	NS	h5.nstld.com.
+sky.			172800	IN	NS	l5.nstld.com.
 sl.			86400	IN	NSEC	sm. NS RRSIG NSEC
 sl.			172800	IN	NS	ns1.neoip.com.
 sl.			172800	IN	NS	ns2.neoip.com.
