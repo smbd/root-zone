@@ -666,20 +666,12 @@ bmw.			172800	IN	NS	ns1b.ksregistry.net.
 bmw.			172800	IN	NS	ns2a.ksregistry.com.
 bmw.			172800	IN	NS	ns2b.ksregistry.com.
 bn.			86400	IN	NSEC	bnpparibas. NS RRSIG NSEC
-bn.			172800	IN	NS	jtb.brunet.bn.
 bn.			172800	IN	NS	ns1.bnnic.bn.
 bn.			172800	IN	NS	ns2.bnnic.bn.
-bn.			172800	IN	NS	ns2.brunet.bn.
 bn.			172800	IN	NS	sec4.apnic.net.
 bn.			172800	IN	NS	bn-ns.anycast.pch.net.
-bn.			172800	IN	NS	dns1-tl.brunet.bn.
-bn.			172800	IN	NS	dns2-tl.brunet.bn.
 ns1.bnnic.bn.		172800	IN	A	194.0.1.33
 ns2.bnnic.bn.		172800	IN	A	202.93.214.163
-dns1-tl.brunet.bn.	172800	IN	A	202.160.9.9
-dns2-tl.brunet.bn.	172800	IN	A	202.160.9.10
-jtb.brunet.bn.		172800	IN	A	202.160.8.2
-ns2.brunet.bn.		172800	IN	A	202.160.8.20
 bnpparibas.		86400	IN	NSEC	bo. NS DS RRSIG NSEC
 bnpparibas.		172800	IN	NS	a0.nic.bnpparibas.
 bnpparibas.		172800	IN	NS	a2.nic.bnpparibas.
@@ -2816,8 +2808,8 @@ lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 ilns.ilan.net.il.	172800	IN	A	128.139.35.5
 ns1.ns.il.		172800	IN	AAAA	2001:67c:1010:31::53
 ns1.ns.il.		172800	IN	A	194.146.106.122
-nsa.ns.il.		172800	IN	A	192.115.210.58
-nsb.ns.il.		172800	IN	A	192.115.210.60
+nsa.ns.il.		172800	IN	A	192.115.7.53
+nsb.ns.il.		172800	IN	A	192.115.7.60
 nsd.ns.il.		172800	IN	AAAA	2001:4f8:3:37::11
 nsd.ns.il.		172800	IN	A	149.20.56.132
 nse.ns.il.		172800	IN	A	192.115.141.253
