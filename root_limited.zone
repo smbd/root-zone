@@ -209,10 +209,8 @@ ar.			172800	IN	NS	a.dns.ar.
 ar.			172800	IN	NS	c.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
-ar.			172800	IN	NS	athea.ar.
 ar.			172800	IN	NS	ctina.ar.
 ar.			172800	IN	NS	relay1.mecon.gov.ar.
-athea.ar.		172800	IN	A	200.16.98.2
 ctina.ar.		172800	IN	A	200.16.97.17
 a.dns.ar.		172800	IN	AAAA	2801:140::10
 a.dns.ar.		172800	IN	A	200.108.145.50
