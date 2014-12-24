@@ -159,7 +159,7 @@ alsace.			86400	IN	NSEC	am. NS DS RRSIG NSEC
 alsace.			172800	IN	NS	d.nic.fr.
 alsace.			172800	IN	NS	f.ext.nic.fr.
 alsace.			172800	IN	NS	g.ext.nic.fr.
-am.			86400	IN	NSEC	an. NS DS RRSIG NSEC
+am.			86400	IN	NSEC	amsterdam. NS DS RRSIG NSEC
 am.			172800	IN	NS	am.cctld.authdns.ripe.net.
 am.			172800	IN	NS	rip.psg.com.
 am.			172800	IN	NS	fork.sth.dnsnode.net.
@@ -167,6 +167,22 @@ am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pch.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
+amsterdam.		86400	IN	NSEC	an. NS DS RRSIG NSEC
+amsterdam.		172800	IN	NS	ns1.nic.amsterdam.
+amsterdam.		172800	IN	NS	ns2.nic.amsterdam.
+amsterdam.		172800	IN	NS	ns3.nic.amsterdam.
+amsterdam.		172800	IN	NS	ns4.nic.amsterdam.
+amsterdam.		172800	IN	NS	ns5.nic.amsterdam.
+ns1.nic.amsterdam.	172800	IN	AAAA	2a00:d78:0:102:193:176:144:14
+ns1.nic.amsterdam.	172800	IN	A	193.176.144.14
+ns2.nic.amsterdam.	172800	IN	AAAA	2001:7b8:606::83
+ns2.nic.amsterdam.	172800	IN	A	213.154.241.83
+ns3.nic.amsterdam.	172800	IN	AAAA	2001:610:0:800d::14
+ns3.nic.amsterdam.	172800	IN	A	194.171.17.14
+ns4.nic.amsterdam.	172800	IN	AAAA	2a00:1188:5::216
+ns4.nic.amsterdam.	172800	IN	A	95.142.99.216
+ns5.nic.amsterdam.	172800	IN	AAAA	2001:678:2c:0:194:0:28:4
+ns5.nic.amsterdam.	172800	IN	A	194.0.28.4
 an.			86400	IN	NSEC	android. NS RRSIG NSEC
 an.			172800	IN	NS	an.cctld.authdns.ripe.net.
 an.			172800	IN	NS	ns0.ja.net.
@@ -841,10 +857,9 @@ bzh.			172800	IN	NS	f.ext.nic.fr.
 bzh.			172800	IN	NS	g.ext.nic.fr.
 ca.			172800	IN	NS	b.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
+ca.			172800	IN	NS	d.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
-ca.			172800	IN	NS	k.ca-servers.ca.
-ca.			172800	IN	NS	l.ca-servers.ca.
 ca.			172800	IN	NS	any.ca-servers.ca.
 ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
@@ -852,13 +867,11 @@ any.ca-servers.ca.	172800	IN	A	199.4.144.2
 b.ca-servers.ca.	172800	IN	AAAA	2a01:8840:1bb::1
 b.ca-servers.ca.	172800	IN	A	65.22.41.1
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
+d.ca-servers.ca.	172800	IN	AAAA	2001:500:97::1
+d.ca-servers.ca.	172800	IN	A	199.19.4.1
 e.ca-servers.ca.	172800	IN	A	192.228.30.9
 j.ca-servers.ca.	172800	IN	AAAA	2001:500:83::1
 j.ca-servers.ca.	172800	IN	A	198.182.167.1
-k.ca-servers.ca.	172800	IN	AAAA	2001:502:ad09::4
-k.ca-servers.ca.	172800	IN	A	156.154.100.4
-l.ca-servers.ca.	172800	IN	AAAA	2001:502:2eda::4
-l.ca-servers.ca.	172800	IN	A	156.154.101.4
 charles.cdec.polymtl.ca. 172800	IN	A	132.207.144.2
 cab.			86400	IN	NSEC	cal. NS DS RRSIG NSEC
 cab.			172800	IN	NS	demand.beta.aridns.net.au.
@@ -2133,11 +2146,16 @@ flights.		172800	IN	NS	demand.beta.aridns.net.au.
 flights.		172800	IN	NS	demand.alpha.aridns.net.au.
 flights.		172800	IN	NS	demand.delta.aridns.net.au.
 flights.		172800	IN	NS	demand.gamma.aridns.net.au.
-florist.		86400	IN	NSEC	flsmidth. NS DS RRSIG NSEC
+florist.		86400	IN	NSEC	flowers. NS DS RRSIG NSEC
 florist.		172800	IN	NS	demand.beta.aridns.net.au.
 florist.		172800	IN	NS	demand.alpha.aridns.net.au.
 florist.		172800	IN	NS	demand.delta.aridns.net.au.
 florist.		172800	IN	NS	demand.gamma.aridns.net.au.
+flowers.		86400	IN	NSEC	flsmidth. NS DS RRSIG NSEC
+flowers.		172800	IN	NS	a.ns.uniregistry.net.
+flowers.		172800	IN	NS	tld.isc-sns.com.
+flowers.		172800	IN	NS	tld.isc-sns.net.
+flowers.		172800	IN	NS	tld.isc-sns.info.
 flsmidth.		86400	IN	NSEC	fly. NS DS RRSIG NSEC
 flsmidth.		172800	IN	NS	ns1a.ksregistry.net.
 flsmidth.		172800	IN	NS	ns1b.ksregistry.net.
@@ -2318,7 +2336,7 @@ y.ns.nic.gent.		172800	IN	A	195.253.64.7
 gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
-gg.			86400	IN	NSEC	gh. NS RRSIG NSEC
+gg.			86400	IN	NSEC	ggee. NS RRSIG NSEC
 gg.			172800	IN	NS	c.ci-servers.org.
 gg.			172800	IN	NS	d.ci-servers.je.
 gg.			172800	IN	NS	e.ci-servers.gg.
@@ -2326,6 +2344,10 @@ gg.			172800	IN	NS	ns0.ja.net.
 gg.			172800	IN	NS	ns99.dns.net.nz.
 e.ci-servers.gg.	172800	IN	AAAA	2001:500:14:6074:ad::1
 e.ci-servers.gg.	172800	IN	A	204.61.216.74
+ggee.			86400	IN	NSEC	gh. NS DS RRSIG NSEC
+ggee.			172800	IN	NS	a.gmoregistry.net.
+ggee.			172800	IN	NS	b.gmoregistry.net.
+ggee.			172800	IN	NS	c.gmoregistry.net.
 gh.			86400	IN	NSEC	gi. NS RRSIG NSEC
 gh.			172800	IN	NS	ns1.dns.aq.
 gh.			172800	IN	NS	rip.psg.com.
@@ -5640,11 +5662,16 @@ ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410::9
 ns1.nic.net.sa.		172800	IN	A	86.111.192.9
 ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10::9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
-saarland.		86400	IN	NSEC	samsung. NS DS RRSIG NSEC
+saarland.		86400	IN	NSEC	sale. NS DS RRSIG NSEC
 saarland.		172800	IN	NS	ns1a.ksregistry.net.
 saarland.		172800	IN	NS	ns1b.ksregistry.net.
 saarland.		172800	IN	NS	ns2a.ksregistry.com.
 saarland.		172800	IN	NS	ns2b.ksregistry.com.
+sale.			86400	IN	NSEC	samsung. NS DS RRSIG NSEC
+sale.			172800	IN	NS	demand.beta.aridns.net.au.
+sale.			172800	IN	NS	demand.alpha.aridns.net.au.
+sale.			172800	IN	NS	demand.delta.aridns.net.au.
+sale.			172800	IN	NS	demand.gamma.aridns.net.au.
 samsung.		86400	IN	NSEC	sarl. NS DS RRSIG NSEC
 samsung.		172800	IN	NS	e.dns.kr.
 samsung.		172800	IN	NS	g.dns.kr.
@@ -6645,11 +6672,16 @@ vi.			172800	IN	NS	auth110.ns.uu.net.
 ns0.nic.vi.		172800	IN	AAAA	2001:500:2e::1
 ns1.nic.vi.		172800	IN	A	192.5.4.1
 ns3.nic.vi.		172800	IN	A	68.178.129.149
-viajes.			86400	IN	NSEC	villas. NS DS RRSIG NSEC
+viajes.			86400	IN	NSEC	video. NS DS RRSIG NSEC
 viajes.			172800	IN	NS	demand.beta.aridns.net.au.
 viajes.			172800	IN	NS	demand.alpha.aridns.net.au.
 viajes.			172800	IN	NS	demand.delta.aridns.net.au.
 viajes.			172800	IN	NS	demand.gamma.aridns.net.au.
+video.			86400	IN	NSEC	villas. NS DS RRSIG NSEC
+video.			172800	IN	NS	demand.beta.aridns.net.au.
+video.			172800	IN	NS	demand.alpha.aridns.net.au.
+video.			172800	IN	NS	demand.delta.aridns.net.au.
+video.			172800	IN	NS	demand.gamma.aridns.net.au.
 villas.			86400	IN	NSEC	vision. NS DS RRSIG NSEC
 villas.			172800	IN	NS	demand.beta.aridns.net.au.
 villas.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -7651,11 +7683,16 @@ zm.			172800	IN	NS	ns-zm.afrinic.net.
 ns1.coppernet.zm.	172800	IN	A	41.222.240.15
 ns1.zamnet.zm.		172800	IN	A	196.46.192.26
 ns2.zamnet.zm.		172800	IN	A	196.46.192.21
-zone.			86400	IN	NSEC	zw. NS DS RRSIG NSEC
+zone.			86400	IN	NSEC	zuerich. NS DS RRSIG NSEC
 zone.			172800	IN	NS	demand.beta.aridns.net.au.
 zone.			172800	IN	NS	demand.alpha.aridns.net.au.
 zone.			172800	IN	NS	demand.delta.aridns.net.au.
 zone.			172800	IN	NS	demand.gamma.aridns.net.au.
+zuerich.		86400	IN	NSEC	zw. NS DS RRSIG NSEC
+zuerich.		172800	IN	NS	ns1a.ksregistry.net.
+zuerich.		172800	IN	NS	ns1b.ksregistry.net.
+zuerich.		172800	IN	NS	ns2a.ksregistry.com.
+zuerich.		172800	IN	NS	ns2b.ksregistry.com.
 zw.			86400	IN	NSEC	. NS RRSIG NSEC
 zw.			172800	IN	NS	ns1.telone.co.zw.
 zw.			172800	IN	NS	ns2.gip.net.
