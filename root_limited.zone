@@ -5863,11 +5863,24 @@ b0.nic.shiksha.		172800	IN	AAAA	2a01:8840:23::33
 b0.nic.shiksha.		172800	IN	A	65.22.33.33
 c0.nic.shiksha.		172800	IN	AAAA	2a01:8840:24::33
 c0.nic.shiksha.		172800	IN	A	65.22.34.33
-shoes.			86400	IN	NSEC	si. NS DS RRSIG NSEC
+shoes.			86400	IN	NSEC	shriram. NS DS RRSIG NSEC
 shoes.			172800	IN	NS	demand.beta.aridns.net.au.
 shoes.			172800	IN	NS	demand.alpha.aridns.net.au.
 shoes.			172800	IN	NS	demand.delta.aridns.net.au.
 shoes.			172800	IN	NS	demand.gamma.aridns.net.au.
+shriram.		86400	IN	NSEC	si. NS DS RRSIG NSEC
+shriram.		172800	IN	NS	a0.nic.shriram.
+shriram.		172800	IN	NS	a2.nic.shriram.
+shriram.		172800	IN	NS	b0.nic.shriram.
+shriram.		172800	IN	NS	c0.nic.shriram.
+a0.nic.shriram.		172800	IN	AAAA	2a01:8840:ae::41
+a0.nic.shriram.		172800	IN	A	65.22.180.41
+a2.nic.shriram.		172800	IN	AAAA	2a01:8840:b1::41
+a2.nic.shriram.		172800	IN	A	65.22.183.41
+b0.nic.shriram.		172800	IN	AAAA	2a01:8840:af::41
+b0.nic.shriram.		172800	IN	A	65.22.181.41
+c0.nic.shriram.		172800	IN	AAAA	2a01:8840:b0::41
+c0.nic.shriram.		172800	IN	A	65.22.182.41
 si.			172800	IN	NS	b.dns.si.
 si.			172800	IN	NS	c.dns.si.
 si.			172800	IN	NS	d.dns.si.
