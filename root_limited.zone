@@ -7020,7 +7020,7 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--45brj9c.		86400	IN	NSEC	xn--45q11c. NS RRSIG NSEC
+xn--45brj9c.		86400	IN	NSEC	xn--45q11c. NS DS RRSIG NSEC
 xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -7215,7 +7215,7 @@ xn--flw351e.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--flw351e.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 xn--flw351e.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 xn--flw351e.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-xn--fpcrj9c3d.		86400	IN	NSEC	xn--fzc2c9e2c. NS RRSIG NSEC
+xn--fpcrj9c3d.		86400	IN	NSEC	xn--fzc2c9e2c. NS DS RRSIG NSEC
 xn--fpcrj9c3d.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--fpcrj9c3d.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -7358,7 +7358,7 @@ xn--mgbayh7gpa.		172800	IN	NS	rip.psg.com.
 xn--mgbayh7gpa.		172800	IN	NS	amra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	petra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	jordan1st.nic.gov.jo.
-xn--mgbbh1a71e.		86400	IN	NSEC	xn--mgbc0a9azcg. NS RRSIG NSEC
+xn--mgbbh1a71e.		86400	IN	NSEC	xn--mgbc0a9azcg. NS DS RRSIG NSEC
 xn--mgbbh1a71e.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -7487,7 +7487,7 @@ ns5.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1075::bf
 ns5.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.157.191
 ns6.dns.nic.xn--rhqv96g. 172800	IN	AAAA	2610:a1:1076::bf
 ns6.dns.nic.xn--rhqv96g. 172800	IN	A	156.154.158.191
-xn--s9brj9c.		86400	IN	NSEC	xn--ses554g. NS RRSIG NSEC
+xn--s9brj9c.		86400	IN	NSEC	xn--ses554g. NS DS RRSIG NSEC
 xn--s9brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--s9brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -7556,7 +7556,7 @@ xn--xkc2al3hye2a.	172800	IN	NS	ns-c.nic.lk.
 xn--xkc2al3hye2a.	172800	IN	NS	ns-d.nic.lk.
 xn--xkc2al3hye2a.	172800	IN	NS	ns-l.nic.lk.
 xn--xkc2al3hye2a.	172800	IN	NS	ns-t.nic.lk.
-xn--xkc2dl3a5ee0h.	86400	IN	NSEC	xn--yfro4i67o. NS RRSIG NSEC
+xn--xkc2dl3a5ee0h.	86400	IN	NSEC	xn--yfro4i67o. NS DS RRSIG NSEC
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a1.in.afilias-nst.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a2.in.afilias-nst.info.
