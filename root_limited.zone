@@ -2074,7 +2074,6 @@ d.nic.feedback.		172800	IN	A	194.0.1.45
 fi.			86400	IN	NSEC	finance. NS DS RRSIG NSEC
 fi.			172800	IN	NS	a.fi.
 fi.			172800	IN	NS	b.fi.
-fi.			172800	IN	NS	c.fi.
 fi.			172800	IN	NS	d.fi.
 fi.			172800	IN	NS	e.fi.
 fi.			172800	IN	NS	f.fi.
@@ -2083,15 +2082,14 @@ a.fi.			172800	IN	AAAA	2001:708:10:53::53
 a.fi.			172800	IN	A	193.166.4.1
 b.fi.			172800	IN	AAAA	2001:67c:1010:6::53
 b.fi.			172800	IN	A	194.146.106.26
-c.fi.			172800	IN	AAAA	2001:502:ad09::26
-c.fi.			172800	IN	A	156.154.100.26
 d.fi.			172800	IN	AAAA	2a01:3f0:0:302::53
 d.fi.			172800	IN	A	77.72.229.253
 e.fi.			172800	IN	AAAA	2001:678:4::e
 e.fi.			172800	IN	A	194.0.1.14
 f.fi.			172800	IN	AAAA	2a00:13f0:0:3::aaaa
 f.fi.			172800	IN	A	87.239.127.198
-g.fi.			172800	IN	A	156.154.101.26
+g.fi.			172800	IN	AAAA	2001:500:14:6098:ad::1
+g.fi.			172800	IN	A	204.61.216.98
 finance.		86400	IN	NSEC	financial. NS DS RRSIG NSEC
 finance.		172800	IN	NS	demand.beta.aridns.net.au.
 finance.		172800	IN	NS	demand.alpha.aridns.net.au.
