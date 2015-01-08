@@ -435,11 +435,19 @@ ba.			172800	IN	NS	auth03.ns.uu.net.
 ba.			172800	IN	NS	munnari.oz.au.
 sava.utic.net.ba.	172800	IN	A	195.130.35.3
 ns.ba.			172800	IN	A	195.130.35.5
-band.			86400	IN	NSEC	bar. NS DS RRSIG NSEC
+band.			86400	IN	NSEC	bank. NS DS RRSIG NSEC
 band.			172800	IN	NS	demand.beta.aridns.net.au.
 band.			172800	IN	NS	demand.alpha.aridns.net.au.
 band.			172800	IN	NS	demand.delta.aridns.net.au.
 band.			172800	IN	NS	demand.gamma.aridns.net.au.
+bank.			86400	IN	NSEC	bar. NS DS RRSIG NSEC
+bank.			172800	IN	NS	a5.nstld.com.
+bank.			172800	IN	NS	c5.nstld.com.
+bank.			172800	IN	NS	d5.nstld.com.
+bank.			172800	IN	NS	f5.nstld.com.
+bank.			172800	IN	NS	g5.nstld.com.
+bank.			172800	IN	NS	h5.nstld.com.
+bank.			172800	IN	NS	l5.nstld.com.
 bar.			86400	IN	NSEC	bargains. NS DS RRSIG NSEC
 bar.			172800	IN	NS	a.nic.bar.
 bar.			172800	IN	NS	b.nic.bar.
@@ -2112,13 +2120,26 @@ fish.			172800	IN	NS	demand.beta.aridns.net.au.
 fish.			172800	IN	NS	demand.alpha.aridns.net.au.
 fish.			172800	IN	NS	demand.delta.aridns.net.au.
 fish.			172800	IN	NS	demand.gamma.aridns.net.au.
-fishing.		86400	IN	NSEC	fitness. NS DS RRSIG NSEC
+fishing.		86400	IN	NSEC	fit. NS DS RRSIG NSEC
 fishing.		172800	IN	NS	a.ns.nic.fishing.
 fishing.		172800	IN	NS	b.ns.nic.fishing.
 a.ns.nic.fishing.	172800	IN	AAAA	2620:171:a02:ad::5
 a.ns.nic.fishing.	172800	IN	A	72.0.50.5
 b.ns.nic.fishing.	172800	IN	AAAA	2620:171:d02:dc::5
 b.ns.nic.fishing.	172800	IN	A	72.42.114.5
+fit.			86400	IN	NSEC	fitness. NS DS RRSIG NSEC
+fit.			172800	IN	NS	a.ns.nic.fit.
+fit.			172800	IN	NS	b.ns.nic.fit.
+fit.			172800	IN	NS	c.ns.nic.fit.
+fit.			172800	IN	NS	d.ns.nic.fit.
+a.ns.nic.fit.		172800	IN	AAAA	2620:171:a02:ad::18
+a.ns.nic.fit.		172800	IN	A	72.0.50.18
+b.ns.nic.fit.		172800	IN	AAAA	2620:171:d02:dc::18
+b.ns.nic.fit.		172800	IN	A	72.42.114.18
+c.ns.nic.fit.		172800	IN	AAAA	2620:171:c00:c::18
+c.ns.nic.fit.		172800	IN	A	70.40.0.18
+d.ns.nic.fit.		172800	IN	AAAA	2620:171:f00:d::18
+d.ns.nic.fit.		172800	IN	A	70.40.8.18
 fitness.		86400	IN	NSEC	fj. NS DS RRSIG NSEC
 fitness.		172800	IN	NS	demand.beta.aridns.net.au.
 fitness.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3169,11 +3190,17 @@ juegos.			172800	IN	NS	a.ns.uniregistry.net.
 juegos.			172800	IN	NS	tld.isc-sns.com.
 juegos.			172800	IN	NS	tld.isc-sns.net.
 juegos.			172800	IN	NS	tld.isc-sns.info.
-kaufen.			86400	IN	NSEC	ke. NS DS RRSIG NSEC
+kaufen.			86400	IN	NSEC	kddi. NS DS RRSIG NSEC
 kaufen.			172800	IN	NS	demand.beta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.alpha.aridns.net.au.
 kaufen.			172800	IN	NS	demand.delta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.gamma.aridns.net.au.
+kddi.			86400	IN	NSEC	ke. NS DS RRSIG NSEC
+kddi.			172800	IN	NS	a.gmoregistry.net.
+kddi.			172800	IN	NS	b.gmoregistry.net.
+kddi.			172800	IN	NS	c.gmoregistry.net.
+kddi.			172800	IN	NS	d.gmoregistry.net.
+kddi.			172800	IN	NS	e.gmoregistry.net.
 ke.			86400	IN	NSEC	kg. NS DS RRSIG NSEC
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
@@ -3342,11 +3369,15 @@ lacaixa.		172800	IN	NS	anycast9.irondns.net.
 lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
 lacaixa.		172800	IN	NS	anycast24.irondns.net.
-land.			86400	IN	NSEC	latrobe. NS DS RRSIG NSEC
+land.			86400	IN	NSEC	lat. NS DS RRSIG NSEC
 land.			172800	IN	NS	demand.beta.aridns.net.au.
 land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
 land.			172800	IN	NS	demand.gamma.aridns.net.au.
+lat.			86400	IN	NSEC	latrobe. NS DS RRSIG NSEC
+lat.			172800	IN	NS	c.mx-ns.mx.
+lat.			172800	IN	NS	m.mx-ns.mx.
+lat.			172800	IN	NS	o.mx-ns.mx.
 latrobe.		86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
 latrobe.		172800	IN	NS	a.nic.latrobe.
 latrobe.		172800	IN	NS	b.nic.latrobe.
