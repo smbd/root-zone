@@ -3534,13 +3534,19 @@ loans.			172800	IN	NS	demand.beta.aridns.net.au.
 loans.			172800	IN	NS	demand.alpha.aridns.net.au.
 loans.			172800	IN	NS	demand.delta.aridns.net.au.
 loans.			172800	IN	NS	demand.gamma.aridns.net.au.
-london.			86400	IN	NSEC	lotto. NS DS RRSIG NSEC
+london.			86400	IN	NSEC	lotte. NS DS RRSIG NSEC
 london.			172800	IN	NS	a.ns.nic.london.
 london.			172800	IN	NS	b.ns.nic.london.
 a.ns.nic.london.	172800	IN	AAAA	2620:171:a02:ad::11
 a.ns.nic.london.	172800	IN	A	72.0.50.11
 b.ns.nic.london.	172800	IN	AAAA	2620:171:d02:dc::11
 b.ns.nic.london.	172800	IN	A	72.42.114.11
+lotte.			86400	IN	NSEC	lotto. NS DS RRSIG NSEC
+lotte.			172800	IN	NS	a.gmoregistry.net.
+lotte.			172800	IN	NS	b.gmoregistry.net.
+lotte.			172800	IN	NS	c.gmoregistry.net.
+lotte.			172800	IN	NS	d.gmoregistry.net.
+lotte.			172800	IN	NS	e.gmoregistry.net.
 lotto.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
 lotto.			172800	IN	NS	a0.nic.lotto.
 lotto.			172800	IN	NS	a2.nic.lotto.
@@ -3692,11 +3698,24 @@ market.			172800	IN	NS	demand.beta.aridns.net.au.
 market.			172800	IN	NS	demand.alpha.aridns.net.au.
 market.			172800	IN	NS	demand.delta.aridns.net.au.
 market.			172800	IN	NS	demand.gamma.aridns.net.au.
-marketing.		86400	IN	NSEC	mc. NS DS RRSIG NSEC
+marketing.		86400	IN	NSEC	marriott. NS DS RRSIG NSEC
 marketing.		172800	IN	NS	demand.beta.aridns.net.au.
 marketing.		172800	IN	NS	demand.alpha.aridns.net.au.
 marketing.		172800	IN	NS	demand.delta.aridns.net.au.
 marketing.		172800	IN	NS	demand.gamma.aridns.net.au.
+marriott.		86400	IN	NSEC	mc. NS DS RRSIG NSEC
+marriott.		172800	IN	NS	a0.nic.marriott.
+marriott.		172800	IN	NS	a2.nic.marriott.
+marriott.		172800	IN	NS	b0.nic.marriott.
+marriott.		172800	IN	NS	c0.nic.marriott.
+a0.nic.marriott.	172800	IN	AAAA	2a01:8840:e6::9
+a0.nic.marriott.	172800	IN	A	65.22.236.9
+a2.nic.marriott.	172800	IN	AAAA	2a01:8840:e9::9
+a2.nic.marriott.	172800	IN	A	65.22.239.9
+b0.nic.marriott.	172800	IN	AAAA	2a01:8840:e7::9
+b0.nic.marriott.	172800	IN	A	65.22.237.9
+c0.nic.marriott.	172800	IN	AAAA	2a01:8840:e8::9
+c0.nic.marriott.	172800	IN	A	65.22.238.9
 mc.			86400	IN	NSEC	md. NS RRSIG NSEC
 mc.			172800	IN	NS	mc.cctld.authdns.ripe.net.
 mc.			172800	IN	NS	ns1.nic.mc.
