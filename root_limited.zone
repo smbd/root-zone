@@ -4870,7 +4870,7 @@ okinawa.		172800	IN	NS	b.gmoregistry.net.
 okinawa.		172800	IN	NS	c.gmoregistry.net.
 okinawa.		172800	IN	NS	d.gmoregistry.net.
 okinawa.		172800	IN	NS	e.gmoregistry.net.
-om.			86400	IN	NSEC	ong. NS RRSIG NSEC
+om.			86400	IN	NSEC	one. NS RRSIG NSEC
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns2.registry.om.
 om.			172800	IN	NS	cctld.beta.aridns.net.au.
@@ -4879,6 +4879,19 @@ om.			172800	IN	NS	cctld.delta.aridns.net.au.
 om.			172800	IN	NS	cctld.gamma.aridns.net.au.
 ns1.registry.om.	172800	IN	A	185.27.90.101
 ns2.registry.om.	172800	IN	A	185.27.91.69
+one.			86400	IN	NSEC	ong. NS DS RRSIG NSEC
+one.			172800	IN	NS	a.nic.one.
+one.			172800	IN	NS	b.nic.one.
+one.			172800	IN	NS	c.nic.one.
+one.			172800	IN	NS	d.nic.one.
+a.nic.one.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.one.		172800	IN	A	37.209.192.9
+b.nic.one.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.one.		172800	IN	A	37.209.194.9
+c.nic.one.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.one.		172800	IN	A	37.209.196.9
+d.nic.one.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.one.		172800	IN	A	37.209.198.9
 ong.			86400	IN	NSEC	onl. NS DS RRSIG NSEC
 ong.			172800	IN	NS	a0.nic.ong.
 ong.			172800	IN	NS	a2.nic.ong.
@@ -5212,8 +5225,8 @@ d-dns.pl.		172800	IN	A	81.15.133.186
 e-dns.pl.		172800	IN	A	195.80.237.162
 f-dns.pl.		172800	IN	AAAA	2001:1a68:0:17::238
 f-dns.pl.		172800	IN	A	77.79.212.238
-g-dns.pl.		172800	IN	AAAA	2001:6d8:0:1::a:6
-g-dns.pl.		172800	IN	A	149.156.1.6
+g-dns.pl.		172800	IN	AAAA	2001:6d8:1001:1::252
+g-dns.pl.		172800	IN	A	149.156.1.252
 h-dns.pl.		172800	IN	AAAA	2001:678:4::2
 h-dns.pl.		172800	IN	A	194.0.1.2
 i-dns.pl.		172800	IN	A	156.154.100.15
