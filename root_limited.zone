@@ -3091,7 +3091,7 @@ seth.namex.it.		172800	IN	AAAA	2001:7f8:10:f00a::7
 seth.namex.it.		172800	IN	A	193.201.40.7
 dns.nic.it.		172800	IN	AAAA	2a00:d40:1:1::5
 dns.nic.it.		172800	IN	A	192.12.192.5
-iwc.			86400	IN	NSEC	je. NS DS RRSIG NSEC
+iwc.			86400	IN	NSEC	jcb. NS DS RRSIG NSEC
 iwc.			172800	IN	NS	ns1.dns.nic.iwc.
 iwc.			172800	IN	NS	ns2.dns.nic.iwc.
 iwc.			172800	IN	NS	ns3.dns.nic.iwc.
@@ -3110,6 +3110,12 @@ ns5.dns.nic.iwc.	172800	IN	AAAA	2610:a1:1075::55
 ns5.dns.nic.iwc.	172800	IN	A	156.154.157.85
 ns6.dns.nic.iwc.	172800	IN	AAAA	2610:a1:1076::55
 ns6.dns.nic.iwc.	172800	IN	A	156.154.158.85
+jcb.			86400	IN	NSEC	je. NS DS RRSIG NSEC
+jcb.			172800	IN	NS	a.gmoregistry.net.
+jcb.			172800	IN	NS	b.gmoregistry.net.
+jcb.			172800	IN	NS	c.gmoregistry.net.
+jcb.			172800	IN	NS	d.gmoregistry.net.
+jcb.			172800	IN	NS	e.gmoregistry.net.
 je.			86400	IN	NSEC	jetzt. NS RRSIG NSEC
 je.			172800	IN	NS	c.ci-servers.org.
 je.			172800	IN	NS	d.ci-servers.je.
