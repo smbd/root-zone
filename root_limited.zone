@@ -447,7 +447,7 @@ bank.			172800	IN	NS	f5.nstld.com.
 bank.			172800	IN	NS	g5.nstld.com.
 bank.			172800	IN	NS	h5.nstld.com.
 bank.			172800	IN	NS	l5.nstld.com.
-bar.			86400	IN	NSEC	bargains. NS DS RRSIG NSEC
+bar.			86400	IN	NSEC	barclaycard. NS DS RRSIG NSEC
 bar.			172800	IN	NS	a.nic.bar.
 bar.			172800	IN	NS	b.nic.bar.
 bar.			172800	IN	NS	c.nic.bar.
@@ -460,6 +460,32 @@ c.nic.bar.		172800	IN	AAAA	2001:678:5::2
 c.nic.bar.		172800	IN	A	194.0.2.2
 d.nic.bar.		172800	IN	AAAA	2001:678:4::2d
 d.nic.bar.		172800	IN	A	194.0.1.45
+barclaycard.		86400	IN	NSEC	barclays. NS DS RRSIG NSEC
+barclaycard.		172800	IN	NS	a.nic.barclaycard.
+barclaycard.		172800	IN	NS	b.nic.barclaycard.
+barclaycard.		172800	IN	NS	c.nic.barclaycard.
+barclaycard.		172800	IN	NS	d.nic.barclaycard.
+a.nic.barclaycard.	172800	IN	AAAA	2001:dcd:1::9
+a.nic.barclaycard.	172800	IN	A	37.209.192.9
+b.nic.barclaycard.	172800	IN	AAAA	2001:dcd:2::9
+b.nic.barclaycard.	172800	IN	A	37.209.194.9
+c.nic.barclaycard.	172800	IN	AAAA	2001:dcd:3::9
+c.nic.barclaycard.	172800	IN	A	37.209.196.9
+d.nic.barclaycard.	172800	IN	AAAA	2001:dcd:4::9
+d.nic.barclaycard.	172800	IN	A	37.209.198.9
+barclays.		86400	IN	NSEC	bargains. NS DS RRSIG NSEC
+barclays.		172800	IN	NS	a.nic.barclays.
+barclays.		172800	IN	NS	b.nic.barclays.
+barclays.		172800	IN	NS	c.nic.barclays.
+barclays.		172800	IN	NS	d.nic.barclays.
+a.nic.barclays.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.barclays.		172800	IN	A	37.209.192.9
+b.nic.barclays.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.barclays.		172800	IN	A	37.209.194.9
+c.nic.barclays.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.barclays.		172800	IN	A	37.209.196.9
+d.nic.barclays.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.barclays.		172800	IN	A	37.209.198.9
 bargains.		86400	IN	NSEC	bayern. NS DS RRSIG NSEC
 bargains.		172800	IN	NS	demand.beta.aridns.net.au.
 bargains.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -1625,7 +1651,7 @@ cz.			172800	IN	NS	a.ns.nic.cz.
 cz.			172800	IN	NS	b.ns.nic.cz.
 cz.			172800	IN	NS	c.ns.nic.cz.
 cz.			172800	IN	NS	d.ns.nic.cz.
-cz.			86400	IN	NSEC	dad. NS DS RRSIG NSEC
+cz.			86400	IN	NSEC	dabur. NS DS RRSIG NSEC
 d.ext.nic.cz.		172800	IN	AAAA	2001:678:1::2
 d.ext.nic.cz.		172800	IN	A	193.29.206.2
 a.ns.nic.cz.		172800	IN	AAAA	2001:678:f::1
@@ -1636,6 +1662,19 @@ c.ns.nic.cz.		172800	IN	AAAA	2001:678:11::1
 c.ns.nic.cz.		172800	IN	A	194.0.14.1
 d.ns.nic.cz.		172800	IN	AAAA	2001:678:1::1
 d.ns.nic.cz.		172800	IN	A	193.29.206.1
+dabur.			86400	IN	NSEC	dad. NS DS RRSIG NSEC
+dabur.			172800	IN	NS	a0.nic.dabur.
+dabur.			172800	IN	NS	a2.nic.dabur.
+dabur.			172800	IN	NS	b0.nic.dabur.
+dabur.			172800	IN	NS	c0.nic.dabur.
+a0.nic.dabur.		172800	IN	AAAA	2a01:8840:ae::25
+a0.nic.dabur.		172800	IN	A	65.22.180.25
+a2.nic.dabur.		172800	IN	AAAA	2a01:8840:b1::25
+a2.nic.dabur.		172800	IN	A	65.22.183.25
+b0.nic.dabur.		172800	IN	AAAA	2a01:8840:af::25
+b0.nic.dabur.		172800	IN	A	65.22.181.25
+c0.nic.dabur.		172800	IN	AAAA	2a01:8840:b0::25
+c0.nic.dabur.		172800	IN	A	65.22.182.25
 dad.			86400	IN	NSEC	dance. NS DS RRSIG NSEC
 dad.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 dad.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -1652,12 +1691,18 @@ dating.			172800	IN	NS	demand.beta.aridns.net.au.
 dating.			172800	IN	NS	demand.alpha.aridns.net.au.
 dating.			172800	IN	NS	demand.delta.aridns.net.au.
 dating.			172800	IN	NS	demand.gamma.aridns.net.au.
-day.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+day.			86400	IN	NSEC	dclk. NS DS RRSIG NSEC
 day.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+dclk.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+dclk.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+dclk.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+dclk.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+dclk.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+dclk.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 de.			172800	IN	NS	a.nic.de.
 de.			172800	IN	NS	f.nic.de.
 de.			172800	IN	NS	l.de.net.
@@ -1707,11 +1752,24 @@ dentist.		172800	IN	NS	demand.beta.aridns.net.au.
 dentist.		172800	IN	NS	demand.alpha.aridns.net.au.
 dentist.		172800	IN	NS	demand.delta.aridns.net.au.
 dentist.		172800	IN	NS	demand.gamma.aridns.net.au.
-desi.			86400	IN	NSEC	dev. NS DS RRSIG NSEC
+desi.			86400	IN	NSEC	design. NS DS RRSIG NSEC
 desi.			172800	IN	NS	ns1a.ksregistry.net.
 desi.			172800	IN	NS	ns1b.ksregistry.net.
 desi.			172800	IN	NS	ns2a.ksregistry.com.
 desi.			172800	IN	NS	ns2b.ksregistry.com.
+design.			86400	IN	NSEC	dev. NS DS RRSIG NSEC
+design.			172800	IN	NS	a.nic.design.
+design.			172800	IN	NS	b.nic.design.
+design.			172800	IN	NS	c.nic.design.
+design.			172800	IN	NS	d.nic.design.
+a.nic.design.		172800	IN	AAAA	2001:67c:13cc::1:59
+a.nic.design.		172800	IN	A	194.169.218.59
+b.nic.design.		172800	IN	AAAA	2a04:2b00:13cc::1:59
+b.nic.design.		172800	IN	A	185.24.64.59
+c.nic.design.		172800	IN	AAAA	2001:678:5::2
+c.nic.design.		172800	IN	A	194.0.2.2
+d.nic.design.		172800	IN	AAAA	2001:678:4::2d
+d.nic.design.		172800	IN	A	194.0.1.45
 dev.			86400	IN	NSEC	diamonds. NS DS RRSIG NSEC
 dev.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 dev.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -2369,6 +2427,8 @@ ggee.			86400	IN	NSEC	gh. NS DS RRSIG NSEC
 ggee.			172800	IN	NS	a.gmoregistry.net.
 ggee.			172800	IN	NS	b.gmoregistry.net.
 ggee.			172800	IN	NS	c.gmoregistry.net.
+ggee.			172800	IN	NS	d.gmoregistry.net.
+ggee.			172800	IN	NS	e.gmoregistry.net.
 gh.			86400	IN	NSEC	gi. NS RRSIG NSEC
 gh.			172800	IN	NS	ns1.dns.aq.
 gh.			172800	IN	NS	rip.psg.com.
@@ -2465,11 +2525,17 @@ gmx.			172800	IN	NS	anycast9.irondns.net.
 gmx.			172800	IN	NS	anycast10.irondns.net.
 gmx.			172800	IN	NS	anycast23.irondns.net.
 gmx.			172800	IN	NS	anycast24.irondns.net.
-gn.			86400	IN	NSEC	google. NS DS RRSIG NSEC
+gn.			86400	IN	NSEC	goog. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
 gn.			172800	IN	NS	hippo.ru.ac.za.
+goog.			86400	IN	NSEC	google. NS DS RRSIG NSEC
+goog.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+goog.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+goog.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+goog.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+goog.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 google.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
 google.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 google.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -2606,13 +2672,19 @@ gy.			172800	IN	NS	phloem.uoregon.edu.
 gy.			172800	IN	NS	sns-pb.isc.org.
 ns1.gtt.co.gy.		172800	IN	A	190.80.0.41
 ns2.gtt.co.gy.		172800	IN	A	190.80.0.42
-hamburg.		86400	IN	NSEC	haus. NS DS RRSIG NSEC
+hamburg.		86400	IN	NSEC	hangout. NS DS RRSIG NSEC
 hamburg.		172800	IN	NS	a.dns.nic.hamburg.
 hamburg.		172800	IN	NS	m.dns.nic.hamburg.
 a.dns.nic.hamburg.	172800	IN	AAAA	2001:678:20::21
 a.dns.nic.hamburg.	172800	IN	A	194.0.25.21
 m.dns.nic.hamburg.	172800	IN	AAAA	2001:67c:10e0::10
 m.dns.nic.hamburg.	172800	IN	A	194.0.26.10
+hangout.		86400	IN	NSEC	haus. NS DS RRSIG NSEC
+hangout.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+hangout.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+hangout.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+hangout.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+hangout.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 haus.			86400	IN	NSEC	healthcare. NS DS RRSIG NSEC
 haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2628,12 +2700,25 @@ help.			172800	IN	NS	a.ns.uniregistry.net.
 help.			172800	IN	NS	tld.isc-sns.com.
 help.			172800	IN	NS	tld.isc-sns.net.
 help.			172800	IN	NS	tld.isc-sns.info.
-here.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+here.			86400	IN	NSEC	hermes. NS DS RRSIG NSEC
 here.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+hermes.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+hermes.			172800	IN	NS	a0.nic.hermes.
+hermes.			172800	IN	NS	a2.nic.hermes.
+hermes.			172800	IN	NS	b0.nic.hermes.
+hermes.			172800	IN	NS	c0.nic.hermes.
+a0.nic.hermes.		172800	IN	AAAA	2a01:8840:e2::25
+a0.nic.hermes.		172800	IN	A	65.22.232.25
+a2.nic.hermes.		172800	IN	AAAA	2a01:8840:e5::25
+a2.nic.hermes.		172800	IN	A	65.22.235.25
+b0.nic.hermes.		172800	IN	AAAA	2a01:8840:e3::25
+b0.nic.hermes.		172800	IN	A	65.22.233.25
+c0.nic.hermes.		172800	IN	AAAA	2a01:8840:e4::25
+c0.nic.hermes.		172800	IN	A	65.22.234.25
 hiphop.			86400	IN	NSEC	hiv. NS DS RRSIG NSEC
 hiphop.			172800	IN	NS	a.ns.uniregistry.net.
 hiphop.			172800	IN	NS	tld.isc-sns.com.
@@ -2824,7 +2909,7 @@ ie.			172800	IN	NS	e.ns.ie.
 ie.			172800	IN	NS	f.ns.ie.
 ie.			172800	IN	NS	g.ns.ie.
 ie.			172800	IN	NS	h.ns.ie.
-ie.			86400	IN	NSEC	il. NS DS RRSIG NSEC
+ie.			86400	IN	NSEC	ifm. NS DS RRSIG NSEC
 ns1.connect.ie.		172800	IN	A	109.123.110.79
 a.ns.ie.		172800	IN	AAAA	2a01:4b0::3
 a.ns.ie.		172800	IN	A	77.72.72.44
@@ -2842,6 +2927,11 @@ g.ns.ie.		172800	IN	AAAA	2001:7c8:2:a::64
 g.ns.ie.		172800	IN	A	192.111.39.100
 h.ns.ie.		172800	IN	AAAA	2001:660:3005:1::1:2
 h.ns.ie.		172800	IN	A	192.93.0.4
+ifm.			86400	IN	NSEC	il. NS DS RRSIG NSEC
+ifm.			172800	IN	NS	anycast9.irondns.net.
+ifm.			172800	IN	NS	anycast10.irondns.net.
+ifm.			172800	IN	NS	anycast23.irondns.net.
+ifm.			172800	IN	NS	anycast24.irondns.net.
 il.			86400	IN	NSEC	im. NS RRSIG NSEC
 il.			172800	IN	NS	ns1.ns.il.
 il.			172800	IN	NS	nsa.ns.il.
@@ -6253,7 +6343,7 @@ technology.		172800	IN	NS	demand.beta.aridns.net.au.
 technology.		172800	IN	NS	demand.alpha.aridns.net.au.
 technology.		172800	IN	NS	demand.delta.aridns.net.au.
 technology.		172800	IN	NS	demand.gamma.aridns.net.au.
-tel.			86400	IN	NSEC	tf. NS RRSIG NSEC
+tel.			86400	IN	NSEC	temasek. NS RRSIG NSEC
 tel.			172800	IN	NS	a.dns.nic.tel.
 tel.			172800	IN	NS	b.dns.nic.tel.
 tel.			172800	IN	NS	c.dns.nic.tel.
@@ -6272,6 +6362,19 @@ f.dns.nic.tel.		172800	IN	AAAA	2001:502:100e::1
 f.dns.nic.tel.		172800	IN	A	199.7.67.1
 g.dns.nic.tel.		172800	IN	A	192.100.59.11
 h.dns.nic.tel.		172800	IN	A	198.133.199.11
+temasek.		86400	IN	NSEC	tf. NS DS RRSIG NSEC
+temasek.		172800	IN	NS	a0.nic.temasek.
+temasek.		172800	IN	NS	a2.nic.temasek.
+temasek.		172800	IN	NS	b0.nic.temasek.
+temasek.		172800	IN	NS	c0.nic.temasek.
+a0.nic.temasek.		172800	IN	AAAA	2a01:8840:8a::9
+a0.nic.temasek.		172800	IN	A	65.22.140.9
+a2.nic.temasek.		172800	IN	AAAA	2a01:8840:8d::9
+a2.nic.temasek.		172800	IN	A	65.22.143.9
+b0.nic.temasek.		172800	IN	AAAA	2a01:8840:8b::9
+b0.nic.temasek.		172800	IN	A	65.22.141.9
+c0.nic.temasek.		172800	IN	AAAA	2a01:8840:8c::9
+c0.nic.temasek.		172800	IN	A	65.22.142.9
 tf.			86400	IN	NSEC	tg. NS DS RRSIG NSEC
 tf.			172800	IN	NS	d.ext.nic.fr.
 tf.			172800	IN	NS	d.nic.fr.
@@ -7175,13 +7278,26 @@ xn--80aswg.		172800	IN	NS	anycast9.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast10.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast23.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast24.irondns.net.
-xn--90a3ac.		86400	IN	NSEC	xn--c1avg. NS RRSIG NSEC
+xn--90a3ac.		86400	IN	NSEC	xn--b4w605ferd. NS RRSIG NSEC
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
+xn--b4w605ferd.		86400	IN	NSEC	xn--c1avg. NS DS RRSIG NSEC
+xn--b4w605ferd.		172800	IN	NS	a0.nic.xn--b4w605ferd.
+xn--b4w605ferd.		172800	IN	NS	a2.nic.xn--b4w605ferd.
+xn--b4w605ferd.		172800	IN	NS	b0.nic.xn--b4w605ferd.
+xn--b4w605ferd.		172800	IN	NS	c0.nic.xn--b4w605ferd.
+a0.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8a::1
+a0.nic.xn--b4w605ferd.	172800	IN	A	65.22.140.1
+a2.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8d::1
+a2.nic.xn--b4w605ferd.	172800	IN	A	65.22.143.1
+b0.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8b::1
+b0.nic.xn--b4w605ferd.	172800	IN	A	65.22.141.1
+c0.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8c::1
+c0.nic.xn--b4w605ferd.	172800	IN	A	65.22.142.1
 xn--c1avg.		86400	IN	NSEC	xn--cg4bki. NS DS RRSIG NSEC
 xn--c1avg.		172800	IN	NS	a0.nic.xn--c1avg.
 xn--c1avg.		172800	IN	NS	a2.nic.xn--c1avg.
