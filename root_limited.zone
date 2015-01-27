@@ -888,7 +888,6 @@ bzh.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
 bzh.			172800	IN	NS	d.nic.fr.
 bzh.			172800	IN	NS	f.ext.nic.fr.
 bzh.			172800	IN	NS	g.ext.nic.fr.
-ca.			172800	IN	NS	b.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	d.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
@@ -897,8 +896,6 @@ ca.			172800	IN	NS	any.ca-servers.ca.
 ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
 any.ca-servers.ca.	172800	IN	A	199.4.144.2
-b.ca-servers.ca.	172800	IN	AAAA	2a01:8840:1bb::1
-b.ca-servers.ca.	172800	IN	A	65.22.41.1
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
 d.ca-servers.ca.	172800	IN	AAAA	2001:500:97::1
 d.ca-servers.ca.	172800	IN	A	199.19.4.1
@@ -3438,13 +3435,19 @@ kw.			172800	IN	NS	sns-pb.isc.org.
 dns1.kw.		172800	IN	A	161.252.48.140
 dns2.kw.		172800	IN	A	161.252.48.150
 dns3.kw.		172800	IN	A	161.252.48.145
-ky.			86400	IN	NSEC	kz. NS RRSIG NSEC
+ky.			86400	IN	NSEC	kyoto. NS RRSIG NSEC
 ky.			172800	IN	NS	kynse01.perimeterusa.com.
 ky.			172800	IN	NS	kynse02.perimeterusa.com.
 ky.			172800	IN	NS	kynse03.perimeterusa.com.
 ky.			172800	IN	NS	kynsw01.perimeterusa.com.
 ky.			172800	IN	NS	kynsw02.perimeterusa.com.
 ky.			172800	IN	NS	kynsw03.perimeterusa.com.
+kyoto.			86400	IN	NSEC	kz. NS DS RRSIG NSEC
+kyoto.			172800	IN	NS	a.gmoregistry.net.
+kyoto.			172800	IN	NS	b.gmoregistry.net.
+kyoto.			172800	IN	NS	c.gmoregistry.net.
+kyoto.			172800	IN	NS	d.gmoregistry.net.
+kyoto.			172800	IN	NS	e.gmoregistry.net.
 kz.			86400	IN	NSEC	la. NS RRSIG NSEC
 kz.			172800	IN	NS	kz.cctld.authdns.ripe.net.
 kz.			172800	IN	NS	ns.nic.kz.
@@ -4410,10 +4413,10 @@ ms3.dyntld.net.		172800	IN	A	208.78.71.84
 ms4.dyntld.net.		172800	IN	A	204.13.251.84
 na1.dyntld.net.		172800	IN	A	208.78.70.90
 na2.dyntld.net.		172800	IN	A	204.13.250.90
-nf1.dyntld.net.		172800	IN	AAAA	2001:500:90::88
-nf1.dyntld.net.		172800	IN	A	208.78.70.88
-nf3.dyntld.net.		172800	IN	AAAA	2001:500:94::88
-nf3.dyntld.net.		172800	IN	A	208.78.71.88
+a.nf.dyntld.net.	172800	IN	AAAA	2001:500:92::10
+a.nf.dyntld.net.	172800	IN	A	199.19.5.10
+b.nf.dyntld.net.	172800	IN	AAAA	2001:500:96::10
+b.nf.dyntld.net.	172800	IN	A	199.19.6.10
 sb1.dyntld.net.		172800	IN	AAAA	2001:500:90::83
 sb1.dyntld.net.		172800	IN	A	208.78.70.83
 sb3.dyntld.net.		172800	IN	AAAA	2001:500:94::83
@@ -4422,6 +4425,10 @@ tl1.dyntld.net.		172800	IN	AAAA	2001:500:90::78
 tl1.dyntld.net.		172800	IN	A	208.78.70.78
 tl3.dyntld.net.		172800	IN	AAAA	2001:500:94::78
 tl3.dyntld.net.		172800	IN	A	208.78.71.78
+a.xn--p1acf.dyntld.net.	172800	IN	AAAA	2001:500:92::21
+a.xn--p1acf.dyntld.net.	172800	IN	A	199.19.5.21
+b.xn--p1acf.dyntld.net.	172800	IN	AAAA	2001:500:96::21
+b.xn--p1acf.dyntld.net.	172800	IN	A	199.19.6.21
 a.edu-servers.net.	172800	IN	A	192.5.6.30
 c.edu-servers.net.	172800	IN	A	192.26.92.30
 d.edu-servers.net.	172800	IN	A	192.31.80.30
@@ -4769,9 +4776,9 @@ nexus.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 nexus.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 nexus.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
+nf.			172800	IN	NS	a.nf.dyntld.net.
+nf.			172800	IN	NS	b.nf.dyntld.net.
 nf.			172800	IN	NS	ns.anycast.nic.nf.
-nf.			172800	IN	NS	nf1.dyntld.net.
-nf.			172800	IN	NS	nf3.dyntld.net.
 nf.			172800	IN	NS	sns-pb.isc.org.
 ns.anycast.nic.nf.	172800	IN	AAAA	2001:500:14:6051:ad::1
 ns.anycast.nic.nf.	172800	IN	A	204.61.216.51
@@ -7624,9 +7631,8 @@ xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
 xn--p1acf.		86400	IN	NSEC	xn--p1ai. NS DS RRSIG NSEC
-xn--p1acf.		172800	IN	NS	tld.isc-sns.com.
-xn--p1acf.		172800	IN	NS	tld.isc-sns.net.
-xn--p1acf.		172800	IN	NS	tld.isc-sns.info.
+xn--p1acf.		172800	IN	NS	a.xn--p1acf.dyntld.net.
+xn--p1acf.		172800	IN	NS	b.xn--p1acf.dyntld.net.
 xn--p1acf.		172800	IN	NS	tld1.coccaregistry.net.
 xn--p1acf.		172800	IN	NS	tld1.coccaregistry.org.
 xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS DS RRSIG NSEC
