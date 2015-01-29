@@ -4422,6 +4422,10 @@ tl1.dyntld.net.		172800	IN	AAAA	2001:500:90::78
 tl1.dyntld.net.		172800	IN	A	208.78.70.78
 tl3.dyntld.net.		172800	IN	AAAA	2001:500:94::78
 tl3.dyntld.net.		172800	IN	A	208.78.71.78
+a.wed.dyntld.net.	172800	IN	AAAA	2001:500:92::19
+a.wed.dyntld.net.	172800	IN	A	199.19.5.19
+b.wed.dyntld.net.	172800	IN	AAAA	2001:500:96::19
+b.wed.dyntld.net.	172800	IN	A	199.19.6.19
 a.xn--p1acf.dyntld.net.	172800	IN	AAAA	2001:500:92::21
 a.xn--p1acf.dyntld.net.	172800	IN	A	199.19.5.21
 b.xn--p1acf.dyntld.net.	172800	IN	AAAA	2001:500:96::21
@@ -7021,10 +7025,9 @@ d.nic.website.		172800	IN	AAAA	2a04:2b03:14bb::52
 d.nic.website.		172800	IN	A	212.18.251.52
 wed.			86400	IN	NSEC	wedding. NS DS RRSIG NSEC
 wed.			172800	IN	NS	a.ns.nic.wed.
+wed.			172800	IN	NS	a.wed.dyntld.net.
 wed.			172800	IN	NS	b.ns.nic.wed.
-wed.			172800	IN	NS	tld.isc-sns.com.
-wed.			172800	IN	NS	tld.isc-sns.net.
-wed.			172800	IN	NS	tld.isc-sns.info.
+wed.			172800	IN	NS	b.wed.dyntld.net.
 a.ns.nic.wed.		172800	IN	AAAA	2620:171:a01:ad::1
 a.ns.nic.wed.		172800	IN	A	72.0.49.1
 b.ns.nic.wed.		172800	IN	AAAA	2620:171:d01:dc::1
