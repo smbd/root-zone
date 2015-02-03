@@ -621,11 +621,16 @@ ns5.dns.nic.bid.	172800	IN	AAAA	2610:a1:1075::19
 ns5.dns.nic.bid.	172800	IN	A	156.154.157.25
 ns6.dns.nic.bid.	172800	IN	AAAA	2610:a1:1076::19
 ns6.dns.nic.bid.	172800	IN	A	156.154.158.25
-bike.			86400	IN	NSEC	bio. NS DS RRSIG NSEC
+bike.			86400	IN	NSEC	bingo. NS DS RRSIG NSEC
 bike.			172800	IN	NS	demand.beta.aridns.net.au.
 bike.			172800	IN	NS	demand.alpha.aridns.net.au.
 bike.			172800	IN	NS	demand.delta.aridns.net.au.
 bike.			172800	IN	NS	demand.gamma.aridns.net.au.
+bingo.			86400	IN	NSEC	bio. NS DS RRSIG NSEC
+bingo.			172800	IN	NS	demand.beta.aridns.net.au.
+bingo.			172800	IN	NS	demand.alpha.aridns.net.au.
+bingo.			172800	IN	NS	demand.delta.aridns.net.au.
+bingo.			172800	IN	NS	demand.gamma.aridns.net.au.
 bio.			86400	IN	NSEC	biz. NS DS RRSIG NSEC
 bio.			172800	IN	NS	ns1a.ksregistry.net.
 bio.			172800	IN	NS	ns1b.ksregistry.net.
@@ -924,7 +929,7 @@ camp.			172800	IN	NS	demand.beta.aridns.net.au.
 camp.			172800	IN	NS	demand.alpha.aridns.net.au.
 camp.			172800	IN	NS	demand.delta.aridns.net.au.
 camp.			172800	IN	NS	demand.gamma.aridns.net.au.
-cancerresearch.		86400	IN	NSEC	capetown. NS DS RRSIG NSEC
+cancerresearch.		86400	IN	NSEC	canon. NS DS RRSIG NSEC
 cancerresearch.		172800	IN	NS	a.nic.cancerresearch.
 cancerresearch.		172800	IN	NS	b.nic.cancerresearch.
 cancerresearch.		172800	IN	NS	c.nic.cancerresearch.
@@ -937,6 +942,12 @@ c.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:3::9
 c.nic.cancerresearch.	172800	IN	A	37.209.196.9
 d.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:4::9
 d.nic.cancerresearch.	172800	IN	A	37.209.198.9
+canon.			86400	IN	NSEC	capetown. NS DS RRSIG NSEC
+canon.			172800	IN	NS	a.gmoregistry.net.
+canon.			172800	IN	NS	b.gmoregistry.net.
+canon.			172800	IN	NS	c.gmoregistry.net.
+canon.			172800	IN	NS	d.gmoregistry.net.
+canon.			172800	IN	NS	e.gmoregistry.net.
 capetown.		86400	IN	NSEC	capital. NS DS RRSIG NSEC
 capetown.		172800	IN	NS	ns.coza.net.za.
 capetown.		172800	IN	NS	ns1.coza.net.za.
@@ -1130,12 +1141,17 @@ f.nic.ch.		172800	IN	A	194.146.106.10
 h.nic.ch.		172800	IN	A	194.42.48.120
 ns2.switch.ch.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 ns2.switch.ch.		172800	IN	A	130.59.138.49
-channel.		86400	IN	NSEC	cheap. NS DS RRSIG NSEC
+channel.		86400	IN	NSEC	chat. NS DS RRSIG NSEC
 channel.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+chat.			86400	IN	NSEC	cheap. NS DS RRSIG NSEC
+chat.			172800	IN	NS	demand.beta.aridns.net.au.
+chat.			172800	IN	NS	demand.alpha.aridns.net.au.
+chat.			172800	IN	NS	demand.delta.aridns.net.au.
+chat.			172800	IN	NS	demand.gamma.aridns.net.au.
 cheap.			86400	IN	NSEC	christmas. NS DS RRSIG NSEC
 cheap.			172800	IN	NS	demand.beta.aridns.net.au.
 cheap.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6199,13 +6215,18 @@ spiegel.		172800	IN	NS	ns2b.ksregistry.com.
 sr.			86400	IN	NSEC	st. NS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
-st.			86400	IN	NSEC	su. NS RRSIG NSEC
+st.			86400	IN	NSEC	style. NS RRSIG NSEC
 st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
 st.			172800	IN	NS	dns-us.st.
 dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
+style.			86400	IN	NSEC	su. NS DS RRSIG NSEC
+style.			172800	IN	NS	demand.beta.aridns.net.au.
+style.			172800	IN	NS	demand.alpha.aridns.net.au.
+style.			172800	IN	NS	demand.delta.aridns.net.au.
+style.			172800	IN	NS	demand.gamma.aridns.net.au.
 su.			172800	IN	NS	a.dns.ripn.net.
 su.			172800	IN	NS	b.dns.ripn.net.
 su.			172800	IN	NS	d.dns.ripn.net.
@@ -6381,7 +6402,7 @@ f.dns.nic.tel.		172800	IN	AAAA	2001:502:100e::1
 f.dns.nic.tel.		172800	IN	A	199.7.67.1
 g.dns.nic.tel.		172800	IN	A	192.100.59.11
 h.dns.nic.tel.		172800	IN	A	198.133.199.11
-temasek.		86400	IN	NSEC	tf. NS DS RRSIG NSEC
+temasek.		86400	IN	NSEC	tennis. NS DS RRSIG NSEC
 temasek.		172800	IN	NS	a0.nic.temasek.
 temasek.		172800	IN	NS	a2.nic.temasek.
 temasek.		172800	IN	NS	b0.nic.temasek.
@@ -6394,6 +6415,11 @@ b0.nic.temasek.		172800	IN	AAAA	2a01:8840:8b::9
 b0.nic.temasek.		172800	IN	A	65.22.141.9
 c0.nic.temasek.		172800	IN	AAAA	2a01:8840:8c::9
 c0.nic.temasek.		172800	IN	A	65.22.142.9
+tennis.			86400	IN	NSEC	tf. NS DS RRSIG NSEC
+tennis.			172800	IN	NS	demand.beta.aridns.net.au.
+tennis.			172800	IN	NS	demand.alpha.aridns.net.au.
+tennis.			172800	IN	NS	demand.delta.aridns.net.au.
+tennis.			172800	IN	NS	demand.gamma.aridns.net.au.
 tf.			86400	IN	NSEC	tg. NS DS RRSIG NSEC
 tf.			172800	IN	NS	d.ext.nic.fr.
 tf.			172800	IN	NS	d.nic.fr.
@@ -6511,7 +6537,7 @@ tools.			172800	IN	NS	demand.beta.aridns.net.au.
 tools.			172800	IN	NS	demand.alpha.aridns.net.au.
 tools.			172800	IN	NS	demand.delta.aridns.net.au.
 tools.			172800	IN	NS	demand.gamma.aridns.net.au.
-top.			86400	IN	NSEC	town. NS DS RRSIG NSEC
+top.			86400	IN	NSEC	toshiba. NS DS RRSIG NSEC
 top.			172800	IN	NS	a.zdnscloud.com.
 top.			172800	IN	NS	b.zdnscloud.com.
 top.			172800	IN	NS	c.zdnscloud.com.
@@ -6521,6 +6547,12 @@ top.			172800	IN	NS	f.zdnscloud.com.
 top.			172800	IN	NS	g.zdnscloud.com.
 top.			172800	IN	NS	i.zdnscloud.com.
 top.			172800	IN	NS	j.zdnscloud.com.
+toshiba.		86400	IN	NSEC	town. NS DS RRSIG NSEC
+toshiba.		172800	IN	NS	a.gmoregistry.net.
+toshiba.		172800	IN	NS	b.gmoregistry.net.
+toshiba.		172800	IN	NS	c.gmoregistry.net.
+toshiba.		172800	IN	NS	d.gmoregistry.net.
+toshiba.		172800	IN	NS	e.gmoregistry.net.
 town.			86400	IN	NSEC	toys. NS DS RRSIG NSEC
 town.			172800	IN	NS	demand.beta.aridns.net.au.
 town.			172800	IN	NS	demand.alpha.aridns.net.au.
