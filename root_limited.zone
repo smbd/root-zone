@@ -3126,10 +3126,15 @@ a.nic.io.		172800	IN	A	64.251.31.179
 b.nic.io.		172800	IN	AAAA	2001:678:5::1
 b.nic.io.		172800	IN	A	194.0.2.1
 iq.			86400	IN	NSEC	ir. NS RRSIG NSEC
-iq.			172800	IN	NS	iq.dns.cocca.org.nz.
 iq.			172800	IN	NS	ns1.cmc.iq.
+iq.			172800	IN	NS	dyn1.cmc.iq.
+iq.			172800	IN	NS	dyn2.cmc.iq.
 iq.			172800	IN	NS	sns-pb.isc.org.
 iq.			172800	IN	NS	nsp-anycast.cmc.iq.
+dyn1.cmc.iq.		172800	IN	AAAA	2001:500:92::8
+dyn1.cmc.iq.		172800	IN	A	199.19.5.8
+dyn2.cmc.iq.		172800	IN	AAAA	2001:500:96::8
+dyn2.cmc.iq.		172800	IN	A	199.19.6.8
 ns1.cmc.iq.		172800	IN	A	194.117.57.100
 nsp-anycast.cmc.iq.	172800	IN	AAAA	2001:500:14:8001:ad::42
 nsp-anycast.cmc.iq.	172800	IN	A	194.117.58.42
@@ -4434,10 +4439,10 @@ sb1.dyntld.net.		172800	IN	AAAA	2001:500:90::83
 sb1.dyntld.net.		172800	IN	A	208.78.70.83
 sb3.dyntld.net.		172800	IN	AAAA	2001:500:94::83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
-tl1.dyntld.net.		172800	IN	AAAA	2001:500:90::78
-tl1.dyntld.net.		172800	IN	A	208.78.70.78
-tl3.dyntld.net.		172800	IN	AAAA	2001:500:94::78
-tl3.dyntld.net.		172800	IN	A	208.78.71.78
+a.tl.dyntld.net.	172800	IN	AAAA	2001:500:92::12
+a.tl.dyntld.net.	172800	IN	A	199.19.5.12
+b.tl.dyntld.net.	172800	IN	AAAA	2001:500:96::12
+b.tl.dyntld.net.	172800	IN	A	199.19.6.12
 a.wed.dyntld.net.	172800	IN	AAAA	2001:500:92::19
 a.wed.dyntld.net.	172800	IN	A	199.19.5.19
 b.wed.dyntld.net.	172800	IN	AAAA	2001:500:96::19
@@ -4993,7 +4998,6 @@ ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
-iq.dns.cocca.org.nz.	172800	IN	A	185.17.236.235
 okinawa.		86400	IN	NSEC	om. NS DS RRSIG NSEC
 okinawa.		172800	IN	NS	a.gmoregistry.net.
 okinawa.		172800	IN	NS	b.gmoregistry.net.
@@ -6489,9 +6493,9 @@ c.ns.tk.		172800	IN	A	194.0.40.1
 d.ns.tk.		172800	IN	AAAA	2001:678:5c::1
 d.ns.tk.		172800	IN	A	194.0.41.1
 tl.			86400	IN	NSEC	tm. NS DS RRSIG NSEC
+tl.			172800	IN	NS	a.tl.dyntld.net.
+tl.			172800	IN	NS	b.tl.dyntld.net.
 tl.			172800	IN	NS	ns.anycast.nic.tl.
-tl.			172800	IN	NS	tl1.dyntld.net.
-tl.			172800	IN	NS	tl3.dyntld.net.
 ns.anycast.nic.tl.	172800	IN	AAAA	2001:500:14:6019:ad::1
 ns.anycast.nic.tl.	172800	IN	A	204.61.216.19
 tm.			86400	IN	NSEC	tn. NS DS RRSIG NSEC
