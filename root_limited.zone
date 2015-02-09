@@ -201,7 +201,7 @@ android.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-ao.			86400	IN	NSEC	aq. NS RRSIG NSEC
+ao.			86400	IN	NSEC	apartments. NS RRSIG NSEC
 ao.			172800	IN	NS	ns02.dns.ao.
 ao.			172800	IN	NS	ns02.fccn.pt.
 ao.			172800	IN	NS	ns03.fccn.pt.
@@ -210,6 +210,11 @@ ao.			172800	IN	NS	ns-ext.isc.org.
 ao.			172800	IN	NS	phobos.fccn.pt.
 ns02.dns.ao.		172800	IN	AAAA	2c0f:f828:2::b
 ns02.dns.ao.		172800	IN	A	197.149.149.11
+apartments.		86400	IN	NSEC	aq. NS DS RRSIG NSEC
+apartments.		172800	IN	NS	demand.beta.aridns.net.au.
+apartments.		172800	IN	NS	demand.alpha.aridns.net.au.
+apartments.		172800	IN	NS	demand.delta.aridns.net.au.
+apartments.		172800	IN	NS	demand.gamma.aridns.net.au.
 aq.			86400	IN	NSEC	aquarelle. NS RRSIG NSEC
 aq.			172800	IN	NS	ns1.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
@@ -4841,7 +4846,7 @@ nhk.			172800	IN	NS	b.gmoregistry.net.
 nhk.			172800	IN	NS	c.gmoregistry.net.
 nhk.			172800	IN	NS	d.gmoregistry.net.
 nhk.			172800	IN	NS	e.gmoregistry.net.
-ni.			86400	IN	NSEC	ninja. NS RRSIG NSEC
+ni.			86400	IN	NSEC	nico. NS RRSIG NSEC
 ni.			172800	IN	NS	ns.cr.
 ni.			172800	IN	NS	ns.ni.
 ni.			172800	IN	NS	ns.uu.net.
@@ -4854,6 +4859,12 @@ ns.tmx.com.ni.		172800	IN	A	200.62.64.1
 ns.ideay.net.ni.	172800	IN	A	200.9.190.130
 ns.ni.			172800	IN	A	165.98.1.2
 ns2.ni.			172800	IN	A	200.9.187.2
+nico.			86400	IN	NSEC	ninja. NS DS RRSIG NSEC
+nico.			172800	IN	NS	a.gmoregistry.net.
+nico.			172800	IN	NS	b.gmoregistry.net.
+nico.			172800	IN	NS	c.gmoregistry.net.
+nico.			172800	IN	NS	d.gmoregistry.net.
+nico.			172800	IN	NS	e.gmoregistry.net.
 ninja.			86400	IN	NSEC	nl. NS DS RRSIG NSEC
 ninja.			172800	IN	NS	demand.beta.aridns.net.au.
 ninja.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5872,11 +5883,24 @@ sale.			172800	IN	NS	demand.gamma.aridns.net.au.
 samsung.		86400	IN	NSEC	sarl. NS DS RRSIG NSEC
 samsung.		172800	IN	NS	e.dns.kr.
 samsung.		172800	IN	NS	g.dns.kr.
-sarl.			86400	IN	NSEC	sb. NS DS RRSIG NSEC
+sarl.			86400	IN	NSEC	saxo. NS DS RRSIG NSEC
 sarl.			172800	IN	NS	demand.beta.aridns.net.au.
 sarl.			172800	IN	NS	demand.alpha.aridns.net.au.
 sarl.			172800	IN	NS	demand.delta.aridns.net.au.
 sarl.			172800	IN	NS	demand.gamma.aridns.net.au.
+saxo.			86400	IN	NSEC	sb. NS DS RRSIG NSEC
+saxo.			172800	IN	NS	a.nic.saxo.
+saxo.			172800	IN	NS	b.nic.saxo.
+saxo.			172800	IN	NS	c.nic.saxo.
+saxo.			172800	IN	NS	d.nic.saxo.
+a.nic.saxo.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.saxo.		172800	IN	A	37.209.192.9
+b.nic.saxo.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.saxo.		172800	IN	A	37.209.194.9
+c.nic.saxo.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.saxo.		172800	IN	A	37.209.196.9
+d.nic.saxo.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.saxo.		172800	IN	A	37.209.198.9
 sb.			86400	IN	NSEC	sc. NS DS RRSIG NSEC
 sb.			172800	IN	NS	pch.nic.sb.
 sb.			172800	IN	NS	sb1.dyntld.net.
