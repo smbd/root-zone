@@ -2758,7 +2758,6 @@ c0.nic.hiv.		172800	IN	A	65.22.230.17
 hk.			172800	IN	NS	b.hkirc.net.hk.
 hk.			172800	IN	NS	c.hkirc.net.hk.
 hk.			172800	IN	NS	d.hkirc.net.hk.
-hk.			172800	IN	NS	t.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
 hk.			172800	IN	NS	v.hkirc.net.hk.
 hk.			172800	IN	NS	w.hkirc.net.hk.
@@ -2773,8 +2772,6 @@ b.hkirc.net.hk.		172800	IN	A	203.119.87.19
 c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000::cb77:2da
 c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 d.hkirc.net.hk.		172800	IN	A	203.119.87.218
-t.hkirc.net.hk.		172800	IN	AAAA	2607:f140:ffff:fffe::e
-t.hkirc.net.hk.		172800	IN	A	128.32.136.14
 u.hkirc.net.hk.		172800	IN	AAAA	2404:0:10a0::58
 u.hkirc.net.hk.		172800	IN	A	210.201.138.58
 v.hkirc.net.hk.		172800	IN	AAAA	2001:500:14:6046:ad::1
@@ -7553,7 +7550,6 @@ xn--j6w193g.		86400	IN	NSEC	xn--kprw13d. NS RRSIG NSEC
 xn--j6w193g.		172800	IN	NS	b.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	c.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	d.hkirc.net.hk.
-xn--j6w193g.		172800	IN	NS	t.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	v.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
