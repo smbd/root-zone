@@ -793,8 +793,11 @@ w.nic.brussels.		172800	IN	AAAA	2001:678:20::14
 w.nic.brussels.		172800	IN	A	194.0.25.14
 bs.			86400	IN	NSEC	bt. NS RRSIG NSEC
 bs.			172800	IN	NS	dns.nic.bs.
+bs.			172800	IN	NS	ns36.cdns.net.
 bs.			172800	IN	NS	upr1.upr.clu.edu.
+bs.			172800	IN	NS	anyns.dns.bs.
 bs.			172800	IN	NS	anyns.pch.net.
+anyns.dns.bs.		172800	IN	A	204.61.216.68
 dns.nic.bs.		172800	IN	A	206.48.3.168
 bt.			86400	IN	NSEC	budapest. NS RRSIG NSEC
 bt.			172800	IN	NS	bt.cctld.authdns.ripe.net.
@@ -2640,10 +2643,10 @@ gripe.			172800	IN	NS	demand.alpha.aridns.net.au.
 gripe.			172800	IN	NS	demand.delta.aridns.net.au.
 gripe.			172800	IN	NS	demand.gamma.aridns.net.au.
 gs.			86400	IN	NSEC	gt. NS DS RRSIG NSEC
+gs.			172800	IN	NS	a.gs.dyntld.net.
+gs.			172800	IN	NS	b.gs.dyntld.net.
 gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
 gs.			172800	IN	NS	ns.anycast.nic.gs.
-gs.			172800	IN	NS	gs1.dyntld.net.
-gs.			172800	IN	NS	gs3.dyntld.net.
 ns.anycast.nic.gs.	172800	IN	AAAA	2001:500:14:6021:ad::1
 ns.anycast.nic.gs.	172800	IN	A	204.61.216.21
 gt.			86400	IN	NSEC	gu. NS RRSIG NSEC
@@ -4367,6 +4370,8 @@ ns30.cdns.net.		172800	IN	AAAA	2001:678:4::1e
 ns30.cdns.net.		172800	IN	A	194.0.1.30
 ns34.cdns.net.		172800	IN	AAAA	2001:678:4::22
 ns34.cdns.net.		172800	IN	A	194.0.1.34
+ns36.cdns.net.		172800	IN	AAAA	2001:678:4::24
+ns36.cdns.net.		172800	IN	A	194.0.1.36
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns.cernet.net.		172800	IN	A	202.112.0.44
@@ -4415,10 +4420,10 @@ gl1.dyntld.net.		172800	IN	A	208.78.70.97
 gl2.dyntld.net.		172800	IN	A	204.13.250.97
 gl3.dyntld.net.		172800	IN	A	208.78.71.97
 gl4.dyntld.net.		172800	IN	A	204.13.251.97
-gs1.dyntld.net.		172800	IN	AAAA	2001:500:90::86
-gs1.dyntld.net.		172800	IN	A	208.78.70.86
-gs3.dyntld.net.		172800	IN	AAAA	2001:500:94::86
-gs3.dyntld.net.		172800	IN	A	208.78.71.86
+a.gs.dyntld.net.	172800	IN	AAAA	2001:500:92::4
+a.gs.dyntld.net.	172800	IN	A	199.19.5.4
+b.gs.dyntld.net.	172800	IN	AAAA	2001:500:96::4
+b.gs.dyntld.net.	172800	IN	A	199.19.6.4
 ki1.dyntld.net.		172800	IN	AAAA	2001:500:90::87
 ki1.dyntld.net.		172800	IN	A	208.78.70.87
 ki3.dyntld.net.		172800	IN	AAAA	2001:500:94::87
@@ -4575,6 +4580,7 @@ vg-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6084:ad::1
 vg-ns.anycast.pch.net.	172800	IN	A	204.61.216.84
 za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad::1
 za-ns.anycast.pch.net.	172800	IN	A	204.61.216.55
+anyns.pch.net.		172800	IN	AAAA	2001:500:14:6004:ad::1
 anyns.pch.net.		172800	IN	A	204.61.216.4
 cat.pch.net.		172800	IN	AAAA	2001:500:14:6020:ad::1
 cat.pch.net.		172800	IN	A	204.61.216.20
