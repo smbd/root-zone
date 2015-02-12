@@ -1051,11 +1051,30 @@ ns.nic.cat.		172800	IN	AAAA	2001:40b0:1:3::2
 ns.nic.cat.		172800	IN	A	84.88.0.162
 switch.nic.cat.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 switch.nic.cat.		172800	IN	A	130.59.138.49
-catering.		86400	IN	NSEC	cc. NS DS RRSIG NSEC
+catering.		86400	IN	NSEC	cbn. NS DS RRSIG NSEC
 catering.		172800	IN	NS	demand.beta.aridns.net.au.
 catering.		172800	IN	NS	demand.alpha.aridns.net.au.
 catering.		172800	IN	NS	demand.delta.aridns.net.au.
 catering.		172800	IN	NS	demand.gamma.aridns.net.au.
+cbn.			86400	IN	NSEC	cc. NS DS RRSIG NSEC
+cbn.			172800	IN	NS	ns1.dns.nic.cbn.
+cbn.			172800	IN	NS	ns2.dns.nic.cbn.
+cbn.			172800	IN	NS	ns3.dns.nic.cbn.
+cbn.			172800	IN	NS	ns4.dns.nic.cbn.
+cbn.			172800	IN	NS	ns5.dns.nic.cbn.
+cbn.			172800	IN	NS	ns6.dns.nic.cbn.
+ns1.dns.nic.cbn.	172800	IN	AAAA	2610:a1:1071::23
+ns1.dns.nic.cbn.	172800	IN	A	156.154.144.35
+ns2.dns.nic.cbn.	172800	IN	AAAA	2610:a1:1072::23
+ns2.dns.nic.cbn.	172800	IN	A	156.154.145.35
+ns3.dns.nic.cbn.	172800	IN	AAAA	2610:a1:1073::23
+ns3.dns.nic.cbn.	172800	IN	A	156.154.159.35
+ns4.dns.nic.cbn.	172800	IN	AAAA	2610:a1:1074::23
+ns4.dns.nic.cbn.	172800	IN	A	156.154.156.35
+ns5.dns.nic.cbn.	172800	IN	AAAA	2610:a1:1075::23
+ns5.dns.nic.cbn.	172800	IN	A	156.154.157.35
+ns6.dns.nic.cbn.	172800	IN	AAAA	2610:a1:1076::23
+ns6.dns.nic.cbn.	172800	IN	A	156.154.158.35
 cc.			86400	IN	NSEC	cd. NS DS RRSIG NSEC
 cc.			172800	IN	NS	a5.nstld.com.
 cc.			172800	IN	NS	c5.nstld.com.
@@ -2411,10 +2430,17 @@ gbiz.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-gd.			86400	IN	NSEC	ge. NS DS RRSIG NSEC
+gd.			86400	IN	NSEC	gdn. NS DS RRSIG NSEC
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 gd.			172800	IN	NS	gd-ns.ksregistry.net.
+gdn.			86400	IN	NSEC	ge. NS DS RRSIG NSEC
+gdn.			172800	IN	NS	ns1.nic.gdn.
+gdn.			172800	IN	NS	ns2.nic.gdn.
+ns1.nic.gdn.		172800	IN	AAAA	2001:678:4::25
+ns1.nic.gdn.		172800	IN	A	194.0.1.37
+ns2.nic.gdn.		172800	IN	AAAA	2607:5300:60:69c2::1
+ns2.nic.gdn.		172800	IN	A	167.114.102.194
 ge.			86400	IN	NSEC	gent. NS RRSIG NSEC
 ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
