@@ -7385,13 +7385,21 @@ xn--80aswg.		172800	IN	NS	anycast9.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast10.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast23.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast24.irondns.net.
-xn--90a3ac.		86400	IN	NSEC	xn--b4w605ferd. NS RRSIG NSEC
+xn--90a3ac.		86400	IN	NSEC	xn--90ais. NS RRSIG NSEC
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
+xn--90ais.		86400	IN	NSEC	xn--b4w605ferd. NS RRSIG NSEC
+xn--90ais.		172800	IN	NS	dns1.tld.tutby.com.
+xn--90ais.		172800	IN	NS	dns2.tld.tutby.com.
+xn--90ais.		172800	IN	NS	dns3.tld.tutby.com.
+xn--90ais.		172800	IN	NS	dns4.tld.tutby.com.
+xn--90ais.		172800	IN	NS	dns5.tld.tutby.com.
+xn--90ais.		172800	IN	NS	dns6.tld.tutby.com.
+xn--90ais.		172800	IN	NS	dns7.tld.tutby.com.
 xn--b4w605ferd.		86400	IN	NSEC	xn--c1avg. NS DS RRSIG NSEC
 xn--b4w605ferd.		172800	IN	NS	a0.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	a2.nic.xn--b4w605ferd.
