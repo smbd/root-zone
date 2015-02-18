@@ -1033,11 +1033,16 @@ a.ns.nic.casa.		172800	IN	AAAA	2620:171:a02:ad::6
 a.ns.nic.casa.		172800	IN	A	72.0.50.6
 b.ns.nic.casa.		172800	IN	AAAA	2620:171:d02:dc::6
 b.ns.nic.casa.		172800	IN	A	72.42.114.6
-cash.			86400	IN	NSEC	cat. NS DS RRSIG NSEC
+cash.			86400	IN	NSEC	casino. NS DS RRSIG NSEC
 cash.			172800	IN	NS	demand.beta.aridns.net.au.
 cash.			172800	IN	NS	demand.alpha.aridns.net.au.
 cash.			172800	IN	NS	demand.delta.aridns.net.au.
 cash.			172800	IN	NS	demand.gamma.aridns.net.au.
+casino.			86400	IN	NSEC	cat. NS DS RRSIG NSEC
+casino.			172800	IN	NS	demand.beta.aridns.net.au.
+casino.			172800	IN	NS	demand.alpha.aridns.net.au.
+casino.			172800	IN	NS	demand.delta.aridns.net.au.
+casino.			172800	IN	NS	demand.gamma.aridns.net.au.
 cat.			86400	IN	NSEC	catering. NS DS RRSIG NSEC
 cat.			172800	IN	NS	ns.nic.cat.
 cat.			172800	IN	NS	cat.pch.net.
@@ -2140,11 +2145,24 @@ exposed.		172800	IN	NS	demand.beta.aridns.net.au.
 exposed.		172800	IN	NS	demand.alpha.aridns.net.au.
 exposed.		172800	IN	NS	demand.delta.aridns.net.au.
 exposed.		172800	IN	NS	demand.gamma.aridns.net.au.
-fail.			86400	IN	NSEC	farm. NS DS RRSIG NSEC
+fail.			86400	IN	NSEC	fans. NS DS RRSIG NSEC
 fail.			172800	IN	NS	demand.beta.aridns.net.au.
 fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
 fail.			172800	IN	NS	demand.gamma.aridns.net.au.
+fans.			86400	IN	NSEC	farm. NS DS RRSIG NSEC
+fans.			172800	IN	NS	a.nic.fans.
+fans.			172800	IN	NS	b.nic.fans.
+fans.			172800	IN	NS	c.nic.fans.
+fans.			172800	IN	NS	d.nic.fans.
+a.nic.fans.		172800	IN	AAAA	2001:67c:13cc::1:39
+a.nic.fans.		172800	IN	A	194.169.218.39
+b.nic.fans.		172800	IN	AAAA	2a04:2b00:13cc::1:39
+b.nic.fans.		172800	IN	A	185.24.64.39
+c.nic.fans.		172800	IN	AAAA	2001:678:5::2
+c.nic.fans.		172800	IN	A	194.0.2.2
+d.nic.fans.		172800	IN	AAAA	2001:678:4::2d
+d.nic.fans.		172800	IN	A	194.0.1.45
 farm.			86400	IN	NSEC	fashion. NS DS RRSIG NSEC
 farm.			172800	IN	NS	demand.beta.aridns.net.au.
 farm.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2305,12 +2323,17 @@ copenhagen.nic.fo.	172800	IN	A	193.163.102.12
 frankfurt.nic.fo.	172800	IN	A	81.91.161.88
 pch.nic.fo.		172800	IN	AAAA	2001:500:14:6065:ad::1
 pch.nic.fo.		172800	IN	A	204.61.216.65
-foo.			86400	IN	NSEC	forsale. NS DS RRSIG NSEC
+foo.			86400	IN	NSEC	football. NS DS RRSIG NSEC
 foo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+football.		86400	IN	NSEC	forsale. NS DS RRSIG NSEC
+football.		172800	IN	NS	demand.beta.aridns.net.au.
+football.		172800	IN	NS	demand.alpha.aridns.net.au.
+football.		172800	IN	NS	demand.delta.aridns.net.au.
+football.		172800	IN	NS	demand.gamma.aridns.net.au.
 forsale.		86400	IN	NSEC	foundation. NS DS RRSIG NSEC
 forsale.		172800	IN	NS	demand.beta.aridns.net.au.
 forsale.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2572,11 +2595,17 @@ gmx.			172800	IN	NS	anycast9.irondns.net.
 gmx.			172800	IN	NS	anycast10.irondns.net.
 gmx.			172800	IN	NS	anycast23.irondns.net.
 gmx.			172800	IN	NS	anycast24.irondns.net.
-gn.			86400	IN	NSEC	goog. NS DS RRSIG NSEC
+gn.			86400	IN	NSEC	goldpoint. NS DS RRSIG NSEC
 gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
 gn.			172800	IN	NS	hippo.ru.ac.za.
+goldpoint.		86400	IN	NSEC	goog. NS DS RRSIG NSEC
+goldpoint.		172800	IN	NS	a.gmoregistry.net.
+goldpoint.		172800	IN	NS	b.gmoregistry.net.
+goldpoint.		172800	IN	NS	c.gmoregistry.net.
+goldpoint.		172800	IN	NS	d.gmoregistry.net.
+goldpoint.		172800	IN	NS	e.gmoregistry.net.
 goog.			86400	IN	NSEC	google. NS DS RRSIG NSEC
 goog.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 goog.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -5967,7 +5996,7 @@ c.nic.scb.		172800	IN	AAAA	2001:678:4::23
 c.nic.scb.		172800	IN	A	194.0.1.35
 d.nic.scb.		172800	IN	AAAA	2607:f180:1a02:3::5
 d.nic.scb.		172800	IN	A	174.139.105.37
-schmidt.		86400	IN	NSEC	schule. NS DS RRSIG NSEC
+schmidt.		86400	IN	NSEC	school. NS DS RRSIG NSEC
 schmidt.		172800	IN	NS	a.nic.schmidt.
 schmidt.		172800	IN	NS	b.nic.schmidt.
 schmidt.		172800	IN	NS	c.nic.schmidt.
@@ -5980,6 +6009,11 @@ c.nic.schmidt.		172800	IN	AAAA	2001:dcd:3::9
 c.nic.schmidt.		172800	IN	A	37.209.196.9
 d.nic.schmidt.		172800	IN	AAAA	2001:dcd:4::9
 d.nic.schmidt.		172800	IN	A	37.209.198.9
+school.			86400	IN	NSEC	schule. NS DS RRSIG NSEC
+school.			172800	IN	NS	demand.beta.aridns.net.au.
+school.			172800	IN	NS	demand.alpha.aridns.net.au.
+school.			172800	IN	NS	demand.delta.aridns.net.au.
+school.			172800	IN	NS	demand.gamma.aridns.net.au.
 schule.			86400	IN	NSEC	schwarz. NS DS RRSIG NSEC
 schule.			172800	IN	NS	demand.beta.aridns.net.au.
 schule.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -7930,7 +7964,7 @@ ns5.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1075::ba
 ns5.dns.nic.yandex.	172800	IN	A	156.154.157.186
 ns6.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1076::ba
 ns6.dns.nic.yandex.	172800	IN	A	156.154.158.186
-ye.			86400	IN	NSEC	yoga. NS RRSIG NSEC
+ye.			86400	IN	NSEC	yodobashi. NS RRSIG NSEC
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
 ye.			172800	IN	NS	sah1.ye.
@@ -7939,6 +7973,12 @@ ns1.yemen.net.ye.	172800	IN	A	65.162.184.33
 ns2.yemen.net.ye.	172800	IN	A	65.162.184.34
 sah1.ye.		172800	IN	A	195.94.0.34
 sah2.ye.		172800	IN	A	195.94.0.35
+yodobashi.		86400	IN	NSEC	yoga. NS DS RRSIG NSEC
+yodobashi.		172800	IN	NS	a.gmoregistry.net.
+yodobashi.		172800	IN	NS	b.gmoregistry.net.
+yodobashi.		172800	IN	NS	c.gmoregistry.net.
+yodobashi.		172800	IN	NS	d.gmoregistry.net.
+yodobashi.		172800	IN	NS	e.gmoregistry.net.
 yoga.			86400	IN	NSEC	yokohama. NS DS RRSIG NSEC
 yoga.			172800	IN	NS	a.ns.nic.yoga.
 yoga.			172800	IN	NS	b.ns.nic.yoga.
