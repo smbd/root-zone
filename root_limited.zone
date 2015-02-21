@@ -2928,7 +2928,7 @@ ht.			172800	IN	NS	dns.princeton.edu.
 ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
 ht.			172800	IN	NS	charles.cdec.polymtl.ca.
-hu.			86400	IN	NSEC	ibm. NS RRSIG NSEC
+hu.			86400	IN	NSEC	ibm. NS DS RRSIG NSEC
 hu.			172800	IN	NS	a.hu.
 hu.			172800	IN	NS	b.hu.
 hu.			172800	IN	NS	c.hu.
