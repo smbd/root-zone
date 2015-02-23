@@ -1484,7 +1484,7 @@ ns2.tojikiston.com.	172800	IN	A	193.111.11.4
 dns1.tld.tutby.com.	172800	IN	A	178.124.133.53
 dns2.tld.tutby.com.	172800	IN	A	93.125.30.44
 dns3.tld.tutby.com.	172800	IN	AAAA	2a01:d8:2:1::2
-dns3.tld.tutby.com.	172800	IN	A	195.137.160.10
+dns3.tld.tutby.com.	172800	IN	A	195.209.35.70
 dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
@@ -7924,13 +7924,17 @@ xyz.			172800	IN	NS	x.nic.xyz.
 xyz.			172800	IN	NS	y.nic.xyz.
 xyz.			172800	IN	NS	z.nic.xyz.
 xyz.			172800	IN	NS	generationxyz.nic.xyz.
+generationxyz.nic.xyz.	172800	IN	AAAA	2a04:2b00:13ff::42
 generationxyz.nic.xyz.	172800	IN	AAAA	2a04:2b03:13cc::230
 generationxyz.nic.xyz.	172800	IN	A	185.24.67.230
+generationxyz.nic.xyz.	172800	IN	A	212.18.249.42
 x.nic.xyz.		172800	IN	AAAA	2001:67c:13cc::1:42
 x.nic.xyz.		172800	IN	A	194.169.218.42
 y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
 y.nic.xyz.		172800	IN	A	185.24.64.42
+z.nic.xyz.		172800	IN	AAAA	2a04:2b00:13ee::42
 z.nic.xyz.		172800	IN	AAAA	2a04:2b03:14bb::230
+z.nic.xyz.		172800	IN	A	212.18.248.42
 z.nic.xyz.		172800	IN	A	212.18.251.230
 yachts.			86400	IN	NSEC	yandex. NS DS RRSIG NSEC
 yachts.			172800	IN	NS	a0.nic.yachts.
