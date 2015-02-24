@@ -743,13 +743,26 @@ b0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:3f::9
 b0.nic.bnpparibas.	172800	IN	A	65.22.65.9
 c0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:40::9
 c0.nic.bnpparibas.	172800	IN	A	65.22.66.9
-bo.			86400	IN	NSEC	boo. NS RRSIG NSEC
+bo.			86400	IN	NSEC	boats. NS RRSIG NSEC
 bo.			172800	IN	NS	ns.dns.br.
 bo.			172800	IN	NS	utama.bolnet.bo.
 bo.			172800	IN	NS	anycast.ns.nic.bo.
 utama.bolnet.bo.	172800	IN	A	166.114.1.40
 anycast.ns.nic.bo.	172800	IN	AAAA	2001:500:14:6048:ad::1
 anycast.ns.nic.bo.	172800	IN	A	204.61.216.48
+boats.			86400	IN	NSEC	boo. NS DS RRSIG NSEC
+boats.			172800	IN	NS	a0.nic.boats.
+boats.			172800	IN	NS	a2.nic.boats.
+boats.			172800	IN	NS	b0.nic.boats.
+boats.			172800	IN	NS	c0.nic.boats.
+a0.nic.boats.		172800	IN	AAAA	2a01:8840:66::17
+a0.nic.boats.		172800	IN	A	65.22.104.17
+a2.nic.boats.		172800	IN	AAAA	2a01:8840:69::17
+a2.nic.boats.		172800	IN	A	65.22.107.17
+b0.nic.boats.		172800	IN	AAAA	2a01:8840:67::17
+b0.nic.boats.		172800	IN	A	65.22.105.17
+c0.nic.boats.		172800	IN	AAAA	2a01:8840:68::17
+c0.nic.boats.		172800	IN	A	65.22.106.17
 boo.			86400	IN	NSEC	boutique. NS DS RRSIG NSEC
 boo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -1552,13 +1565,26 @@ coop.			172800	IN	NS	coop1.dyntld.net.
 coop.			172800	IN	NS	coop2.dyntld.net.
 coop.			172800	IN	NS	coop3.dyntld.net.
 coop.			172800	IN	NS	coop4.dyntld.net.
-country.		86400	IN	NSEC	cr. NS DS RRSIG NSEC
+country.		86400	IN	NSEC	courses. NS DS RRSIG NSEC
 country.		172800	IN	NS	a.ns.nic.country.
 country.		172800	IN	NS	b.ns.nic.country.
 a.ns.nic.country.	172800	IN	AAAA	2620:171:a02:ad::17
 a.ns.nic.country.	172800	IN	A	72.0.50.17
 b.ns.nic.country.	172800	IN	AAAA	2620:171:d02:dc::17
 b.ns.nic.country.	172800	IN	A	72.42.114.17
+courses.		86400	IN	NSEC	cr. NS DS RRSIG NSEC
+courses.		172800	IN	NS	a.nic.courses.
+courses.		172800	IN	NS	b.nic.courses.
+courses.		172800	IN	NS	c.nic.courses.
+courses.		172800	IN	NS	d.nic.courses.
+a.nic.courses.		172800	IN	AAAA	2001:dcd:1::9
+a.nic.courses.		172800	IN	A	37.209.192.9
+b.nic.courses.		172800	IN	AAAA	2001:dcd:2::9
+b.nic.courses.		172800	IN	A	37.209.194.9
+c.nic.courses.		172800	IN	AAAA	2001:dcd:3::9
+c.nic.courses.		172800	IN	A	37.209.196.9
+d.nic.courses.		172800	IN	AAAA	2001:dcd:4::9
+d.nic.courses.		172800	IN	A	37.209.198.9
 cr.			172800	IN	NS	a.ns.cr.
 cr.			172800	IN	NS	c.ns.cr.
 cr.			172800	IN	NS	d.ns.cr.
@@ -4192,10 +4218,8 @@ mr.			172800	IN	NS	ns3.nic.fr.
 mr.			172800	IN	NS	censvrns0001.ird.fr.
 ns.univ-nkc.mr.		172800	IN	A	82.151.64.1
 ms.			86400	IN	NSEC	mt. NS RRSIG NSEC
-ms.			172800	IN	NS	ms1.dyntld.net.
-ms.			172800	IN	NS	ms2.dyntld.net.
-ms.			172800	IN	NS	ms3.dyntld.net.
-ms.			172800	IN	NS	ms4.dyntld.net.
+ms.			172800	IN	NS	a.ms.dyntld.net.
+ms.			172800	IN	NS	b.ms.dyntld.net.
 ms.			172800	IN	NS	ms-ns.anycast.pch.net.
 ms.			172800	IN	NS	phloem.uoregon.edu.
 ms.			172800	IN	NS	mnidns1.mninet.ms.
@@ -4487,10 +4511,10 @@ mg1.dyntld.net.		172800	IN	A	208.78.70.96
 mg2.dyntld.net.		172800	IN	A	204.13.250.96
 mg3.dyntld.net.		172800	IN	A	208.78.71.96
 mg4.dyntld.net.		172800	IN	A	204.13.251.96
-ms1.dyntld.net.		172800	IN	A	208.78.70.84
-ms2.dyntld.net.		172800	IN	A	204.13.250.84
-ms3.dyntld.net.		172800	IN	A	208.78.71.84
-ms4.dyntld.net.		172800	IN	A	204.13.251.84
+a.ms.dyntld.net.	172800	IN	AAAA	2001:500:92::23
+a.ms.dyntld.net.	172800	IN	A	199.19.5.23
+b.ms.dyntld.net.	172800	IN	AAAA	2001:500:96::23
+b.ms.dyntld.net.	172800	IN	A	199.19.6.23
 na1.dyntld.net.		172800	IN	A	208.78.70.90
 na2.dyntld.net.		172800	IN	A	204.13.250.90
 a.nf.dyntld.net.	172800	IN	AAAA	2001:500:92::10
@@ -4615,6 +4639,7 @@ ht-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6038:ad::1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
 ls-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6028:ad::1
 ls-ns.anycast.pch.net.	172800	IN	A	204.61.216.28
+ms-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6033:ad::1
 ms-ns.anycast.pch.net.	172800	IN	A	204.61.216.33
 mv-ns.anycast.pch.net.	172800	IN	A	204.61.216.24
 na-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6035:ad::1
@@ -6235,9 +6260,9 @@ ns3.telecomitalia.sm.	172800	IN	A	194.0.27.12
 sn.			86400	IN	NSEC	so. NS RRSIG NSEC
 sn.			172800	IN	NS	ns.ucad.sn.
 sn.			172800	IN	NS	sn.cctld.authdns.ripe.net.
-sn.			172800	IN	NS	ns1.ird.fr.
 sn.			172800	IN	NS	ns1.sonatel.sn.
 sn.			172800	IN	NS	ns3.nic.fr.
+sn.			172800	IN	NS	censvrns0001.ird.fr.
 ns1.sonatel.sn.		172800	IN	A	213.154.64.11
 ns.ucad.sn.		172800	IN	A	196.1.95.1
 so.			86400	IN	NSEC	social. NS RRSIG NSEC
@@ -6306,13 +6331,26 @@ spiegel.		172800	IN	NS	ns2b.ksregistry.com.
 sr.			86400	IN	NSEC	st. NS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
-st.			86400	IN	NSEC	style. NS RRSIG NSEC
+st.			86400	IN	NSEC	study. NS RRSIG NSEC
 st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
 st.			172800	IN	NS	dns-us.st.
 dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
+study.			86400	IN	NSEC	style. NS DS RRSIG NSEC
+study.			172800	IN	NS	a.nic.study.
+study.			172800	IN	NS	b.nic.study.
+study.			172800	IN	NS	c.nic.study.
+study.			172800	IN	NS	d.nic.study.
+a.nic.study.		172800	IN	AAAA	2001:dcd:1::10
+a.nic.study.		172800	IN	A	37.209.192.10
+b.nic.study.		172800	IN	AAAA	2001:dcd:2::10
+b.nic.study.		172800	IN	A	37.209.194.10
+c.nic.study.		172800	IN	AAAA	2001:dcd:3::10
+c.nic.study.		172800	IN	A	37.209.196.10
+d.nic.study.		172800	IN	AAAA	2001:dcd:4::10
+d.nic.study.		172800	IN	A	37.209.198.10
 style.			86400	IN	NSEC	su. NS DS RRSIG NSEC
 style.			172800	IN	NS	demand.beta.aridns.net.au.
 style.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6323,9 +6361,22 @@ su.			172800	IN	NS	b.dns.ripn.net.
 su.			172800	IN	NS	d.dns.ripn.net.
 su.			172800	IN	NS	e.dns.ripn.net.
 su.			172800	IN	NS	f.dns.ripn.net.
-su.			86400	IN	NSEC	supplies. NS DS RRSIG NSEC
+su.			86400	IN	NSEC	sucks. NS DS RRSIG NSEC
 ns.demos.su.		172800	IN	A	194.87.0.8
 ns.demos.su.		172800	IN	A	194.87.0.9
+sucks.			86400	IN	NSEC	supplies. NS DS RRSIG NSEC
+sucks.			172800	IN	NS	a.nic.sucks.
+sucks.			172800	IN	NS	b.nic.sucks.
+sucks.			172800	IN	NS	c.nic.sucks.
+sucks.			172800	IN	NS	d.nic.sucks.
+a.nic.sucks.		172800	IN	AAAA	2001:dcd:1::10
+a.nic.sucks.		172800	IN	A	37.209.192.10
+b.nic.sucks.		172800	IN	AAAA	2001:dcd:2::10
+b.nic.sucks.		172800	IN	A	37.209.194.10
+c.nic.sucks.		172800	IN	AAAA	2001:dcd:3::10
+c.nic.sucks.		172800	IN	A	37.209.196.10
+d.nic.sucks.		172800	IN	AAAA	2001:dcd:4::10
+d.nic.sucks.		172800	IN	A	37.209.198.10
 supplies.		86400	IN	NSEC	supply. NS DS RRSIG NSEC
 supplies.		172800	IN	NS	demand.beta.aridns.net.au.
 supplies.		172800	IN	NS	demand.alpha.aridns.net.au.
