@@ -1446,8 +1446,6 @@ dns3.dotukr.com.	172800	IN	AAAA	2001:41d0:a:2b1f::1
 dns3.dotukr.com.	172800	IN	A	37.187.75.31
 austin.gh.com.		172800	IN	A	196.3.64.1
 mantse.gh.com.		172800	IN	A	193.194.185.2
-ns3.hpl.hp.com.		172800	IN	A	204.123.2.18
-ns4.hpl.hp.com.		172800	IN	A	204.123.2.19
 ns1.iafrica.com.	172800	IN	A	196.7.0.139
 hoppy.iom.com.		172800	IN	A	217.23.163.140
 pebbles.iom.com.	172800	IN	A	80.168.83.242
@@ -2997,6 +2995,7 @@ b.dns.id.		172800	IN	A	103.19.179.179
 c.dns.id.		172800	IN	A	103.19.178.178
 e.dns.id.		172800	IN	AAAA	2001:df5:4000:4::4
 e.dns.id.		172800	IN	A	103.19.177.177
+ie.			86400	IN	NSEC	ifm. NS DS RRSIG NSEC
 ie.			172800	IN	NS	a.ns.ie.
 ie.			172800	IN	NS	b.ns.ie.
 ie.			172800	IN	NS	c.ns.ie.
@@ -3005,8 +3004,6 @@ ie.			172800	IN	NS	e.ns.ie.
 ie.			172800	IN	NS	f.ns.ie.
 ie.			172800	IN	NS	g.ns.ie.
 ie.			172800	IN	NS	h.ns.ie.
-ie.			86400	IN	NSEC	ifm. NS DS RRSIG NSEC
-ns1.connect.ie.		172800	IN	A	109.123.110.79
 a.ns.ie.		172800	IN	AAAA	2a01:4b0::3
 a.ns.ie.		172800	IN	A	77.72.72.44
 b.ns.ie.		172800	IN	AAAA	2a01:4b0::2
@@ -4544,8 +4541,6 @@ f.edu-servers.net.	172800	IN	A	192.35.51.30
 g.edu-servers.net.	172800	IN	AAAA	2001:503:cc2c::2:36
 g.edu-servers.net.	172800	IN	A	192.42.93.30
 l.edu-servers.net.	172800	IN	A	192.41.162.30
-ns3.ns.esat.net.	172800	IN	AAAA	2001:7c8:2:a::64
-ns3.ns.esat.net.	172800	IN	A	192.111.39.100
 a.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:8::4
 a.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.168.36
 b.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:9::4
@@ -4769,8 +4764,6 @@ tj.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::117
 tj.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.117
 to.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::118
 to.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.118
-tp.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::119
-tp.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.119
 tr.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::120
 tr.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.120
 ug.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::52
@@ -6700,18 +6693,11 @@ town.			172800	IN	NS	demand.beta.aridns.net.au.
 town.			172800	IN	NS	demand.alpha.aridns.net.au.
 town.			172800	IN	NS	demand.delta.aridns.net.au.
 town.			172800	IN	NS	demand.gamma.aridns.net.au.
-toys.			86400	IN	NSEC	tp. NS DS RRSIG NSEC
+toys.			86400	IN	NSEC	tr. NS DS RRSIG NSEC
 toys.			172800	IN	NS	demand.beta.aridns.net.au.
 toys.			172800	IN	NS	demand.alpha.aridns.net.au.
 toys.			172800	IN	NS	demand.delta.aridns.net.au.
 toys.			172800	IN	NS	demand.gamma.aridns.net.au.
-tp.			86400	IN	NSEC	tr. NS RRSIG NSEC
-tp.			172800	IN	NS	tp.cctld.authdns.ripe.net.
-tp.			172800	IN	NS	ns1.connect.ie.
-tp.			172800	IN	NS	ns3.ns.esat.net.
-tp.			172800	IN	NS	ns3.hpl.hp.com.
-tp.			172800	IN	NS	ns4.hpl.hp.com.
-tp.			172800	IN	NS	auth02.ns.uu.net.
 tr.			86400	IN	NSEC	trade. NS RRSIG NSEC
 tr.			172800	IN	NS	tr.cctld.authdns.ripe.net.
 tr.			172800	IN	NS	ns1.nic.tr.
