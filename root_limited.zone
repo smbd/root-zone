@@ -5480,6 +5480,7 @@ ns3.pknic.net.pk.	172800	IN	A	199.192.75.54
 root-s.pknic.pk.	172800	IN	A	119.81.34.90
 pl.			86400	IN	NSEC	place. NS DS RRSIG NSEC
 pl.			172800	IN	NS	a-dns.pl.
+pl.			172800	IN	NS	c-dns.pl.
 pl.			172800	IN	NS	d-dns.pl.
 pl.			172800	IN	NS	e-dns.pl.
 pl.			172800	IN	NS	f-dns.pl.
@@ -5488,9 +5489,11 @@ pl.			172800	IN	NS	h-dns.pl.
 pl.			172800	IN	NS	i-dns.pl.
 a-dns.pl.		172800	IN	AAAA	2001:a10:121:1::156
 a-dns.pl.		172800	IN	A	194.181.87.156
+c-dns.pl.		172800	IN	AAAA	2a02:38:14::146
+c-dns.pl.		172800	IN	A	93.190.128.146
 d-dns.pl.		172800	IN	AAAA	2a00:4120:8000:2::186
 d-dns.pl.		172800	IN	A	81.15.133.186
-e-dns.pl.		172800	IN	A	195.80.237.162
+e-dns.pl.		172800	IN	A	46.28.245.82
 f-dns.pl.		172800	IN	AAAA	2001:1a68:0:17::238
 f-dns.pl.		172800	IN	A	77.79.212.238
 g-dns.pl.		172800	IN	AAAA	2001:6d8:1001:1::252
