@@ -1755,11 +1755,17 @@ dance.			172800	IN	NS	demand.beta.aridns.net.au.
 dance.			172800	IN	NS	demand.alpha.aridns.net.au.
 dance.			172800	IN	NS	demand.delta.aridns.net.au.
 dance.			172800	IN	NS	demand.gamma.aridns.net.au.
-dating.			86400	IN	NSEC	day. NS DS RRSIG NSEC
+dating.			86400	IN	NSEC	datsun. NS DS RRSIG NSEC
 dating.			172800	IN	NS	demand.beta.aridns.net.au.
 dating.			172800	IN	NS	demand.alpha.aridns.net.au.
 dating.			172800	IN	NS	demand.delta.aridns.net.au.
 dating.			172800	IN	NS	demand.gamma.aridns.net.au.
+datsun.			86400	IN	NSEC	day. NS DS RRSIG NSEC
+datsun.			172800	IN	NS	a.gmoregistry.net.
+datsun.			172800	IN	NS	b.gmoregistry.net.
+datsun.			172800	IN	NS	c.gmoregistry.net.
+datsun.			172800	IN	NS	d.gmoregistry.net.
+datsun.			172800	IN	NS	e.gmoregistry.net.
 day.			86400	IN	NSEC	dclk. NS DS RRSIG NSEC
 day.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -3094,11 +3100,17 @@ a1.in.afilias-nst.in.	172800	IN	AAAA	2001:4528:fff:13::142
 a1.in.afilias-nst.in.	172800	IN	A	115.249.164.142
 b1.in.afilias-nst.in.	172800	IN	AAAA	2404:a800:2:1e::19:90
 b1.in.afilias-nst.in.	172800	IN	A	125.19.40.90
-industries.		86400	IN	NSEC	info. NS DS RRSIG NSEC
+industries.		86400	IN	NSEC	infiniti. NS DS RRSIG NSEC
 industries.		172800	IN	NS	demand.beta.aridns.net.au.
 industries.		172800	IN	NS	demand.alpha.aridns.net.au.
 industries.		172800	IN	NS	demand.delta.aridns.net.au.
 industries.		172800	IN	NS	demand.gamma.aridns.net.au.
+infiniti.		86400	IN	NSEC	info. NS DS RRSIG NSEC
+infiniti.		172800	IN	NS	a.gmoregistry.net.
+infiniti.		172800	IN	NS	b.gmoregistry.net.
+infiniti.		172800	IN	NS	c.gmoregistry.net.
+infiniti.		172800	IN	NS	d.gmoregistry.net.
+infiniti.		172800	IN	NS	e.gmoregistry.net.
 info.			172800	IN	NS	a0.info.afilias-nst.info.
 info.			172800	IN	NS	a2.info.afilias-nst.info.
 info.			172800	IN	NS	b0.info.afilias-nst.org.
@@ -4260,7 +4272,7 @@ ms.			172800	IN	NS	ms-ns.anycast.pch.net.
 ms.			172800	IN	NS	phloem.uoregon.edu.
 ms.			172800	IN	NS	mnidns1.mninet.ms.
 mnidns1.mninet.ms.	172800	IN	A	199.7.90.2
-mt.			86400	IN	NSEC	mu. NS RRSIG NSEC
+mt.			86400	IN	NSEC	mtpc. NS RRSIG NSEC
 mt.			172800	IN	NS	f.ns.mt.
 mt.			172800	IN	NS	i.ns.mt.
 mt.			172800	IN	NS	p.ns.mt.
@@ -4276,6 +4288,12 @@ p.ns.mt.		172800	IN	A	204.61.216.45
 r.ns.mt.		172800	IN	AAAA	2001:67c:e0::97
 r.ns.mt.		172800	IN	A	193.0.9.97
 ns1.mt.			172800	IN	A	193.188.34.241
+mtpc.			86400	IN	NSEC	mu. NS DS RRSIG NSEC
+mtpc.			172800	IN	NS	a.gmoregistry.net.
+mtpc.			172800	IN	NS	b.gmoregistry.net.
+mtpc.			172800	IN	NS	c.gmoregistry.net.
+mtpc.			172800	IN	NS	d.gmoregistry.net.
+mtpc.			172800	IN	NS	e.gmoregistry.net.
 mu.			172800	IN	NS	fork.sth.dnsnode.net.
 mu.			172800	IN	NS	udns1.tld.mu.
 mu.			172800	IN	NS	udns2.tld.mu.
@@ -4980,11 +4998,17 @@ nico.			172800	IN	NS	b.gmoregistry.net.
 nico.			172800	IN	NS	c.gmoregistry.net.
 nico.			172800	IN	NS	d.gmoregistry.net.
 nico.			172800	IN	NS	e.gmoregistry.net.
-ninja.			86400	IN	NSEC	nl. NS DS RRSIG NSEC
+ninja.			86400	IN	NSEC	nissan. NS DS RRSIG NSEC
 ninja.			172800	IN	NS	demand.beta.aridns.net.au.
 ninja.			172800	IN	NS	demand.alpha.aridns.net.au.
 ninja.			172800	IN	NS	demand.delta.aridns.net.au.
 ninja.			172800	IN	NS	demand.gamma.aridns.net.au.
+nissan.			86400	IN	NSEC	nl. NS DS RRSIG NSEC
+nissan.			172800	IN	NS	a.gmoregistry.net.
+nissan.			172800	IN	NS	b.gmoregistry.net.
+nissan.			172800	IN	NS	c.gmoregistry.net.
+nissan.			172800	IN	NS	d.gmoregistry.net.
+nissan.			172800	IN	NS	e.gmoregistry.net.
 nl.			172800	IN	NS	nl1.dnsnode.net.
 nl.			172800	IN	NS	ns1.dns.nl.
 nl.			172800	IN	NS	ns2.dns.nl.
