@@ -1210,11 +1210,30 @@ chat.			172800	IN	NS	demand.beta.aridns.net.au.
 chat.			172800	IN	NS	demand.alpha.aridns.net.au.
 chat.			172800	IN	NS	demand.delta.aridns.net.au.
 chat.			172800	IN	NS	demand.gamma.aridns.net.au.
-cheap.			86400	IN	NSEC	christmas. NS DS RRSIG NSEC
+cheap.			86400	IN	NSEC	chloe. NS DS RRSIG NSEC
 cheap.			172800	IN	NS	demand.beta.aridns.net.au.
 cheap.			172800	IN	NS	demand.alpha.aridns.net.au.
 cheap.			172800	IN	NS	demand.delta.aridns.net.au.
 cheap.			172800	IN	NS	demand.gamma.aridns.net.au.
+chloe.			86400	IN	NSEC	christmas. NS DS RRSIG NSEC
+chloe.			172800	IN	NS	ns1.dns.nic.chloe.
+chloe.			172800	IN	NS	ns2.dns.nic.chloe.
+chloe.			172800	IN	NS	ns3.dns.nic.chloe.
+chloe.			172800	IN	NS	ns4.dns.nic.chloe.
+chloe.			172800	IN	NS	ns5.dns.nic.chloe.
+chloe.			172800	IN	NS	ns6.dns.nic.chloe.
+ns1.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1071::29
+ns1.dns.nic.chloe.	172800	IN	A	156.154.144.41
+ns2.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1072::29
+ns2.dns.nic.chloe.	172800	IN	A	156.154.145.41
+ns3.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1073::29
+ns3.dns.nic.chloe.	172800	IN	A	156.154.159.41
+ns4.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1074::29
+ns4.dns.nic.chloe.	172800	IN	A	156.154.156.41
+ns5.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1075::29
+ns5.dns.nic.chloe.	172800	IN	A	156.154.157.41
+ns6.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1076::29
+ns6.dns.nic.chloe.	172800	IN	A	156.154.158.41
 christmas.		86400	IN	NSEC	chrome. NS DS RRSIG NSEC
 christmas.		172800	IN	NS	a.ns.uniregistry.net.
 christmas.		172800	IN	NS	tld.isc-sns.com.
