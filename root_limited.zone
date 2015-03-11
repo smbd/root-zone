@@ -2114,12 +2114,17 @@ equipment.		172800	IN	NS	demand.beta.aridns.net.au.
 equipment.		172800	IN	NS	demand.alpha.aridns.net.au.
 equipment.		172800	IN	NS	demand.delta.aridns.net.au.
 equipment.		172800	IN	NS	demand.gamma.aridns.net.au.
-er.			86400	IN	NSEC	es. NS RRSIG NSEC
+er.			86400	IN	NSEC	erni. NS RRSIG NSEC
 er.			172800	IN	NS	er.cctld.authdns.ripe.net.
 er.			172800	IN	NS	sawanew.noc.net.er.
 er.			172800	IN	NS	zaranew.noc.net.er.
 sawanew.noc.net.er.	172800	IN	A	196.200.96.1
 zaranew.noc.net.er.	172800	IN	A	196.200.96.2
+erni.			86400	IN	NSEC	es. NS DS RRSIG NSEC
+erni.			172800	IN	NS	anycast9.irondns.net.
+erni.			172800	IN	NS	anycast10.irondns.net.
+erni.			172800	IN	NS	anycast23.irondns.net.
+erni.			172800	IN	NS	anycast24.irondns.net.
 es.			172800	IN	NS	a.nic.es.
 es.			172800	IN	NS	f.nic.es.
 es.			172800	IN	NS	ns1.cesca.es.
@@ -2404,11 +2409,19 @@ foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-football.		86400	IN	NSEC	forsale. NS DS RRSIG NSEC
+football.		86400	IN	NSEC	forex. NS DS RRSIG NSEC
 football.		172800	IN	NS	demand.beta.aridns.net.au.
 football.		172800	IN	NS	demand.alpha.aridns.net.au.
 football.		172800	IN	NS	demand.delta.aridns.net.au.
 football.		172800	IN	NS	demand.gamma.aridns.net.au.
+forex.			86400	IN	NSEC	forsale. NS DS RRSIG NSEC
+forex.			172800	IN	NS	a5.nstld.com.
+forex.			172800	IN	NS	c5.nstld.com.
+forex.			172800	IN	NS	d5.nstld.com.
+forex.			172800	IN	NS	f5.nstld.com.
+forex.			172800	IN	NS	g5.nstld.com.
+forex.			172800	IN	NS	h5.nstld.com.
+forex.			172800	IN	NS	l5.nstld.com.
 forsale.		86400	IN	NSEC	foundation. NS DS RRSIG NSEC
 forsale.		172800	IN	NS	demand.beta.aridns.net.au.
 forsale.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3984,11 +3997,19 @@ market.			172800	IN	NS	demand.beta.aridns.net.au.
 market.			172800	IN	NS	demand.alpha.aridns.net.au.
 market.			172800	IN	NS	demand.delta.aridns.net.au.
 market.			172800	IN	NS	demand.gamma.aridns.net.au.
-marketing.		86400	IN	NSEC	marriott. NS DS RRSIG NSEC
+marketing.		86400	IN	NSEC	markets. NS DS RRSIG NSEC
 marketing.		172800	IN	NS	demand.beta.aridns.net.au.
 marketing.		172800	IN	NS	demand.alpha.aridns.net.au.
 marketing.		172800	IN	NS	demand.delta.aridns.net.au.
 marketing.		172800	IN	NS	demand.gamma.aridns.net.au.
+markets.		86400	IN	NSEC	marriott. NS DS RRSIG NSEC
+markets.		172800	IN	NS	a5.nstld.com.
+markets.		172800	IN	NS	c5.nstld.com.
+markets.		172800	IN	NS	d5.nstld.com.
+markets.		172800	IN	NS	f5.nstld.com.
+markets.		172800	IN	NS	g5.nstld.com.
+markets.		172800	IN	NS	h5.nstld.com.
+markets.		172800	IN	NS	l5.nstld.com.
 marriott.		86400	IN	NSEC	mc. NS DS RRSIG NSEC
 marriott.		172800	IN	NS	a0.nic.marriott.
 marriott.		172800	IN	NS	a2.nic.marriott.
