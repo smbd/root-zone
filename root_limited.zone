@@ -1162,7 +1162,7 @@ cf.			172800	IN	NS	a.ns.cf.
 cf.			172800	IN	NS	b.ns.cf.
 cf.			172800	IN	NS	c.ns.cf.
 cf.			172800	IN	NS	d.ns.cf.
-cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
+cf.			86400	IN	NSEC	cfd. NS RRSIG NSEC
 a.ns.cf.		172800	IN	A	185.21.168.17
 a.ns.cf.		172800	IN	AAAA	2a04:1b00:4::1
 b.ns.cf.		172800	IN	A	185.21.169.17
@@ -1171,6 +1171,14 @@ c.ns.cf.		172800	IN	A	185.21.170.17
 c.ns.cf.		172800	IN	AAAA	2a04:1b00:6::1
 d.ns.cf.		172800	IN	A	185.21.171.17
 d.ns.cf.		172800	IN	AAAA	2a04:1b00:7::1
+cfd.			172800	IN	NS	a5.nstld.com.
+cfd.			172800	IN	NS	c5.nstld.com.
+cfd.			172800	IN	NS	d5.nstld.com.
+cfd.			172800	IN	NS	f5.nstld.com.
+cfd.			172800	IN	NS	g5.nstld.com.
+cfd.			172800	IN	NS	h5.nstld.com.
+cfd.			172800	IN	NS	l5.nstld.com.
+cfd.			86400	IN	NSEC	cg. NS DS RRSIG NSEC
 cg.			172800	IN	NS	dns.dnsafrica.net.
 cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
@@ -6455,7 +6463,15 @@ spiegel.		172800	IN	NS	ns1a.ksregistry.net.
 spiegel.		172800	IN	NS	ns1b.ksregistry.net.
 spiegel.		172800	IN	NS	ns2a.ksregistry.com.
 spiegel.		172800	IN	NS	ns2b.ksregistry.com.
-spiegel.		86400	IN	NSEC	sr. NS DS RRSIG NSEC
+spiegel.		86400	IN	NSEC	spreadbetting. NS DS RRSIG NSEC
+spreadbetting.		172800	IN	NS	a5.nstld.com.
+spreadbetting.		172800	IN	NS	c5.nstld.com.
+spreadbetting.		172800	IN	NS	d5.nstld.com.
+spreadbetting.		172800	IN	NS	f5.nstld.com.
+spreadbetting.		172800	IN	NS	g5.nstld.com.
+spreadbetting.		172800	IN	NS	h5.nstld.com.
+spreadbetting.		172800	IN	NS	l5.nstld.com.
+spreadbetting.		86400	IN	NSEC	sr. NS DS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
 sr.			86400	IN	NSEC	st. NS RRSIG NSEC
@@ -6853,7 +6869,7 @@ trade.			172800	IN	NS	ns3.dns.nic.trade.
 trade.			172800	IN	NS	ns4.dns.nic.trade.
 trade.			172800	IN	NS	ns5.dns.nic.trade.
 trade.			172800	IN	NS	ns6.dns.nic.trade.
-trade.			86400	IN	NSEC	training. NS DS RRSIG NSEC
+trade.			86400	IN	NSEC	trading. NS DS RRSIG NSEC
 ns1.dns.nic.trade.	172800	IN	A	156.154.144.165
 ns1.dns.nic.trade.	172800	IN	AAAA	2610:a1:1071::a5
 ns2.dns.nic.trade.	172800	IN	A	156.154.145.165
@@ -6866,6 +6882,14 @@ ns5.dns.nic.trade.	172800	IN	A	156.154.157.165
 ns5.dns.nic.trade.	172800	IN	AAAA	2610:a1:1075::a5
 ns6.dns.nic.trade.	172800	IN	A	156.154.158.165
 ns6.dns.nic.trade.	172800	IN	AAAA	2610:a1:1076::a5
+trading.		172800	IN	NS	a5.nstld.com.
+trading.		172800	IN	NS	c5.nstld.com.
+trading.		172800	IN	NS	d5.nstld.com.
+trading.		172800	IN	NS	f5.nstld.com.
+trading.		172800	IN	NS	g5.nstld.com.
+trading.		172800	IN	NS	h5.nstld.com.
+trading.		172800	IN	NS	l5.nstld.com.
+trading.		86400	IN	NSEC	training. NS DS RRSIG NSEC
 training.		172800	IN	NS	demand.beta.aridns.net.au.
 training.		172800	IN	NS	demand.alpha.aridns.net.au.
 training.		172800	IN	NS	demand.delta.aridns.net.au.
