@@ -1598,11 +1598,23 @@ cool.			172800	IN	NS	demand.alpha.aridns.net.au.
 cool.			172800	IN	NS	demand.delta.aridns.net.au.
 cool.			172800	IN	NS	demand.gamma.aridns.net.au.
 cool.			86400	IN	NSEC	coop. NS DS RRSIG NSEC
+coop.			172800	IN	NS	a.nic.coop.
+coop.			172800	IN	NS	b.nic.coop.
+coop.			172800	IN	NS	c.nic.coop.
+coop.			172800	IN	NS	d.nic.coop.
 coop.			172800	IN	NS	coop1.dyntld.net.
 coop.			172800	IN	NS	coop2.dyntld.net.
 coop.			172800	IN	NS	coop3.dyntld.net.
 coop.			172800	IN	NS	coop4.dyntld.net.
 coop.			86400	IN	NSEC	country. NS RRSIG NSEC
+a.nic.coop.		172800	IN	A	194.169.218.64
+a.nic.coop.		172800	IN	AAAA	2001:67c:13cc::1:64
+b.nic.coop.		172800	IN	A	185.24.64.64
+b.nic.coop.		172800	IN	AAAA	2a04:2b00:13cc::1:64
+c.nic.coop.		172800	IN	A	212.18.248.64
+c.nic.coop.		172800	IN	AAAA	2a04:2b00:13ee::64
+d.nic.coop.		172800	IN	A	212.18.249.64
+d.nic.coop.		172800	IN	AAAA	2a04:2b00:13ff::64
 country.		172800	IN	NS	a.ns.nic.country.
 country.		172800	IN	NS	b.ns.nic.country.
 country.		86400	IN	NSEC	courses. NS DS RRSIG NSEC
@@ -4603,8 +4615,10 @@ af1.dyntld.net.		172800	IN	AAAA	2001:500:90::94
 af3.dyntld.net.		172800	IN	A	208.78.71.94
 af3.dyntld.net.		172800	IN	AAAA	2001:500:94::94
 coop1.dyntld.net.	172800	IN	A	208.78.70.80
+coop1.dyntld.net.	172800	IN	AAAA	2001:500:90::80
 coop2.dyntld.net.	172800	IN	A	204.13.250.80
 coop3.dyntld.net.	172800	IN	A	208.78.71.80
+coop3.dyntld.net.	172800	IN	AAAA	2001:500:94::80
 coop4.dyntld.net.	172800	IN	A	204.13.251.80
 a.cx.dyntld.net.	172800	IN	A	199.19.5.3
 a.cx.dyntld.net.	172800	IN	AAAA	2001:500:92::3
@@ -8146,18 +8160,14 @@ xyz.			172800	IN	NS	y.nic.xyz.
 xyz.			172800	IN	NS	z.nic.xyz.
 xyz.			172800	IN	NS	generationxyz.nic.xyz.
 xyz.			86400	IN	NSEC	yachts. NS DS RRSIG NSEC
-generationxyz.nic.xyz.	172800	IN	A	185.24.67.230
 generationxyz.nic.xyz.	172800	IN	A	212.18.249.42
 generationxyz.nic.xyz.	172800	IN	AAAA	2a04:2b00:13ff::42
-generationxyz.nic.xyz.	172800	IN	AAAA	2a04:2b03:13cc::230
 x.nic.xyz.		172800	IN	A	194.169.218.42
 x.nic.xyz.		172800	IN	AAAA	2001:67c:13cc::1:42
 y.nic.xyz.		172800	IN	A	185.24.64.42
 y.nic.xyz.		172800	IN	AAAA	2a04:2b00:13cc::1:42
 z.nic.xyz.		172800	IN	A	212.18.248.42
-z.nic.xyz.		172800	IN	A	212.18.251.230
 z.nic.xyz.		172800	IN	AAAA	2a04:2b00:13ee::42
-z.nic.xyz.		172800	IN	AAAA	2a04:2b03:14bb::230
 yachts.			172800	IN	NS	a0.nic.yachts.
 yachts.			172800	IN	NS	a2.nic.yachts.
 yachts.			172800	IN	NS	b0.nic.yachts.
