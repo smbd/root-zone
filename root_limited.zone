@@ -2249,7 +2249,20 @@ fail.			172800	IN	NS	demand.beta.aridns.net.au.
 fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
 fail.			172800	IN	NS	demand.gamma.aridns.net.au.
-fail.			86400	IN	NSEC	fans. NS DS RRSIG NSEC
+fail.			86400	IN	NSEC	fan. NS DS RRSIG NSEC
+fan.			172800	IN	NS	a.nic.fan.
+fan.			172800	IN	NS	b.nic.fan.
+fan.			172800	IN	NS	c.nic.fan.
+fan.			172800	IN	NS	d.nic.fan.
+fan.			86400	IN	NSEC	fans. NS DS RRSIG NSEC
+a.nic.fan.		172800	IN	A	194.169.218.57
+a.nic.fan.		172800	IN	AAAA	2001:67c:13cc::1:57
+b.nic.fan.		172800	IN	A	185.24.64.57
+b.nic.fan.		172800	IN	AAAA	2a04:2b00:13cc::1:57
+c.nic.fan.		172800	IN	A	194.0.2.2
+c.nic.fan.		172800	IN	AAAA	2001:678:5::2
+d.nic.fan.		172800	IN	A	194.0.1.45
+d.nic.fan.		172800	IN	AAAA	2001:678:4::2d
 fans.			172800	IN	NS	a.nic.fans.
 fans.			172800	IN	NS	b.nic.fans.
 fans.			172800	IN	NS	c.nic.fans.
@@ -5274,7 +5287,7 @@ onl.			172800	IN	NS	a0.nic.onl.
 onl.			172800	IN	NS	a2.nic.onl.
 onl.			172800	IN	NS	b0.nic.onl.
 onl.			172800	IN	NS	c0.nic.onl.
-onl.			86400	IN	NSEC	ooo. NS DS RRSIG NSEC
+onl.			86400	IN	NSEC	online. NS DS RRSIG NSEC
 a0.nic.onl.		172800	IN	A	65.22.136.1
 a0.nic.onl.		172800	IN	AAAA	2a01:8840:86::1
 a2.nic.onl.		172800	IN	A	65.22.139.1
@@ -5283,6 +5296,19 @@ b0.nic.onl.		172800	IN	A	65.22.137.1
 b0.nic.onl.		172800	IN	AAAA	2a01:8840:87::1
 c0.nic.onl.		172800	IN	A	65.22.138.1
 c0.nic.onl.		172800	IN	AAAA	2a01:8840:88::1
+online.			172800	IN	NS	a.nic.online.
+online.			172800	IN	NS	b.nic.online.
+online.			172800	IN	NS	c.nic.online.
+online.			172800	IN	NS	d.nic.online.
+online.			86400	IN	NSEC	ooo. NS DS RRSIG NSEC
+a.nic.online.		172800	IN	A	194.169.218.54
+a.nic.online.		172800	IN	AAAA	2001:67c:13cc::1:54
+b.nic.online.		172800	IN	A	185.24.64.54
+b.nic.online.		172800	IN	AAAA	2a04:2b00:13cc::1:54
+c.nic.online.		172800	IN	A	194.0.2.2
+c.nic.online.		172800	IN	AAAA	2001:678:5::2
+d.nic.online.		172800	IN	A	194.0.1.45
+d.nic.online.		172800	IN	AAAA	2001:678:4::2d
 ooo.			172800	IN	NS	a5.nstld.com.
 ooo.			172800	IN	NS	c5.nstld.com.
 ooo.			172800	IN	NS	d5.nstld.com.
@@ -5428,10 +5454,16 @@ pa.			172800	IN	NS	dns.nic.cr.
 pa.			172800	IN	NS	ns2.pa.
 pa.			172800	IN	NS	ns-ext.nic.cl.
 pa.			172800	IN	NS	sns-pb.isc.org.
-pa.			86400	IN	NSEC	paris. NS RRSIG NSEC
+pa.			86400	IN	NSEC	page. NS RRSIG NSEC
 ns.nic.pa.		172800	IN	A	168.77.8.4
 ns.pa.			172800	IN	A	168.77.8.2
 ns2.pa.			172800	IN	A	168.77.8.7
+page.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+page.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+page.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+page.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+page.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+page.			86400	IN	NSEC	paris. NS DS RRSIG NSEC
 paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
 paris.			172800	IN	NS	g.ext.nic.fr.
@@ -5531,7 +5563,7 @@ physio.			172800	IN	NS	a.nic.physio.
 physio.			172800	IN	NS	b.nic.physio.
 physio.			172800	IN	NS	c.nic.physio.
 physio.			172800	IN	NS	d.nic.physio.
-physio.			86400	IN	NSEC	pics. NS DS RRSIG NSEC
+physio.			86400	IN	NSEC	piaget. NS DS RRSIG NSEC
 a.nic.physio.		172800	IN	A	37.209.192.10
 a.nic.physio.		172800	IN	AAAA	2001:dcd:1::10
 b.nic.physio.		172800	IN	A	37.209.194.10
@@ -5540,6 +5572,25 @@ c.nic.physio.		172800	IN	A	37.209.196.10
 c.nic.physio.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.physio.		172800	IN	A	37.209.198.10
 d.nic.physio.		172800	IN	AAAA	2001:dcd:4::10
+piaget.			172800	IN	NS	ns1.dns.nic.piaget.
+piaget.			172800	IN	NS	ns2.dns.nic.piaget.
+piaget.			172800	IN	NS	ns3.dns.nic.piaget.
+piaget.			172800	IN	NS	ns4.dns.nic.piaget.
+piaget.			172800	IN	NS	ns5.dns.nic.piaget.
+piaget.			172800	IN	NS	ns6.dns.nic.piaget.
+piaget.			86400	IN	NSEC	pics. NS DS RRSIG NSEC
+ns1.dns.nic.piaget.	172800	IN	A	156.154.144.136
+ns1.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1071::88
+ns2.dns.nic.piaget.	172800	IN	A	156.154.145.136
+ns2.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1072::88
+ns3.dns.nic.piaget.	172800	IN	A	156.154.159.136
+ns3.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1073::88
+ns4.dns.nic.piaget.	172800	IN	A	156.154.156.136
+ns4.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1074::88
+ns5.dns.nic.piaget.	172800	IN	A	156.154.157.136
+ns5.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1075::88
+ns6.dns.nic.piaget.	172800	IN	A	156.154.158.136
+ns6.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1076::88
 pics.			172800	IN	NS	a.ns.uniregistry.net.
 pics.			172800	IN	NS	tld.isc-sns.com.
 pics.			172800	IN	NS	tld.isc-sns.net.
@@ -6371,7 +6422,20 @@ singles.		172800	IN	NS	demand.beta.aridns.net.au.
 singles.		172800	IN	NS	demand.alpha.aridns.net.au.
 singles.		172800	IN	NS	demand.delta.aridns.net.au.
 singles.		172800	IN	NS	demand.gamma.aridns.net.au.
-singles.		86400	IN	NSEC	sj. NS DS RRSIG NSEC
+singles.		86400	IN	NSEC	site. NS DS RRSIG NSEC
+site.			172800	IN	NS	a.nic.site.
+site.			172800	IN	NS	b.nic.site.
+site.			172800	IN	NS	c.nic.site.
+site.			172800	IN	NS	d.nic.site.
+site.			86400	IN	NSEC	sj. NS DS RRSIG NSEC
+a.nic.site.		172800	IN	A	194.169.218.61
+a.nic.site.		172800	IN	AAAA	2001:67c:13cc::1:61
+b.nic.site.		172800	IN	A	185.24.64.61
+b.nic.site.		172800	IN	AAAA	2a04:2b00:13cc::1:61
+c.nic.site.		172800	IN	A	194.0.2.2
+c.nic.site.		172800	IN	AAAA	2001:678:5::2
+d.nic.site.		172800	IN	A	194.0.1.45
+d.nic.site.		172800	IN	AAAA	2001:678:4::2d
 sj.			172800	IN	NS	nn.uninett.no.
 sj.			172800	IN	NS	nac.no.
 sj.			172800	IN	NS	server.nordu.net.
