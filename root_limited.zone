@@ -8155,7 +8155,13 @@ xn--vhquv.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.delta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.gamma.aridns.net.au.
-xn--vhquv.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
+xn--vhquv.		86400	IN	NSEC	xn--vuq861b. NS DS RRSIG NSEC
+xn--vuq861b.		172800	IN	NS	ta.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	tb.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	tc.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	td.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	te.ngtld.cn.
+xn--vuq861b.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns3.dotmasr.eg.
