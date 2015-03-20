@@ -12,6 +12,7 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
+.			172800	IN	DNSKEY	256 3 8 AwEAAZyIkCwEYeG29NV+4cOdKE4DPng/4BqJeoOhKqzJbl+LR33TPWsr wBRfmAi9wvR/Qc6IV4MFMXjmkclXns+atIQZ9uQV3YAvKv/cVuO7Mneu MssIQixaMw+jp73R7zIUNMbLBgJRQXI57Rl+pvXBAkgHndVwv+aJkf7y GEuE9Dtj
 .			172800	IN	DNSKEY	256 3 8 AwEAAe3fSrbLBy3LOS7pnxEUhvPZTE2H5dIGsI/UfruI/nOEvWWa/PSX 2BFedBkEqOlYdjdNF2f+6lmfk2Od/xu0v5bVqxFE+/24v3hZSlWBxvXz PTAGHrbW/IJYEPqlzVOAS4XdUgHg0N7IbLywNHMvB+Yf+Nm6ctyXXFLV 4WTNnzs7
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
 .			86400	IN	NSEC	abbott. NS SOA RRSIG NSEC DNSKEY
@@ -518,7 +519,14 @@ b.ns.nic.bayern.	172800	IN	A	72.42.114.13
 b.ns.nic.bayern.	172800	IN	AAAA	2620:171:d02:dc::13
 bb.			172800	IN	NS	ns1.barbadosdomain.net.
 bb.			172800	IN	NS	ns2.barbadosdomain.net.
-bb.			86400	IN	NSEC	bd. NS RRSIG NSEC
+bb.			86400	IN	NSEC	bbc. NS RRSIG NSEC
+bbc.			172800	IN	NS	ns1.nic.uk.
+bbc.			172800	IN	NS	ns2.nic.uk.
+bbc.			172800	IN	NS	ns4.nic.uk.
+bbc.			172800	IN	NS	ns5.nic.uk.
+bbc.			172800	IN	NS	ns6.nic.uk.
+bbc.			172800	IN	NS	ns7.nic.uk.
+bbc.			86400	IN	NSEC	bd. NS DS RRSIG NSEC
 bd.			172800	IN	NS	dns.bd.
 bd.			172800	IN	NS	surma.btcl.net.bd.
 bd.			172800	IN	NS	jamuna.btcl.net.bd.
@@ -5016,7 +5024,12 @@ new.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-new.			86400	IN	NSEC	nexus. NS DS RRSIG NSEC
+new.			86400	IN	NSEC	news. NS DS RRSIG NSEC
+news.			172800	IN	NS	demand.beta.aridns.net.au.
+news.			172800	IN	NS	demand.alpha.aridns.net.au.
+news.			172800	IN	NS	demand.delta.aridns.net.au.
+news.			172800	IN	NS	demand.gamma.aridns.net.au.
+news.			86400	IN	NSEC	nexus. NS DS RRSIG NSEC
 nexus.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 nexus.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 nexus.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -6740,8 +6753,21 @@ root8.zone.tc.		172800	IN	AAAA	2a00:1a48:7806:115:d994:9fe:9eb2:e68d
 td.			172800	IN	NS	ns1.nic.td.
 td.			172800	IN	NS	ns-td.nic.fr.
 td.			172800	IN	NS	ns-td.afrinic.net.
-td.			86400	IN	NSEC	technology. NS RRSIG NSEC
+td.			86400	IN	NSEC	tech. NS RRSIG NSEC
 ns1.nic.td.		172800	IN	A	41.74.44.43
+tech.			172800	IN	NS	a.nic.tech.
+tech.			172800	IN	NS	b.nic.tech.
+tech.			172800	IN	NS	c.nic.tech.
+tech.			172800	IN	NS	d.nic.tech.
+tech.			86400	IN	NSEC	technology. NS DS RRSIG NSEC
+a.nic.tech.		172800	IN	A	194.169.218.60
+a.nic.tech.		172800	IN	AAAA	2001:67c:13cc::1:60
+b.nic.tech.		172800	IN	A	185.24.64.60
+b.nic.tech.		172800	IN	AAAA	2a04:2b00:13cc::1:60
+c.nic.tech.		172800	IN	A	194.0.2.2
+c.nic.tech.		172800	IN	AAAA	2001:678:5::2
+d.nic.tech.		172800	IN	A	194.0.1.45
+d.nic.tech.		172800	IN	AAAA	2001:678:4::2d
 technology.		172800	IN	NS	demand.beta.aridns.net.au.
 technology.		172800	IN	NS	demand.alpha.aridns.net.au.
 technology.		172800	IN	NS	demand.delta.aridns.net.au.
