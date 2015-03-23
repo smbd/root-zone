@@ -80,11 +80,17 @@ ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	dnsc.ad.
 ad.			172800	IN	NS	dnsm.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
-ad.			86400	IN	NSEC	adult. NS DS RRSIG NSEC
+ad.			86400	IN	NSEC	ads. NS DS RRSIG NSEC
 dnsc.ad.		172800	IN	A	194.158.74.10
 dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa::b
 dnsm.ad.		172800	IN	A	194.158.74.9
 dnsm.ad.		172800	IN	AAAA	2a02:8060:32fa::a
+ads.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+ads.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+ads.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+ads.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+ads.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+ads.			86400	IN	NSEC	adult. NS DS RRSIG NSEC
 adult.			172800	IN	NS	a0.nic.adult.
 adult.			172800	IN	NS	a2.nic.adult.
 adult.			172800	IN	NS	b0.nic.adult.
@@ -2322,7 +2328,7 @@ fi.			172800	IN	NS	d.fi.
 fi.			172800	IN	NS	e.fi.
 fi.			172800	IN	NS	f.fi.
 fi.			172800	IN	NS	g.fi.
-fi.			86400	IN	NSEC	finance. NS DS RRSIG NSEC
+fi.			86400	IN	NSEC	film. NS DS RRSIG NSEC
 a.fi.			172800	IN	A	193.166.4.1
 a.fi.			172800	IN	AAAA	2001:708:10:53::53
 b.fi.			172800	IN	A	194.146.106.26
@@ -2337,6 +2343,19 @@ f.fi.			172800	IN	A	87.239.127.198
 f.fi.			172800	IN	AAAA	2a00:13f0:0:3::aaaa
 g.fi.			172800	IN	A	204.61.216.98
 g.fi.			172800	IN	AAAA	2001:500:14:6098:ad::1
+film.			172800	IN	NS	a.nic.film.
+film.			172800	IN	NS	b.nic.film.
+film.			172800	IN	NS	c.nic.film.
+film.			172800	IN	NS	d.nic.film.
+film.			86400	IN	NSEC	finance. NS DS RRSIG NSEC
+a.nic.film.		172800	IN	A	37.209.192.10
+a.nic.film.		172800	IN	AAAA	2001:dcd:1::10
+b.nic.film.		172800	IN	A	37.209.194.10
+b.nic.film.		172800	IN	AAAA	2001:dcd:2::10
+c.nic.film.		172800	IN	A	37.209.196.10
+c.nic.film.		172800	IN	AAAA	2001:dcd:3::10
+d.nic.film.		172800	IN	A	37.209.198.10
+d.nic.film.		172800	IN	AAAA	2001:dcd:4::10
 finance.		172800	IN	NS	demand.beta.aridns.net.au.
 finance.		172800	IN	NS	demand.alpha.aridns.net.au.
 finance.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -2728,13 +2747,23 @@ gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
 gn.			172800	IN	NS	hippo.ru.ac.za.
-gn.			86400	IN	NSEC	goldpoint. NS DS RRSIG NSEC
+gn.			86400	IN	NSEC	gold. NS DS RRSIG NSEC
+gold.			172800	IN	NS	demand.beta.aridns.net.au.
+gold.			172800	IN	NS	demand.alpha.aridns.net.au.
+gold.			172800	IN	NS	demand.delta.aridns.net.au.
+gold.			172800	IN	NS	demand.gamma.aridns.net.au.
+gold.			86400	IN	NSEC	goldpoint. NS DS RRSIG NSEC
 goldpoint.		172800	IN	NS	a.gmoregistry.net.
 goldpoint.		172800	IN	NS	b.gmoregistry.net.
 goldpoint.		172800	IN	NS	c.gmoregistry.net.
 goldpoint.		172800	IN	NS	d.gmoregistry.net.
 goldpoint.		172800	IN	NS	e.gmoregistry.net.
-goldpoint.		86400	IN	NSEC	goo. NS DS RRSIG NSEC
+goldpoint.		86400	IN	NSEC	golf. NS DS RRSIG NSEC
+golf.			172800	IN	NS	demand.beta.aridns.net.au.
+golf.			172800	IN	NS	demand.alpha.aridns.net.au.
+golf.			172800	IN	NS	demand.delta.aridns.net.au.
+golf.			172800	IN	NS	demand.gamma.aridns.net.au.
+golf.			86400	IN	NSEC	goo. NS DS RRSIG NSEC
 goo.			172800	IN	NS	a.gmoregistry.net.
 goo.			172800	IN	NS	b.gmoregistry.net.
 goo.			172800	IN	NS	c.gmoregistry.net.
@@ -2842,19 +2871,28 @@ ns.anycast.nic.gs.	172800	IN	AAAA	2001:500:14:6021:ad::1
 gt.			172800	IN	NS	ns.dns.br.
 gt.			172800	IN	NS	ns.uvg.edu.gt.
 gt.			172800	IN	NS	ns3.nic.mx.
+gt.			172800	IN	NS	pch.gt.
 gt.			172800	IN	NS	osi2.gua.net.
 gt.			172800	IN	NS	sns-pb.isc.org.
 gt.			86400	IN	NSEC	gu. NS RRSIG NSEC
 ns.uvg.edu.gt.		172800	IN	A	168.234.68.2
 ns.uvg.edu.gt.		172800	IN	A	200.9.74.2
+pch.gt.			172800	IN	A	204.61.216.95
+pch.gt.			172800	IN	AAAA	2001:500:14:6095:ad::1
 gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
 gu.			172800	IN	NS	ns.gu.
 gu.			172800	IN	NS	ns.edu.gu.
 gu.			172800	IN	NS	nsuog.edu.gu.
-gu.			86400	IN	NSEC	guide. NS RRSIG NSEC
+gu.			86400	IN	NSEC	guge. NS RRSIG NSEC
 ns.edu.gu.		172800	IN	A	168.123.2.50
 nsuog.edu.gu.		172800	IN	A	67.98.164.133
 ns.gu.			172800	IN	A	168.123.4.10
+guge.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+guge.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+guge.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+guge.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+guge.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+guge.			86400	IN	NSEC	guide. NS DS RRSIG NSEC
 guide.			172800	IN	NS	demand.beta.aridns.net.au.
 guide.			172800	IN	NS	demand.alpha.aridns.net.au.
 guide.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -3338,12 +3376,14 @@ dyn2.cmc.iq.		172800	IN	AAAA	2001:500:96::8
 ns1.cmc.iq.		172800	IN	A	194.117.57.100
 nsp-anycast.cmc.iq.	172800	IN	A	194.117.58.42
 nsp-anycast.cmc.iq.	172800	IN	AAAA	2001:500:14:8001:ad::42
-ir.			172800	IN	NS	a.nic.ir.
-ir.			172800	IN	NS	ns.irnic.ir.
-ir.			172800	IN	NS	ns5.univie.ac.at.
 ir.			86400	IN	NSEC	irish. NS RRSIG NSEC
+ir.			172800	IN	NS	a.nic.ir.
+ir.			172800	IN	NS	b.nic.ir.
+ir.			172800	IN	NS	ir.cctld.authdns.ripe.net.
+ir.			172800	IN	NS	ns5.univie.ac.at.
 ns.irnic.ir.		172800	IN	A	193.189.122.83
 a.nic.ir.		172800	IN	A	193.189.123.2
+b.nic.ir.		172800	IN	A	193.189.122.83
 irish.			172800	IN	NS	a0.nic.irish.
 irish.			172800	IN	NS	a2.nic.irish.
 irish.			172800	IN	NS	b0.nic.irish.
@@ -4859,6 +4899,8 @@ gu.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.78
 gu.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::78
 gy.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.79
 gy.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::79
+ir.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.85
+ir.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::85
 is.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.81
 is.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::81
 jm.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.82
@@ -5681,7 +5723,12 @@ plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
 plumbing.		172800	IN	NS	demand.delta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.gamma.aridns.net.au.
-plumbing.		86400	IN	NSEC	pm. NS DS RRSIG NSEC
+plumbing.		86400	IN	NSEC	plus. NS DS RRSIG NSEC
+plus.			172800	IN	NS	demand.beta.aridns.net.au.
+plus.			172800	IN	NS	demand.alpha.aridns.net.au.
+plus.			172800	IN	NS	demand.delta.aridns.net.au.
+plus.			172800	IN	NS	demand.gamma.aridns.net.au.
+plus.			86400	IN	NSEC	pm. NS DS RRSIG NSEC
 pm.			172800	IN	NS	d.ext.nic.fr.
 pm.			172800	IN	NS	d.nic.fr.
 pm.			172800	IN	NS	e.ext.nic.fr.
@@ -6942,7 +6989,12 @@ toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	c.gmoregistry.net.
 toshiba.		172800	IN	NS	d.gmoregistry.net.
 toshiba.		172800	IN	NS	e.gmoregistry.net.
-toshiba.		86400	IN	NSEC	town. NS DS RRSIG NSEC
+toshiba.		86400	IN	NSEC	tours. NS DS RRSIG NSEC
+tours.			172800	IN	NS	demand.beta.aridns.net.au.
+tours.			172800	IN	NS	demand.alpha.aridns.net.au.
+tours.			172800	IN	NS	demand.delta.aridns.net.au.
+tours.			172800	IN	NS	demand.gamma.aridns.net.au.
+tours.			86400	IN	NSEC	town. NS DS RRSIG NSEC
 town.			172800	IN	NS	demand.beta.aridns.net.au.
 town.			172800	IN	NS	demand.alpha.aridns.net.au.
 town.			172800	IN	NS	demand.delta.aridns.net.au.
