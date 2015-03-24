@@ -50,7 +50,26 @@ academy.		172800	IN	NS	demand.beta.aridns.net.au.
 academy.		172800	IN	NS	demand.alpha.aridns.net.au.
 academy.		172800	IN	NS	demand.delta.aridns.net.au.
 academy.		172800	IN	NS	demand.gamma.aridns.net.au.
-academy.		86400	IN	NSEC	accountants. NS DS RRSIG NSEC
+academy.		86400	IN	NSEC	accountant. NS DS RRSIG NSEC
+accountant.		172800	IN	NS	ns1.dns.nic.accountant.
+accountant.		172800	IN	NS	ns2.dns.nic.accountant.
+accountant.		172800	IN	NS	ns3.dns.nic.accountant.
+accountant.		172800	IN	NS	ns4.dns.nic.accountant.
+accountant.		172800	IN	NS	ns5.dns.nic.accountant.
+accountant.		172800	IN	NS	ns6.dns.nic.accountant.
+accountant.		86400	IN	NSEC	accountants. NS DS RRSIG NSEC
+ns1.dns.nic.accountant.	172800	IN	A	156.154.144.195
+ns1.dns.nic.accountant.	172800	IN	AAAA	2610:a1:1071::c3
+ns2.dns.nic.accountant.	172800	IN	A	156.154.145.195
+ns2.dns.nic.accountant.	172800	IN	AAAA	2610:a1:1072::c3
+ns3.dns.nic.accountant.	172800	IN	A	156.154.159.195
+ns3.dns.nic.accountant.	172800	IN	AAAA	2610:a1:1073::c3
+ns4.dns.nic.accountant.	172800	IN	A	156.154.156.195
+ns4.dns.nic.accountant.	172800	IN	AAAA	2610:a1:1074::c3
+ns5.dns.nic.accountant.	172800	IN	A	156.154.157.195
+ns5.dns.nic.accountant.	172800	IN	AAAA	2610:a1:1075::c3
+ns6.dns.nic.accountant.	172800	IN	A	156.154.158.195
+ns6.dns.nic.accountant.	172800	IN	AAAA	2610:a1:1076::c3
 accountants.		172800	IN	NS	demand.beta.aridns.net.au.
 accountants.		172800	IN	NS	demand.alpha.aridns.net.au.
 accountants.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -1820,7 +1839,26 @@ dance.			172800	IN	NS	demand.beta.aridns.net.au.
 dance.			172800	IN	NS	demand.alpha.aridns.net.au.
 dance.			172800	IN	NS	demand.delta.aridns.net.au.
 dance.			172800	IN	NS	demand.gamma.aridns.net.au.
-dance.			86400	IN	NSEC	dating. NS DS RRSIG NSEC
+dance.			86400	IN	NSEC	date. NS DS RRSIG NSEC
+date.			172800	IN	NS	ns1.dns.nic.date.
+date.			172800	IN	NS	ns2.dns.nic.date.
+date.			172800	IN	NS	ns3.dns.nic.date.
+date.			172800	IN	NS	ns4.dns.nic.date.
+date.			172800	IN	NS	ns5.dns.nic.date.
+date.			172800	IN	NS	ns6.dns.nic.date.
+date.			86400	IN	NSEC	dating. NS DS RRSIG NSEC
+ns1.dns.nic.date.	172800	IN	A	156.154.144.46
+ns1.dns.nic.date.	172800	IN	AAAA	2610:a1:1071::2e
+ns2.dns.nic.date.	172800	IN	A	156.154.145.46
+ns2.dns.nic.date.	172800	IN	AAAA	2610:a1:1072::2e
+ns3.dns.nic.date.	172800	IN	A	156.154.159.46
+ns3.dns.nic.date.	172800	IN	AAAA	2610:a1:1073::2e
+ns4.dns.nic.date.	172800	IN	A	156.154.156.46
+ns4.dns.nic.date.	172800	IN	AAAA	2610:a1:1074::2e
+ns5.dns.nic.date.	172800	IN	A	156.154.157.46
+ns5.dns.nic.date.	172800	IN	AAAA	2610:a1:1075::2e
+ns6.dns.nic.date.	172800	IN	A	156.154.158.46
+ns6.dns.nic.date.	172800	IN	AAAA	2610:a1:1076::2e
 dating.			172800	IN	NS	demand.beta.aridns.net.au.
 dating.			172800	IN	NS	demand.alpha.aridns.net.au.
 dating.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -2002,7 +2040,20 @@ docs.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-docs.			86400	IN	NSEC	domains. NS DS RRSIG NSEC
+docs.			86400	IN	NSEC	doha. NS DS RRSIG NSEC
+doha.			172800	IN	NS	a.nic.doha.
+doha.			172800	IN	NS	b.nic.doha.
+doha.			172800	IN	NS	c.nic.doha.
+doha.			172800	IN	NS	d.nic.doha.
+doha.			86400	IN	NSEC	domains. NS DS RRSIG NSEC
+a.nic.doha.		172800	IN	A	37.209.192.9
+a.nic.doha.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.doha.		172800	IN	A	37.209.194.9
+b.nic.doha.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.doha.		172800	IN	A	37.209.196.9
+c.nic.doha.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.doha.		172800	IN	A	37.209.198.9
+d.nic.doha.		172800	IN	AAAA	2001:dcd:4::9
 domains.		172800	IN	NS	demand.beta.aridns.net.au.
 domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -2010,7 +2061,26 @@ domains.		172800	IN	NS	demand.gamma.aridns.net.au.
 domains.		86400	IN	NSEC	doosan. NS DS RRSIG NSEC
 doosan.			172800	IN	NS	e.dns.kr.
 doosan.			172800	IN	NS	g.dns.kr.
-doosan.			86400	IN	NSEC	durban. NS DS RRSIG NSEC
+doosan.			86400	IN	NSEC	download. NS DS RRSIG NSEC
+download.		172800	IN	NS	ns1.dns.nic.download.
+download.		172800	IN	NS	ns2.dns.nic.download.
+download.		172800	IN	NS	ns3.dns.nic.download.
+download.		172800	IN	NS	ns4.dns.nic.download.
+download.		172800	IN	NS	ns5.dns.nic.download.
+download.		172800	IN	NS	ns6.dns.nic.download.
+download.		86400	IN	NSEC	durban. NS DS RRSIG NSEC
+ns1.dns.nic.download.	172800	IN	A	156.154.144.50
+ns1.dns.nic.download.	172800	IN	AAAA	2610:a1:1071::32
+ns2.dns.nic.download.	172800	IN	A	156.154.145.50
+ns2.dns.nic.download.	172800	IN	AAAA	2610:a1:1072::32
+ns3.dns.nic.download.	172800	IN	A	156.154.159.50
+ns3.dns.nic.download.	172800	IN	AAAA	2610:a1:1073::32
+ns4.dns.nic.download.	172800	IN	A	156.154.156.50
+ns4.dns.nic.download.	172800	IN	AAAA	2610:a1:1074::32
+ns5.dns.nic.download.	172800	IN	A	156.154.157.50
+ns5.dns.nic.download.	172800	IN	AAAA	2610:a1:1075::32
+ns6.dns.nic.download.	172800	IN	A	156.154.158.50
+ns6.dns.nic.download.	172800	IN	AAAA	2610:a1:1076::32
 durban.			172800	IN	NS	ns.coza.net.za.
 durban.			172800	IN	NS	ns1.coza.net.za.
 durban.			172800	IN	NS	coza1.dnsnode.net.
@@ -2263,7 +2333,26 @@ fail.			172800	IN	NS	demand.beta.aridns.net.au.
 fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
 fail.			172800	IN	NS	demand.gamma.aridns.net.au.
-fail.			86400	IN	NSEC	fan. NS DS RRSIG NSEC
+fail.			86400	IN	NSEC	faith. NS DS RRSIG NSEC
+faith.			172800	IN	NS	ns1.dns.nic.faith.
+faith.			172800	IN	NS	ns2.dns.nic.faith.
+faith.			172800	IN	NS	ns3.dns.nic.faith.
+faith.			172800	IN	NS	ns4.dns.nic.faith.
+faith.			172800	IN	NS	ns5.dns.nic.faith.
+faith.			172800	IN	NS	ns6.dns.nic.faith.
+faith.			86400	IN	NSEC	fan. NS DS RRSIG NSEC
+ns1.dns.nic.faith.	172800	IN	A	156.154.144.54
+ns1.dns.nic.faith.	172800	IN	AAAA	2610:a1:1071::36
+ns2.dns.nic.faith.	172800	IN	A	156.154.145.54
+ns2.dns.nic.faith.	172800	IN	AAAA	2610:a1:1072::36
+ns3.dns.nic.faith.	172800	IN	A	156.154.159.54
+ns3.dns.nic.faith.	172800	IN	AAAA	2610:a1:1073::36
+ns4.dns.nic.faith.	172800	IN	A	156.154.156.54
+ns4.dns.nic.faith.	172800	IN	AAAA	2610:a1:1074::36
+ns5.dns.nic.faith.	172800	IN	A	156.154.157.54
+ns5.dns.nic.faith.	172800	IN	AAAA	2610:a1:1075::36
+ns6.dns.nic.faith.	172800	IN	A	156.154.158.54
+ns6.dns.nic.faith.	172800	IN	AAAA	2610:a1:1076::36
 fan.			172800	IN	NS	a.nic.fan.
 fan.			172800	IN	NS	b.nic.fan.
 fan.			172800	IN	NS	c.nic.fan.
@@ -3874,7 +3963,7 @@ link.			172800	IN	NS	tld.isc-sns.com.
 link.			172800	IN	NS	tld.isc-sns.net.
 link.			172800	IN	NS	tld.isc-sns.info.
 link.			86400	IN	NSEC	lk. NS DS RRSIG NSEC
-lk.			86400	IN	NSEC	loans. NS DS RRSIG NSEC
+lk.			86400	IN	NSEC	loan. NS DS RRSIG NSEC
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
 lk.			172800	IN	NS	l.nic.lk.
@@ -3901,6 +3990,25 @@ p.nic.lk.		172800	IN	AAAA	2001:500:14:6027:ad::1
 ripe.nic.lk.		172800	IN	A	193.0.9.88
 ripe.nic.lk.		172800	IN	AAAA	2001:67c:e0::88
 t.nic.lk.		172800	IN	A	203.94.66.129
+loan.			172800	IN	NS	ns1.dns.nic.loan.
+loan.			172800	IN	NS	ns2.dns.nic.loan.
+loan.			172800	IN	NS	ns3.dns.nic.loan.
+loan.			172800	IN	NS	ns4.dns.nic.loan.
+loan.			172800	IN	NS	ns5.dns.nic.loan.
+loan.			172800	IN	NS	ns6.dns.nic.loan.
+loan.			86400	IN	NSEC	loans. NS DS RRSIG NSEC
+ns1.dns.nic.loan.	172800	IN	A	156.154.144.106
+ns1.dns.nic.loan.	172800	IN	AAAA	2610:a1:1071::6a
+ns2.dns.nic.loan.	172800	IN	A	156.154.145.106
+ns2.dns.nic.loan.	172800	IN	AAAA	2610:a1:1072::6a
+ns3.dns.nic.loan.	172800	IN	A	156.154.159.106
+ns3.dns.nic.loan.	172800	IN	AAAA	2610:a1:1073::6a
+ns4.dns.nic.loan.	172800	IN	A	156.154.156.106
+ns4.dns.nic.loan.	172800	IN	AAAA	2610:a1:1074::6a
+ns5.dns.nic.loan.	172800	IN	A	156.154.157.106
+ns5.dns.nic.loan.	172800	IN	AAAA	2610:a1:1075::6a
+ns6.dns.nic.loan.	172800	IN	A	156.154.158.106
+ns6.dns.nic.loan.	172800	IN	AAAA	2610:a1:1076::6a
 loans.			172800	IN	NS	demand.beta.aridns.net.au.
 loans.			172800	IN	NS	demand.alpha.aridns.net.au.
 loans.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -4380,7 +4488,12 @@ mov.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 mov.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 mov.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 mov.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-mov.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
+mov.			86400	IN	NSEC	movie. NS DS RRSIG NSEC
+movie.			172800	IN	NS	demand.beta.aridns.net.au.
+movie.			172800	IN	NS	demand.alpha.aridns.net.au.
+movie.			172800	IN	NS	demand.delta.aridns.net.au.
+movie.			172800	IN	NS	demand.gamma.aridns.net.au.
+movie.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
 mp.			172800	IN	NS	ns1.nic.mp.
 mp.			172800	IN	NS	ns2.nic.mp.
 mp.			172800	IN	NS	ns3.nic.mp.
@@ -4412,7 +4525,7 @@ mt.			172800	IN	NS	p.ns.mt.
 mt.			172800	IN	NS	r.ns.mt.
 mt.			172800	IN	NS	ns.mt.
 mt.			172800	IN	NS	ns1.mt.
-mt.			86400	IN	NSEC	mtpc. NS RRSIG NSEC
+mt.			86400	IN	NSEC	mtn. NS RRSIG NSEC
 ns.mt.			172800	IN	A	193.188.47.252
 f.ns.mt.		172800	IN	A	192.93.0.4
 f.ns.mt.		172800	IN	AAAA	2001:660:3005:1::1:2
@@ -4422,6 +4535,19 @@ p.ns.mt.		172800	IN	A	204.61.216.45
 r.ns.mt.		172800	IN	A	193.0.9.97
 r.ns.mt.		172800	IN	AAAA	2001:67c:e0::97
 ns1.mt.			172800	IN	A	193.188.34.241
+mtn.			172800	IN	NS	a.nic.mtn.
+mtn.			172800	IN	NS	b.nic.mtn.
+mtn.			172800	IN	NS	c.nic.mtn.
+mtn.			172800	IN	NS	d.nic.mtn.
+mtn.			86400	IN	NSEC	mtpc. NS DS RRSIG NSEC
+a.nic.mtn.		172800	IN	A	37.209.192.9
+a.nic.mtn.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.mtn.		172800	IN	A	37.209.194.9
+b.nic.mtn.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.mtn.		172800	IN	A	37.209.196.9
+c.nic.mtn.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.mtn.		172800	IN	A	37.209.198.9
+d.nic.mtn.		172800	IN	AAAA	2001:dcd:4::9
 mtpc.			172800	IN	NS	a.gmoregistry.net.
 mtpc.			172800	IN	NS	b.gmoregistry.net.
 mtpc.			172800	IN	NS	c.gmoregistry.net.
@@ -5518,7 +5644,26 @@ page.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-page.			86400	IN	NSEC	paris. NS DS RRSIG NSEC
+page.			86400	IN	NSEC	panerai. NS DS RRSIG NSEC
+panerai.		172800	IN	NS	ns1.dns.nic.panerai.
+panerai.		172800	IN	NS	ns2.dns.nic.panerai.
+panerai.		172800	IN	NS	ns3.dns.nic.panerai.
+panerai.		172800	IN	NS	ns4.dns.nic.panerai.
+panerai.		172800	IN	NS	ns5.dns.nic.panerai.
+panerai.		172800	IN	NS	ns6.dns.nic.panerai.
+panerai.		86400	IN	NSEC	paris. NS DS RRSIG NSEC
+ns1.dns.nic.panerai.	172800	IN	A	156.154.144.132
+ns1.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1071::84
+ns2.dns.nic.panerai.	172800	IN	A	156.154.145.132
+ns2.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1072::84
+ns3.dns.nic.panerai.	172800	IN	A	156.154.159.132
+ns3.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1073::84
+ns4.dns.nic.panerai.	172800	IN	A	156.154.156.132
+ns4.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1074::84
+ns5.dns.nic.panerai.	172800	IN	A	156.154.157.132
+ns5.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1075::84
+ns6.dns.nic.panerai.	172800	IN	A	156.154.158.132
+ns6.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1076::84
 paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
 paris.			172800	IN	NS	g.ext.nic.fr.
@@ -6088,7 +6233,26 @@ restaurant.		172800	IN	NS	demand.beta.aridns.net.au.
 restaurant.		172800	IN	NS	demand.alpha.aridns.net.au.
 restaurant.		172800	IN	NS	demand.delta.aridns.net.au.
 restaurant.		172800	IN	NS	demand.gamma.aridns.net.au.
-restaurant.		86400	IN	NSEC	reviews. NS DS RRSIG NSEC
+restaurant.		86400	IN	NSEC	review. NS DS RRSIG NSEC
+review.			172800	IN	NS	ns1.dns.nic.review.
+review.			172800	IN	NS	ns2.dns.nic.review.
+review.			172800	IN	NS	ns3.dns.nic.review.
+review.			172800	IN	NS	ns4.dns.nic.review.
+review.			172800	IN	NS	ns5.dns.nic.review.
+review.			172800	IN	NS	ns6.dns.nic.review.
+review.			86400	IN	NSEC	reviews. NS DS RRSIG NSEC
+ns1.dns.nic.review.	172800	IN	A	156.154.169.35
+ns1.dns.nic.review.	172800	IN	AAAA	2610:a1:1071::1:23
+ns2.dns.nic.review.	172800	IN	A	156.154.170.35
+ns2.dns.nic.review.	172800	IN	AAAA	2610:a1:1072::1:23
+ns3.dns.nic.review.	172800	IN	A	156.154.171.35
+ns3.dns.nic.review.	172800	IN	AAAA	2610:a1:1073::1:23
+ns4.dns.nic.review.	172800	IN	A	156.154.172.35
+ns4.dns.nic.review.	172800	IN	AAAA	2610:a1:1074::1:23
+ns5.dns.nic.review.	172800	IN	A	156.154.173.35
+ns5.dns.nic.review.	172800	IN	AAAA	2610:a1:1075::1:23
+ns6.dns.nic.review.	172800	IN	A	156.154.174.35
+ns6.dns.nic.review.	172800	IN	AAAA	2610:a1:1076::1:23
 reviews.		172800	IN	NS	demand.beta.aridns.net.au.
 reviews.		172800	IN	NS	demand.alpha.aridns.net.au.
 reviews.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -6878,12 +7042,25 @@ th.			172800	IN	NS	dns1.thnic.co.th.
 th.			172800	IN	NS	ns-a.thnic.co.th.
 th.			172800	IN	NS	ns-e.thnic.co.th.
 th.			172800	IN	NS	sfba.sns-pb.isc.org.
-th.			86400	IN	NSEC	tienda. NS DS RRSIG NSEC
+th.			86400	IN	NSEC	tickets. NS DS RRSIG NSEC
 dns1.thnic.co.th.	172800	IN	A	202.28.1.22
 dns1.thnic.co.th.	172800	IN	AAAA	2001:3c8:1209:1::22
 ns-a.thnic.co.th.	172800	IN	A	61.19.242.38
 ns-e.thnic.co.th.	172800	IN	A	194.0.1.28
 ns-e.thnic.co.th.	172800	IN	AAAA	2001:678:4::1c
+tickets.		172800	IN	NS	a.nic.tickets.
+tickets.		172800	IN	NS	b.nic.tickets.
+tickets.		172800	IN	NS	c.nic.tickets.
+tickets.		172800	IN	NS	d.nic.tickets.
+tickets.		86400	IN	NSEC	tienda. NS DS RRSIG NSEC
+a.nic.tickets.		172800	IN	A	194.169.218.58
+a.nic.tickets.		172800	IN	AAAA	2001:67c:13cc::1:58
+b.nic.tickets.		172800	IN	A	185.24.64.58
+b.nic.tickets.		172800	IN	AAAA	2a04:2b00:13cc::1:58
+c.nic.tickets.		172800	IN	A	194.0.2.2
+c.nic.tickets.		172800	IN	AAAA	2001:678:5::2
+d.nic.tickets.		172800	IN	A	194.0.1.45
+d.nic.tickets.		172800	IN	AAAA	2001:678:4::2d
 tienda.			172800	IN	NS	demand.beta.aridns.net.au.
 tienda.			172800	IN	NS	demand.alpha.aridns.net.au.
 tienda.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7575,7 +7752,7 @@ williamhill.		172800	IN	NS	ns3.dns.nic.williamhill.
 williamhill.		172800	IN	NS	ns4.dns.nic.williamhill.
 williamhill.		172800	IN	NS	ns5.dns.nic.williamhill.
 williamhill.		172800	IN	NS	ns6.dns.nic.williamhill.
-williamhill.		86400	IN	NSEC	wme. NS DS RRSIG NSEC
+williamhill.		86400	IN	NSEC	win. NS DS RRSIG NSEC
 ns1.dns.nic.williamhill. 172800	IN	A	156.154.144.181
 ns1.dns.nic.williamhill. 172800	IN	AAAA	2610:a1:1071::b5
 ns2.dns.nic.williamhill. 172800	IN	A	156.154.145.181
@@ -7588,6 +7765,25 @@ ns5.dns.nic.williamhill. 172800	IN	A	156.154.157.181
 ns5.dns.nic.williamhill. 172800	IN	AAAA	2610:a1:1075::b5
 ns6.dns.nic.williamhill. 172800	IN	A	156.154.158.181
 ns6.dns.nic.williamhill. 172800	IN	AAAA	2610:a1:1076::b5
+win.			172800	IN	NS	ns1.dns.nic.win.
+win.			172800	IN	NS	ns2.dns.nic.win.
+win.			172800	IN	NS	ns3.dns.nic.win.
+win.			172800	IN	NS	ns4.dns.nic.win.
+win.			172800	IN	NS	ns5.dns.nic.win.
+win.			172800	IN	NS	ns6.dns.nic.win.
+win.			86400	IN	NSEC	wme. NS DS RRSIG NSEC
+ns1.dns.nic.win.	172800	IN	A	156.154.144.182
+ns1.dns.nic.win.	172800	IN	AAAA	2610:a1:1071::b6
+ns2.dns.nic.win.	172800	IN	A	156.154.145.182
+ns2.dns.nic.win.	172800	IN	AAAA	2610:a1:1072::b6
+ns3.dns.nic.win.	172800	IN	A	156.154.159.182
+ns3.dns.nic.win.	172800	IN	AAAA	2610:a1:1073::b6
+ns4.dns.nic.win.	172800	IN	A	156.154.156.182
+ns4.dns.nic.win.	172800	IN	AAAA	2610:a1:1074::b6
+ns5.dns.nic.win.	172800	IN	A	156.154.157.182
+ns5.dns.nic.win.	172800	IN	AAAA	2610:a1:1075::b6
+ns6.dns.nic.win.	172800	IN	A	156.154.158.182
+ns6.dns.nic.win.	172800	IN	AAAA	2610:a1:1076::b6
 wme.			172800	IN	NS	a.nic.wme.
 wme.			172800	IN	NS	b.nic.wme.
 wme.			172800	IN	NS	c.nic.wme.
