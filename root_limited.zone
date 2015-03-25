@@ -3727,7 +3727,20 @@ koeln.			172800	IN	NS	anycast9.irondns.net.
 koeln.			172800	IN	NS	anycast10.irondns.net.
 koeln.			172800	IN	NS	anycast23.irondns.net.
 koeln.			172800	IN	NS	anycast24.irondns.net.
-koeln.			86400	IN	NSEC	kp. NS DS RRSIG NSEC
+koeln.			86400	IN	NSEC	komatsu. NS DS RRSIG NSEC
+komatsu.		172800	IN	NS	a.nic.komatsu.
+komatsu.		172800	IN	NS	b.nic.komatsu.
+komatsu.		172800	IN	NS	c.nic.komatsu.
+komatsu.		172800	IN	NS	d.nic.komatsu.
+komatsu.		86400	IN	NSEC	kp. NS DS RRSIG NSEC
+a.nic.komatsu.		172800	IN	A	37.209.192.9
+a.nic.komatsu.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.komatsu.		172800	IN	A	37.209.194.9
+b.nic.komatsu.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.komatsu.		172800	IN	A	37.209.196.9
+c.nic.komatsu.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.komatsu.		172800	IN	A	37.209.198.9
+d.nic.komatsu.		172800	IN	AAAA	2001:dcd:4::9
 kp.			172800	IN	NS	ns1.kptc.kp.
 kp.			172800	IN	NS	ns2.kptc.kp.
 kp.			86400	IN	NSEC	kr. NS RRSIG NSEC
@@ -6390,7 +6403,12 @@ sale.			172800	IN	NS	demand.gamma.aridns.net.au.
 sale.			86400	IN	NSEC	samsung. NS DS RRSIG NSEC
 samsung.		172800	IN	NS	e.dns.kr.
 samsung.		172800	IN	NS	g.dns.kr.
-samsung.		86400	IN	NSEC	sarl. NS DS RRSIG NSEC
+samsung.		86400	IN	NSEC	sap. NS DS RRSIG NSEC
+sap.			172800	IN	NS	anycast9.irondns.net.
+sap.			172800	IN	NS	anycast10.irondns.net.
+sap.			172800	IN	NS	anycast23.irondns.net.
+sap.			172800	IN	NS	anycast24.irondns.net.
+sap.			86400	IN	NSEC	sarl. NS DS RRSIG NSEC
 sarl.			172800	IN	NS	demand.beta.aridns.net.au.
 sarl.			172800	IN	NS	demand.alpha.aridns.net.au.
 sarl.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7120,6 +7138,7 @@ a.nic.tm.		172800	IN	A	64.251.31.180
 tn.			172800	IN	NS	ns1.ati.tn.
 tn.			172800	IN	NS	ns2.ati.tn.
 tn.			172800	IN	NS	ns2.nic.fr.
+tn.			172800	IN	NS	pch.ati.tn.
 tn.			172800	IN	NS	rip.psg.com.
 tn.			172800	IN	NS	ns-tn.afrinic.net.
 tn.			86400	IN	NSEC	to. NS DS RRSIG NSEC
@@ -7127,6 +7146,8 @@ ns1.ati.tn.		172800	IN	A	193.95.66.10
 ns1.ati.tn.		172800	IN	AAAA	2001:4350:1:1::10
 ns2.ati.tn.		172800	IN	A	193.95.67.22
 ns2.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::22
+pch.ati.tn.		172800	IN	A	204.61.216.94
+pch.ati.tn.		172800	IN	AAAA	2001:500:14:6004:ad::1
 to.			172800	IN	NS	to.cctld.authdns.ripe.net.
 to.			172800	IN	NS	ns1.iafrica.com.
 to.			172800	IN	NS	colo.to.
@@ -8358,6 +8379,7 @@ xn--p1ai.		86400	IN	NSEC	xn--pgbs0dh. NS DS RRSIG NSEC
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
+xn--pgbs0dh.		172800	IN	NS	pch.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	rip.psg.com.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
 xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS DS RRSIG NSEC
