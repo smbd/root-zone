@@ -800,7 +800,7 @@ boats.			172800	IN	NS	a0.nic.boats.
 boats.			172800	IN	NS	a2.nic.boats.
 boats.			172800	IN	NS	b0.nic.boats.
 boats.			172800	IN	NS	c0.nic.boats.
-boats.			86400	IN	NSEC	boo. NS DS RRSIG NSEC
+boats.			86400	IN	NSEC	bond. NS DS RRSIG NSEC
 a0.nic.boats.		172800	IN	A	65.22.104.17
 a0.nic.boats.		172800	IN	AAAA	2a01:8840:66::17
 a2.nic.boats.		172800	IN	A	65.22.107.17
@@ -809,6 +809,19 @@ b0.nic.boats.		172800	IN	A	65.22.105.17
 b0.nic.boats.		172800	IN	AAAA	2a01:8840:67::17
 c0.nic.boats.		172800	IN	A	65.22.106.17
 c0.nic.boats.		172800	IN	AAAA	2a01:8840:68::17
+bond.			172800	IN	NS	a.nic.bond.
+bond.			172800	IN	NS	b.nic.bond.
+bond.			172800	IN	NS	c.nic.bond.
+bond.			172800	IN	NS	d.nic.bond.
+bond.			86400	IN	NSEC	boo. NS DS RRSIG NSEC
+a.nic.bond.		172800	IN	A	37.209.192.9
+a.nic.bond.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.bond.		172800	IN	A	37.209.194.9
+b.nic.bond.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.bond.		172800	IN	A	37.209.196.9
+c.nic.bond.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.bond.		172800	IN	A	37.209.198.9
+d.nic.bond.		172800	IN	AAAA	2001:dcd:4::9
 boo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -2141,14 +2154,13 @@ education.		86400	IN	NSEC	ee. NS DS RRSIG NSEC
 ee.			172800	IN	NS	b.tld.ee.
 ee.			172800	IN	NS	e.tld.ee.
 ee.			172800	IN	NS	ee.aso.ee.
+ee.			172800	IN	NS	ee.eenet.ee.
 ee.			172800	IN	NS	ns.tld.ee.
-ee.			172800	IN	NS	ns.eenet.ee.
-ee.			172800	IN	NS	sunic.sunet.se.
 ee.			86400	IN	NSEC	eg. NS DS RRSIG NSEC
 ee.aso.ee.		172800	IN	A	213.184.51.122
 ee.aso.ee.		172800	IN	AAAA	2a02:88:0:21::2
-ns.eenet.ee.		172800	IN	A	193.40.56.245
-ns.eenet.ee.		172800	IN	AAAA	2001:bb8::1
+ee.eenet.ee.		172800	IN	A	193.40.132.5
+ee.eenet.ee.		172800	IN	AAAA	2001:bb8:4001::53
 b.tld.ee.		172800	IN	A	194.146.106.110
 b.tld.ee.		172800	IN	AAAA	2001:67c:1010:28::53
 e.tld.ee.		172800	IN	A	204.61.216.36
@@ -8015,7 +8027,17 @@ xn--90ais.		172800	IN	NS	dns4.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns5.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns6.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns7.tld.tutby.com.
-xn--90ais.		86400	IN	NSEC	xn--b4w605ferd. NS RRSIG NSEC
+xn--90ais.		86400	IN	NSEC	xn--9et52u. NS RRSIG NSEC
+xn--9et52u.		172800	IN	NS	a.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	b.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	c.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	d.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	e.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	f.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	g.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	i.zdnscloud.com.
+xn--9et52u.		172800	IN	NS	j.zdnscloud.com.
+xn--9et52u.		86400	IN	NSEC	xn--b4w605ferd. NS DS RRSIG NSEC
 xn--b4w605ferd.		172800	IN	NS	a0.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	a2.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	b0.nic.xn--b4w605ferd.
