@@ -155,9 +155,22 @@ aero.			86400	IN	NSEC	af. NS RRSIG NSEC
 af.			172800	IN	NS	ns.anycast.nic.af.
 af.			172800	IN	NS	af1.dyntld.net.
 af.			172800	IN	NS	af3.dyntld.net.
-af.			86400	IN	NSEC	ag. NS DS RRSIG NSEC
+af.			86400	IN	NSEC	afl. NS DS RRSIG NSEC
 ns.anycast.nic.af.	172800	IN	A	204.61.216.13
 ns.anycast.nic.af.	172800	IN	AAAA	2001:500:14:6013:ad::1
+afl.			172800	IN	NS	a.nic.afl.
+afl.			172800	IN	NS	b.nic.afl.
+afl.			172800	IN	NS	c.nic.afl.
+afl.			172800	IN	NS	d.nic.afl.
+afl.			86400	IN	NSEC	ag. NS DS RRSIG NSEC
+a.nic.afl.		172800	IN	A	37.209.192.9
+a.nic.afl.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.afl.		172800	IN	A	37.209.194.9
+b.nic.afl.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.afl.		172800	IN	A	37.209.196.9
+c.nic.afl.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.afl.		172800	IN	A	37.209.198.9
+d.nic.afl.		172800	IN	AAAA	2001:dcd:4::9
 ag.			172800	IN	NS	a0.cctld.afilias-nst.info.
 ag.			172800	IN	NS	a2.cctld.afilias-nst.info.
 ag.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -6172,7 +6185,7 @@ red.			172800	IN	NS	a0.nic.red.
 red.			172800	IN	NS	a2.nic.red.
 red.			172800	IN	NS	b0.nic.red.
 red.			172800	IN	NS	c0.nic.red.
-red.			86400	IN	NSEC	rehab. NS DS RRSIG NSEC
+red.			86400	IN	NSEC	redstone. NS DS RRSIG NSEC
 a0.nic.red.		172800	IN	A	65.22.36.25
 a0.nic.red.		172800	IN	AAAA	2a01:8840:26::25
 a2.nic.red.		172800	IN	A	65.22.39.25
@@ -6181,6 +6194,19 @@ b0.nic.red.		172800	IN	A	65.22.37.25
 b0.nic.red.		172800	IN	AAAA	2a01:8840:27::25
 c0.nic.red.		172800	IN	A	65.22.38.25
 c0.nic.red.		172800	IN	AAAA	2a01:8840:28::25
+redstone.		172800	IN	NS	a0.nic.redstone.
+redstone.		172800	IN	NS	a2.nic.redstone.
+redstone.		172800	IN	NS	b0.nic.redstone.
+redstone.		172800	IN	NS	c0.nic.redstone.
+redstone.		86400	IN	NSEC	rehab. NS DS RRSIG NSEC
+a0.nic.redstone.	172800	IN	A	65.22.132.17
+a0.nic.redstone.	172800	IN	AAAA	2a01:8840:82::17
+a2.nic.redstone.	172800	IN	A	65.22.135.17
+a2.nic.redstone.	172800	IN	AAAA	2a01:8840:85::17
+b0.nic.redstone.	172800	IN	A	65.22.133.17
+b0.nic.redstone.	172800	IN	AAAA	2a01:8840:83::17
+c0.nic.redstone.	172800	IN	A	65.22.134.17
+c0.nic.redstone.	172800	IN	AAAA	2a01:8840:84::17
 rehab.			172800	IN	NS	demand.beta.aridns.net.au.
 rehab.			172800	IN	NS	demand.alpha.aridns.net.au.
 rehab.			172800	IN	NS	demand.delta.aridns.net.au.
