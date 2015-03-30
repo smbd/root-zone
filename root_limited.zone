@@ -4395,10 +4395,14 @@ mm.			172800	IN	NS	mm.cctld.authdns.ripe.net.
 mm.			172800	IN	NS	ns0.nic.net.mm.
 mm.			172800	IN	NS	ns1.nic.net.mm.
 mm.			172800	IN	NS	ns2.nic.net.mm.
-mm.			86400	IN	NSEC	mn. NS DS RRSIG NSEC
+mm.			86400	IN	NSEC	mma. NS DS RRSIG NSEC
 ns0.nic.net.mm.		172800	IN	A	203.81.64.20
 ns1.nic.net.mm.		172800	IN	A	203.81.81.85
 ns2.nic.net.mm.		172800	IN	A	203.81.92.10
+mma.			172800	IN	NS	d.nic.fr.
+mma.			172800	IN	NS	f.ext.nic.fr.
+mma.			172800	IN	NS	g.ext.nic.fr.
+mma.			86400	IN	NSEC	mn. NS DS RRSIG NSEC
 mn.			86400	IN	NSEC	mo. NS DS RRSIG NSEC
 mn.			172800	IN	NS	a0.cctld.afilias-nst.info.
 mn.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -6402,12 +6406,14 @@ ruhr.			172800	IN	NS	anycast23.irondns.net.
 ruhr.			172800	IN	NS	anycast24.irondns.net.
 ruhr.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
 rw.			172800	IN	NS	ns1.ricta.org.rw.
+rw.			172800	IN	NS	ns3.ricta.org.rw.
 rw.			172800	IN	NS	pch.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
 rw.			86400	IN	NSEC	ryukyu. NS RRSIG NSEC
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
+ns3.ricta.org.rw.	172800	IN	A	41.186.53.10
 pch.ricta.org.rw.	172800	IN	A	204.61.216.91
 pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad::1
 ryukyu.			172800	IN	NS	a.gmoregistry.net.
