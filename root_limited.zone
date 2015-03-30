@@ -3680,7 +3680,7 @@ ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
 ke.			172800	IN	NS	mzizi.kenic.or.ke.
 ke.			172800	IN	NS	ns-ke.afrinic.net.
-ke.			86400	IN	NSEC	kg. NS DS RRSIG NSEC
+ke.			86400	IN	NSEC	kg. NS RRSIG NSEC
 ns.anycast.kenic.or.ke.	172800	IN	A	204.61.216.7
 ns.anycast.kenic.or.ke.	172800	IN	AAAA	2001:500:14:6007:ad::1
 mzizi.kenic.or.ke.	172800	IN	A	196.1.4.130
@@ -7928,7 +7928,17 @@ xn--1qqw23a.		172800	IN	NS	tb.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	tc.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	td.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	te.ngtld.cn.
-xn--1qqw23a.		86400	IN	NSEC	xn--3bst00m. NS DS RRSIG NSEC
+xn--1qqw23a.		86400	IN	NSEC	xn--30rr7y. NS DS RRSIG NSEC
+xn--30rr7y.		172800	IN	NS	a.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	b.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	c.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	d.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	e.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	f.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	g.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	i.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	j.zdnscloud.com.
+xn--30rr7y.		86400	IN	NSEC	xn--3bst00m. NS DS RRSIG NSEC
 xn--3bst00m.		172800	IN	NS	a.zdnscloud.com.
 xn--3bst00m.		172800	IN	NS	b.zdnscloud.com.
 xn--3bst00m.		172800	IN	NS	c.zdnscloud.com.
