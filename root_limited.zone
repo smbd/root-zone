@@ -1801,7 +1801,6 @@ ns1.uoc.cw.		172800	IN	A	198.93.177.21
 cx.			172800	IN	NS	a.cx.dyntld.net.
 cx.			172800	IN	NS	b.cx.dyntld.net.
 cx.			172800	IN	NS	ns.anycast.nic.cx.
-cx.			172800	IN	NS	sns-pb.isc.org.
 cx.			86400	IN	NSEC	cy. NS DS RRSIG NSEC
 ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad::1
@@ -4065,7 +4064,7 @@ lotto.			172800	IN	NS	a0.nic.lotto.
 lotto.			172800	IN	NS	a2.nic.lotto.
 lotto.			172800	IN	NS	b0.nic.lotto.
 lotto.			172800	IN	NS	c0.nic.lotto.
-lotto.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+lotto.			86400	IN	NSEC	love. NS DS RRSIG NSEC
 a0.nic.lotto.		172800	IN	A	65.22.28.25
 a0.nic.lotto.		172800	IN	AAAA	2a01:8840:1e::25
 a2.nic.lotto.		172800	IN	A	65.22.31.25
@@ -4074,6 +4073,19 @@ b0.nic.lotto.		172800	IN	A	65.22.29.25
 b0.nic.lotto.		172800	IN	AAAA	2a01:8840:1f::25
 c0.nic.lotto.		172800	IN	A	65.22.30.25
 c0.nic.lotto.		172800	IN	AAAA	2a01:8840:20::25
+love.			172800	IN	NS	a.nic.love.
+love.			172800	IN	NS	b.nic.love.
+love.			172800	IN	NS	c.nic.love.
+love.			172800	IN	NS	d.nic.love.
+love.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+a.nic.love.		172800	IN	A	194.169.218.62
+a.nic.love.		172800	IN	AAAA	2001:67c:13cc::1:62
+b.nic.love.		172800	IN	A	185.24.64.62
+b.nic.love.		172800	IN	AAAA	2a04:2b00:13cc::1:62
+c.nic.love.		172800	IN	A	194.0.2.2
+c.nic.love.		172800	IN	AAAA	2001:678:5::2
+d.nic.love.		172800	IN	A	194.0.1.45
+d.nic.love.		172800	IN	AAAA	2001:678:4::2d
 lr.			172800	IN	NS	rip.psg.com.
 lr.			172800	IN	NS	fork.sth.dnsnode.net.
 lr.			172800	IN	NS	hippo.ru.ac.za.
@@ -5239,7 +5251,6 @@ nexus.			86400	IN	NSEC	nf. NS DS RRSIG NSEC
 nf.			172800	IN	NS	a.nf.dyntld.net.
 nf.			172800	IN	NS	b.nf.dyntld.net.
 nf.			172800	IN	NS	ns.anycast.nic.nf.
-nf.			172800	IN	NS	sns-pb.isc.org.
 nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
 ns.anycast.nic.nf.	172800	IN	A	204.61.216.51
 ns.anycast.nic.nf.	172800	IN	AAAA	2001:500:14:6051:ad::1
@@ -6502,7 +6513,7 @@ schmidt.		172800	IN	NS	a.nic.schmidt.
 schmidt.		172800	IN	NS	b.nic.schmidt.
 schmidt.		172800	IN	NS	c.nic.schmidt.
 schmidt.		172800	IN	NS	d.nic.schmidt.
-schmidt.		86400	IN	NSEC	school. NS DS RRSIG NSEC
+schmidt.		86400	IN	NSEC	scholarships. NS DS RRSIG NSEC
 a.nic.schmidt.		172800	IN	A	37.209.192.9
 a.nic.schmidt.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.schmidt.		172800	IN	A	37.209.194.9
@@ -6511,6 +6522,19 @@ c.nic.schmidt.		172800	IN	A	37.209.196.9
 c.nic.schmidt.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.schmidt.		172800	IN	A	37.209.198.9
 d.nic.schmidt.		172800	IN	AAAA	2001:dcd:4::9
+scholarships.		172800	IN	NS	a0.nic.scholarships.
+scholarships.		172800	IN	NS	a2.nic.scholarships.
+scholarships.		172800	IN	NS	b0.nic.scholarships.
+scholarships.		172800	IN	NS	c0.nic.scholarships.
+scholarships.		86400	IN	NSEC	school. NS DS RRSIG NSEC
+a0.nic.scholarships.	172800	IN	A	65.22.140.17
+a0.nic.scholarships.	172800	IN	AAAA	2a01:8840:8a::17
+a2.nic.scholarships.	172800	IN	A	65.22.143.17
+a2.nic.scholarships.	172800	IN	AAAA	2a01:8840:8d::17
+b0.nic.scholarships.	172800	IN	A	65.22.141.17
+b0.nic.scholarships.	172800	IN	AAAA	2a01:8840:8b::17
+c0.nic.scholarships.	172800	IN	A	65.22.142.17
+c0.nic.scholarships.	172800	IN	AAAA	2a01:8840:8c::17
 school.			172800	IN	NS	demand.beta.aridns.net.au.
 school.			172800	IN	NS	demand.alpha.aridns.net.au.
 school.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -8401,7 +8425,7 @@ xn--nqv7fs00ema.	172800	IN	NS	a0.nic.xn--nqv7fs00ema.
 xn--nqv7fs00ema.	172800	IN	NS	a2.nic.xn--nqv7fs00ema.
 xn--nqv7fs00ema.	172800	IN	NS	b0.nic.xn--nqv7fs00ema.
 xn--nqv7fs00ema.	172800	IN	NS	c0.nic.xn--nqv7fs00ema.
-xn--nqv7fs00ema.	86400	IN	NSEC	xn--o3cw4h. NS DS RRSIG NSEC
+xn--nqv7fs00ema.	86400	IN	NSEC	xn--nyqy26a. NS DS RRSIG NSEC
 a0.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.184.9
 a0.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b2::9
 a2.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.187.9
@@ -8410,6 +8434,25 @@ b0.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.185.9
 b0.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b3::9
 c0.nic.xn--nqv7fs00ema.	172800	IN	A	65.22.186.9
 c0.nic.xn--nqv7fs00ema.	172800	IN	AAAA	2a01:8840:b4::9
+xn--nyqy26a.		172800	IN	NS	ns1.dns.nic.xn--nyqy26a.
+xn--nyqy26a.		172800	IN	NS	ns2.dns.nic.xn--nyqy26a.
+xn--nyqy26a.		172800	IN	NS	ns3.dns.nic.xn--nyqy26a.
+xn--nyqy26a.		172800	IN	NS	ns4.dns.nic.xn--nyqy26a.
+xn--nyqy26a.		172800	IN	NS	ns5.dns.nic.xn--nyqy26a.
+xn--nyqy26a.		172800	IN	NS	ns6.dns.nic.xn--nyqy26a.
+xn--nyqy26a.		86400	IN	NSEC	xn--o3cw4h. NS DS RRSIG NSEC
+ns1.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.169.74
+ns1.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1071::1:4a
+ns2.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.170.74
+ns2.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1072::1:4a
+ns3.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.171.74
+ns3.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1073::1:4a
+ns4.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.172.74
+ns4.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1074::1:4a
+ns5.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.173.74
+ns5.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1075::1:4a
+ns6.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.174.74
+ns6.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1076::1:4a
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
 xn--o3cw4h.		172800	IN	NS	ns-a.thnic.co.th.
