@@ -1821,7 +1821,20 @@ cymru.			172800	IN	NS	ns4.nic.uk.
 cymru.			172800	IN	NS	ns5.nic.uk.
 cymru.			172800	IN	NS	ns6.nic.uk.
 cymru.			172800	IN	NS	ns7.nic.uk.
-cymru.			86400	IN	NSEC	cz. NS DS RRSIG NSEC
+cymru.			86400	IN	NSEC	cyou. NS DS RRSIG NSEC
+cyou.			172800	IN	NS	a0.nic.cyou.
+cyou.			172800	IN	NS	a2.nic.cyou.
+cyou.			172800	IN	NS	b0.nic.cyou.
+cyou.			172800	IN	NS	c0.nic.cyou.
+cyou.			86400	IN	NSEC	cz. NS DS RRSIG NSEC
+a0.nic.cyou.		172800	IN	A	65.22.128.9
+a0.nic.cyou.		172800	IN	AAAA	2a01:8840:7e::9
+a2.nic.cyou.		172800	IN	A	65.22.131.9
+a2.nic.cyou.		172800	IN	AAAA	2a01:8840:81::9
+b0.nic.cyou.		172800	IN	A	65.22.129.9
+b0.nic.cyou.		172800	IN	AAAA	2a01:8840:7f::9
+c0.nic.cyou.		172800	IN	A	65.22.130.9
+c0.nic.cyou.		172800	IN	AAAA	2a01:8840:80::9
 cz.			86400	IN	NSEC	dabur. NS DS RRSIG NSEC
 cz.			172800	IN	NS	a.ns.nic.cz.
 cz.			172800	IN	NS	b.ns.nic.cz.
@@ -6166,7 +6179,26 @@ quebec.			172800	IN	NS	anycast9.irondns.net.
 quebec.			172800	IN	NS	anycast10.irondns.net.
 quebec.			172800	IN	NS	anycast23.irondns.net.
 quebec.			172800	IN	NS	anycast24.irondns.net.
-quebec.			86400	IN	NSEC	re. NS DS RRSIG NSEC
+quebec.			86400	IN	NSEC	racing. NS DS RRSIG NSEC
+racing.			172800	IN	NS	ns1.dns.nic.racing.
+racing.			172800	IN	NS	ns2.dns.nic.racing.
+racing.			172800	IN	NS	ns3.dns.nic.racing.
+racing.			172800	IN	NS	ns4.dns.nic.racing.
+racing.			172800	IN	NS	ns5.dns.nic.racing.
+racing.			172800	IN	NS	ns6.dns.nic.racing.
+racing.			86400	IN	NSEC	re. NS DS RRSIG NSEC
+ns1.dns.nic.racing.	172800	IN	A	156.154.169.33
+ns1.dns.nic.racing.	172800	IN	AAAA	2610:a1:1071::1:21
+ns2.dns.nic.racing.	172800	IN	A	156.154.170.33
+ns2.dns.nic.racing.	172800	IN	AAAA	2610:a1:1072::1:21
+ns3.dns.nic.racing.	172800	IN	A	156.154.171.33
+ns3.dns.nic.racing.	172800	IN	AAAA	2610:a1:1073::1:21
+ns4.dns.nic.racing.	172800	IN	A	156.154.172.33
+ns4.dns.nic.racing.	172800	IN	AAAA	2610:a1:1074::1:21
+ns5.dns.nic.racing.	172800	IN	A	156.154.173.33
+ns5.dns.nic.racing.	172800	IN	AAAA	2610:a1:1075::1:21
+ns6.dns.nic.racing.	172800	IN	A	156.154.174.33
+ns6.dns.nic.racing.	172800	IN	AAAA	2610:a1:1076::1:21
 re.			172800	IN	NS	d.ext.nic.fr.
 re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
