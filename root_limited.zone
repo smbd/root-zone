@@ -547,7 +547,12 @@ bargains.		172800	IN	NS	demand.beta.aridns.net.au.
 bargains.		172800	IN	NS	demand.alpha.aridns.net.au.
 bargains.		172800	IN	NS	demand.delta.aridns.net.au.
 bargains.		172800	IN	NS	demand.gamma.aridns.net.au.
-bargains.		86400	IN	NSEC	bayern. NS DS RRSIG NSEC
+bargains.		86400	IN	NSEC	bauhaus. NS DS RRSIG NSEC
+bauhaus.		172800	IN	NS	anycast9.irondns.net.
+bauhaus.		172800	IN	NS	anycast10.irondns.net.
+bauhaus.		172800	IN	NS	anycast23.irondns.net.
+bauhaus.		172800	IN	NS	anycast24.irondns.net.
+bauhaus.		86400	IN	NSEC	bayern. NS DS RRSIG NSEC
 bayern.			172800	IN	NS	a.ns.nic.bayern.
 bayern.			172800	IN	NS	b.ns.nic.bayern.
 bayern.			86400	IN	NSEC	bb. NS DS RRSIG NSEC
@@ -1005,7 +1010,12 @@ cab.			172800	IN	NS	demand.beta.aridns.net.au.
 cab.			172800	IN	NS	demand.alpha.aridns.net.au.
 cab.			172800	IN	NS	demand.delta.aridns.net.au.
 cab.			172800	IN	NS	demand.gamma.aridns.net.au.
-cab.			86400	IN	NSEC	cal. NS DS RRSIG NSEC
+cab.			86400	IN	NSEC	cafe. NS DS RRSIG NSEC
+cafe.			172800	IN	NS	demand.beta.aridns.net.au.
+cafe.			172800	IN	NS	demand.alpha.aridns.net.au.
+cafe.			172800	IN	NS	demand.delta.aridns.net.au.
+cafe.			172800	IN	NS	demand.gamma.aridns.net.au.
+cafe.			86400	IN	NSEC	cal. NS DS RRSIG NSEC
 cal.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 cal.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 cal.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -2361,7 +2371,12 @@ exposed.		172800	IN	NS	demand.beta.aridns.net.au.
 exposed.		172800	IN	NS	demand.alpha.aridns.net.au.
 exposed.		172800	IN	NS	demand.delta.aridns.net.au.
 exposed.		172800	IN	NS	demand.gamma.aridns.net.au.
-exposed.		86400	IN	NSEC	fail. NS DS RRSIG NSEC
+exposed.		86400	IN	NSEC	express. NS DS RRSIG NSEC
+express.		172800	IN	NS	demand.beta.aridns.net.au.
+express.		172800	IN	NS	demand.alpha.aridns.net.au.
+express.		172800	IN	NS	demand.delta.aridns.net.au.
+express.		172800	IN	NS	demand.gamma.aridns.net.au.
+express.		86400	IN	NSEC	fail. NS DS RRSIG NSEC
 fail.			172800	IN	NS	demand.beta.aridns.net.au.
 fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
