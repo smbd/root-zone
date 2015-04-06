@@ -8336,7 +8336,20 @@ xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	x.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
-xn--j6w193g.		86400	IN	NSEC	xn--kprw13d. NS RRSIG NSEC
+xn--j6w193g.		86400	IN	NSEC	xn--kcrx77d1x4a. NS RRSIG NSEC
+xn--kcrx77d1x4a.	172800	IN	NS	a.nic.xn--kcrx77d1x4a.
+xn--kcrx77d1x4a.	172800	IN	NS	b.nic.xn--kcrx77d1x4a.
+xn--kcrx77d1x4a.	172800	IN	NS	c.nic.xn--kcrx77d1x4a.
+xn--kcrx77d1x4a.	172800	IN	NS	d.nic.xn--kcrx77d1x4a.
+xn--kcrx77d1x4a.	86400	IN	NSEC	xn--kprw13d. NS DS RRSIG NSEC
+a.nic.xn--kcrx77d1x4a.	172800	IN	A	37.209.192.9
+a.nic.xn--kcrx77d1x4a.	172800	IN	AAAA	2001:dcd:1::9
+b.nic.xn--kcrx77d1x4a.	172800	IN	A	37.209.194.9
+b.nic.xn--kcrx77d1x4a.	172800	IN	AAAA	2001:dcd:2::9
+c.nic.xn--kcrx77d1x4a.	172800	IN	A	37.209.196.9
+c.nic.xn--kcrx77d1x4a.	172800	IN	AAAA	2001:dcd:3::9
+d.nic.xn--kcrx77d1x4a.	172800	IN	A	37.209.198.9
+d.nic.xn--kcrx77d1x4a.	172800	IN	AAAA	2001:dcd:4::9
 xn--kprw13d.		172800	IN	NS	d.dns.tw.
 xn--kprw13d.		172800	IN	NS	e.dns.tw.
 xn--kprw13d.		172800	IN	NS	f.dns.tw.
