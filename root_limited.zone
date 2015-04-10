@@ -13,7 +13,6 @@
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
 .			172800	IN	DNSKEY	256 3 8 AwEAAZyIkCwEYeG29NV+4cOdKE4DPng/4BqJeoOhKqzJbl+LR33TPWsr wBRfmAi9wvR/Qc6IV4MFMXjmkclXns+atIQZ9uQV3YAvKv/cVuO7Mneu MssIQixaMw+jp73R7zIUNMbLBgJRQXI57Rl+pvXBAkgHndVwv+aJkf7y GEuE9Dtj
-.			172800	IN	DNSKEY	256 3 8 AwEAAe3fSrbLBy3LOS7pnxEUhvPZTE2H5dIGsI/UfruI/nOEvWWa/PSX 2BFedBkEqOlYdjdNF2f+6lmfk2Od/xu0v5bVqxFE+/24v3hZSlWBxvXz PTAGHrbW/IJYEPqlzVOAS4XdUgHg0N7IbLywNHMvB+Yf+Nm6ctyXXFLV 4WTNnzs7
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
 .			86400	IN	NSEC	abbott. NS SOA RRSIG NSEC DNSKEY
 abbott.			172800	IN	NS	a0.nic.abbott.
@@ -1050,6 +1049,9 @@ canon.			172800	IN	NS	b.gmoregistry.net.
 canon.			172800	IN	NS	c.gmoregistry.net.
 canon.			172800	IN	NS	d.gmoregistry.net.
 canon.			172800	IN	NS	e.gmoregistry.net.
+canon.			172800	IN	NS	g.gmoregistry.net.
+canon.			172800	IN	NS	h.gmoregistry.net.
+canon.			172800	IN	NS	i.gmoregistry.net.
 canon.			86400	IN	NSEC	capetown. NS DS RRSIG NSEC
 capetown.		172800	IN	NS	ns.coza.net.za.
 capetown.		172800	IN	NS	ns1.coza.net.za.
@@ -1913,6 +1915,9 @@ datsun.			172800	IN	NS	b.gmoregistry.net.
 datsun.			172800	IN	NS	c.gmoregistry.net.
 datsun.			172800	IN	NS	d.gmoregistry.net.
 datsun.			172800	IN	NS	e.gmoregistry.net.
+datsun.			172800	IN	NS	g.gmoregistry.net.
+datsun.			172800	IN	NS	h.gmoregistry.net.
+datsun.			172800	IN	NS	i.gmoregistry.net.
 datsun.			86400	IN	NSEC	day. NS DS RRSIG NSEC
 day.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -2061,6 +2066,9 @@ dnp.			172800	IN	NS	b.gmoregistry.net.
 dnp.			172800	IN	NS	c.gmoregistry.net.
 dnp.			172800	IN	NS	d.gmoregistry.net.
 dnp.			172800	IN	NS	e.gmoregistry.net.
+dnp.			172800	IN	NS	g.gmoregistry.net.
+dnp.			172800	IN	NS	h.gmoregistry.net.
+dnp.			172800	IN	NS	i.gmoregistry.net.
 dnp.			86400	IN	NSEC	do. NS DS RRSIG NSEC
 do.			172800	IN	NS	ns.nic.do.
 do.			172800	IN	NS	ns1.nic.do.
@@ -2783,6 +2791,9 @@ ggee.			172800	IN	NS	b.gmoregistry.net.
 ggee.			172800	IN	NS	c.gmoregistry.net.
 ggee.			172800	IN	NS	d.gmoregistry.net.
 ggee.			172800	IN	NS	e.gmoregistry.net.
+ggee.			172800	IN	NS	g.gmoregistry.net.
+ggee.			172800	IN	NS	h.gmoregistry.net.
+ggee.			172800	IN	NS	i.gmoregistry.net.
 ggee.			86400	IN	NSEC	gh. NS DS RRSIG NSEC
 gh.			172800	IN	NS	ns1.dns.aq.
 gh.			172800	IN	NS	rip.psg.com.
@@ -2874,6 +2885,9 @@ gmo.			172800	IN	NS	b.gmoregistry.net.
 gmo.			172800	IN	NS	c.gmoregistry.net.
 gmo.			172800	IN	NS	d.gmoregistry.net.
 gmo.			172800	IN	NS	e.gmoregistry.net.
+gmo.			172800	IN	NS	g.gmoregistry.net.
+gmo.			172800	IN	NS	h.gmoregistry.net.
+gmo.			172800	IN	NS	i.gmoregistry.net.
 gmo.			86400	IN	NSEC	gmx. NS DS RRSIG NSEC
 gmx.			172800	IN	NS	anycast9.irondns.net.
 gmx.			172800	IN	NS	anycast10.irondns.net.
@@ -2895,6 +2909,9 @@ goldpoint.		172800	IN	NS	b.gmoregistry.net.
 goldpoint.		172800	IN	NS	c.gmoregistry.net.
 goldpoint.		172800	IN	NS	d.gmoregistry.net.
 goldpoint.		172800	IN	NS	e.gmoregistry.net.
+goldpoint.		172800	IN	NS	g.gmoregistry.net.
+goldpoint.		172800	IN	NS	h.gmoregistry.net.
+goldpoint.		172800	IN	NS	i.gmoregistry.net.
 goldpoint.		86400	IN	NSEC	golf. NS DS RRSIG NSEC
 golf.			172800	IN	NS	demand.beta.aridns.net.au.
 golf.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2906,6 +2923,9 @@ goo.			172800	IN	NS	b.gmoregistry.net.
 goo.			172800	IN	NS	c.gmoregistry.net.
 goo.			172800	IN	NS	d.gmoregistry.net.
 goo.			172800	IN	NS	e.gmoregistry.net.
+goo.			172800	IN	NS	g.gmoregistry.net.
+goo.			172800	IN	NS	h.gmoregistry.net.
+goo.			172800	IN	NS	i.gmoregistry.net.
 goo.			86400	IN	NSEC	goog. NS DS RRSIG NSEC
 goog.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 goog.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -3371,6 +3391,9 @@ infiniti.		172800	IN	NS	b.gmoregistry.net.
 infiniti.		172800	IN	NS	c.gmoregistry.net.
 infiniti.		172800	IN	NS	d.gmoregistry.net.
 infiniti.		172800	IN	NS	e.gmoregistry.net.
+infiniti.		172800	IN	NS	g.gmoregistry.net.
+infiniti.		172800	IN	NS	h.gmoregistry.net.
+infiniti.		172800	IN	NS	i.gmoregistry.net.
 infiniti.		86400	IN	NSEC	info. NS DS RRSIG NSEC
 info.			86400	IN	NSEC	ing. NS DS RRSIG NSEC
 info.			172800	IN	NS	a0.info.afilias-nst.info.
@@ -3605,6 +3628,9 @@ jcb.			172800	IN	NS	b.gmoregistry.net.
 jcb.			172800	IN	NS	c.gmoregistry.net.
 jcb.			172800	IN	NS	d.gmoregistry.net.
 jcb.			172800	IN	NS	e.gmoregistry.net.
+jcb.			172800	IN	NS	g.gmoregistry.net.
+jcb.			172800	IN	NS	h.gmoregistry.net.
+jcb.			172800	IN	NS	i.gmoregistry.net.
 jcb.			86400	IN	NSEC	je. NS DS RRSIG NSEC
 je.			172800	IN	NS	c.ci-servers.org.
 je.			172800	IN	NS	d.ci-servers.je.
@@ -3698,6 +3724,9 @@ kddi.			172800	IN	NS	b.gmoregistry.net.
 kddi.			172800	IN	NS	c.gmoregistry.net.
 kddi.			172800	IN	NS	d.gmoregistry.net.
 kddi.			172800	IN	NS	e.gmoregistry.net.
+kddi.			172800	IN	NS	g.gmoregistry.net.
+kddi.			172800	IN	NS	h.gmoregistry.net.
+kddi.			172800	IN	NS	i.gmoregistry.net.
 kddi.			86400	IN	NSEC	ke. NS DS RRSIG NSEC
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
@@ -4087,6 +4116,9 @@ lotte.			172800	IN	NS	b.gmoregistry.net.
 lotte.			172800	IN	NS	c.gmoregistry.net.
 lotte.			172800	IN	NS	d.gmoregistry.net.
 lotte.			172800	IN	NS	e.gmoregistry.net.
+lotte.			172800	IN	NS	g.gmoregistry.net.
+lotte.			172800	IN	NS	h.gmoregistry.net.
+lotte.			172800	IN	NS	i.gmoregistry.net.
 lotte.			86400	IN	NSEC	lotto. NS DS RRSIG NSEC
 lotto.			172800	IN	NS	a0.nic.lotto.
 lotto.			172800	IN	NS	a2.nic.lotto.
@@ -4631,6 +4663,9 @@ mtpc.			172800	IN	NS	b.gmoregistry.net.
 mtpc.			172800	IN	NS	c.gmoregistry.net.
 mtpc.			172800	IN	NS	d.gmoregistry.net.
 mtpc.			172800	IN	NS	e.gmoregistry.net.
+mtpc.			172800	IN	NS	g.gmoregistry.net.
+mtpc.			172800	IN	NS	h.gmoregistry.net.
+mtpc.			172800	IN	NS	i.gmoregistry.net.
 mtpc.			86400	IN	NSEC	mu. NS DS RRSIG NSEC
 mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
 mu.			172800	IN	NS	fork.sth.dnsnode.net.
@@ -4951,6 +4986,11 @@ d.gmoregistry.net.	172800	IN	A	120.29.252.11
 d.gmoregistry.net.	172800	IN	AAAA	2001:dcd:5::11
 e.gmoregistry.net.	172800	IN	A	120.29.254.11
 e.gmoregistry.net.	172800	IN	AAAA	2001:dcd:6::11
+g.gmoregistry.net.	172800	IN	A	65.22.165.1
+g.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1be::1
+h.gmoregistry.net.	172800	IN	A	65.22.166.1
+i.gmoregistry.net.	172800	IN	A	65.22.167.1
+i.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1c0::1
 a.gov-servers.net.	172800	IN	A	69.36.157.30
 a.gov-servers.net.	172800	IN	AAAA	2001:500:4431::2:30
 b.gov-servers.net.	172800	IN	A	209.112.123.30
@@ -5318,6 +5358,9 @@ nhk.			172800	IN	NS	b.gmoregistry.net.
 nhk.			172800	IN	NS	c.gmoregistry.net.
 nhk.			172800	IN	NS	d.gmoregistry.net.
 nhk.			172800	IN	NS	e.gmoregistry.net.
+nhk.			172800	IN	NS	g.gmoregistry.net.
+nhk.			172800	IN	NS	h.gmoregistry.net.
+nhk.			172800	IN	NS	i.gmoregistry.net.
 nhk.			86400	IN	NSEC	ni. NS DS RRSIG NSEC
 ni.			172800	IN	NS	ns.cr.
 ni.			172800	IN	NS	ns.ni.
@@ -5337,6 +5380,9 @@ nico.			172800	IN	NS	b.gmoregistry.net.
 nico.			172800	IN	NS	c.gmoregistry.net.
 nico.			172800	IN	NS	d.gmoregistry.net.
 nico.			172800	IN	NS	e.gmoregistry.net.
+nico.			172800	IN	NS	g.gmoregistry.net.
+nico.			172800	IN	NS	h.gmoregistry.net.
+nico.			172800	IN	NS	i.gmoregistry.net.
 nico.			86400	IN	NSEC	ninja. NS DS RRSIG NSEC
 ninja.			172800	IN	NS	demand.beta.aridns.net.au.
 ninja.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5348,6 +5394,9 @@ nissan.			172800	IN	NS	b.gmoregistry.net.
 nissan.			172800	IN	NS	c.gmoregistry.net.
 nissan.			172800	IN	NS	d.gmoregistry.net.
 nissan.			172800	IN	NS	e.gmoregistry.net.
+nissan.			172800	IN	NS	g.gmoregistry.net.
+nissan.			172800	IN	NS	h.gmoregistry.net.
+nissan.			172800	IN	NS	i.gmoregistry.net.
 nissan.			86400	IN	NSEC	nl. NS DS RRSIG NSEC
 nl.			86400	IN	NSEC	no. NS DS RRSIG NSEC
 nl.			172800	IN	NS	nl1.dnsnode.net.
@@ -5694,6 +5743,9 @@ otsuka.			172800	IN	NS	b.gmoregistry.net.
 otsuka.			172800	IN	NS	c.gmoregistry.net.
 otsuka.			172800	IN	NS	d.gmoregistry.net.
 otsuka.			172800	IN	NS	e.gmoregistry.net.
+otsuka.			172800	IN	NS	g.gmoregistry.net.
+otsuka.			172800	IN	NS	h.gmoregistry.net.
+otsuka.			172800	IN	NS	i.gmoregistry.net.
 otsuka.			86400	IN	NSEC	ovh. NS DS RRSIG NSEC
 ovh.			172800	IN	NS	d.nic.fr.
 ovh.			172800	IN	NS	f.ext.nic.fr.
@@ -6978,8 +7030,10 @@ suzuki.			172800	IN	NS	b.gmoregistry.net.
 suzuki.			172800	IN	NS	c.gmoregistry.net.
 suzuki.			172800	IN	NS	d.gmoregistry.net.
 suzuki.			172800	IN	NS	e.gmoregistry.net.
+suzuki.			172800	IN	NS	g.gmoregistry.net.
+suzuki.			172800	IN	NS	h.gmoregistry.net.
+suzuki.			172800	IN	NS	i.gmoregistry.net.
 suzuki.			86400	IN	NSEC	sv. NS DS RRSIG NSEC
-sv.			172800	IN	NS	ns.cr.
 sv.			172800	IN	NS	ns.uu.net.
 sv.			172800	IN	NS	ns.dns.br.
 sv.			172800	IN	NS	sv.cctld.authdns.ripe.net.
@@ -7292,6 +7346,9 @@ toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	c.gmoregistry.net.
 toshiba.		172800	IN	NS	d.gmoregistry.net.
 toshiba.		172800	IN	NS	e.gmoregistry.net.
+toshiba.		172800	IN	NS	g.gmoregistry.net.
+toshiba.		172800	IN	NS	h.gmoregistry.net.
+toshiba.		172800	IN	NS	i.gmoregistry.net.
 toshiba.		86400	IN	NSEC	tours. NS DS RRSIG NSEC
 tours.			172800	IN	NS	demand.beta.aridns.net.au.
 tours.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -8737,6 +8794,9 @@ yodobashi.		172800	IN	NS	b.gmoregistry.net.
 yodobashi.		172800	IN	NS	c.gmoregistry.net.
 yodobashi.		172800	IN	NS	d.gmoregistry.net.
 yodobashi.		172800	IN	NS	e.gmoregistry.net.
+yodobashi.		172800	IN	NS	g.gmoregistry.net.
+yodobashi.		172800	IN	NS	h.gmoregistry.net.
+yodobashi.		172800	IN	NS	i.gmoregistry.net.
 yodobashi.		86400	IN	NSEC	yoga. NS DS RRSIG NSEC
 yoga.			172800	IN	NS	a.ns.nic.yoga.
 yoga.			172800	IN	NS	b.ns.nic.yoga.
