@@ -604,11 +604,14 @@ b.ns.nic.beer.		172800	IN	A	72.42.114.14
 b.ns.nic.beer.		172800	IN	AAAA	2620:171:d02:dc::14
 berlin.			172800	IN	NS	a.dns.nic.berlin.
 berlin.			172800	IN	NS	m.dns.nic.berlin.
+berlin.			172800	IN	NS	n.dns.nic.berlin.
 berlin.			86400	IN	NSEC	best. NS DS RRSIG NSEC
 a.dns.nic.berlin.	172800	IN	A	194.0.25.16
 a.dns.nic.berlin.	172800	IN	AAAA	2001:678:20::16
 m.dns.nic.berlin.	172800	IN	A	194.0.26.5
 m.dns.nic.berlin.	172800	IN	AAAA	2001:67c:10e0::5
+n.dns.nic.berlin.	172800	IN	A	194.0.24.5
+n.dns.nic.berlin.	172800	IN	AAAA	2001:678:24::5
 best.			172800	IN	NS	ns1.dns.nic.best.
 best.			172800	IN	NS	ns2.dns.nic.best.
 best.			172800	IN	NS	ns3.dns.nic.best.
@@ -7917,11 +7920,19 @@ b.ns.nic.wed.		172800	IN	A	72.42.113.1
 b.ns.nic.wed.		172800	IN	AAAA	2620:171:d01:dc::1
 wedding.		172800	IN	NS	a.ns.nic.wedding.
 wedding.		172800	IN	NS	b.ns.nic.wedding.
-wedding.		86400	IN	NSEC	wf. NS DS RRSIG NSEC
+wedding.		86400	IN	NSEC	weir. NS DS RRSIG NSEC
 a.ns.nic.wedding.	172800	IN	A	72.0.50.25
 a.ns.nic.wedding.	172800	IN	AAAA	2620:171:a02:ad::25
 b.ns.nic.wedding.	172800	IN	A	72.42.114.25
 b.ns.nic.wedding.	172800	IN	AAAA	2620:171:d02:dc::25
+weir.			172800	IN	NS	a5.nstld.com.
+weir.			172800	IN	NS	c5.nstld.com.
+weir.			172800	IN	NS	d5.nstld.com.
+weir.			172800	IN	NS	f5.nstld.com.
+weir.			172800	IN	NS	g5.nstld.com.
+weir.			172800	IN	NS	h5.nstld.com.
+weir.			172800	IN	NS	l5.nstld.com.
+weir.			86400	IN	NSEC	wf. NS DS RRSIG NSEC
 wf.			172800	IN	NS	d.ext.nic.fr.
 wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
@@ -7949,11 +7960,14 @@ ns6.dns.nic.whoswho.	172800	IN	A	156.154.158.180
 ns6.dns.nic.whoswho.	172800	IN	AAAA	2610:a1:1076::b4
 wien.			172800	IN	NS	a.dns.nic.wien.
 wien.			172800	IN	NS	m.dns.nic.wien.
+wien.			172800	IN	NS	n.dns.nic.wien.
 wien.			86400	IN	NSEC	wiki. NS DS RRSIG NSEC
 a.dns.nic.wien.		172800	IN	A	194.0.25.15
 a.dns.nic.wien.		172800	IN	AAAA	2001:678:20::15
 m.dns.nic.wien.		172800	IN	A	194.0.26.4
 m.dns.nic.wien.		172800	IN	AAAA	2001:67c:10e0::4
+n.dns.nic.wien.		172800	IN	A	194.0.24.4
+n.dns.nic.wien.		172800	IN	AAAA	2001:678:24::4
 wiki.			172800	IN	NS	a.nic.wiki.
 wiki.			172800	IN	NS	b.nic.wiki.
 wiki.			172800	IN	NS	c.nic.wiki.
