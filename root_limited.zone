@@ -1252,10 +1252,12 @@ cfd.			172800	IN	NS	g5.nstld.com.
 cfd.			172800	IN	NS	h5.nstld.com.
 cfd.			172800	IN	NS	l5.nstld.com.
 cfd.			86400	IN	NSEC	cg. NS DS RRSIG NSEC
+cg.			172800	IN	NS	dns.acnic.cg.
 cg.			172800	IN	NS	dns.dnsafrica.net.
 cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
+dns.acnic.cg.		172800	IN	A	196.43.240.147
 ch.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
