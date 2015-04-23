@@ -1047,8 +1047,6 @@ c.nic.cancerresearch.	172800	IN	A	37.209.196.9
 c.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:3::9
 d.nic.cancerresearch.	172800	IN	A	37.209.198.9
 d.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:4::9
-canon.			172800	IN	NS	b.gmoregistry.net.
-canon.			172800	IN	NS	c.gmoregistry.net.
 canon.			172800	IN	NS	d.gmoregistry.net.
 canon.			172800	IN	NS	e.gmoregistry.net.
 canon.			172800	IN	NS	g.gmoregistry.net.
@@ -1908,8 +1906,6 @@ dating.			172800	IN	NS	demand.alpha.aridns.net.au.
 dating.			172800	IN	NS	demand.delta.aridns.net.au.
 dating.			172800	IN	NS	demand.gamma.aridns.net.au.
 dating.			86400	IN	NSEC	datsun. NS DS RRSIG NSEC
-datsun.			172800	IN	NS	b.gmoregistry.net.
-datsun.			172800	IN	NS	c.gmoregistry.net.
 datsun.			172800	IN	NS	d.gmoregistry.net.
 datsun.			172800	IN	NS	e.gmoregistry.net.
 datsun.			172800	IN	NS	g.gmoregistry.net.
@@ -2058,8 +2054,6 @@ dm.			172800	IN	NS	ns2.blacknightsolutions.com.
 dm.			172800	IN	NS	ns34.cdns.net.
 dm.			86400	IN	NSEC	dnp. NS RRSIG NSEC
 ns2.nic.dm.		172800	IN	A	199.127.196.35
-dnp.			172800	IN	NS	b.gmoregistry.net.
-dnp.			172800	IN	NS	c.gmoregistry.net.
 dnp.			172800	IN	NS	d.gmoregistry.net.
 dnp.			172800	IN	NS	e.gmoregistry.net.
 dnp.			172800	IN	NS	g.gmoregistry.net.
@@ -2897,8 +2891,6 @@ gold.			172800	IN	NS	demand.alpha.aridns.net.au.
 gold.			172800	IN	NS	demand.delta.aridns.net.au.
 gold.			172800	IN	NS	demand.gamma.aridns.net.au.
 gold.			86400	IN	NSEC	goldpoint. NS DS RRSIG NSEC
-goldpoint.		172800	IN	NS	b.gmoregistry.net.
-goldpoint.		172800	IN	NS	c.gmoregistry.net.
 goldpoint.		172800	IN	NS	d.gmoregistry.net.
 goldpoint.		172800	IN	NS	e.gmoregistry.net.
 goldpoint.		172800	IN	NS	g.gmoregistry.net.
@@ -2910,8 +2902,6 @@ golf.			172800	IN	NS	demand.alpha.aridns.net.au.
 golf.			172800	IN	NS	demand.delta.aridns.net.au.
 golf.			172800	IN	NS	demand.gamma.aridns.net.au.
 golf.			86400	IN	NSEC	goo. NS DS RRSIG NSEC
-goo.			172800	IN	NS	b.gmoregistry.net.
-goo.			172800	IN	NS	c.gmoregistry.net.
 goo.			172800	IN	NS	d.gmoregistry.net.
 goo.			172800	IN	NS	e.gmoregistry.net.
 goo.			172800	IN	NS	g.gmoregistry.net.
@@ -3380,8 +3370,6 @@ industries.		172800	IN	NS	demand.alpha.aridns.net.au.
 industries.		172800	IN	NS	demand.delta.aridns.net.au.
 industries.		172800	IN	NS	demand.gamma.aridns.net.au.
 industries.		86400	IN	NSEC	infiniti. NS DS RRSIG NSEC
-infiniti.		172800	IN	NS	b.gmoregistry.net.
-infiniti.		172800	IN	NS	c.gmoregistry.net.
 infiniti.		172800	IN	NS	d.gmoregistry.net.
 infiniti.		172800	IN	NS	e.gmoregistry.net.
 infiniti.		172800	IN	NS	g.gmoregistry.net.
@@ -3616,8 +3604,6 @@ java.			172800	IN	NS	g5.nstld.com.
 java.			172800	IN	NS	h5.nstld.com.
 java.			172800	IN	NS	l5.nstld.com.
 java.			86400	IN	NSEC	jcb. NS DS RRSIG NSEC
-jcb.			172800	IN	NS	b.gmoregistry.net.
-jcb.			172800	IN	NS	c.gmoregistry.net.
 jcb.			172800	IN	NS	d.gmoregistry.net.
 jcb.			172800	IN	NS	e.gmoregistry.net.
 jcb.			172800	IN	NS	g.gmoregistry.net.
@@ -3881,8 +3867,6 @@ ky.			172800	IN	NS	a.ns.uniregistry.net.
 ky.			172800	IN	NS	b.ky.dyntld.net.
 ky.			172800	IN	NS	c.ky.dyntld.net.
 ky.			86400	IN	NSEC	kyoto. NS DS RRSIG NSEC
-kyoto.			172800	IN	NS	b.gmoregistry.net.
-kyoto.			172800	IN	NS	c.gmoregistry.net.
 kyoto.			172800	IN	NS	d.gmoregistry.net.
 kyoto.			172800	IN	NS	e.gmoregistry.net.
 kyoto.			172800	IN	NS	g.gmoregistry.net.
@@ -4651,8 +4635,6 @@ c.nic.mtn.		172800	IN	A	37.209.196.9
 c.nic.mtn.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.mtn.		172800	IN	A	37.209.198.9
 d.nic.mtn.		172800	IN	AAAA	2001:dcd:4::9
-mtpc.			172800	IN	NS	b.gmoregistry.net.
-mtpc.			172800	IN	NS	c.gmoregistry.net.
 mtpc.			172800	IN	NS	d.gmoregistry.net.
 mtpc.			172800	IN	NS	e.gmoregistry.net.
 mtpc.			172800	IN	NS	g.gmoregistry.net.
@@ -4742,8 +4724,6 @@ na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
 na.			86400	IN	NSEC	nagoya. NS DS RRSIG NSEC
 merlin.net.na.		172800	IN	A	204.152.184.96
-nagoya.			172800	IN	NS	b.gmoregistry.net.
-nagoya.			172800	IN	NS	c.gmoregistry.net.
 nagoya.			172800	IN	NS	d.gmoregistry.net.
 nagoya.			172800	IN	NS	e.gmoregistry.net.
 nagoya.			172800	IN	NS	g.gmoregistry.net.
@@ -5349,8 +5329,6 @@ c0.nic.ngo.		172800	IN	A	199.19.53.1
 c0.nic.ngo.		172800	IN	AAAA	2001:500:b::1
 d0.nic.ngo.		172800	IN	A	199.19.57.1
 d0.nic.ngo.		172800	IN	AAAA	2001:500:f::1
-nhk.			172800	IN	NS	b.gmoregistry.net.
-nhk.			172800	IN	NS	c.gmoregistry.net.
 nhk.			172800	IN	NS	d.gmoregistry.net.
 nhk.			172800	IN	NS	e.gmoregistry.net.
 nhk.			172800	IN	NS	g.gmoregistry.net.
@@ -5370,8 +5348,6 @@ ns.tmx.com.ni.		172800	IN	A	200.62.64.1
 ns.ideay.net.ni.	172800	IN	A	200.9.190.130
 ns.ni.			172800	IN	A	165.98.1.2
 ns2.ni.			172800	IN	A	200.9.187.2
-nico.			172800	IN	NS	b.gmoregistry.net.
-nico.			172800	IN	NS	c.gmoregistry.net.
 nico.			172800	IN	NS	d.gmoregistry.net.
 nico.			172800	IN	NS	e.gmoregistry.net.
 nico.			172800	IN	NS	g.gmoregistry.net.
@@ -5383,8 +5359,6 @@ ninja.			172800	IN	NS	demand.alpha.aridns.net.au.
 ninja.			172800	IN	NS	demand.delta.aridns.net.au.
 ninja.			172800	IN	NS	demand.gamma.aridns.net.au.
 ninja.			86400	IN	NSEC	nissan. NS DS RRSIG NSEC
-nissan.			172800	IN	NS	b.gmoregistry.net.
-nissan.			172800	IN	NS	c.gmoregistry.net.
 nissan.			172800	IN	NS	d.gmoregistry.net.
 nissan.			172800	IN	NS	e.gmoregistry.net.
 nissan.			172800	IN	NS	g.gmoregistry.net.
@@ -5530,8 +5504,6 @@ ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
-okinawa.		172800	IN	NS	b.gmoregistry.net.
-okinawa.		172800	IN	NS	c.gmoregistry.net.
 okinawa.		172800	IN	NS	d.gmoregistry.net.
 okinawa.		172800	IN	NS	e.gmoregistry.net.
 okinawa.		172800	IN	NS	g.gmoregistry.net.
@@ -5733,8 +5705,6 @@ ns5.dns.nic.osaka.	172800	IN	A	156.154.157.130
 ns5.dns.nic.osaka.	172800	IN	AAAA	2610:a1:1075::82
 ns6.dns.nic.osaka.	172800	IN	A	156.154.158.130
 ns6.dns.nic.osaka.	172800	IN	AAAA	2610:a1:1076::82
-otsuka.			172800	IN	NS	b.gmoregistry.net.
-otsuka.			172800	IN	NS	c.gmoregistry.net.
 otsuka.			172800	IN	NS	d.gmoregistry.net.
 otsuka.			172800	IN	NS	e.gmoregistry.net.
 otsuka.			172800	IN	NS	g.gmoregistry.net.
@@ -6513,8 +6483,6 @@ ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
 ns3.ricta.org.rw.	172800	IN	A	41.186.53.10
 pch.ricta.org.rw.	172800	IN	A	204.61.216.91
 pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad::1
-ryukyu.			172800	IN	NS	b.gmoregistry.net.
-ryukyu.			172800	IN	NS	c.gmoregistry.net.
 ryukyu.			172800	IN	NS	d.gmoregistry.net.
 ryukyu.			172800	IN	NS	e.gmoregistry.net.
 ryukyu.			172800	IN	NS	g.gmoregistry.net.
@@ -7066,8 +7034,6 @@ surgery.		172800	IN	NS	demand.alpha.aridns.net.au.
 surgery.		172800	IN	NS	demand.delta.aridns.net.au.
 surgery.		172800	IN	NS	demand.gamma.aridns.net.au.
 surgery.		86400	IN	NSEC	suzuki. NS DS RRSIG NSEC
-suzuki.			172800	IN	NS	b.gmoregistry.net.
-suzuki.			172800	IN	NS	c.gmoregistry.net.
 suzuki.			172800	IN	NS	d.gmoregistry.net.
 suzuki.			172800	IN	NS	e.gmoregistry.net.
 suzuki.			172800	IN	NS	g.gmoregistry.net.
@@ -7368,8 +7334,6 @@ today.			172800	IN	NS	demand.alpha.aridns.net.au.
 today.			172800	IN	NS	demand.delta.aridns.net.au.
 today.			172800	IN	NS	demand.gamma.aridns.net.au.
 today.			86400	IN	NSEC	tokyo. NS DS RRSIG NSEC
-tokyo.			172800	IN	NS	b.gmoregistry.net.
-tokyo.			172800	IN	NS	c.gmoregistry.net.
 tokyo.			172800	IN	NS	d.gmoregistry.net.
 tokyo.			172800	IN	NS	e.gmoregistry.net.
 tokyo.			172800	IN	NS	g.gmoregistry.net.
@@ -7391,8 +7355,6 @@ top.			172800	IN	NS	g.zdnscloud.com.
 top.			172800	IN	NS	i.zdnscloud.com.
 top.			172800	IN	NS	j.zdnscloud.com.
 top.			86400	IN	NSEC	toshiba. NS DS RRSIG NSEC
-toshiba.		172800	IN	NS	b.gmoregistry.net.
-toshiba.		172800	IN	NS	c.gmoregistry.net.
 toshiba.		172800	IN	NS	d.gmoregistry.net.
 toshiba.		172800	IN	NS	e.gmoregistry.net.
 toshiba.		172800	IN	NS	g.gmoregistry.net.
@@ -8875,8 +8837,6 @@ a.ns.nic.yoga.		172800	IN	A	72.0.50.27
 a.ns.nic.yoga.		172800	IN	AAAA	2620:171:a02:ad::27
 b.ns.nic.yoga.		172800	IN	A	72.42.114.27
 b.ns.nic.yoga.		172800	IN	AAAA	2620:171:d02:dc::27
-yokohama.		172800	IN	NS	b.gmoregistry.net.
-yokohama.		172800	IN	NS	c.gmoregistry.net.
 yokohama.		172800	IN	NS	d.gmoregistry.net.
 yokohama.		172800	IN	NS	e.gmoregistry.net.
 yokohama.		172800	IN	NS	g.gmoregistry.net.
