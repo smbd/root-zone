@@ -14,7 +14,15 @@
 .			518400	IN	NS	m.root-servers.net.
 .			172800	IN	DNSKEY	256 3 8 AwEAAZyIkCwEYeG29NV+4cOdKE4DPng/4BqJeoOhKqzJbl+LR33TPWsr wBRfmAi9wvR/Qc6IV4MFMXjmkclXns+atIQZ9uQV3YAvKv/cVuO7Mneu MssIQixaMw+jp73R7zIUNMbLBgJRQXI57Rl+pvXBAkgHndVwv+aJkf7y GEuE9Dtj
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
-.			86400	IN	NSEC	abbott. NS SOA RRSIG NSEC DNSKEY
+.			86400	IN	NSEC	abb. NS SOA RRSIG NSEC DNSKEY
+abb.			172800	IN	NS	a5.nstld.com.
+abb.			172800	IN	NS	c5.nstld.com.
+abb.			172800	IN	NS	d5.nstld.com.
+abb.			172800	IN	NS	f5.nstld.com.
+abb.			172800	IN	NS	g5.nstld.com.
+abb.			172800	IN	NS	h5.nstld.com.
+abb.			172800	IN	NS	l5.nstld.com.
+abb.			86400	IN	NSEC	abbott. NS DS RRSIG NSEC
 abbott.			172800	IN	NS	a0.nic.abbott.
 abbott.			172800	IN	NS	a2.nic.abbott.
 abbott.			172800	IN	NS	b0.nic.abbott.
