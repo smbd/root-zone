@@ -7067,8 +7067,13 @@ sv.			172800	IN	NS	sv.cctld.authdns.ripe.net.
 sv.			172800	IN	NS	cir.red.sv.
 sv.			172800	IN	NS	dns.nic.cr.
 sv.			172800	IN	NS	auth02.ns.uu.net.
-sv.			86400	IN	NSEC	sx. NS RRSIG NSEC
+sv.			86400	IN	NSEC	swiss. NS RRSIG NSEC
 cir.red.sv.		172800	IN	A	168.243.254.1
+swiss.			172800	IN	NS	anycast9.irondns.net.
+swiss.			172800	IN	NS	anycast10.irondns.net.
+swiss.			172800	IN	NS	anycast23.irondns.net.
+swiss.			172800	IN	NS	anycast24.irondns.net.
+swiss.			86400	IN	NSEC	sx. NS DS RRSIG NSEC
 sx.			172800	IN	NS	a.ns.sx.
 sx.			172800	IN	NS	b.ns.sx.
 sx.			172800	IN	NS	c.ns.sx.
