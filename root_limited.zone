@@ -861,7 +861,7 @@ boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
 boutique.		172800	IN	NS	demand.gamma.aridns.net.au.
 boutique.		86400	IN	NSEC	br. NS DS RRSIG NSEC
-br.			86400	IN	NSEC	brussels. NS DS RRSIG NSEC
+br.			86400	IN	NSEC	broker. NS DS RRSIG NSEC
 br.			172800	IN	NS	a.dns.br.
 br.			172800	IN	NS	b.dns.br.
 br.			172800	IN	NS	c.dns.br.
@@ -879,6 +879,14 @@ e.dns.br.		172800	IN	AAAA	2001:12f8:1::10
 f.dns.br.		172800	IN	A	200.219.159.10
 ns.dns.br.		172800	IN	A	200.160.0.5
 ns.dns.br.		172800	IN	AAAA	2001:12ff:0:a20::5
+broker.			172800	IN	NS	a5.nstld.com.
+broker.			172800	IN	NS	c5.nstld.com.
+broker.			172800	IN	NS	d5.nstld.com.
+broker.			172800	IN	NS	f5.nstld.com.
+broker.			172800	IN	NS	g5.nstld.com.
+broker.			172800	IN	NS	h5.nstld.com.
+broker.			172800	IN	NS	l5.nstld.com.
+broker.			86400	IN	NSEC	brussels. NS DS RRSIG NSEC
 brussels.		172800	IN	NS	a.nic.brussels.
 brussels.		172800	IN	NS	b.nic.brussels.
 brussels.		172800	IN	NS	c.ns.dns.be.
@@ -2090,7 +2098,12 @@ docs.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-docs.			86400	IN	NSEC	doha. NS DS RRSIG NSEC
+docs.			86400	IN	NSEC	dog. NS DS RRSIG NSEC
+dog.			172800	IN	NS	demand.beta.aridns.net.au.
+dog.			172800	IN	NS	demand.alpha.aridns.net.au.
+dog.			172800	IN	NS	demand.delta.aridns.net.au.
+dog.			172800	IN	NS	demand.gamma.aridns.net.au.
+dog.			86400	IN	NSEC	doha. NS DS RRSIG NSEC
 doha.			172800	IN	NS	a.nic.doha.
 doha.			172800	IN	NS	b.nic.doha.
 doha.			172800	IN	NS	c.nic.doha.
