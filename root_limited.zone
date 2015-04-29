@@ -368,6 +368,7 @@ d.ns.at.		172800	IN	AAAA	2a02:568:20:1::d
 j.ns.at.		172800	IN	A	194.146.106.50
 j.ns.at.		172800	IN	AAAA	2001:67c:1010:12::53
 n.ns.at.		172800	IN	A	81.91.173.130
+n.ns.at.		172800	IN	AAAA	2a02:568:281::130
 r.ns.at.		172800	IN	A	194.0.25.10
 r.ns.at.		172800	IN	AAAA	2001:678:20::10
 u.ns.at.		172800	IN	A	195.66.241.82
@@ -3165,6 +3166,7 @@ b.hkirc.net.hk.		172800	IN	AAAA	2001:dca:1000::cb77:5713
 c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000::cb77:2da
 d.hkirc.net.hk.		172800	IN	A	203.119.87.218
+d.hkirc.net.hk.		172800	IN	AAAA	2001:dca:2000::cb77:57da
 u.hkirc.net.hk.		172800	IN	A	210.201.138.58
 u.hkirc.net.hk.		172800	IN	AAAA	2404:0:10a0::58
 v.hkirc.net.hk.		172800	IN	A	204.61.216.46
@@ -3205,7 +3207,7 @@ homes.			172800	IN	NS	a0.nic.homes.
 homes.			172800	IN	NS	a2.nic.homes.
 homes.			172800	IN	NS	b0.nic.homes.
 homes.			172800	IN	NS	c0.nic.homes.
-homes.			86400	IN	NSEC	horse. NS DS RRSIG NSEC
+homes.			86400	IN	NSEC	honda. NS DS RRSIG NSEC
 a0.nic.homes.		172800	IN	A	65.22.100.33
 a0.nic.homes.		172800	IN	AAAA	2a01:8840:62::33
 a2.nic.homes.		172800	IN	A	65.22.103.33
@@ -3214,6 +3216,19 @@ b0.nic.homes.		172800	IN	A	65.22.101.33
 b0.nic.homes.		172800	IN	AAAA	2a01:8840:63::33
 c0.nic.homes.		172800	IN	A	65.22.102.33
 c0.nic.homes.		172800	IN	AAAA	2a01:8840:64::33
+honda.			172800	IN	NS	a.nic.honda.
+honda.			172800	IN	NS	b.nic.honda.
+honda.			172800	IN	NS	c.nic.honda.
+honda.			172800	IN	NS	d.nic.honda.
+honda.			86400	IN	NSEC	horse. NS DS RRSIG NSEC
+a.nic.honda.		172800	IN	A	37.209.192.9
+a.nic.honda.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.honda.		172800	IN	A	37.209.194.9
+b.nic.honda.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.honda.		172800	IN	A	37.209.196.9
+c.nic.honda.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.honda.		172800	IN	A	37.209.198.9
+d.nic.honda.		172800	IN	AAAA	2001:dcd:4::9
 horse.			172800	IN	NS	a.ns.nic.horse.
 horse.			172800	IN	NS	b.ns.nic.horse.
 horse.			86400	IN	NSEC	host. NS DS RRSIG NSEC
@@ -3723,8 +3738,6 @@ kaufen.			172800	IN	NS	demand.alpha.aridns.net.au.
 kaufen.			172800	IN	NS	demand.delta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.gamma.aridns.net.au.
 kaufen.			86400	IN	NSEC	kddi. NS DS RRSIG NSEC
-kddi.			172800	IN	NS	b.gmoregistry.net.
-kddi.			172800	IN	NS	c.gmoregistry.net.
 kddi.			172800	IN	NS	d.gmoregistry.net.
 kddi.			172800	IN	NS	e.gmoregistry.net.
 kddi.			172800	IN	NS	g.gmoregistry.net.
@@ -6338,7 +6351,20 @@ ren.			172800	IN	NS	f.zdnscloud.com.
 ren.			172800	IN	NS	g.zdnscloud.com.
 ren.			172800	IN	NS	i.zdnscloud.com.
 ren.			172800	IN	NS	j.zdnscloud.com.
-ren.			86400	IN	NSEC	rentals. NS DS RRSIG NSEC
+ren.			86400	IN	NSEC	rent. NS DS RRSIG NSEC
+rent.			172800	IN	NS	a.nic.rent.
+rent.			172800	IN	NS	b.nic.rent.
+rent.			172800	IN	NS	c.nic.rent.
+rent.			172800	IN	NS	d.nic.rent.
+rent.			86400	IN	NSEC	rentals. NS DS RRSIG NSEC
+a.nic.rent.		172800	IN	A	194.169.218.63
+a.nic.rent.		172800	IN	AAAA	2001:67c:13cc::1:63
+b.nic.rent.		172800	IN	A	185.24.64.63
+b.nic.rent.		172800	IN	AAAA	2a04:2b00:13cc::1:63
+c.nic.rent.		172800	IN	A	194.0.2.2
+c.nic.rent.		172800	IN	AAAA	2001:678:5::2
+d.nic.rent.		172800	IN	A	194.0.1.45
+d.nic.rent.		172800	IN	AAAA	2001:678:4::2d
 rentals.		172800	IN	NS	demand.beta.aridns.net.au.
 rentals.		172800	IN	NS	demand.alpha.aridns.net.au.
 rentals.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -7821,11 +7847,14 @@ c0.nic.vote.		172800	IN	A	65.22.170.9
 c0.nic.vote.		172800	IN	AAAA	2a01:8840:a4::9
 voting.			172800	IN	NS	a.dns.nic.voting.
 voting.			172800	IN	NS	m.dns.nic.voting.
+voting.			172800	IN	NS	n.dns.nic.voting.
 voting.			86400	IN	NSEC	voto. NS DS RRSIG NSEC
 a.dns.nic.voting.	172800	IN	A	194.0.25.17
 a.dns.nic.voting.	172800	IN	AAAA	2001:678:20::17
 m.dns.nic.voting.	172800	IN	A	194.0.26.6
 m.dns.nic.voting.	172800	IN	AAAA	2001:67c:10e0::6
+n.dns.nic.voting.	172800	IN	A	194.0.24.6
+n.dns.nic.voting.	172800	IN	AAAA	2001:678:24::6
 voto.			172800	IN	NS	a0.nic.voto.
 voto.			172800	IN	NS	a2.nic.voto.
 voto.			172800	IN	NS	b0.nic.voto.
