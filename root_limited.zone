@@ -193,9 +193,28 @@ agency.			86400	IN	NSEC	ai. NS DS RRSIG NSEC
 ai.			172800	IN	NS	ns1.pair.com.
 ai.			172800	IN	NS	ns2.offshore.ai.
 ai.			172800	IN	NS	whois.ai.
-ai.			86400	IN	NSEC	airforce. NS RRSIG NSEC
+ai.			86400	IN	NSEC	aig. NS RRSIG NSEC
 ns2.offshore.ai.	172800	IN	A	108.166.113.245
 whois.ai.		172800	IN	A	209.59.119.1
+aig.			172800	IN	NS	ns1.dns.nic.aig.
+aig.			172800	IN	NS	ns2.dns.nic.aig.
+aig.			172800	IN	NS	ns3.dns.nic.aig.
+aig.			172800	IN	NS	ns4.dns.nic.aig.
+aig.			172800	IN	NS	ns5.dns.nic.aig.
+aig.			172800	IN	NS	ns6.dns.nic.aig.
+aig.			86400	IN	NSEC	airforce. NS DS RRSIG NSEC
+ns1.dns.nic.aig.	172800	IN	A	156.154.144.6
+ns1.dns.nic.aig.	172800	IN	AAAA	2610:a1:1071::6
+ns2.dns.nic.aig.	172800	IN	A	156.154.145.6
+ns2.dns.nic.aig.	172800	IN	AAAA	2610:a1:1072::6
+ns3.dns.nic.aig.	172800	IN	A	156.154.159.6
+ns3.dns.nic.aig.	172800	IN	AAAA	2610:a1:1073::6
+ns4.dns.nic.aig.	172800	IN	A	156.154.156.6
+ns4.dns.nic.aig.	172800	IN	AAAA	2610:a1:1074::6
+ns5.dns.nic.aig.	172800	IN	A	156.154.157.6
+ns5.dns.nic.aig.	172800	IN	AAAA	2610:a1:1075::6
+ns6.dns.nic.aig.	172800	IN	A	156.154.158.6
+ns6.dns.nic.aig.	172800	IN	AAAA	2610:a1:1076::6
 airforce.		172800	IN	NS	demand.beta.aridns.net.au.
 airforce.		172800	IN	NS	demand.alpha.aridns.net.au.
 airforce.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -430,7 +449,12 @@ audio.			172800	IN	NS	a.ns.uniregistry.net.
 audio.			172800	IN	NS	tld.isc-sns.com.
 audio.			172800	IN	NS	tld.isc-sns.net.
 audio.			172800	IN	NS	tld.isc-sns.info.
-audio.			86400	IN	NSEC	autos. NS DS RRSIG NSEC
+audio.			86400	IN	NSEC	auto. NS DS RRSIG NSEC
+auto.			172800	IN	NS	a.ns.uniregistry.net.
+auto.			172800	IN	NS	tld.isc-sns.com.
+auto.			172800	IN	NS	tld.isc-sns.net.
+auto.			172800	IN	NS	tld.isc-sns.info.
+auto.			86400	IN	NSEC	autos. NS DS RRSIG NSEC
 autos.			172800	IN	NS	a0.nic.autos.
 autos.			172800	IN	NS	a2.nic.autos.
 autos.			172800	IN	NS	b0.nic.autos.
@@ -1133,7 +1157,12 @@ careers.		172800	IN	NS	demand.beta.aridns.net.au.
 careers.		172800	IN	NS	demand.alpha.aridns.net.au.
 careers.		172800	IN	NS	demand.delta.aridns.net.au.
 careers.		172800	IN	NS	demand.gamma.aridns.net.au.
-careers.		86400	IN	NSEC	cartier. NS DS RRSIG NSEC
+careers.		86400	IN	NSEC	cars. NS DS RRSIG NSEC
+cars.			172800	IN	NS	a.ns.uniregistry.net.
+cars.			172800	IN	NS	tld.isc-sns.com.
+cars.			172800	IN	NS	tld.isc-sns.net.
+cars.			172800	IN	NS	tld.isc-sns.info.
+cars.			86400	IN	NSEC	cartier. NS DS RRSIG NSEC
 cartier.		172800	IN	NS	ns1.dns.nic.cartier.
 cartier.		172800	IN	NS	ns2.dns.nic.cartier.
 cartier.		172800	IN	NS	ns3.dns.nic.cartier.
@@ -1263,7 +1292,7 @@ cf.			172800	IN	NS	a.ns.cf.
 cf.			172800	IN	NS	b.ns.cf.
 cf.			172800	IN	NS	c.ns.cf.
 cf.			172800	IN	NS	d.ns.cf.
-cf.			86400	IN	NSEC	cfd. NS RRSIG NSEC
+cf.			86400	IN	NSEC	cfa. NS RRSIG NSEC
 a.ns.cf.		172800	IN	A	185.21.168.17
 a.ns.cf.		172800	IN	AAAA	2a04:1b00:4::1
 b.ns.cf.		172800	IN	A	185.21.169.17
@@ -1272,6 +1301,14 @@ c.ns.cf.		172800	IN	A	185.21.170.17
 c.ns.cf.		172800	IN	AAAA	2a04:1b00:6::1
 d.ns.cf.		172800	IN	A	185.21.171.17
 d.ns.cf.		172800	IN	AAAA	2a04:1b00:7::1
+cfa.			172800	IN	NS	a5.nstld.com.
+cfa.			172800	IN	NS	c5.nstld.com.
+cfa.			172800	IN	NS	d5.nstld.com.
+cfa.			172800	IN	NS	f5.nstld.com.
+cfa.			172800	IN	NS	g5.nstld.com.
+cfa.			172800	IN	NS	h5.nstld.com.
+cfa.			172800	IN	NS	l5.nstld.com.
+cfa.			86400	IN	NSEC	cfd. NS DS RRSIG NSEC
 cfd.			172800	IN	NS	a5.nstld.com.
 cfd.			172800	IN	NS	c5.nstld.com.
 cfd.			172800	IN	NS	d5.nstld.com.
@@ -3322,7 +3359,7 @@ ibm.			172800	IN	NS	a.nic.ibm.
 ibm.			172800	IN	NS	b.nic.ibm.
 ibm.			172800	IN	NS	c.nic.ibm.
 ibm.			172800	IN	NS	d.nic.ibm.
-ibm.			86400	IN	NSEC	id. NS DS RRSIG NSEC
+ibm.			86400	IN	NSEC	icu. NS DS RRSIG NSEC
 a.nic.ibm.		172800	IN	A	37.209.192.9
 a.nic.ibm.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.ibm.		172800	IN	A	37.209.194.9
@@ -3331,6 +3368,19 @@ c.nic.ibm.		172800	IN	A	37.209.196.9
 c.nic.ibm.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.ibm.		172800	IN	A	37.209.198.9
 d.nic.ibm.		172800	IN	AAAA	2001:dcd:4::9
+icu.			172800	IN	NS	a.nic.icu.
+icu.			172800	IN	NS	b.nic.icu.
+icu.			172800	IN	NS	c.nic.icu.
+icu.			172800	IN	NS	d.nic.icu.
+icu.			86400	IN	NSEC	id. NS DS RRSIG NSEC
+a.nic.icu.		172800	IN	A	37.209.192.10
+a.nic.icu.		172800	IN	AAAA	2001:dcd:1::10
+b.nic.icu.		172800	IN	A	37.209.194.10
+b.nic.icu.		172800	IN	AAAA	2001:dcd:2::10
+c.nic.icu.		172800	IN	A	37.209.196.10
+c.nic.icu.		172800	IN	AAAA	2001:dcd:3::10
+d.nic.icu.		172800	IN	A	37.209.198.10
+d.nic.icu.		172800	IN	AAAA	2001:dcd:4::10
 id.			172800	IN	NS	a.dns.id.
 id.			172800	IN	NS	b.dns.id.
 id.			172800	IN	NS	c.dns.id.
@@ -4038,7 +4088,7 @@ li.			172800	IN	NS	d.nic.li.
 li.			172800	IN	NS	e.nic.li.
 li.			172800	IN	NS	f.nic.li.
 li.			172800	IN	NS	h.nic.li.
-li.			86400	IN	NSEC	lidl. NS DS RRSIG NSEC
+li.			86400	IN	NSEC	liaison. NS DS RRSIG NSEC
 a.nic.li.		172800	IN	A	130.59.1.80
 a.nic.li.		172800	IN	AAAA	2001:620::4
 b.nic.li.		172800	IN	A	130.59.211.10
@@ -4052,6 +4102,14 @@ e.nic.li.		172800	IN	AAAA	2001:678:3::1
 f.nic.li.		172800	IN	A	194.146.106.14
 f.nic.li.		172800	IN	AAAA	2001:67c:1010:3::53
 h.nic.li.		172800	IN	A	194.42.48.120
+liaison.		172800	IN	NS	a5.nstld.com.
+liaison.		172800	IN	NS	c5.nstld.com.
+liaison.		172800	IN	NS	d5.nstld.com.
+liaison.		172800	IN	NS	f5.nstld.com.
+liaison.		172800	IN	NS	g5.nstld.com.
+liaison.		172800	IN	NS	h5.nstld.com.
+liaison.		172800	IN	NS	l5.nstld.com.
+liaison.		86400	IN	NSEC	lidl. NS DS RRSIG NSEC
 lidl.			172800	IN	NS	a.ns.nic.lidl.
 lidl.			172800	IN	NS	c.ns.nic.lidl.
 lidl.			172800	IN	NS	x.ns.nic.lidl.
@@ -4139,7 +4197,12 @@ loans.			172800	IN	NS	demand.beta.aridns.net.au.
 loans.			172800	IN	NS	demand.alpha.aridns.net.au.
 loans.			172800	IN	NS	demand.delta.aridns.net.au.
 loans.			172800	IN	NS	demand.gamma.aridns.net.au.
-loans.			86400	IN	NSEC	london. NS DS RRSIG NSEC
+loans.			86400	IN	NSEC	lol. NS DS RRSIG NSEC
+lol.			172800	IN	NS	a.ns.uniregistry.net.
+lol.			172800	IN	NS	tld.isc-sns.com.
+lol.			172800	IN	NS	tld.isc-sns.net.
+lol.			172800	IN	NS	tld.isc-sns.info.
+lol.			86400	IN	NSEC	london. NS DS RRSIG NSEC
 london.			172800	IN	NS	a.ns.nic.london.
 london.			172800	IN	NS	b.ns.nic.london.
 london.			86400	IN	NSEC	lotte. NS DS RRSIG NSEC
@@ -4778,8 +4841,16 @@ na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
-na.			86400	IN	NSEC	nagoya. NS DS RRSIG NSEC
+na.			86400	IN	NSEC	nadex. NS DS RRSIG NSEC
 merlin.net.na.		172800	IN	A	204.152.184.96
+nadex.			172800	IN	NS	a5.nstld.com.
+nadex.			172800	IN	NS	c5.nstld.com.
+nadex.			172800	IN	NS	d5.nstld.com.
+nadex.			172800	IN	NS	f5.nstld.com.
+nadex.			172800	IN	NS	g5.nstld.com.
+nadex.			172800	IN	NS	h5.nstld.com.
+nadex.			172800	IN	NS	l5.nstld.com.
+nadex.			86400	IN	NSEC	nagoya. NS DS RRSIG NSEC
 nagoya.			172800	IN	NS	d.gmoregistry.net.
 nagoya.			172800	IN	NS	e.gmoregistry.net.
 nagoya.			172800	IN	NS	g.gmoregistry.net.
