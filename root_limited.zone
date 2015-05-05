@@ -6940,10 +6940,10 @@ si.			86400	IN	NSEC	singles. NS DS RRSIG NSEC
 si.			172800	IN	NS	b.dns.si.
 si.			172800	IN	NS	c.dns.si.
 si.			172800	IN	NS	d.dns.si.
-si.			172800	IN	NS	e.dns.si.
 si.			172800	IN	NS	f.dns.si.
 si.			172800	IN	NS	g.dns.si.
 si.			172800	IN	NS	h.dns.si.
+si.			172800	IN	NS	i.dns.si.
 si.			172800	IN	NS	sss.dns.si.
 ns2.arnes.si.		172800	IN	A	193.2.1.91
 ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000::91
@@ -6954,14 +6954,14 @@ c.dns.si.		172800	IN	AAAA	2001:660:3005:1::1:2
 d.dns.si.		172800	IN	A	130.59.1.30
 d.dns.si.		172800	IN	A	130.59.10.30
 d.dns.si.		172800	IN	AAAA	2001:620::1
-e.dns.si.		172800	IN	A	63.243.194.3
-e.dns.si.		172800	IN	AAAA	2001:5a0:10::3
 f.dns.si.		172800	IN	A	194.146.106.62
 f.dns.si.		172800	IN	AAAA	2001:67c:1010:15::53
 g.dns.si.		172800	IN	A	194.0.1.20
 g.dns.si.		172800	IN	AAAA	2001:678:4::14
 h.dns.si.		172800	IN	A	204.61.216.54
 h.dns.si.		172800	IN	AAAA	2001:500:14:6054:ad::1
+i.dns.si.		172800	IN	A	194.0.25.22
+i.dns.si.		172800	IN	AAAA	2001:678:20::22
 sss.dns.si.		172800	IN	A	81.91.161.101
 singles.		172800	IN	NS	demand.beta.aridns.net.au.
 singles.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -7027,6 +7027,9 @@ ns.ucad.sn.		172800	IN	A	196.1.95.1
 so.			172800	IN	NS	a.nic.so.
 so.			172800	IN	NS	b.nic.so.
 so.			172800	IN	NS	c.nic.so.
+so.			172800	IN	NS	g.gmoregistry.net.
+so.			172800	IN	NS	h.gmoregistry.net.
+so.			172800	IN	NS	i.gmoregistry.net.
 so.			86400	IN	NSEC	social. NS RRSIG NSEC
 a.nic.so.		172800	IN	A	72.52.71.4
 a.nic.so.		172800	IN	AAAA	2001:470:1a::4
@@ -7385,12 +7388,17 @@ th.			172800	IN	NS	dns1.thnic.co.th.
 th.			172800	IN	NS	ns-a.thnic.co.th.
 th.			172800	IN	NS	ns-e.thnic.co.th.
 th.			172800	IN	NS	sfba.sns-pb.isc.org.
-th.			86400	IN	NSEC	tickets. NS DS RRSIG NSEC
+th.			86400	IN	NSEC	theater. NS DS RRSIG NSEC
 dns1.thnic.co.th.	172800	IN	A	202.28.1.22
 dns1.thnic.co.th.	172800	IN	AAAA	2001:3c8:1209:1::22
 ns-a.thnic.co.th.	172800	IN	A	61.19.242.38
 ns-e.thnic.co.th.	172800	IN	A	194.0.1.28
 ns-e.thnic.co.th.	172800	IN	AAAA	2001:678:4::1c
+theater.		172800	IN	NS	demand.beta.aridns.net.au.
+theater.		172800	IN	NS	demand.alpha.aridns.net.au.
+theater.		172800	IN	NS	demand.delta.aridns.net.au.
+theater.		172800	IN	NS	demand.gamma.aridns.net.au.
+theater.		86400	IN	NSEC	tickets. NS DS RRSIG NSEC
 tickets.		172800	IN	NS	a.nic.tickets.
 tickets.		172800	IN	NS	b.nic.tickets.
 tickets.		172800	IN	NS	c.nic.tickets.
