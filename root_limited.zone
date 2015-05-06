@@ -3248,10 +3248,15 @@ ns3.registry.hm.	172800	IN	A	202.169.96.24
 hn.			172800	IN	NS	sns-pb.isc.org.
 hn.			172800	IN	NS	pch-anycast.rds.org.hn.
 hn.			172800	IN	NS	nicmx-anycast.rds.org.hn.
-hn.			86400	IN	NSEC	holdings. NS DS RRSIG NSEC
+hn.			86400	IN	NSEC	hockey. NS DS RRSIG NSEC
 nicmx-anycast.rds.org.hn. 172800 IN	A	200.33.111.1
 pch-anycast.rds.org.hn.	172800	IN	A	204.61.216.64
 pch-anycast.rds.org.hn.	172800	IN	AAAA	2001:500:14:6064:ad::1
+hockey.			172800	IN	NS	demand.beta.aridns.net.au.
+hockey.			172800	IN	NS	demand.alpha.aridns.net.au.
+hockey.			172800	IN	NS	demand.delta.aridns.net.au.
+hockey.			172800	IN	NS	demand.gamma.aridns.net.au.
+hockey.			86400	IN	NSEC	holdings. NS DS RRSIG NSEC
 holdings.		172800	IN	NS	demand.beta.aridns.net.au.
 holdings.		172800	IN	NS	demand.alpha.aridns.net.au.
 holdings.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -3830,15 +3835,12 @@ kg.			172800	IN	NS	ns.kg.
 kg.			86400	IN	NSEC	kh. NS DS RRSIG NSEC
 ns.kg.			172800	IN	A	195.38.160.36
 kh.			172800	IN	NS	ns.camnet.com.kh.
-kh.			172800	IN	NS	ns.telesurf.com.kh.
 kh.			172800	IN	NS	ns1.dns.net.kh.
 kh.			172800	IN	NS	dns1.online.com.kh.
 kh.			172800	IN	NS	sec3.apnic.net.
-kh.			172800	IN	NS	ns-kh.ripe.net.
 kh.			86400	IN	NSEC	ki. NS RRSIG NSEC
 ns.camnet.com.kh.	172800	IN	A	203.223.32.3
 dns1.online.com.kh.	172800	IN	A	203.189.128.1
-ns.telesurf.com.kh.	172800	IN	A	203.144.65.3
 ns1.dns.net.kh.		172800	IN	A	203.223.32.21
 ki.			172800	IN	NS	ki1.dyntld.net.
 ki.			172800	IN	NS	ki3.dyntld.net.
@@ -4349,12 +4351,14 @@ ma.			172800	IN	NS	ns1.iam.net.ma.
 ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns3.iam.net.ma.
+ma.			172800	IN	NS	ns4.registre.ma.
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	81.192.108.164
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
 ns2.iam.net.ma.		172800	IN	A	81.192.53.23
 ns3.iam.net.ma.		172800	IN	A	212.217.1.13
+ns4.registre.ma.	172800	IN	A	81.192.171.140
 madrid.			172800	IN	NS	anycast9.irondns.net.
 madrid.			172800	IN	NS	anycast10.irondns.net.
 madrid.			172800	IN	NS	anycast23.irondns.net.
@@ -5314,7 +5318,6 @@ vn.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.126
 vn.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::126
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0::4
-ns-kh.ripe.net.		172800	IN	A	193.0.12.37
 a.dns.ripn.net.		172800	IN	A	193.232.128.6
 a.dns.ripn.net.		172800	IN	AAAA	2001:678:17:0:193:232:128:6
 b.dns.ripn.net.		172800	IN	A	194.85.252.62
@@ -6613,7 +6616,12 @@ ruhr.			172800	IN	NS	anycast9.irondns.net.
 ruhr.			172800	IN	NS	anycast10.irondns.net.
 ruhr.			172800	IN	NS	anycast23.irondns.net.
 ruhr.			172800	IN	NS	anycast24.irondns.net.
-ruhr.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
+ruhr.			86400	IN	NSEC	run. NS DS RRSIG NSEC
+run.			172800	IN	NS	demand.beta.aridns.net.au.
+run.			172800	IN	NS	demand.alpha.aridns.net.au.
+run.			172800	IN	NS	demand.delta.aridns.net.au.
+run.			172800	IN	NS	demand.gamma.aridns.net.au.
+run.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	ns3.ricta.org.rw.
 rw.			172800	IN	NS	pch.ricta.org.rw.
@@ -6789,6 +6797,7 @@ scot.			172800	IN	NS	anycast10.irondns.net.
 scot.			172800	IN	NS	anycast23.irondns.net.
 scot.			172800	IN	NS	anycast24.irondns.net.
 scot.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
+sd.			86400	IN	NSEC	se. NS RRSIG NSEC
 sd.			172800	IN	NS	sd.cctld.authdns.ripe.net.
 sd.			172800	IN	NS	ns1.coza.net.za.
 sd.			172800	IN	NS	ns1.uaenic.ae.
@@ -6797,10 +6806,11 @@ sd.			172800	IN	NS	ans1.sis.sd.
 sd.			172800	IN	NS	ans1.canar.sd.
 sd.			172800	IN	NS	ans2.canar.sd.
 sd.			172800	IN	NS	ns-sd.afrinic.net.
-sd.			86400	IN	NSEC	se. NS RRSIG NSEC
 ans1.canar.sd.		172800	IN	A	196.29.180.14
 ans2.canar.sd.		172800	IN	A	196.29.164.14
 ans1.sis.sd.		172800	IN	A	196.29.166.134
+pch.sis.sd.		172800	IN	A	204.61.216.97
+pch.sis.sd.		172800	IN	AAAA	2001:500:14:6097:ad::1
 se.			86400	IN	NSEC	seat. NS DS RRSIG NSEC
 se.			172800	IN	NS	a.ns.se.
 se.			172800	IN	NS	b.ns.se.
@@ -7280,7 +7290,12 @@ tax.			172800	IN	NS	demand.beta.aridns.net.au.
 tax.			172800	IN	NS	demand.alpha.aridns.net.au.
 tax.			172800	IN	NS	demand.delta.aridns.net.au.
 tax.			172800	IN	NS	demand.gamma.aridns.net.au.
-tax.			86400	IN	NSEC	tc. NS DS RRSIG NSEC
+tax.			86400	IN	NSEC	taxi. NS DS RRSIG NSEC
+taxi.			172800	IN	NS	demand.beta.aridns.net.au.
+taxi.			172800	IN	NS	demand.alpha.aridns.net.au.
+taxi.			172800	IN	NS	demand.delta.aridns.net.au.
+taxi.			172800	IN	NS	demand.gamma.aridns.net.au.
+taxi.			86400	IN	NSEC	tc. NS DS RRSIG NSEC
 tc.			172800	IN	NS	root1.zone.tc.
 tc.			172800	IN	NS	root2.zone.tc.
 tc.			172800	IN	NS	root3.zone.tc.
@@ -8486,7 +8501,20 @@ xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
 xn--d1alf.		172800	IN	NS	ns2.arnes.si.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
-xn--d1alf.		86400	IN	NSEC	xn--fiq228c5hs. NS RRSIG NSEC
+xn--d1alf.		86400	IN	NSEC	xn--estv75g. NS RRSIG NSEC
+xn--estv75g.		172800	IN	NS	a0.nic.xn--estv75g.
+xn--estv75g.		172800	IN	NS	a2.nic.xn--estv75g.
+xn--estv75g.		172800	IN	NS	b0.nic.xn--estv75g.
+xn--estv75g.		172800	IN	NS	c0.nic.xn--estv75g.
+xn--estv75g.		86400	IN	NSEC	xn--fiq228c5hs. NS DS RRSIG NSEC
+a0.nic.xn--estv75g.	172800	IN	A	65.22.128.1
+a0.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:7e::1
+a2.nic.xn--estv75g.	172800	IN	A	65.22.131.1
+a2.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:81::1
+b0.nic.xn--estv75g.	172800	IN	A	65.22.129.1
+b0.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:7f::1
+c0.nic.xn--estv75g.	172800	IN	A	65.22.130.1
+c0.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:80::1
 xn--fiq228c5hs.		172800	IN	NS	a0.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	a2.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	b0.nic.xn--fiq228c5hs.
@@ -8700,7 +8728,10 @@ xn--mgberp4a5d4ar.	172800	IN	NS	ns1.isu.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	sa-ns.anycast.pch.net.
-xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
+xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbpl2fh. NS RRSIG NSEC
+xn--mgbpl2fh.		172800	IN	NS	pch.sis.sd.
+xn--mgbpl2fh.		172800	IN	NS	ans1.sis.sd.
+xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
 xn--mgbx4cd0ab.		172800	IN	NS	dns.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
@@ -8926,7 +8957,15 @@ xn--xkc2dl3a5ee0h.	172800	IN	NS	b1.in.afilias-nst.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	b2.in.afilias-nst.org.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--xkc2dl3a5ee0h.	86400	IN	NSEC	xn--yfro4i67o. NS DS RRSIG NSEC
+xn--xkc2dl3a5ee0h.	86400	IN	NSEC	xn--y9a3aq. NS DS RRSIG NSEC
+xn--y9a3aq.		172800	IN	NS	am.cctld.authdns.ripe.net.
+xn--y9a3aq.		172800	IN	NS	rip.psg.com.
+xn--y9a3aq.		172800	IN	NS	fork.sth.dnsnode.net.
+xn--y9a3aq.		172800	IN	NS	ns-cdn.amnic.net.
+xn--y9a3aq.		172800	IN	NS	ns-pch.amnic.net.
+xn--y9a3aq.		172800	IN	NS	ns-pri.amnic.net.
+xn--y9a3aq.		172800	IN	NS	sns-pb.isc.org.
+xn--y9a3aq.		86400	IN	NSEC	xn--yfro4i67o. NS DS RRSIG NSEC
 xn--yfro4i67o.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--yfro4i67o.		172800	IN	NS	sec3.apnic.net.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
