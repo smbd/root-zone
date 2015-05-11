@@ -932,7 +932,20 @@ broker.			172800	IN	NS	f5.nstld.com.
 broker.			172800	IN	NS	g5.nstld.com.
 broker.			172800	IN	NS	h5.nstld.com.
 broker.			172800	IN	NS	l5.nstld.com.
-broker.			86400	IN	NSEC	brussels. NS DS RRSIG NSEC
+broker.			86400	IN	NSEC	brother. NS DS RRSIG NSEC
+brother.		172800	IN	NS	a.nic.brother.
+brother.		172800	IN	NS	b.nic.brother.
+brother.		172800	IN	NS	c.nic.brother.
+brother.		172800	IN	NS	d.nic.brother.
+brother.		86400	IN	NSEC	brussels. NS DS RRSIG NSEC
+a.nic.brother.		172800	IN	A	37.209.192.9
+a.nic.brother.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.brother.		172800	IN	A	37.209.194.9
+b.nic.brother.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.brother.		172800	IN	A	37.209.196.9
+c.nic.brother.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.brother.		172800	IN	A	37.209.198.9
+d.nic.brother.		172800	IN	AAAA	2001:dcd:4::9
 brussels.		172800	IN	NS	a.nic.brussels.
 brussels.		172800	IN	NS	b.nic.brussels.
 brussels.		172800	IN	NS	c.ns.dns.be.
