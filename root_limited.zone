@@ -1768,11 +1768,16 @@ d.nic.coop.		172800	IN	A	212.18.249.64
 d.nic.coop.		172800	IN	AAAA	2a04:2b00:13ff::64
 country.		172800	IN	NS	a.ns.nic.country.
 country.		172800	IN	NS	b.ns.nic.country.
-country.		86400	IN	NSEC	courses. NS DS RRSIG NSEC
+country.		86400	IN	NSEC	coupons. NS DS RRSIG NSEC
 a.ns.nic.country.	172800	IN	A	72.0.50.17
 a.ns.nic.country.	172800	IN	AAAA	2620:171:a02:ad::17
 b.ns.nic.country.	172800	IN	A	72.42.114.17
 b.ns.nic.country.	172800	IN	AAAA	2620:171:d02:dc::17
+coupons.		172800	IN	NS	demand.beta.aridns.net.au.
+coupons.		172800	IN	NS	demand.alpha.aridns.net.au.
+coupons.		172800	IN	NS	demand.delta.aridns.net.au.
+coupons.		172800	IN	NS	demand.gamma.aridns.net.au.
+coupons.		86400	IN	NSEC	courses. NS DS RRSIG NSEC
 courses.		172800	IN	NS	a.nic.courses.
 courses.		172800	IN	NS	b.nic.courses.
 courses.		172800	IN	NS	c.nic.courses.
@@ -2742,6 +2747,8 @@ f.ext.nic.fr.		172800	IN	A	194.146.106.46
 f.ext.nic.fr.		172800	IN	AAAA	2001:67c:1010:11::53
 g.ext.nic.fr.		172800	IN	A	194.0.36.1
 g.ext.nic.fr.		172800	IN	AAAA	2001:678:4c::1
+h.ext.nic.fr.		172800	IN	A	195.253.66.2
+h.ext.nic.fr.		172800	IN	AAAA	2a01:5b0:6::2
 ci.hosting.nic.fr.	172800	IN	A	192.134.0.49
 ci.hosting.nic.fr.	172800	IN	AAAA	2001:660:3006:1::1:1
 ns-my.nic.fr.		172800	IN	A	192.134.0.49
@@ -3207,9 +3214,6 @@ hiphop.			172800	IN	NS	tld.isc-sns.com.
 hiphop.			172800	IN	NS	tld.isc-sns.net.
 hiphop.			172800	IN	NS	tld.isc-sns.info.
 hiphop.			86400	IN	NSEC	hitachi. NS DS RRSIG NSEC
-hitachi.		172800	IN	NS	a.gmoregistry.net.
-hitachi.		172800	IN	NS	b.gmoregistry.net.
-hitachi.		172800	IN	NS	c.gmoregistry.net.
 hitachi.		172800	IN	NS	d.gmoregistry.net.
 hitachi.		172800	IN	NS	e.gmoregistry.net.
 hitachi.		172800	IN	NS	g.gmoregistry.net.
@@ -3385,7 +3389,7 @@ ibm.			172800	IN	NS	a.nic.ibm.
 ibm.			172800	IN	NS	b.nic.ibm.
 ibm.			172800	IN	NS	c.nic.ibm.
 ibm.			172800	IN	NS	d.nic.ibm.
-ibm.			86400	IN	NSEC	icu. NS DS RRSIG NSEC
+ibm.			86400	IN	NSEC	icbc. NS DS RRSIG NSEC
 a.nic.ibm.		172800	IN	A	37.209.192.9
 a.nic.ibm.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.ibm.		172800	IN	A	37.209.194.9
@@ -3394,6 +3398,19 @@ c.nic.ibm.		172800	IN	A	37.209.196.9
 c.nic.ibm.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.ibm.		172800	IN	A	37.209.198.9
 d.nic.ibm.		172800	IN	AAAA	2001:dcd:4::9
+icbc.			172800	IN	NS	a0.nic.icbc.
+icbc.			172800	IN	NS	a2.nic.icbc.
+icbc.			172800	IN	NS	b0.nic.icbc.
+icbc.			172800	IN	NS	c0.nic.icbc.
+icbc.			86400	IN	NSEC	icu. NS DS RRSIG NSEC
+a0.nic.icbc.		172800	IN	A	65.22.128.33
+a0.nic.icbc.		172800	IN	AAAA	2a01:8840:7e::33
+a2.nic.icbc.		172800	IN	A	65.22.131.33
+a2.nic.icbc.		172800	IN	AAAA	2a01:8840:81::33
+b0.nic.icbc.		172800	IN	A	65.22.129.33
+b0.nic.icbc.		172800	IN	AAAA	2a01:8840:7f::33
+c0.nic.icbc.		172800	IN	A	65.22.130.33
+c0.nic.icbc.		172800	IN	AAAA	2a01:8840:80::33
 icu.			172800	IN	NS	a.nic.icu.
 icu.			172800	IN	NS	b.nic.icu.
 icu.			172800	IN	NS	c.nic.icu.
@@ -5120,11 +5137,6 @@ d.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.36
 d.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:b::4
 tld.gdns.net.		172800	IN	A	68.178.129.149
 ns2.gip.net.		172800	IN	A	204.59.1.222
-a.gmoregistry.net.	172800	IN	A	72.52.71.9
-a.gmoregistry.net.	172800	IN	AAAA	2001:470:1a::9
-b.gmoregistry.net.	172800	IN	A	38.103.2.9
-c.gmoregistry.net.	172800	IN	A	63.243.194.9
-c.gmoregistry.net.	172800	IN	AAAA	2001:5a0:10::9
 d.gmoregistry.net.	172800	IN	A	120.29.252.11
 d.gmoregistry.net.	172800	IN	AAAA	2001:dcd:5::11
 e.gmoregistry.net.	172800	IN	A	120.29.254.11
@@ -5920,6 +5932,7 @@ ns6.dns.nic.panerai.	172800	IN	AAAA	2610:a1:1076::84
 paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
 paris.			172800	IN	NS	g.ext.nic.fr.
+paris.			172800	IN	NS	h.ext.nic.fr.
 paris.			86400	IN	NSEC	partners. NS DS RRSIG NSEC
 partners.		172800	IN	NS	demand.beta.aridns.net.au.
 partners.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -7087,12 +7100,17 @@ so.			172800	IN	NS	c.nic.so.
 so.			172800	IN	NS	g.gmoregistry.net.
 so.			172800	IN	NS	h.gmoregistry.net.
 so.			172800	IN	NS	i.gmoregistry.net.
-so.			86400	IN	NSEC	social. NS RRSIG NSEC
+so.			86400	IN	NSEC	soccer. NS RRSIG NSEC
 a.nic.so.		172800	IN	A	72.52.71.4
 a.nic.so.		172800	IN	AAAA	2001:470:1a::4
 b.nic.so.		172800	IN	A	38.103.2.4
 c.nic.so.		172800	IN	A	63.243.194.4
 c.nic.so.		172800	IN	AAAA	2001:5a0:10::4
+soccer.			172800	IN	NS	demand.beta.aridns.net.au.
+soccer.			172800	IN	NS	demand.alpha.aridns.net.au.
+soccer.			172800	IN	NS	demand.delta.aridns.net.au.
+soccer.			172800	IN	NS	demand.gamma.aridns.net.au.
+soccer.			86400	IN	NSEC	social. NS DS RRSIG NSEC
 social.			172800	IN	NS	demand.beta.aridns.net.au.
 social.			172800	IN	NS	demand.alpha.aridns.net.au.
 social.			172800	IN	NS	demand.delta.aridns.net.au.
