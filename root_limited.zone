@@ -2230,7 +2230,7 @@ dvag.			172800	IN	NS	ns1b.ksregistry.net.
 dvag.			172800	IN	NS	ns2a.ksregistry.com.
 dvag.			172800	IN	NS	ns2b.ksregistry.com.
 dvag.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
-dz.			86400	IN	NSEC	eat. NS RRSIG NSEC
+dz.			86400	IN	NSEC	earth. NS RRSIG NSEC
 dz.			172800	IN	NS	dz.cctld.authdns.ripe.net.
 dz.			172800	IN	NS	ns1.nic.dz.
 dz.			172800	IN	NS	ns2.nic.dz.
@@ -2241,6 +2241,25 @@ idn2.nic.dz.		172800	IN	A	213.179.160.68
 ns1.nic.dz.		172800	IN	A	193.194.64.242
 ns1.nic.dz.		172800	IN	AAAA	2001:4340:1030:2::2
 ns2.nic.dz.		172800	IN	A	213.179.160.66
+earth.			172800	IN	NS	ns1.dns.nic.earth.
+earth.			172800	IN	NS	ns2.dns.nic.earth.
+earth.			172800	IN	NS	ns3.dns.nic.earth.
+earth.			172800	IN	NS	ns4.dns.nic.earth.
+earth.			172800	IN	NS	ns5.dns.nic.earth.
+earth.			172800	IN	NS	ns6.dns.nic.earth.
+earth.			86400	IN	NSEC	eat. NS DS RRSIG NSEC
+ns1.dns.nic.earth.	172800	IN	A	156.154.144.230
+ns1.dns.nic.earth.	172800	IN	AAAA	2610:a1:1071::e6
+ns2.dns.nic.earth.	172800	IN	A	156.154.145.230
+ns2.dns.nic.earth.	172800	IN	AAAA	2610:a1:1072::e6
+ns3.dns.nic.earth.	172800	IN	A	156.154.159.230
+ns3.dns.nic.earth.	172800	IN	AAAA	2610:a1:1073::e6
+ns4.dns.nic.earth.	172800	IN	A	156.154.156.230
+ns4.dns.nic.earth.	172800	IN	AAAA	2610:a1:1074::e6
+ns5.dns.nic.earth.	172800	IN	A	156.154.157.230
+ns5.dns.nic.earth.	172800	IN	AAAA	2610:a1:1075::e6
+ns6.dns.nic.earth.	172800	IN	A	156.154.158.230
+ns6.dns.nic.earth.	172800	IN	AAAA	2610:a1:1076::e6
 eat.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 eat.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 eat.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
