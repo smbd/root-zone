@@ -1426,9 +1426,28 @@ ci.			172800	IN	NS	ns1.ird.fr.
 ci.			172800	IN	NS	ns1.nic.ci.
 ci.			172800	IN	NS	ns-ci.afrinic.net.
 ci.			172800	IN	NS	phloem.uoregon.edu.
-ci.			86400	IN	NSEC	citic. NS RRSIG NSEC
+ci.			86400	IN	NSEC	cisco. NS RRSIG NSEC
 ns.nic.ci.		172800	IN	A	213.136.100.81
 ns1.nic.ci.		172800	IN	A	213.136.100.83
+cisco.			172800	IN	NS	ns1.dns.nic.cisco.
+cisco.			172800	IN	NS	ns2.dns.nic.cisco.
+cisco.			172800	IN	NS	ns3.dns.nic.cisco.
+cisco.			172800	IN	NS	ns4.dns.nic.cisco.
+cisco.			172800	IN	NS	ns5.dns.nic.cisco.
+cisco.			172800	IN	NS	ns6.dns.nic.cisco.
+cisco.			86400	IN	NSEC	citic. NS DS RRSIG NSEC
+ns1.dns.nic.cisco.	172800	IN	A	156.154.144.44
+ns1.dns.nic.cisco.	172800	IN	AAAA	2610:a1:1071::2c
+ns2.dns.nic.cisco.	172800	IN	A	156.154.145.44
+ns2.dns.nic.cisco.	172800	IN	AAAA	2610:a1:1072::2c
+ns3.dns.nic.cisco.	172800	IN	A	156.154.159.44
+ns3.dns.nic.cisco.	172800	IN	AAAA	2610:a1:1073::2c
+ns4.dns.nic.cisco.	172800	IN	A	156.154.156.44
+ns4.dns.nic.cisco.	172800	IN	AAAA	2610:a1:1074::2c
+ns5.dns.nic.cisco.	172800	IN	A	156.154.157.44
+ns5.dns.nic.cisco.	172800	IN	AAAA	2610:a1:1075::2c
+ns6.dns.nic.cisco.	172800	IN	A	156.154.158.44
+ns6.dns.nic.cisco.	172800	IN	AAAA	2610:a1:1076::2c
 citic.			172800	IN	NS	a.zdnscloud.com.
 citic.			172800	IN	NS	b.zdnscloud.com.
 citic.			172800	IN	NS	c.zdnscloud.com.
@@ -4564,8 +4583,8 @@ mg.			172800	IN	NS	mg1.dyntld.net.
 mg.			172800	IN	NS	mg2.dyntld.net.
 mg.			172800	IN	NS	mg3.dyntld.net.
 mg.			172800	IN	NS	mg4.dyntld.net.
-mg.			172800	IN	NS	ns1.ird.fr.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
+mg.			172800	IN	NS	censvrns0001.ird.fr.
 mg.			86400	IN	NSEC	mh. NS RRSIG NSEC
 ns.dts.mg.		172800	IN	A	196.192.32.2
 ns.nic.mg.		172800	IN	A	196.192.42.153
