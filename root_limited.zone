@@ -1776,7 +1776,7 @@ coop.			172800	IN	NS	a.nic.coop.
 coop.			172800	IN	NS	b.nic.coop.
 coop.			172800	IN	NS	c.nic.coop.
 coop.			172800	IN	NS	d.nic.coop.
-coop.			86400	IN	NSEC	country. NS RRSIG NSEC
+coop.			86400	IN	NSEC	corsica. NS RRSIG NSEC
 a.nic.coop.		172800	IN	A	194.169.218.64
 a.nic.coop.		172800	IN	AAAA	2001:67c:13cc::1:64
 b.nic.coop.		172800	IN	A	185.24.64.64
@@ -1785,6 +1785,10 @@ c.nic.coop.		172800	IN	A	212.18.248.64
 c.nic.coop.		172800	IN	AAAA	2a04:2b00:13ee::64
 d.nic.coop.		172800	IN	A	212.18.249.64
 d.nic.coop.		172800	IN	AAAA	2a04:2b00:13ff::64
+corsica.		172800	IN	NS	d.nic.fr.
+corsica.		172800	IN	NS	f.ext.nic.fr.
+corsica.		172800	IN	NS	g.ext.nic.fr.
+corsica.		86400	IN	NSEC	country. NS DS RRSIG NSEC
 country.		172800	IN	NS	a.ns.nic.country.
 country.		172800	IN	NS	b.ns.nic.country.
 country.		86400	IN	NSEC	coupons. NS DS RRSIG NSEC
@@ -4366,7 +4370,7 @@ lu.			172800	IN	NS	k.dns.lu.
 lu.			172800	IN	NS	p.dns.lu.
 lu.			172800	IN	NS	ns1.dns.lu.
 lu.			172800	IN	NS	ns5.dns.lu.
-lu.			86400	IN	NSEC	luxe. NS DS RRSIG NSEC
+lu.			86400	IN	NSEC	lupin. NS DS RRSIG NSEC
 g.dns.lu.		172800	IN	A	194.0.23.5
 g.dns.lu.		172800	IN	AAAA	2001:678:1b:5::5
 i.dns.lu.		172800	IN	A	194.146.106.66
@@ -4380,6 +4384,14 @@ ns1.dns.lu.		172800	IN	AAAA	2001:a18:4:1::18
 ns5.dns.lu.		172800	IN	A	81.91.161.100
 p.dns.lu.		172800	IN	A	194.0.42.42
 p.dns.lu.		172800	IN	AAAA	2001:678:60::42:42
+lupin.			172800	IN	NS	a5.nstld.com.
+lupin.			172800	IN	NS	c5.nstld.com.
+lupin.			172800	IN	NS	d5.nstld.com.
+lupin.			172800	IN	NS	f5.nstld.com.
+lupin.			172800	IN	NS	g5.nstld.com.
+lupin.			172800	IN	NS	h5.nstld.com.
+lupin.			172800	IN	NS	l5.nstld.com.
+lupin.			86400	IN	NSEC	luxe. NS DS RRSIG NSEC
 luxe.			172800	IN	NS	a.ns.nic.luxe.
 luxe.			172800	IN	NS	b.ns.nic.luxe.
 luxe.			86400	IN	NSEC	luxury. NS DS RRSIG NSEC
