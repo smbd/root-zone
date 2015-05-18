@@ -1945,7 +1945,16 @@ cymru.			172800	IN	NS	ns4.nic.uk.
 cymru.			172800	IN	NS	ns5.nic.uk.
 cymru.			172800	IN	NS	ns6.nic.uk.
 cymru.			172800	IN	NS	ns7.nic.uk.
+cymru.			172800	IN	NS	dnsa.nic.cymru.
+cymru.			172800	IN	NS	dnsb.nic.cymru.
+cymru.			172800	IN	NS	dnsc.nic.cymru.
+cymru.			172800	IN	NS	dnsd.nic.cymru.
 cymru.			86400	IN	NSEC	cyou. NS DS RRSIG NSEC
+dnsa.nic.cymru.		172800	IN	A	156.154.100.3
+dnsa.nic.cymru.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.cymru.		172800	IN	A	156.154.101.3
+dnsc.nic.cymru.		172800	IN	A	156.154.102.3
+dnsd.nic.cymru.		172800	IN	A	156.154.103.3
 cyou.			172800	IN	NS	a0.nic.cyou.
 cyou.			172800	IN	NS	a2.nic.cyou.
 cyou.			172800	IN	NS	b0.nic.cyou.
