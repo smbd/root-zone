@@ -4583,7 +4583,20 @@ memorial.		172800	IN	NS	demand.beta.aridns.net.au.
 memorial.		172800	IN	NS	demand.alpha.aridns.net.au.
 memorial.		172800	IN	NS	demand.delta.aridns.net.au.
 memorial.		172800	IN	NS	demand.gamma.aridns.net.au.
-memorial.		86400	IN	NSEC	menu. NS DS RRSIG NSEC
+memorial.		86400	IN	NSEC	men. NS DS RRSIG NSEC
+men.			172800	IN	NS	a.nic.men.
+men.			172800	IN	NS	b.nic.men.
+men.			172800	IN	NS	c.nic.men.
+men.			172800	IN	NS	d.nic.men.
+men.			86400	IN	NSEC	menu. NS DS RRSIG NSEC
+a.nic.men.		172800	IN	A	37.209.192.10
+a.nic.men.		172800	IN	AAAA	2001:dcd:1::10
+b.nic.men.		172800	IN	A	37.209.194.10
+b.nic.men.		172800	IN	AAAA	2001:dcd:2::10
+c.nic.men.		172800	IN	A	37.209.196.10
+c.nic.men.		172800	IN	AAAA	2001:dcd:3::10
+d.nic.men.		172800	IN	A	37.209.198.10
+d.nic.men.		172800	IN	AAAA	2001:dcd:4::10
 menu.			172800	IN	NS	a.nic.menu.
 menu.			172800	IN	NS	b.nic.menu.
 menu.			172800	IN	NS	c.nic.menu.
@@ -7153,18 +7166,16 @@ sn.			172800	IN	NS	censvrns0001.ird.fr.
 sn.			86400	IN	NSEC	so. NS RRSIG NSEC
 ns1.sonatel.sn.		172800	IN	A	213.154.64.11
 ns.ucad.sn.		172800	IN	A	196.1.95.1
-so.			172800	IN	NS	a.nic.so.
-so.			172800	IN	NS	b.nic.so.
-so.			172800	IN	NS	c.nic.so.
+so.			172800	IN	NS	d.nic.so.
+so.			172800	IN	NS	e.nic.so.
 so.			172800	IN	NS	g.gmoregistry.net.
 so.			172800	IN	NS	h.gmoregistry.net.
 so.			172800	IN	NS	i.gmoregistry.net.
 so.			86400	IN	NSEC	soccer. NS RRSIG NSEC
-a.nic.so.		172800	IN	A	72.52.71.4
-a.nic.so.		172800	IN	AAAA	2001:470:1a::4
-b.nic.so.		172800	IN	A	38.103.2.4
-c.nic.so.		172800	IN	A	63.243.194.4
-c.nic.so.		172800	IN	AAAA	2001:5a0:10::4
+d.nic.so.		172800	IN	A	196.216.168.54
+d.nic.so.		172800	IN	AAAA	2001:43f8:120::54
+e.nic.so.		172800	IN	A	204.61.216.101
+e.nic.so.		172800	IN	AAAA	2001:500:14:6101:ad::1
 soccer.			172800	IN	NS	demand.beta.aridns.net.au.
 soccer.			172800	IN	NS	demand.alpha.aridns.net.au.
 soccer.			172800	IN	NS	demand.delta.aridns.net.au.
