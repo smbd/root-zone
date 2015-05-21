@@ -2843,7 +2843,12 @@ futbol.			172800	IN	NS	demand.beta.aridns.net.au.
 futbol.			172800	IN	NS	demand.alpha.aridns.net.au.
 futbol.			172800	IN	NS	demand.delta.aridns.net.au.
 futbol.			172800	IN	NS	demand.gamma.aridns.net.au.
-futbol.			86400	IN	NSEC	ga. NS DS RRSIG NSEC
+futbol.			86400	IN	NSEC	fyi. NS DS RRSIG NSEC
+fyi.			172800	IN	NS	demand.beta.aridns.net.au.
+fyi.			172800	IN	NS	demand.alpha.aridns.net.au.
+fyi.			172800	IN	NS	demand.delta.aridns.net.au.
+fyi.			172800	IN	NS	demand.gamma.aridns.net.au.
+fyi.			86400	IN	NSEC	ga. NS DS RRSIG NSEC
 ga.			172800	IN	NS	a.ns.ga.
 ga.			172800	IN	NS	b.ns.ga.
 ga.			172800	IN	NS	c.ns.ga.
@@ -3842,7 +3847,20 @@ jewelry.		172800	IN	NS	demand.beta.aridns.net.au.
 jewelry.		172800	IN	NS	demand.alpha.aridns.net.au.
 jewelry.		172800	IN	NS	demand.delta.aridns.net.au.
 jewelry.		172800	IN	NS	demand.gamma.aridns.net.au.
-jewelry.		86400	IN	NSEC	jm. NS DS RRSIG NSEC
+jewelry.		86400	IN	NSEC	jll. NS DS RRSIG NSEC
+jll.			172800	IN	NS	a0.nic.jll.
+jll.			172800	IN	NS	a2.nic.jll.
+jll.			172800	IN	NS	b0.nic.jll.
+jll.			172800	IN	NS	c0.nic.jll.
+jll.			86400	IN	NSEC	jm. NS DS RRSIG NSEC
+a0.nic.jll.		172800	IN	A	65.22.148.9
+a0.nic.jll.		172800	IN	AAAA	2a01:8840:92::9
+a2.nic.jll.		172800	IN	A	65.22.151.9
+a2.nic.jll.		172800	IN	AAAA	2a01:8840:95::9
+b0.nic.jll.		172800	IN	A	65.22.149.9
+b0.nic.jll.		172800	IN	AAAA	2a01:8840:93::9
+c0.nic.jll.		172800	IN	A	65.22.150.9
+c0.nic.jll.		172800	IN	AAAA	2a01:8840:94::9
 jm.			172800	IN	NS	jm.cctld.authdns.ripe.net.
 jm.			172800	IN	NS	ns.jm.
 jm.			172800	IN	NS	ns.utechjamaica.edu.jm.
@@ -4506,7 +4524,7 @@ marriott.		172800	IN	NS	a0.nic.marriott.
 marriott.		172800	IN	NS	a2.nic.marriott.
 marriott.		172800	IN	NS	b0.nic.marriott.
 marriott.		172800	IN	NS	c0.nic.marriott.
-marriott.		86400	IN	NSEC	mc. NS DS RRSIG NSEC
+marriott.		86400	IN	NSEC	mba. NS DS RRSIG NSEC
 a0.nic.marriott.	172800	IN	A	65.22.236.9
 a0.nic.marriott.	172800	IN	AAAA	2a01:8840:e6::9
 a2.nic.marriott.	172800	IN	A	65.22.239.9
@@ -4515,6 +4533,11 @@ b0.nic.marriott.	172800	IN	A	65.22.237.9
 b0.nic.marriott.	172800	IN	AAAA	2a01:8840:e7::9
 c0.nic.marriott.	172800	IN	A	65.22.238.9
 c0.nic.marriott.	172800	IN	AAAA	2a01:8840:e8::9
+mba.			172800	IN	NS	demand.beta.aridns.net.au.
+mba.			172800	IN	NS	demand.alpha.aridns.net.au.
+mba.			172800	IN	NS	demand.delta.aridns.net.au.
+mba.			172800	IN	NS	demand.gamma.aridns.net.au.
+mba.			86400	IN	NSEC	mc. NS DS RRSIG NSEC
 mc.			172800	IN	NS	mc.cctld.authdns.ripe.net.
 mc.			172800	IN	NS	ns1.nic.mc.
 mc.			172800	IN	NS	ns2.nic.mc.
@@ -7538,12 +7561,25 @@ th.			172800	IN	NS	dns1.thnic.co.th.
 th.			172800	IN	NS	ns-a.thnic.co.th.
 th.			172800	IN	NS	ns-e.thnic.co.th.
 th.			172800	IN	NS	sfba.sns-pb.isc.org.
-th.			86400	IN	NSEC	theater. NS DS RRSIG NSEC
+th.			86400	IN	NSEC	thd. NS DS RRSIG NSEC
 dns1.thnic.co.th.	172800	IN	A	202.28.1.22
 dns1.thnic.co.th.	172800	IN	AAAA	2001:3c8:1209:1::22
 ns-a.thnic.co.th.	172800	IN	A	61.19.242.38
 ns-e.thnic.co.th.	172800	IN	A	194.0.1.28
 ns-e.thnic.co.th.	172800	IN	AAAA	2001:678:4::1c
+thd.			172800	IN	NS	a0.nic.thd.
+thd.			172800	IN	NS	a2.nic.thd.
+thd.			172800	IN	NS	b0.nic.thd.
+thd.			172800	IN	NS	c0.nic.thd.
+thd.			86400	IN	NSEC	theater. NS DS RRSIG NSEC
+a0.nic.thd.		172800	IN	A	65.22.192.9
+a0.nic.thd.		172800	IN	AAAA	2a01:8840:ba::9
+a2.nic.thd.		172800	IN	A	65.22.195.9
+a2.nic.thd.		172800	IN	AAAA	2a01:8840:bd::9
+b0.nic.thd.		172800	IN	A	65.22.193.9
+b0.nic.thd.		172800	IN	AAAA	2a01:8840:bb::9
+c0.nic.thd.		172800	IN	A	65.22.194.9
+c0.nic.thd.		172800	IN	AAAA	2a01:8840:bc::9
 theater.		172800	IN	NS	demand.beta.aridns.net.au.
 theater.		172800	IN	NS	demand.alpha.aridns.net.au.
 theater.		172800	IN	NS	demand.delta.aridns.net.au.
