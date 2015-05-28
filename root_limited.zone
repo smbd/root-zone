@@ -4978,8 +4978,8 @@ anyns.uem.mz.		172800	IN	A	204.61.216.14
 dzowo.uem.mz.		172800	IN	A	196.3.96.66
 oceano.uem.mz.		172800	IN	A	196.3.96.69
 zebra.uem.mz.		172800	IN	A	196.3.96.67
-na.			172800	IN	NS	na1.dyntld.net.
-na.			172800	IN	NS	na2.dyntld.net.
+na.			172800	IN	NS	a.na.dyntld.net.
+na.			172800	IN	NS	b.na.dyntld.net.
 na.			172800	IN	NS	ns5.nominum.com.
 na.			172800	IN	NS	ns6.nominum.eu.
 na.			172800	IN	NS	anyc2.irondns.net.
@@ -5201,8 +5201,10 @@ a.ms.dyntld.net.	172800	IN	A	199.19.5.23
 a.ms.dyntld.net.	172800	IN	AAAA	2001:500:92::23
 b.ms.dyntld.net.	172800	IN	A	199.19.6.23
 b.ms.dyntld.net.	172800	IN	AAAA	2001:500:96::23
-na1.dyntld.net.		172800	IN	A	208.78.70.90
-na2.dyntld.net.		172800	IN	A	204.13.250.90
+a.na.dyntld.net.	172800	IN	A	108.59.162.1
+a.na.dyntld.net.	172800	IN	AAAA	2a02:e180:5::1
+b.na.dyntld.net.	172800	IN	A	108.59.163.1
+b.na.dyntld.net.	172800	IN	AAAA	2a02:e180:6::1
 a.nf.dyntld.net.	172800	IN	A	199.19.5.10
 a.nf.dyntld.net.	172800	IN	AAAA	2001:500:92::10
 b.nf.dyntld.net.	172800	IN	A	199.19.6.10
@@ -9153,7 +9155,7 @@ xn--vuq861b.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns3.dotmasr.eg.
-xn--wgbh1c.		86400	IN	NSEC	xn--wgbl6a. NS RRSIG NSEC
+xn--wgbh1c.		86400	IN	NSEC	xn--wgbl6a. NS DS RRSIG NSEC
 xn--wgbl6a.		172800	IN	NS	a.registry.qa.
 xn--wgbl6a.		172800	IN	NS	b.registry.qa.
 xn--wgbl6a.		172800	IN	NS	c.registry.qa.
