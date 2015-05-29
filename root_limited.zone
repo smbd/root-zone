@@ -7190,13 +7190,18 @@ sk.			172800	IN	NS	a.tld.sk.
 sk.			172800	IN	NS	b.tld.sk.
 sk.			172800	IN	NS	c.tld.sk.
 sk.			172800	IN	NS	sns-pb.isc.org.
-sk.			86400	IN	NSEC	sky. NS RRSIG NSEC
+sk.			86400	IN	NSEC	ski. NS RRSIG NSEC
 a.tld.sk.		172800	IN	A	194.0.45.1
 a.tld.sk.		172800	IN	AAAA	2001:678:70::1
 b.tld.sk.		172800	IN	A	84.245.96.1
 b.tld.sk.		172800	IN	AAAA	2001:678:90::1
 c.tld.sk.		172800	IN	A	217.75.72.157
 c.tld.sk.		172800	IN	AAAA	2a02:770:100:100::101
+ski.			172800	IN	NS	ns1a.ksregistry.net.
+ski.			172800	IN	NS	ns1b.ksregistry.net.
+ski.			172800	IN	NS	ns2a.ksregistry.com.
+ski.			172800	IN	NS	ns2b.ksregistry.com.
+ski.			86400	IN	NSEC	sky. NS DS RRSIG NSEC
 sky.			172800	IN	NS	a5.nstld.com.
 sky.			172800	IN	NS	c5.nstld.com.
 sky.			172800	IN	NS	d5.nstld.com.
@@ -8840,7 +8845,7 @@ xn--i1b6b1a6a2e.	172800	IN	NS	a0.nic.xn--i1b6b1a6a2e.
 xn--i1b6b1a6a2e.	172800	IN	NS	a2.nic.xn--i1b6b1a6a2e.
 xn--i1b6b1a6a2e.	172800	IN	NS	b0.nic.xn--i1b6b1a6a2e.
 xn--i1b6b1a6a2e.	172800	IN	NS	c0.nic.xn--i1b6b1a6a2e.
-xn--i1b6b1a6a2e.	86400	IN	NSEC	xn--io0a7i. NS DS RRSIG NSEC
+xn--i1b6b1a6a2e.	86400	IN	NSEC	xn--imr513n. NS DS RRSIG NSEC
 a0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.184.1
 a0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b2::1
 a2.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.187.1
@@ -8849,6 +8854,16 @@ b0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.185.1
 b0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b3::1
 c0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.186.1
 c0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b4::1
+xn--imr513n.		172800	IN	NS	a.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	b.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	c.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	d.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	e.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	f.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	g.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	i.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	j.zdnscloud.com.
+xn--imr513n.		86400	IN	NSEC	xn--io0a7i. NS DS RRSIG NSEC
 xn--io0a7i.		172800	IN	NS	a.ngtld.cn.
 xn--io0a7i.		172800	IN	NS	b.ngtld.cn.
 xn--io0a7i.		172800	IN	NS	c.ngtld.cn.
