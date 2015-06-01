@@ -717,11 +717,30 @@ bi.			172800	IN	NS	dns.princeton.edu.
 bi.			172800	IN	NS	ns1.nic.bi.
 bi.			172800	IN	NS	anyns.nic.bi.
 bi.			172800	IN	NS	ns-bi.afrinic.net.
-bi.			86400	IN	NSEC	bid. NS RRSIG NSEC
+bi.			86400	IN	NSEC	bible. NS RRSIG NSEC
 anyns.nic.bi.		172800	IN	A	204.61.216.61
 anyns.nic.bi.		172800	IN	AAAA	2001:500:14:6061:ad::1
 ns.nic.bi.		172800	IN	A	196.2.8.205
 ns1.nic.bi.		172800	IN	A	196.2.12.205
+bible.			172800	IN	NS	ns1.dns.nic.bible.
+bible.			172800	IN	NS	ns2.dns.nic.bible.
+bible.			172800	IN	NS	ns3.dns.nic.bible.
+bible.			172800	IN	NS	ns4.dns.nic.bible.
+bible.			172800	IN	NS	ns5.dns.nic.bible.
+bible.			172800	IN	NS	ns6.dns.nic.bible.
+bible.			86400	IN	NSEC	bid. NS DS RRSIG NSEC
+ns1.dns.nic.bible.	172800	IN	A	156.154.169.100
+ns1.dns.nic.bible.	172800	IN	AAAA	2610:a1:1071::1:64
+ns2.dns.nic.bible.	172800	IN	A	156.154.170.100
+ns2.dns.nic.bible.	172800	IN	AAAA	2610:a1:1072::1:64
+ns3.dns.nic.bible.	172800	IN	A	156.154.171.100
+ns3.dns.nic.bible.	172800	IN	AAAA	2610:a1:1073::1:64
+ns4.dns.nic.bible.	172800	IN	A	156.154.172.100
+ns4.dns.nic.bible.	172800	IN	AAAA	2610:a1:1074::1:64
+ns5.dns.nic.bible.	172800	IN	A	156.154.173.100
+ns5.dns.nic.bible.	172800	IN	AAAA	2610:a1:1075::1:64
+ns6.dns.nic.bible.	172800	IN	A	156.154.174.100
+ns6.dns.nic.bible.	172800	IN	AAAA	2610:a1:1076::1:64
 bid.			172800	IN	NS	ns1.dns.nic.bid.
 bid.			172800	IN	NS	ns2.dns.nic.bid.
 bid.			172800	IN	NS	ns3.dns.nic.bid.
