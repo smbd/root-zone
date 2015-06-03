@@ -2935,6 +2935,8 @@ gdn.			86400	IN	NSEC	ge. NS DS RRSIG NSEC
 ns1.nic.gdn.		172800	IN	A	194.0.1.37
 ns1.nic.gdn.		172800	IN	AAAA	2001:678:4::25
 ns2.nic.gdn.		172800	IN	A	167.114.102.194
+ns2.nic.gdn.		172800	IN	A	204.61.216.99
+ns2.nic.gdn.		172800	IN	AAAA	2001:500:14:6099:ad::1
 ns2.nic.gdn.		172800	IN	AAAA	2607:5300:60:69c2::1
 ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
@@ -3382,7 +3384,20 @@ holiday.		172800	IN	NS	demand.beta.aridns.net.au.
 holiday.		172800	IN	NS	demand.alpha.aridns.net.au.
 holiday.		172800	IN	NS	demand.delta.aridns.net.au.
 holiday.		172800	IN	NS	demand.gamma.aridns.net.au.
-holiday.		86400	IN	NSEC	homes. NS DS RRSIG NSEC
+holiday.		86400	IN	NSEC	homedepot. NS DS RRSIG NSEC
+homedepot.		172800	IN	NS	a0.nic.homedepot.
+homedepot.		172800	IN	NS	a2.nic.homedepot.
+homedepot.		172800	IN	NS	b0.nic.homedepot.
+homedepot.		172800	IN	NS	c0.nic.homedepot.
+homedepot.		86400	IN	NSEC	homes. NS DS RRSIG NSEC
+a0.nic.homedepot.	172800	IN	A	65.22.192.1
+a0.nic.homedepot.	172800	IN	AAAA	2a01:8840:ba::1
+a2.nic.homedepot.	172800	IN	A	65.22.195.1
+a2.nic.homedepot.	172800	IN	AAAA	2a01:8840:bd::1
+b0.nic.homedepot.	172800	IN	A	65.22.193.1
+b0.nic.homedepot.	172800	IN	AAAA	2a01:8840:bb::1
+c0.nic.homedepot.	172800	IN	A	65.22.194.1
+c0.nic.homedepot.	172800	IN	AAAA	2a01:8840:bc::1
 homes.			172800	IN	NS	a0.nic.homes.
 homes.			172800	IN	NS	a2.nic.homes.
 homes.			172800	IN	NS	b0.nic.homes.
@@ -7582,10 +7597,10 @@ a.nic.tech.		172800	IN	A	194.169.218.60
 a.nic.tech.		172800	IN	AAAA	2001:67c:13cc::1:60
 b.nic.tech.		172800	IN	A	185.24.64.60
 b.nic.tech.		172800	IN	AAAA	2a04:2b00:13cc::1:60
-c.nic.tech.		172800	IN	A	194.0.2.2
-c.nic.tech.		172800	IN	AAAA	2001:678:5::2
-d.nic.tech.		172800	IN	A	194.0.1.45
-d.nic.tech.		172800	IN	AAAA	2001:678:4::2d
+c.nic.tech.		172800	IN	A	185.38.99.6
+c.nic.tech.		172800	IN	AAAA	2a02:e180:3::6
+d.nic.tech.		172800	IN	A	108.59.161.6
+d.nic.tech.		172800	IN	AAAA	2a02:e180:4::6
 technology.		172800	IN	NS	demand.beta.aridns.net.au.
 technology.		172800	IN	NS	demand.alpha.aridns.net.au.
 technology.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -8532,7 +8547,15 @@ wtf.			172800	IN	NS	demand.beta.aridns.net.au.
 wtf.			172800	IN	NS	demand.alpha.aridns.net.au.
 wtf.			172800	IN	NS	demand.delta.aridns.net.au.
 wtf.			172800	IN	NS	demand.gamma.aridns.net.au.
-wtf.			86400	IN	NSEC	xerox. NS DS RRSIG NSEC
+wtf.			86400	IN	NSEC	xbox. NS DS RRSIG NSEC
+xbox.			172800	IN	NS	a5.nstld.com.
+xbox.			172800	IN	NS	c5.nstld.com.
+xbox.			172800	IN	NS	d5.nstld.com.
+xbox.			172800	IN	NS	f5.nstld.com.
+xbox.			172800	IN	NS	g5.nstld.com.
+xbox.			172800	IN	NS	h5.nstld.com.
+xbox.			172800	IN	NS	l5.nstld.com.
+xbox.			86400	IN	NSEC	xerox. NS DS RRSIG NSEC
 xerox.			172800	IN	NS	a5.nstld.com.
 xerox.			172800	IN	NS	c5.nstld.com.
 xerox.			172800	IN	NS	d5.nstld.com.
