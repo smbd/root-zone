@@ -2261,7 +2261,11 @@ domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
 domains.		172800	IN	NS	demand.gamma.aridns.net.au.
 domains.		86400	IN	NSEC	doosan. NS DS RRSIG NSEC
+doosan.			172800	IN	NS	b.dns.kr.
+doosan.			172800	IN	NS	c.dns.kr.
+doosan.			172800	IN	NS	d.dns.kr.
 doosan.			172800	IN	NS	e.dns.kr.
+doosan.			172800	IN	NS	f.dns.kr.
 doosan.			172800	IN	NS	g.dns.kr.
 doosan.			86400	IN	NSEC	download. NS DS RRSIG NSEC
 download.		172800	IN	NS	ns1.dns.nic.download.
@@ -3810,7 +3814,6 @@ sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
 it.			86400	IN	NSEC	iwc. NS RRSIG NSEC
 it.			172800	IN	NS	a.dns.it.
-it.			172800	IN	NS	c.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
 it.			172800	IN	NS	s.dns.it.
@@ -3821,8 +3824,6 @@ nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.		172800	IN	A	194.0.16.215
 a.dns.it.		172800	IN	AAAA	2001:678:12:0:194:0:16:215
-c.dns.it.		172800	IN	A	194.0.1.22
-c.dns.it.		172800	IN	AAAA	2001:678:4::16
 m.dns.it.		172800	IN	A	217.29.76.4
 m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
@@ -4843,7 +4844,26 @@ money.			172800	IN	NS	demand.beta.aridns.net.au.
 money.			172800	IN	NS	demand.alpha.aridns.net.au.
 money.			172800	IN	NS	demand.delta.aridns.net.au.
 money.			172800	IN	NS	demand.gamma.aridns.net.au.
-money.			86400	IN	NSEC	mormon. NS DS RRSIG NSEC
+money.			86400	IN	NSEC	montblanc. NS DS RRSIG NSEC
+montblanc.		172800	IN	NS	ns1.dns.nic.montblanc.
+montblanc.		172800	IN	NS	ns2.dns.nic.montblanc.
+montblanc.		172800	IN	NS	ns3.dns.nic.montblanc.
+montblanc.		172800	IN	NS	ns4.dns.nic.montblanc.
+montblanc.		172800	IN	NS	ns5.dns.nic.montblanc.
+montblanc.		172800	IN	NS	ns6.dns.nic.montblanc.
+montblanc.		86400	IN	NSEC	mormon. NS DS RRSIG NSEC
+ns1.dns.nic.montblanc.	172800	IN	A	156.154.144.116
+ns1.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1071::74
+ns2.dns.nic.montblanc.	172800	IN	A	156.154.145.116
+ns2.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1072::74
+ns3.dns.nic.montblanc.	172800	IN	A	156.154.159.116
+ns3.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1073::74
+ns4.dns.nic.montblanc.	172800	IN	A	156.154.156.116
+ns4.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1074::74
+ns5.dns.nic.montblanc.	172800	IN	A	156.154.157.116
+ns5.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1075::74
+ns6.dns.nic.montblanc.	172800	IN	A	156.154.158.116
+ns6.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1076::74
 mormon.			172800	IN	NS	a0.nic.mormon.
 mormon.			172800	IN	NS	a2.nic.mormon.
 mormon.			172800	IN	NS	b0.nic.mormon.
@@ -6884,7 +6904,11 @@ sale.			172800	IN	NS	demand.alpha.aridns.net.au.
 sale.			172800	IN	NS	demand.delta.aridns.net.au.
 sale.			172800	IN	NS	demand.gamma.aridns.net.au.
 sale.			86400	IN	NSEC	samsung. NS DS RRSIG NSEC
+samsung.		172800	IN	NS	b.dns.kr.
+samsung.		172800	IN	NS	c.dns.kr.
+samsung.		172800	IN	NS	d.dns.kr.
 samsung.		172800	IN	NS	e.dns.kr.
+samsung.		172800	IN	NS	f.dns.kr.
 samsung.		172800	IN	NS	g.dns.kr.
 samsung.		86400	IN	NSEC	sandvik. NS DS RRSIG NSEC
 sandvik.		172800	IN	NS	a.nic.sandvik.
