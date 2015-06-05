@@ -522,7 +522,15 @@ ns6.dns.nic.axa.	172800	IN	AAAA	2610:a1:1076::14
 az.			172800	IN	NS	az.hostmaster.ua.
 az.			172800	IN	NS	ns.demos.su.
 az.			172800	IN	NS	rip.psg.com.
-az.			86400	IN	NSEC	ba. NS RRSIG NSEC
+az.			86400	IN	NSEC	azure. NS RRSIG NSEC
+azure.			172800	IN	NS	a5.nstld.com.
+azure.			172800	IN	NS	c5.nstld.com.
+azure.			172800	IN	NS	d5.nstld.com.
+azure.			172800	IN	NS	f5.nstld.com.
+azure.			172800	IN	NS	g5.nstld.com.
+azure.			172800	IN	NS	h5.nstld.com.
+azure.			172800	IN	NS	l5.nstld.com.
+azure.			86400	IN	NSEC	ba. NS DS RRSIG NSEC
 ba.			172800	IN	NS	ba.cctld.authdns.ripe.net.
 ba.			172800	IN	NS	ns.ba.
 ba.			172800	IN	NS	sava.utic.net.ba.
