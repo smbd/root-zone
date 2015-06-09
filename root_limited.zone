@@ -772,7 +772,15 @@ bike.			172800	IN	NS	demand.beta.aridns.net.au.
 bike.			172800	IN	NS	demand.alpha.aridns.net.au.
 bike.			172800	IN	NS	demand.delta.aridns.net.au.
 bike.			172800	IN	NS	demand.gamma.aridns.net.au.
-bike.			86400	IN	NSEC	bingo. NS DS RRSIG NSEC
+bike.			86400	IN	NSEC	bing. NS DS RRSIG NSEC
+bing.			172800	IN	NS	a5.nstld.com.
+bing.			172800	IN	NS	c5.nstld.com.
+bing.			172800	IN	NS	d5.nstld.com.
+bing.			172800	IN	NS	f5.nstld.com.
+bing.			172800	IN	NS	g5.nstld.com.
+bing.			172800	IN	NS	h5.nstld.com.
+bing.			172800	IN	NS	l5.nstld.com.
+bing.			86400	IN	NSEC	bingo. NS DS RRSIG NSEC
 bingo.			172800	IN	NS	demand.beta.aridns.net.au.
 bingo.			172800	IN	NS	demand.alpha.aridns.net.au.
 bingo.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -3460,7 +3468,15 @@ hosting.		172800	IN	NS	a.ns.uniregistry.net.
 hosting.		172800	IN	NS	tld.isc-sns.com.
 hosting.		172800	IN	NS	tld.isc-sns.net.
 hosting.		172800	IN	NS	tld.isc-sns.info.
-hosting.		86400	IN	NSEC	house. NS DS RRSIG NSEC
+hosting.		86400	IN	NSEC	hotmail. NS DS RRSIG NSEC
+hotmail.		172800	IN	NS	a5.nstld.com.
+hotmail.		172800	IN	NS	c5.nstld.com.
+hotmail.		172800	IN	NS	d5.nstld.com.
+hotmail.		172800	IN	NS	f5.nstld.com.
+hotmail.		172800	IN	NS	g5.nstld.com.
+hotmail.		172800	IN	NS	h5.nstld.com.
+hotmail.		172800	IN	NS	l5.nstld.com.
+hotmail.		86400	IN	NSEC	house. NS DS RRSIG NSEC
 house.			172800	IN	NS	demand.beta.aridns.net.au.
 house.			172800	IN	NS	demand.alpha.aridns.net.au.
 house.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -4714,11 +4730,19 @@ mh.			172800	IN	NS	ns.amarshallinc.com.
 mh.			86400	IN	NSEC	miami. NS RRSIG NSEC
 miami.			172800	IN	NS	a.ns.nic.miami.
 miami.			172800	IN	NS	b.ns.nic.miami.
-miami.			86400	IN	NSEC	mil. NS DS RRSIG NSEC
+miami.			86400	IN	NSEC	microsoft. NS DS RRSIG NSEC
 a.ns.nic.miami.		172800	IN	A	72.0.50.21
 a.ns.nic.miami.		172800	IN	AAAA	2620:171:a02:ad::21
 b.ns.nic.miami.		172800	IN	A	72.42.114.21
 b.ns.nic.miami.		172800	IN	AAAA	2620:171:d02:dc::21
+microsoft.		172800	IN	NS	a5.nstld.com.
+microsoft.		172800	IN	NS	c5.nstld.com.
+microsoft.		172800	IN	NS	d5.nstld.com.
+microsoft.		172800	IN	NS	f5.nstld.com.
+microsoft.		172800	IN	NS	g5.nstld.com.
+microsoft.		172800	IN	NS	h5.nstld.com.
+microsoft.		172800	IN	NS	l5.nstld.com.
+microsoft.		86400	IN	NSEC	mil. NS DS RRSIG NSEC
 mil.			172800	IN	NS	con1.nipr.mil.
 mil.			172800	IN	NS	con2.nipr.mil.
 mil.			172800	IN	NS	eur1.nipr.mil.
@@ -8506,7 +8530,7 @@ win.			172800	IN	NS	ns3.dns.nic.win.
 win.			172800	IN	NS	ns4.dns.nic.win.
 win.			172800	IN	NS	ns5.dns.nic.win.
 win.			172800	IN	NS	ns6.dns.nic.win.
-win.			86400	IN	NSEC	wme. NS DS RRSIG NSEC
+win.			86400	IN	NSEC	windows. NS DS RRSIG NSEC
 ns1.dns.nic.win.	172800	IN	A	156.154.144.182
 ns1.dns.nic.win.	172800	IN	AAAA	2610:a1:1071::b6
 ns2.dns.nic.win.	172800	IN	A	156.154.145.182
@@ -8519,6 +8543,14 @@ ns5.dns.nic.win.	172800	IN	A	156.154.157.182
 ns5.dns.nic.win.	172800	IN	AAAA	2610:a1:1075::b6
 ns6.dns.nic.win.	172800	IN	A	156.154.158.182
 ns6.dns.nic.win.	172800	IN	AAAA	2610:a1:1076::b6
+windows.		172800	IN	NS	a5.nstld.com.
+windows.		172800	IN	NS	c5.nstld.com.
+windows.		172800	IN	NS	d5.nstld.com.
+windows.		172800	IN	NS	f5.nstld.com.
+windows.		172800	IN	NS	g5.nstld.com.
+windows.		172800	IN	NS	h5.nstld.com.
+windows.		172800	IN	NS	l5.nstld.com.
+windows.		86400	IN	NSEC	wme. NS DS RRSIG NSEC
 wme.			172800	IN	NS	a.nic.wme.
 wme.			172800	IN	NS	b.nic.wme.
 wme.			172800	IN	NS	c.nic.wme.
