@@ -4212,7 +4212,20 @@ land.			172800	IN	NS	demand.beta.aridns.net.au.
 land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
 land.			172800	IN	NS	demand.gamma.aridns.net.au.
-land.			86400	IN	NSEC	lat. NS DS RRSIG NSEC
+land.			86400	IN	NSEC	lasalle. NS DS RRSIG NSEC
+lasalle.		172800	IN	NS	a0.nic.lasalle.
+lasalle.		172800	IN	NS	a2.nic.lasalle.
+lasalle.		172800	IN	NS	b0.nic.lasalle.
+lasalle.		172800	IN	NS	c0.nic.lasalle.
+lasalle.		86400	IN	NSEC	lat. NS DS RRSIG NSEC
+a0.nic.lasalle.		172800	IN	A	65.22.148.1
+a0.nic.lasalle.		172800	IN	AAAA	2a01:8840:92::1
+a2.nic.lasalle.		172800	IN	A	65.22.151.1
+a2.nic.lasalle.		172800	IN	AAAA	2a01:8840:95::1
+b0.nic.lasalle.		172800	IN	A	65.22.149.1
+b0.nic.lasalle.		172800	IN	AAAA	2a01:8840:93::1
+c0.nic.lasalle.		172800	IN	A	65.22.150.1
+c0.nic.lasalle.		172800	IN	AAAA	2a01:8840:94::1
 lat.			172800	IN	NS	c.mx-ns.mx.
 lat.			172800	IN	NS	m.mx-ns.mx.
 lat.			172800	IN	NS	o.mx-ns.mx.
@@ -4732,13 +4745,11 @@ c.nic.menu.		172800	IN	A	37.209.196.10
 c.nic.menu.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.menu.		172800	IN	A	37.209.198.10
 d.nic.menu.		172800	IN	AAAA	2001:dcd:4::10
+mg.			172800	IN	NS	a.mg.dyntld.net.
+mg.			172800	IN	NS	b.mg.dyntld.net.
 mg.			172800	IN	NS	mg.cctld.authdns.ripe.net.
 mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
-mg.			172800	IN	NS	mg1.dyntld.net.
-mg.			172800	IN	NS	mg2.dyntld.net.
-mg.			172800	IN	NS	mg3.dyntld.net.
-mg.			172800	IN	NS	mg4.dyntld.net.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
 mg.			172800	IN	NS	censvrns0001.ird.fr.
 mg.			86400	IN	NSEC	mh. NS RRSIG NSEC
@@ -5313,10 +5324,10 @@ b.ky.dyntld.net.	172800	IN	A	199.19.7.19
 b.ky.dyntld.net.	172800	IN	AAAA	2a02:e180:1::19
 c.ky.dyntld.net.	172800	IN	A	185.38.98.19
 c.ky.dyntld.net.	172800	IN	AAAA	2a02:e180:2::19
-mg1.dyntld.net.		172800	IN	A	208.78.70.96
-mg2.dyntld.net.		172800	IN	A	204.13.250.96
-mg3.dyntld.net.		172800	IN	A	208.78.71.96
-mg4.dyntld.net.		172800	IN	A	204.13.251.96
+a.mg.dyntld.net.	172800	IN	A	199.19.5.24
+a.mg.dyntld.net.	172800	IN	AAAA	2001:500:92::24
+b.mg.dyntld.net.	172800	IN	A	199.19.6.24
+b.mg.dyntld.net.	172800	IN	AAAA	2001:500:96::24
 a.ms.dyntld.net.	172800	IN	A	199.19.5.23
 a.ms.dyntld.net.	172800	IN	AAAA	2001:500:92::23
 b.ms.dyntld.net.	172800	IN	A	199.19.6.23
