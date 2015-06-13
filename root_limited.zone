@@ -714,11 +714,19 @@ bh.			172800	IN	NS	ns.batelco.com.bh.
 bh.			172800	IN	NS	ns2.batelco.com.bh.
 bh.			172800	IN	NS	ns3.batelco.com.bh.
 bh.			172800	IN	NS	ns4.batelco.com.bh.
-bh.			86400	IN	NSEC	bi. NS RRSIG NSEC
+bh.			86400	IN	NSEC	bharti. NS RRSIG NSEC
 ns.batelco.com.bh.	172800	IN	A	193.188.97.197
 ns2.batelco.com.bh.	172800	IN	A	193.188.97.212
 ns3.batelco.com.bh.	172800	IN	A	193.188.97.193
 ns4.batelco.com.bh.	172800	IN	A	193.188.97.209
+bharti.			172800	IN	NS	a5.nstld.com.
+bharti.			172800	IN	NS	c5.nstld.com.
+bharti.			172800	IN	NS	d5.nstld.com.
+bharti.			172800	IN	NS	f5.nstld.com.
+bharti.			172800	IN	NS	g5.nstld.com.
+bharti.			172800	IN	NS	h5.nstld.com.
+bharti.			172800	IN	NS	l5.nstld.com.
+bharti.			86400	IN	NSEC	bi. NS DS RRSIG NSEC
 bi.			172800	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			172800	IN	NS	ns.nic.bi.
 bi.			172800	IN	NS	dns.princeton.edu.
