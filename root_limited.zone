@@ -9409,7 +9409,7 @@ xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	b2.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
-xxx.			86400	IN	NSEC	xyz. NS RRSIG NSEC
+xxx.			86400	IN	NSEC	xyz. NS DS RRSIG NSEC
 xyz.			172800	IN	NS	x.nic.xyz.
 xyz.			172800	IN	NS	y.nic.xyz.
 xyz.			172800	IN	NS	z.nic.xyz.
