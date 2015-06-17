@@ -316,7 +316,7 @@ ar.			172800	IN	NS	c.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
 ar.			172800	IN	NS	ctina.ar.
-ar.			86400	IN	NSEC	archi. NS RRSIG NSEC
+ar.			86400	IN	NSEC	archi. NS DS RRSIG NSEC
 ctina.ar.		172800	IN	A	200.16.97.17
 a.dns.ar.		172800	IN	A	200.108.145.50
 a.dns.ar.		172800	IN	AAAA	2801:140::10
