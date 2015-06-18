@@ -1902,7 +1902,7 @@ cricket.		172800	IN	NS	ns3.dns.nic.cricket.
 cricket.		172800	IN	NS	ns4.dns.nic.cricket.
 cricket.		172800	IN	NS	ns5.dns.nic.cricket.
 cricket.		172800	IN	NS	ns6.dns.nic.cricket.
-cricket.		86400	IN	NSEC	crs. NS DS RRSIG NSEC
+cricket.		86400	IN	NSEC	crown. NS DS RRSIG NSEC
 ns1.dns.nic.cricket.	172800	IN	A	156.154.144.220
 ns1.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1071::dc
 ns2.dns.nic.cricket.	172800	IN	A	156.154.145.220
@@ -1915,6 +1915,14 @@ ns5.dns.nic.cricket.	172800	IN	A	156.154.157.220
 ns5.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1075::dc
 ns6.dns.nic.cricket.	172800	IN	A	156.154.158.220
 ns6.dns.nic.cricket.	172800	IN	AAAA	2610:a1:1076::dc
+crown.			172800	IN	NS	a5.nstld.com.
+crown.			172800	IN	NS	c5.nstld.com.
+crown.			172800	IN	NS	d5.nstld.com.
+crown.			172800	IN	NS	f5.nstld.com.
+crown.			172800	IN	NS	g5.nstld.com.
+crown.			172800	IN	NS	h5.nstld.com.
+crown.			172800	IN	NS	l5.nstld.com.
+crown.			86400	IN	NSEC	crs. NS DS RRSIG NSEC
 crs.			172800	IN	NS	a5.nstld.com.
 crs.			172800	IN	NS	c5.nstld.com.
 crs.			172800	IN	NS	d5.nstld.com.
@@ -7480,9 +7488,17 @@ st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
 st.			172800	IN	NS	dns-us.st.
-st.			86400	IN	NSEC	study. NS RRSIG NSEC
+st.			86400	IN	NSEC	statoil. NS RRSIG NSEC
 dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
+statoil.		172800	IN	NS	a5.nstld.com.
+statoil.		172800	IN	NS	c5.nstld.com.
+statoil.		172800	IN	NS	d5.nstld.com.
+statoil.		172800	IN	NS	f5.nstld.com.
+statoil.		172800	IN	NS	g5.nstld.com.
+statoil.		172800	IN	NS	h5.nstld.com.
+statoil.		172800	IN	NS	l5.nstld.com.
+statoil.		86400	IN	NSEC	study. NS DS RRSIG NSEC
 study.			172800	IN	NS	a.nic.study.
 study.			172800	IN	NS	b.nic.study.
 study.			172800	IN	NS	c.nic.study.
