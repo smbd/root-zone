@@ -13,6 +13,7 @@
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
 .			172800	IN	DNSKEY	256 3 8 AwEAAZyIkCwEYeG29NV+4cOdKE4DPng/4BqJeoOhKqzJbl+LR33TPWsr wBRfmAi9wvR/Qc6IV4MFMXjmkclXns+atIQZ9uQV3YAvKv/cVuO7Mneu MssIQixaMw+jp73R7zIUNMbLBgJRQXI57Rl+pvXBAkgHndVwv+aJkf7y GEuE9Dtj
+.			172800	IN	DNSKEY	256 3 8 AwEAAa67bQck1JjopOOFc+iMISFcp/osWrEst2wbKbuQSUWu77QC9UHL ipiHgWN7JlqVAEjKITZz49hhkLmOpmLK55pTq+RD2kwoyNWk9cvpc+tS nIxT7i93O+3oVeLYjMWrkDAz7K45rObbHDuSBwYZKrcSIUCZnCpNMUtn PFl/04cb
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
 .			86400	IN	NSEC	abb. NS SOA RRSIG NSEC DNSKEY
 abb.			172800	IN	NS	a5.nstld.com.
@@ -144,7 +145,7 @@ c0.nic.adult.		172800	IN	A	199.115.154.1
 c0.nic.adult.		172800	IN	AAAA	2001:500:a2::1
 d0.nic.adult.		172800	IN	A	199.115.155.1
 d0.nic.adult.		172800	IN	AAAA	2001:500:a3::1
-ae.			86400	IN	NSEC	aero. NS RRSIG NSEC
+ae.			86400	IN	NSEC	aeg. NS RRSIG NSEC
 ae.			172800	IN	NS	ae.cctld.authdns.ripe.net.
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
@@ -157,6 +158,14 @@ nsext-pch.aedns.ae.	172800	IN	A	199.4.137.1
 nsext-pch.aedns.ae.	172800	IN	AAAA	2001:500:7d::1
 ns1.uaenic.ae.		172800	IN	A	213.42.0.226
 ns2.uaenic.ae.		172800	IN	A	195.229.0.186
+aeg.			172800	IN	NS	a5.nstld.com.
+aeg.			172800	IN	NS	c5.nstld.com.
+aeg.			172800	IN	NS	d5.nstld.com.
+aeg.			172800	IN	NS	f5.nstld.com.
+aeg.			172800	IN	NS	g5.nstld.com.
+aeg.			172800	IN	NS	h5.nstld.com.
+aeg.			172800	IN	NS	l5.nstld.com.
+aeg.			86400	IN	NSEC	aero. NS DS RRSIG NSEC
 aero.			172800	IN	NS	a0.aero.afilias-nst.info.
 aero.			172800	IN	NS	a2.aero.afilias-nst.info.
 aero.			172800	IN	NS	b0.aero.afilias-nst.org.
@@ -2304,7 +2313,7 @@ download.		172800	IN	NS	ns3.dns.nic.download.
 download.		172800	IN	NS	ns4.dns.nic.download.
 download.		172800	IN	NS	ns5.dns.nic.download.
 download.		172800	IN	NS	ns6.dns.nic.download.
-download.		86400	IN	NSEC	durban. NS DS RRSIG NSEC
+download.		86400	IN	NSEC	drive. NS DS RRSIG NSEC
 ns1.dns.nic.download.	172800	IN	A	156.154.144.50
 ns1.dns.nic.download.	172800	IN	AAAA	2610:a1:1071::32
 ns2.dns.nic.download.	172800	IN	A	156.154.145.50
@@ -2317,6 +2326,12 @@ ns5.dns.nic.download.	172800	IN	A	156.154.157.50
 ns5.dns.nic.download.	172800	IN	AAAA	2610:a1:1075::32
 ns6.dns.nic.download.	172800	IN	A	156.154.158.50
 ns6.dns.nic.download.	172800	IN	AAAA	2610:a1:1076::32
+drive.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+drive.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+drive.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+drive.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+drive.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+drive.			86400	IN	NSEC	durban. NS DS RRSIG NSEC
 durban.			172800	IN	NS	ns.coza.net.za.
 durban.			172800	IN	NS	ns1.coza.net.za.
 durban.			172800	IN	NS	coza1.dnsnode.net.
@@ -2982,7 +2997,7 @@ gent.			172800	IN	NS	a.ns.nic.gent.
 gent.			172800	IN	NS	c.ns.nic.gent.
 gent.			172800	IN	NS	x.ns.nic.gent.
 gent.			172800	IN	NS	y.ns.nic.gent.
-gent.			86400	IN	NSEC	gf. NS DS RRSIG NSEC
+gent.			86400	IN	NSEC	genting. NS DS RRSIG NSEC
 a.ns.nic.gent.		172800	IN	A	89.207.184.98
 a.ns.nic.gent.		172800	IN	AAAA	2a02:2790:0:2::53
 c.ns.nic.gent.		172800	IN	A	54.247.68.190
@@ -2990,6 +3005,14 @@ x.ns.nic.gent.		172800	IN	A	195.253.64.4
 x.ns.nic.gent.		172800	IN	AAAA	2a01:5b0:4::4
 y.ns.nic.gent.		172800	IN	A	195.253.64.7
 y.ns.nic.gent.		172800	IN	AAAA	2a01:5b0:4::7
+genting.		172800	IN	NS	a5.nstld.com.
+genting.		172800	IN	NS	c5.nstld.com.
+genting.		172800	IN	NS	d5.nstld.com.
+genting.		172800	IN	NS	f5.nstld.com.
+genting.		172800	IN	NS	g5.nstld.com.
+genting.		172800	IN	NS	h5.nstld.com.
+genting.		172800	IN	NS	l5.nstld.com.
+genting.		86400	IN	NSEC	gf. NS DS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
 gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
@@ -6399,7 +6422,13 @@ place.			172800	IN	NS	demand.beta.aridns.net.au.
 place.			172800	IN	NS	demand.alpha.aridns.net.au.
 place.			172800	IN	NS	demand.delta.aridns.net.au.
 place.			172800	IN	NS	demand.gamma.aridns.net.au.
-place.			86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
+place.			86400	IN	NSEC	play. NS DS RRSIG NSEC
+play.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+play.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+play.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+play.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+play.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+play.			86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
 plumbing.		172800	IN	NS	demand.delta.aridns.net.au.
