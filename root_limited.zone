@@ -1296,7 +1296,20 @@ catering.		172800	IN	NS	demand.beta.aridns.net.au.
 catering.		172800	IN	NS	demand.alpha.aridns.net.au.
 catering.		172800	IN	NS	demand.delta.aridns.net.au.
 catering.		172800	IN	NS	demand.gamma.aridns.net.au.
-catering.		86400	IN	NSEC	cbn. NS DS RRSIG NSEC
+catering.		86400	IN	NSEC	cba. NS DS RRSIG NSEC
+cba.			172800	IN	NS	a.nic.cba.
+cba.			172800	IN	NS	b.nic.cba.
+cba.			172800	IN	NS	c.nic.cba.
+cba.			172800	IN	NS	d.nic.cba.
+cba.			86400	IN	NSEC	cbn. NS DS RRSIG NSEC
+a.nic.cba.		172800	IN	A	37.209.192.9
+a.nic.cba.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.cba.		172800	IN	A	37.209.194.9
+b.nic.cba.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.cba.		172800	IN	A	37.209.196.9
+c.nic.cba.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.cba.		172800	IN	A	37.209.198.9
+d.nic.cba.		172800	IN	AAAA	2001:dcd:4::9
 cbn.			172800	IN	NS	ns1.dns.nic.cbn.
 cbn.			172800	IN	NS	ns2.dns.nic.cbn.
 cbn.			172800	IN	NS	ns3.dns.nic.cbn.
@@ -1692,7 +1705,7 @@ cologne.		172800	IN	NS	anycast10.irondns.net.
 cologne.		172800	IN	NS	anycast23.irondns.net.
 cologne.		172800	IN	NS	anycast24.irondns.net.
 cologne.		86400	IN	NSEC	com. NS DS RRSIG NSEC
-com.			86400	IN	NSEC	community. NS DS RRSIG NSEC
+com.			86400	IN	NSEC	commbank. NS DS RRSIG NSEC
 com.			172800	IN	NS	a.gtld-servers.net.
 com.			172800	IN	NS	b.gtld-servers.net.
 com.			172800	IN	NS	c.gtld-servers.net.
@@ -1784,6 +1797,19 @@ f.zdnscloud.com.	172800	IN	A	182.131.23.22
 g.zdnscloud.com.	172800	IN	A	111.12.148.111
 i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1::1
 j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2::1
+commbank.		172800	IN	NS	a.nic.commbank.
+commbank.		172800	IN	NS	b.nic.commbank.
+commbank.		172800	IN	NS	c.nic.commbank.
+commbank.		172800	IN	NS	d.nic.commbank.
+commbank.		86400	IN	NSEC	community. NS DS RRSIG NSEC
+a.nic.commbank.		172800	IN	A	37.209.192.9
+a.nic.commbank.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.commbank.		172800	IN	A	37.209.194.9
+b.nic.commbank.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.commbank.		172800	IN	A	37.209.196.9
+c.nic.commbank.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.commbank.		172800	IN	A	37.209.198.9
+d.nic.commbank.		172800	IN	AAAA	2001:dcd:4::9
 community.		172800	IN	NS	demand.beta.aridns.net.au.
 community.		172800	IN	NS	demand.alpha.aridns.net.au.
 community.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -5215,7 +5241,7 @@ c.nic.nec.		172800	IN	A	37.209.196.9
 c.nic.nec.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.nec.		172800	IN	A	37.209.198.9
 d.nic.nec.		172800	IN	AAAA	2001:dcd:4::9
-net.			86400	IN	NSEC	network. NS DS RRSIG NSEC
+net.			86400	IN	NSEC	netbank. NS DS RRSIG NSEC
 net.			172800	IN	NS	a.gtld-servers.net.
 net.			172800	IN	NS	b.gtld-servers.net.
 net.			172800	IN	NS	c.gtld-servers.net.
@@ -5701,6 +5727,19 @@ auth200.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e000::35:2
 auth210.ns.uu.net.	172800	IN	A	195.129.12.74
 auth210.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e001::35:2
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
+netbank.		172800	IN	NS	a.nic.netbank.
+netbank.		172800	IN	NS	b.nic.netbank.
+netbank.		172800	IN	NS	c.nic.netbank.
+netbank.		172800	IN	NS	d.nic.netbank.
+netbank.		86400	IN	NSEC	network. NS DS RRSIG NSEC
+a.nic.netbank.		172800	IN	A	37.209.192.9
+a.nic.netbank.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.netbank.		172800	IN	A	37.209.194.9
+b.nic.netbank.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.netbank.		172800	IN	A	37.209.196.9
+c.nic.netbank.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.netbank.		172800	IN	A	37.209.198.9
+d.nic.netbank.		172800	IN	AAAA	2001:dcd:4::9
 network.		172800	IN	NS	demand.beta.aridns.net.au.
 network.		172800	IN	NS	demand.alpha.aridns.net.au.
 network.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -6875,7 +6914,7 @@ rich.			172800	IN	NS	a0.nic.rich.
 rich.			172800	IN	NS	a2.nic.rich.
 rich.			172800	IN	NS	b0.nic.rich.
 rich.			172800	IN	NS	c0.nic.rich.
-rich.			86400	IN	NSEC	rio. NS DS RRSIG NSEC
+rich.			86400	IN	NSEC	ricoh. NS DS RRSIG NSEC
 a0.nic.rich.		172800	IN	A	65.22.136.17
 a0.nic.rich.		172800	IN	AAAA	2a01:8840:86::17
 a2.nic.rich.		172800	IN	A	65.22.139.17
@@ -6884,6 +6923,19 @@ b0.nic.rich.		172800	IN	A	65.22.137.17
 b0.nic.rich.		172800	IN	AAAA	2a01:8840:87::17
 c0.nic.rich.		172800	IN	A	65.22.138.17
 c0.nic.rich.		172800	IN	AAAA	2a01:8840:88::17
+ricoh.			172800	IN	NS	a.nic.ricoh.
+ricoh.			172800	IN	NS	b.nic.ricoh.
+ricoh.			172800	IN	NS	c.nic.ricoh.
+ricoh.			172800	IN	NS	d.nic.ricoh.
+ricoh.			86400	IN	NSEC	rio. NS DS RRSIG NSEC
+a.nic.ricoh.		172800	IN	A	37.209.192.9
+a.nic.ricoh.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.ricoh.		172800	IN	A	37.209.194.9
+b.nic.ricoh.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.ricoh.		172800	IN	A	37.209.196.9
+c.nic.ricoh.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.ricoh.		172800	IN	A	37.209.198.9
+d.nic.ricoh.		172800	IN	AAAA	2001:dcd:4::9
 rio.			172800	IN	NS	a.dns.br.
 rio.			172800	IN	NS	b.dns.br.
 rio.			172800	IN	NS	c.dns.br.
@@ -7517,9 +7569,22 @@ st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
 st.			172800	IN	NS	dns-us.st.
-st.			86400	IN	NSEC	statoil. NS RRSIG NSEC
+st.			86400	IN	NSEC	starhub. NS RRSIG NSEC
 dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
+starhub.		172800	IN	NS	a.nic.starhub.
+starhub.		172800	IN	NS	b.nic.starhub.
+starhub.		172800	IN	NS	c.nic.starhub.
+starhub.		172800	IN	NS	d.nic.starhub.
+starhub.		86400	IN	NSEC	statoil. NS DS RRSIG NSEC
+a.nic.starhub.		172800	IN	A	37.209.192.9
+a.nic.starhub.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.starhub.		172800	IN	A	37.209.194.9
+b.nic.starhub.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.starhub.		172800	IN	A	37.209.196.9
+c.nic.starhub.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.starhub.		172800	IN	A	37.209.198.9
+d.nic.starhub.		172800	IN	AAAA	2001:dcd:4::9
 statoil.		172800	IN	NS	a5.nstld.com.
 statoil.		172800	IN	NS	c5.nstld.com.
 statoil.		172800	IN	NS	d5.nstld.com.
@@ -8351,7 +8416,33 @@ vision.			172800	IN	NS	demand.beta.aridns.net.au.
 vision.			172800	IN	NS	demand.alpha.aridns.net.au.
 vision.			172800	IN	NS	demand.delta.aridns.net.au.
 vision.			172800	IN	NS	demand.gamma.aridns.net.au.
-vision.			86400	IN	NSEC	vlaanderen. NS DS RRSIG NSEC
+vision.			86400	IN	NSEC	vista. NS DS RRSIG NSEC
+vista.			172800	IN	NS	a.nic.vista.
+vista.			172800	IN	NS	b.nic.vista.
+vista.			172800	IN	NS	c.nic.vista.
+vista.			172800	IN	NS	d.nic.vista.
+vista.			86400	IN	NSEC	vistaprint. NS DS RRSIG NSEC
+a.nic.vista.		172800	IN	A	37.209.192.9
+a.nic.vista.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.vista.		172800	IN	A	37.209.194.9
+b.nic.vista.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.vista.		172800	IN	A	37.209.196.9
+c.nic.vista.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.vista.		172800	IN	A	37.209.198.9
+d.nic.vista.		172800	IN	AAAA	2001:dcd:4::9
+vistaprint.		172800	IN	NS	a.nic.vistaprint.
+vistaprint.		172800	IN	NS	b.nic.vistaprint.
+vistaprint.		172800	IN	NS	c.nic.vistaprint.
+vistaprint.		172800	IN	NS	d.nic.vistaprint.
+vistaprint.		86400	IN	NSEC	vlaanderen. NS DS RRSIG NSEC
+a.nic.vistaprint.	172800	IN	A	37.209.192.9
+a.nic.vistaprint.	172800	IN	AAAA	2001:dcd:1::9
+b.nic.vistaprint.	172800	IN	A	37.209.194.9
+b.nic.vistaprint.	172800	IN	AAAA	2001:dcd:2::9
+c.nic.vistaprint.	172800	IN	A	37.209.196.9
+c.nic.vistaprint.	172800	IN	AAAA	2001:dcd:3::9
+d.nic.vistaprint.	172800	IN	A	37.209.198.9
+d.nic.vistaprint.	172800	IN	AAAA	2001:dcd:4::9
 vlaanderen.		172800	IN	NS	a.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	b.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	c.ns.dns.be.
