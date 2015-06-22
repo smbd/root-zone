@@ -5975,7 +5975,7 @@ ns5.dns.nic.nyc.	172800	IN	A	156.154.157.125
 ns5.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1075::7d
 ns6.dns.nic.nyc.	172800	IN	A	156.154.158.125
 ns6.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1076::7d
-nz.			86400	IN	NSEC	okinawa. NS DS RRSIG NSEC
+nz.			86400	IN	NSEC	office. NS DS RRSIG NSEC
 nz.			172800	IN	NS	ns1.dns.net.nz.
 nz.			172800	IN	NS	ns2.dns.net.nz.
 nz.			172800	IN	NS	ns3.dns.net.nz.
@@ -5999,6 +5999,25 @@ ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
+office.			172800	IN	NS	ns1.dns.nic.office.
+office.			172800	IN	NS	ns2.dns.nic.office.
+office.			172800	IN	NS	ns3.dns.nic.office.
+office.			172800	IN	NS	ns4.dns.nic.office.
+office.			172800	IN	NS	ns5.dns.nic.office.
+office.			172800	IN	NS	ns6.dns.nic.office.
+office.			86400	IN	NSEC	okinawa. NS DS RRSIG NSEC
+ns1.dns.nic.office.	172800	IN	A	156.154.144.126
+ns1.dns.nic.office.	172800	IN	AAAA	2610:a1:1071::7e
+ns2.dns.nic.office.	172800	IN	A	156.154.145.126
+ns2.dns.nic.office.	172800	IN	AAAA	2610:a1:1072::7e
+ns3.dns.nic.office.	172800	IN	A	156.154.159.126
+ns3.dns.nic.office.	172800	IN	AAAA	2610:a1:1073::7e
+ns4.dns.nic.office.	172800	IN	A	156.154.156.126
+ns4.dns.nic.office.	172800	IN	AAAA	2610:a1:1074::7e
+ns5.dns.nic.office.	172800	IN	A	156.154.157.126
+ns5.dns.nic.office.	172800	IN	AAAA	2610:a1:1075::7e
+ns6.dns.nic.office.	172800	IN	A	156.154.158.126
+ns6.dns.nic.office.	172800	IN	AAAA	2610:a1:1076::7e
 okinawa.		172800	IN	NS	d.gmoregistry.net.
 okinawa.		172800	IN	NS	e.gmoregistry.net.
 okinawa.		172800	IN	NS	g.gmoregistry.net.
@@ -7208,7 +7227,7 @@ science.		172800	IN	NS	ns3.dns.nic.science.
 science.		172800	IN	NS	ns4.dns.nic.science.
 science.		172800	IN	NS	ns5.dns.nic.science.
 science.		172800	IN	NS	ns6.dns.nic.science.
-science.		86400	IN	NSEC	scot. NS DS RRSIG NSEC
+science.		86400	IN	NSEC	scor. NS DS RRSIG NSEC
 ns1.dns.nic.science.	172800	IN	A	156.154.169.41
 ns1.dns.nic.science.	172800	IN	AAAA	2610:a1:1071::1:29
 ns2.dns.nic.science.	172800	IN	A	156.154.170.41
@@ -7221,6 +7240,19 @@ ns5.dns.nic.science.	172800	IN	A	156.154.173.41
 ns5.dns.nic.science.	172800	IN	AAAA	2610:a1:1075::1:29
 ns6.dns.nic.science.	172800	IN	A	156.154.174.41
 ns6.dns.nic.science.	172800	IN	AAAA	2610:a1:1076::1:29
+scor.			172800	IN	NS	a.nic.scor.
+scor.			172800	IN	NS	b.nic.scor.
+scor.			172800	IN	NS	c.nic.scor.
+scor.			172800	IN	NS	d.nic.scor.
+scor.			86400	IN	NSEC	scot. NS DS RRSIG NSEC
+a.nic.scor.		172800	IN	A	37.209.192.9
+a.nic.scor.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.scor.		172800	IN	A	37.209.194.9
+b.nic.scor.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.scor.		172800	IN	A	37.209.196.9
+c.nic.scor.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.scor.		172800	IN	A	37.209.198.9
+d.nic.scor.		172800	IN	AAAA	2001:dcd:4::9
 scot.			172800	IN	NS	anycast9.irondns.net.
 scot.			172800	IN	NS	anycast10.irondns.net.
 scot.			172800	IN	NS	anycast23.irondns.net.
@@ -7447,7 +7479,26 @@ sky.			172800	IN	NS	f5.nstld.com.
 sky.			172800	IN	NS	g5.nstld.com.
 sky.			172800	IN	NS	h5.nstld.com.
 sky.			172800	IN	NS	l5.nstld.com.
-sky.			86400	IN	NSEC	sl. NS DS RRSIG NSEC
+sky.			86400	IN	NSEC	skype. NS DS RRSIG NSEC
+skype.			172800	IN	NS	ns1.dns.nic.skype.
+skype.			172800	IN	NS	ns2.dns.nic.skype.
+skype.			172800	IN	NS	ns3.dns.nic.skype.
+skype.			172800	IN	NS	ns4.dns.nic.skype.
+skype.			172800	IN	NS	ns5.dns.nic.skype.
+skype.			172800	IN	NS	ns6.dns.nic.skype.
+skype.			86400	IN	NSEC	sl. NS DS RRSIG NSEC
+ns1.dns.nic.skype.	172800	IN	A	156.154.144.151
+ns1.dns.nic.skype.	172800	IN	AAAA	2610:a1:1071::97
+ns2.dns.nic.skype.	172800	IN	A	156.154.145.151
+ns2.dns.nic.skype.	172800	IN	AAAA	2610:a1:1072::97
+ns3.dns.nic.skype.	172800	IN	A	156.154.159.151
+ns3.dns.nic.skype.	172800	IN	AAAA	2610:a1:1073::97
+ns4.dns.nic.skype.	172800	IN	A	156.154.156.151
+ns4.dns.nic.skype.	172800	IN	AAAA	2610:a1:1074::97
+ns5.dns.nic.skype.	172800	IN	A	156.154.157.151
+ns5.dns.nic.skype.	172800	IN	AAAA	2610:a1:1075::97
+ns6.dns.nic.skype.	172800	IN	A	156.154.158.151
+ns6.dns.nic.skype.	172800	IN	AAAA	2610:a1:1076::97
 sl.			172800	IN	NS	ns1.neoip.com.
 sl.			172800	IN	NS	ns2.neoip.com.
 sl.			86400	IN	NSEC	sm. NS RRSIG NSEC
