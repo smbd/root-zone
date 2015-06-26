@@ -892,9 +892,22 @@ bn.			172800	IN	NS	ns1.bnnic.bn.
 bn.			172800	IN	NS	ns2.bnnic.bn.
 bn.			172800	IN	NS	sec4.apnic.net.
 bn.			172800	IN	NS	bn-ns.anycast.pch.net.
-bn.			86400	IN	NSEC	bnpparibas. NS RRSIG NSEC
+bn.			86400	IN	NSEC	bnl. NS RRSIG NSEC
 ns1.bnnic.bn.		172800	IN	A	194.0.1.33
 ns2.bnnic.bn.		172800	IN	A	202.93.214.163
+bnl.			172800	IN	NS	a0.nic.bnl.
+bnl.			172800	IN	NS	a2.nic.bnl.
+bnl.			172800	IN	NS	b0.nic.bnl.
+bnl.			172800	IN	NS	c0.nic.bnl.
+bnl.			86400	IN	NSEC	bnpparibas. NS DS RRSIG NSEC
+a0.nic.bnl.		172800	IN	A	65.22.64.1
+a0.nic.bnl.		172800	IN	AAAA	2a01:8840:3e::1
+a2.nic.bnl.		172800	IN	A	65.22.67.1
+a2.nic.bnl.		172800	IN	AAAA	2a01:8840:41::1
+b0.nic.bnl.		172800	IN	A	65.22.65.1
+b0.nic.bnl.		172800	IN	AAAA	2a01:8840:3f::1
+c0.nic.bnl.		172800	IN	A	65.22.66.1
+c0.nic.bnl.		172800	IN	AAAA	2a01:8840:40::1
 bnpparibas.		172800	IN	NS	a0.nic.bnpparibas.
 bnpparibas.		172800	IN	NS	a2.nic.bnpparibas.
 bnpparibas.		172800	IN	NS	b0.nic.bnpparibas.
@@ -952,7 +965,7 @@ boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
 boutique.		172800	IN	NS	demand.gamma.aridns.net.au.
 boutique.		86400	IN	NSEC	br. NS DS RRSIG NSEC
-br.			86400	IN	NSEC	bridgestone. NS DS RRSIG NSEC
+br.			86400	IN	NSEC	bradesco. NS DS RRSIG NSEC
 br.			172800	IN	NS	a.dns.br.
 br.			172800	IN	NS	b.dns.br.
 br.			172800	IN	NS	c.dns.br.
@@ -970,6 +983,19 @@ e.dns.br.		172800	IN	AAAA	2001:12f8:1::10
 f.dns.br.		172800	IN	A	200.219.159.10
 ns.dns.br.		172800	IN	A	200.160.0.5
 ns.dns.br.		172800	IN	AAAA	2001:12ff:0:a20::5
+bradesco.		172800	IN	NS	a.ns.nic.bradesco.
+bradesco.		172800	IN	NS	b.ns.nic.bradesco.
+bradesco.		172800	IN	NS	c.ns.nic.bradesco.
+bradesco.		172800	IN	NS	d.ns.nic.bradesco.
+bradesco.		86400	IN	NSEC	bridgestone. NS DS RRSIG NSEC
+a.ns.nic.bradesco.	172800	IN	A	72.0.50.16
+a.ns.nic.bradesco.	172800	IN	AAAA	2620:171:a02:ad::16
+b.ns.nic.bradesco.	172800	IN	A	72.42.114.16
+b.ns.nic.bradesco.	172800	IN	AAAA	2620:171:d02:dc::16
+c.ns.nic.bradesco.	172800	IN	A	70.40.0.16
+c.ns.nic.bradesco.	172800	IN	AAAA	2620:171:c00:c::16
+d.ns.nic.bradesco.	172800	IN	A	70.40.8.16
+d.ns.nic.bradesco.	172800	IN	AAAA	2620:171:f00:d::16
 bridgestone.		172800	IN	NS	a.nic.bridgestone.
 bridgestone.		172800	IN	NS	b.nic.bridgestone.
 bridgestone.		172800	IN	NS	c.nic.bridgestone.
@@ -1576,7 +1602,20 @@ clothing.		172800	IN	NS	demand.beta.aridns.net.au.
 clothing.		172800	IN	NS	demand.alpha.aridns.net.au.
 clothing.		172800	IN	NS	demand.delta.aridns.net.au.
 clothing.		172800	IN	NS	demand.gamma.aridns.net.au.
-clothing.		86400	IN	NSEC	club. NS DS RRSIG NSEC
+clothing.		86400	IN	NSEC	cloud. NS DS RRSIG NSEC
+cloud.			172800	IN	NS	a.nic.cloud.
+cloud.			172800	IN	NS	b.nic.cloud.
+cloud.			172800	IN	NS	c.nic.cloud.
+cloud.			172800	IN	NS	d.nic.cloud.
+cloud.			86400	IN	NSEC	club. NS DS RRSIG NSEC
+a.nic.cloud.		172800	IN	A	37.209.192.10
+a.nic.cloud.		172800	IN	AAAA	2001:dcd:1::10
+b.nic.cloud.		172800	IN	A	37.209.194.10
+b.nic.cloud.		172800	IN	AAAA	2001:dcd:2::10
+c.nic.cloud.		172800	IN	A	37.209.196.10
+c.nic.cloud.		172800	IN	AAAA	2001:dcd:3::10
+d.nic.cloud.		172800	IN	A	37.209.198.10
+d.nic.cloud.		172800	IN	AAAA	2001:dcd:4::10
 club.			172800	IN	NS	ns1.dns.nic.club.
 club.			172800	IN	NS	ns2.dns.nic.club.
 club.			172800	IN	NS	ns3.dns.nic.club.
@@ -1718,10 +1757,10 @@ com.			172800	IN	NS	k.gtld-servers.net.
 com.			172800	IN	NS	l.gtld-servers.net.
 com.			172800	IN	NS	m.gtld-servers.net.
 ns.amarshallinc.com.	172800	IN	A	71.163.249.97
-ns.blacknightsolutions.com. 172800 IN	A	217.114.173.6
-ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:fe00::2
-ns2.blacknightsolutions.com. 172800 IN	A	82.96.97.64
-ns2.blacknightsolutions.com. 172800 IN	AAAA	2001:1bc0:ab:3::2
+ns.blacknightsolutions.com. 172800 IN	A	81.17.240.204
+ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:dc1:33::33
+ns2.blacknightsolutions.com. 172800 IN	A	78.153.202.4
+ns2.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:dc2:33::33
 ns-tld1.charlestonroadregistry.com. 172800 IN A	216.239.32.105
 ns-tld1.charlestonroadregistry.com. 172800 IN AAAA 2001:4860:4802:32::69
 ns-tld2.charlestonroadregistry.com. 172800 IN A	216.239.34.105
@@ -3529,7 +3568,26 @@ hosting.		172800	IN	NS	a.ns.uniregistry.net.
 hosting.		172800	IN	NS	tld.isc-sns.com.
 hosting.		172800	IN	NS	tld.isc-sns.net.
 hosting.		172800	IN	NS	tld.isc-sns.info.
-hosting.		86400	IN	NSEC	hotmail. NS DS RRSIG NSEC
+hosting.		86400	IN	NSEC	hoteles. NS DS RRSIG NSEC
+hoteles.		172800	IN	NS	ns1.dns.nic.hoteles.
+hoteles.		172800	IN	NS	ns2.dns.nic.hoteles.
+hoteles.		172800	IN	NS	ns3.dns.nic.hoteles.
+hoteles.		172800	IN	NS	ns4.dns.nic.hoteles.
+hoteles.		172800	IN	NS	ns5.dns.nic.hoteles.
+hoteles.		172800	IN	NS	ns6.dns.nic.hoteles.
+hoteles.		86400	IN	NSEC	hotmail. NS DS RRSIG NSEC
+ns1.dns.nic.hoteles.	172800	IN	A	156.154.169.2
+ns1.dns.nic.hoteles.	172800	IN	AAAA	2610:a1:1071::1:2
+ns2.dns.nic.hoteles.	172800	IN	A	156.154.170.2
+ns2.dns.nic.hoteles.	172800	IN	AAAA	2610:a1:1072::1:2
+ns3.dns.nic.hoteles.	172800	IN	A	156.154.171.2
+ns3.dns.nic.hoteles.	172800	IN	AAAA	2610:a1:1073::1:2
+ns4.dns.nic.hoteles.	172800	IN	A	156.154.172.2
+ns4.dns.nic.hoteles.	172800	IN	AAAA	2610:a1:1074::1:2
+ns5.dns.nic.hoteles.	172800	IN	A	156.154.173.2
+ns5.dns.nic.hoteles.	172800	IN	AAAA	2610:a1:1075::1:2
+ns6.dns.nic.hoteles.	172800	IN	A	156.154.174.2
+ns6.dns.nic.hoteles.	172800	IN	AAAA	2610:a1:1076::1:2
 hotmail.		172800	IN	NS	a5.nstld.com.
 hotmail.		172800	IN	NS	c5.nstld.com.
 hotmail.		172800	IN	NS	d5.nstld.com.
@@ -3897,6 +3955,7 @@ isgate.is.		172800	IN	AAAA	2001:67c:6c:58::51
 sab.isnic.is.		172800	IN	A	194.146.106.58
 sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
+durinn.rhnet.is.	172800	IN	AAAA	2a00:c88:10:16::20
 it.			86400	IN	NSEC	iwc. NS RRSIG NSEC
 it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	m.dns.it.
@@ -5047,7 +5106,12 @@ movie.			172800	IN	NS	demand.beta.aridns.net.au.
 movie.			172800	IN	NS	demand.alpha.aridns.net.au.
 movie.			172800	IN	NS	demand.delta.aridns.net.au.
 movie.			172800	IN	NS	demand.gamma.aridns.net.au.
-movie.			86400	IN	NSEC	mp. NS DS RRSIG NSEC
+movie.			86400	IN	NSEC	movistar. NS DS RRSIG NSEC
+movistar.		172800	IN	NS	anycast9.irondns.net.
+movistar.		172800	IN	NS	anycast10.irondns.net.
+movistar.		172800	IN	NS	anycast23.irondns.net.
+movistar.		172800	IN	NS	anycast24.irondns.net.
+movistar.		86400	IN	NSEC	mp. NS DS RRSIG NSEC
 mp.			172800	IN	NS	ns1.nic.mp.
 mp.			172800	IN	NS	ns2.nic.mp.
 mp.			172800	IN	NS	ns3.nic.mp.
@@ -6042,9 +6106,17 @@ om.			172800	IN	NS	cctld.beta.aridns.net.au.
 om.			172800	IN	NS	cctld.alpha.aridns.net.au.
 om.			172800	IN	NS	cctld.delta.aridns.net.au.
 om.			172800	IN	NS	cctld.gamma.aridns.net.au.
-om.			86400	IN	NSEC	one. NS RRSIG NSEC
+om.			86400	IN	NSEC	omega. NS RRSIG NSEC
 ns1.registry.om.	172800	IN	A	185.27.90.101
 ns2.registry.om.	172800	IN	A	185.27.91.69
+omega.			172800	IN	NS	a5.nstld.com.
+omega.			172800	IN	NS	c5.nstld.com.
+omega.			172800	IN	NS	d5.nstld.com.
+omega.			172800	IN	NS	f5.nstld.com.
+omega.			172800	IN	NS	g5.nstld.com.
+omega.			172800	IN	NS	h5.nstld.com.
+omega.			172800	IN	NS	l5.nstld.com.
+omega.			86400	IN	NSEC	one. NS DS RRSIG NSEC
 one.			172800	IN	NS	a.nic.one.
 one.			172800	IN	NS	b.nic.one.
 one.			172800	IN	NS	c.nic.one.
@@ -7729,8 +7801,16 @@ sv.			172800	IN	NS	sv.cctld.authdns.ripe.net.
 sv.			172800	IN	NS	cir.red.sv.
 sv.			172800	IN	NS	dns.nic.cr.
 sv.			172800	IN	NS	auth02.ns.uu.net.
-sv.			86400	IN	NSEC	swiss. NS RRSIG NSEC
+sv.			86400	IN	NSEC	swatch. NS RRSIG NSEC
 cir.red.sv.		172800	IN	A	168.243.254.1
+swatch.			172800	IN	NS	a5.nstld.com.
+swatch.			172800	IN	NS	c5.nstld.com.
+swatch.			172800	IN	NS	d5.nstld.com.
+swatch.			172800	IN	NS	f5.nstld.com.
+swatch.			172800	IN	NS	g5.nstld.com.
+swatch.			172800	IN	NS	h5.nstld.com.
+swatch.			172800	IN	NS	l5.nstld.com.
+swatch.			86400	IN	NSEC	swiss. NS DS RRSIG NSEC
 swiss.			172800	IN	NS	anycast9.irondns.net.
 swiss.			172800	IN	NS	anycast10.irondns.net.
 swiss.			172800	IN	NS	anycast23.irondns.net.
@@ -7873,7 +7953,7 @@ tel.			172800	IN	NS	e.dns.nic.tel.
 tel.			172800	IN	NS	f.dns.nic.tel.
 tel.			172800	IN	NS	g.dns.nic.tel.
 tel.			172800	IN	NS	h.dns.nic.tel.
-tel.			86400	IN	NSEC	temasek. NS RRSIG NSEC
+tel.			86400	IN	NSEC	telefonica. NS RRSIG NSEC
 a.dns.nic.tel.		172800	IN	A	194.146.106.38
 b.dns.nic.tel.		172800	IN	A	192.36.144.116
 c.dns.nic.tel.		172800	IN	A	204.74.112.1
@@ -7884,6 +7964,11 @@ f.dns.nic.tel.		172800	IN	A	199.7.67.1
 f.dns.nic.tel.		172800	IN	AAAA	2001:502:100e::1
 g.dns.nic.tel.		172800	IN	A	192.100.59.11
 h.dns.nic.tel.		172800	IN	A	198.133.199.11
+telefonica.		172800	IN	NS	anycast9.irondns.net.
+telefonica.		172800	IN	NS	anycast10.irondns.net.
+telefonica.		172800	IN	NS	anycast23.irondns.net.
+telefonica.		172800	IN	NS	anycast24.irondns.net.
+telefonica.		86400	IN	NSEC	temasek. NS DS RRSIG NSEC
 temasek.		172800	IN	NS	a0.nic.temasek.
 temasek.		172800	IN	NS	a2.nic.temasek.
 temasek.		172800	IN	NS	b0.nic.temasek.
