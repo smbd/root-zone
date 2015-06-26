@@ -1410,12 +1410,10 @@ cfd.			172800	IN	NS	g5.nstld.com.
 cfd.			172800	IN	NS	h5.nstld.com.
 cfd.			172800	IN	NS	l5.nstld.com.
 cfd.			86400	IN	NSEC	cg. NS DS RRSIG NSEC
-cg.			172800	IN	NS	dns.acnic.cg.
 cg.			172800	IN	NS	dns.dnsafrica.net.
 cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
-dns.acnic.cg.		172800	IN	A	196.43.240.147
 ch.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
@@ -4297,7 +4295,7 @@ latrobe.		172800	IN	NS	a.nic.latrobe.
 latrobe.		172800	IN	NS	b.nic.latrobe.
 latrobe.		172800	IN	NS	c.nic.latrobe.
 latrobe.		172800	IN	NS	d.nic.latrobe.
-latrobe.		86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
+latrobe.		86400	IN	NSEC	law. NS DS RRSIG NSEC
 a.nic.latrobe.		172800	IN	A	37.209.192.9
 a.nic.latrobe.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.latrobe.		172800	IN	A	37.209.194.9
@@ -4306,6 +4304,19 @@ c.nic.latrobe.		172800	IN	A	37.209.196.9
 c.nic.latrobe.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.latrobe.		172800	IN	A	37.209.198.9
 d.nic.latrobe.		172800	IN	AAAA	2001:dcd:4::9
+law.			172800	IN	NS	a.ns.nic.law.
+law.			172800	IN	NS	b.ns.nic.law.
+law.			172800	IN	NS	c.ns.nic.law.
+law.			172800	IN	NS	d.ns.nic.law.
+law.			86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
+a.ns.nic.law.		172800	IN	A	72.0.50.29
+a.ns.nic.law.		172800	IN	AAAA	2620:171:a02:ad::29
+b.ns.nic.law.		172800	IN	A	72.42.114.29
+b.ns.nic.law.		172800	IN	AAAA	2620:171:d02:dc::29
+c.ns.nic.law.		172800	IN	A	70.40.0.29
+c.ns.nic.law.		172800	IN	AAAA	2620:171:c00:c::29
+d.ns.nic.law.		172800	IN	A	70.40.8.29
+d.ns.nic.law.		172800	IN	AAAA	2620:171:f00:d::29
 lawyer.			172800	IN	NS	demand.beta.aridns.net.au.
 lawyer.			172800	IN	NS	demand.alpha.aridns.net.au.
 lawyer.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -6692,6 +6703,7 @@ py.			172800	IN	NS	auth00.ns.uu.net.
 py.			86400	IN	NSEC	qa. NS RRSIG NSEC
 ns.cnc.una.py.		172800	IN	A	200.10.228.132
 sce.cnc.una.py.		172800	IN	A	200.10.228.133
+qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
 qa.			172800	IN	NS	a.registry.qa.
 qa.			172800	IN	NS	b.registry.qa.
 qa.			172800	IN	NS	c.registry.qa.
@@ -6701,9 +6713,7 @@ qa.			172800	IN	NS	f.registry.qa.
 qa.			172800	IN	NS	g.registry.qa.
 qa.			172800	IN	NS	h.registry.qa.
 qa.			172800	IN	NS	i.registry.qa.
-qa.			172800	IN	NS	j.registry.qa.
-qa.			172800	IN	NS	k.registry.qa.
-qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
+qa.			172800	IN	NS	l.registry.qa.
 a.registry.qa.		172800	IN	A	178.23.16.104
 b.registry.qa.		172800	IN	A	178.23.17.104
 c.registry.qa.		172800	IN	A	212.77.192.10
@@ -6720,6 +6730,7 @@ i.registry.qa.		172800	IN	AAAA	2001:500:14:6062:ad::1
 j.registry.qa.		172800	IN	A	38.103.2.3
 k.registry.qa.		172800	IN	A	72.52.71.3
 k.registry.qa.		172800	IN	AAAA	2001:470:1a::3
+l.registry.qa.		172800	IN	A	185.62.164.1
 qpon.			172800	IN	NS	ns1.dns.nic.qpon.
 qpon.			172800	IN	NS	ns2.dns.nic.qpon.
 qpon.			172800	IN	NS	ns3.dns.nic.qpon.
@@ -6816,16 +6827,11 @@ rehab.			172800	IN	NS	demand.alpha.aridns.net.au.
 rehab.			172800	IN	NS	demand.delta.aridns.net.au.
 rehab.			172800	IN	NS	demand.gamma.aridns.net.au.
 rehab.			86400	IN	NSEC	reise. NS DS RRSIG NSEC
-reise.			172800	IN	NS	a.dns.nic.reise.
-reise.			172800	IN	NS	m.dns.nic.reise.
-reise.			172800	IN	NS	n.dns.nic.reise.
+reise.			172800	IN	NS	demand.beta.aridns.net.au.
+reise.			172800	IN	NS	demand.alpha.aridns.net.au.
+reise.			172800	IN	NS	demand.delta.aridns.net.au.
+reise.			172800	IN	NS	demand.gamma.aridns.net.au.
 reise.			86400	IN	NSEC	reisen. NS DS RRSIG NSEC
-a.dns.nic.reise.	172800	IN	A	194.0.25.18
-a.dns.nic.reise.	172800	IN	AAAA	2001:678:20::18
-m.dns.nic.reise.	172800	IN	A	194.0.26.7
-m.dns.nic.reise.	172800	IN	AAAA	2001:67c:10e0::7
-n.dns.nic.reise.	172800	IN	A	194.0.24.7
-n.dns.nic.reise.	172800	IN	AAAA	2001:678:24::7
 reisen.			172800	IN	NS	demand.beta.aridns.net.au.
 reisen.			172800	IN	NS	demand.alpha.aridns.net.au.
 reisen.			172800	IN	NS	demand.delta.aridns.net.au.
