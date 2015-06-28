@@ -3046,10 +3046,8 @@ gdn.			172800	IN	NS	ns2.nic.gdn.
 gdn.			86400	IN	NSEC	ge. NS DS RRSIG NSEC
 ns1.nic.gdn.		172800	IN	A	194.0.1.37
 ns1.nic.gdn.		172800	IN	AAAA	2001:678:4::25
-ns2.nic.gdn.		172800	IN	A	167.114.102.194
 ns2.nic.gdn.		172800	IN	A	204.61.216.99
 ns2.nic.gdn.		172800	IN	AAAA	2001:500:14:6099:ad::1
-ns2.nic.gdn.		172800	IN	AAAA	2607:5300:60:69c2::1
 ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
 ge.			172800	IN	NS	ns.nic.ge.
@@ -7543,8 +7541,8 @@ a.tld.sk.		172800	IN	A	194.0.45.1
 a.tld.sk.		172800	IN	AAAA	2001:678:70::1
 b.tld.sk.		172800	IN	A	84.245.96.1
 b.tld.sk.		172800	IN	AAAA	2001:678:90::1
-c.tld.sk.		172800	IN	A	217.75.72.157
-c.tld.sk.		172800	IN	AAAA	2a02:770:100:100::101
+c.tld.sk.		172800	IN	A	195.12.159.1
+c.tld.sk.		172800	IN	AAAA	2001:678:9c::1
 ski.			172800	IN	NS	ns1a.ksregistry.net.
 ski.			172800	IN	NS	ns1b.ksregistry.net.
 ski.			172800	IN	NS	ns2a.ksregistry.com.
