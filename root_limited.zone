@@ -6769,10 +6769,11 @@ py.			172800	IN	NS	py.cctld.authdns.ripe.net.
 py.			172800	IN	NS	ns2.switch.ch.
 py.			172800	IN	NS	ns3.nic.mx.
 py.			172800	IN	NS	sce.cnc.una.py.
-py.			172800	IN	NS	auth00.ns.uu.net.
 py.			86400	IN	NSEC	qa. NS RRSIG NSEC
 ns.cnc.una.py.		172800	IN	A	200.10.228.132
+ns.cnc.una.py.		172800	IN	AAAA	2001:1320:1::1
 sce.cnc.una.py.		172800	IN	A	200.10.228.133
+sce.cnc.una.py.		172800	IN	AAAA	2001:1320:1::2
 qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
 qa.			172800	IN	NS	a.registry.qa.
 qa.			172800	IN	NS	b.registry.qa.
