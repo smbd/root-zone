@@ -2915,7 +2915,20 @@ forsale.		172800	IN	NS	demand.beta.aridns.net.au.
 forsale.		172800	IN	NS	demand.alpha.aridns.net.au.
 forsale.		172800	IN	NS	demand.delta.aridns.net.au.
 forsale.		172800	IN	NS	demand.gamma.aridns.net.au.
-forsale.		86400	IN	NSEC	foundation. NS DS RRSIG NSEC
+forsale.		86400	IN	NSEC	forum. NS DS RRSIG NSEC
+forum.			172800	IN	NS	a.nic.forum.
+forum.			172800	IN	NS	b.nic.forum.
+forum.			172800	IN	NS	c.nic.forum.
+forum.			172800	IN	NS	d.nic.forum.
+forum.			86400	IN	NSEC	foundation. NS DS RRSIG NSEC
+a.nic.forum.		172800	IN	A	194.169.218.65
+a.nic.forum.		172800	IN	AAAA	2001:67c:13cc::1:65
+b.nic.forum.		172800	IN	A	185.24.64.65
+b.nic.forum.		172800	IN	AAAA	2a04:2b00:13cc::1:65
+c.nic.forum.		172800	IN	A	194.0.2.2
+c.nic.forum.		172800	IN	AAAA	2001:678:5::2
+d.nic.forum.		172800	IN	A	194.0.1.45
+d.nic.forum.		172800	IN	AAAA	2001:678:4::2d
 foundation.		172800	IN	NS	demand.beta.aridns.net.au.
 foundation.		172800	IN	NS	demand.alpha.aridns.net.au.
 foundation.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -6861,7 +6874,20 @@ realtor.		172800	IN	NS	f5.nstld.com.
 realtor.		172800	IN	NS	g5.nstld.com.
 realtor.		172800	IN	NS	h5.nstld.com.
 realtor.		172800	IN	NS	l5.nstld.com.
-realtor.		86400	IN	NSEC	recipes. NS DS RRSIG NSEC
+realtor.		86400	IN	NSEC	realty. NS DS RRSIG NSEC
+realty.			172800	IN	NS	a.nic.realty.
+realty.			172800	IN	NS	b.nic.realty.
+realty.			172800	IN	NS	c.nic.realty.
+realty.			172800	IN	NS	d.nic.realty.
+realty.			86400	IN	NSEC	recipes. NS DS RRSIG NSEC
+a.nic.realty.		172800	IN	A	194.169.218.66
+a.nic.realty.		172800	IN	AAAA	2001:67c:13cc::1:66
+b.nic.realty.		172800	IN	A	185.24.64.66
+b.nic.realty.		172800	IN	AAAA	2a04:2b00:13cc::1:66
+c.nic.realty.		172800	IN	A	194.0.2.2
+c.nic.realty.		172800	IN	AAAA	2001:678:5::2
+d.nic.realty.		172800	IN	A	194.0.1.45
+d.nic.realty.		172800	IN	AAAA	2001:678:4::2d
 recipes.		172800	IN	NS	demand.beta.aridns.net.au.
 recipes.		172800	IN	NS	demand.alpha.aridns.net.au.
 recipes.		172800	IN	NS	demand.delta.aridns.net.au.
