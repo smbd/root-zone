@@ -309,7 +309,13 @@ apartments.		172800	IN	NS	demand.beta.aridns.net.au.
 apartments.		172800	IN	NS	demand.alpha.aridns.net.au.
 apartments.		172800	IN	NS	demand.delta.aridns.net.au.
 apartments.		172800	IN	NS	demand.gamma.aridns.net.au.
-apartments.		86400	IN	NSEC	aq. NS DS RRSIG NSEC
+apartments.		86400	IN	NSEC	app. NS DS RRSIG NSEC
+app.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+app.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+app.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+app.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+app.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+app.			86400	IN	NSEC	aq. NS DS RRSIG NSEC
 aq.			172800	IN	NS	ns1.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
@@ -5717,8 +5723,6 @@ ph.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::104
 ps.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.105
 ps.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::105
-py.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.106
-py.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::106
 sa.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::108
 sd.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.109
@@ -6776,18 +6780,19 @@ ns3.nic.pw.		172800	IN	A	194.169.218.13
 ns3.nic.pw.		172800	IN	AAAA	2001:67c:13cc::1:13
 ns4.nic.pw.		172800	IN	A	185.24.64.13
 ns4.nic.pw.		172800	IN	AAAA	2a04:2b00:13cc::1:13
+py.			172800	IN	NS	r.dns.py.
 py.			172800	IN	NS	ns.cnc.una.py.
 py.			172800	IN	NS	ns.dns.br.
-py.			172800	IN	NS	py.cctld.authdns.ripe.net.
 py.			172800	IN	NS	ns2.switch.ch.
 py.			172800	IN	NS	ns3.nic.mx.
 py.			172800	IN	NS	sce.cnc.una.py.
 py.			86400	IN	NSEC	qa. NS RRSIG NSEC
+r.dns.py.		172800	IN	A	193.0.9.106
+r.dns.py.		172800	IN	AAAA	2001:67c:e0::106
 ns.cnc.una.py.		172800	IN	A	200.10.228.132
 ns.cnc.una.py.		172800	IN	AAAA	2001:1320:1::1
 sce.cnc.una.py.		172800	IN	A	200.10.228.133
 sce.cnc.una.py.		172800	IN	AAAA	2001:1320:1::2
-qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
 qa.			172800	IN	NS	a.registry.qa.
 qa.			172800	IN	NS	b.registry.qa.
 qa.			172800	IN	NS	c.registry.qa.
@@ -6798,6 +6803,7 @@ qa.			172800	IN	NS	g.registry.qa.
 qa.			172800	IN	NS	h.registry.qa.
 qa.			172800	IN	NS	i.registry.qa.
 qa.			172800	IN	NS	l.registry.qa.
+qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
 a.registry.qa.		172800	IN	A	178.23.16.104
 b.registry.qa.		172800	IN	A	178.23.17.104
 c.registry.qa.		172800	IN	A	212.77.192.10
@@ -6811,9 +6817,6 @@ h.registry.qa.		172800	IN	A	193.0.9.51
 h.registry.qa.		172800	IN	AAAA	2001:67c:e0::51
 i.registry.qa.		172800	IN	A	204.61.216.62
 i.registry.qa.		172800	IN	AAAA	2001:500:14:6062:ad::1
-j.registry.qa.		172800	IN	A	38.103.2.3
-k.registry.qa.		172800	IN	A	72.52.71.3
-k.registry.qa.		172800	IN	AAAA	2001:470:1a::3
 l.registry.qa.		172800	IN	A	185.62.164.1
 qpon.			172800	IN	NS	ns1.dns.nic.qpon.
 qpon.			172800	IN	NS	ns2.dns.nic.qpon.
@@ -7177,7 +7180,14 @@ saarland.		172800	IN	NS	ns1a.ksregistry.net.
 saarland.		172800	IN	NS	ns1b.ksregistry.net.
 saarland.		172800	IN	NS	ns2a.ksregistry.com.
 saarland.		172800	IN	NS	ns2b.ksregistry.com.
-saarland.		86400	IN	NSEC	sale. NS DS RRSIG NSEC
+saarland.		86400	IN	NSEC	sakura. NS DS RRSIG NSEC
+sakura.			172800	IN	NS	tld1.nic.sakura.
+sakura.			172800	IN	NS	tld2.nic.sakura.
+sakura.			86400	IN	NSEC	sale. NS DS RRSIG NSEC
+tld1.nic.sakura.	172800	IN	A	103.47.2.3
+tld1.nic.sakura.	172800	IN	AAAA	2001:dda::3
+tld2.nic.sakura.	172800	IN	A	117.104.133.18
+tld2.nic.sakura.	172800	IN	AAAA	2001:218:3001::3
 sale.			172800	IN	NS	demand.beta.aridns.net.au.
 sale.			172800	IN	NS	demand.alpha.aridns.net.au.
 sale.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7628,9 +7638,6 @@ sncf.			172800	IN	NS	g.ext.nic.fr.
 sncf.			86400	IN	NSEC	so. NS DS RRSIG NSEC
 so.			172800	IN	NS	d.nic.so.
 so.			172800	IN	NS	e.nic.so.
-so.			172800	IN	NS	g.gmoregistry.net.
-so.			172800	IN	NS	h.gmoregistry.net.
-so.			172800	IN	NS	i.gmoregistry.net.
 so.			86400	IN	NSEC	soccer. NS RRSIG NSEC
 d.nic.so.		172800	IN	A	196.216.168.54
 d.nic.so.		172800	IN	AAAA	2001:43f8:120::54
@@ -9655,8 +9662,7 @@ xn--wgbl6a.		172800	IN	NS	f.registry.qa.
 xn--wgbl6a.		172800	IN	NS	g.registry.qa.
 xn--wgbl6a.		172800	IN	NS	h.registry.qa.
 xn--wgbl6a.		172800	IN	NS	i.registry.qa.
-xn--wgbl6a.		172800	IN	NS	j.registry.qa.
-xn--wgbl6a.		172800	IN	NS	k.registry.qa.
+xn--wgbl6a.		172800	IN	NS	l.registry.qa.
 xn--wgbl6a.		86400	IN	NSEC	xn--xhq521b. NS RRSIG NSEC
 xn--xhq521b.		172800	IN	NS	ta.ngtld.cn.
 xn--xhq521b.		172800	IN	NS	tb.ngtld.cn.
