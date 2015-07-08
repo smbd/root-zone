@@ -236,7 +236,15 @@ airforce.		172800	IN	NS	demand.beta.aridns.net.au.
 airforce.		172800	IN	NS	demand.alpha.aridns.net.au.
 airforce.		172800	IN	NS	demand.delta.aridns.net.au.
 airforce.		172800	IN	NS	demand.gamma.aridns.net.au.
-airforce.		86400	IN	NSEC	al. NS DS RRSIG NSEC
+airforce.		86400	IN	NSEC	airtel. NS DS RRSIG NSEC
+airtel.			172800	IN	NS	a5.nstld.com.
+airtel.			172800	IN	NS	c5.nstld.com.
+airtel.			172800	IN	NS	d5.nstld.com.
+airtel.			172800	IN	NS	f5.nstld.com.
+airtel.			172800	IN	NS	g5.nstld.com.
+airtel.			172800	IN	NS	h5.nstld.com.
+airtel.			172800	IN	NS	l5.nstld.com.
+airtel.			86400	IN	NSEC	al. NS DS RRSIG NSEC
 al.			172800	IN	NS	al.cctld.authdns.ripe.net.
 al.			172800	IN	NS	ns1.nic.al.
 al.			172800	IN	NS	rip.psg.com.
@@ -569,7 +577,7 @@ bar.			172800	IN	NS	a.nic.bar.
 bar.			172800	IN	NS	b.nic.bar.
 bar.			172800	IN	NS	c.nic.bar.
 bar.			172800	IN	NS	d.nic.bar.
-bar.			86400	IN	NSEC	barclaycard. NS DS RRSIG NSEC
+bar.			86400	IN	NSEC	barcelona. NS DS RRSIG NSEC
 a.nic.bar.		172800	IN	A	194.169.218.56
 a.nic.bar.		172800	IN	AAAA	2001:67c:13cc::1:56
 b.nic.bar.		172800	IN	A	185.24.64.56
@@ -578,6 +586,11 @@ c.nic.bar.		172800	IN	A	194.0.2.2
 c.nic.bar.		172800	IN	AAAA	2001:678:5::2
 d.nic.bar.		172800	IN	A	194.0.1.45
 d.nic.bar.		172800	IN	AAAA	2001:678:4::2d
+barcelona.		172800	IN	NS	anycast9.irondns.net.
+barcelona.		172800	IN	NS	anycast10.irondns.net.
+barcelona.		172800	IN	NS	anycast23.irondns.net.
+barcelona.		172800	IN	NS	anycast24.irondns.net.
+barcelona.		86400	IN	NSEC	barclaycard. NS DS RRSIG NSEC
 barclaycard.		172800	IN	NS	a.nic.barclaycard.
 barclaycard.		172800	IN	NS	b.nic.barclaycard.
 barclaycard.		172800	IN	NS	c.nic.barclaycard.
@@ -638,7 +651,12 @@ bbva.			172800	IN	NS	f5.nstld.com.
 bbva.			172800	IN	NS	g5.nstld.com.
 bbva.			172800	IN	NS	h5.nstld.com.
 bbva.			172800	IN	NS	l5.nstld.com.
-bbva.			86400	IN	NSEC	bd. NS DS RRSIG NSEC
+bbva.			86400	IN	NSEC	bcn. NS DS RRSIG NSEC
+bcn.			172800	IN	NS	anycast9.irondns.net.
+bcn.			172800	IN	NS	anycast10.irondns.net.
+bcn.			172800	IN	NS	anycast23.irondns.net.
+bcn.			172800	IN	NS	anycast24.irondns.net.
+bcn.			86400	IN	NSEC	bd. NS DS RRSIG NSEC
 bd.			172800	IN	NS	dns.bd.
 bd.			172800	IN	NS	surma.btcl.net.bd.
 bd.			172800	IN	NS	jamuna.btcl.net.bd.
@@ -3032,7 +3050,12 @@ gallery.		172800	IN	NS	demand.beta.aridns.net.au.
 gallery.		172800	IN	NS	demand.alpha.aridns.net.au.
 gallery.		172800	IN	NS	demand.delta.aridns.net.au.
 gallery.		172800	IN	NS	demand.gamma.aridns.net.au.
-gallery.		86400	IN	NSEC	garden. NS DS RRSIG NSEC
+gallery.		86400	IN	NSEC	game. NS DS RRSIG NSEC
+game.			172800	IN	NS	a.ns.uniregistry.net.
+game.			172800	IN	NS	tld.isc-sns.com.
+game.			172800	IN	NS	tld.isc-sns.net.
+game.			172800	IN	NS	tld.isc-sns.info.
+game.			86400	IN	NSEC	garden. NS DS RRSIG NSEC
 garden.			172800	IN	NS	a.ns.nic.garden.
 garden.			172800	IN	NS	b.ns.nic.garden.
 garden.			172800	IN	NS	c.ns.nic.garden.
@@ -4131,7 +4154,7 @@ jp.			172800	IN	NS	d.dns.jp.
 jp.			172800	IN	NS	e.dns.jp.
 jp.			172800	IN	NS	f.dns.jp.
 jp.			172800	IN	NS	g.dns.jp.
-jp.			86400	IN	NSEC	juegos. NS DS RRSIG NSEC
+jp.			86400	IN	NSEC	jprs. NS DS RRSIG NSEC
 a.dns.jp.		172800	IN	A	203.119.1.1
 a.dns.jp.		172800	IN	AAAA	2001:dc4::1
 b.dns.jp.		172800	IN	A	202.12.30.131
@@ -4145,6 +4168,16 @@ e.dns.jp.		172800	IN	AAAA	2001:200:c000::35
 f.dns.jp.		172800	IN	A	150.100.6.8
 f.dns.jp.		172800	IN	AAAA	2001:2f8:0:100::153
 g.dns.jp.		172800	IN	A	203.119.40.1
+jprs.			172800	IN	NS	tld1.nic.jprs.
+jprs.			172800	IN	NS	tld2.nic.jprs.
+jprs.			172800	IN	NS	tld3.nic.jprs.
+jprs.			86400	IN	NSEC	juegos. NS DS RRSIG NSEC
+tld1.nic.jprs.		172800	IN	A	103.47.2.1
+tld1.nic.jprs.		172800	IN	AAAA	2001:dda::1
+tld2.nic.jprs.		172800	IN	A	117.104.133.16
+tld2.nic.jprs.		172800	IN	AAAA	2001:218:3001::1
+tld3.nic.jprs.		172800	IN	A	65.22.40.1
+tld3.nic.jprs.		172800	IN	AAAA	2a01:8840:1ba::1
 juegos.			172800	IN	NS	a.ns.uniregistry.net.
 juegos.			172800	IN	NS	tld.isc-sns.com.
 juegos.			172800	IN	NS	tld.isc-sns.net.
@@ -4516,7 +4549,12 @@ link.			172800	IN	NS	a.ns.uniregistry.net.
 link.			172800	IN	NS	tld.isc-sns.com.
 link.			172800	IN	NS	tld.isc-sns.net.
 link.			172800	IN	NS	tld.isc-sns.info.
-link.			86400	IN	NSEC	lk. NS DS RRSIG NSEC
+link.			86400	IN	NSEC	live. NS DS RRSIG NSEC
+live.			172800	IN	NS	demand.beta.aridns.net.au.
+live.			172800	IN	NS	demand.alpha.aridns.net.au.
+live.			172800	IN	NS	demand.delta.aridns.net.au.
+live.			172800	IN	NS	demand.gamma.aridns.net.au.
+live.			86400	IN	NSEC	lk. NS DS RRSIG NSEC
 lk.			86400	IN	NSEC	loan. NS DS RRSIG NSEC
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
@@ -5095,7 +5133,10 @@ mortgage.		172800	IN	NS	demand.delta.aridns.net.au.
 mortgage.		172800	IN	NS	demand.gamma.aridns.net.au.
 mortgage.		86400	IN	NSEC	moscow. NS DS RRSIG NSEC
 moscow.			172800	IN	NS	a.dns.ripn.net.
+moscow.			172800	IN	NS	a.dns.flexireg.ru.
 moscow.			172800	IN	NS	b.dns.ripn.net.
+moscow.			172800	IN	NS	b.dns.flexireg.net.
+moscow.			172800	IN	NS	c.dns.flexireg.org.
 moscow.			172800	IN	NS	d.dns.ripn.net.
 moscow.			172800	IN	NS	e.dns.ripn.net.
 moscow.			172800	IN	NS	f.dns.ripn.net.
@@ -5521,6 +5562,8 @@ f.edu-servers.net.	172800	IN	A	192.35.51.30
 g.edu-servers.net.	172800	IN	A	192.42.93.30
 g.edu-servers.net.	172800	IN	AAAA	2001:503:cc2c::2:36
 l.edu-servers.net.	172800	IN	A	192.41.162.30
+b.dns.flexireg.net.	172800	IN	A	195.253.64.6
+b.dns.flexireg.net.	172800	IN	AAAA	2a01:5b0:4::6
 a.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.168.36
 a.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:8::4
 b.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.169.36
@@ -6276,6 +6319,8 @@ c.ci-servers.org.	172800	IN	A	194.146.106.86
 c.ci-servers.org.	172800	IN	AAAA	2001:67c:1010:22::53
 tld1.coccaregistry.org.	172800	IN	A	72.42.113.2
 tld1.coccaregistry.org.	172800	IN	AAAA	2620:171:d01:dc::2
+c.dns.flexireg.org.	172800	IN	A	195.253.65.6
+c.dns.flexireg.org.	172800	IN	AAAA	2a01:5b0:5::6
 ns.icann.org.		172800	IN	A	199.4.138.53
 ns.icann.org.		172800	IN	AAAA	2001:500:89::53
 ns-ext.isc.org.		172800	IN	A	204.152.184.64
@@ -7132,12 +7177,14 @@ rsvp.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 rsvp.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 rsvp.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 rsvp.			86400	IN	NSEC	ru. NS DS RRSIG NSEC
+ru.			86400	IN	NSEC	ruhr. NS DS RRSIG NSEC
 ru.			172800	IN	NS	a.dns.ripn.net.
 ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
-ru.			86400	IN	NSEC	ruhr. NS DS RRSIG NSEC
+a.dns.flexireg.ru.	172800	IN	A	31.177.70.1
+a.dns.flexireg.ru.	172800	IN	AAAA	2a02:2090:6800::1
 ruhr.			172800	IN	NS	anycast9.irondns.net.
 ruhr.			172800	IN	NS	anycast10.irondns.net.
 ruhr.			172800	IN	NS	anycast23.irondns.net.
@@ -7756,7 +7803,12 @@ statoil.		172800	IN	NS	f5.nstld.com.
 statoil.		172800	IN	NS	g5.nstld.com.
 statoil.		172800	IN	NS	h5.nstld.com.
 statoil.		172800	IN	NS	l5.nstld.com.
-statoil.		86400	IN	NSEC	study. NS DS RRSIG NSEC
+statoil.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+studio.			172800	IN	NS	demand.beta.aridns.net.au.
+studio.			172800	IN	NS	demand.alpha.aridns.net.au.
+studio.			172800	IN	NS	demand.delta.aridns.net.au.
+studio.			172800	IN	NS	demand.gamma.aridns.net.au.
+studio.			86400	IN	NSEC	study. NS DS RRSIG NSEC
 study.			172800	IN	NS	a.nic.study.
 study.			172800	IN	NS	b.nic.study.
 study.			172800	IN	NS	c.nic.study.
