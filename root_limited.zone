@@ -685,11 +685,27 @@ y.ns.dns.be.		172800	IN	A	120.29.253.8
 y.ns.dns.be.		172800	IN	AAAA	2001:dcd:7::8
 beer.			172800	IN	NS	a.ns.nic.beer.
 beer.			172800	IN	NS	b.ns.nic.beer.
-beer.			86400	IN	NSEC	berlin. NS DS RRSIG NSEC
+beer.			86400	IN	NSEC	bentley. NS DS RRSIG NSEC
 a.ns.nic.beer.		172800	IN	A	72.0.50.14
 a.ns.nic.beer.		172800	IN	AAAA	2620:171:a02:ad::14
 b.ns.nic.beer.		172800	IN	A	72.42.114.14
 b.ns.nic.beer.		172800	IN	AAAA	2620:171:d02:dc::14
+bentley.		172800	IN	NS	ns1.nic.uk.
+bentley.		172800	IN	NS	ns2.nic.uk.
+bentley.		172800	IN	NS	ns4.nic.uk.
+bentley.		172800	IN	NS	ns5.nic.uk.
+bentley.		172800	IN	NS	ns6.nic.uk.
+bentley.		172800	IN	NS	ns7.nic.uk.
+bentley.		172800	IN	NS	dnsa.nic.bentley.
+bentley.		172800	IN	NS	dnsb.nic.bentley.
+bentley.		172800	IN	NS	dnsc.nic.bentley.
+bentley.		172800	IN	NS	dnsd.nic.bentley.
+bentley.		86400	IN	NSEC	berlin. NS DS RRSIG NSEC
+dnsa.nic.bentley.	172800	IN	A	156.154.100.3
+dnsa.nic.bentley.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.bentley.	172800	IN	A	156.154.101.3
+dnsc.nic.bentley.	172800	IN	A	156.154.102.3
+dnsd.nic.bentley.	172800	IN	A	156.154.103.3
 berlin.			172800	IN	NS	a.dns.nic.berlin.
 berlin.			172800	IN	NS	m.dns.nic.berlin.
 berlin.			172800	IN	NS	n.dns.nic.berlin.
@@ -730,7 +746,6 @@ bg.			172800	IN	NS	ns.register.bg.
 bg.			172800	IN	NS	ns2.register.bg.
 bg.			172800	IN	NS	ns3.register.bg.
 bg.			172800	IN	NS	ns4.register.bg.
-bg.			172800	IN	NS	ns-ext.isc.org.
 bg.			172800	IN	NS	sns-pb.isc.org.
 bg.			86400	IN	NSEC	bh. NS DS RRSIG NSEC
 ns.register.bg.		172800	IN	A	192.92.129.99
@@ -3487,7 +3502,6 @@ b0.nic.hiv.		172800	IN	AAAA	2a01:8840:df::17
 c0.nic.hiv.		172800	IN	A	65.22.230.17
 c0.nic.hiv.		172800	IN	AAAA	2a01:8840:e0::17
 hk.			86400	IN	NSEC	hm. NS RRSIG NSEC
-hk.			172800	IN	NS	b.hkirc.net.hk.
 hk.			172800	IN	NS	c.hkirc.net.hk.
 hk.			172800	IN	NS	d.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
@@ -3498,8 +3512,6 @@ hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:6::15
-b.hkirc.net.hk.		172800	IN	A	203.119.87.19
-b.hkirc.net.hk.		172800	IN	AAAA	2001:dca:1000::cb77:5713
 c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000::cb77:2da
 d.hkirc.net.hk.		172800	IN	A	203.119.87.218
@@ -3758,7 +3770,20 @@ ifm.			172800	IN	NS	anycast9.irondns.net.
 ifm.			172800	IN	NS	anycast10.irondns.net.
 ifm.			172800	IN	NS	anycast23.irondns.net.
 ifm.			172800	IN	NS	anycast24.irondns.net.
-ifm.			86400	IN	NSEC	il. NS DS RRSIG NSEC
+ifm.			86400	IN	NSEC	iinet. NS DS RRSIG NSEC
+iinet.			172800	IN	NS	a.nic.iinet.
+iinet.			172800	IN	NS	b.nic.iinet.
+iinet.			172800	IN	NS	c.nic.iinet.
+iinet.			172800	IN	NS	d.nic.iinet.
+iinet.			86400	IN	NSEC	il. NS DS RRSIG NSEC
+a.nic.iinet.		172800	IN	A	37.209.192.9
+a.nic.iinet.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.iinet.		172800	IN	A	37.209.194.9
+b.nic.iinet.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.iinet.		172800	IN	A	37.209.196.9
+c.nic.iinet.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.iinet.		172800	IN	A	37.209.198.9
+d.nic.iinet.		172800	IN	AAAA	2001:dcd:4::9
 il.			172800	IN	NS	ns1.ns.il.
 il.			172800	IN	NS	nsa.ns.il.
 il.			172800	IN	NS	nsb.ns.il.
@@ -4755,10 +4780,13 @@ d.nic.lv.		172800	IN	A	194.0.8.1
 d.nic.lv.		172800	IN	AAAA	2001:678:b:1::1
 ly.			172800	IN	NS	ly.cctld.authdns.ripe.net.
 ly.			172800	IN	NS	dns.lttnet.net.
+ly.			172800	IN	NS	pch.ltt.ly.
 ly.			172800	IN	NS	dns1.lttnet.net.
 ly.			172800	IN	NS	ns-ly.afrinic.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 ly.			86400	IN	NSEC	ma. NS RRSIG NSEC
+pch.ltt.ly.		172800	IN	A	204.61.216.67
+pch.ltt.ly.		172800	IN	AAAA	2001:500:14:6067:ad::1
 ma.			86400	IN	NSEC	madrid. NS RRSIG NSEC
 ma.			172800	IN	NS	ma.cctld.authdns.ripe.net.
 ma.			172800	IN	NS	dns.inria.fr.
@@ -6251,7 +6279,15 @@ oracle.			172800	IN	NS	f5.nstld.com.
 oracle.			172800	IN	NS	g5.nstld.com.
 oracle.			172800	IN	NS	h5.nstld.com.
 oracle.			172800	IN	NS	l5.nstld.com.
-oracle.			86400	IN	NSEC	org. NS DS RRSIG NSEC
+oracle.			86400	IN	NSEC	orange. NS DS RRSIG NSEC
+orange.			172800	IN	NS	a5.nstld.com.
+orange.			172800	IN	NS	c5.nstld.com.
+orange.			172800	IN	NS	d5.nstld.com.
+orange.			172800	IN	NS	f5.nstld.com.
+orange.			172800	IN	NS	g5.nstld.com.
+orange.			172800	IN	NS	h5.nstld.com.
+orange.			172800	IN	NS	l5.nstld.com.
+orange.			86400	IN	NSEC	org. NS DS RRSIG NSEC
 org.			86400	IN	NSEC	organic. NS DS RRSIG NSEC
 org.			172800	IN	NS	a0.org.afilias-nst.info.
 org.			172800	IN	NS	a2.org.afilias-nst.info.
@@ -8761,14 +8797,16 @@ ns2-cctld.vunic.vu.	172800	IN	A	202.80.32.10
 wales.			172800	IN	NS	ns1.nic.uk.
 wales.			172800	IN	NS	ns2.nic.uk.
 wales.			172800	IN	NS	ns4.nic.uk.
-wales.			172800	IN	NS	ns5.nic.uk.
 wales.			172800	IN	NS	ns6.nic.uk.
 wales.			172800	IN	NS	ns7.nic.uk.
+wales.			172800	IN	NS	dns4.nic.wales.
 wales.			172800	IN	NS	dnsa.nic.wales.
 wales.			172800	IN	NS	dnsb.nic.wales.
 wales.			172800	IN	NS	dnsc.nic.wales.
 wales.			172800	IN	NS	dnsd.nic.wales.
 wales.			86400	IN	NSEC	walter. NS DS RRSIG NSEC
+dns4.nic.wales.		172800	IN	A	43.230.49.2
+dns4.nic.wales.		172800	IN	AAAA	2401:fd80:405::2
 dnsa.nic.wales.		172800	IN	A	156.154.100.3
 dnsa.nic.wales.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.wales.		172800	IN	A	156.154.101.3
@@ -9413,7 +9451,6 @@ xn--j1amh.		172800	IN	NS	dns2.u-registry.net.
 xn--j1amh.		172800	IN	NS	dns3.dotukr.com.
 xn--j1amh.		172800	IN	NS	tier1.num.net.ua.
 xn--j1amh.		86400	IN	NSEC	xn--j6w193g. NS RRSIG NSEC
-xn--j6w193g.		172800	IN	NS	b.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	c.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	d.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
