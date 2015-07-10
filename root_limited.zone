@@ -475,12 +475,10 @@ auction.		172800	IN	NS	demand.delta.aridns.net.au.
 auction.		172800	IN	NS	demand.gamma.aridns.net.au.
 auction.		86400	IN	NSEC	audio. NS DS RRSIG NSEC
 audio.			172800	IN	NS	a.ns.uniregistry.net.
-audio.			172800	IN	NS	tld.isc-sns.com.
 audio.			172800	IN	NS	tld.isc-sns.net.
 audio.			172800	IN	NS	tld.isc-sns.info.
 audio.			86400	IN	NSEC	auto. NS DS RRSIG NSEC
 auto.			172800	IN	NS	a.ns.uniregistry.net.
-auto.			172800	IN	NS	tld.isc-sns.com.
 auto.			172800	IN	NS	tld.isc-sns.net.
 auto.			172800	IN	NS	tld.isc-sns.info.
 auto.			86400	IN	NSEC	autos. NS DS RRSIG NSEC
@@ -883,7 +881,6 @@ b0.nic.black.		172800	IN	AAAA	2a01:8840:43::33
 c0.nic.black.		172800	IN	A	65.22.70.33
 c0.nic.black.		172800	IN	AAAA	2a01:8840:44::33
 blackfriday.		172800	IN	NS	a.ns.uniregistry.net.
-blackfriday.		172800	IN	NS	tld.isc-sns.com.
 blackfriday.		172800	IN	NS	tld.isc-sns.net.
 blackfriday.		172800	IN	NS	tld.isc-sns.info.
 blackfriday.		86400	IN	NSEC	bloomberg. NS DS RRSIG NSEC
@@ -1304,7 +1301,6 @@ careers.		172800	IN	NS	demand.delta.aridns.net.au.
 careers.		172800	IN	NS	demand.gamma.aridns.net.au.
 careers.		86400	IN	NSEC	cars. NS DS RRSIG NSEC
 cars.			172800	IN	NS	a.ns.uniregistry.net.
-cars.			172800	IN	NS	tld.isc-sns.com.
 cars.			172800	IN	NS	tld.isc-sns.net.
 cars.			172800	IN	NS	tld.isc-sns.info.
 cars.			86400	IN	NSEC	cartier. NS DS RRSIG NSEC
@@ -1628,7 +1624,6 @@ cleaning.		172800	IN	NS	demand.delta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.gamma.aridns.net.au.
 cleaning.		86400	IN	NSEC	click. NS DS RRSIG NSEC
 click.			172800	IN	NS	a.ns.uniregistry.net.
-click.			172800	IN	NS	tld.isc-sns.com.
 click.			172800	IN	NS	tld.isc-sns.net.
 click.			172800	IN	NS	tld.isc-sns.info.
 click.			86400	IN	NSEC	clinic. NS DS RRSIG NSEC
@@ -2298,7 +2293,6 @@ diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
 diamonds.		86400	IN	NSEC	diet. NS DS RRSIG NSEC
 diet.			172800	IN	NS	a.ns.uniregistry.net.
-diet.			172800	IN	NS	tld.isc-sns.com.
 diet.			172800	IN	NS	tld.isc-sns.net.
 diet.			172800	IN	NS	tld.isc-sns.info.
 diet.			86400	IN	NSEC	digital. NS DS RRSIG NSEC
@@ -2897,7 +2891,6 @@ florist.		172800	IN	NS	demand.delta.aridns.net.au.
 florist.		172800	IN	NS	demand.gamma.aridns.net.au.
 florist.		86400	IN	NSEC	flowers. NS DS RRSIG NSEC
 flowers.		172800	IN	NS	a.ns.uniregistry.net.
-flowers.		172800	IN	NS	tld.isc-sns.com.
 flowers.		172800	IN	NS	tld.isc-sns.net.
 flowers.		172800	IN	NS	tld.isc-sns.info.
 flowers.		86400	IN	NSEC	flsmidth. NS DS RRSIG NSEC
@@ -3067,7 +3060,6 @@ gallery.		172800	IN	NS	demand.delta.aridns.net.au.
 gallery.		172800	IN	NS	demand.gamma.aridns.net.au.
 gallery.		86400	IN	NSEC	game. NS DS RRSIG NSEC
 game.			172800	IN	NS	a.ns.uniregistry.net.
-game.			172800	IN	NS	tld.isc-sns.com.
 game.			172800	IN	NS	tld.isc-sns.net.
 game.			172800	IN	NS	tld.isc-sns.info.
 game.			86400	IN	NSEC	garden. NS DS RRSIG NSEC
@@ -3164,7 +3156,6 @@ gi.			172800	IN	NS	c0.cctld.afilias-nst.info.
 gi.			172800	IN	NS	d0.cctld.afilias-nst.org.
 gi.			86400	IN	NSEC	gift. NS DS RRSIG NSEC
 gift.			172800	IN	NS	a.ns.uniregistry.net.
-gift.			172800	IN	NS	tld.isc-sns.com.
 gift.			172800	IN	NS	tld.isc-sns.net.
 gift.			172800	IN	NS	tld.isc-sns.info.
 gift.			86400	IN	NSEC	gifts. NS DS RRSIG NSEC
@@ -3404,7 +3395,6 @@ guide.			172800	IN	NS	demand.delta.aridns.net.au.
 guide.			172800	IN	NS	demand.gamma.aridns.net.au.
 guide.			86400	IN	NSEC	guitars. NS DS RRSIG NSEC
 guitars.		172800	IN	NS	a.ns.uniregistry.net.
-guitars.		172800	IN	NS	tld.isc-sns.com.
 guitars.		172800	IN	NS	tld.isc-sns.net.
 guitars.		172800	IN	NS	tld.isc-sns.info.
 guitars.		86400	IN	NSEC	guru. NS DS RRSIG NSEC
@@ -3453,7 +3443,6 @@ healthcare.		172800	IN	NS	demand.delta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.gamma.aridns.net.au.
 healthcare.		86400	IN	NSEC	help. NS DS RRSIG NSEC
 help.			172800	IN	NS	a.ns.uniregistry.net.
-help.			172800	IN	NS	tld.isc-sns.com.
 help.			172800	IN	NS	tld.isc-sns.net.
 help.			172800	IN	NS	tld.isc-sns.info.
 help.			86400	IN	NSEC	here. NS DS RRSIG NSEC
@@ -3477,7 +3466,6 @@ b0.nic.hermes.		172800	IN	AAAA	2a01:8840:e3::25
 c0.nic.hermes.		172800	IN	A	65.22.234.25
 c0.nic.hermes.		172800	IN	AAAA	2a01:8840:e4::25
 hiphop.			172800	IN	NS	a.ns.uniregistry.net.
-hiphop.			172800	IN	NS	tld.isc-sns.com.
 hiphop.			172800	IN	NS	tld.isc-sns.net.
 hiphop.			172800	IN	NS	tld.isc-sns.info.
 hiphop.			86400	IN	NSEC	hitachi. NS DS RRSIG NSEC
@@ -3617,7 +3605,6 @@ c.nic.host.		172800	IN	AAAA	2a04:2b03:13cc::53
 d.nic.host.		172800	IN	A	212.18.251.53
 d.nic.host.		172800	IN	AAAA	2a04:2b03:14bb::53
 hosting.		172800	IN	NS	a.ns.uniregistry.net.
-hosting.		172800	IN	NS	tld.isc-sns.com.
 hosting.		172800	IN	NS	tld.isc-sns.net.
 hosting.		172800	IN	NS	tld.isc-sns.info.
 hosting.		86400	IN	NSEC	hoteles. NS DS RRSIG NSEC
@@ -4223,7 +4210,6 @@ tld2.nic.jprs.		172800	IN	AAAA	2001:218:3001::1
 tld3.nic.jprs.		172800	IN	A	65.22.40.1
 tld3.nic.jprs.		172800	IN	AAAA	2a01:8840:1ba::1
 juegos.			172800	IN	NS	a.ns.uniregistry.net.
-juegos.			172800	IN	NS	tld.isc-sns.com.
 juegos.			172800	IN	NS	tld.isc-sns.net.
 juegos.			172800	IN	NS	tld.isc-sns.info.
 juegos.			86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
@@ -4590,7 +4576,6 @@ limo.			172800	IN	NS	demand.delta.aridns.net.au.
 limo.			172800	IN	NS	demand.gamma.aridns.net.au.
 limo.			86400	IN	NSEC	link. NS DS RRSIG NSEC
 link.			172800	IN	NS	a.ns.uniregistry.net.
-link.			172800	IN	NS	tld.isc-sns.com.
 link.			172800	IN	NS	tld.isc-sns.net.
 link.			172800	IN	NS	tld.isc-sns.info.
 link.			86400	IN	NSEC	live. NS DS RRSIG NSEC
@@ -4651,7 +4636,6 @@ loans.			172800	IN	NS	demand.delta.aridns.net.au.
 loans.			172800	IN	NS	demand.gamma.aridns.net.au.
 loans.			86400	IN	NSEC	lol. NS DS RRSIG NSEC
 lol.			172800	IN	NS	a.ns.uniregistry.net.
-lol.			172800	IN	NS	tld.isc-sns.com.
 lol.			172800	IN	NS	tld.isc-sns.net.
 lol.			172800	IN	NS	tld.isc-sns.info.
 lol.			86400	IN	NSEC	london. NS DS RRSIG NSEC
@@ -6563,7 +6547,6 @@ c.nic.philips.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.philips.		172800	IN	A	37.209.198.9
 d.nic.philips.		172800	IN	AAAA	2001:dcd:4::9
 photo.			172800	IN	NS	a.ns.uniregistry.net.
-photo.			172800	IN	NS	tld.isc-sns.com.
 photo.			172800	IN	NS	tld.isc-sns.net.
 photo.			172800	IN	NS	tld.isc-sns.info.
 photo.			86400	IN	NSEC	photography. NS DS RRSIG NSEC
@@ -6610,7 +6593,6 @@ ns5.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1075::88
 ns6.dns.nic.piaget.	172800	IN	A	156.154.158.136
 ns6.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1076::88
 pics.			172800	IN	NS	a.ns.uniregistry.net.
-pics.			172800	IN	NS	tld.isc-sns.com.
 pics.			172800	IN	NS	tld.isc-sns.net.
 pics.			172800	IN	NS	tld.isc-sns.info.
 pics.			86400	IN	NSEC	pictet. NS DS RRSIG NSEC
@@ -6829,7 +6811,6 @@ properties.		172800	IN	NS	demand.delta.aridns.net.au.
 properties.		172800	IN	NS	demand.gamma.aridns.net.au.
 properties.		86400	IN	NSEC	property. NS DS RRSIG NSEC
 property.		172800	IN	NS	a.ns.uniregistry.net.
-property.		172800	IN	NS	tld.isc-sns.com.
 property.		172800	IN	NS	tld.isc-sns.net.
 property.		172800	IN	NS	tld.isc-sns.info.
 property.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
@@ -7569,7 +7550,6 @@ c0.nic.sex.		172800	IN	AAAA	2001:500:a2::1
 d0.nic.sex.		172800	IN	A	199.115.155.1
 d0.nic.sex.		172800	IN	AAAA	2001:500:a3::1
 sexy.			172800	IN	NS	a.ns.uniregistry.net.
-sexy.			172800	IN	NS	tld.isc-sns.com.
 sexy.			172800	IN	NS	tld.isc-sns.net.
 sexy.			172800	IN	NS	tld.isc-sns.info.
 sexy.			86400	IN	NSEC	sg. NS DS RRSIG NSEC
@@ -8024,7 +8004,6 @@ tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
 tatar.			86400	IN	NSEC	tattoo. NS DS RRSIG NSEC
 tattoo.			172800	IN	NS	a.ns.uniregistry.net.
-tattoo.			172800	IN	NS	tld.isc-sns.com.
 tattoo.			172800	IN	NS	tld.isc-sns.net.
 tattoo.			172800	IN	NS	tld.isc-sns.info.
 tattoo.			86400	IN	NSEC	tax. NS DS RRSIG NSEC
