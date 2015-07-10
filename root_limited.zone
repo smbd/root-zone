@@ -3662,11 +3662,30 @@ how.			86400	IN	NSEC	hr. NS DS RRSIG NSEC
 hr.			172800	IN	NS	pch.carnet.hr.
 hr.			172800	IN	NS	sns-pb.isc.org.
 hr.			172800	IN	NS	hr-ns-1.carnet.hr.
-hr.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
+hr.			86400	IN	NSEC	hsbc. NS DS RRSIG NSEC
 hr-ns-1.carnet.hr.	172800	IN	A	161.53.160.100
 hr-ns-1.carnet.hr.	172800	IN	AAAA	2001:b68:ff:1::100
 pch.carnet.hr.		172800	IN	A	204.61.216.90
 pch.carnet.hr.		172800	IN	AAAA	2001:500:14:6090:ad::1
+hsbc.			172800	IN	NS	ns1.dns.nic.hsbc.
+hsbc.			172800	IN	NS	ns2.dns.nic.hsbc.
+hsbc.			172800	IN	NS	ns3.dns.nic.hsbc.
+hsbc.			172800	IN	NS	ns4.dns.nic.hsbc.
+hsbc.			172800	IN	NS	ns5.dns.nic.hsbc.
+hsbc.			172800	IN	NS	ns6.dns.nic.hsbc.
+hsbc.			86400	IN	NSEC	ht. NS DS RRSIG NSEC
+ns1.dns.nic.hsbc.	172800	IN	A	156.154.144.76
+ns1.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1071::4c
+ns2.dns.nic.hsbc.	172800	IN	A	156.154.145.76
+ns2.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1072::4c
+ns3.dns.nic.hsbc.	172800	IN	A	156.154.159.76
+ns3.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1073::4c
+ns4.dns.nic.hsbc.	172800	IN	A	156.154.156.76
+ns4.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1074::4c
+ns5.dns.nic.hsbc.	172800	IN	A	156.154.157.76
+ns5.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1075::4c
+ns6.dns.nic.hsbc.	172800	IN	A	156.154.158.76
+ns6.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1076::4c
 ht.			172800	IN	NS	dns.princeton.edu.
 ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
@@ -9194,7 +9213,10 @@ xn--6qq986b3xl.		172800	IN	NS	i.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	j.zdnscloud.com.
 xn--6qq986b3xl.		86400	IN	NSEC	xn--80adxhks. NS DS RRSIG NSEC
 xn--80adxhks.		172800	IN	NS	a.dns.ripn.net.
+xn--80adxhks.		172800	IN	NS	a.dns.flexireg.ru.
 xn--80adxhks.		172800	IN	NS	b.dns.ripn.net.
+xn--80adxhks.		172800	IN	NS	b.dns.flexireg.net.
+xn--80adxhks.		172800	IN	NS	c.dns.flexireg.org.
 xn--80adxhks.		172800	IN	NS	d.dns.ripn.net.
 xn--80adxhks.		172800	IN	NS	e.dns.ripn.net.
 xn--80adxhks.		172800	IN	NS	f.dns.ripn.net.
