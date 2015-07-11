@@ -1534,7 +1534,6 @@ ns5.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1075::29
 ns6.dns.nic.chloe.	172800	IN	A	156.154.158.41
 ns6.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1076::29
 christmas.		172800	IN	NS	a.ns.uniregistry.net.
-christmas.		172800	IN	NS	tld.isc-sns.com.
 christmas.		172800	IN	NS	tld.isc-sns.net.
 christmas.		172800	IN	NS	tld.isc-sns.info.
 christmas.		86400	IN	NSEC	chrome. NS DS RRSIG NSEC
@@ -1811,7 +1810,6 @@ mantse.gh.com.		172800	IN	A	193.194.185.2
 ns1.iafrica.com.	172800	IN	A	196.7.0.139
 hoppy.iom.com.		172800	IN	A	217.23.163.140
 pebbles.iom.com.	172800	IN	A	80.168.83.242
-tld.isc-sns.com.	172800	IN	A	38.103.2.3
 ns2a.ksregistry.com.	172800	IN	A	203.119.88.76
 ns2a.ksregistry.com.	172800	IN	AAAA	2001:dd8:7:6076:dc::1
 ns2b.ksregistry.com.	172800	IN	A	72.0.48.76
@@ -2246,7 +2244,20 @@ delivery.		172800	IN	NS	demand.beta.aridns.net.au.
 delivery.		172800	IN	NS	demand.alpha.aridns.net.au.
 delivery.		172800	IN	NS	demand.delta.aridns.net.au.
 delivery.		172800	IN	NS	demand.gamma.aridns.net.au.
-delivery.		86400	IN	NSEC	democrat. NS DS RRSIG NSEC
+delivery.		86400	IN	NSEC	delta. NS DS RRSIG NSEC
+delta.			172800	IN	NS	a0.nic.delta.
+delta.			172800	IN	NS	a2.nic.delta.
+delta.			172800	IN	NS	b0.nic.delta.
+delta.			172800	IN	NS	c0.nic.delta.
+delta.			86400	IN	NSEC	democrat. NS DS RRSIG NSEC
+a0.nic.delta.		172800	IN	A	65.22.224.25
+a0.nic.delta.		172800	IN	AAAA	2a01:8840:da::25
+a2.nic.delta.		172800	IN	A	65.22.227.25
+a2.nic.delta.		172800	IN	AAAA	2a01:8840:dd::25
+b0.nic.delta.		172800	IN	A	65.22.225.25
+b0.nic.delta.		172800	IN	AAAA	2a01:8840:db::25
+c0.nic.delta.		172800	IN	A	65.22.226.25
+c0.nic.delta.		172800	IN	AAAA	2a01:8840:dc::25
 democrat.		172800	IN	NS	demand.beta.aridns.net.au.
 democrat.		172800	IN	NS	demand.alpha.aridns.net.au.
 democrat.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -4019,13 +4030,39 @@ is.			172800	IN	NS	sunic.sunet.se.
 is.			172800	IN	NS	durinn.rhnet.is.
 is.			172800	IN	NS	isgate.is.
 is.			172800	IN	NS	sns-pb.isc.org.
-is.			86400	IN	NSEC	it. NS DS RRSIG NSEC
+is.			86400	IN	NSEC	ist. NS DS RRSIG NSEC
 isgate.is.		172800	IN	A	193.4.58.51
 isgate.is.		172800	IN	AAAA	2001:67c:6c:58::51
 sab.isnic.is.		172800	IN	A	194.146.106.58
 sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
 durinn.rhnet.is.	172800	IN	AAAA	2a00:c88:10:16::20
+ist.			172800	IN	NS	a0.nic.ist.
+ist.			172800	IN	NS	a2.nic.ist.
+ist.			172800	IN	NS	b0.nic.ist.
+ist.			172800	IN	NS	c0.nic.ist.
+ist.			86400	IN	NSEC	istanbul. NS DS RRSIG NSEC
+a0.nic.ist.		172800	IN	A	65.22.144.1
+a0.nic.ist.		172800	IN	AAAA	2a01:8840:8e::1
+a2.nic.ist.		172800	IN	A	65.22.147.1
+a2.nic.ist.		172800	IN	AAAA	2a01:8840:91::1
+b0.nic.ist.		172800	IN	A	65.22.145.1
+b0.nic.ist.		172800	IN	AAAA	2a01:8840:8f::1
+c0.nic.ist.		172800	IN	A	65.22.146.1
+c0.nic.ist.		172800	IN	AAAA	2a01:8840:90::1
+istanbul.		172800	IN	NS	a0.nic.istanbul.
+istanbul.		172800	IN	NS	a2.nic.istanbul.
+istanbul.		172800	IN	NS	b0.nic.istanbul.
+istanbul.		172800	IN	NS	c0.nic.istanbul.
+istanbul.		86400	IN	NSEC	it. NS DS RRSIG NSEC
+a0.nic.istanbul.	172800	IN	A	65.22.144.9
+a0.nic.istanbul.	172800	IN	AAAA	2a01:8840:8e::9
+a2.nic.istanbul.	172800	IN	A	65.22.147.9
+a2.nic.istanbul.	172800	IN	AAAA	2a01:8840:91::9
+b0.nic.istanbul.	172800	IN	A	65.22.145.9
+b0.nic.istanbul.	172800	IN	AAAA	2a01:8840:8f::9
+c0.nic.istanbul.	172800	IN	A	65.22.146.9
+c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90::9
 it.			86400	IN	NSEC	iwc. NS RRSIG NSEC
 it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	m.dns.it.
@@ -8444,7 +8481,7 @@ ns.anycast.co.tz.	172800	IN	A	204.61.216.15
 ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad::1
 ns2.tznic.or.tz.	172800	IN	A	196.216.162.67
 ns2.tznic.or.tz.	172800	IN	AAAA	2001:43f8:e0:1::67
-ua.			86400	IN	NSEC	ug. NS DS RRSIG NSEC
+ua.			86400	IN	NSEC	ubs. NS DS RRSIG NSEC
 ua.			172800	IN	NS	cd1.ns.ua.
 ua.			172800	IN	NS	he1.ns.ua.
 ua.			172800	IN	NS	ho1.ns.ua.
@@ -8466,6 +8503,14 @@ pch.ns.ua.		172800	IN	A	204.61.216.12
 pch.ns.ua.		172800	IN	AAAA	2001:500:14:6012:ad::1
 ripe.ns.ua.		172800	IN	A	193.0.9.121
 ripe.ns.ua.		172800	IN	AAAA	2001:67c:e0::121
+ubs.			172800	IN	NS	a5.nstld.com.
+ubs.			172800	IN	NS	c5.nstld.com.
+ubs.			172800	IN	NS	d5.nstld.com.
+ubs.			172800	IN	NS	f5.nstld.com.
+ubs.			172800	IN	NS	g5.nstld.com.
+ubs.			172800	IN	NS	h5.nstld.com.
+ubs.			172800	IN	NS	l5.nstld.com.
+ubs.			86400	IN	NSEC	ug. NS DS RRSIG NSEC
 ug.			172800	IN	NS	ns.icann.org.
 ug.			172800	IN	NS	ug.cctld.authdns.ripe.net.
 ug.			172800	IN	NS	root.eahd.or.ug.
