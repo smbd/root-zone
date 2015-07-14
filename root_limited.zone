@@ -1970,21 +1970,28 @@ d.nic.courses.		172800	IN	AAAA	2001:dcd:4::9
 cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
 cr.			172800	IN	NS	a.ns.cr.
 cr.			172800	IN	NS	c.ns.cr.
-cr.			172800	IN	NS	d.ns.cr.
 cr.			172800	IN	NS	e.ns.cr.
 cr.			172800	IN	NS	f.ns.cr.
+cr.			172800	IN	NS	f.nic.cr.
+cr.			172800	IN	NS	g.nic.cr.
+cr.			172800	IN	NS	h.nic.cr.
 cr.			172800	IN	NS	p.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
 dns.nic.cr.		172800	IN	A	200.107.82.100
 dns.nic.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
+f.nic.cr.		172800	IN	A	199.254.59.9
+f.nic.cr.		172800	IN	AAAA	2001:500:25::9
+g.nic.cr.		172800	IN	A	199.254.60.9
+g.nic.cr.		172800	IN	AAAA	2001:500:26::9
+h.nic.cr.		172800	IN	A	199.254.61.9
+h.nic.cr.		172800	IN	AAAA	2001:500:27::9
 p.nic.cr.		172800	IN	A	204.61.216.89
 p.nic.cr.		172800	IN	AAAA	2001:500:14:6089:ad::1
 ns.cr.			172800	IN	A	163.178.8.2
 a.ns.cr.		172800	IN	A	200.107.82.100
 a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
 c.ns.cr.		172800	IN	A	193.0.9.69
-d.ns.cr.		172800	IN	A	38.103.2.3
 e.ns.cr.		172800	IN	A	72.52.71.3
 e.ns.cr.		172800	IN	AAAA	2001:470:1a::3
 f.ns.cr.		172800	IN	A	63.243.194.3
@@ -5331,7 +5338,7 @@ chambo.sdnp.org.mw.	172800	IN	A	41.221.99.135
 chambo.sdnp.org.mw.	172800	IN	A	196.45.188.5
 domwe.sdn.mw.		172800	IN	A	41.221.99.149
 domwe.sdn.mw.		172800	IN	A	196.45.190.9
-mx.			86400	IN	NSEC	my. NS RRSIG NSEC
+mx.			86400	IN	NSEC	my. NS DS RRSIG NSEC
 mx.			172800	IN	NS	c.mx-ns.mx.
 mx.			172800	IN	NS	e.mx-ns.mx.
 mx.			172800	IN	NS	i.mx-ns.mx.
