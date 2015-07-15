@@ -637,10 +637,21 @@ bb.			86400	IN	NSEC	bbc. NS RRSIG NSEC
 bbc.			172800	IN	NS	ns1.nic.uk.
 bbc.			172800	IN	NS	ns2.nic.uk.
 bbc.			172800	IN	NS	ns4.nic.uk.
-bbc.			172800	IN	NS	ns5.nic.uk.
 bbc.			172800	IN	NS	ns6.nic.uk.
 bbc.			172800	IN	NS	ns7.nic.uk.
+bbc.			172800	IN	NS	dns4.nic.bbc.
+bbc.			172800	IN	NS	dnsa.nic.bbc.
+bbc.			172800	IN	NS	dnsb.nic.bbc.
+bbc.			172800	IN	NS	dnsc.nic.bbc.
+bbc.			172800	IN	NS	dnsd.nic.bbc.
 bbc.			86400	IN	NSEC	bbva. NS DS RRSIG NSEC
+dns4.nic.bbc.		172800	IN	A	43.230.49.4
+dns4.nic.bbc.		172800	IN	AAAA	2401:fd80:405::4
+dnsa.nic.bbc.		172800	IN	A	156.154.100.3
+dnsa.nic.bbc.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.bbc.		172800	IN	A	156.154.101.3
+dnsc.nic.bbc.		172800	IN	A	156.154.102.3
+dnsd.nic.bbc.		172800	IN	A	156.154.103.3
 bbva.			172800	IN	NS	a5.nstld.com.
 bbva.			172800	IN	NS	c5.nstld.com.
 bbva.			172800	IN	NS	d5.nstld.com.
@@ -2110,14 +2121,16 @@ cynic.dns.cy.		172800	IN	A	194.42.29.1
 cymru.			172800	IN	NS	ns1.nic.uk.
 cymru.			172800	IN	NS	ns2.nic.uk.
 cymru.			172800	IN	NS	ns4.nic.uk.
-cymru.			172800	IN	NS	ns5.nic.uk.
 cymru.			172800	IN	NS	ns6.nic.uk.
 cymru.			172800	IN	NS	ns7.nic.uk.
+cymru.			172800	IN	NS	dns4.nic.cymru.
 cymru.			172800	IN	NS	dnsa.nic.cymru.
 cymru.			172800	IN	NS	dnsb.nic.cymru.
 cymru.			172800	IN	NS	dnsc.nic.cymru.
 cymru.			172800	IN	NS	dnsd.nic.cymru.
 cymru.			86400	IN	NSEC	cyou. NS DS RRSIG NSEC
+dns4.nic.cymru.		172800	IN	A	43.230.49.3
+dns4.nic.cymru.		172800	IN	AAAA	2401:fd80:405::3
 dnsa.nic.cymru.		172800	IN	A	156.154.100.3
 dnsa.nic.cymru.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.cymru.		172800	IN	A	156.154.101.3
@@ -4450,7 +4463,11 @@ lacaixa.		172800	IN	NS	anycast9.irondns.net.
 lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
 lacaixa.		172800	IN	NS	anycast24.irondns.net.
-lacaixa.		86400	IN	NSEC	land. NS DS RRSIG NSEC
+lacaixa.		86400	IN	NSEC	lancaster. NS DS RRSIG NSEC
+lancaster.		172800	IN	NS	d.nic.fr.
+lancaster.		172800	IN	NS	f.ext.nic.fr.
+lancaster.		172800	IN	NS	g.ext.nic.fr.
+lancaster.		86400	IN	NSEC	land. NS DS RRSIG NSEC
 land.			172800	IN	NS	demand.beta.aridns.net.au.
 land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -5871,6 +5888,8 @@ uy.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.122
 uy.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::122
 va.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.123
 va.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::123
+vg.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.124
+vg.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::124
 vn.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.126
 vn.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::126
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
@@ -6091,7 +6110,7 @@ ns5.dns.nl.		172800	IN	A	194.0.28.53
 ns5.dns.nl.		172800	IN	AAAA	2001:678:2c:0:194:0:28:53
 ns-pt.nlnetlabs.nl.	172800	IN	A	185.49.140.61
 ns-pt.nlnetlabs.nl.	172800	IN	AAAA	2a04:b900::8:0:0:61
-no.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+no.			86400	IN	NSEC	nokia. NS DS RRSIG NSEC
 no.			172800	IN	NS	i.nic.no.
 no.			172800	IN	NS	x.nic.no.
 no.			172800	IN	NS	y.nic.no.
@@ -6111,6 +6130,19 @@ not.norid.no.		172800	IN	A	156.154.100.12
 not.norid.no.		172800	IN	AAAA	2001:502:ad09::12
 nn.uninett.no.		172800	IN	A	158.38.0.181
 nn.uninett.no.		172800	IN	AAAA	2001:700:0:503::aa:5302
+nokia.			172800	IN	NS	a0.nic.nokia.
+nokia.			172800	IN	NS	a2.nic.nokia.
+nokia.			172800	IN	NS	b0.nic.nokia.
+nokia.			172800	IN	NS	c0.nic.nokia.
+nokia.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+a0.nic.nokia.		172800	IN	A	65.22.148.17
+a0.nic.nokia.		172800	IN	AAAA	2a01:8840:92::17
+a2.nic.nokia.		172800	IN	A	65.22.151.17
+a2.nic.nokia.		172800	IN	AAAA	2a01:8840:95::17
+b0.nic.nokia.		172800	IN	A	65.22.149.17
+b0.nic.nokia.		172800	IN	AAAA	2a01:8840:93::17
+c0.nic.nokia.		172800	IN	A	65.22.150.17
+c0.nic.nokia.		172800	IN	AAAA	2a01:8840:94::17
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
 np.			172800	IN	NS	sec3.apnic.net.
 np.			172800	IN	NS	np-ns.npix.net.np.
@@ -8656,6 +8688,7 @@ vc.			86400	IN	NSEC	ve. NS RRSIG NSEC
 ve.			172800	IN	NS	ns1.nic.ve.
 ve.			172800	IN	NS	ns2.nic.ve.
 ve.			172800	IN	NS	ns3.nic.ve.
+ve.			172800	IN	NS	ns4.nic.ve.
 ve.			172800	IN	NS	ns-ext.nic.cl.
 ve.			172800	IN	NS	sns-pb.isc.org.
 ve.			172800	IN	NS	azmodan.ula.ve.
@@ -8665,6 +8698,7 @@ ns1.nic.ve.		172800	IN	AAAA	2001:1338::2
 ns2.nic.ve.		172800	IN	A	150.188.228.5
 ns2.nic.ve.		172800	IN	AAAA	2001:1338::3
 ns3.nic.ve.		172800	IN	A	190.9.129.56
+ns4.nic.ve.		172800	IN	A	190.202.128.43
 azmodan.ula.ve.		172800	IN	A	150.185.130.16
 vegas.			172800	IN	NS	a0.nic.vegas.
 vegas.			172800	IN	NS	a2.nic.vegas.
@@ -8699,6 +8733,7 @@ vet.			172800	IN	NS	demand.alpha.aridns.net.au.
 vet.			172800	IN	NS	demand.delta.aridns.net.au.
 vet.			172800	IN	NS	demand.gamma.aridns.net.au.
 vet.			86400	IN	NSEC	vg. NS DS RRSIG NSEC
+vg.			172800	IN	NS	vg.cctld.authdns.ripe.net.
 vg.			172800	IN	NS	vg-ns.anycast.pch.net.
 vg.			172800	IN	NS	vg-ns.ksregistry.net.
 vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
