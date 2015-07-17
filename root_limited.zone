@@ -1481,9 +1481,9 @@ cfd.			172800	IN	NS	g5.nstld.com.
 cfd.			172800	IN	NS	h5.nstld.com.
 cfd.			172800	IN	NS	l5.nstld.com.
 cfd.			86400	IN	NSEC	cg. NS DS RRSIG NSEC
-cg.			172800	IN	NS	dns.dnsafrica.net.
 cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
+cg.			172800	IN	NS	dns-fr.dnsafrica.net.
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
 ch.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
 ch.			172800	IN	NS	a.nic.ch.
@@ -4285,7 +4285,7 @@ ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns1.coza.net.za.
 ke.			172800	IN	NS	mzizi.kenic.or.ke.
 ke.			172800	IN	NS	ns-ke.afrinic.net.
-ke.			86400	IN	NSEC	kg. NS RRSIG NSEC
+ke.			86400	IN	NSEC	kg. NS DS RRSIG NSEC
 ns.anycast.kenic.or.ke.	172800	IN	A	204.61.216.7
 ns.anycast.kenic.or.ke.	172800	IN	AAAA	2001:500:14:6007:ad::1
 mzizi.kenic.or.ke.	172800	IN	A	196.1.4.130
@@ -5223,14 +5223,9 @@ mortgage.		172800	IN	NS	demand.alpha.aridns.net.au.
 mortgage.		172800	IN	NS	demand.delta.aridns.net.au.
 mortgage.		172800	IN	NS	demand.gamma.aridns.net.au.
 mortgage.		86400	IN	NSEC	moscow. NS DS RRSIG NSEC
-moscow.			172800	IN	NS	a.dns.ripn.net.
 moscow.			172800	IN	NS	a.dns.flexireg.ru.
-moscow.			172800	IN	NS	b.dns.ripn.net.
 moscow.			172800	IN	NS	b.dns.flexireg.net.
 moscow.			172800	IN	NS	c.dns.flexireg.org.
-moscow.			172800	IN	NS	d.dns.ripn.net.
-moscow.			172800	IN	NS	e.dns.ripn.net.
-moscow.			172800	IN	NS	f.dns.ripn.net.
 moscow.			86400	IN	NSEC	motorcycles. NS DS RRSIG NSEC
 motorcycles.		172800	IN	NS	a0.nic.motorcycles.
 motorcycles.		172800	IN	NS	a2.nic.motorcycles.
@@ -5575,7 +5570,7 @@ l.de.net.		172800	IN	AAAA	2001:668:1f:11::105
 n.de.net.		172800	IN	A	194.146.107.6
 n.de.net.		172800	IN	AAAA	2001:67c:1011:1::53
 s.de.net.		172800	IN	A	195.243.137.26
-dns.dnsafrica.net.	172800	IN	A	213.193.157.30
+dns-fr.dnsafrica.net.	172800	IN	A	151.80.35.161
 cl1.dnsnode.net.	172800	IN	A	194.146.106.34
 cl1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:8::53
 coza1.dnsnode.net.	172800	IN	A	194.146.106.74
@@ -9277,14 +9272,9 @@ xn--6qq986b3xl.		172800	IN	NS	g.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	i.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	j.zdnscloud.com.
 xn--6qq986b3xl.		86400	IN	NSEC	xn--80adxhks. NS DS RRSIG NSEC
-xn--80adxhks.		172800	IN	NS	a.dns.ripn.net.
 xn--80adxhks.		172800	IN	NS	a.dns.flexireg.ru.
-xn--80adxhks.		172800	IN	NS	b.dns.ripn.net.
 xn--80adxhks.		172800	IN	NS	b.dns.flexireg.net.
 xn--80adxhks.		172800	IN	NS	c.dns.flexireg.org.
-xn--80adxhks.		172800	IN	NS	d.dns.ripn.net.
-xn--80adxhks.		172800	IN	NS	e.dns.ripn.net.
-xn--80adxhks.		172800	IN	NS	f.dns.ripn.net.
 xn--80adxhks.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
 xn--80ao21a.		172800	IN	NS	kz.cctld.authdns.ripe.net.
 xn--80ao21a.		172800	IN	NS	ns.nic.kz.
