@@ -3743,7 +3743,7 @@ icbc.			172800	IN	NS	a0.nic.icbc.
 icbc.			172800	IN	NS	a2.nic.icbc.
 icbc.			172800	IN	NS	b0.nic.icbc.
 icbc.			172800	IN	NS	c0.nic.icbc.
-icbc.			86400	IN	NSEC	icu. NS DS RRSIG NSEC
+icbc.			86400	IN	NSEC	ice. NS DS RRSIG NSEC
 a0.nic.icbc.		172800	IN	A	65.22.128.33
 a0.nic.icbc.		172800	IN	AAAA	2a01:8840:7e::33
 a2.nic.icbc.		172800	IN	A	65.22.131.33
@@ -3752,6 +3752,14 @@ b0.nic.icbc.		172800	IN	A	65.22.129.33
 b0.nic.icbc.		172800	IN	AAAA	2a01:8840:7f::33
 c0.nic.icbc.		172800	IN	A	65.22.130.33
 c0.nic.icbc.		172800	IN	AAAA	2a01:8840:80::33
+ice.			172800	IN	NS	a5.nstld.com.
+ice.			172800	IN	NS	c5.nstld.com.
+ice.			172800	IN	NS	d5.nstld.com.
+ice.			172800	IN	NS	f5.nstld.com.
+ice.			172800	IN	NS	g5.nstld.com.
+ice.			172800	IN	NS	h5.nstld.com.
+ice.			172800	IN	NS	l5.nstld.com.
+ice.			86400	IN	NSEC	icu. NS DS RRSIG NSEC
 icu.			172800	IN	NS	a.nic.icu.
 icu.			172800	IN	NS	b.nic.icu.
 icu.			172800	IN	NS	c.nic.icu.
@@ -4083,7 +4091,7 @@ b0.nic.istanbul.	172800	IN	A	65.22.145.9
 b0.nic.istanbul.	172800	IN	AAAA	2a01:8840:8f::9
 c0.nic.istanbul.	172800	IN	A	65.22.146.9
 c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90::9
-it.			86400	IN	NSEC	iwc. NS RRSIG NSEC
+it.			86400	IN	NSEC	itau. NS RRSIG NSEC
 it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
@@ -4107,6 +4115,25 @@ seth.namex.it.		172800	IN	A	193.201.40.7
 seth.namex.it.		172800	IN	AAAA	2001:7f8:10:f00a::7
 dns.nic.it.		172800	IN	A	192.12.192.5
 dns.nic.it.		172800	IN	AAAA	2a00:d40:1:1::5
+itau.			172800	IN	NS	ns1.dns.nic.itau.
+itau.			172800	IN	NS	ns2.dns.nic.itau.
+itau.			172800	IN	NS	ns3.dns.nic.itau.
+itau.			172800	IN	NS	ns4.dns.nic.itau.
+itau.			172800	IN	NS	ns5.dns.nic.itau.
+itau.			172800	IN	NS	ns6.dns.nic.itau.
+itau.			86400	IN	NSEC	iwc. NS DS RRSIG NSEC
+ns1.dns.nic.itau.	172800	IN	A	156.154.144.84
+ns1.dns.nic.itau.	172800	IN	AAAA	2610:a1:1071::54
+ns2.dns.nic.itau.	172800	IN	A	156.154.145.84
+ns2.dns.nic.itau.	172800	IN	AAAA	2610:a1:1072::54
+ns3.dns.nic.itau.	172800	IN	A	156.154.159.84
+ns3.dns.nic.itau.	172800	IN	AAAA	2610:a1:1073::54
+ns4.dns.nic.itau.	172800	IN	A	156.154.156.84
+ns4.dns.nic.itau.	172800	IN	AAAA	2610:a1:1074::54
+ns5.dns.nic.itau.	172800	IN	A	156.154.157.84
+ns5.dns.nic.itau.	172800	IN	AAAA	2610:a1:1075::54
+ns6.dns.nic.itau.	172800	IN	A	156.154.158.84
+ns6.dns.nic.itau.	172800	IN	AAAA	2610:a1:1076::54
 iwc.			172800	IN	NS	ns1.dns.nic.iwc.
 iwc.			172800	IN	NS	ns2.dns.nic.iwc.
 iwc.			172800	IN	NS	ns3.dns.nic.iwc.
@@ -6333,10 +6360,10 @@ a.nic.online.		172800	IN	A	194.169.218.54
 a.nic.online.		172800	IN	AAAA	2001:67c:13cc::1:54
 b.nic.online.		172800	IN	A	185.24.64.54
 b.nic.online.		172800	IN	AAAA	2a04:2b00:13cc::1:54
-c.nic.online.		172800	IN	A	194.0.2.2
-c.nic.online.		172800	IN	AAAA	2001:678:5::2
-d.nic.online.		172800	IN	A	194.0.1.45
-d.nic.online.		172800	IN	AAAA	2001:678:4::2d
+c.nic.online.		172800	IN	A	185.38.99.7
+c.nic.online.		172800	IN	AAAA	2a02:e180:3::7
+d.nic.online.		172800	IN	A	108.59.161.7
+d.nic.online.		172800	IN	AAAA	2a02:e180:4::7
 ooo.			172800	IN	NS	a5.nstld.com.
 ooo.			172800	IN	NS	c5.nstld.com.
 ooo.			172800	IN	NS	d5.nstld.com.
@@ -8558,17 +8585,19 @@ uk.			86400	IN	NSEC	university. NS DS RRSIG NSEC
 uk.			172800	IN	NS	ns1.nic.uk.
 uk.			172800	IN	NS	ns2.nic.uk.
 uk.			172800	IN	NS	ns4.nic.uk.
-uk.			172800	IN	NS	ns5.nic.uk.
 uk.			172800	IN	NS	ns6.nic.uk.
 uk.			172800	IN	NS	ns7.nic.uk.
 uk.			172800	IN	NS	nsa.nic.uk.
 uk.			172800	IN	NS	nsb.nic.uk.
 uk.			172800	IN	NS	nsc.nic.uk.
 uk.			172800	IN	NS	nsd.nic.uk.
+uk.			172800	IN	NS	dns4.nic.uk.
 ns1.cs.ucl.ac.uk.	172800	IN	A	128.16.5.32
 barney.advsys.co.uk.	172800	IN	A	217.23.160.50
 ns3.icb.co.uk.		172800	IN	A	91.208.95.130
 tld6.ultradns.co.uk.	172800	IN	A	198.133.199.11
+dns4.nic.uk.		172800	IN	A	43.230.48.1
+dns4.nic.uk.		172800	IN	AAAA	2401:fd80:404::1
 ns1.nic.uk.		172800	IN	A	195.66.240.130
 ns1.nic.uk.		172800	IN	AAAA	2a01:40:1001:35::2
 ns2.nic.uk.		172800	IN	A	217.79.164.131
