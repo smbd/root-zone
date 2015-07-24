@@ -3559,7 +3559,7 @@ hm.			172800	IN	NS	ns3.registry.hm.
 hm.			86400	IN	NSEC	hn. NS RRSIG NSEC
 ns1.registry.hm.	172800	IN	A	208.70.79.25
 ns2.registry.hm.	172800	IN	A	208.70.79.24
-ns3.registry.hm.	172800	IN	A	202.169.96.24
+ns3.registry.hm.	172800	IN	A	128.199.180.188
 hn.			172800	IN	NS	sns-pb.isc.org.
 hn.			172800	IN	NS	pch-anycast.rds.org.hn.
 hn.			172800	IN	NS	nicmx-anycast.rds.org.hn.
