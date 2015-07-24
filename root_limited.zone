@@ -730,7 +730,7 @@ best.			172800	IN	NS	ns3.dns.nic.best.
 best.			172800	IN	NS	ns4.dns.nic.best.
 best.			172800	IN	NS	ns5.dns.nic.best.
 best.			172800	IN	NS	ns6.dns.nic.best.
-best.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+best.			86400	IN	NSEC	bet. NS DS RRSIG NSEC
 ns1.dns.nic.best.	172800	IN	A	156.154.144.24
 ns1.dns.nic.best.	172800	IN	AAAA	2610:a1:1071::18
 ns2.dns.nic.best.	172800	IN	A	156.154.145.24
@@ -743,6 +743,19 @@ ns5.dns.nic.best.	172800	IN	A	156.154.157.24
 ns5.dns.nic.best.	172800	IN	AAAA	2610:a1:1075::18
 ns6.dns.nic.best.	172800	IN	A	156.154.158.24
 ns6.dns.nic.best.	172800	IN	AAAA	2610:a1:1076::18
+bet.			172800	IN	NS	a0.nic.bet.
+bet.			172800	IN	NS	a2.nic.bet.
+bet.			172800	IN	NS	b0.nic.bet.
+bet.			172800	IN	NS	c0.nic.bet.
+bet.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
+a0.nic.bet.		172800	IN	A	65.22.36.17
+a0.nic.bet.		172800	IN	AAAA	2a01:8840:26::17
+a2.nic.bet.		172800	IN	A	65.22.39.17
+a2.nic.bet.		172800	IN	AAAA	2a01:8840:29::17
+b0.nic.bet.		172800	IN	A	65.22.37.17
+b0.nic.bet.		172800	IN	AAAA	2a01:8840:27::17
+c0.nic.bet.		172800	IN	A	65.22.38.17
+c0.nic.bet.		172800	IN	AAAA	2a01:8840:28::17
 bf.			172800	IN	NS	ns1.ird.fr.
 bf.			172800	IN	NS	ns1.as6453.net.
 bf.			172800	IN	NS	ns2.as6453.net.
@@ -1981,8 +1994,6 @@ d.nic.courses.		172800	IN	AAAA	2001:dcd:4::9
 cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
 cr.			172800	IN	NS	a.ns.cr.
 cr.			172800	IN	NS	c.ns.cr.
-cr.			172800	IN	NS	e.ns.cr.
-cr.			172800	IN	NS	f.ns.cr.
 cr.			172800	IN	NS	f.nic.cr.
 cr.			172800	IN	NS	g.nic.cr.
 cr.			172800	IN	NS	h.nic.cr.
@@ -2003,10 +2014,6 @@ ns.cr.			172800	IN	A	163.178.8.2
 a.ns.cr.		172800	IN	A	200.107.82.100
 a.ns.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
 c.ns.cr.		172800	IN	A	193.0.9.69
-e.ns.cr.		172800	IN	A	72.52.71.3
-e.ns.cr.		172800	IN	AAAA	2001:470:1a::3
-f.ns.cr.		172800	IN	A	63.243.194.3
-f.ns.cr.		172800	IN	AAAA	2001:5a0:10::3
 credit.			172800	IN	NS	demand.beta.aridns.net.au.
 credit.			172800	IN	NS	demand.alpha.aridns.net.au.
 credit.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7400,7 +7407,7 @@ sandvikcoromant.	172800	IN	NS	a.nic.sandvikcoromant.
 sandvikcoromant.	172800	IN	NS	b.nic.sandvikcoromant.
 sandvikcoromant.	172800	IN	NS	c.nic.sandvikcoromant.
 sandvikcoromant.	172800	IN	NS	d.nic.sandvikcoromant.
-sandvikcoromant.	86400	IN	NSEC	sap. NS DS RRSIG NSEC
+sandvikcoromant.	86400	IN	NSEC	sanofi. NS DS RRSIG NSEC
 a.nic.sandvikcoromant.	172800	IN	A	37.209.192.9
 a.nic.sandvikcoromant.	172800	IN	AAAA	2001:dcd:1::9
 b.nic.sandvikcoromant.	172800	IN	A	37.209.194.9
@@ -7409,6 +7416,14 @@ c.nic.sandvikcoromant.	172800	IN	A	37.209.196.9
 c.nic.sandvikcoromant.	172800	IN	AAAA	2001:dcd:3::9
 d.nic.sandvikcoromant.	172800	IN	A	37.209.198.9
 d.nic.sandvikcoromant.	172800	IN	AAAA	2001:dcd:4::9
+sanofi.			172800	IN	NS	a5.nstld.com.
+sanofi.			172800	IN	NS	c5.nstld.com.
+sanofi.			172800	IN	NS	d5.nstld.com.
+sanofi.			172800	IN	NS	f5.nstld.com.
+sanofi.			172800	IN	NS	g5.nstld.com.
+sanofi.			172800	IN	NS	h5.nstld.com.
+sanofi.			172800	IN	NS	l5.nstld.com.
+sanofi.			86400	IN	NSEC	sap. NS DS RRSIG NSEC
 sap.			172800	IN	NS	anycast9.irondns.net.
 sap.			172800	IN	NS	anycast10.irondns.net.
 sap.			172800	IN	NS	anycast23.irondns.net.
@@ -7888,10 +7903,10 @@ a.nic.space.		172800	IN	A	194.169.218.51
 a.nic.space.		172800	IN	AAAA	2001:67c:13cc::1:51
 b.nic.space.		172800	IN	A	185.24.64.51
 b.nic.space.		172800	IN	AAAA	2a04:2b00:13cc::1:51
-c.nic.space.		172800	IN	A	185.24.67.51
-c.nic.space.		172800	IN	AAAA	2a04:2b03:13cc::51
-d.nic.space.		172800	IN	A	212.18.251.51
-d.nic.space.		172800	IN	AAAA	2a04:2b03:14bb::51
+c.nic.space.		172800	IN	A	185.38.99.4
+c.nic.space.		172800	IN	AAAA	2a02:e180:3::4
+d.nic.space.		172800	IN	A	108.59.161.4
+d.nic.space.		172800	IN	AAAA	2a02:e180:4::4
 spiegel.		172800	IN	NS	ns1a.ksregistry.net.
 spiegel.		172800	IN	NS	ns1b.ksregistry.net.
 spiegel.		172800	IN	NS	ns2a.ksregistry.com.
@@ -7907,7 +7922,20 @@ spreadbetting.		172800	IN	NS	l5.nstld.com.
 spreadbetting.		86400	IN	NSEC	sr. NS DS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
-sr.			86400	IN	NSEC	st. NS RRSIG NSEC
+sr.			86400	IN	NSEC	srl. NS RRSIG NSEC
+srl.			172800	IN	NS	a0.nic.srl.
+srl.			172800	IN	NS	a2.nic.srl.
+srl.			172800	IN	NS	b0.nic.srl.
+srl.			172800	IN	NS	c0.nic.srl.
+srl.			86400	IN	NSEC	st. NS DS RRSIG NSEC
+a0.nic.srl.		172800	IN	A	65.22.80.33
+a0.nic.srl.		172800	IN	AAAA	2a01:8840:4e::33
+a2.nic.srl.		172800	IN	A	65.22.83.33
+a2.nic.srl.		172800	IN	AAAA	2a01:8840:51::33
+b0.nic.srl.		172800	IN	A	65.22.81.33
+b0.nic.srl.		172800	IN	AAAA	2a01:8840:4f::33
+c0.nic.srl.		172800	IN	A	65.22.82.33
+c0.nic.srl.		172800	IN	AAAA	2a01:8840:50::33
 st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
@@ -8081,7 +8109,7 @@ taipei.			172800	IN	NS	ns3.dns.nic.taipei.
 taipei.			172800	IN	NS	ns4.dns.nic.taipei.
 taipei.			172800	IN	NS	ns5.dns.nic.taipei.
 taipei.			172800	IN	NS	ns6.dns.nic.taipei.
-taipei.			86400	IN	NSEC	tatar. NS DS RRSIG NSEC
+taipei.			86400	IN	NSEC	tatamotors. NS DS RRSIG NSEC
 ns1.dns.nic.taipei.	172800	IN	A	156.154.144.156
 ns1.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1071::9c
 ns2.dns.nic.taipei.	172800	IN	A	156.154.145.156
@@ -8094,6 +8122,14 @@ ns5.dns.nic.taipei.	172800	IN	A	156.154.157.156
 ns5.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1075::9c
 ns6.dns.nic.taipei.	172800	IN	A	156.154.158.156
 ns6.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1076::9c
+tatamotors.		172800	IN	NS	a5.nstld.com.
+tatamotors.		172800	IN	NS	c5.nstld.com.
+tatamotors.		172800	IN	NS	d5.nstld.com.
+tatamotors.		172800	IN	NS	f5.nstld.com.
+tatamotors.		172800	IN	NS	g5.nstld.com.
+tatamotors.		172800	IN	NS	h5.nstld.com.
+tatamotors.		172800	IN	NS	l5.nstld.com.
+tatamotors.		86400	IN	NSEC	tatar. NS DS RRSIG NSEC
 tatar.			172800	IN	NS	a.dns.ripn.net.
 tatar.			172800	IN	NS	b.dns.ripn.net.
 tatar.			172800	IN	NS	d.dns.ripn.net.
