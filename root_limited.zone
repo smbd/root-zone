@@ -4021,10 +4021,29 @@ io.			172800	IN	NS	b.nic.io.
 io.			172800	IN	NS	b.ns13.net.
 io.			172800	IN	NS	ns1.communitydns.net.
 io.			172800	IN	NS	ns3.icb.co.uk.
-io.			86400	IN	NSEC	iq. NS DS RRSIG NSEC
+io.			86400	IN	NSEC	ipiranga. NS DS RRSIG NSEC
 a.nic.io.		172800	IN	A	64.251.31.179
 b.nic.io.		172800	IN	A	194.0.2.1
 b.nic.io.		172800	IN	AAAA	2001:678:5::1
+ipiranga.		172800	IN	NS	ns1.dns.nic.ipiranga.
+ipiranga.		172800	IN	NS	ns2.dns.nic.ipiranga.
+ipiranga.		172800	IN	NS	ns3.dns.nic.ipiranga.
+ipiranga.		172800	IN	NS	ns4.dns.nic.ipiranga.
+ipiranga.		172800	IN	NS	ns5.dns.nic.ipiranga.
+ipiranga.		172800	IN	NS	ns6.dns.nic.ipiranga.
+ipiranga.		86400	IN	NSEC	iq. NS DS RRSIG NSEC
+ns1.dns.nic.ipiranga.	172800	IN	A	156.154.144.83
+ns1.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1071::53
+ns2.dns.nic.ipiranga.	172800	IN	A	156.154.145.83
+ns2.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1072::53
+ns3.dns.nic.ipiranga.	172800	IN	A	156.154.159.83
+ns3.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1073::53
+ns4.dns.nic.ipiranga.	172800	IN	A	156.154.156.83
+ns4.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1074::53
+ns5.dns.nic.ipiranga.	172800	IN	A	156.154.157.83
+ns5.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1075::53
+ns6.dns.nic.ipiranga.	172800	IN	A	156.154.158.83
+ns6.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1076::53
 iq.			172800	IN	NS	ns1.cmc.iq.
 iq.			172800	IN	NS	dyn1.cmc.iq.
 iq.			172800	IN	NS	dyn2.cmc.iq.
@@ -4594,7 +4613,20 @@ legal.			172800	IN	NS	demand.beta.aridns.net.au.
 legal.			172800	IN	NS	demand.alpha.aridns.net.au.
 legal.			172800	IN	NS	demand.delta.aridns.net.au.
 legal.			172800	IN	NS	demand.gamma.aridns.net.au.
-legal.			86400	IN	NSEC	lgbt. NS DS RRSIG NSEC
+legal.			86400	IN	NSEC	lexus. NS DS RRSIG NSEC
+lexus.			172800	IN	NS	a.nic.lexus.
+lexus.			172800	IN	NS	b.nic.lexus.
+lexus.			172800	IN	NS	c.nic.lexus.
+lexus.			172800	IN	NS	d.nic.lexus.
+lexus.			86400	IN	NSEC	lgbt. NS DS RRSIG NSEC
+a.nic.lexus.		172800	IN	A	37.209.192.9
+a.nic.lexus.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.lexus.		172800	IN	A	37.209.194.9
+b.nic.lexus.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.lexus.		172800	IN	A	37.209.196.9
+c.nic.lexus.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.lexus.		172800	IN	A	37.209.198.9
+d.nic.lexus.		172800	IN	AAAA	2001:dcd:4::9
 lgbt.			172800	IN	NS	a0.nic.lgbt.
 lgbt.			172800	IN	NS	a2.nic.lgbt.
 lgbt.			172800	IN	NS	b0.nic.lgbt.
@@ -4916,7 +4948,12 @@ maison.			172800	IN	NS	demand.beta.aridns.net.au.
 maison.			172800	IN	NS	demand.alpha.aridns.net.au.
 maison.			172800	IN	NS	demand.delta.aridns.net.au.
 maison.			172800	IN	NS	demand.gamma.aridns.net.au.
-maison.			86400	IN	NSEC	management. NS DS RRSIG NSEC
+maison.			86400	IN	NSEC	man. NS DS RRSIG NSEC
+man.			172800	IN	NS	anycast9.irondns.net.
+man.			172800	IN	NS	anycast10.irondns.net.
+man.			172800	IN	NS	anycast23.irondns.net.
+man.			172800	IN	NS	anycast24.irondns.net.
+man.			86400	IN	NSEC	management. NS DS RRSIG NSEC
 management.		172800	IN	NS	demand.beta.aridns.net.au.
 management.		172800	IN	NS	demand.alpha.aridns.net.au.
 management.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -6594,10 +6631,23 @@ pe.			172800	IN	NS	pch.rcp.pe.
 pe.			172800	IN	NS	pe1.dnsnode.net.
 pe.			172800	IN	NS	quipu.rcp.net.pe.
 pe.			172800	IN	NS	sns-pb.isc.org.
-pe.			86400	IN	NSEC	pf. NS DS RRSIG NSEC
+pe.			86400	IN	NSEC	pet. NS DS RRSIG NSEC
 quipu.rcp.net.pe.	172800	IN	A	200.1.176.4
 pch.rcp.pe.		172800	IN	A	204.61.216.85
 pch.rcp.pe.		172800	IN	AAAA	2001:500:14:6085:ad::1
+pet.			172800	IN	NS	a0.nic.pet.
+pet.			172800	IN	NS	a2.nic.pet.
+pet.			172800	IN	NS	b0.nic.pet.
+pet.			172800	IN	NS	c0.nic.pet.
+pet.			86400	IN	NSEC	pf. NS DS RRSIG NSEC
+a0.nic.pet.		172800	IN	A	65.22.16.17
+a0.nic.pet.		172800	IN	AAAA	2a01:8840:12::17
+a2.nic.pet.		172800	IN	A	65.22.19.17
+a2.nic.pet.		172800	IN	AAAA	2a01:8840:15::17
+b0.nic.pet.		172800	IN	A	65.22.17.17
+b0.nic.pet.		172800	IN	AAAA	2a01:8840:13::17
+c0.nic.pet.		172800	IN	A	65.22.18.17
+c0.nic.pet.		172800	IN	AAAA	2a01:8840:14::17
 pf.			172800	IN	NS	ns1.mana.pf.
 pf.			172800	IN	NS	ns2.mana.pf.
 pf.			86400	IN	NSEC	pg. NS RRSIG NSEC
@@ -8435,7 +8485,20 @@ town.			172800	IN	NS	demand.beta.aridns.net.au.
 town.			172800	IN	NS	demand.alpha.aridns.net.au.
 town.			172800	IN	NS	demand.delta.aridns.net.au.
 town.			172800	IN	NS	demand.gamma.aridns.net.au.
-town.			86400	IN	NSEC	toys. NS DS RRSIG NSEC
+town.			86400	IN	NSEC	toyota. NS DS RRSIG NSEC
+toyota.			172800	IN	NS	a.nic.toyota.
+toyota.			172800	IN	NS	b.nic.toyota.
+toyota.			172800	IN	NS	c.nic.toyota.
+toyota.			172800	IN	NS	d.nic.toyota.
+toyota.			86400	IN	NSEC	toys. NS DS RRSIG NSEC
+a.nic.toyota.		172800	IN	A	37.209.192.9
+a.nic.toyota.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.toyota.		172800	IN	A	37.209.194.9
+b.nic.toyota.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.toyota.		172800	IN	A	37.209.196.9
+c.nic.toyota.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.toyota.		172800	IN	A	37.209.198.9
+d.nic.toyota.		172800	IN	AAAA	2001:dcd:4::9
 toys.			172800	IN	NS	demand.beta.aridns.net.au.
 toys.			172800	IN	NS	demand.alpha.aridns.net.au.
 toys.			172800	IN	NS	demand.delta.aridns.net.au.
