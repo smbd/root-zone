@@ -9278,7 +9278,7 @@ xin.			172800	IN	NS	a0.nic.xin.
 xin.			172800	IN	NS	a2.nic.xin.
 xin.			172800	IN	NS	b0.nic.xin.
 xin.			172800	IN	NS	c0.nic.xin.
-xin.			86400	IN	NSEC	xn--1qqw23a. NS DS RRSIG NSEC
+xin.			86400	IN	NSEC	xn--11b4c3d. NS DS RRSIG NSEC
 a0.nic.xin.		172800	IN	A	65.22.128.17
 a0.nic.xin.		172800	IN	AAAA	2a01:8840:7e::17
 a2.nic.xin.		172800	IN	A	65.22.131.17
@@ -9287,6 +9287,14 @@ b0.nic.xin.		172800	IN	A	65.22.129.17
 b0.nic.xin.		172800	IN	AAAA	2a01:8840:7f::17
 c0.nic.xin.		172800	IN	A	65.22.130.17
 c0.nic.xin.		172800	IN	AAAA	2a01:8840:80::17
+xn--11b4c3d.		172800	IN	NS	a5.nstld.com.
+xn--11b4c3d.		172800	IN	NS	c5.nstld.com.
+xn--11b4c3d.		172800	IN	NS	d5.nstld.com.
+xn--11b4c3d.		172800	IN	NS	f5.nstld.com.
+xn--11b4c3d.		172800	IN	NS	g5.nstld.com.
+xn--11b4c3d.		172800	IN	NS	h5.nstld.com.
+xn--11b4c3d.		172800	IN	NS	l5.nstld.com.
+xn--11b4c3d.		86400	IN	NSEC	xn--1qqw23a. NS DS RRSIG NSEC
 xn--1qqw23a.		172800	IN	NS	ta.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	tb.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	tc.ngtld.cn.
@@ -9332,7 +9340,23 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--3e0b707e.		86400	IN	NSEC	xn--45brj9c. NS DS RRSIG NSEC
+xn--3e0b707e.		86400	IN	NSEC	xn--3pxu8k. NS DS RRSIG NSEC
+xn--3pxu8k.		172800	IN	NS	a5.nstld.com.
+xn--3pxu8k.		172800	IN	NS	c5.nstld.com.
+xn--3pxu8k.		172800	IN	NS	d5.nstld.com.
+xn--3pxu8k.		172800	IN	NS	f5.nstld.com.
+xn--3pxu8k.		172800	IN	NS	g5.nstld.com.
+xn--3pxu8k.		172800	IN	NS	h5.nstld.com.
+xn--3pxu8k.		172800	IN	NS	l5.nstld.com.
+xn--3pxu8k.		86400	IN	NSEC	xn--42c2d9a. NS DS RRSIG NSEC
+xn--42c2d9a.		172800	IN	NS	a5.nstld.com.
+xn--42c2d9a.		172800	IN	NS	c5.nstld.com.
+xn--42c2d9a.		172800	IN	NS	d5.nstld.com.
+xn--42c2d9a.		172800	IN	NS	f5.nstld.com.
+xn--42c2d9a.		172800	IN	NS	g5.nstld.com.
+xn--42c2d9a.		172800	IN	NS	h5.nstld.com.
+xn--42c2d9a.		172800	IN	NS	l5.nstld.com.
+xn--42c2d9a.		86400	IN	NSEC	xn--45brj9c. NS DS RRSIG NSEC
 xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -9431,7 +9455,15 @@ xn--90ais.		172800	IN	NS	dns4.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns5.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns6.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns7.tld.tutby.com.
-xn--90ais.		86400	IN	NSEC	xn--9et52u. NS RRSIG NSEC
+xn--90ais.		86400	IN	NSEC	xn--9dbq2a. NS RRSIG NSEC
+xn--9dbq2a.		172800	IN	NS	a5.nstld.com.
+xn--9dbq2a.		172800	IN	NS	c5.nstld.com.
+xn--9dbq2a.		172800	IN	NS	d5.nstld.com.
+xn--9dbq2a.		172800	IN	NS	f5.nstld.com.
+xn--9dbq2a.		172800	IN	NS	g5.nstld.com.
+xn--9dbq2a.		172800	IN	NS	h5.nstld.com.
+xn--9dbq2a.		172800	IN	NS	l5.nstld.com.
+xn--9dbq2a.		86400	IN	NSEC	xn--9et52u. NS DS RRSIG NSEC
 xn--9et52u.		172800	IN	NS	a.zdnscloud.com.
 xn--9et52u.		172800	IN	NS	b.zdnscloud.com.
 xn--9et52u.		172800	IN	NS	c.zdnscloud.com.
@@ -9459,7 +9491,7 @@ xn--c1avg.		172800	IN	NS	a0.nic.xn--c1avg.
 xn--c1avg.		172800	IN	NS	a2.nic.xn--c1avg.
 xn--c1avg.		172800	IN	NS	b0.nic.xn--c1avg.
 xn--c1avg.		172800	IN	NS	c0.nic.xn--c1avg.
-xn--c1avg.		86400	IN	NSEC	xn--cg4bki. NS DS RRSIG NSEC
+xn--c1avg.		86400	IN	NSEC	xn--c2br7g. NS DS RRSIG NSEC
 a0.nic.xn--c1avg.	172800	IN	A	65.22.184.25
 a0.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b2::25
 a2.nic.xn--c1avg.	172800	IN	A	65.22.187.25
@@ -9468,6 +9500,14 @@ b0.nic.xn--c1avg.	172800	IN	A	65.22.185.25
 b0.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b3::25
 c0.nic.xn--c1avg.	172800	IN	A	65.22.186.25
 c0.nic.xn--c1avg.	172800	IN	AAAA	2a01:8840:b4::25
+xn--c2br7g.		172800	IN	NS	a5.nstld.com.
+xn--c2br7g.		172800	IN	NS	c5.nstld.com.
+xn--c2br7g.		172800	IN	NS	d5.nstld.com.
+xn--c2br7g.		172800	IN	NS	f5.nstld.com.
+xn--c2br7g.		172800	IN	NS	g5.nstld.com.
+xn--c2br7g.		172800	IN	NS	h5.nstld.com.
+xn--c2br7g.		172800	IN	NS	l5.nstld.com.
+xn--c2br7g.		86400	IN	NSEC	xn--cg4bki. NS DS RRSIG NSEC
 xn--cg4bki.		172800	IN	NS	b.dns.kr.
 xn--cg4bki.		172800	IN	NS	c.dns.kr.
 xn--cg4bki.		172800	IN	NS	d.dns.kr.
@@ -9520,7 +9560,7 @@ xn--estv75g.		172800	IN	NS	a0.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	a2.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	b0.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	c0.nic.xn--estv75g.
-xn--estv75g.		86400	IN	NSEC	xn--fiq228c5hs. NS DS RRSIG NSEC
+xn--estv75g.		86400	IN	NSEC	xn--fhbei. NS DS RRSIG NSEC
 a0.nic.xn--estv75g.	172800	IN	A	65.22.128.1
 a0.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:7e::1
 a2.nic.xn--estv75g.	172800	IN	A	65.22.131.1
@@ -9529,6 +9569,14 @@ b0.nic.xn--estv75g.	172800	IN	A	65.22.129.1
 b0.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:7f::1
 c0.nic.xn--estv75g.	172800	IN	A	65.22.130.1
 c0.nic.xn--estv75g.	172800	IN	AAAA	2a01:8840:80::1
+xn--fhbei.		172800	IN	NS	a5.nstld.com.
+xn--fhbei.		172800	IN	NS	c5.nstld.com.
+xn--fhbei.		172800	IN	NS	d5.nstld.com.
+xn--fhbei.		172800	IN	NS	f5.nstld.com.
+xn--fhbei.		172800	IN	NS	g5.nstld.com.
+xn--fhbei.		172800	IN	NS	h5.nstld.com.
+xn--fhbei.		172800	IN	NS	l5.nstld.com.
+xn--fhbei.		86400	IN	NSEC	xn--fiq228c5hs. NS DS RRSIG NSEC
 xn--fiq228c5hs.		172800	IN	NS	a0.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	a2.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	b0.nic.xn--fiq228c5hs.
@@ -9649,7 +9697,15 @@ xn--io0a7i.		172800	IN	NS	b.ngtld.cn.
 xn--io0a7i.		172800	IN	NS	c.ngtld.cn.
 xn--io0a7i.		172800	IN	NS	d.ngtld.cn.
 xn--io0a7i.		172800	IN	NS	e.ngtld.cn.
-xn--io0a7i.		86400	IN	NSEC	xn--j1amh. NS DS RRSIG NSEC
+xn--io0a7i.		86400	IN	NSEC	xn--j1aef. NS DS RRSIG NSEC
+xn--j1aef.		172800	IN	NS	a5.nstld.com.
+xn--j1aef.		172800	IN	NS	c5.nstld.com.
+xn--j1aef.		172800	IN	NS	d5.nstld.com.
+xn--j1aef.		172800	IN	NS	f5.nstld.com.
+xn--j1aef.		172800	IN	NS	g5.nstld.com.
+xn--j1aef.		172800	IN	NS	h5.nstld.com.
+xn--j1aef.		172800	IN	NS	l5.nstld.com.
+xn--j1aef.		86400	IN	NSEC	xn--j1amh. NS DS RRSIG NSEC
 xn--j1amh.		172800	IN	NS	nsi.uanic.net.
 xn--j1amh.		172800	IN	NS	dns1.u-registry.com.
 xn--j1amh.		172800	IN	NS	dns2.u-registry.net.
@@ -9767,7 +9823,15 @@ xn--mgbx4cd0ab.		172800	IN	NS	ns5.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns6.jaring.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
-xn--mgbx4cd0ab.		86400	IN	NSEC	xn--mxtq1m. NS DS RRSIG NSEC
+xn--mgbx4cd0ab.		86400	IN	NSEC	xn--mk1bu44c. NS DS RRSIG NSEC
+xn--mk1bu44c.		172800	IN	NS	a5.nstld.com.
+xn--mk1bu44c.		172800	IN	NS	c5.nstld.com.
+xn--mk1bu44c.		172800	IN	NS	d5.nstld.com.
+xn--mk1bu44c.		172800	IN	NS	f5.nstld.com.
+xn--mk1bu44c.		172800	IN	NS	g5.nstld.com.
+xn--mk1bu44c.		172800	IN	NS	h5.nstld.com.
+xn--mk1bu44c.		172800	IN	NS	l5.nstld.com.
+xn--mk1bu44c.		86400	IN	NSEC	xn--mxtq1m. NS DS RRSIG NSEC
 xn--mxtq1m.		172800	IN	NS	a.nic.xn--mxtq1m.
 xn--mxtq1m.		172800	IN	NS	b.nic.xn--mxtq1m.
 xn--mxtq1m.		172800	IN	NS	c.nic.xn--mxtq1m.
@@ -9871,7 +9935,15 @@ xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
 xn--pgbs0dh.		172800	IN	NS	pch.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	rip.psg.com.
 xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
-xn--pgbs0dh.		86400	IN	NSEC	xn--q9jyb4c. NS DS RRSIG NSEC
+xn--pgbs0dh.		86400	IN	NSEC	xn--pssy2u. NS DS RRSIG NSEC
+xn--pssy2u.		172800	IN	NS	a5.nstld.com.
+xn--pssy2u.		172800	IN	NS	c5.nstld.com.
+xn--pssy2u.		172800	IN	NS	d5.nstld.com.
+xn--pssy2u.		172800	IN	NS	f5.nstld.com.
+xn--pssy2u.		172800	IN	NS	g5.nstld.com.
+xn--pssy2u.		172800	IN	NS	h5.nstld.com.
+xn--pssy2u.		172800	IN	NS	l5.nstld.com.
+xn--pssy2u.		86400	IN	NSEC	xn--q9jyb4c. NS DS RRSIG NSEC
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -9920,7 +9992,15 @@ xn--ses554g.		172800	IN	NS	e.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	g.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	i.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	j.zdnscloud.com.
-xn--ses554g.		86400	IN	NSEC	xn--unup4y. NS DS RRSIG NSEC
+xn--ses554g.		86400	IN	NSEC	xn--t60b56a. NS DS RRSIG NSEC
+xn--t60b56a.		172800	IN	NS	a5.nstld.com.
+xn--t60b56a.		172800	IN	NS	c5.nstld.com.
+xn--t60b56a.		172800	IN	NS	d5.nstld.com.
+xn--t60b56a.		172800	IN	NS	f5.nstld.com.
+xn--t60b56a.		172800	IN	NS	g5.nstld.com.
+xn--t60b56a.		172800	IN	NS	h5.nstld.com.
+xn--t60b56a.		172800	IN	NS	l5.nstld.com.
+xn--t60b56a.		86400	IN	NSEC	xn--unup4y. NS DS RRSIG NSEC
 xn--unup4y.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.delta.aridns.net.au.
