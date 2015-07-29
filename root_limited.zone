@@ -10000,7 +10000,15 @@ xn--t60b56a.		172800	IN	NS	f5.nstld.com.
 xn--t60b56a.		172800	IN	NS	g5.nstld.com.
 xn--t60b56a.		172800	IN	NS	h5.nstld.com.
 xn--t60b56a.		172800	IN	NS	l5.nstld.com.
-xn--t60b56a.		86400	IN	NSEC	xn--unup4y. NS DS RRSIG NSEC
+xn--t60b56a.		86400	IN	NSEC	xn--tckwe. NS DS RRSIG NSEC
+xn--tckwe.		172800	IN	NS	a5.nstld.com.
+xn--tckwe.		172800	IN	NS	c5.nstld.com.
+xn--tckwe.		172800	IN	NS	d5.nstld.com.
+xn--tckwe.		172800	IN	NS	f5.nstld.com.
+xn--tckwe.		172800	IN	NS	g5.nstld.com.
+xn--tckwe.		172800	IN	NS	h5.nstld.com.
+xn--tckwe.		172800	IN	NS	l5.nstld.com.
+xn--tckwe.		86400	IN	NSEC	xn--unup4y. NS DS RRSIG NSEC
 xn--unup4y.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.delta.aridns.net.au.
