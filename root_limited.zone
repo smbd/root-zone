@@ -273,7 +273,7 @@ amsterdam.		172800	IN	NS	ns2.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns3.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns4.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns5.nic.amsterdam.
-amsterdam.		86400	IN	NSEC	an. NS DS RRSIG NSEC
+amsterdam.		86400	IN	NSEC	android. NS DS RRSIG NSEC
 ns1.nic.amsterdam.	172800	IN	A	193.176.144.14
 ns1.nic.amsterdam.	172800	IN	AAAA	2a00:d78:0:102:193:176:144:14
 ns2.nic.amsterdam.	172800	IN	A	213.154.241.83
@@ -284,19 +284,6 @@ ns4.nic.amsterdam.	172800	IN	A	95.142.99.216
 ns4.nic.amsterdam.	172800	IN	AAAA	2a00:1188:5::216
 ns5.nic.amsterdam.	172800	IN	A	194.0.28.4
 ns5.nic.amsterdam.	172800	IN	AAAA	2001:678:2c:0:194:0:28:4
-an.			172800	IN	NS	an.cctld.authdns.ripe.net.
-an.			172800	IN	NS	ns0.ja.net.
-an.			172800	IN	NS	engine0.una.an.
-an.			172800	IN	NS	engine2.una.an.
-an.			172800	IN	NS	engine3.una.an.
-an.			172800	IN	NS	kadushi.curinfo.an.
-an.			172800	IN	NS	ns01-server.curinfo.an.
-an.			86400	IN	NSEC	android. NS RRSIG NSEC
-kadushi.curinfo.an.	172800	IN	A	65.208.122.63
-ns01-server.curinfo.an.	172800	IN	A	65.208.122.36
-engine0.una.an.		172800	IN	A	200.26.199.99
-engine2.una.an.		172800	IN	A	65.174.238.100
-engine3.una.an.		172800	IN	A	200.26.199.102
 android.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -5862,8 +5849,6 @@ al.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.56
 al.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::56
 am.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.57
 am.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::57
-an.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.58
-an.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::58
 ar.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.59
 ar.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::59
 ba.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.60
