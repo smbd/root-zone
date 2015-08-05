@@ -1005,7 +1005,20 @@ boo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-boo.			86400	IN	NSEC	boutique. NS DS RRSIG NSEC
+boo.			86400	IN	NSEC	boots. NS DS RRSIG NSEC
+boots.			172800	IN	NS	a.nic.boots.
+boots.			172800	IN	NS	b.nic.boots.
+boots.			172800	IN	NS	c.nic.boots.
+boots.			172800	IN	NS	d.nic.boots.
+boots.			86400	IN	NSEC	boutique. NS DS RRSIG NSEC
+a.nic.boots.		172800	IN	A	37.209.192.9
+a.nic.boots.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.boots.		172800	IN	A	37.209.194.9
+b.nic.boots.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.boots.		172800	IN	A	37.209.196.9
+c.nic.boots.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.boots.		172800	IN	A	37.209.198.9
+d.nic.boots.		172800	IN	AAAA	2001:dcd:4::9
 boutique.		172800	IN	NS	demand.beta.aridns.net.au.
 boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -1485,7 +1498,7 @@ cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			172800	IN	NS	dns-fr.dnsafrica.net.
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
-ch.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
+ch.			86400	IN	NSEC	chanel. NS DS RRSIG NSEC
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
 ch.			172800	IN	NS	c.nic.ch.
@@ -1509,6 +1522,14 @@ f.nic.ch.		172800	IN	AAAA	2001:67c:1010:2::53
 h.nic.ch.		172800	IN	A	194.42.48.120
 ns2.switch.ch.		172800	IN	A	130.59.138.49
 ns2.switch.ch.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
+chanel.			172800	IN	NS	a5.nstld.com.
+chanel.			172800	IN	NS	c5.nstld.com.
+chanel.			172800	IN	NS	d5.nstld.com.
+chanel.			172800	IN	NS	f5.nstld.com.
+chanel.			172800	IN	NS	g5.nstld.com.
+chanel.			172800	IN	NS	h5.nstld.com.
+chanel.			172800	IN	NS	l5.nstld.com.
+chanel.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
 channel.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -10107,7 +10128,15 @@ xn--zfr164b.		172800	IN	NS	ns2.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns4.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns5.conac.cn.
-xn--zfr164b.		86400	IN	NSEC	xxx. NS DS RRSIG NSEC
+xn--zfr164b.		86400	IN	NSEC	xperia. NS DS RRSIG NSEC
+xperia.			172800	IN	NS	a5.nstld.com.
+xperia.			172800	IN	NS	c5.nstld.com.
+xperia.			172800	IN	NS	d5.nstld.com.
+xperia.			172800	IN	NS	f5.nstld.com.
+xperia.			172800	IN	NS	g5.nstld.com.
+xperia.			172800	IN	NS	h5.nstld.com.
+xperia.			172800	IN	NS	l5.nstld.com.
+xperia.			86400	IN	NSEC	xxx. NS DS RRSIG NSEC
 xxx.			172800	IN	NS	a0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	a2.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
