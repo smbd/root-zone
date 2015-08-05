@@ -8880,7 +8880,12 @@ villas.			172800	IN	NS	demand.beta.aridns.net.au.
 villas.			172800	IN	NS	demand.alpha.aridns.net.au.
 villas.			172800	IN	NS	demand.delta.aridns.net.au.
 villas.			172800	IN	NS	demand.gamma.aridns.net.au.
-villas.			86400	IN	NSEC	vision. NS DS RRSIG NSEC
+villas.			86400	IN	NSEC	vin. NS DS RRSIG NSEC
+vin.			172800	IN	NS	demand.beta.aridns.net.au.
+vin.			172800	IN	NS	demand.alpha.aridns.net.au.
+vin.			172800	IN	NS	demand.delta.aridns.net.au.
+vin.			172800	IN	NS	demand.gamma.aridns.net.au.
+vin.			86400	IN	NSEC	vision. NS DS RRSIG NSEC
 vision.			172800	IN	NS	demand.beta.aridns.net.au.
 vision.			172800	IN	NS	demand.alpha.aridns.net.au.
 vision.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -9198,7 +9203,12 @@ windows.		172800	IN	NS	f5.nstld.com.
 windows.		172800	IN	NS	g5.nstld.com.
 windows.		172800	IN	NS	h5.nstld.com.
 windows.		172800	IN	NS	l5.nstld.com.
-windows.		86400	IN	NSEC	wme. NS DS RRSIG NSEC
+windows.		86400	IN	NSEC	wine. NS DS RRSIG NSEC
+wine.			172800	IN	NS	demand.beta.aridns.net.au.
+wine.			172800	IN	NS	demand.alpha.aridns.net.au.
+wine.			172800	IN	NS	demand.delta.aridns.net.au.
+wine.			172800	IN	NS	demand.gamma.aridns.net.au.
+wine.			86400	IN	NSEC	wme. NS DS RRSIG NSEC
 wme.			172800	IN	NS	a.nic.wme.
 wme.			172800	IN	NS	b.nic.wme.
 wme.			172800	IN	NS	c.nic.wme.
