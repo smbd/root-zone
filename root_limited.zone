@@ -3218,7 +3218,20 @@ gives.			172800	IN	NS	demand.beta.aridns.net.au.
 gives.			172800	IN	NS	demand.alpha.aridns.net.au.
 gives.			172800	IN	NS	demand.delta.aridns.net.au.
 gives.			172800	IN	NS	demand.gamma.aridns.net.au.
-gives.			86400	IN	NSEC	gl. NS DS RRSIG NSEC
+gives.			86400	IN	NSEC	giving. NS DS RRSIG NSEC
+giving.			172800	IN	NS	a.nic.giving.
+giving.			172800	IN	NS	b.nic.giving.
+giving.			172800	IN	NS	c.nic.giving.
+giving.			172800	IN	NS	d.nic.giving.
+giving.			86400	IN	NSEC	gl. NS DS RRSIG NSEC
+a.nic.giving.		172800	IN	A	37.209.192.9
+a.nic.giving.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.giving.		172800	IN	A	37.209.194.9
+b.nic.giving.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.giving.		172800	IN	A	37.209.196.9
+c.nic.giving.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.giving.		172800	IN	A	37.209.198.9
+d.nic.giving.		172800	IN	AAAA	2001:dcd:4::9
 gl.			172800	IN	NS	a.nuuk.nic.gl.
 gl.			172800	IN	NS	b.nic.gl.
 gl.			172800	IN	NS	d.nic.gl.
