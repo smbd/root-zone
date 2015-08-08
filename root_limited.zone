@@ -1425,9 +1425,22 @@ cd.			172800	IN	NS	dns.princeton.edu.
 cd.			172800	IN	NS	ns1.pch.nic.cd.
 cd.			172800	IN	NS	igubu.saix.net.
 cd.			172800	IN	NS	sabela.saix.net.
-cd.			86400	IN	NSEC	center. NS RRSIG NSEC
+cd.			86400	IN	NSEC	ceb. NS RRSIG NSEC
 ns1.pch.nic.cd.		172800	IN	A	204.61.216.66
 ns1.pch.nic.cd.		172800	IN	AAAA	2001:500:14:6066:ad::1
+ceb.			172800	IN	NS	a0.nic.ceb.
+ceb.			172800	IN	NS	a2.nic.ceb.
+ceb.			172800	IN	NS	b0.nic.ceb.
+ceb.			172800	IN	NS	c0.nic.ceb.
+ceb.			86400	IN	NSEC	center. NS DS RRSIG NSEC
+a0.nic.ceb.		172800	IN	A	65.22.220.9
+a0.nic.ceb.		172800	IN	AAAA	2a01:8840:d6::9
+a2.nic.ceb.		172800	IN	A	65.22.223.9
+a2.nic.ceb.		172800	IN	AAAA	2a01:8840:d9::9
+b0.nic.ceb.		172800	IN	A	65.22.221.9
+b0.nic.ceb.		172800	IN	AAAA	2a01:8840:d7::9
+c0.nic.ceb.		172800	IN	A	65.22.222.9
+c0.nic.ceb.		172800	IN	AAAA	2a01:8840:d8::9
 center.			172800	IN	NS	demand.beta.aridns.net.au.
 center.			172800	IN	NS	demand.alpha.aridns.net.au.
 center.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -2751,7 +2764,20 @@ express.		172800	IN	NS	demand.beta.aridns.net.au.
 express.		172800	IN	NS	demand.alpha.aridns.net.au.
 express.		172800	IN	NS	demand.delta.aridns.net.au.
 express.		172800	IN	NS	demand.gamma.aridns.net.au.
-express.		86400	IN	NSEC	fail. NS DS RRSIG NSEC
+express.		86400	IN	NSEC	fage. NS DS RRSIG NSEC
+fage.			172800	IN	NS	a0.nic.fage.
+fage.			172800	IN	NS	a2.nic.fage.
+fage.			172800	IN	NS	b0.nic.fage.
+fage.			172800	IN	NS	c0.nic.fage.
+fage.			86400	IN	NSEC	fail. NS DS RRSIG NSEC
+a0.nic.fage.		172800	IN	A	65.22.156.33
+a0.nic.fage.		172800	IN	AAAA	2a01:8840:9a::33
+a2.nic.fage.		172800	IN	A	65.22.159.33
+a2.nic.fage.		172800	IN	AAAA	2a01:8840:9d::33
+b0.nic.fage.		172800	IN	A	65.22.157.33
+b0.nic.fage.		172800	IN	AAAA	2a01:8840:9b::33
+c0.nic.fage.		172800	IN	A	65.22.158.33
+c0.nic.fage.		172800	IN	AAAA	2a01:8840:9c::33
 fail.			172800	IN	NS	demand.beta.aridns.net.au.
 fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -3419,7 +3445,12 @@ gripe.			172800	IN	NS	demand.beta.aridns.net.au.
 gripe.			172800	IN	NS	demand.alpha.aridns.net.au.
 gripe.			172800	IN	NS	demand.delta.aridns.net.au.
 gripe.			172800	IN	NS	demand.gamma.aridns.net.au.
-gripe.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
+gripe.			86400	IN	NSEC	group. NS DS RRSIG NSEC
+group.			172800	IN	NS	demand.beta.aridns.net.au.
+group.			172800	IN	NS	demand.alpha.aridns.net.au.
+group.			172800	IN	NS	demand.delta.aridns.net.au.
+group.			172800	IN	NS	demand.gamma.aridns.net.au.
+group.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gs.			172800	IN	NS	a.gs.dyntld.net.
 gs.			172800	IN	NS	b.gs.dyntld.net.
 gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
