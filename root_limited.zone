@@ -2789,7 +2789,7 @@ faith.			172800	IN	NS	ns3.dns.nic.faith.
 faith.			172800	IN	NS	ns4.dns.nic.faith.
 faith.			172800	IN	NS	ns5.dns.nic.faith.
 faith.			172800	IN	NS	ns6.dns.nic.faith.
-faith.			86400	IN	NSEC	fan. NS DS RRSIG NSEC
+faith.			86400	IN	NSEC	family. NS DS RRSIG NSEC
 ns1.dns.nic.faith.	172800	IN	A	156.154.144.54
 ns1.dns.nic.faith.	172800	IN	AAAA	2610:a1:1071::36
 ns2.dns.nic.faith.	172800	IN	A	156.154.145.54
@@ -2802,6 +2802,11 @@ ns5.dns.nic.faith.	172800	IN	A	156.154.157.54
 ns5.dns.nic.faith.	172800	IN	AAAA	2610:a1:1075::36
 ns6.dns.nic.faith.	172800	IN	A	156.154.158.54
 ns6.dns.nic.faith.	172800	IN	AAAA	2610:a1:1076::36
+family.			172800	IN	NS	demand.beta.aridns.net.au.
+family.			172800	IN	NS	demand.alpha.aridns.net.au.
+family.			172800	IN	NS	demand.delta.aridns.net.au.
+family.			172800	IN	NS	demand.gamma.aridns.net.au.
+family.			86400	IN	NSEC	fan. NS DS RRSIG NSEC
 fan.			172800	IN	NS	a.nic.fan.
 fan.			172800	IN	NS	b.nic.fan.
 fan.			172800	IN	NS	c.nic.fan.
@@ -4992,14 +4997,12 @@ ma.			172800	IN	NS	dns.inria.fr.
 ma.			172800	IN	NS	ns1.iam.net.ma.
 ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
-ma.			172800	IN	NS	ns3.iam.net.ma.
 ma.			172800	IN	NS	ns4.registre.ma.
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	81.192.108.164
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
 ns2.iam.net.ma.		172800	IN	A	81.192.53.23
-ns3.iam.net.ma.		172800	IN	A	212.217.1.13
 ns4.registre.ma.	172800	IN	A	81.192.171.140
 madrid.			172800	IN	NS	anycast9.irondns.net.
 madrid.			172800	IN	NS	anycast10.irondns.net.
@@ -7727,7 +7730,20 @@ seat.			172800	IN	NS	anycast9.irondns.net.
 seat.			172800	IN	NS	anycast10.irondns.net.
 seat.			172800	IN	NS	anycast23.irondns.net.
 seat.			172800	IN	NS	anycast24.irondns.net.
-seat.			86400	IN	NSEC	sener. NS DS RRSIG NSEC
+seat.			86400	IN	NSEC	seek. NS DS RRSIG NSEC
+seek.			172800	IN	NS	a.nic.seek.
+seek.			172800	IN	NS	b.nic.seek.
+seek.			172800	IN	NS	c.nic.seek.
+seek.			172800	IN	NS	d.nic.seek.
+seek.			86400	IN	NSEC	sener. NS DS RRSIG NSEC
+a.nic.seek.		172800	IN	A	37.209.192.9
+a.nic.seek.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.seek.		172800	IN	A	37.209.194.9
+b.nic.seek.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.seek.		172800	IN	A	37.209.196.9
+c.nic.seek.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.seek.		172800	IN	A	37.209.198.9
+d.nic.seek.		172800	IN	AAAA	2001:dcd:4::9
 sener.			172800	IN	NS	a5.nstld.com.
 sener.			172800	IN	NS	c5.nstld.com.
 sener.			172800	IN	NS	d5.nstld.com.
@@ -8746,17 +8762,21 @@ uk.			86400	IN	NSEC	university. NS DS RRSIG NSEC
 uk.			172800	IN	NS	ns1.nic.uk.
 uk.			172800	IN	NS	ns2.nic.uk.
 uk.			172800	IN	NS	ns4.nic.uk.
-uk.			172800	IN	NS	ns6.nic.uk.
-uk.			172800	IN	NS	ns7.nic.uk.
 uk.			172800	IN	NS	nsa.nic.uk.
 uk.			172800	IN	NS	nsb.nic.uk.
 uk.			172800	IN	NS	nsc.nic.uk.
 uk.			172800	IN	NS	nsd.nic.uk.
+uk.			172800	IN	NS	dns2.nic.uk.
+uk.			172800	IN	NS	dns3.nic.uk.
 uk.			172800	IN	NS	dns4.nic.uk.
 ns1.cs.ucl.ac.uk.	172800	IN	A	128.16.5.32
 barney.advsys.co.uk.	172800	IN	A	217.23.160.50
 ns3.icb.co.uk.		172800	IN	A	91.208.95.130
 tld6.ultradns.co.uk.	172800	IN	A	198.133.199.11
+dns2.nic.uk.		172800	IN	A	103.49.80.1
+dns2.nic.uk.		172800	IN	AAAA	2401:fd80:400::1
+dns3.nic.uk.		172800	IN	A	213.248.220.1
+dns3.nic.uk.		172800	IN	AAAA	2a01:618:404::1
 dns4.nic.uk.		172800	IN	A	43.230.48.1
 dns4.nic.uk.		172800	IN	AAAA	2401:fd80:404::1
 ns1.nic.uk.		172800	IN	A	195.66.240.130
