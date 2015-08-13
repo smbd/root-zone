@@ -144,13 +144,13 @@ c0.nic.adult.		172800	IN	A	199.115.154.1
 c0.nic.adult.		172800	IN	AAAA	2001:500:a2::1
 d0.nic.adult.		172800	IN	A	199.115.155.1
 d0.nic.adult.		172800	IN	AAAA	2001:500:a3::1
+ae.			86400	IN	NSEC	aeg. NS RRSIG NSEC
 ae.			172800	IN	NS	ae.cctld.authdns.ripe.net.
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
 ae.			172800	IN	NS	sec3.apnic.net.
 ae.			172800	IN	NS	sns-pb.isc.org.
 ae.			172800	IN	NS	nsext-pch.aedns.ae.
-ae.			86400	IN	NSEC	aeg. NS RRSIG NSEC
 ns1.aedns.ae.		172800	IN	A	79.98.120.73
 ns2.aedns.ae.		172800	IN	A	79.98.121.73
 nsext-pch.aedns.ae.	172800	IN	A	199.4.137.1
@@ -378,6 +378,7 @@ associates.		172800	IN	NS	demand.alpha.aridns.net.au.
 associates.		172800	IN	NS	demand.delta.aridns.net.au.
 associates.		172800	IN	NS	demand.gamma.aridns.net.au.
 associates.		86400	IN	NSEC	at. NS DS RRSIG NSEC
+at.			86400	IN	NSEC	attorney. NS DS RRSIG NSEC
 at.			172800	IN	NS	d.ns.at.
 at.			172800	IN	NS	j.ns.at.
 at.			172800	IN	NS	n.ns.at.
@@ -386,7 +387,6 @@ at.			172800	IN	NS	u.ns.at.
 at.			172800	IN	NS	ns1.univie.ac.at.
 at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
-at.			86400	IN	NSEC	attorney. NS DS RRSIG NSEC
 dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
 dns-mk.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb::4
 ns1.univie.ac.at.	172800	IN	A	78.104.144.2
@@ -411,6 +411,7 @@ attorney.		172800	IN	NS	demand.alpha.aridns.net.au.
 attorney.		172800	IN	NS	demand.delta.aridns.net.au.
 attorney.		172800	IN	NS	demand.gamma.aridns.net.au.
 attorney.		86400	IN	NSEC	au. NS DS RRSIG NSEC
+au.			86400	IN	NSEC	auction. NS DS RRSIG NSEC
 au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	b.au.
 au.			172800	IN	NS	u.au.
@@ -419,7 +420,6 @@ au.			172800	IN	NS	w.au.
 au.			172800	IN	NS	x.au.
 au.			172800	IN	NS	y.au.
 au.			172800	IN	NS	z.au.
-au.			86400	IN	NSEC	auction. NS DS RRSIG NSEC
 a.au.			172800	IN	A	58.65.254.73
 a.au.			172800	IN	AAAA	2407:6e00:254:306::73
 b.au.			172800	IN	A	58.65.253.73
@@ -1024,13 +1024,13 @@ boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
 boutique.		172800	IN	NS	demand.gamma.aridns.net.au.
 boutique.		86400	IN	NSEC	br. NS DS RRSIG NSEC
+br.			86400	IN	NSEC	bradesco. NS DS RRSIG NSEC
 br.			172800	IN	NS	a.dns.br.
 br.			172800	IN	NS	b.dns.br.
 br.			172800	IN	NS	c.dns.br.
 br.			172800	IN	NS	d.dns.br.
 br.			172800	IN	NS	e.dns.br.
 br.			172800	IN	NS	f.dns.br.
-br.			86400	IN	NSEC	bradesco. NS DS RRSIG NSEC
 a.dns.br.		172800	IN	A	200.160.0.10
 a.dns.br.		172800	IN	AAAA	2001:12ff::10
 b.dns.br.		172800	IN	A	200.189.41.10
@@ -1211,12 +1211,12 @@ bzh.			172800	IN	NS	d.nic.fr.
 bzh.			172800	IN	NS	f.ext.nic.fr.
 bzh.			172800	IN	NS	g.ext.nic.fr.
 bzh.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
+ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	d.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
 ca.			172800	IN	NS	any.ca-servers.ca.
-ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 any.ca-servers.ca.	172800	IN	A	199.4.144.2
 any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
@@ -1511,6 +1511,7 @@ cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			172800	IN	NS	dns-fr.dnsafrica.net.
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
+ch.			86400	IN	NSEC	chanel. NS DS RRSIG NSEC
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
 ch.			172800	IN	NS	c.nic.ch.
@@ -1518,7 +1519,6 @@ ch.			172800	IN	NS	d.nic.ch.
 ch.			172800	IN	NS	e.nic.ch.
 ch.			172800	IN	NS	f.nic.ch.
 ch.			172800	IN	NS	h.nic.ch.
-ch.			86400	IN	NSEC	chanel. NS DS RRSIG NSEC
 ns.itu.ch.		172800	IN	A	156.106.192.121
 a.nic.ch.		172800	IN	A	130.59.1.80
 a.nic.ch.		172800	IN	AAAA	2001:620::4
@@ -1644,13 +1644,13 @@ ck.			172800	IN	NS	downstage.mcs.vuw.ac.nz.
 ck.			86400	IN	NSEC	cl. NS RRSIG NSEC
 parau.oyster.net.ck.	172800	IN	A	202.65.32.128
 poiparau.oyster.net.ck.	172800	IN	A	202.65.32.127
+cl.			86400	IN	NSEC	claims. NS DS RRSIG NSEC
 cl.			172800	IN	NS	a.nic.cl.
 cl.			172800	IN	NS	b.nic.cl.
 cl.			172800	IN	NS	c.nic.cl.
 cl.			172800	IN	NS	cl1.dnsnode.net.
 cl.			172800	IN	NS	cl-ns.anycast.pch.net.
 cl.			172800	IN	NS	sns-pb.isc.org.
-cl.			86400	IN	NSEC	claims. NS DS RRSIG NSEC
 a.nic.cl.		172800	IN	A	200.1.121.10
 b.nic.cl.		172800	IN	A	200.7.4.7
 b.nic.cl.		172800	IN	AAAA	2001:1398:274:0:200:7:4:7
@@ -1722,13 +1722,13 @@ cm.			86400	IN	NSEC	cn. NS RRSIG NSEC
 kim.camnet.cm.		172800	IN	A	195.24.192.35
 lom.camnet.cm.		172800	IN	A	195.24.192.34
 sanaga.camnet.cm.	172800	IN	A	195.24.192.17
+cn.			86400	IN	NSEC	co. NS DS RRSIG NSEC
 cn.			172800	IN	NS	a.dns.cn.
 cn.			172800	IN	NS	b.dns.cn.
 cn.			172800	IN	NS	c.dns.cn.
 cn.			172800	IN	NS	d.dns.cn.
 cn.			172800	IN	NS	e.dns.cn.
 cn.			172800	IN	NS	ns.cernet.net.
-cn.			86400	IN	NSEC	co. NS DS RRSIG NSEC
 ns1.conac.cn.		172800	IN	A	111.235.161.1
 ns1.conac.cn.		172800	IN	AAAA	2401:b400:1::1
 ns2.conac.cn.		172800	IN	A	111.235.162.1
@@ -1819,6 +1819,7 @@ cologne.		172800	IN	NS	anycast10.irondns.net.
 cologne.		172800	IN	NS	anycast23.irondns.net.
 cologne.		172800	IN	NS	anycast24.irondns.net.
 cologne.		86400	IN	NSEC	com. NS DS RRSIG NSEC
+com.			86400	IN	NSEC	commbank. NS DS RRSIG NSEC
 com.			172800	IN	NS	a.gtld-servers.net.
 com.			172800	IN	NS	b.gtld-servers.net.
 com.			172800	IN	NS	c.gtld-servers.net.
@@ -1832,7 +1833,6 @@ com.			172800	IN	NS	j.gtld-servers.net.
 com.			172800	IN	NS	k.gtld-servers.net.
 com.			172800	IN	NS	l.gtld-servers.net.
 com.			172800	IN	NS	m.gtld-servers.net.
-com.			86400	IN	NSEC	commbank. NS DS RRSIG NSEC
 ns.amarshallinc.com.	172800	IN	A	71.163.249.97
 ns.blacknightsolutions.com. 172800 IN	A	81.17.240.204
 ns.blacknightsolutions.com. 172800 IN	AAAA	2a01:a8:dc1:33::33
@@ -2012,6 +2012,7 @@ c.nic.courses.		172800	IN	A	37.209.196.9
 c.nic.courses.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.courses.		172800	IN	A	37.209.198.9
 d.nic.courses.		172800	IN	AAAA	2001:dcd:4::9
+cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
 cr.			172800	IN	NS	a.ns.cr.
 cr.			172800	IN	NS	c.ns.cr.
 cr.			172800	IN	NS	f.nic.cr.
@@ -2020,7 +2021,6 @@ cr.			172800	IN	NS	h.nic.cr.
 cr.			172800	IN	NS	p.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
-cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
 dns.nic.cr.		172800	IN	A	200.107.82.100
 dns.nic.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
 f.nic.cr.		172800	IN	A	199.254.59.9
@@ -2182,11 +2182,11 @@ b0.nic.cyou.		172800	IN	A	65.22.129.9
 b0.nic.cyou.		172800	IN	AAAA	2a01:8840:7f::9
 c0.nic.cyou.		172800	IN	A	65.22.130.9
 c0.nic.cyou.		172800	IN	AAAA	2a01:8840:80::9
+cz.			86400	IN	NSEC	dabur. NS DS RRSIG NSEC
 cz.			172800	IN	NS	a.ns.nic.cz.
 cz.			172800	IN	NS	b.ns.nic.cz.
 cz.			172800	IN	NS	c.ns.nic.cz.
 cz.			172800	IN	NS	d.ns.nic.cz.
-cz.			86400	IN	NSEC	dabur. NS DS RRSIG NSEC
 d.ext.nic.cz.		172800	IN	A	193.29.206.2
 d.ext.nic.cz.		172800	IN	AAAA	2001:678:1::2
 a.ns.nic.cz.		172800	IN	A	194.0.12.1
@@ -2264,13 +2264,13 @@ dclk.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 dclk.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+de.			86400	IN	NSEC	deals. NS DS RRSIG NSEC
 de.			172800	IN	NS	a.nic.de.
 de.			172800	IN	NS	f.nic.de.
 de.			172800	IN	NS	l.de.net.
 de.			172800	IN	NS	n.de.net.
 de.			172800	IN	NS	s.de.net.
 de.			172800	IN	NS	z.nic.de.
-de.			86400	IN	NSEC	deals. NS DS RRSIG NSEC
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
 dns7.denic.de.		172800	IN	A	81.91.161.68
 grdns-de.denic.de.	172800	IN	A	81.91.161.80
@@ -2500,12 +2500,12 @@ dvag.			172800	IN	NS	ns1b.ksregistry.net.
 dvag.			172800	IN	NS	ns2a.ksregistry.com.
 dvag.			172800	IN	NS	ns2b.ksregistry.com.
 dvag.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
+dz.			86400	IN	NSEC	earth. NS RRSIG NSEC
 dz.			172800	IN	NS	dz.cctld.authdns.ripe.net.
 dz.			172800	IN	NS	ns1.nic.dz.
 dz.			172800	IN	NS	ns2.nic.dz.
 dz.			172800	IN	NS	ns3.nic.fr.
 dz.			172800	IN	NS	ns-dz.afrinic.net.
-dz.			86400	IN	NSEC	earth. NS RRSIG NSEC
 idn1.nic.dz.		172800	IN	A	193.194.64.243
 idn2.nic.dz.		172800	IN	A	213.179.160.68
 ns1.nic.dz.		172800	IN	A	193.194.64.242
@@ -2547,13 +2547,13 @@ n1.nic.ec.		172800	IN	A	200.12.198.1
 n1.nic.ec.		172800	IN	AAAA	2801:0:61::1
 n2.nic.ec.		172800	IN	A	200.12.199.1
 n2.nic.ec.		172800	IN	AAAA	2801:0:60::1
+edu.			86400	IN	NSEC	education. NS DS RRSIG NSEC
 edu.			172800	IN	NS	a.edu-servers.net.
 edu.			172800	IN	NS	c.edu-servers.net.
 edu.			172800	IN	NS	d.edu-servers.net.
 edu.			172800	IN	NS	f.edu-servers.net.
 edu.			172800	IN	NS	g.edu-servers.net.
 edu.			172800	IN	NS	l.edu-servers.net.
-edu.			86400	IN	NSEC	education. NS DS RRSIG NSEC
 adns1.berkeley.edu.	172800	IN	A	128.32.136.3
 adns1.berkeley.edu.	172800	IN	AAAA	2607:f140:ffff:fffe::3
 adns2.berkeley.edu.	172800	IN	A	128.32.136.14
@@ -2582,10 +2582,10 @@ b.tld.ee.		172800	IN	AAAA	2001:67c:1010:28::53
 e.tld.ee.		172800	IN	A	204.61.216.36
 e.tld.ee.		172800	IN	AAAA	2001:678:94:53::53
 ns.tld.ee.		172800	IN	A	195.43.87.10
+eg.			86400	IN	NSEC	email. NS RRSIG NSEC
 eg.			172800	IN	NS	ns5.univie.ac.at.
 eg.			172800	IN	NS	rip.psg.com.
 eg.			172800	IN	NS	frcu.eun.eg.
-eg.			86400	IN	NSEC	email. NS RRSIG NSEC
 ns1.dotmasr.eg.		172800	IN	A	81.21.97.155
 ns2.dotmasr.eg.		172800	IN	A	81.21.99.11
 ns3.dotmasr.eg.		172800	IN	A	81.10.38.11
@@ -2657,6 +2657,7 @@ erni.			172800	IN	NS	anycast10.irondns.net.
 erni.			172800	IN	NS	anycast23.irondns.net.
 erni.			172800	IN	NS	anycast24.irondns.net.
 erni.			86400	IN	NSEC	es. NS DS RRSIG NSEC
+es.			86400	IN	NSEC	esq. NS DS RRSIG NSEC
 es.			172800	IN	NS	a.nic.es.
 es.			172800	IN	NS	f.nic.es.
 es.			172800	IN	NS	g.nic.es.
@@ -2664,7 +2665,6 @@ es.			172800	IN	NS	ns1.cesca.es.
 es.			172800	IN	NS	ns3.nic.fr.
 es.			172800	IN	NS	ns-ext.nic.cl.
 es.			172800	IN	NS	sns-pb.isc.org.
-es.			86400	IN	NSEC	esq. NS DS RRSIG NSEC
 ns1.cesca.es.		172800	IN	A	84.88.0.3
 ns1.cesca.es.		172800	IN	AAAA	2001:40b0:1:1122:ce5c:a000:0:3
 a.nic.es.		172800	IN	A	194.69.254.1
@@ -2694,13 +2694,13 @@ et.			172800	IN	NS	phloem.uoregon.edu.
 et.			86400	IN	NSEC	eu. NS RRSIG NSEC
 ns1.telecom.net.et.	172800	IN	A	213.55.64.36
 ns2.telecom.net.et.	172800	IN	A	213.55.64.38
+eu.			86400	IN	NSEC	eurovision. NS DS RRSIG NSEC
 eu.			172800	IN	NS	x.dns.eu.
 eu.			172800	IN	NS	y.dns.eu.
 eu.			172800	IN	NS	cz.dns.eu.
 eu.			172800	IN	NS	nl.dns.eu.
 eu.			172800	IN	NS	si.dns.eu.
 eu.			172800	IN	NS	uk.dns.eu.
-eu.			86400	IN	NSEC	eurovision. NS DS RRSIG NSEC
 cz.dns.eu.		172800	IN	A	93.190.128.138
 nl.dns.eu.		172800	IN	A	91.200.16.100
 si.dns.eu.		172800	IN	A	193.2.221.60
@@ -3047,12 +3047,12 @@ foundation.		172800	IN	NS	demand.alpha.aridns.net.au.
 foundation.		172800	IN	NS	demand.delta.aridns.net.au.
 foundation.		172800	IN	NS	demand.gamma.aridns.net.au.
 foundation.		86400	IN	NSEC	fr. NS DS RRSIG NSEC
+fr.			86400	IN	NSEC	frl. NS DS RRSIG NSEC
 fr.			172800	IN	NS	d.ext.nic.fr.
 fr.			172800	IN	NS	d.nic.fr.
 fr.			172800	IN	NS	e.ext.nic.fr.
 fr.			172800	IN	NS	f.ext.nic.fr.
 fr.			172800	IN	NS	g.ext.nic.fr.
-fr.			86400	IN	NSEC	frl. NS DS RRSIG NSEC
 dns.inria.fr.		172800	IN	A	193.51.208.13
 censvrns0001.ird.fr.	172800	IN	A	91.203.32.147
 ns1.ird.fr.		172800	IN	A	193.50.53.3
@@ -3588,6 +3588,7 @@ b0.nic.hiv.		172800	IN	A	65.22.229.17
 b0.nic.hiv.		172800	IN	AAAA	2a01:8840:df::17
 c0.nic.hiv.		172800	IN	A	65.22.230.17
 c0.nic.hiv.		172800	IN	AAAA	2a01:8840:e0::17
+hk.			86400	IN	NSEC	hm. NS RRSIG NSEC
 hk.			172800	IN	NS	c.hkirc.net.hk.
 hk.			172800	IN	NS	d.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
@@ -3596,7 +3597,6 @@ hk.			172800	IN	NS	w.hkirc.net.hk.
 hk.			172800	IN	NS	x.hkirc.net.hk.
 hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
-hk.			86400	IN	NSEC	hm. NS RRSIG NSEC
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:6::15
 c.hkirc.net.hk.		172800	IN	A	203.119.2.218
@@ -3959,13 +3959,13 @@ infiniti.		172800	IN	NS	h.gmoregistry.net.
 infiniti.		172800	IN	NS	i.gmoregistry.net.
 infiniti.		172800	IN	NS	j.gmoregistry.net.
 infiniti.		86400	IN	NSEC	info. NS DS RRSIG NSEC
+info.			86400	IN	NSEC	ing. NS DS RRSIG NSEC
 info.			172800	IN	NS	a0.info.afilias-nst.info.
 info.			172800	IN	NS	a2.info.afilias-nst.info.
 info.			172800	IN	NS	b0.info.afilias-nst.org.
 info.			172800	IN	NS	b2.info.afilias-nst.org.
 info.			172800	IN	NS	c0.info.afilias-nst.info.
 info.			172800	IN	NS	d0.info.afilias-nst.org.
-info.			86400	IN	NSEC	ing. NS DS RRSIG NSEC
 a0.aero.afilias-nst.info. 172800 IN	A	199.254.51.1
 a0.aero.afilias-nst.info. 172800 IN	AAAA	2001:500:1d::1
 a2.aero.afilias-nst.info. 172800 IN	A	199.249.115.1
@@ -4119,11 +4119,11 @@ dyn2.cmc.iq.		172800	IN	AAAA	2001:500:96::8
 ns1.cmc.iq.		172800	IN	A	194.117.57.100
 nsp-anycast.cmc.iq.	172800	IN	A	194.117.58.42
 nsp-anycast.cmc.iq.	172800	IN	AAAA	2001:500:14:8001:ad::42
+ir.			86400	IN	NSEC	irish. NS RRSIG NSEC
 ir.			172800	IN	NS	a.nic.ir.
 ir.			172800	IN	NS	b.nic.ir.
 ir.			172800	IN	NS	ir.cctld.authdns.ripe.net.
 ir.			172800	IN	NS	ns5.univie.ac.at.
-ir.			86400	IN	NSEC	irish. NS RRSIG NSEC
 ns.irnic.ir.		172800	IN	A	193.189.122.83
 a.nic.ir.		172800	IN	A	193.189.123.2
 b.nic.ir.		172800	IN	A	193.189.122.83
@@ -4179,13 +4179,13 @@ b0.nic.istanbul.	172800	IN	A	65.22.145.9
 b0.nic.istanbul.	172800	IN	AAAA	2a01:8840:8f::9
 c0.nic.istanbul.	172800	IN	A	65.22.146.9
 c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90::9
+it.			86400	IN	NSEC	itau. NS RRSIG NSEC
 it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
 it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
-it.			86400	IN	NSEC	itau. NS RRSIG NSEC
 ns-al.isti.cnr.it.	172800	IN	A	194.119.192.8
 nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
@@ -4785,6 +4785,7 @@ c.nic.lixil.		172800	IN	A	37.209.196.9
 c.nic.lixil.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.lixil.		172800	IN	A	37.209.198.9
 d.nic.lixil.		172800	IN	AAAA	2001:dcd:4::9
+lk.			86400	IN	NSEC	loan. NS DS RRSIG NSEC
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
 lk.			172800	IN	NS	l.nic.lk.
@@ -4794,7 +4795,6 @@ lk.			172800	IN	NS	t.nic.lk.
 lk.			172800	IN	NS	ns1.ac.lk.
 lk.			172800	IN	NS	ripe.nic.lk.
 lk.			172800	IN	NS	pendragon.cs.purdue.edu.
-lk.			86400	IN	NSEC	loan. NS DS RRSIG NSEC
 ns1.ac.lk.		172800	IN	A	192.248.1.162
 ns1.ac.lk.		172800	IN	AAAA	2401:dd00:1::162
 ns3.ac.lk.		172800	IN	A	202.124.166.178
@@ -4991,13 +4991,13 @@ ly.			172800	IN	NS	phloem.uoregon.edu.
 ly.			86400	IN	NSEC	ma. NS RRSIG NSEC
 pch.ltt.ly.		172800	IN	A	204.61.216.67
 pch.ltt.ly.		172800	IN	AAAA	2001:500:14:6067:ad::1
+ma.			86400	IN	NSEC	madrid. NS RRSIG NSEC
 ma.			172800	IN	NS	ma.cctld.authdns.ripe.net.
 ma.			172800	IN	NS	dns.inria.fr.
 ma.			172800	IN	NS	ns1.iam.net.ma.
 ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns4.registre.ma.
-ma.			86400	IN	NSEC	madrid. NS RRSIG NSEC
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	81.192.108.164
@@ -5245,6 +5245,7 @@ mma.			172800	IN	NS	d.nic.fr.
 mma.			172800	IN	NS	f.ext.nic.fr.
 mma.			172800	IN	NS	g.ext.nic.fr.
 mma.			86400	IN	NSEC	mn. NS DS RRSIG NSEC
+mn.			86400	IN	NSEC	mo. NS DS RRSIG NSEC
 mn.			172800	IN	NS	a0.cctld.afilias-nst.info.
 mn.			172800	IN	NS	a2.cctld.afilias-nst.info.
 mn.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -5255,7 +5256,6 @@ mn.			172800	IN	NS	ns1.magic.mn.
 mn.			172800	IN	NS	ns2.magic.mn.
 mn.			172800	IN	NS	ns3.magic.mn.
 mn.			172800	IN	NS	ns4.magic.mn.
-mn.			86400	IN	NSEC	mo. NS DS RRSIG NSEC
 ns1.idn.mn.		172800	IN	A	218.100.84.27
 ns2.idn.mn.		172800	IN	A	202.170.80.40
 ns3.idn.mn.		172800	IN	A	180.149.98.78
@@ -5461,11 +5461,11 @@ mtpc.			172800	IN	NS	h.gmoregistry.net.
 mtpc.			172800	IN	NS	i.gmoregistry.net.
 mtpc.			172800	IN	NS	j.gmoregistry.net.
 mtpc.			86400	IN	NSEC	mu. NS DS RRSIG NSEC
+mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
 mu.			172800	IN	NS	fork.sth.dnsnode.net.
 mu.			172800	IN	NS	udns1.tld.mu.
 mu.			172800	IN	NS	udns2.tld.mu.
 mu.			172800	IN	NS	anycast1.irondns.net.
-mu.			86400	IN	NSEC	museum. NS RRSIG NSEC
 cctld-vu.orange.mu.	172800	IN	A	196.192.110.15
 udns1.tld.mu.		172800	IN	A	204.61.216.10
 udns1.tld.mu.		172800	IN	AAAA	2001:500:14:6010:ad::1
@@ -5494,13 +5494,13 @@ chambo.sdnp.org.mw.	172800	IN	A	41.221.99.135
 chambo.sdnp.org.mw.	172800	IN	A	196.45.188.5
 domwe.sdn.mw.		172800	IN	A	41.221.99.149
 domwe.sdn.mw.		172800	IN	A	196.45.190.9
+mx.			86400	IN	NSEC	my. NS DS RRSIG NSEC
 mx.			172800	IN	NS	c.mx-ns.mx.
 mx.			172800	IN	NS	e.mx-ns.mx.
 mx.			172800	IN	NS	i.mx-ns.mx.
 mx.			172800	IN	NS	m.mx-ns.mx.
 mx.			172800	IN	NS	o.mx-ns.mx.
 mx.			172800	IN	NS	x.mx-ns.mx.
-mx.			86400	IN	NSEC	my. NS DS RRSIG NSEC
 c.mx-ns.mx.		172800	IN	A	192.100.224.1
 c.mx-ns.mx.		172800	IN	AAAA	2001:1258::1
 e.mx-ns.mx.		172800	IN	A	189.201.244.1
@@ -5511,15 +5511,12 @@ o.mx-ns.mx.		172800	IN	A	200.23.1.1
 x.mx-ns.mx.		172800	IN	A	201.131.252.1
 ns3.nic.mx.		172800	IN	A	200.33.111.1
 my.			172800	IN	NS	a.mynic.net.my.
-my.			172800	IN	NS	dns.mynic.net.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns30.cdns.net.
 my.			172800	IN	NS	ns-my.nic.fr.
 my.			86400	IN	NSEC	mz. NS DS RRSIG NSEC
 a.mynic.net.my.		172800	IN	A	49.236.194.202
 a.mynic.net.my.		172800	IN	AAAA	2401:b000:602:1001::11
-dns.mynic.net.my.	172800	IN	A	192.228.180.5
-dns.mynic.net.my.	172800	IN	AAAA	2001:328:1000:3::5
 mz.			172800	IN	NS	anyns.uem.mz.
 mz.			172800	IN	NS	dzowo.uem.mz.
 mz.			172800	IN	NS	ns-mz.afrinic.net.
@@ -5601,6 +5598,7 @@ c.nic.nec.		172800	IN	A	37.209.196.9
 c.nic.nec.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.nec.		172800	IN	A	37.209.198.9
 d.nic.nec.		172800	IN	AAAA	2001:dcd:4::9
+net.			86400	IN	NSEC	netbank. NS DS RRSIG NSEC
 net.			172800	IN	NS	a.gtld-servers.net.
 net.			172800	IN	NS	b.gtld-servers.net.
 net.			172800	IN	NS	c.gtld-servers.net.
@@ -5614,7 +5612,6 @@ net.			172800	IN	NS	j.gtld-servers.net.
 net.			172800	IN	NS	k.gtld-servers.net.
 net.			172800	IN	NS	l.gtld-servers.net.
 net.			172800	IN	NS	m.gtld-servers.net.
-net.			86400	IN	NSEC	netbank. NS DS RRSIG NSEC
 ns1.aalnet.net.		172800	IN	A	194.112.0.1
 ns2.aalnet.net.		172800	IN	A	194.112.0.5
 ns3.aalnet.net.		172800	IN	A	82.199.186.130
@@ -6220,6 +6217,7 @@ nissan.			172800	IN	NS	h.gmoregistry.net.
 nissan.			172800	IN	NS	i.gmoregistry.net.
 nissan.			172800	IN	NS	j.gmoregistry.net.
 nissan.			86400	IN	NSEC	nl. NS DS RRSIG NSEC
+nl.			86400	IN	NSEC	no. NS DS RRSIG NSEC
 nl.			172800	IN	NS	nl1.dnsnode.net.
 nl.			172800	IN	NS	ns1.dns.nl.
 nl.			172800	IN	NS	ns2.dns.nl.
@@ -6228,7 +6226,6 @@ nl.			172800	IN	NS	ns4.dns.nl.
 nl.			172800	IN	NS	ns5.dns.nl.
 nl.			172800	IN	NS	ns-nl.nic.fr.
 nl.			172800	IN	NS	sns-pb.isc.org.
-nl.			86400	IN	NSEC	no. NS DS RRSIG NSEC
 ns1.dns.nl.		172800	IN	A	193.176.144.5
 ns1.dns.nl.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:5
 ns2.dns.nl.		172800	IN	A	213.154.241.85
@@ -6241,13 +6238,13 @@ ns5.dns.nl.		172800	IN	A	194.0.28.53
 ns5.dns.nl.		172800	IN	AAAA	2001:678:2c:0:194:0:28:53
 ns-pt.nlnetlabs.nl.	172800	IN	A	185.49.140.61
 ns-pt.nlnetlabs.nl.	172800	IN	AAAA	2a04:b900::8:0:0:61
+no.			86400	IN	NSEC	nokia. NS DS RRSIG NSEC
 no.			172800	IN	NS	i.nic.no.
 no.			172800	IN	NS	x.nic.no.
 no.			172800	IN	NS	y.nic.no.
 no.			172800	IN	NS	z.nic.no.
 no.			172800	IN	NS	not.norid.no.
 no.			172800	IN	NS	njet.norid.no.
-no.			86400	IN	NSEC	nokia. NS DS RRSIG NSEC
 nac.no.			172800	IN	A	128.39.2.22
 nac.no.			172800	IN	AAAA	2001:700:0:102::aa53
 i.nic.no.		172800	IN	A	194.146.106.6
@@ -6348,6 +6345,7 @@ ns5.dns.nic.nyc.	172800	IN	A	156.154.157.125
 ns5.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1075::7d
 ns6.dns.nic.nyc.	172800	IN	A	156.154.158.125
 ns6.dns.nic.nyc.	172800	IN	AAAA	2610:a1:1076::7d
+nz.			86400	IN	NSEC	office. NS DS RRSIG NSEC
 nz.			172800	IN	NS	ns1.dns.net.nz.
 nz.			172800	IN	NS	ns2.dns.net.nz.
 nz.			172800	IN	NS	ns3.dns.net.nz.
@@ -6355,7 +6353,6 @@ nz.			172800	IN	NS	ns4.dns.net.nz.
 nz.			172800	IN	NS	ns5.dns.net.nz.
 nz.			172800	IN	NS	ns6.dns.net.nz.
 nz.			172800	IN	NS	ns7.dns.net.nz.
-nz.			86400	IN	NSEC	office. NS DS RRSIG NSEC
 circa.mcs.vuw.ac.nz.	172800	IN	A	130.195.5.12
 downstage.mcs.vuw.ac.nz. 172800	IN	A	130.195.6.10
 ns1.dns.net.nz.		172800	IN	A	202.46.190.130
@@ -6497,13 +6494,13 @@ orange.			172800	IN	NS	g5.nstld.com.
 orange.			172800	IN	NS	h5.nstld.com.
 orange.			172800	IN	NS	l5.nstld.com.
 orange.			86400	IN	NSEC	org. NS DS RRSIG NSEC
+org.			86400	IN	NSEC	organic. NS DS RRSIG NSEC
 org.			172800	IN	NS	a0.org.afilias-nst.info.
 org.			172800	IN	NS	a2.org.afilias-nst.info.
 org.			172800	IN	NS	b0.org.afilias-nst.org.
 org.			172800	IN	NS	b2.org.afilias-nst.org.
 org.			172800	IN	NS	c0.org.afilias-nst.info.
 org.			172800	IN	NS	d0.org.afilias-nst.org.
-org.			86400	IN	NSEC	organic. NS DS RRSIG NSEC
 b0.aero.afilias-nst.org. 172800	IN	A	199.254.52.1
 b0.aero.afilias-nst.org. 172800	IN	AAAA	2001:500:1e::1
 b2.aero.afilias-nst.org. 172800	IN	A	199.249.123.1
@@ -6956,12 +6953,12 @@ post.			172800	IN	NS	b2.post.afilias-nst.org.
 post.			172800	IN	NS	c0.post.afilias-nst.info.
 post.			172800	IN	NS	d0.post.afilias-nst.org.
 post.			86400	IN	NSEC	pr. NS DS RRSIG NSEC
+pr.			86400	IN	NSEC	praxi. NS DS RRSIG NSEC
 pr.			172800	IN	NS	pr-ns.anycast.pch.net.
 pr.			172800	IN	NS	golomb.nic.pr.
 pr.			172800	IN	NS	pascal.nic.pr.
 pr.			172800	IN	NS	pr-dns.denic.de.
 pr.			172800	IN	NS	descartes.nic.pr.
-pr.			86400	IN	NSEC	praxi. NS DS RRSIG NSEC
 descartes.nic.pr.	172800	IN	A	134.202.1.120
 do-dns.nic.pr.		172800	IN	A	134.202.1.121
 golomb.nic.pr.		172800	IN	A	134.202.6.100
@@ -7033,17 +7030,18 @@ property.		172800	IN	NS	a.ns.uniregistry.net.
 property.		172800	IN	NS	tld.isc-sns.net.
 property.		172800	IN	NS	tld.isc-sns.info.
 property.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
+ps.			86400	IN	NSEC	pt. NS RRSIG NSEC
 ps.			172800	IN	NS	ps.cctld.authdns.ripe.net.
 ps.			172800	IN	NS	ns1.pnina.ps.
 ps.			172800	IN	NS	rip.psg.com.
 ps.			172800	IN	NS	dns1.gov.ps.
 ps.			172800	IN	NS	fork.sth.dnsnode.net.
 ps.			172800	IN	NS	ps-ns.anycast.pch.net.
-ps.			86400	IN	NSEC	pt. NS RRSIG NSEC
 dns1.gov.ps.		172800	IN	A	213.244.82.147
 dns3.gov.ps.		172800	IN	A	212.14.253.242
 idn.pnina.ps.		172800	IN	A	208.64.68.4
 ns1.pnina.ps.		172800	IN	A	194.6.225.20
+pt.			86400	IN	NSEC	pub. NS DS RRSIG NSEC
 pt.			172800	IN	NS	ns.dns.br.
 pt.			172800	IN	NS	ns.dns.pt.
 pt.			172800	IN	NS	ns2.dns.pt.
@@ -7052,7 +7050,6 @@ pt.			172800	IN	NS	ns-pt.nlnetlabs.nl.
 pt.			172800	IN	NS	sns-pb.isc.org.
 pt.			172800	IN	NS	auth200.ns.uu.net.
 pt.			172800	IN	NS	auth210.ns.uu.net.
-pt.			86400	IN	NSEC	pub. NS DS RRSIG NSEC
 ns.dns.pt.		172800	IN	A	193.136.0.1
 ns.dns.pt.		172800	IN	AAAA	2001:690:a00:1016:905::1
 ns2.dns.pt.		172800	IN	A	193.136.2.226
@@ -7376,13 +7373,13 @@ rip.			172800	IN	NS	demand.alpha.aridns.net.au.
 rip.			172800	IN	NS	demand.delta.aridns.net.au.
 rip.			172800	IN	NS	demand.gamma.aridns.net.au.
 rip.			86400	IN	NSEC	ro. NS DS RRSIG NSEC
+ro.			86400	IN	NSEC	rocks. NS RRSIG NSEC
 ro.			172800	IN	NS	dns-at.rotld.ro.
 ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	sns-pb.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
-ro.			86400	IN	NSEC	rocks. NS RRSIG NSEC
 dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb::6
 dns-md.rotld.ro.	172800	IN	A	192.162.16.19
@@ -7432,12 +7429,12 @@ rsvp.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 rsvp.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 rsvp.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 rsvp.			86400	IN	NSEC	ru. NS DS RRSIG NSEC
+ru.			86400	IN	NSEC	ruhr. NS DS RRSIG NSEC
 ru.			172800	IN	NS	a.dns.ripn.net.
 ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
-ru.			86400	IN	NSEC	ruhr. NS DS RRSIG NSEC
 a.dns.flexireg.ru.	172800	IN	A	31.177.70.1
 a.dns.flexireg.ru.	172800	IN	AAAA	2a02:2090:6800::1
 ruhr.			172800	IN	NS	anycast9.irondns.net.
@@ -7684,6 +7681,7 @@ scot.			172800	IN	NS	anycast10.irondns.net.
 scot.			172800	IN	NS	anycast23.irondns.net.
 scot.			172800	IN	NS	anycast24.irondns.net.
 scot.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
+sd.			86400	IN	NSEC	se. NS RRSIG NSEC
 sd.			172800	IN	NS	sd.cctld.authdns.ripe.net.
 sd.			172800	IN	NS	ns1.coza.net.za.
 sd.			172800	IN	NS	ns1.uaenic.ae.
@@ -7692,12 +7690,12 @@ sd.			172800	IN	NS	ans1.sis.sd.
 sd.			172800	IN	NS	ans1.canar.sd.
 sd.			172800	IN	NS	ans2.canar.sd.
 sd.			172800	IN	NS	ns-sd.afrinic.net.
-sd.			86400	IN	NSEC	se. NS RRSIG NSEC
 ans1.canar.sd.		172800	IN	A	196.29.180.14
 ans2.canar.sd.		172800	IN	A	196.29.164.14
 ans1.sis.sd.		172800	IN	A	196.29.166.134
 pch.sis.sd.		172800	IN	A	204.61.216.97
 pch.sis.sd.		172800	IN	AAAA	2001:500:14:6097:ad::1
+se.			86400	IN	NSEC	seat. NS DS RRSIG NSEC
 se.			172800	IN	NS	a.ns.se.
 se.			172800	IN	NS	b.ns.se.
 se.			172800	IN	NS	c.ns.se.
@@ -7707,7 +7705,6 @@ se.			172800	IN	NS	f.ns.se.
 se.			172800	IN	NS	g.ns.se.
 se.			172800	IN	NS	i.ns.se.
 se.			172800	IN	NS	j.ns.se.
-se.			86400	IN	NSEC	seat. NS DS RRSIG NSEC
 a.ns.se.		172800	IN	A	192.36.144.107
 a.ns.se.		172800	IN	AAAA	2a01:3f0:0:301::53
 b.ns.se.		172800	IN	A	192.36.133.107
@@ -7845,6 +7842,7 @@ b0.nic.shriram.		172800	IN	A	65.22.181.41
 b0.nic.shriram.		172800	IN	AAAA	2a01:8840:af::41
 c0.nic.shriram.		172800	IN	A	65.22.182.41
 c0.nic.shriram.		172800	IN	AAAA	2a01:8840:b0::41
+si.			86400	IN	NSEC	singles. NS DS RRSIG NSEC
 si.			172800	IN	NS	b.dns.si.
 si.			172800	IN	NS	c.dns.si.
 si.			172800	IN	NS	d.dns.si.
@@ -7853,7 +7851,6 @@ si.			172800	IN	NS	g.dns.si.
 si.			172800	IN	NS	h.dns.si.
 si.			172800	IN	NS	i.dns.si.
 si.			172800	IN	NS	sss.dns.si.
-si.			86400	IN	NSEC	singles. NS DS RRSIG NSEC
 ns2.arnes.si.		172800	IN	A	193.2.1.91
 ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000::91
 b.dns.si.		172800	IN	A	193.2.1.91
@@ -8115,12 +8112,12 @@ style.			172800	IN	NS	demand.alpha.aridns.net.au.
 style.			172800	IN	NS	demand.delta.aridns.net.au.
 style.			172800	IN	NS	demand.gamma.aridns.net.au.
 style.			86400	IN	NSEC	su. NS DS RRSIG NSEC
+su.			86400	IN	NSEC	sucks. NS DS RRSIG NSEC
 su.			172800	IN	NS	a.dns.ripn.net.
 su.			172800	IN	NS	b.dns.ripn.net.
 su.			172800	IN	NS	d.dns.ripn.net.
 su.			172800	IN	NS	e.dns.ripn.net.
 su.			172800	IN	NS	f.dns.ripn.net.
-su.			86400	IN	NSEC	sucks. NS DS RRSIG NSEC
 ns.demos.su.		172800	IN	A	194.87.0.8
 ns.demos.su.		172800	IN	A	194.87.0.9
 sucks.			172800	IN	NS	a.nic.sucks.
@@ -8719,13 +8716,13 @@ ns.anycast.co.tz.	172800	IN	A	204.61.216.15
 ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad::1
 ns2.tznic.or.tz.	172800	IN	A	196.216.162.67
 ns2.tznic.or.tz.	172800	IN	AAAA	2001:43f8:e0:1::67
+ua.			86400	IN	NSEC	ubs. NS DS RRSIG NSEC
 ua.			172800	IN	NS	cd1.ns.ua.
 ua.			172800	IN	NS	he1.ns.ua.
 ua.			172800	IN	NS	ho1.ns.ua.
 ua.			172800	IN	NS	pch.ns.ua.
 ua.			172800	IN	NS	ripe.ns.ua.
 ua.			172800	IN	NS	sns-pb.isc.org.
-ua.			86400	IN	NSEC	ubs. NS DS RRSIG NSEC
 az.hostmaster.ua.	172800	IN	A	195.47.253.13
 az.hostmaster.ua.	172800	IN	AAAA	2001:67c:258::13
 ge.hostmaster.ua.	172800	IN	A	195.47.253.18
@@ -8758,6 +8755,7 @@ ug.			86400	IN	NSEC	uk. NS DS RRSIG NSEC
 anycast.eahd.or.ug.	172800	IN	A	204.61.216.60
 anycast.eahd.or.ug.	172800	IN	AAAA	2001:500:14:6060:ad::1
 root.eahd.or.ug.	172800	IN	A	212.88.97.132
+uk.			86400	IN	NSEC	university. NS DS RRSIG NSEC
 uk.			172800	IN	NS	ns1.nic.uk.
 uk.			172800	IN	NS	ns2.nic.uk.
 uk.			172800	IN	NS	ns4.nic.uk.
@@ -8768,7 +8766,6 @@ uk.			172800	IN	NS	nsd.nic.uk.
 uk.			172800	IN	NS	dns2.nic.uk.
 uk.			172800	IN	NS	dns3.nic.uk.
 uk.			172800	IN	NS	dns4.nic.uk.
-uk.			86400	IN	NSEC	university. NS DS RRSIG NSEC
 ns1.cs.ucl.ac.uk.	172800	IN	A	128.16.5.32
 barney.advsys.co.uk.	172800	IN	A	217.23.160.50
 ns3.icb.co.uk.		172800	IN	A	91.208.95.130
@@ -9914,7 +9911,6 @@ xn--mgbpl2fh.		172800	IN	NS	pch.sis.sd.
 xn--mgbpl2fh.		172800	IN	NS	ans1.sis.sd.
 xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
 xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.net.my.
-xn--mgbx4cd0ab.		172800	IN	NS	dns.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
@@ -10295,12 +10291,12 @@ yt.			172800	IN	NS	e.ext.nic.fr.
 yt.			172800	IN	NS	f.ext.nic.fr.
 yt.			172800	IN	NS	g.ext.nic.fr.
 yt.			86400	IN	NSEC	za. NS DS RRSIG NSEC
+za.			86400	IN	NSEC	zip. NS RRSIG NSEC
 za.			172800	IN	NS	za1.dnsnode.net.
 za.			172800	IN	NS	disa.tenet.ac.za.
 za.			172800	IN	NS	nsza.is.co.za.
 za.			172800	IN	NS	za-ns.anycast.pch.net.
 za.			172800	IN	NS	sns-pb.isc.org.
-za.			86400	IN	NSEC	zip. NS RRSIG NSEC
 hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 hippo.ru.ac.za.		172800	IN	AAAA	2001:4200:1010::1
 disa.tenet.ac.za.	172800	IN	A	196.21.79.50
