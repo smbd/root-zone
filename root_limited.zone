@@ -1159,7 +1159,6 @@ buzz.			172800	IN	NS	ns3.dns.nic.buzz.
 buzz.			172800	IN	NS	ns4.dns.nic.buzz.
 buzz.			172800	IN	NS	ns5.dns.nic.buzz.
 buzz.			172800	IN	NS	ns6.dns.nic.buzz.
-buzz.			172800	IN	NS	ns7.dns.nic.buzz.
 buzz.			86400	IN	NSEC	bv. NS DS RRSIG NSEC
 ns1.dns.nic.buzz.	172800	IN	A	156.154.144.29
 ns1.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1071::1d
@@ -1173,8 +1172,6 @@ ns5.dns.nic.buzz.	172800	IN	A	156.154.157.29
 ns5.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1075::1d
 ns6.dns.nic.buzz.	172800	IN	A	156.154.158.29
 ns6.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1076::1d
-ns7.dns.nic.buzz.	172800	IN	A	207.34.5.10
-ns7.dns.nic.buzz.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 bv.			172800	IN	NS	nn.uninett.no.
 bv.			172800	IN	NS	nac.no.
 bv.			172800	IN	NS	server.nordu.net.
