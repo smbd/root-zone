@@ -7135,7 +7135,6 @@ qpon.			172800	IN	NS	ns3.dns.nic.qpon.
 qpon.			172800	IN	NS	ns4.dns.nic.qpon.
 qpon.			172800	IN	NS	ns5.dns.nic.qpon.
 qpon.			172800	IN	NS	ns6.dns.nic.qpon.
-qpon.			172800	IN	NS	ns7.dns.nic.qpon.
 qpon.			86400	IN	NSEC	quebec. NS DS RRSIG NSEC
 ns1.dns.nic.qpon.	172800	IN	A	156.154.169.32
 ns1.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1071::1:20
@@ -7149,8 +7148,6 @@ ns5.dns.nic.qpon.	172800	IN	A	156.154.173.32
 ns5.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1075::1:20
 ns6.dns.nic.qpon.	172800	IN	A	156.154.174.32
 ns6.dns.nic.qpon.	172800	IN	AAAA	2610:a1:1076::1:20
-ns7.dns.nic.qpon.	172800	IN	A	207.34.5.10
-ns7.dns.nic.qpon.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 quebec.			172800	IN	NS	anycast9.irondns.net.
 quebec.			172800	IN	NS	anycast10.irondns.net.
 quebec.			172800	IN	NS	anycast23.irondns.net.
