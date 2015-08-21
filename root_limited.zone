@@ -2143,7 +2143,6 @@ cy.			86400	IN	NSEC	cymru. NS RRSIG NSEC
 ns1.ucy.ac.cy.		172800	IN	A	194.42.1.50
 ns2.ucy.ac.cy.		172800	IN	A	194.42.1.55
 cynic.dns.cy.		172800	IN	A	194.42.29.1
-cymru.			172800	IN	NS	ns1.nic.uk.
 cymru.			172800	IN	NS	dns1.nic.cymru.
 cymru.			172800	IN	NS	dns2.nic.cymru.
 cymru.			172800	IN	NS	dns3.nic.cymru.
@@ -8808,7 +8807,6 @@ uno.			172800	IN	NS	ns3.dns.nic.uno.
 uno.			172800	IN	NS	ns4.dns.nic.uno.
 uno.			172800	IN	NS	ns5.dns.nic.uno.
 uno.			172800	IN	NS	ns6.dns.nic.uno.
-uno.			172800	IN	NS	ns7.dns.nic.uno.
 uno.			86400	IN	NSEC	uol. NS DS RRSIG NSEC
 ns1.dns.nic.uno.	172800	IN	A	156.154.144.173
 ns1.dns.nic.uno.	172800	IN	AAAA	2610:a1:1071::ad
@@ -8822,8 +8820,6 @@ ns5.dns.nic.uno.	172800	IN	A	156.154.157.173
 ns5.dns.nic.uno.	172800	IN	AAAA	2610:a1:1075::ad
 ns6.dns.nic.uno.	172800	IN	A	156.154.158.173
 ns6.dns.nic.uno.	172800	IN	AAAA	2610:a1:1076::ad
-ns7.dns.nic.uno.	172800	IN	A	207.34.5.10
-ns7.dns.nic.uno.	172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
 uol.			172800	IN	NS	a.dns.br.
 uol.			172800	IN	NS	b.dns.br.
 uol.			172800	IN	NS	c.dns.br.
