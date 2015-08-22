@@ -8843,16 +8843,22 @@ f.cctld.us.		172800	IN	A	209.173.58.70
 f.cctld.us.		172800	IN	AAAA	2001:500:3682::11
 k.cctld.us.		172800	IN	A	156.154.128.70
 k.cctld.us.		172800	IN	AAAA	2001:503:e239::3:1
+uy.			172800	IN	NS	a.nic.uy.
+uy.			172800	IN	NS	b.nic.uy.
 uy.			172800	IN	NS	ns.dns.br.
 uy.			172800	IN	NS	uy.cctld.authdns.ripe.net.
+uy.			172800	IN	NS	ns1.anteldata.com.uy.
+uy.			172800	IN	NS	ns2.anteldata.com.uy.
 uy.			172800	IN	NS	ns3.nic.mx.
-uy.			172800	IN	NS	seciu.edu.uy.
-uy.			172800	IN	NS	ultra.seciu.uy.
 uy.			172800	IN	NS	sns-pb.isc.org.
-uy.			86400	IN	NSEC	uz. NS RRSIG NSEC
-seciu.edu.uy.		172800	IN	A	164.73.128.5
-seciu.edu.uy.		172800	IN	AAAA	2001:1328:6::5
-ultra.seciu.uy.		172800	IN	A	164.73.128.70
+uy.			86400	IN	NSEC	uz. NS DS RRSIG NSEC
+ns1.anteldata.com.uy.	172800	IN	A	200.40.30.254
+ns1.anteldata.com.uy.	172800	IN	AAAA	2800:a0:53:1001::1
+ns2.anteldata.com.uy.	172800	IN	A	200.40.220.254
+ns2.anteldata.com.uy.	172800	IN	AAAA	2800:a0:53:1002::1
+a.nic.uy.		172800	IN	A	164.73.128.5
+a.nic.uy.		172800	IN	AAAA	2001:1328:6::5
+b.nic.uy.		172800	IN	A	164.73.128.70
 uz.			172800	IN	NS	ns.uz.
 uz.			172800	IN	NS	ns2.uz.
 uz.			172800	IN	NS	ns3.uz.
