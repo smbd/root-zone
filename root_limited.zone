@@ -9658,7 +9658,17 @@ xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
 xn--d1alf.		172800	IN	NS	ns2.arnes.si.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
-xn--d1alf.		86400	IN	NSEC	xn--estv75g. NS RRSIG NSEC
+xn--d1alf.		86400	IN	NSEC	xn--efvy88h. NS RRSIG NSEC
+xn--efvy88h.		172800	IN	NS	a.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	b.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	c.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	d.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	e.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	f.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	g.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	i.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	j.zdnscloud.com.
+xn--efvy88h.		86400	IN	NSEC	xn--estv75g. NS DS RRSIG NSEC
 xn--estv75g.		172800	IN	NS	a0.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	a2.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	b0.nic.xn--estv75g.
