@@ -621,17 +621,21 @@ b.ns.nic.bayern.	172800	IN	AAAA	2620:171:d02:dc::13
 bb.			172800	IN	NS	ns1.barbadosdomain.net.
 bb.			172800	IN	NS	ns2.barbadosdomain.net.
 bb.			86400	IN	NSEC	bbc. NS RRSIG NSEC
-bbc.			172800	IN	NS	ns1.nic.uk.
-bbc.			172800	IN	NS	ns2.nic.uk.
-bbc.			172800	IN	NS	ns4.nic.uk.
-bbc.			172800	IN	NS	ns6.nic.uk.
-bbc.			172800	IN	NS	ns7.nic.uk.
+bbc.			172800	IN	NS	dns1.nic.bbc.
+bbc.			172800	IN	NS	dns2.nic.bbc.
+bbc.			172800	IN	NS	dns3.nic.bbc.
 bbc.			172800	IN	NS	dns4.nic.bbc.
 bbc.			172800	IN	NS	dnsa.nic.bbc.
 bbc.			172800	IN	NS	dnsb.nic.bbc.
 bbc.			172800	IN	NS	dnsc.nic.bbc.
 bbc.			172800	IN	NS	dnsd.nic.bbc.
 bbc.			86400	IN	NSEC	bbva. NS DS RRSIG NSEC
+dns1.nic.bbc.		172800	IN	A	213.248.217.4
+dns1.nic.bbc.		172800	IN	AAAA	2a01:618:401::4
+dns2.nic.bbc.		172800	IN	A	103.49.81.4
+dns2.nic.bbc.		172800	IN	AAAA	2401:fd80:401::4
+dns3.nic.bbc.		172800	IN	A	213.248.221.4
+dns3.nic.bbc.		172800	IN	AAAA	2a01:618:405::4
 dns4.nic.bbc.		172800	IN	A	43.230.49.4
 dns4.nic.bbc.		172800	IN	AAAA	2401:fd80:405::4
 dnsa.nic.bbc.		172800	IN	A	156.154.100.3
