@@ -89,7 +89,20 @@ accountants.		172800	IN	NS	demand.beta.aridns.net.au.
 accountants.		172800	IN	NS	demand.alpha.aridns.net.au.
 accountants.		172800	IN	NS	demand.delta.aridns.net.au.
 accountants.		172800	IN	NS	demand.gamma.aridns.net.au.
-accountants.		86400	IN	NSEC	active. NS DS RRSIG NSEC
+accountants.		86400	IN	NSEC	aco. NS DS RRSIG NSEC
+aco.			172800	IN	NS	a0.nic.aco.
+aco.			172800	IN	NS	a2.nic.aco.
+aco.			172800	IN	NS	b0.nic.aco.
+aco.			172800	IN	NS	c0.nic.aco.
+aco.			86400	IN	NSEC	active. NS DS RRSIG NSEC
+a0.nic.aco.		172800	IN	A	65.22.144.17
+a0.nic.aco.		172800	IN	AAAA	2a01:8840:8e::17
+a2.nic.aco.		172800	IN	A	65.22.147.17
+a2.nic.aco.		172800	IN	AAAA	2a01:8840:91::17
+b0.nic.aco.		172800	IN	A	65.22.145.17
+b0.nic.aco.		172800	IN	AAAA	2a01:8840:8f::17
+c0.nic.aco.		172800	IN	A	65.22.146.17
+c0.nic.aco.		172800	IN	AAAA	2a01:8840:90::17
 active.			172800	IN	NS	a0.nic.active.
 active.			172800	IN	NS	a2.nic.active.
 active.			172800	IN	NS	b0.nic.active.
@@ -7423,6 +7436,7 @@ rs.			172800	IN	NS	k.nic.rs.
 rs.			172800	IN	NS	l.nic.rs.
 rs.			86400	IN	NSEC	rsvp. NS RRSIG NSEC
 a.nic.rs.		172800	IN	A	91.199.17.59
+a.nic.rs.		172800	IN	AAAA	2001:67c:69c::59
 b.nic.rs.		172800	IN	A	195.178.32.2
 d.nic.rs.		172800	IN	A	193.0.9.107
 d.nic.rs.		172800	IN	AAAA	2001:67c:e0::107
@@ -7430,6 +7444,7 @@ f.nic.rs.		172800	IN	A	204.61.216.32
 f.nic.rs.		172800	IN	AAAA	2001:500:14:6032:ad::1
 g.nic.rs.		172800	IN	A	147.91.8.6
 h.nic.rs.		172800	IN	A	91.199.17.60
+h.nic.rs.		172800	IN	AAAA	2001:67c:69c::60
 k.nic.rs.		172800	IN	A	192.5.4.1
 k.nic.rs.		172800	IN	AAAA	2001:500:2e::1
 l.nic.rs.		172800	IN	A	194.146.106.114
