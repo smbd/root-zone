@@ -12,9 +12,28 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
-.			86400	IN	NSEC	abb. NS SOA RRSIG NSEC DNSKEY
+.			86400	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAa67bQck1JjopOOFc+iMISFcp/osWrEst2wbKbuQSUWu77QC9UHL ipiHgWN7JlqVAEjKITZz49hhkLmOpmLK55pTq+RD2kwoyNWk9cvpc+tS nIxT7i93O+3oVeLYjMWrkDAz7K45rObbHDuSBwYZKrcSIUCZnCpNMUtn PFl/04cb
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
+aaa.			172800	IN	NS	ns1.dns.nic.aaa.
+aaa.			172800	IN	NS	ns2.dns.nic.aaa.
+aaa.			172800	IN	NS	ns3.dns.nic.aaa.
+aaa.			172800	IN	NS	ns4.dns.nic.aaa.
+aaa.			172800	IN	NS	ns5.dns.nic.aaa.
+aaa.			172800	IN	NS	ns6.dns.nic.aaa.
+aaa.			86400	IN	NSEC	abb. NS DS RRSIG NSEC
+ns1.dns.nic.aaa.	172800	IN	A	156.154.144.2
+ns1.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1071::2
+ns2.dns.nic.aaa.	172800	IN	A	156.154.145.2
+ns2.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1072::2
+ns3.dns.nic.aaa.	172800	IN	A	156.154.159.2
+ns3.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1073::2
+ns4.dns.nic.aaa.	172800	IN	A	156.154.156.2
+ns4.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1074::2
+ns5.dns.nic.aaa.	172800	IN	A	156.154.157.2
+ns5.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1075::2
+ns6.dns.nic.aaa.	172800	IN	A	156.154.158.2
+ns6.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1076::2
 abb.			172800	IN	NS	a5.nstld.com.
 abb.			172800	IN	NS	c5.nstld.com.
 abb.			172800	IN	NS	d5.nstld.com.
@@ -3195,8 +3214,21 @@ ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
 ge.			172800	IN	NS	ns.nic.ge.
 ge.			172800	IN	NS	ns2.nic.fr.
-ge.			86400	IN	NSEC	gent. NS RRSIG NSEC
+ge.			86400	IN	NSEC	gea. NS RRSIG NSEC
 ns.nic.ge.		172800	IN	A	212.72.130.11
+gea.			172800	IN	NS	a0.nic.gea.
+gea.			172800	IN	NS	a2.nic.gea.
+gea.			172800	IN	NS	b0.nic.gea.
+gea.			172800	IN	NS	c0.nic.gea.
+gea.			86400	IN	NSEC	gent. NS DS RRSIG NSEC
+a0.nic.gea.		172800	IN	A	65.22.232.1
+a0.nic.gea.		172800	IN	AAAA	2a01:8840:e2::1
+a2.nic.gea.		172800	IN	A	65.22.235.1
+a2.nic.gea.		172800	IN	AAAA	2a01:8840:e5::1
+b0.nic.gea.		172800	IN	A	65.22.233.1
+b0.nic.gea.		172800	IN	AAAA	2a01:8840:e3::1
+c0.nic.gea.		172800	IN	A	65.22.234.1
+c0.nic.gea.		172800	IN	AAAA	2a01:8840:e4::1
 gent.			172800	IN	NS	a.ns.nic.gent.
 gent.			172800	IN	NS	c.ns.nic.gent.
 gent.			172800	IN	NS	x.ns.nic.gent.
@@ -8114,7 +8146,20 @@ statoil.		172800	IN	NS	f5.nstld.com.
 statoil.		172800	IN	NS	g5.nstld.com.
 statoil.		172800	IN	NS	h5.nstld.com.
 statoil.		172800	IN	NS	l5.nstld.com.
-statoil.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+statoil.		86400	IN	NSEC	stcgroup. NS DS RRSIG NSEC
+stcgroup.		172800	IN	NS	a.nic.stcgroup.
+stcgroup.		172800	IN	NS	b.nic.stcgroup.
+stcgroup.		172800	IN	NS	c.nic.stcgroup.
+stcgroup.		172800	IN	NS	d.nic.stcgroup.
+stcgroup.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+a.nic.stcgroup.		172800	IN	A	194.169.218.46
+a.nic.stcgroup.		172800	IN	AAAA	2001:67c:13cc::1:46
+b.nic.stcgroup.		172800	IN	A	185.24.64.46
+b.nic.stcgroup.		172800	IN	AAAA	2a04:2b00:13cc::1:46
+c.nic.stcgroup.		172800	IN	A	194.0.2.2
+c.nic.stcgroup.		172800	IN	AAAA	2001:678:5::2
+d.nic.stcgroup.		172800	IN	A	194.0.1.45
+d.nic.stcgroup.		172800	IN	AAAA	2001:678:4::2d
 studio.			172800	IN	NS	demand.beta.aridns.net.au.
 studio.			172800	IN	NS	demand.alpha.aridns.net.au.
 studio.			172800	IN	NS	demand.delta.aridns.net.au.
