@@ -9064,7 +9064,7 @@ vistaprint.		172800	IN	NS	a.nic.vistaprint.
 vistaprint.		172800	IN	NS	b.nic.vistaprint.
 vistaprint.		172800	IN	NS	c.nic.vistaprint.
 vistaprint.		172800	IN	NS	d.nic.vistaprint.
-vistaprint.		86400	IN	NSEC	vlaanderen. NS DS RRSIG NSEC
+vistaprint.		86400	IN	NSEC	viva. NS DS RRSIG NSEC
 a.nic.vistaprint.	172800	IN	A	37.209.192.9
 a.nic.vistaprint.	172800	IN	AAAA	2001:dcd:1::9
 b.nic.vistaprint.	172800	IN	A	37.209.194.9
@@ -9073,6 +9073,19 @@ c.nic.vistaprint.	172800	IN	A	37.209.196.9
 c.nic.vistaprint.	172800	IN	AAAA	2001:dcd:3::9
 d.nic.vistaprint.	172800	IN	A	37.209.198.9
 d.nic.vistaprint.	172800	IN	AAAA	2001:dcd:4::9
+viva.			172800	IN	NS	a.nic.viva.
+viva.			172800	IN	NS	b.nic.viva.
+viva.			172800	IN	NS	c.nic.viva.
+viva.			172800	IN	NS	d.nic.viva.
+viva.			86400	IN	NSEC	vlaanderen. NS DS RRSIG NSEC
+a.nic.viva.		172800	IN	A	194.169.218.28
+a.nic.viva.		172800	IN	AAAA	2001:67c:13cc::1:28
+b.nic.viva.		172800	IN	A	185.24.64.28
+b.nic.viva.		172800	IN	AAAA	2a04:2b00:13cc::1:28
+c.nic.viva.		172800	IN	A	194.0.2.2
+c.nic.viva.		172800	IN	AAAA	2001:678:5::2
+d.nic.viva.		172800	IN	A	194.0.1.45
+d.nic.viva.		172800	IN	AAAA	2001:678:4::2d
 vlaanderen.		172800	IN	NS	a.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	b.nic.vlaanderen.
 vlaanderen.		172800	IN	NS	c.ns.dns.be.
