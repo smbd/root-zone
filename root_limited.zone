@@ -299,7 +299,26 @@ am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pch.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
-am.			86400	IN	NSEC	amsterdam. NS DS RRSIG NSEC
+am.			86400	IN	NSEC	amica. NS DS RRSIG NSEC
+amica.			172800	IN	NS	ns1.dns.nic.amica.
+amica.			172800	IN	NS	ns2.dns.nic.amica.
+amica.			172800	IN	NS	ns3.dns.nic.amica.
+amica.			172800	IN	NS	ns4.dns.nic.amica.
+amica.			172800	IN	NS	ns5.dns.nic.amica.
+amica.			172800	IN	NS	ns6.dns.nic.amica.
+amica.			86400	IN	NSEC	amsterdam. NS DS RRSIG NSEC
+ns1.dns.nic.amica.	172800	IN	A	156.154.144.11
+ns1.dns.nic.amica.	172800	IN	AAAA	2610:a1:1071::b
+ns2.dns.nic.amica.	172800	IN	A	156.154.145.11
+ns2.dns.nic.amica.	172800	IN	AAAA	2610:a1:1072::b
+ns3.dns.nic.amica.	172800	IN	A	156.154.159.11
+ns3.dns.nic.amica.	172800	IN	AAAA	2610:a1:1073::b
+ns4.dns.nic.amica.	172800	IN	A	156.154.156.11
+ns4.dns.nic.amica.	172800	IN	AAAA	2610:a1:1074::b
+ns5.dns.nic.amica.	172800	IN	A	156.154.157.11
+ns5.dns.nic.amica.	172800	IN	AAAA	2610:a1:1075::b
+ns6.dns.nic.amica.	172800	IN	A	156.154.158.11
+ns6.dns.nic.amica.	172800	IN	AAAA	2610:a1:1076::b
 amsterdam.		172800	IN	NS	ns1.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns2.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns3.nic.amsterdam.
@@ -8146,7 +8165,20 @@ statoil.		172800	IN	NS	f5.nstld.com.
 statoil.		172800	IN	NS	g5.nstld.com.
 statoil.		172800	IN	NS	h5.nstld.com.
 statoil.		172800	IN	NS	l5.nstld.com.
-statoil.		86400	IN	NSEC	stcgroup. NS DS RRSIG NSEC
+statoil.		86400	IN	NSEC	stc. NS DS RRSIG NSEC
+stc.			172800	IN	NS	a.nic.stc.
+stc.			172800	IN	NS	b.nic.stc.
+stc.			172800	IN	NS	c.nic.stc.
+stc.			172800	IN	NS	d.nic.stc.
+stc.			86400	IN	NSEC	stcgroup. NS DS RRSIG NSEC
+a.nic.stc.		172800	IN	A	194.169.218.29
+a.nic.stc.		172800	IN	AAAA	2001:67c:13cc::1:29
+b.nic.stc.		172800	IN	A	185.24.64.29
+b.nic.stc.		172800	IN	AAAA	2a04:2b00:13cc::1:29
+c.nic.stc.		172800	IN	A	194.0.2.2
+c.nic.stc.		172800	IN	AAAA	2001:678:5::2
+d.nic.stc.		172800	IN	A	194.0.1.45
+d.nic.stc.		172800	IN	AAAA	2001:678:4::2d
 stcgroup.		172800	IN	NS	a.nic.stcgroup.
 stcgroup.		172800	IN	NS	b.nic.stcgroup.
 stcgroup.		172800	IN	NS	c.nic.stcgroup.
