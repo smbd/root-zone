@@ -405,13 +405,9 @@ arpa.			172800	IN	NS	k.root-servers.net.
 arpa.			172800	IN	NS	l.root-servers.net.
 arpa.			172800	IN	NS	m.root-servers.net.
 arpa.			86400	IN	NSEC	as. NS DS RRSIG NSEC
+as.			172800	IN	NS	c.ci-servers.net.
 as.			172800	IN	NS	tld.gdns.net.
-as.			172800	IN	NS	tld1.ultradns.net.
-as.			172800	IN	NS	tld2.ultradns.net.
-as.			172800	IN	NS	tld3.ultradns.org.
-as.			172800	IN	NS	tld4.ultradns.org.
-as.			172800	IN	NS	tld5.ultradns.info.
-as.			172800	IN	NS	tld6.ultradns.co.uk.
+as.			172800	IN	NS	ns99.dns.net.nz.
 as.			86400	IN	NSEC	asia. NS RRSIG NSEC
 asia.			172800	IN	NS	a0.asia.afilias-nst.info.
 asia.			172800	IN	NS	a2.asia.afilias-nst.info.
@@ -5764,6 +5760,8 @@ ns36.cdns.net.		172800	IN	AAAA	2001:678:4::24
 ns7.cdns.net.		172800	IN	A	194.0.1.7
 ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns.cernet.net.		172800	IN	A	202.112.0.44
+c.ci-servers.net.	172800	IN	A	194.146.106.86
+c.ci-servers.net.	172800	IN	AAAA	2001:67c:1010:22::53
 tld1.coccaregistry.net.	172800	IN	A	72.0.49.2
 tld1.coccaregistry.net.	172800	IN	AAAA	2620:171:a01:ad::2
 lk.communitydns.net.	172800	IN	A	194.0.1.27
