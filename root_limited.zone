@@ -2132,7 +2132,15 @@ cruises.		172800	IN	NS	demand.beta.aridns.net.au.
 cruises.		172800	IN	NS	demand.alpha.aridns.net.au.
 cruises.		172800	IN	NS	demand.delta.aridns.net.au.
 cruises.		172800	IN	NS	demand.gamma.aridns.net.au.
-cruises.		86400	IN	NSEC	cu. NS DS RRSIG NSEC
+cruises.		86400	IN	NSEC	csc. NS DS RRSIG NSEC
+csc.			172800	IN	NS	a5.nstld.com.
+csc.			172800	IN	NS	c5.nstld.com.
+csc.			172800	IN	NS	d5.nstld.com.
+csc.			172800	IN	NS	f5.nstld.com.
+csc.			172800	IN	NS	g5.nstld.com.
+csc.			172800	IN	NS	h5.nstld.com.
+csc.			172800	IN	NS	l5.nstld.com.
+csc.			86400	IN	NSEC	cu. NS DS RRSIG NSEC
 cu.			172800	IN	NS	cu.cctld.authdns.ripe.net.
 cu.			172800	IN	NS	ns.dns.br.
 cu.			172800	IN	NS	ns.ceniai.net.cu.
@@ -4404,7 +4412,7 @@ jobs.			172800	IN	NS	f5.nstld.com.
 jobs.			172800	IN	NS	g5.nstld.com.
 jobs.			172800	IN	NS	h5.nstld.com.
 jobs.			172800	IN	NS	l5.nstld.com.
-jobs.			86400	IN	NSEC	joburg. NS RRSIG NSEC
+jobs.			86400	IN	NSEC	joburg. NS DS RRSIG NSEC
 joburg.			172800	IN	NS	ns.coza.net.za.
 joburg.			172800	IN	NS	ns1.coza.net.za.
 joburg.			172800	IN	NS	coza1.dnsnode.net.
@@ -8856,13 +8864,11 @@ ug.			86400	IN	NSEC	uk. NS DS RRSIG NSEC
 anycast.eahd.or.ug.	172800	IN	A	204.61.216.60
 anycast.eahd.or.ug.	172800	IN	AAAA	2001:500:14:6060:ad::1
 root.eahd.or.ug.	172800	IN	A	212.88.97.132
-uk.			172800	IN	NS	ns1.nic.uk.
-uk.			172800	IN	NS	ns2.nic.uk.
-uk.			172800	IN	NS	ns4.nic.uk.
 uk.			172800	IN	NS	nsa.nic.uk.
 uk.			172800	IN	NS	nsb.nic.uk.
 uk.			172800	IN	NS	nsc.nic.uk.
 uk.			172800	IN	NS	nsd.nic.uk.
+uk.			172800	IN	NS	dns1.nic.uk.
 uk.			172800	IN	NS	dns2.nic.uk.
 uk.			172800	IN	NS	dns3.nic.uk.
 uk.			172800	IN	NS	dns4.nic.uk.
@@ -8871,6 +8877,8 @@ ns1.cs.ucl.ac.uk.	172800	IN	A	128.16.5.32
 barney.advsys.co.uk.	172800	IN	A	217.23.160.50
 ns3.icb.co.uk.		172800	IN	A	91.208.95.130
 tld6.ultradns.co.uk.	172800	IN	A	198.133.199.11
+dns1.nic.uk.		172800	IN	A	213.248.216.1
+dns1.nic.uk.		172800	IN	AAAA	2a01:618:400::1
 dns2.nic.uk.		172800	IN	A	103.49.80.1
 dns2.nic.uk.		172800	IN	AAAA	2401:fd80:400::1
 dns3.nic.uk.		172800	IN	A	213.248.220.1
