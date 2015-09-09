@@ -375,9 +375,7 @@ ar.			172800	IN	NS	a.dns.ar.
 ar.			172800	IN	NS	c.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
-ar.			172800	IN	NS	ctina.ar.
 ar.			86400	IN	NSEC	archi. NS DS RRSIG NSEC
-ctina.ar.		172800	IN	A	200.16.97.17
 a.dns.ar.		172800	IN	A	200.108.145.50
 a.dns.ar.		172800	IN	AAAA	2801:140::10
 c.dns.ar.		172800	IN	A	200.108.148.50
@@ -507,13 +505,15 @@ auction.		172800	IN	NS	demand.alpha.aridns.net.au.
 auction.		172800	IN	NS	demand.delta.aridns.net.au.
 auction.		172800	IN	NS	demand.gamma.aridns.net.au.
 auction.		86400	IN	NSEC	audio. NS DS RRSIG NSEC
-audio.			172800	IN	NS	a.ns.uniregistry.net.
-audio.			172800	IN	NS	tld.isc-sns.net.
-audio.			172800	IN	NS	tld.isc-sns.info.
+audio.			172800	IN	NS	a.audio.dyntld.net.
+audio.			172800	IN	NS	b.audio.dyntld.net.
+audio.			172800	IN	NS	c.audio.dyntld.net.
+audio.			172800	IN	NS	ns1.uniregistry.net.
 audio.			86400	IN	NSEC	auto. NS DS RRSIG NSEC
-auto.			172800	IN	NS	a.ns.uniregistry.net.
-auto.			172800	IN	NS	tld.isc-sns.net.
-auto.			172800	IN	NS	tld.isc-sns.info.
+auto.			172800	IN	NS	a.auto.dyntld.net.
+auto.			172800	IN	NS	b.auto.dyntld.net.
+auto.			172800	IN	NS	c.auto.dyntld.net.
+auto.			172800	IN	NS	ns1.uniregistry.net.
 auto.			86400	IN	NSEC	autos. NS DS RRSIG NSEC
 autos.			172800	IN	NS	a0.nic.autos.
 autos.			172800	IN	NS	a2.nic.autos.
@@ -941,9 +941,10 @@ b0.nic.black.		172800	IN	A	65.22.69.33
 b0.nic.black.		172800	IN	AAAA	2a01:8840:43::33
 c0.nic.black.		172800	IN	A	65.22.70.33
 c0.nic.black.		172800	IN	AAAA	2a01:8840:44::33
-blackfriday.		172800	IN	NS	a.ns.uniregistry.net.
-blackfriday.		172800	IN	NS	tld.isc-sns.net.
-blackfriday.		172800	IN	NS	tld.isc-sns.info.
+blackfriday.		172800	IN	NS	a.blackfriday.dyntld.net.
+blackfriday.		172800	IN	NS	b.blackfriday.dyntld.net.
+blackfriday.		172800	IN	NS	c.blackfriday.dyntld.net.
+blackfriday.		172800	IN	NS	ns1.uniregistry.net.
 blackfriday.		86400	IN	NSEC	bloomberg. NS DS RRSIG NSEC
 bloomberg.		172800	IN	NS	a5.nstld.com.
 bloomberg.		172800	IN	NS	c5.nstld.com.
@@ -1328,7 +1329,12 @@ capital.		172800	IN	NS	demand.beta.aridns.net.au.
 capital.		172800	IN	NS	demand.alpha.aridns.net.au.
 capital.		172800	IN	NS	demand.delta.aridns.net.au.
 capital.		172800	IN	NS	demand.gamma.aridns.net.au.
-capital.		86400	IN	NSEC	caravan. NS DS RRSIG NSEC
+capital.		86400	IN	NSEC	car. NS DS RRSIG NSEC
+car.			172800	IN	NS	a.car.dyntld.net.
+car.			172800	IN	NS	b.car.dyntld.net.
+car.			172800	IN	NS	c.car.dyntld.net.
+car.			172800	IN	NS	ns1.uniregistry.net.
+car.			86400	IN	NSEC	caravan. NS DS RRSIG NSEC
 caravan.		172800	IN	NS	ns1.dns.nic.caravan.
 caravan.		172800	IN	NS	ns2.dns.nic.caravan.
 caravan.		172800	IN	NS	ns3.dns.nic.caravan.
@@ -1371,9 +1377,10 @@ careers.		172800	IN	NS	demand.alpha.aridns.net.au.
 careers.		172800	IN	NS	demand.delta.aridns.net.au.
 careers.		172800	IN	NS	demand.gamma.aridns.net.au.
 careers.		86400	IN	NSEC	cars. NS DS RRSIG NSEC
-cars.			172800	IN	NS	a.ns.uniregistry.net.
-cars.			172800	IN	NS	tld.isc-sns.net.
-cars.			172800	IN	NS	tld.isc-sns.info.
+cars.			172800	IN	NS	a.cars.dyntld.net.
+cars.			172800	IN	NS	b.cars.dyntld.net.
+cars.			172800	IN	NS	c.cars.dyntld.net.
+cars.			172800	IN	NS	ns1.uniregistry.net.
 cars.			86400	IN	NSEC	cartier. NS DS RRSIG NSEC
 cartier.		172800	IN	NS	ns1.dns.nic.cartier.
 cartier.		172800	IN	NS	ns2.dns.nic.cartier.
@@ -1626,9 +1633,10 @@ ns5.dns.nic.chloe.	172800	IN	A	156.154.157.41
 ns5.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1075::29
 ns6.dns.nic.chloe.	172800	IN	A	156.154.158.41
 ns6.dns.nic.chloe.	172800	IN	AAAA	2610:a1:1076::29
-christmas.		172800	IN	NS	a.ns.uniregistry.net.
-christmas.		172800	IN	NS	tld.isc-sns.net.
-christmas.		172800	IN	NS	tld.isc-sns.info.
+christmas.		172800	IN	NS	a.christmas.dyntld.net.
+christmas.		172800	IN	NS	b.christmas.dyntld.net.
+christmas.		172800	IN	NS	c.christmas.dyntld.net.
+christmas.		172800	IN	NS	ns1.uniregistry.net.
 christmas.		86400	IN	NSEC	chrome. NS DS RRSIG NSEC
 chrome.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 chrome.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -1714,9 +1722,10 @@ cleaning.		172800	IN	NS	demand.alpha.aridns.net.au.
 cleaning.		172800	IN	NS	demand.delta.aridns.net.au.
 cleaning.		172800	IN	NS	demand.gamma.aridns.net.au.
 cleaning.		86400	IN	NSEC	click. NS DS RRSIG NSEC
-click.			172800	IN	NS	a.ns.uniregistry.net.
-click.			172800	IN	NS	tld.isc-sns.net.
-click.			172800	IN	NS	tld.isc-sns.info.
+click.			172800	IN	NS	a.click.dyntld.net.
+click.			172800	IN	NS	b.click.dyntld.net.
+click.			172800	IN	NS	c.click.dyntld.net.
+click.			172800	IN	NS	ns1.uniregistry.net.
 click.			86400	IN	NSEC	clinic. NS DS RRSIG NSEC
 clinic.			172800	IN	NS	demand.beta.aridns.net.au.
 clinic.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2410,9 +2419,10 @@ diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
 diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.gamma.aridns.net.au.
 diamonds.		86400	IN	NSEC	diet. NS DS RRSIG NSEC
-diet.			172800	IN	NS	a.ns.uniregistry.net.
-diet.			172800	IN	NS	tld.isc-sns.net.
-diet.			172800	IN	NS	tld.isc-sns.info.
+diet.			172800	IN	NS	a.diet.dyntld.net.
+diet.			172800	IN	NS	b.diet.dyntld.net.
+diet.			172800	IN	NS	c.diet.dyntld.net.
+diet.			172800	IN	NS	ns1.uniregistry.net.
 diet.			86400	IN	NSEC	digital. NS DS RRSIG NSEC
 digital.		172800	IN	NS	demand.beta.aridns.net.au.
 digital.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3026,9 +3036,10 @@ florist.		172800	IN	NS	demand.alpha.aridns.net.au.
 florist.		172800	IN	NS	demand.delta.aridns.net.au.
 florist.		172800	IN	NS	demand.gamma.aridns.net.au.
 florist.		86400	IN	NSEC	flowers. NS DS RRSIG NSEC
-flowers.		172800	IN	NS	a.ns.uniregistry.net.
-flowers.		172800	IN	NS	tld.isc-sns.net.
-flowers.		172800	IN	NS	tld.isc-sns.info.
+flowers.		172800	IN	NS	a.flowers.dyntld.net.
+flowers.		172800	IN	NS	b.flowers.dyntld.net.
+flowers.		172800	IN	NS	c.flowers.dyntld.net.
+flowers.		172800	IN	NS	ns1.uniregistry.net.
 flowers.		86400	IN	NSEC	flsmidth. NS DS RRSIG NSEC
 flsmidth.		172800	IN	NS	ns1a.ksregistry.net.
 flsmidth.		172800	IN	NS	ns1b.ksregistry.net.
@@ -3195,9 +3206,10 @@ gallery.		172800	IN	NS	demand.alpha.aridns.net.au.
 gallery.		172800	IN	NS	demand.delta.aridns.net.au.
 gallery.		172800	IN	NS	demand.gamma.aridns.net.au.
 gallery.		86400	IN	NSEC	game. NS DS RRSIG NSEC
-game.			172800	IN	NS	a.ns.uniregistry.net.
-game.			172800	IN	NS	tld.isc-sns.net.
-game.			172800	IN	NS	tld.isc-sns.info.
+game.			172800	IN	NS	a.game.dyntld.net.
+game.			172800	IN	NS	b.game.dyntld.net.
+game.			172800	IN	NS	c.game.dyntld.net.
+game.			172800	IN	NS	ns1.uniregistry.net.
 game.			86400	IN	NSEC	garden. NS DS RRSIG NSEC
 garden.			172800	IN	NS	a.ns.nic.garden.
 garden.			172800	IN	NS	b.ns.nic.garden.
@@ -3304,9 +3316,10 @@ gi.			172800	IN	NS	b2.cctld.afilias-nst.org.
 gi.			172800	IN	NS	c0.cctld.afilias-nst.info.
 gi.			172800	IN	NS	d0.cctld.afilias-nst.org.
 gi.			86400	IN	NSEC	gift. NS DS RRSIG NSEC
-gift.			172800	IN	NS	a.ns.uniregistry.net.
-gift.			172800	IN	NS	tld.isc-sns.net.
-gift.			172800	IN	NS	tld.isc-sns.info.
+gift.			172800	IN	NS	a.gift.dyntld.net.
+gift.			172800	IN	NS	b.gift.dyntld.net.
+gift.			172800	IN	NS	c.gift.dyntld.net.
+gift.			172800	IN	NS	ns1.uniregistry.net.
 gift.			86400	IN	NSEC	gifts. NS DS RRSIG NSEC
 gifts.			172800	IN	NS	demand.beta.aridns.net.au.
 gifts.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3561,9 +3574,10 @@ guide.			172800	IN	NS	demand.alpha.aridns.net.au.
 guide.			172800	IN	NS	demand.delta.aridns.net.au.
 guide.			172800	IN	NS	demand.gamma.aridns.net.au.
 guide.			86400	IN	NSEC	guitars. NS DS RRSIG NSEC
-guitars.		172800	IN	NS	a.ns.uniregistry.net.
-guitars.		172800	IN	NS	tld.isc-sns.net.
-guitars.		172800	IN	NS	tld.isc-sns.info.
+guitars.		172800	IN	NS	a.guitars.dyntld.net.
+guitars.		172800	IN	NS	b.guitars.dyntld.net.
+guitars.		172800	IN	NS	c.guitars.dyntld.net.
+guitars.		172800	IN	NS	ns1.uniregistry.net.
 guitars.		86400	IN	NSEC	guru. NS DS RRSIG NSEC
 guru.			172800	IN	NS	demand.beta.aridns.net.au.
 guru.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3609,9 +3623,10 @@ healthcare.		172800	IN	NS	demand.alpha.aridns.net.au.
 healthcare.		172800	IN	NS	demand.delta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.gamma.aridns.net.au.
 healthcare.		86400	IN	NSEC	help. NS DS RRSIG NSEC
-help.			172800	IN	NS	a.ns.uniregistry.net.
-help.			172800	IN	NS	tld.isc-sns.net.
-help.			172800	IN	NS	tld.isc-sns.info.
+help.			172800	IN	NS	a.help.dyntld.net.
+help.			172800	IN	NS	b.help.dyntld.net.
+help.			172800	IN	NS	c.help.dyntld.net.
+help.			172800	IN	NS	ns1.uniregistry.net.
 help.			86400	IN	NSEC	here. NS DS RRSIG NSEC
 here.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -3632,9 +3647,10 @@ b0.nic.hermes.		172800	IN	A	65.22.233.25
 b0.nic.hermes.		172800	IN	AAAA	2a01:8840:e3::25
 c0.nic.hermes.		172800	IN	A	65.22.234.25
 c0.nic.hermes.		172800	IN	AAAA	2a01:8840:e4::25
-hiphop.			172800	IN	NS	a.ns.uniregistry.net.
-hiphop.			172800	IN	NS	tld.isc-sns.net.
-hiphop.			172800	IN	NS	tld.isc-sns.info.
+hiphop.			172800	IN	NS	a.hiphop.dyntld.net.
+hiphop.			172800	IN	NS	b.hiphop.dyntld.net.
+hiphop.			172800	IN	NS	c.hiphop.dyntld.net.
+hiphop.			172800	IN	NS	ns1.uniregistry.net.
 hiphop.			86400	IN	NSEC	hitachi. NS DS RRSIG NSEC
 hitachi.		172800	IN	NS	d.gmoregistry.net.
 hitachi.		172800	IN	NS	e.gmoregistry.net.
@@ -3771,9 +3787,10 @@ c.nic.host.		172800	IN	A	185.38.99.2
 c.nic.host.		172800	IN	AAAA	2a02:e180:3::2
 d.nic.host.		172800	IN	A	108.59.161.2
 d.nic.host.		172800	IN	AAAA	2a02:e180:4::2
-hosting.		172800	IN	NS	a.ns.uniregistry.net.
-hosting.		172800	IN	NS	tld.isc-sns.net.
-hosting.		172800	IN	NS	tld.isc-sns.info.
+hosting.		172800	IN	NS	a.hosting.dyntld.net.
+hosting.		172800	IN	NS	b.hosting.dyntld.net.
+hosting.		172800	IN	NS	c.hosting.dyntld.net.
+hosting.		172800	IN	NS	ns1.uniregistry.net.
 hosting.		86400	IN	NSEC	hoteles. NS DS RRSIG NSEC
 hoteles.		172800	IN	NS	ns1.dns.nic.hoteles.
 hoteles.		172800	IN	NS	ns2.dns.nic.hoteles.
@@ -4096,8 +4113,6 @@ a2.xxx.afilias-nst.info. 172800	IN	A	199.115.156.1
 a2.xxx.afilias-nst.info. 172800	IN	AAAA	2001:500:a4::1
 c0.xxx.afilias-nst.info. 172800	IN	A	199.115.154.1
 c0.xxx.afilias-nst.info. 172800	IN	AAAA	2001:500:a2::1
-tld.isc-sns.info.	172800	IN	A	72.52.71.3
-tld.isc-sns.info.	172800	IN	AAAA	2001:470:1a::3
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
 ing.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 ing.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -4448,9 +4463,10 @@ tld2.nic.jprs.		172800	IN	A	117.104.133.16
 tld2.nic.jprs.		172800	IN	AAAA	2001:218:3001::1
 tld3.nic.jprs.		172800	IN	A	65.22.40.1
 tld3.nic.jprs.		172800	IN	AAAA	2a01:8840:1ba::1
-juegos.			172800	IN	NS	a.ns.uniregistry.net.
-juegos.			172800	IN	NS	tld.isc-sns.net.
-juegos.			172800	IN	NS	tld.isc-sns.info.
+juegos.			172800	IN	NS	a.juegos.dyntld.net.
+juegos.			172800	IN	NS	b.juegos.dyntld.net.
+juegos.			172800	IN	NS	c.juegos.dyntld.net.
+juegos.			172800	IN	NS	ns1.uniregistry.net.
 juegos.			86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
 kaufen.			172800	IN	NS	demand.beta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4831,9 +4847,10 @@ limo.			172800	IN	NS	demand.alpha.aridns.net.au.
 limo.			172800	IN	NS	demand.delta.aridns.net.au.
 limo.			172800	IN	NS	demand.gamma.aridns.net.au.
 limo.			86400	IN	NSEC	link. NS DS RRSIG NSEC
-link.			172800	IN	NS	a.ns.uniregistry.net.
-link.			172800	IN	NS	tld.isc-sns.net.
-link.			172800	IN	NS	tld.isc-sns.info.
+link.			172800	IN	NS	a.link.dyntld.net.
+link.			172800	IN	NS	b.link.dyntld.net.
+link.			172800	IN	NS	c.link.dyntld.net.
+link.			172800	IN	NS	ns1.uniregistry.net.
 link.			86400	IN	NSEC	live. NS DS RRSIG NSEC
 live.			172800	IN	NS	demand.beta.aridns.net.au.
 live.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4904,9 +4921,10 @@ loans.			172800	IN	NS	demand.alpha.aridns.net.au.
 loans.			172800	IN	NS	demand.delta.aridns.net.au.
 loans.			172800	IN	NS	demand.gamma.aridns.net.au.
 loans.			86400	IN	NSEC	lol. NS DS RRSIG NSEC
-lol.			172800	IN	NS	a.ns.uniregistry.net.
-lol.			172800	IN	NS	tld.isc-sns.net.
-lol.			172800	IN	NS	tld.isc-sns.info.
+lol.			172800	IN	NS	a.lol.dyntld.net.
+lol.			172800	IN	NS	b.lol.dyntld.net.
+lol.			172800	IN	NS	c.lol.dyntld.net.
+lol.			172800	IN	NS	ns1.uniregistry.net.
 lol.			86400	IN	NSEC	london. NS DS RRSIG NSEC
 london.			172800	IN	NS	a.ns.nic.london.
 london.			172800	IN	NS	b.ns.nic.london.
@@ -5801,10 +5819,76 @@ af1.dyntld.net.		172800	IN	A	208.78.70.94
 af1.dyntld.net.		172800	IN	AAAA	2001:500:90::94
 af3.dyntld.net.		172800	IN	A	208.78.71.94
 af3.dyntld.net.		172800	IN	AAAA	2001:500:94::94
+a.audio.dyntld.net.	172800	IN	A	199.19.1.1
+a.audio.dyntld.net.	172800	IN	AAAA	2a02:e180::1
+b.audio.dyntld.net.	172800	IN	A	199.19.7.1
+b.audio.dyntld.net.	172800	IN	AAAA	2a02:e180:1::1
+c.audio.dyntld.net.	172800	IN	A	185.38.98.1
+c.audio.dyntld.net.	172800	IN	AAAA	2a02:e180:2::1
+a.auto.dyntld.net.	172800	IN	A	199.19.1.20
+a.auto.dyntld.net.	172800	IN	AAAA	2a02:e180::20
+b.auto.dyntld.net.	172800	IN	A	199.19.7.20
+b.auto.dyntld.net.	172800	IN	AAAA	2a02:e180:1::20
+c.auto.dyntld.net.	172800	IN	A	185.38.98.20
+c.auto.dyntld.net.	172800	IN	AAAA	2a02:e180:2::20
+a.blackfriday.dyntld.net. 172800 IN	A	199.19.1.2
+a.blackfriday.dyntld.net. 172800 IN	AAAA	2a02:e180::2
+b.blackfriday.dyntld.net. 172800 IN	A	199.19.7.2
+b.blackfriday.dyntld.net. 172800 IN	AAAA	2a02:e180:1::2
+c.blackfriday.dyntld.net. 172800 IN	A	185.38.98.2
+c.blackfriday.dyntld.net. 172800 IN	AAAA	2a02:e180:2::2
+a.car.dyntld.net.	172800	IN	A	199.19.1.21
+a.car.dyntld.net.	172800	IN	AAAA	2a02:e180::21
+b.car.dyntld.net.	172800	IN	A	199.19.7.21
+b.car.dyntld.net.	172800	IN	AAAA	2a02:e180:1::21
+c.car.dyntld.net.	172800	IN	A	185.38.98.21
+c.car.dyntld.net.	172800	IN	AAAA	2a02:e180:2::21
+a.cars.dyntld.net.	172800	IN	A	199.19.1.22
+a.cars.dyntld.net.	172800	IN	AAAA	2a02:e180::22
+b.cars.dyntld.net.	172800	IN	A	199.19.7.22
+b.cars.dyntld.net.	172800	IN	AAAA	2a02:e180:1::22
+c.cars.dyntld.net.	172800	IN	A	185.38.98.22
+c.cars.dyntld.net.	172800	IN	AAAA	2a02:e180:2::22
+a.christmas.dyntld.net.	172800	IN	A	199.19.1.3
+a.christmas.dyntld.net.	172800	IN	AAAA	2a02:e180::3
+b.christmas.dyntld.net.	172800	IN	A	199.19.7.3
+b.christmas.dyntld.net.	172800	IN	AAAA	2a02:e180:1::3
+c.christmas.dyntld.net.	172800	IN	A	185.38.98.3
+c.christmas.dyntld.net.	172800	IN	AAAA	2a02:e180:2::3
+a.click.dyntld.net.	172800	IN	A	199.19.1.4
+a.click.dyntld.net.	172800	IN	AAAA	2a02:e180::4
+b.click.dyntld.net.	172800	IN	A	199.19.7.4
+b.click.dyntld.net.	172800	IN	AAAA	2a02:e180:1::4
+c.click.dyntld.net.	172800	IN	A	185.38.98.4
+c.click.dyntld.net.	172800	IN	AAAA	2a02:e180:2::4
 a.cx.dyntld.net.	172800	IN	A	199.19.5.3
 a.cx.dyntld.net.	172800	IN	AAAA	2001:500:92::3
 b.cx.dyntld.net.	172800	IN	A	199.19.6.3
 b.cx.dyntld.net.	172800	IN	AAAA	2001:500:96::3
+a.diet.dyntld.net.	172800	IN	A	199.19.1.5
+a.diet.dyntld.net.	172800	IN	AAAA	2a02:e180::5
+b.diet.dyntld.net.	172800	IN	A	199.19.7.5
+b.diet.dyntld.net.	172800	IN	AAAA	2a02:e180:1::5
+c.diet.dyntld.net.	172800	IN	A	185.38.98.5
+c.diet.dyntld.net.	172800	IN	AAAA	2a02:e180:2::5
+a.flowers.dyntld.net.	172800	IN	A	199.19.1.6
+a.flowers.dyntld.net.	172800	IN	AAAA	2a02:e180::6
+b.flowers.dyntld.net.	172800	IN	A	199.19.7.6
+b.flowers.dyntld.net.	172800	IN	AAAA	2a02:e180:1::6
+c.flowers.dyntld.net.	172800	IN	A	185.38.98.6
+c.flowers.dyntld.net.	172800	IN	AAAA	2a02:e180:2::6
+a.game.dyntld.net.	172800	IN	A	199.19.1.25
+a.game.dyntld.net.	172800	IN	AAAA	2a02:e180::25
+b.game.dyntld.net.	172800	IN	A	199.19.7.25
+b.game.dyntld.net.	172800	IN	AAAA	2a02:e180:1::25
+c.game.dyntld.net.	172800	IN	A	185.38.98.25
+c.game.dyntld.net.	172800	IN	AAAA	2a02:e180:2::25
+a.gift.dyntld.net.	172800	IN	A	199.19.1.7
+a.gift.dyntld.net.	172800	IN	AAAA	2a02:e180::7
+b.gift.dyntld.net.	172800	IN	A	199.19.7.7
+b.gift.dyntld.net.	172800	IN	AAAA	2a02:e180:1::7
+c.gift.dyntld.net.	172800	IN	A	185.38.98.7
+c.gift.dyntld.net.	172800	IN	AAAA	2a02:e180:2::7
 gl1.dyntld.net.		172800	IN	A	208.78.70.97
 gl2.dyntld.net.		172800	IN	A	204.13.250.97
 gl3.dyntld.net.		172800	IN	A	208.78.71.97
@@ -5813,6 +5897,36 @@ a.gs.dyntld.net.	172800	IN	A	199.19.5.4
 a.gs.dyntld.net.	172800	IN	AAAA	2001:500:92::4
 b.gs.dyntld.net.	172800	IN	A	199.19.6.4
 b.gs.dyntld.net.	172800	IN	AAAA	2001:500:96::4
+a.guitars.dyntld.net.	172800	IN	A	199.19.1.8
+a.guitars.dyntld.net.	172800	IN	AAAA	2a02:e180::8
+b.guitars.dyntld.net.	172800	IN	A	199.19.7.8
+b.guitars.dyntld.net.	172800	IN	AAAA	2a02:e180:1::8
+c.guitars.dyntld.net.	172800	IN	A	185.38.98.8
+c.guitars.dyntld.net.	172800	IN	AAAA	2a02:e180:2::8
+a.help.dyntld.net.	172800	IN	A	199.19.1.9
+a.help.dyntld.net.	172800	IN	AAAA	2a02:e180::9
+b.help.dyntld.net.	172800	IN	A	199.19.7.9
+b.help.dyntld.net.	172800	IN	AAAA	2a02:e180:1::9
+c.help.dyntld.net.	172800	IN	A	185.38.98.9
+c.help.dyntld.net.	172800	IN	AAAA	2a02:e180:2::9
+a.hiphop.dyntld.net.	172800	IN	A	199.19.1.10
+a.hiphop.dyntld.net.	172800	IN	AAAA	2a02:e180::10
+b.hiphop.dyntld.net.	172800	IN	A	199.19.7.10
+b.hiphop.dyntld.net.	172800	IN	AAAA	2a02:e180:1::10
+c.hiphop.dyntld.net.	172800	IN	A	185.38.98.10
+c.hiphop.dyntld.net.	172800	IN	AAAA	2a02:e180:2::10
+a.hosting.dyntld.net.	172800	IN	A	199.19.1.11
+a.hosting.dyntld.net.	172800	IN	AAAA	2a02:e180::11
+b.hosting.dyntld.net.	172800	IN	A	199.19.7.11
+b.hosting.dyntld.net.	172800	IN	AAAA	2a02:e180:1::11
+c.hosting.dyntld.net.	172800	IN	A	185.38.98.11
+c.hosting.dyntld.net.	172800	IN	AAAA	2a02:e180:2::11
+a.juegos.dyntld.net.	172800	IN	A	199.19.1.12
+a.juegos.dyntld.net.	172800	IN	AAAA	2a02:e180::12
+b.juegos.dyntld.net.	172800	IN	A	199.19.7.12
+b.juegos.dyntld.net.	172800	IN	AAAA	2a02:e180:1::12
+c.juegos.dyntld.net.	172800	IN	A	185.38.98.12
+c.juegos.dyntld.net.	172800	IN	AAAA	2a02:e180:2::12
 ki1.dyntld.net.		172800	IN	A	208.78.70.87
 ki1.dyntld.net.		172800	IN	AAAA	2001:500:90::87
 ki3.dyntld.net.		172800	IN	A	208.78.71.87
@@ -5823,6 +5937,18 @@ b.ky.dyntld.net.	172800	IN	A	199.19.7.19
 b.ky.dyntld.net.	172800	IN	AAAA	2a02:e180:1::19
 c.ky.dyntld.net.	172800	IN	A	185.38.98.19
 c.ky.dyntld.net.	172800	IN	AAAA	2a02:e180:2::19
+a.link.dyntld.net.	172800	IN	A	199.19.1.13
+a.link.dyntld.net.	172800	IN	AAAA	2a02:e180::13
+b.link.dyntld.net.	172800	IN	A	199.19.7.13
+b.link.dyntld.net.	172800	IN	AAAA	2a02:e180:1::13
+c.link.dyntld.net.	172800	IN	A	185.38.98.13
+c.link.dyntld.net.	172800	IN	AAAA	2a02:e180:2::13
+a.lol.dyntld.net.	172800	IN	A	199.19.1.23
+a.lol.dyntld.net.	172800	IN	AAAA	2a02:e180::23
+b.lol.dyntld.net.	172800	IN	A	199.19.7.23
+b.lol.dyntld.net.	172800	IN	AAAA	2a02:e180:1::23
+c.lol.dyntld.net.	172800	IN	A	185.38.98.23
+c.lol.dyntld.net.	172800	IN	AAAA	2a02:e180:2::23
 a.mg.dyntld.net.	172800	IN	A	199.19.5.24
 a.mg.dyntld.net.	172800	IN	AAAA	2001:500:92::24
 b.mg.dyntld.net.	172800	IN	A	199.19.6.24
@@ -5845,10 +5971,40 @@ a.nf.dyntld.net.	172800	IN	A	199.19.5.10
 a.nf.dyntld.net.	172800	IN	AAAA	2001:500:92::10
 b.nf.dyntld.net.	172800	IN	A	199.19.6.10
 b.nf.dyntld.net.	172800	IN	AAAA	2001:500:96::10
+a.photo.dyntld.net.	172800	IN	A	199.19.1.14
+a.photo.dyntld.net.	172800	IN	AAAA	2a02:e180::14
+b.photo.dyntld.net.	172800	IN	A	199.19.7.14
+b.photo.dyntld.net.	172800	IN	AAAA	2a02:e180:1::14
+c.photo.dyntld.net.	172800	IN	A	185.38.98.14
+c.photo.dyntld.net.	172800	IN	AAAA	2a02:e180:2::14
+a.pics.dyntld.net.	172800	IN	A	199.19.1.15
+a.pics.dyntld.net.	172800	IN	AAAA	2a02:e180::15
+b.pics.dyntld.net.	172800	IN	A	199.19.7.15
+b.pics.dyntld.net.	172800	IN	AAAA	2a02:e180:1::15
+c.pics.dyntld.net.	172800	IN	A	185.38.98.15
+c.pics.dyntld.net.	172800	IN	AAAA	2a02:e180:2::15
+a.property.dyntld.net.	172800	IN	A	199.19.1.16
+a.property.dyntld.net.	172800	IN	AAAA	2a02:e180::16
+b.property.dyntld.net.	172800	IN	A	199.19.7.16
+b.property.dyntld.net.	172800	IN	AAAA	2a02:e180:1::16
+c.property.dyntld.net.	172800	IN	A	185.38.98.16
+c.property.dyntld.net.	172800	IN	AAAA	2a02:e180:2::16
 sb1.dyntld.net.		172800	IN	A	208.78.70.83
 sb1.dyntld.net.		172800	IN	AAAA	2001:500:90::83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
 sb3.dyntld.net.		172800	IN	AAAA	2001:500:94::83
+a.sexy.dyntld.net.	172800	IN	A	199.19.1.17
+a.sexy.dyntld.net.	172800	IN	AAAA	2a02:e180::17
+b.sexy.dyntld.net.	172800	IN	A	199.19.7.17
+b.sexy.dyntld.net.	172800	IN	AAAA	2a02:e180:1::17
+c.sexy.dyntld.net.	172800	IN	A	185.38.98.17
+c.sexy.dyntld.net.	172800	IN	AAAA	2a02:e180:2::17
+a.tattoo.dyntld.net.	172800	IN	A	199.19.1.18
+a.tattoo.dyntld.net.	172800	IN	AAAA	2a02:e180::18
+b.tattoo.dyntld.net.	172800	IN	A	199.19.7.18
+b.tattoo.dyntld.net.	172800	IN	AAAA	2a02:e180:1::18
+c.tattoo.dyntld.net.	172800	IN	A	185.38.98.18
+c.tattoo.dyntld.net.	172800	IN	AAAA	2a02:e180:2::18
 a.tl.dyntld.net.	172800	IN	A	199.19.5.12
 a.tl.dyntld.net.	172800	IN	AAAA	2001:500:92::12
 b.tl.dyntld.net.	172800	IN	A	199.19.6.12
@@ -5924,8 +6080,6 @@ anycast24.irondns.net.	172800	IN	A	195.253.65.12
 anycast24.irondns.net.	172800	IN	AAAA	2a01:5b0:5::c
 anycast9.irondns.net.	172800	IN	A	195.253.64.11
 anycast9.irondns.net.	172800	IN	AAAA	2a01:5b0:4::b
-tld.isc-sns.net.	172800	IN	A	63.243.194.3
-tld.isc-sns.net.	172800	IN	AAAA	2001:5a0:10::3
 ns0.ja.net.		172800	IN	A	128.86.1.20
 ns0.ja.net.		172800	IN	A	193.63.94.20
 ns0.ja.net.		172800	IN	AAAA	2001:630:0:8::14
@@ -6846,9 +7000,10 @@ c.nic.philips.		172800	IN	A	37.209.196.9
 c.nic.philips.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.philips.		172800	IN	A	37.209.198.9
 d.nic.philips.		172800	IN	AAAA	2001:dcd:4::9
-photo.			172800	IN	NS	a.ns.uniregistry.net.
-photo.			172800	IN	NS	tld.isc-sns.net.
-photo.			172800	IN	NS	tld.isc-sns.info.
+photo.			172800	IN	NS	a.photo.dyntld.net.
+photo.			172800	IN	NS	b.photo.dyntld.net.
+photo.			172800	IN	NS	c.photo.dyntld.net.
+photo.			172800	IN	NS	ns1.uniregistry.net.
 photo.			86400	IN	NSEC	photography. NS DS RRSIG NSEC
 photography.		172800	IN	NS	demand.beta.aridns.net.au.
 photography.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6892,9 +7047,10 @@ ns5.dns.nic.piaget.	172800	IN	A	156.154.157.136
 ns5.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1075::88
 ns6.dns.nic.piaget.	172800	IN	A	156.154.158.136
 ns6.dns.nic.piaget.	172800	IN	AAAA	2610:a1:1076::88
-pics.			172800	IN	NS	a.ns.uniregistry.net.
-pics.			172800	IN	NS	tld.isc-sns.net.
-pics.			172800	IN	NS	tld.isc-sns.info.
+pics.			172800	IN	NS	a.pics.dyntld.net.
+pics.			172800	IN	NS	b.pics.dyntld.net.
+pics.			172800	IN	NS	c.pics.dyntld.net.
+pics.			172800	IN	NS	ns1.uniregistry.net.
 pics.			86400	IN	NSEC	pictet. NS DS RRSIG NSEC
 pictet.			172800	IN	NS	a5.nstld.com.
 pictet.			172800	IN	NS	c5.nstld.com.
@@ -7110,9 +7266,10 @@ properties.		172800	IN	NS	demand.alpha.aridns.net.au.
 properties.		172800	IN	NS	demand.delta.aridns.net.au.
 properties.		172800	IN	NS	demand.gamma.aridns.net.au.
 properties.		86400	IN	NSEC	property. NS DS RRSIG NSEC
-property.		172800	IN	NS	a.ns.uniregistry.net.
-property.		172800	IN	NS	tld.isc-sns.net.
-property.		172800	IN	NS	tld.isc-sns.info.
+property.		172800	IN	NS	a.property.dyntld.net.
+property.		172800	IN	NS	b.property.dyntld.net.
+property.		172800	IN	NS	c.property.dyntld.net.
+property.		172800	IN	NS	ns1.uniregistry.net.
 property.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
 ps.			172800	IN	NS	ps.cctld.authdns.ripe.net.
 ps.			172800	IN	NS	ns1.pnina.ps.
@@ -7869,9 +8026,10 @@ c0.nic.sex.		172800	IN	A	199.115.154.1
 c0.nic.sex.		172800	IN	AAAA	2001:500:a2::1
 d0.nic.sex.		172800	IN	A	199.115.155.1
 d0.nic.sex.		172800	IN	AAAA	2001:500:a3::1
-sexy.			172800	IN	NS	a.ns.uniregistry.net.
-sexy.			172800	IN	NS	tld.isc-sns.net.
-sexy.			172800	IN	NS	tld.isc-sns.info.
+sexy.			172800	IN	NS	a.sexy.dyntld.net.
+sexy.			172800	IN	NS	b.sexy.dyntld.net.
+sexy.			172800	IN	NS	c.sexy.dyntld.net.
+sexy.			172800	IN	NS	ns1.uniregistry.net.
 sexy.			86400	IN	NSEC	sg. NS DS RRSIG NSEC
 sg.			172800	IN	NS	ns2.cuhk.edu.hk.
 sg.			172800	IN	NS	sec3.apnic.net.
@@ -8370,9 +8528,10 @@ tatar.			172800	IN	NS	d.dns.ripn.net.
 tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
 tatar.			86400	IN	NSEC	tattoo. NS DS RRSIG NSEC
-tattoo.			172800	IN	NS	a.ns.uniregistry.net.
-tattoo.			172800	IN	NS	tld.isc-sns.net.
-tattoo.			172800	IN	NS	tld.isc-sns.info.
+tattoo.			172800	IN	NS	a.tattoo.dyntld.net.
+tattoo.			172800	IN	NS	b.tattoo.dyntld.net.
+tattoo.			172800	IN	NS	c.tattoo.dyntld.net.
+tattoo.			172800	IN	NS	ns1.uniregistry.net.
 tattoo.			86400	IN	NSEC	tax. NS DS RRSIG NSEC
 tax.			172800	IN	NS	demand.beta.aridns.net.au.
 tax.			172800	IN	NS	demand.alpha.aridns.net.au.
