@@ -739,14 +739,17 @@ b.ns.nic.beer.		172800	IN	AAAA	2620:171:d02:dc::14
 bentley.		172800	IN	NS	ns1.nic.uk.
 bentley.		172800	IN	NS	ns2.nic.uk.
 bentley.		172800	IN	NS	ns4.nic.uk.
-bentley.		172800	IN	NS	ns5.nic.uk.
-bentley.		172800	IN	NS	ns6.nic.uk.
-bentley.		172800	IN	NS	ns7.nic.uk.
+bentley.		172800	IN	NS	dns3.nic.bentley.
+bentley.		172800	IN	NS	dns4.nic.bentley.
 bentley.		172800	IN	NS	dnsa.nic.bentley.
 bentley.		172800	IN	NS	dnsb.nic.bentley.
 bentley.		172800	IN	NS	dnsc.nic.bentley.
 bentley.		172800	IN	NS	dnsd.nic.bentley.
 bentley.		86400	IN	NSEC	berlin. NS DS RRSIG NSEC
+dns3.nic.bentley.	172800	IN	A	213.248.221.5
+dns3.nic.bentley.	172800	IN	AAAA	2a01:618:405::5
+dns4.nic.bentley.	172800	IN	A	43.230.49.5
+dns4.nic.bentley.	172800	IN	AAAA	2401:fd80:405::5
 dnsa.nic.bentley.	172800	IN	A	156.154.100.3
 dnsa.nic.bentley.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.bentley.	172800	IN	A	156.154.101.3
@@ -4026,7 +4029,6 @@ in.			172800	IN	NS	b0.in.afilias-nst.org.
 in.			172800	IN	NS	b1.in.afilias-nst.in.
 in.			172800	IN	NS	b2.in.afilias-nst.org.
 in.			172800	IN	NS	c0.in.afilias-nst.info.
-in.			172800	IN	NS	ns7.cdns.net.
 in.			86400	IN	NSEC	industries. NS DS RRSIG NSEC
 a1.in.afilias-nst.in.	172800	IN	A	115.249.164.142
 a1.in.afilias-nst.in.	172800	IN	AAAA	2001:4528:fff:13::142
@@ -5783,8 +5785,6 @@ ns34.cdns.net.		172800	IN	A	194.0.1.34
 ns34.cdns.net.		172800	IN	AAAA	2001:678:4::22
 ns36.cdns.net.		172800	IN	A	194.0.1.36
 ns36.cdns.net.		172800	IN	AAAA	2001:678:4::24
-ns7.cdns.net.		172800	IN	A	194.0.1.7
-ns7.cdns.net.		172800	IN	AAAA	2001:678:4::7
 ns.cernet.net.		172800	IN	A	202.112.0.44
 c.ci-servers.net.	172800	IN	A	194.146.106.86
 c.ci-servers.net.	172800	IN	AAAA	2001:67c:1010:22::53
@@ -7270,7 +7270,20 @@ property.		172800	IN	NS	a.property.dyntld.net.
 property.		172800	IN	NS	b.property.dyntld.net.
 property.		172800	IN	NS	c.property.dyntld.net.
 property.		172800	IN	NS	ns1.uniregistry.net.
-property.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
+property.		86400	IN	NSEC	protection. NS DS RRSIG NSEC
+protection.		172800	IN	NS	a.nic.protection.
+protection.		172800	IN	NS	b.nic.protection.
+protection.		172800	IN	NS	c.nic.protection.
+protection.		172800	IN	NS	d.nic.protection.
+protection.		86400	IN	NSEC	ps. NS DS RRSIG NSEC
+a.nic.protection.	172800	IN	A	194.169.218.67
+a.nic.protection.	172800	IN	AAAA	2001:67c:13cc::1:67
+b.nic.protection.	172800	IN	A	185.24.64.67
+b.nic.protection.	172800	IN	AAAA	2a04:2b00:13cc::1:67
+c.nic.protection.	172800	IN	A	194.0.2.2
+c.nic.protection.	172800	IN	AAAA	2001:678:5::2
+d.nic.protection.	172800	IN	A	194.0.1.45
+d.nic.protection.	172800	IN	AAAA	2001:678:4::2d
 ps.			172800	IN	NS	ps.cctld.authdns.ripe.net.
 ps.			172800	IN	NS	ns1.pnina.ps.
 ps.			172800	IN	NS	rip.psg.com.
@@ -8306,9 +8319,22 @@ st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
 st.			172800	IN	NS	dns-us.st.
-st.			86400	IN	NSEC	starhub. NS RRSIG NSEC
+st.			86400	IN	NSEC	stada. NS RRSIG NSEC
 dns-au.st.		172800	IN	A	119.252.188.97
 dns-us.st.		172800	IN	A	198.105.223.67
+stada.			172800	IN	NS	a0.nic.stada.
+stada.			172800	IN	NS	a2.nic.stada.
+stada.			172800	IN	NS	b0.nic.stada.
+stada.			172800	IN	NS	c0.nic.stada.
+stada.			86400	IN	NSEC	starhub. NS DS RRSIG NSEC
+a0.nic.stada.		172800	IN	A	65.22.156.25
+a0.nic.stada.		172800	IN	AAAA	2a01:8840:9a::25
+a2.nic.stada.		172800	IN	A	65.22.159.25
+a2.nic.stada.		172800	IN	AAAA	2a01:8840:9d::25
+b0.nic.stada.		172800	IN	A	65.22.157.25
+b0.nic.stada.		172800	IN	AAAA	2a01:8840:9b::25
+c0.nic.stada.		172800	IN	A	65.22.158.25
+c0.nic.stada.		172800	IN	AAAA	2a01:8840:9c::25
 starhub.		172800	IN	NS	a.nic.starhub.
 starhub.		172800	IN	NS	b.nic.starhub.
 starhub.		172800	IN	NS	c.nic.starhub.
@@ -8678,7 +8704,20 @@ theater.		172800	IN	NS	demand.beta.aridns.net.au.
 theater.		172800	IN	NS	demand.alpha.aridns.net.au.
 theater.		172800	IN	NS	demand.delta.aridns.net.au.
 theater.		172800	IN	NS	demand.gamma.aridns.net.au.
-theater.		86400	IN	NSEC	tickets. NS DS RRSIG NSEC
+theater.		86400	IN	NSEC	theatre. NS DS RRSIG NSEC
+theatre.		172800	IN	NS	a.nic.theatre.
+theatre.		172800	IN	NS	b.nic.theatre.
+theatre.		172800	IN	NS	c.nic.theatre.
+theatre.		172800	IN	NS	d.nic.theatre.
+theatre.		86400	IN	NSEC	tickets. NS DS RRSIG NSEC
+a.nic.theatre.		172800	IN	A	194.169.218.69
+a.nic.theatre.		172800	IN	AAAA	2001:67c:13cc::1:69
+b.nic.theatre.		172800	IN	A	185.24.64.69
+b.nic.theatre.		172800	IN	AAAA	2a04:2b00:13cc::1:69
+c.nic.theatre.		172800	IN	A	194.0.2.2
+c.nic.theatre.		172800	IN	AAAA	2001:678:5::2
+d.nic.theatre.		172800	IN	A	194.0.1.45
+d.nic.theatre.		172800	IN	AAAA	2001:678:4::2d
 tickets.		172800	IN	NS	a.nic.tickets.
 tickets.		172800	IN	NS	b.nic.tickets.
 tickets.		172800	IN	NS	c.nic.tickets.
@@ -9049,9 +9088,6 @@ ns1.nic.uk.		172800	IN	AAAA	2a01:40:1001:35::2
 ns2.nic.uk.		172800	IN	A	217.79.164.131
 ns4.nic.uk.		172800	IN	A	194.83.244.131
 ns4.nic.uk.		172800	IN	AAAA	2001:630:181:35::83
-ns5.nic.uk.		172800	IN	A	213.246.167.131
-ns6.nic.uk.		172800	IN	A	213.248.254.130
-ns7.nic.uk.		172800	IN	A	212.121.40.130
 nsa.nic.uk.		172800	IN	A	156.154.100.3
 nsa.nic.uk.		172800	IN	AAAA	2001:502:ad09::3
 nsb.nic.uk.		172800	IN	A	156.154.101.3
