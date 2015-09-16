@@ -4632,9 +4632,9 @@ dns1.kw.		172800	IN	A	161.252.48.140
 dns2.kw.		172800	IN	A	161.252.48.150
 dns3.kw.		172800	IN	A	161.252.48.145
 ky.			172800	IN	NS	a.ky.dyntld.net.
-ky.			172800	IN	NS	a.ns.uniregistry.net.
 ky.			172800	IN	NS	b.ky.dyntld.net.
 ky.			172800	IN	NS	c.ky.dyntld.net.
+ky.			172800	IN	NS	ns1.uniregistry.net.
 ky.			86400	IN	NSEC	kyoto. NS DS RRSIG NSEC
 kyoto.			172800	IN	NS	d.gmoregistry.net.
 kyoto.			172800	IN	NS	e.gmoregistry.net.
@@ -4848,7 +4848,15 @@ limo.			172800	IN	NS	demand.beta.aridns.net.au.
 limo.			172800	IN	NS	demand.alpha.aridns.net.au.
 limo.			172800	IN	NS	demand.delta.aridns.net.au.
 limo.			172800	IN	NS	demand.gamma.aridns.net.au.
-limo.			86400	IN	NSEC	link. NS DS RRSIG NSEC
+limo.			86400	IN	NSEC	linde. NS DS RRSIG NSEC
+linde.			172800	IN	NS	a5.nstld.com.
+linde.			172800	IN	NS	c5.nstld.com.
+linde.			172800	IN	NS	d5.nstld.com.
+linde.			172800	IN	NS	f5.nstld.com.
+linde.			172800	IN	NS	g5.nstld.com.
+linde.			172800	IN	NS	h5.nstld.com.
+linde.			172800	IN	NS	l5.nstld.com.
+linde.			86400	IN	NSEC	link. NS DS RRSIG NSEC
 link.			172800	IN	NS	a.link.dyntld.net.
 link.			172800	IN	NS	b.link.dyntld.net.
 link.			172800	IN	NS	c.link.dyntld.net.
@@ -6309,8 +6317,6 @@ nsi.uanic.net.		172800	IN	A	212.1.66.247
 tld1.ultradns.net.	172800	IN	A	204.74.112.1
 tld1.ultradns.net.	172800	IN	AAAA	2001:502:d399::1
 tld2.ultradns.net.	172800	IN	A	204.74.113.1
-a.ns.uniregistry.net.	172800	IN	A	64.96.25.53
-a.ns.uniregistry.net.	172800	IN	AAAA	2620:57:4003:10::53
 ns1.uniregistry.net.	172800	IN	A	64.96.1.1
 ns1.uniregistry.net.	172800	IN	AAAA	2620:57:4000:1::1
 ns.uu.net.		172800	IN	A	137.39.1.3
