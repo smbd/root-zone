@@ -7986,7 +7986,20 @@ seat.			172800	IN	NS	anycast9.irondns.net.
 seat.			172800	IN	NS	anycast10.irondns.net.
 seat.			172800	IN	NS	anycast23.irondns.net.
 seat.			172800	IN	NS	anycast24.irondns.net.
-seat.			86400	IN	NSEC	seek. NS DS RRSIG NSEC
+seat.			86400	IN	NSEC	security. NS DS RRSIG NSEC
+security.		172800	IN	NS	a.nic.security.
+security.		172800	IN	NS	b.nic.security.
+security.		172800	IN	NS	c.nic.security.
+security.		172800	IN	NS	d.nic.security.
+security.		86400	IN	NSEC	seek. NS DS RRSIG NSEC
+a.nic.security.		172800	IN	A	194.169.218.68
+a.nic.security.		172800	IN	AAAA	2001:67c:13cc::1:68
+b.nic.security.		172800	IN	A	185.24.64.68
+b.nic.security.		172800	IN	AAAA	2a04:2b00:13cc::1:68
+c.nic.security.		172800	IN	A	194.0.2.2
+c.nic.security.		172800	IN	AAAA	2001:678:5::2
+d.nic.security.		172800	IN	A	194.0.1.45
+d.nic.security.		172800	IN	AAAA	2001:678:4::2d
 seek.			172800	IN	NS	a.nic.seek.
 seek.			172800	IN	NS	b.nic.seek.
 seek.			172800	IN	NS	c.nic.seek.
