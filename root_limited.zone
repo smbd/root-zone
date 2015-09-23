@@ -742,9 +742,8 @@ a.ns.nic.beer.		172800	IN	A	72.0.50.14
 a.ns.nic.beer.		172800	IN	AAAA	2620:171:a02:ad::14
 b.ns.nic.beer.		172800	IN	A	72.42.114.14
 b.ns.nic.beer.		172800	IN	AAAA	2620:171:d02:dc::14
-bentley.		172800	IN	NS	ns1.nic.uk.
-bentley.		172800	IN	NS	ns2.nic.uk.
-bentley.		172800	IN	NS	ns4.nic.uk.
+bentley.		172800	IN	NS	dns1.nic.bentley.
+bentley.		172800	IN	NS	dns2.nic.bentley.
 bentley.		172800	IN	NS	dns3.nic.bentley.
 bentley.		172800	IN	NS	dns4.nic.bentley.
 bentley.		172800	IN	NS	dnsa.nic.bentley.
@@ -752,6 +751,10 @@ bentley.		172800	IN	NS	dnsb.nic.bentley.
 bentley.		172800	IN	NS	dnsc.nic.bentley.
 bentley.		172800	IN	NS	dnsd.nic.bentley.
 bentley.		86400	IN	NSEC	berlin. NS DS RRSIG NSEC
+dns1.nic.bentley.	172800	IN	A	213.248.217.5
+dns1.nic.bentley.	172800	IN	AAAA	2a01:618:401::5
+dns2.nic.bentley.	172800	IN	A	103.49.81.5
+dns2.nic.bentley.	172800	IN	AAAA	2401:fd80:401::5
 dns3.nic.bentley.	172800	IN	A	213.248.221.5
 dns3.nic.bentley.	172800	IN	AAAA	2a01:618:405::5
 dns4.nic.bentley.	172800	IN	A	43.230.49.5
@@ -5007,7 +5010,7 @@ lt.			172800	IN	NS	c.tld.lt.
 lt.			172800	IN	NS	d.tld.lt.
 lt.			172800	IN	NS	e.tld.lt.
 lt.			172800	IN	NS	f.tld.lt.
-lt.			86400	IN	NSEC	ltda. NS DS RRSIG NSEC
+lt.			86400	IN	NSEC	ltd. NS DS RRSIG NSEC
 a.tld.lt.		172800	IN	A	195.8.218.131
 b.tld.lt.		172800	IN	A	194.0.20.1
 b.tld.lt.		172800	IN	AAAA	2001:678:19::1
@@ -5018,6 +5021,11 @@ d.tld.lt.		172800	IN	AAAA	2001:678:6::1
 e.tld.lt.		172800	IN	A	194.0.18.1
 f.tld.lt.		172800	IN	A	194.0.19.1
 f.tld.lt.		172800	IN	AAAA	2001:678:8c::1
+ltd.			172800	IN	NS	demand.beta.aridns.net.au.
+ltd.			172800	IN	NS	demand.alpha.aridns.net.au.
+ltd.			172800	IN	NS	demand.delta.aridns.net.au.
+ltd.			172800	IN	NS	demand.gamma.aridns.net.au.
+ltd.			86400	IN	NSEC	ltda. NS DS RRSIG NSEC
 ltda.			172800	IN	NS	a0.nic.ltda.
 ltda.			172800	IN	NS	a2.nic.ltda.
 ltda.			172800	IN	NS	b0.nic.ltda.
@@ -6612,7 +6620,7 @@ nz.			172800	IN	NS	ns4.dns.net.nz.
 nz.			172800	IN	NS	ns5.dns.net.nz.
 nz.			172800	IN	NS	ns6.dns.net.nz.
 nz.			172800	IN	NS	ns7.dns.net.nz.
-nz.			86400	IN	NSEC	office. NS DS RRSIG NSEC
+nz.			86400	IN	NSEC	obi. NS DS RRSIG NSEC
 circa.mcs.vuw.ac.nz.	172800	IN	A	130.195.5.12
 downstage.mcs.vuw.ac.nz. 172800	IN	A	130.195.6.10
 ns1.dns.net.nz.		172800	IN	A	202.46.190.130
@@ -6629,6 +6637,14 @@ ns7.dns.net.nz.		172800	IN	A	194.146.106.54
 ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13::53
 ns99.dns.net.nz.	172800	IN	A	202.46.190.131
 ns99.dns.net.nz.	172800	IN	AAAA	2001:dce:2000:2::131
+obi.			172800	IN	NS	a5.nstld.com.
+obi.			172800	IN	NS	c5.nstld.com.
+obi.			172800	IN	NS	d5.nstld.com.
+obi.			172800	IN	NS	f5.nstld.com.
+obi.			172800	IN	NS	g5.nstld.com.
+obi.			172800	IN	NS	h5.nstld.com.
+obi.			172800	IN	NS	l5.nstld.com.
+obi.			86400	IN	NSEC	office. NS DS RRSIG NSEC
 office.			172800	IN	NS	ns1.dns.nic.office.
 office.			172800	IN	NS	ns2.dns.nic.office.
 office.			172800	IN	NS	ns3.dns.nic.office.
@@ -9118,11 +9134,6 @@ dns3.nic.uk.		172800	IN	A	213.248.220.1
 dns3.nic.uk.		172800	IN	AAAA	2a01:618:404::1
 dns4.nic.uk.		172800	IN	A	43.230.48.1
 dns4.nic.uk.		172800	IN	AAAA	2401:fd80:404::1
-ns1.nic.uk.		172800	IN	A	195.66.240.130
-ns1.nic.uk.		172800	IN	AAAA	2a01:40:1001:35::2
-ns2.nic.uk.		172800	IN	A	217.79.164.131
-ns4.nic.uk.		172800	IN	A	194.83.244.131
-ns4.nic.uk.		172800	IN	AAAA	2001:630:181:35::83
 nsa.nic.uk.		172800	IN	A	156.154.100.3
 nsa.nic.uk.		172800	IN	AAAA	2001:502:ad09::3
 nsb.nic.uk.		172800	IN	A	156.154.101.3
