@@ -6350,10 +6350,6 @@ auth02.ns.uu.net.	172800	IN	A	198.6.1.82
 auth03.ns.uu.net.	172800	IN	A	198.6.1.83
 auth100.ns.uu.net.	172800	IN	A	198.6.1.202
 auth110.ns.uu.net.	172800	IN	A	198.6.1.114
-auth200.ns.uu.net.	172800	IN	A	195.129.12.82
-auth200.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e000::35:2
-auth210.ns.uu.net.	172800	IN	A	195.129.12.74
-auth210.ns.uu.net.	172800	IN	AAAA	2001:600:1c0:e001::35:2
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
 netbank.		172800	IN	NS	a.nic.netbank.
 netbank.		172800	IN	NS	b.nic.netbank.
@@ -6504,8 +6500,6 @@ ns4.dns.nl.		172800	IN	A	95.142.99.212
 ns4.dns.nl.		172800	IN	AAAA	2a00:1188:5::212
 ns5.dns.nl.		172800	IN	A	194.0.28.53
 ns5.dns.nl.		172800	IN	AAAA	2001:678:2c:0:194:0:28:53
-ns-pt.nlnetlabs.nl.	172800	IN	A	185.49.140.61
-ns-pt.nlnetlabs.nl.	172800	IN	AAAA	2a04:b900::8:0:0:61
 no.			172800	IN	NS	i.nic.no.
 no.			172800	IN	NS	x.nic.no.
 no.			172800	IN	NS	y.nic.no.
@@ -7333,15 +7327,18 @@ dns1.gov.ps.		172800	IN	A	213.244.82.147
 dns3.gov.ps.		172800	IN	A	212.14.253.242
 idn.pnina.ps.		172800	IN	A	208.64.68.4
 ns1.pnina.ps.		172800	IN	A	194.6.225.20
+pt.			172800	IN	NS	b.dns.pt.
+pt.			172800	IN	NS	c.dns.pt.
 pt.			172800	IN	NS	ns.dns.br.
 pt.			172800	IN	NS	ns.dns.pt.
 pt.			172800	IN	NS	ns2.dns.pt.
 pt.			172800	IN	NS	ns2.nic.fr.
-pt.			172800	IN	NS	ns-pt.nlnetlabs.nl.
 pt.			172800	IN	NS	sns-pb.isc.org.
-pt.			172800	IN	NS	auth200.ns.uu.net.
-pt.			172800	IN	NS	auth210.ns.uu.net.
 pt.			86400	IN	NSEC	pub. NS DS RRSIG NSEC
+b.dns.pt.		172800	IN	A	194.0.25.23
+b.dns.pt.		172800	IN	AAAA	2001:678:20::23
+c.dns.pt.		172800	IN	A	204.61.216.105
+c.dns.pt.		172800	IN	AAAA	2001:500:14:6105:ad::1
 ns.dns.pt.		172800	IN	A	193.136.0.1
 ns.dns.pt.		172800	IN	AAAA	2001:690:a00:1016:905::1
 ns2.dns.pt.		172800	IN	A	193.136.2.226
