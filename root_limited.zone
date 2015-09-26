@@ -1050,7 +1050,7 @@ boats.			172800	IN	NS	a0.nic.boats.
 boats.			172800	IN	NS	a2.nic.boats.
 boats.			172800	IN	NS	b0.nic.boats.
 boats.			172800	IN	NS	c0.nic.boats.
-boats.			86400	IN	NSEC	bond. NS DS RRSIG NSEC
+boats.			86400	IN	NSEC	bom. NS DS RRSIG NSEC
 a0.nic.boats.		172800	IN	A	65.22.104.17
 a0.nic.boats.		172800	IN	AAAA	2a01:8840:66::17
 a2.nic.boats.		172800	IN	A	65.22.107.17
@@ -1059,6 +1059,13 @@ b0.nic.boats.		172800	IN	A	65.22.105.17
 b0.nic.boats.		172800	IN	AAAA	2a01:8840:67::17
 c0.nic.boats.		172800	IN	A	65.22.106.17
 c0.nic.boats.		172800	IN	AAAA	2a01:8840:68::17
+bom.			172800	IN	NS	a.dns.br.
+bom.			172800	IN	NS	b.dns.br.
+bom.			172800	IN	NS	c.dns.br.
+bom.			172800	IN	NS	d.dns.br.
+bom.			172800	IN	NS	e.dns.br.
+bom.			172800	IN	NS	f.dns.br.
+bom.			86400	IN	NSEC	bond. NS DS RRSIG NSEC
 bond.			172800	IN	NS	a.nic.bond.
 bond.			172800	IN	NS	b.nic.bond.
 bond.			172800	IN	NS	c.nic.bond.
@@ -2973,7 +2980,7 @@ film.			172800	IN	NS	a.nic.film.
 film.			172800	IN	NS	b.nic.film.
 film.			172800	IN	NS	c.nic.film.
 film.			172800	IN	NS	d.nic.film.
-film.			86400	IN	NSEC	finance. NS DS RRSIG NSEC
+film.			86400	IN	NSEC	final. NS DS RRSIG NSEC
 a.nic.film.		172800	IN	A	37.209.192.10
 a.nic.film.		172800	IN	AAAA	2001:dcd:1::10
 b.nic.film.		172800	IN	A	37.209.194.10
@@ -2982,6 +2989,13 @@ c.nic.film.		172800	IN	A	37.209.196.10
 c.nic.film.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.film.		172800	IN	A	37.209.198.10
 d.nic.film.		172800	IN	AAAA	2001:dcd:4::10
+final.			172800	IN	NS	a.dns.br.
+final.			172800	IN	NS	b.dns.br.
+final.			172800	IN	NS	c.dns.br.
+final.			172800	IN	NS	d.dns.br.
+final.			172800	IN	NS	e.dns.br.
+final.			172800	IN	NS	f.dns.br.
+final.			86400	IN	NSEC	finance. NS DS RRSIG NSEC
 finance.		172800	IN	NS	demand.beta.aridns.net.au.
 finance.		172800	IN	NS	demand.alpha.aridns.net.au.
 finance.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -3891,7 +3905,7 @@ hu.			172800	IN	NS	d.hu.
 hu.			172800	IN	NS	e.hu.
 hu.			172800	IN	NS	ns2.nic.fr.
 hu.			172800	IN	NS	ns-com.nic.hu.
-hu.			86400	IN	NSEC	ibm. NS DS RRSIG NSEC
+hu.			86400	IN	NSEC	hyundai. NS DS RRSIG NSEC
 a.hu.			172800	IN	A	193.239.148.1
 a.hu.			172800	IN	AAAA	2001:738:4:8000::48
 b.hu.			172800	IN	A	193.239.149.161
@@ -3902,6 +3916,19 @@ e.hu.			172800	IN	A	194.0.25.11
 e.hu.			172800	IN	AAAA	2001:678:20::11
 ns-com.nic.hu.		172800	IN	A	194.0.1.12
 ns-com.nic.hu.		172800	IN	AAAA	2001:678:4::c
+hyundai.		172800	IN	NS	a.nic.hyundai.
+hyundai.		172800	IN	NS	b.nic.hyundai.
+hyundai.		172800	IN	NS	c.nic.hyundai.
+hyundai.		172800	IN	NS	d.nic.hyundai.
+hyundai.		86400	IN	NSEC	ibm. NS DS RRSIG NSEC
+a.nic.hyundai.		172800	IN	A	37.209.192.9
+a.nic.hyundai.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.hyundai.		172800	IN	A	37.209.194.9
+b.nic.hyundai.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.hyundai.		172800	IN	A	37.209.196.9
+c.nic.hyundai.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.hyundai.		172800	IN	A	37.209.198.9
+d.nic.hyundai.		172800	IN	AAAA	2001:dcd:4::9
 ibm.			172800	IN	NS	a.nic.ibm.
 ibm.			172800	IN	NS	b.nic.ibm.
 ibm.			172800	IN	NS	c.nic.ibm.
@@ -4526,9 +4553,22 @@ ki.			172800	IN	NS	ki1.dyntld.net.
 ki.			172800	IN	NS	ki3.dyntld.net.
 ki.			172800	IN	NS	pch.nic.ki.
 ki.			172800	IN	NS	sns-pb.isc.org.
-ki.			86400	IN	NSEC	kim. NS DS RRSIG NSEC
+ki.			86400	IN	NSEC	kia. NS DS RRSIG NSEC
 pch.nic.ki.		172800	IN	A	204.61.216.26
 pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad::1
+kia.			172800	IN	NS	a.nic.kia.
+kia.			172800	IN	NS	b.nic.kia.
+kia.			172800	IN	NS	c.nic.kia.
+kia.			172800	IN	NS	d.nic.kia.
+kia.			86400	IN	NSEC	kim. NS DS RRSIG NSEC
+a.nic.kia.		172800	IN	A	37.209.192.9
+a.nic.kia.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.kia.		172800	IN	A	37.209.194.9
+b.nic.kia.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.kia.		172800	IN	A	37.209.196.9
+c.nic.kia.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.kia.		172800	IN	A	37.209.198.9
+d.nic.kia.		172800	IN	AAAA	2001:dcd:4::9
 kim.			172800	IN	NS	a0.nic.kim.
 kim.			172800	IN	NS	a2.nic.kim.
 kim.			172800	IN	NS	b0.nic.kim.
@@ -8054,7 +8094,20 @@ services.		172800	IN	NS	demand.beta.aridns.net.au.
 services.		172800	IN	NS	demand.alpha.aridns.net.au.
 services.		172800	IN	NS	demand.delta.aridns.net.au.
 services.		172800	IN	NS	demand.gamma.aridns.net.au.
-services.		86400	IN	NSEC	sew. NS DS RRSIG NSEC
+services.		86400	IN	NSEC	seven. NS DS RRSIG NSEC
+seven.			172800	IN	NS	a.nic.seven.
+seven.			172800	IN	NS	b.nic.seven.
+seven.			172800	IN	NS	c.nic.seven.
+seven.			172800	IN	NS	d.nic.seven.
+seven.			86400	IN	NSEC	sew. NS DS RRSIG NSEC
+a.nic.seven.		172800	IN	A	37.209.192.9
+a.nic.seven.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.seven.		172800	IN	A	37.209.194.9
+b.nic.seven.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.seven.		172800	IN	A	37.209.196.9
+c.nic.seven.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.seven.		172800	IN	A	37.209.198.9
+d.nic.seven.		172800	IN	AAAA	2001:dcd:4::9
 sew.			172800	IN	NS	a0.nic.sew.
 sew.			172800	IN	NS	a2.nic.sew.
 sew.			172800	IN	NS	b0.nic.sew.
@@ -8146,12 +8199,11 @@ c0.nic.shriram.		172800	IN	A	65.22.182.41
 c0.nic.shriram.		172800	IN	AAAA	2a01:8840:b0::41
 si.			172800	IN	NS	b.dns.si.
 si.			172800	IN	NS	c.dns.si.
-si.			172800	IN	NS	d.dns.si.
 si.			172800	IN	NS	f.dns.si.
 si.			172800	IN	NS	g.dns.si.
 si.			172800	IN	NS	h.dns.si.
 si.			172800	IN	NS	i.dns.si.
-si.			172800	IN	NS	sss.dns.si.
+si.			172800	IN	NS	j.dns.si.
 si.			86400	IN	NSEC	singles. NS DS RRSIG NSEC
 ns2.arnes.si.		172800	IN	A	193.2.1.91
 ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000::91
@@ -8159,9 +8211,6 @@ b.dns.si.		172800	IN	A	193.2.1.91
 b.dns.si.		172800	IN	AAAA	2001:1470:8000::91
 c.dns.si.		172800	IN	A	192.93.0.4
 c.dns.si.		172800	IN	AAAA	2001:660:3005:1::1:2
-d.dns.si.		172800	IN	A	130.59.1.30
-d.dns.si.		172800	IN	A	130.59.10.30
-d.dns.si.		172800	IN	AAAA	2001:620::1
 f.dns.si.		172800	IN	A	194.146.106.62
 f.dns.si.		172800	IN	AAAA	2001:67c:1010:15::53
 g.dns.si.		172800	IN	A	194.0.1.20
@@ -8170,7 +8219,8 @@ h.dns.si.		172800	IN	A	204.61.216.54
 h.dns.si.		172800	IN	AAAA	2001:500:14:6054:ad::1
 i.dns.si.		172800	IN	A	194.0.25.22
 i.dns.si.		172800	IN	AAAA	2001:678:20::22
-sss.dns.si.		172800	IN	A	81.91.161.101
+j.dns.si.		172800	IN	A	108.59.164.1
+j.dns.si.		172800	IN	AAAA	2a02:e180:7::1
 singles.		172800	IN	NS	demand.beta.aridns.net.au.
 singles.		172800	IN	NS	demand.alpha.aridns.net.au.
 singles.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -8421,7 +8471,7 @@ stcgroup.		172800	IN	NS	a.nic.stcgroup.
 stcgroup.		172800	IN	NS	b.nic.stcgroup.
 stcgroup.		172800	IN	NS	c.nic.stcgroup.
 stcgroup.		172800	IN	NS	d.nic.stcgroup.
-stcgroup.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+stcgroup.		86400	IN	NSEC	stockholm. NS DS RRSIG NSEC
 a.nic.stcgroup.		172800	IN	A	194.169.218.46
 a.nic.stcgroup.		172800	IN	AAAA	2001:67c:13cc::1:46
 b.nic.stcgroup.		172800	IN	A	185.24.64.46
@@ -8430,6 +8480,19 @@ c.nic.stcgroup.		172800	IN	A	194.0.2.2
 c.nic.stcgroup.		172800	IN	AAAA	2001:678:5::2
 d.nic.stcgroup.		172800	IN	A	194.0.1.45
 d.nic.stcgroup.		172800	IN	AAAA	2001:678:4::2d
+stockholm.		172800	IN	NS	a0.nic.stockholm.
+stockholm.		172800	IN	NS	a2.nic.stockholm.
+stockholm.		172800	IN	NS	b0.nic.stockholm.
+stockholm.		172800	IN	NS	c0.nic.stockholm.
+stockholm.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+a0.nic.stockholm.	172800	IN	A	65.22.220.41
+a0.nic.stockholm.	172800	IN	AAAA	2a01:8840:d6::41
+a2.nic.stockholm.	172800	IN	A	65.22.223.41
+a2.nic.stockholm.	172800	IN	AAAA	2a01:8840:d9::41
+b0.nic.stockholm.	172800	IN	A	65.22.221.41
+b0.nic.stockholm.	172800	IN	AAAA	2a01:8840:d7::41
+c0.nic.stockholm.	172800	IN	A	65.22.222.41
+c0.nic.stockholm.	172800	IN	AAAA	2a01:8840:d8::41
 studio.			172800	IN	NS	demand.beta.aridns.net.au.
 studio.			172800	IN	NS	demand.alpha.aridns.net.au.
 studio.			172800	IN	NS	demand.delta.aridns.net.au.
