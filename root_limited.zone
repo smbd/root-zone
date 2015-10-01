@@ -5154,15 +5154,15 @@ pch.ltt.ly.		172800	IN	AAAA	2001:500:14:6067:ad::1
 ma.			172800	IN	NS	ma.cctld.authdns.ripe.net.
 ma.			172800	IN	NS	dns.inria.fr.
 ma.			172800	IN	NS	ns1.iam.net.ma.
-ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
+ma.			172800	IN	NS	ns3.registre.ma.
 ma.			172800	IN	NS	ns4.registre.ma.
 ma.			86400	IN	NSEC	madrid. NS RRSIG NSEC
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	81.192.108.164
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
-ns2.iam.net.ma.		172800	IN	A	81.192.53.23
+ns3.registre.ma.	172800	IN	A	81.192.171.139
 ns4.registre.ma.	172800	IN	A	81.192.171.140
 madrid.			172800	IN	NS	anycast9.irondns.net.
 madrid.			172800	IN	NS	anycast10.irondns.net.
