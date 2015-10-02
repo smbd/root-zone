@@ -1783,7 +1783,7 @@ club.			172800	IN	NS	ns3.dns.nic.club.
 club.			172800	IN	NS	ns4.dns.nic.club.
 club.			172800	IN	NS	ns5.dns.nic.club.
 club.			172800	IN	NS	ns6.dns.nic.club.
-club.			86400	IN	NSEC	cm. NS DS RRSIG NSEC
+club.			86400	IN	NSEC	clubmed. NS DS RRSIG NSEC
 ns1.dns.nic.club.	172800	IN	A	156.154.144.215
 ns1.dns.nic.club.	172800	IN	AAAA	2610:a1:1071::d7
 ns2.dns.nic.club.	172800	IN	A	156.154.145.215
@@ -1796,6 +1796,14 @@ ns5.dns.nic.club.	172800	IN	A	156.154.157.215
 ns5.dns.nic.club.	172800	IN	AAAA	2610:a1:1075::d7
 ns6.dns.nic.club.	172800	IN	A	156.154.158.215
 ns6.dns.nic.club.	172800	IN	AAAA	2610:a1:1076::d7
+clubmed.		172800	IN	NS	a5.nstld.com.
+clubmed.		172800	IN	NS	c5.nstld.com.
+clubmed.		172800	IN	NS	d5.nstld.com.
+clubmed.		172800	IN	NS	f5.nstld.com.
+clubmed.		172800	IN	NS	g5.nstld.com.
+clubmed.		172800	IN	NS	h5.nstld.com.
+clubmed.		172800	IN	NS	l5.nstld.com.
+clubmed.		86400	IN	NSEC	cm. NS DS RRSIG NSEC
 cm.			172800	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			172800	IN	NS	ns.itu.ch.
 cm.			172800	IN	NS	kim.camnet.cm.
