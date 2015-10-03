@@ -1341,12 +1341,16 @@ c.nic.cancerresearch.	172800	IN	A	37.209.196.9
 c.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:3::9
 d.nic.cancerresearch.	172800	IN	A	37.209.198.9
 d.nic.cancerresearch.	172800	IN	AAAA	2001:dcd:4::9
+canon.			172800	IN	NS	a.gmoregistry.net.
+canon.			172800	IN	NS	b.gmoregistry.net.
 canon.			172800	IN	NS	d.gmoregistry.net.
 canon.			172800	IN	NS	e.gmoregistry.net.
 canon.			172800	IN	NS	g.gmoregistry.net.
 canon.			172800	IN	NS	h.gmoregistry.net.
 canon.			172800	IN	NS	i.gmoregistry.net.
 canon.			172800	IN	NS	j.gmoregistry.net.
+canon.			172800	IN	NS	k.gmoregistry.net.
+canon.			172800	IN	NS	l.gmoregistry.net.
 canon.			86400	IN	NSEC	capetown. NS DS RRSIG NSEC
 capetown.		172800	IN	NS	ns.coza.net.za.
 capetown.		172800	IN	NS	ns1.coza.net.za.
@@ -2342,12 +2346,16 @@ dating.			172800	IN	NS	demand.alpha.aridns.net.au.
 dating.			172800	IN	NS	demand.delta.aridns.net.au.
 dating.			172800	IN	NS	demand.gamma.aridns.net.au.
 dating.			86400	IN	NSEC	datsun. NS DS RRSIG NSEC
+datsun.			172800	IN	NS	a.gmoregistry.net.
+datsun.			172800	IN	NS	b.gmoregistry.net.
 datsun.			172800	IN	NS	d.gmoregistry.net.
 datsun.			172800	IN	NS	e.gmoregistry.net.
 datsun.			172800	IN	NS	g.gmoregistry.net.
 datsun.			172800	IN	NS	h.gmoregistry.net.
 datsun.			172800	IN	NS	i.gmoregistry.net.
 datsun.			172800	IN	NS	j.gmoregistry.net.
+datsun.			172800	IN	NS	k.gmoregistry.net.
+datsun.			172800	IN	NS	l.gmoregistry.net.
 datsun.			86400	IN	NSEC	day. NS DS RRSIG NSEC
 day.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -3335,12 +3343,16 @@ gg.			172800	IN	NS	ns99.dns.net.nz.
 gg.			86400	IN	NSEC	ggee. NS RRSIG NSEC
 e.ci-servers.gg.	172800	IN	A	204.61.216.74
 e.ci-servers.gg.	172800	IN	AAAA	2001:500:14:6074:ad::1
+ggee.			172800	IN	NS	a.gmoregistry.net.
+ggee.			172800	IN	NS	b.gmoregistry.net.
 ggee.			172800	IN	NS	d.gmoregistry.net.
 ggee.			172800	IN	NS	e.gmoregistry.net.
 ggee.			172800	IN	NS	g.gmoregistry.net.
 ggee.			172800	IN	NS	h.gmoregistry.net.
 ggee.			172800	IN	NS	i.gmoregistry.net.
 ggee.			172800	IN	NS	j.gmoregistry.net.
+ggee.			172800	IN	NS	k.gmoregistry.net.
+ggee.			172800	IN	NS	l.gmoregistry.net.
 ggee.			86400	IN	NSEC	gh. NS DS RRSIG NSEC
 gh.			172800	IN	NS	ns1.nic.gh.
 gh.			172800	IN	NS	ns2.nic.gh.
@@ -3441,12 +3453,16 @@ gmail.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 gmail.			86400	IN	NSEC	gmo. NS DS RRSIG NSEC
+gmo.			172800	IN	NS	a.gmoregistry.net.
+gmo.			172800	IN	NS	b.gmoregistry.net.
 gmo.			172800	IN	NS	d.gmoregistry.net.
 gmo.			172800	IN	NS	e.gmoregistry.net.
 gmo.			172800	IN	NS	g.gmoregistry.net.
 gmo.			172800	IN	NS	h.gmoregistry.net.
 gmo.			172800	IN	NS	i.gmoregistry.net.
 gmo.			172800	IN	NS	j.gmoregistry.net.
+gmo.			172800	IN	NS	k.gmoregistry.net.
+gmo.			172800	IN	NS	l.gmoregistry.net.
 gmo.			86400	IN	NSEC	gmx. NS DS RRSIG NSEC
 gmx.			172800	IN	NS	anycast9.irondns.net.
 gmx.			172800	IN	NS	anycast10.irondns.net.
@@ -6116,6 +6132,10 @@ d.xn--node.globalanycastcloud.freenom.net. 172800 IN A 185.21.171.36
 d.xn--node.globalanycastcloud.freenom.net. 172800 IN AAAA 2a04:1b00:b::4
 tld.gdns.net.		172800	IN	A	68.178.129.149
 ns2.gip.net.		172800	IN	A	204.59.1.222
+a.gmoregistry.net.	172800	IN	A	37.209.192.4
+a.gmoregistry.net.	172800	IN	AAAA	2001:dcd:1::4
+b.gmoregistry.net.	172800	IN	A	37.209.194.4
+b.gmoregistry.net.	172800	IN	AAAA	2001:dcd:2::4
 d.gmoregistry.net.	172800	IN	A	120.29.252.11
 d.gmoregistry.net.	172800	IN	AAAA	2001:dcd:5::11
 e.gmoregistry.net.	172800	IN	A	120.29.254.11
@@ -6127,6 +6147,9 @@ i.gmoregistry.net.	172800	IN	A	65.22.167.1
 i.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1c0::1
 j.gmoregistry.net.	172800	IN	A	65.22.43.1
 j.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1c1::1
+k.gmoregistry.net.	172800	IN	A	37.209.196.4
+l.gmoregistry.net.	172800	IN	A	37.209.198.4
+l.gmoregistry.net.	172800	IN	AAAA	2001:dcd:4::4
 a.gov-servers.net.	172800	IN	A	69.36.157.30
 a.gov-servers.net.	172800	IN	AAAA	2001:500:4431::2:30
 b.gov-servers.net.	172800	IN	A	209.112.123.30
