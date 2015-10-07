@@ -5483,7 +5483,7 @@ moe.			172800	IN	NS	ns3.dns.nic.moe.
 moe.			172800	IN	NS	ns4.dns.nic.moe.
 moe.			172800	IN	NS	ns5.dns.nic.moe.
 moe.			172800	IN	NS	ns6.dns.nic.moe.
-moe.			86400	IN	NSEC	mom. NS DS RRSIG NSEC
+moe.			86400	IN	NSEC	moi. NS DS RRSIG NSEC
 ns1.dns.nic.moe.	172800	IN	A	156.154.144.114
 ns1.dns.nic.moe.	172800	IN	AAAA	2610:a1:1071::72
 ns2.dns.nic.moe.	172800	IN	A	156.154.145.114
@@ -5496,6 +5496,25 @@ ns5.dns.nic.moe.	172800	IN	A	156.154.157.114
 ns5.dns.nic.moe.	172800	IN	AAAA	2610:a1:1075::72
 ns6.dns.nic.moe.	172800	IN	A	156.154.158.114
 ns6.dns.nic.moe.	172800	IN	AAAA	2610:a1:1076::72
+moi.			172800	IN	NS	ns1.dns.nic.moi.
+moi.			172800	IN	NS	ns2.dns.nic.moi.
+moi.			172800	IN	NS	ns3.dns.nic.moi.
+moi.			172800	IN	NS	ns4.dns.nic.moi.
+moi.			172800	IN	NS	ns5.dns.nic.moi.
+moi.			172800	IN	NS	ns6.dns.nic.moi.
+moi.			86400	IN	NSEC	mom. NS DS RRSIG NSEC
+ns1.dns.nic.moi.	172800	IN	A	156.154.144.115
+ns1.dns.nic.moi.	172800	IN	AAAA	2610:a1:1071::73
+ns2.dns.nic.moi.	172800	IN	A	156.154.145.115
+ns2.dns.nic.moi.	172800	IN	AAAA	2610:a1:1072::73
+ns3.dns.nic.moi.	172800	IN	A	156.154.159.115
+ns3.dns.nic.moi.	172800	IN	AAAA	2610:a1:1073::73
+ns4.dns.nic.moi.	172800	IN	A	156.154.156.115
+ns4.dns.nic.moi.	172800	IN	AAAA	2610:a1:1074::73
+ns5.dns.nic.moi.	172800	IN	A	156.154.157.115
+ns5.dns.nic.moi.	172800	IN	AAAA	2610:a1:1075::73
+ns6.dns.nic.moi.	172800	IN	A	156.154.158.115
+ns6.dns.nic.moi.	172800	IN	AAAA	2610:a1:1076::73
 mom.			172800	IN	NS	a.mom.dyntld.net.
 mom.			172800	IN	NS	b.mom.dyntld.net.
 mom.			172800	IN	NS	c.mom.dyntld.net.
@@ -10712,7 +10731,7 @@ yachts.			172800	IN	NS	a0.nic.yachts.
 yachts.			172800	IN	NS	a2.nic.yachts.
 yachts.			172800	IN	NS	b0.nic.yachts.
 yachts.			172800	IN	NS	c0.nic.yachts.
-yachts.			86400	IN	NSEC	yandex. NS DS RRSIG NSEC
+yachts.			86400	IN	NSEC	yamaxun. NS DS RRSIG NSEC
 a0.nic.yachts.		172800	IN	A	65.22.100.1
 a0.nic.yachts.		172800	IN	AAAA	2a01:8840:62::1
 a2.nic.yachts.		172800	IN	A	65.22.103.1
@@ -10721,6 +10740,25 @@ b0.nic.yachts.		172800	IN	A	65.22.101.1
 b0.nic.yachts.		172800	IN	AAAA	2a01:8840:63::1
 c0.nic.yachts.		172800	IN	A	65.22.102.1
 c0.nic.yachts.		172800	IN	AAAA	2a01:8840:64::1
+yamaxun.		172800	IN	NS	ns1.dns.nic.yamaxun.
+yamaxun.		172800	IN	NS	ns2.dns.nic.yamaxun.
+yamaxun.		172800	IN	NS	ns3.dns.nic.yamaxun.
+yamaxun.		172800	IN	NS	ns4.dns.nic.yamaxun.
+yamaxun.		172800	IN	NS	ns5.dns.nic.yamaxun.
+yamaxun.		172800	IN	NS	ns6.dns.nic.yamaxun.
+yamaxun.		86400	IN	NSEC	yandex. NS DS RRSIG NSEC
+ns1.dns.nic.yamaxun.	172800	IN	A	156.154.144.185
+ns1.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1071::b9
+ns2.dns.nic.yamaxun.	172800	IN	A	156.154.145.185
+ns2.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1072::b9
+ns3.dns.nic.yamaxun.	172800	IN	A	156.154.159.185
+ns3.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1073::b9
+ns4.dns.nic.yamaxun.	172800	IN	A	156.154.156.185
+ns4.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1074::b9
+ns5.dns.nic.yamaxun.	172800	IN	A	156.154.157.185
+ns5.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1075::b9
+ns6.dns.nic.yamaxun.	172800	IN	A	156.154.158.185
+ns6.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1076::b9
 yandex.			172800	IN	NS	ns1.dns.nic.yandex.
 yandex.			172800	IN	NS	ns2.dns.nic.yandex.
 yandex.			172800	IN	NS	ns3.dns.nic.yandex.
@@ -10803,12 +10841,10 @@ zip.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 zip.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 zip.			86400	IN	NSEC	zm. NS DS RRSIG NSEC
 zm.			172800	IN	NS	ns1.zamnet.zm.
-zm.			172800	IN	NS	ns1.coppernet.zm.
 zm.			172800	IN	NS	ns2.zamnet.zm.
 zm.			172800	IN	NS	hippo.ru.ac.za.
 zm.			172800	IN	NS	ns-zm.afrinic.net.
 zm.			86400	IN	NSEC	zone. NS RRSIG NSEC
-ns1.coppernet.zm.	172800	IN	A	41.222.240.15
 ns1.zamnet.zm.		172800	IN	A	196.46.192.26
 ns2.zamnet.zm.		172800	IN	A	196.46.192.21
 zone.			172800	IN	NS	demand.beta.aridns.net.au.
