@@ -5649,7 +5649,17 @@ mtpc.			172800	IN	NS	g.gmoregistry.net.
 mtpc.			172800	IN	NS	h.gmoregistry.net.
 mtpc.			172800	IN	NS	i.gmoregistry.net.
 mtpc.			172800	IN	NS	j.gmoregistry.net.
-mtpc.			86400	IN	NSEC	mu. NS DS RRSIG NSEC
+mtpc.			86400	IN	NSEC	mtr. NS DS RRSIG NSEC
+mtr.			172800	IN	NS	ns1.nic.mtr.
+mtr.			172800	IN	NS	ns2.nic.mtr.
+mtr.			172800	IN	NS	ns3.nic.mtr.
+mtr.			86400	IN	NSEC	mu. NS DS RRSIG NSEC
+ns1.nic.mtr.		172800	IN	A	203.119.2.164
+ns1.nic.mtr.		172800	IN	AAAA	2001:dca:4000::cb77:2a4
+ns2.nic.mtr.		172800	IN	A	203.119.87.164
+ns2.nic.mtr.		172800	IN	AAAA	2001:dca:2000::cb77:57a4
+ns3.nic.mtr.		172800	IN	A	169.54.247.173
+ns3.nic.mtr.		172800	IN	AAAA	2607:f0d0:1b02:b9::4
 mu.			172800	IN	NS	fork.sth.dnsnode.net.
 mu.			172800	IN	NS	udns1.tld.mu.
 mu.			172800	IN	NS	udns2.tld.mu.
@@ -8856,10 +8866,10 @@ a.nic.theatre.		172800	IN	A	194.169.218.69
 a.nic.theatre.		172800	IN	AAAA	2001:67c:13cc::1:69
 b.nic.theatre.		172800	IN	A	185.24.64.69
 b.nic.theatre.		172800	IN	AAAA	2a04:2b00:13cc::1:69
-c.nic.theatre.		172800	IN	A	194.0.2.2
-c.nic.theatre.		172800	IN	AAAA	2001:678:5::2
-d.nic.theatre.		172800	IN	A	194.0.1.45
-d.nic.theatre.		172800	IN	AAAA	2001:678:4::2d
+c.nic.theatre.		172800	IN	A	212.18.248.69
+c.nic.theatre.		172800	IN	AAAA	2a04:2b00:13ee::69
+d.nic.theatre.		172800	IN	A	212.18.249.69
+d.nic.theatre.		172800	IN	AAAA	2a04:2b00:13ff::69
 tickets.		172800	IN	NS	a.nic.tickets.
 tickets.		172800	IN	NS	b.nic.tickets.
 tickets.		172800	IN	NS	c.nic.tickets.
@@ -9411,7 +9421,20 @@ vin.			172800	IN	NS	demand.beta.aridns.net.au.
 vin.			172800	IN	NS	demand.alpha.aridns.net.au.
 vin.			172800	IN	NS	demand.delta.aridns.net.au.
 vin.			172800	IN	NS	demand.gamma.aridns.net.au.
-vin.			86400	IN	NSEC	vision. NS DS RRSIG NSEC
+vin.			86400	IN	NSEC	virgin. NS DS RRSIG NSEC
+virgin.			172800	IN	NS	a.nic.virgin.
+virgin.			172800	IN	NS	b.nic.virgin.
+virgin.			172800	IN	NS	c.nic.virgin.
+virgin.			172800	IN	NS	d.nic.virgin.
+virgin.			86400	IN	NSEC	vision. NS DS RRSIG NSEC
+a.nic.virgin.		172800	IN	A	37.209.192.9
+a.nic.virgin.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.virgin.		172800	IN	A	37.209.194.9
+b.nic.virgin.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.virgin.		172800	IN	A	37.209.196.9
+c.nic.virgin.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.virgin.		172800	IN	A	37.209.198.9
+d.nic.virgin.		172800	IN	AAAA	2001:dcd:4::9
 vision.			172800	IN	NS	demand.beta.aridns.net.au.
 vision.			172800	IN	NS	demand.alpha.aridns.net.au.
 vision.			172800	IN	NS	demand.delta.aridns.net.au.
