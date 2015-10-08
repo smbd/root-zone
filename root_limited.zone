@@ -10844,7 +10844,7 @@ zm.			172800	IN	NS	ns1.zamnet.zm.
 zm.			172800	IN	NS	ns2.zamnet.zm.
 zm.			172800	IN	NS	hippo.ru.ac.za.
 zm.			172800	IN	NS	ns-zm.afrinic.net.
-zm.			86400	IN	NSEC	zone. NS RRSIG NSEC
+zm.			86400	IN	NSEC	zone. NS DS RRSIG NSEC
 ns1.zamnet.zm.		172800	IN	A	196.46.192.26
 ns2.zamnet.zm.		172800	IN	A	196.46.192.21
 zone.			172800	IN	NS	demand.beta.aridns.net.au.
