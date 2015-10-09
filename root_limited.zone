@@ -1687,9 +1687,22 @@ ci.			172800	IN	NS	ns1.ird.fr.
 ci.			172800	IN	NS	ns1.nic.ci.
 ci.			172800	IN	NS	ns-ci.afrinic.net.
 ci.			172800	IN	NS	phloem.uoregon.edu.
-ci.			86400	IN	NSEC	cisco. NS RRSIG NSEC
+ci.			86400	IN	NSEC	cipriani. NS RRSIG NSEC
 ns.nic.ci.		172800	IN	A	213.136.100.81
 ns1.nic.ci.		172800	IN	A	213.136.100.83
+cipriani.		172800	IN	NS	a0.nic.cipriani.
+cipriani.		172800	IN	NS	a2.nic.cipriani.
+cipriani.		172800	IN	NS	b0.nic.cipriani.
+cipriani.		172800	IN	NS	c0.nic.cipriani.
+cipriani.		86400	IN	NSEC	cisco. NS DS RRSIG NSEC
+a0.nic.cipriani.	172800	IN	A	65.22.236.41
+a0.nic.cipriani.	172800	IN	AAAA	2a01:8840:e6::41
+a2.nic.cipriani.	172800	IN	A	65.22.239.41
+a2.nic.cipriani.	172800	IN	AAAA	2a01:8840:e9::41
+b0.nic.cipriani.	172800	IN	A	65.22.237.41
+b0.nic.cipriani.	172800	IN	AAAA	2a01:8840:e7::41
+c0.nic.cipriani.	172800	IN	A	65.22.238.41
+c0.nic.cipriani.	172800	IN	AAAA	2a01:8840:e8::41
 cisco.			172800	IN	NS	ns1.dns.nic.cisco.
 cisco.			172800	IN	NS	ns2.dns.nic.cisco.
 cisco.			172800	IN	NS	ns3.dns.nic.cisco.
@@ -4597,7 +4610,7 @@ kim.			172800	IN	NS	a0.nic.kim.
 kim.			172800	IN	NS	a2.nic.kim.
 kim.			172800	IN	NS	b0.nic.kim.
 kim.			172800	IN	NS	c0.nic.kim.
-kim.			86400	IN	NSEC	kitchen. NS DS RRSIG NSEC
+kim.			86400	IN	NSEC	kinder. NS DS RRSIG NSEC
 a0.nic.kim.		172800	IN	A	65.22.28.1
 a0.nic.kim.		172800	IN	AAAA	2a01:8840:1e::1
 a2.nic.kim.		172800	IN	A	65.22.31.1
@@ -4606,6 +4619,25 @@ b0.nic.kim.		172800	IN	A	65.22.29.1
 b0.nic.kim.		172800	IN	AAAA	2a01:8840:1f::1
 c0.nic.kim.		172800	IN	A	65.22.30.1
 c0.nic.kim.		172800	IN	AAAA	2a01:8840:20::1
+kinder.			172800	IN	NS	ns1.dns.nic.kinder.
+kinder.			172800	IN	NS	ns2.dns.nic.kinder.
+kinder.			172800	IN	NS	ns3.dns.nic.kinder.
+kinder.			172800	IN	NS	ns4.dns.nic.kinder.
+kinder.			172800	IN	NS	ns5.dns.nic.kinder.
+kinder.			172800	IN	NS	ns6.dns.nic.kinder.
+kinder.			86400	IN	NSEC	kitchen. NS DS RRSIG NSEC
+ns1.dns.nic.kinder.	172800	IN	A	156.154.144.96
+ns1.dns.nic.kinder.	172800	IN	AAAA	2610:a1:1071::60
+ns2.dns.nic.kinder.	172800	IN	A	156.154.145.96
+ns2.dns.nic.kinder.	172800	IN	AAAA	2610:a1:1072::60
+ns3.dns.nic.kinder.	172800	IN	A	156.154.159.96
+ns3.dns.nic.kinder.	172800	IN	AAAA	2610:a1:1073::60
+ns4.dns.nic.kinder.	172800	IN	A	156.154.156.96
+ns4.dns.nic.kinder.	172800	IN	AAAA	2610:a1:1074::60
+ns5.dns.nic.kinder.	172800	IN	A	156.154.157.96
+ns5.dns.nic.kinder.	172800	IN	AAAA	2610:a1:1075::60
+ns6.dns.nic.kinder.	172800	IN	A	156.154.158.96
+ns6.dns.nic.kinder.	172800	IN	AAAA	2610:a1:1076::60
 kitchen.		172800	IN	NS	demand.beta.aridns.net.au.
 kitchen.		172800	IN	NS	demand.alpha.aridns.net.au.
 kitchen.		172800	IN	NS	demand.delta.aridns.net.au.
