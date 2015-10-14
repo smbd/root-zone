@@ -618,10 +618,10 @@ a.nic.bar.		172800	IN	A	194.169.218.56
 a.nic.bar.		172800	IN	AAAA	2001:67c:13cc::1:56
 b.nic.bar.		172800	IN	A	185.24.64.56
 b.nic.bar.		172800	IN	AAAA	2a04:2b00:13cc::1:56
-c.nic.bar.		172800	IN	A	194.0.2.2
-c.nic.bar.		172800	IN	AAAA	2001:678:5::2
-d.nic.bar.		172800	IN	A	194.0.1.45
-d.nic.bar.		172800	IN	AAAA	2001:678:4::2d
+c.nic.bar.		172800	IN	A	212.18.248.56
+c.nic.bar.		172800	IN	AAAA	2a04:2b00:13ee::56
+d.nic.bar.		172800	IN	A	212.18.249.56
+d.nic.bar.		172800	IN	AAAA	2a04:2b00:13ff::56
 barcelona.		172800	IN	NS	anycast9.irondns.net.
 barcelona.		172800	IN	NS	anycast10.irondns.net.
 barcelona.		172800	IN	NS	anycast23.irondns.net.
@@ -2402,7 +2402,26 @@ delivery.		172800	IN	NS	demand.beta.aridns.net.au.
 delivery.		172800	IN	NS	demand.alpha.aridns.net.au.
 delivery.		172800	IN	NS	demand.delta.aridns.net.au.
 delivery.		172800	IN	NS	demand.gamma.aridns.net.au.
-delivery.		86400	IN	NSEC	delta. NS DS RRSIG NSEC
+delivery.		86400	IN	NSEC	dell. NS DS RRSIG NSEC
+dell.			172800	IN	NS	ns1.dns.nic.dell.
+dell.			172800	IN	NS	ns2.dns.nic.dell.
+dell.			172800	IN	NS	ns3.dns.nic.dell.
+dell.			172800	IN	NS	ns4.dns.nic.dell.
+dell.			172800	IN	NS	ns5.dns.nic.dell.
+dell.			172800	IN	NS	ns6.dns.nic.dell.
+dell.			86400	IN	NSEC	delta. NS DS RRSIG NSEC
+ns1.dns.nic.dell.	172800	IN	A	156.154.144.47
+ns1.dns.nic.dell.	172800	IN	AAAA	2610:a1:1071::2f
+ns2.dns.nic.dell.	172800	IN	A	156.154.145.47
+ns2.dns.nic.dell.	172800	IN	AAAA	2610:a1:1072::2f
+ns3.dns.nic.dell.	172800	IN	A	156.154.159.47
+ns3.dns.nic.dell.	172800	IN	AAAA	2610:a1:1073::2f
+ns4.dns.nic.dell.	172800	IN	A	156.154.156.47
+ns4.dns.nic.dell.	172800	IN	AAAA	2610:a1:1074::2f
+ns5.dns.nic.dell.	172800	IN	A	156.154.157.47
+ns5.dns.nic.dell.	172800	IN	AAAA	2610:a1:1075::2f
+ns6.dns.nic.dell.	172800	IN	A	156.154.158.47
+ns6.dns.nic.dell.	172800	IN	AAAA	2610:a1:1076::2f
 delta.			172800	IN	NS	a0.nic.delta.
 delta.			172800	IN	NS	a2.nic.delta.
 delta.			172800	IN	NS	b0.nic.delta.
@@ -2445,10 +2464,10 @@ a.nic.design.		172800	IN	A	194.169.218.59
 a.nic.design.		172800	IN	AAAA	2001:67c:13cc::1:59
 b.nic.design.		172800	IN	A	185.24.64.59
 b.nic.design.		172800	IN	AAAA	2a04:2b00:13cc::1:59
-c.nic.design.		172800	IN	A	194.0.2.2
-c.nic.design.		172800	IN	AAAA	2001:678:5::2
-d.nic.design.		172800	IN	A	194.0.1.45
-d.nic.design.		172800	IN	AAAA	2001:678:4::2d
+c.nic.design.		172800	IN	A	212.18.248.59
+c.nic.design.		172800	IN	AAAA	2a04:2b00:13ee::59
+d.nic.design.		172800	IN	A	212.18.249.59
+d.nic.design.		172800	IN	AAAA	2a04:2b00:13ff::59
 dev.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 dev.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 dev.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -2970,10 +2989,10 @@ a.nic.feedback.		172800	IN	A	194.169.218.50
 a.nic.feedback.		172800	IN	AAAA	2001:67c:13cc::1:50
 b.nic.feedback.		172800	IN	A	185.24.64.50
 b.nic.feedback.		172800	IN	AAAA	2a04:2b00:13cc::1:50
-c.nic.feedback.		172800	IN	A	194.0.2.2
-c.nic.feedback.		172800	IN	AAAA	2001:678:5::2
-d.nic.feedback.		172800	IN	A	194.0.1.45
-d.nic.feedback.		172800	IN	AAAA	2001:678:4::2d
+c.nic.feedback.		172800	IN	A	212.18.248.50
+c.nic.feedback.		172800	IN	AAAA	2a04:2b00:13ee::50
+d.nic.feedback.		172800	IN	A	212.18.249.50
+d.nic.feedback.		172800	IN	AAAA	2a04:2b00:13ff::50
 fi.			172800	IN	NS	a.fi.
 fi.			172800	IN	NS	b.fi.
 fi.			172800	IN	NS	c.fi.
@@ -3156,10 +3175,10 @@ a.nic.forum.		172800	IN	A	194.169.218.65
 a.nic.forum.		172800	IN	AAAA	2001:67c:13cc::1:65
 b.nic.forum.		172800	IN	A	185.24.64.65
 b.nic.forum.		172800	IN	AAAA	2a04:2b00:13cc::1:65
-c.nic.forum.		172800	IN	A	194.0.2.2
-c.nic.forum.		172800	IN	AAAA	2001:678:5::2
-d.nic.forum.		172800	IN	A	194.0.1.45
-d.nic.forum.		172800	IN	AAAA	2001:678:4::2d
+c.nic.forum.		172800	IN	A	212.18.248.65
+c.nic.forum.		172800	IN	AAAA	2a04:2b00:13ee::65
+d.nic.forum.		172800	IN	A	212.18.249.65
+d.nic.forum.		172800	IN	AAAA	2a04:2b00:13ff::65
 foundation.		172800	IN	NS	demand.beta.aridns.net.au.
 foundation.		172800	IN	NS	demand.alpha.aridns.net.au.
 foundation.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -10897,12 +10916,16 @@ a.ns.nic.yoga.		172800	IN	A	72.0.50.27
 a.ns.nic.yoga.		172800	IN	AAAA	2620:171:a02:ad::27
 b.ns.nic.yoga.		172800	IN	A	72.42.114.27
 b.ns.nic.yoga.		172800	IN	AAAA	2620:171:d02:dc::27
+yokohama.		172800	IN	NS	a.gmoregistry.net.
+yokohama.		172800	IN	NS	b.gmoregistry.net.
 yokohama.		172800	IN	NS	d.gmoregistry.net.
 yokohama.		172800	IN	NS	e.gmoregistry.net.
 yokohama.		172800	IN	NS	g.gmoregistry.net.
 yokohama.		172800	IN	NS	h.gmoregistry.net.
 yokohama.		172800	IN	NS	i.gmoregistry.net.
 yokohama.		172800	IN	NS	j.gmoregistry.net.
+yokohama.		172800	IN	NS	k.gmoregistry.net.
+yokohama.		172800	IN	NS	l.gmoregistry.net.
 yokohama.		86400	IN	NSEC	youtube. NS DS RRSIG NSEC
 youtube.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 youtube.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
