@@ -377,7 +377,7 @@ ar.			172800	IN	NS	c.dns.ar.
 ar.			172800	IN	NS	d.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
-ar.			86400	IN	NSEC	archi. NS DS RRSIG NSEC
+ar.			86400	IN	NSEC	aramco. NS DS RRSIG NSEC
 a.dns.ar.		172800	IN	A	200.108.145.50
 a.dns.ar.		172800	IN	AAAA	2801:140::10
 b.dns.ar.		172800	IN	A	200.108.147.50
@@ -385,6 +385,25 @@ b.dns.ar.		172800	IN	AAAA	2801:140:11::50
 c.dns.ar.		172800	IN	A	200.108.148.50
 c.dns.ar.		172800	IN	AAAA	2801:140:10::10
 d.dns.ar.		172800	IN	A	200.16.99.17
+aramco.			172800	IN	NS	ns1.dns.nic.aramco.
+aramco.			172800	IN	NS	ns2.dns.nic.aramco.
+aramco.			172800	IN	NS	ns3.dns.nic.aramco.
+aramco.			172800	IN	NS	ns4.dns.nic.aramco.
+aramco.			172800	IN	NS	ns5.dns.nic.aramco.
+aramco.			172800	IN	NS	ns6.dns.nic.aramco.
+aramco.			86400	IN	NSEC	archi. NS DS RRSIG NSEC
+ns1.dns.nic.aramco.	172800	IN	A	156.154.144.14
+ns1.dns.nic.aramco.	172800	IN	AAAA	2610:a1:1071::e
+ns2.dns.nic.aramco.	172800	IN	A	156.154.145.14
+ns2.dns.nic.aramco.	172800	IN	AAAA	2610:a1:1072::e
+ns3.dns.nic.aramco.	172800	IN	A	156.154.159.14
+ns3.dns.nic.aramco.	172800	IN	AAAA	2610:a1:1073::e
+ns4.dns.nic.aramco.	172800	IN	A	156.154.156.14
+ns4.dns.nic.aramco.	172800	IN	AAAA	2610:a1:1074::e
+ns5.dns.nic.aramco.	172800	IN	A	156.154.157.14
+ns5.dns.nic.aramco.	172800	IN	AAAA	2610:a1:1075::e
+ns6.dns.nic.aramco.	172800	IN	A	156.154.158.14
+ns6.dns.nic.aramco.	172800	IN	AAAA	2610:a1:1076::e
 archi.			172800	IN	NS	ns1a.ksregistry.net.
 archi.			172800	IN	NS	ns1b.ksregistry.net.
 archi.			172800	IN	NS	ns2a.ksregistry.com.
@@ -8990,12 +9009,6 @@ today.			172800	IN	NS	demand.gamma.aridns.net.au.
 today.			86400	IN	NSEC	tokyo. NS DS RRSIG NSEC
 tokyo.			172800	IN	NS	a.gmoregistry.net.
 tokyo.			172800	IN	NS	b.gmoregistry.net.
-tokyo.			172800	IN	NS	d.gmoregistry.net.
-tokyo.			172800	IN	NS	e.gmoregistry.net.
-tokyo.			172800	IN	NS	g.gmoregistry.net.
-tokyo.			172800	IN	NS	h.gmoregistry.net.
-tokyo.			172800	IN	NS	i.gmoregistry.net.
-tokyo.			172800	IN	NS	j.gmoregistry.net.
 tokyo.			172800	IN	NS	k.gmoregistry.net.
 tokyo.			172800	IN	NS	l.gmoregistry.net.
 tokyo.			86400	IN	NSEC	tools. NS DS RRSIG NSEC
@@ -10379,7 +10392,26 @@ xn--mgb9awbf.		172800	IN	NS	cctld.beta.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.alpha.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.delta.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
-xn--mgb9awbf.		86400	IN	NSEC	xn--mgba3a4f16a. NS RRSIG NSEC
+xn--mgb9awbf.		86400	IN	NSEC	xn--mgba3a3ejt. NS RRSIG NSEC
+xn--mgba3a3ejt.		172800	IN	NS	ns1.dns.nic.xn--mgba3a3ejt.
+xn--mgba3a3ejt.		172800	IN	NS	ns2.dns.nic.xn--mgba3a3ejt.
+xn--mgba3a3ejt.		172800	IN	NS	ns3.dns.nic.xn--mgba3a3ejt.
+xn--mgba3a3ejt.		172800	IN	NS	ns4.dns.nic.xn--mgba3a3ejt.
+xn--mgba3a3ejt.		172800	IN	NS	ns5.dns.nic.xn--mgba3a3ejt.
+xn--mgba3a3ejt.		172800	IN	NS	ns6.dns.nic.xn--mgba3a3ejt.
+xn--mgba3a3ejt.		86400	IN	NSEC	xn--mgba3a4f16a. NS DS RRSIG NSEC
+ns1.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.144.15
+ns1.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1071::f
+ns2.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.145.15
+ns2.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1072::f
+ns3.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.159.15
+ns3.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1073::f
+ns4.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.156.15
+ns4.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1074::f
+ns5.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.157.15
+ns5.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1075::f
+ns6.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.158.15
+ns6.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1076::f
 xn--mgba3a4f16a.	172800	IN	NS	a.nic.ir.
 xn--mgba3a4f16a.	172800	IN	NS	ns.irnic.ir.
 xn--mgba3a4f16a.	86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
@@ -10792,12 +10824,6 @@ sah1.ye.		172800	IN	A	195.94.0.34
 sah2.ye.		172800	IN	A	195.94.0.35
 yodobashi.		172800	IN	NS	a.gmoregistry.net.
 yodobashi.		172800	IN	NS	b.gmoregistry.net.
-yodobashi.		172800	IN	NS	d.gmoregistry.net.
-yodobashi.		172800	IN	NS	e.gmoregistry.net.
-yodobashi.		172800	IN	NS	g.gmoregistry.net.
-yodobashi.		172800	IN	NS	h.gmoregistry.net.
-yodobashi.		172800	IN	NS	i.gmoregistry.net.
-yodobashi.		172800	IN	NS	j.gmoregistry.net.
 yodobashi.		172800	IN	NS	k.gmoregistry.net.
 yodobashi.		172800	IN	NS	l.gmoregistry.net.
 yodobashi.		86400	IN	NSEC	yoga. NS DS RRSIG NSEC
