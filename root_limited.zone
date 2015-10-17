@@ -2811,8 +2811,8 @@ ns1.cesca.es.		172800	IN	A	84.88.0.3
 ns1.cesca.es.		172800	IN	AAAA	2001:40b0:1:1122:ce5c:a000:0:3
 a.nic.es.		172800	IN	A	194.69.254.1
 a.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000::64:41
-f.nic.es.		172800	IN	A	130.206.1.2
-f.nic.es.		172800	IN	AAAA	2001:720:418:caf1::2
+f.nic.es.		172800	IN	A	130.206.1.7
+f.nic.es.		172800	IN	AAAA	2001:720:418:caf1::7
 g.nic.es.		172800	IN	A	204.61.217.1
 g.nic.es.		172800	IN	AAAA	2001:500:14:7001:ad::1
 ad.ns.nic.es.		172800	IN	A	194.69.254.15
@@ -3505,12 +3505,6 @@ gold.			172800	IN	NS	demand.gamma.aridns.net.au.
 gold.			86400	IN	NSEC	goldpoint. NS DS RRSIG NSEC
 goldpoint.		172800	IN	NS	a.gmoregistry.net.
 goldpoint.		172800	IN	NS	b.gmoregistry.net.
-goldpoint.		172800	IN	NS	d.gmoregistry.net.
-goldpoint.		172800	IN	NS	e.gmoregistry.net.
-goldpoint.		172800	IN	NS	g.gmoregistry.net.
-goldpoint.		172800	IN	NS	h.gmoregistry.net.
-goldpoint.		172800	IN	NS	i.gmoregistry.net.
-goldpoint.		172800	IN	NS	j.gmoregistry.net.
 goldpoint.		172800	IN	NS	k.gmoregistry.net.
 goldpoint.		172800	IN	NS	l.gmoregistry.net.
 goldpoint.		86400	IN	NSEC	golf. NS DS RRSIG NSEC
@@ -6193,17 +6187,6 @@ a.gmoregistry.net.	172800	IN	A	37.209.192.4
 a.gmoregistry.net.	172800	IN	AAAA	2001:dcd:1::4
 b.gmoregistry.net.	172800	IN	A	37.209.194.4
 b.gmoregistry.net.	172800	IN	AAAA	2001:dcd:2::4
-d.gmoregistry.net.	172800	IN	A	120.29.252.11
-d.gmoregistry.net.	172800	IN	AAAA	2001:dcd:5::11
-e.gmoregistry.net.	172800	IN	A	120.29.254.11
-e.gmoregistry.net.	172800	IN	AAAA	2001:dcd:6::11
-g.gmoregistry.net.	172800	IN	A	65.22.165.1
-g.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1be::1
-h.gmoregistry.net.	172800	IN	A	65.22.166.1
-i.gmoregistry.net.	172800	IN	A	65.22.167.1
-i.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1c0::1
-j.gmoregistry.net.	172800	IN	A	65.22.43.1
-j.gmoregistry.net.	172800	IN	AAAA	2a01:8840:1c1::1
 k.gmoregistry.net.	172800	IN	A	37.209.196.4
 l.gmoregistry.net.	172800	IN	A	37.209.198.4
 l.gmoregistry.net.	172800	IN	AAAA	2001:dcd:4::4
