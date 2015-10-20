@@ -426,7 +426,15 @@ arpa.			172800	IN	NS	i.root-servers.net.
 arpa.			172800	IN	NS	k.root-servers.net.
 arpa.			172800	IN	NS	l.root-servers.net.
 arpa.			172800	IN	NS	m.root-servers.net.
-arpa.			86400	IN	NSEC	as. NS DS RRSIG NSEC
+arpa.			86400	IN	NSEC	arte. NS DS RRSIG NSEC
+arte.			172800	IN	NS	a5.nstld.com.
+arte.			172800	IN	NS	c5.nstld.com.
+arte.			172800	IN	NS	d5.nstld.com.
+arte.			172800	IN	NS	f5.nstld.com.
+arte.			172800	IN	NS	g5.nstld.com.
+arte.			172800	IN	NS	h5.nstld.com.
+arte.			172800	IN	NS	l5.nstld.com.
+arte.			86400	IN	NSEC	as. NS DS RRSIG NSEC
 as.			172800	IN	NS	c.ci-servers.net.
 as.			172800	IN	NS	tld.gdns.net.
 as.			172800	IN	NS	ns99.dns.net.nz.
