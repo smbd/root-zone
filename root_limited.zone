@@ -5726,8 +5726,12 @@ museum.			172800	IN	NS	nic.museum.
 museum.			172800	IN	NS	ns5.knipp.de.
 museum.			172800	IN	NS	anyc1.irondns.net.
 museum.			172800	IN	NS	sns-pb.isc.org.
-museum.			86400	IN	NSEC	mv. NS DS RRSIG NSEC
+museum.			86400	IN	NSEC	mutuelle. NS DS RRSIG NSEC
 nic.museum.		172800	IN	A	91.194.60.91
+mutuelle.		172800	IN	NS	d.nic.fr.
+mutuelle.		172800	IN	NS	f.ext.nic.fr.
+mutuelle.		172800	IN	NS	g.ext.nic.fr.
+mutuelle.		86400	IN	NSEC	mv. NS DS RRSIG NSEC
 mv.			172800	IN	NS	ns.dhivehinet.net.mv.
 mv.			172800	IN	NS	ns2.dhivehinet.net.mv.
 mv.			172800	IN	NS	mv-ns.anycast.pch.net.
