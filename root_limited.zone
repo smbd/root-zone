@@ -4401,7 +4401,7 @@ iwc.			172800	IN	NS	ns3.dns.nic.iwc.
 iwc.			172800	IN	NS	ns4.dns.nic.iwc.
 iwc.			172800	IN	NS	ns5.dns.nic.iwc.
 iwc.			172800	IN	NS	ns6.dns.nic.iwc.
-iwc.			86400	IN	NSEC	java. NS DS RRSIG NSEC
+iwc.			86400	IN	NSEC	jaguar. NS DS RRSIG NSEC
 ns1.dns.nic.iwc.	172800	IN	A	156.154.144.85
 ns1.dns.nic.iwc.	172800	IN	AAAA	2610:a1:1071::55
 ns2.dns.nic.iwc.	172800	IN	A	156.154.145.85
@@ -4414,6 +4414,14 @@ ns5.dns.nic.iwc.	172800	IN	A	156.154.157.85
 ns5.dns.nic.iwc.	172800	IN	AAAA	2610:a1:1075::55
 ns6.dns.nic.iwc.	172800	IN	A	156.154.158.85
 ns6.dns.nic.iwc.	172800	IN	AAAA	2610:a1:1076::55
+jaguar.			172800	IN	NS	a5.nstld.com.
+jaguar.			172800	IN	NS	c5.nstld.com.
+jaguar.			172800	IN	NS	d5.nstld.com.
+jaguar.			172800	IN	NS	f5.nstld.com.
+jaguar.			172800	IN	NS	g5.nstld.com.
+jaguar.			172800	IN	NS	h5.nstld.com.
+jaguar.			172800	IN	NS	l5.nstld.com.
+jaguar.			86400	IN	NSEC	java. NS DS RRSIG NSEC
 java.			172800	IN	NS	a5.nstld.com.
 java.			172800	IN	NS	c5.nstld.com.
 java.			172800	IN	NS	d5.nstld.com.
@@ -7851,11 +7859,19 @@ rw.			172800	IN	NS	pch.ricta.org.rw.
 rw.			172800	IN	NS	fork.sth.dnsnode.net.
 rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
-rw.			86400	IN	NSEC	ryukyu. NS RRSIG NSEC
+rw.			86400	IN	NSEC	rwe. NS RRSIG NSEC
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
 ns3.ricta.org.rw.	172800	IN	A	41.186.53.10
 pch.ricta.org.rw.	172800	IN	A	204.61.216.91
 pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad::1
+rwe.			172800	IN	NS	a5.nstld.com.
+rwe.			172800	IN	NS	c5.nstld.com.
+rwe.			172800	IN	NS	d5.nstld.com.
+rwe.			172800	IN	NS	f5.nstld.com.
+rwe.			172800	IN	NS	g5.nstld.com.
+rwe.			172800	IN	NS	h5.nstld.com.
+rwe.			172800	IN	NS	l5.nstld.com.
+rwe.			86400	IN	NSEC	ryukyu. NS DS RRSIG NSEC
 ryukyu.			172800	IN	NS	a.gmoregistry.net.
 ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	k.gmoregistry.net.
@@ -10848,7 +10864,7 @@ za.			172800	IN	NS	disa.tenet.ac.za.
 za.			172800	IN	NS	nsza.is.co.za.
 za.			172800	IN	NS	za-ns.anycast.pch.net.
 za.			172800	IN	NS	sns-pb.isc.org.
-za.			86400	IN	NSEC	zip. NS RRSIG NSEC
+za.			86400	IN	NSEC	zara. NS RRSIG NSEC
 hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 hippo.ru.ac.za.		172800	IN	AAAA	2001:4200:1010::1
 disa.tenet.ac.za.	172800	IN	A	196.21.79.50
@@ -10857,6 +10873,19 @@ nsza.is.co.za.		172800	IN	A	196.4.160.27
 ns.coza.net.za.		172800	IN	A	206.223.136.200
 ns.coza.net.za.		172800	IN	AAAA	2001:43f8:30::200
 ns1.coza.net.za.	172800	IN	A	66.135.62.20
+zara.			172800	IN	NS	a0.nic.zara.
+zara.			172800	IN	NS	a2.nic.zara.
+zara.			172800	IN	NS	b0.nic.zara.
+zara.			172800	IN	NS	c0.nic.zara.
+zara.			86400	IN	NSEC	zip. NS DS RRSIG NSEC
+a0.nic.zara.		172800	IN	A	65.22.232.33
+a0.nic.zara.		172800	IN	AAAA	2a01:8840:e2::33
+a2.nic.zara.		172800	IN	A	65.22.235.33
+a2.nic.zara.		172800	IN	AAAA	2a01:8840:e5::33
+b0.nic.zara.		172800	IN	A	65.22.233.33
+b0.nic.zara.		172800	IN	AAAA	2a01:8840:e3::33
+c0.nic.zara.		172800	IN	A	65.22.234.33
+c0.nic.zara.		172800	IN	AAAA	2a01:8840:e4::33
 zip.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 zip.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 zip.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
