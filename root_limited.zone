@@ -3641,10 +3641,29 @@ gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
 gu.			172800	IN	NS	ns.gu.
 gu.			172800	IN	NS	ns.edu.gu.
 gu.			172800	IN	NS	nsuog.edu.gu.
-gu.			86400	IN	NSEC	guge. NS RRSIG NSEC
+gu.			86400	IN	NSEC	gucci. NS RRSIG NSEC
 ns.edu.gu.		172800	IN	A	168.123.2.50
 nsuog.edu.gu.		172800	IN	A	67.98.164.133
 ns.gu.			172800	IN	A	168.123.4.10
+gucci.			172800	IN	NS	ns1.dns.nic.gucci.
+gucci.			172800	IN	NS	ns2.dns.nic.gucci.
+gucci.			172800	IN	NS	ns3.dns.nic.gucci.
+gucci.			172800	IN	NS	ns4.dns.nic.gucci.
+gucci.			172800	IN	NS	ns5.dns.nic.gucci.
+gucci.			172800	IN	NS	ns6.dns.nic.gucci.
+gucci.			86400	IN	NSEC	guge. NS DS RRSIG NSEC
+ns1.dns.nic.gucci.	172800	IN	A	156.154.144.69
+ns1.dns.nic.gucci.	172800	IN	AAAA	2610:a1:1071::45
+ns2.dns.nic.gucci.	172800	IN	A	156.154.145.69
+ns2.dns.nic.gucci.	172800	IN	AAAA	2610:a1:1072::45
+ns3.dns.nic.gucci.	172800	IN	A	156.154.159.69
+ns3.dns.nic.gucci.	172800	IN	AAAA	2610:a1:1073::45
+ns4.dns.nic.gucci.	172800	IN	A	156.154.156.69
+ns4.dns.nic.gucci.	172800	IN	AAAA	2610:a1:1074::45
+ns5.dns.nic.gucci.	172800	IN	A	156.154.157.69
+ns5.dns.nic.gucci.	172800	IN	AAAA	2610:a1:1075::45
+ns6.dns.nic.gucci.	172800	IN	A	156.154.158.69
+ns6.dns.nic.gucci.	172800	IN	AAAA	2610:a1:1076::45
 guge.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 guge.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 guge.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -4795,7 +4814,15 @@ land.			172800	IN	NS	demand.beta.aridns.net.au.
 land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
 land.			172800	IN	NS	demand.gamma.aridns.net.au.
-land.			86400	IN	NSEC	lasalle. NS DS RRSIG NSEC
+land.			86400	IN	NSEC	landrover. NS DS RRSIG NSEC
+landrover.		172800	IN	NS	a5.nstld.com.
+landrover.		172800	IN	NS	c5.nstld.com.
+landrover.		172800	IN	NS	d5.nstld.com.
+landrover.		172800	IN	NS	f5.nstld.com.
+landrover.		172800	IN	NS	g5.nstld.com.
+landrover.		172800	IN	NS	h5.nstld.com.
+landrover.		172800	IN	NS	l5.nstld.com.
+landrover.		86400	IN	NSEC	lasalle. NS DS RRSIG NSEC
 lasalle.		172800	IN	NS	a0.nic.lasalle.
 lasalle.		172800	IN	NS	a2.nic.lasalle.
 lasalle.		172800	IN	NS	b0.nic.lasalle.
