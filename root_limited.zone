@@ -1285,7 +1285,9 @@ bw.			172800	IN	NS	pch.nic.net.bw.
 bw.			172800	IN	NS	dns1.nic.net.bw.
 bw.			172800	IN	NS	dns2.nic.net.bw.
 bw.			172800	IN	NS	ns-bw.afrinic.net.
+bw.			172800	IN	NS	master.btc.net.bw.
 bw.			86400	IN	NSEC	by. NS RRSIG NSEC
+master.btc.net.bw.	172800	IN	A	168.167.168.37
 dns1.nic.net.bw.	172800	IN	A	168.167.98.226
 dns1.nic.net.bw.	172800	IN	AAAA	2c0f:ff00:1:3::226
 dns2.nic.net.bw.	172800	IN	A	168.167.98.218
@@ -8002,9 +8004,17 @@ sb.			172800	IN	NS	pch.nic.sb.
 sb.			172800	IN	NS	sb1.dyntld.net.
 sb.			172800	IN	NS	sb3.dyntld.net.
 sb.			172800	IN	NS	sns-pb.isc.org.
-sb.			86400	IN	NSEC	sc. NS DS RRSIG NSEC
+sb.			86400	IN	NSEC	sbs. NS DS RRSIG NSEC
 pch.nic.sb.		172800	IN	A	204.61.216.31
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
+sbs.			172800	IN	NS	a5.nstld.com.
+sbs.			172800	IN	NS	c5.nstld.com.
+sbs.			172800	IN	NS	d5.nstld.com.
+sbs.			172800	IN	NS	f5.nstld.com.
+sbs.			172800	IN	NS	g5.nstld.com.
+sbs.			172800	IN	NS	h5.nstld.com.
+sbs.			172800	IN	NS	l5.nstld.com.
+sbs.			86400	IN	NSEC	sc. NS DS RRSIG NSEC
 sc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 sc.			172800	IN	NS	b0.cctld.afilias-nst.org.
