@@ -5411,7 +5411,7 @@ menu.			172800	IN	NS	a.nic.menu.
 menu.			172800	IN	NS	b.nic.menu.
 menu.			172800	IN	NS	c.nic.menu.
 menu.			172800	IN	NS	d.nic.menu.
-menu.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
+menu.			86400	IN	NSEC	meo. NS DS RRSIG NSEC
 a.nic.menu.		172800	IN	A	37.209.192.10
 a.nic.menu.		172800	IN	AAAA	2001:dcd:1::10
 b.nic.menu.		172800	IN	A	37.209.194.10
@@ -5420,6 +5420,18 @@ c.nic.menu.		172800	IN	A	37.209.196.10
 c.nic.menu.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.menu.		172800	IN	A	37.209.198.10
 d.nic.menu.		172800	IN	AAAA	2001:dcd:4::10
+meo.			172800	IN	NS	a.ns.nic.meo.
+meo.			172800	IN	NS	c.ns.nic.meo.
+meo.			172800	IN	NS	x.ns.nic.meo.
+meo.			172800	IN	NS	y.ns.nic.meo.
+meo.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
+a.ns.nic.meo.		172800	IN	A	89.207.190.21
+a.ns.nic.meo.		172800	IN	AAAA	2a02:2790:1:53::9:1
+c.ns.nic.meo.		172800	IN	A	54.75.248.230
+x.ns.nic.meo.		172800	IN	A	195.253.64.4
+x.ns.nic.meo.		172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.meo.		172800	IN	A	195.253.64.7
+y.ns.nic.meo.		172800	IN	AAAA	2a01:5b0:4::7
 mg.			172800	IN	NS	a.mg.dyntld.net.
 mg.			172800	IN	NS	b.mg.dyntld.net.
 mg.			172800	IN	NS	mg.cctld.authdns.ripe.net.
@@ -7243,7 +7255,26 @@ pictures.		172800	IN	NS	demand.beta.aridns.net.au.
 pictures.		172800	IN	NS	demand.alpha.aridns.net.au.
 pictures.		172800	IN	NS	demand.delta.aridns.net.au.
 pictures.		172800	IN	NS	demand.gamma.aridns.net.au.
-pictures.		86400	IN	NSEC	pink. NS DS RRSIG NSEC
+pictures.		86400	IN	NSEC	ping. NS DS RRSIG NSEC
+ping.			172800	IN	NS	ns1.dns.nic.ping.
+ping.			172800	IN	NS	ns2.dns.nic.ping.
+ping.			172800	IN	NS	ns3.dns.nic.ping.
+ping.			172800	IN	NS	ns4.dns.nic.ping.
+ping.			172800	IN	NS	ns5.dns.nic.ping.
+ping.			172800	IN	NS	ns6.dns.nic.ping.
+ping.			86400	IN	NSEC	pink. NS DS RRSIG NSEC
+ns1.dns.nic.ping.	172800	IN	A	156.154.169.29
+ns1.dns.nic.ping.	172800	IN	AAAA	2610:a1:1071::1:1d
+ns2.dns.nic.ping.	172800	IN	A	156.154.170.29
+ns2.dns.nic.ping.	172800	IN	AAAA	2610:a1:1072::1:1d
+ns3.dns.nic.ping.	172800	IN	A	156.154.171.29
+ns3.dns.nic.ping.	172800	IN	AAAA	2610:a1:1073::1:1d
+ns4.dns.nic.ping.	172800	IN	A	156.154.172.29
+ns4.dns.nic.ping.	172800	IN	AAAA	2610:a1:1074::1:1d
+ns5.dns.nic.ping.	172800	IN	A	156.154.173.29
+ns5.dns.nic.ping.	172800	IN	AAAA	2610:a1:1075::1:1d
+ns6.dns.nic.ping.	172800	IN	A	156.154.174.29
+ns6.dns.nic.ping.	172800	IN	AAAA	2610:a1:1076::1:1d
 pink.			172800	IN	NS	a0.nic.pink.
 pink.			172800	IN	NS	a2.nic.pink.
 pink.			172800	IN	NS	b0.nic.pink.
@@ -7981,7 +8012,19 @@ sap.			172800	IN	NS	anycast9.irondns.net.
 sap.			172800	IN	NS	anycast10.irondns.net.
 sap.			172800	IN	NS	anycast23.irondns.net.
 sap.			172800	IN	NS	anycast24.irondns.net.
-sap.			86400	IN	NSEC	sarl. NS DS RRSIG NSEC
+sap.			86400	IN	NSEC	sapo. NS DS RRSIG NSEC
+sapo.			172800	IN	NS	a.ns.nic.sapo.
+sapo.			172800	IN	NS	c.ns.nic.sapo.
+sapo.			172800	IN	NS	x.ns.nic.sapo.
+sapo.			172800	IN	NS	y.ns.nic.sapo.
+sapo.			86400	IN	NSEC	sarl. NS DS RRSIG NSEC
+a.ns.nic.sapo.		172800	IN	A	89.207.190.20
+a.ns.nic.sapo.		172800	IN	AAAA	2a02:2790:1:53::7:1
+c.ns.nic.sapo.		172800	IN	A	54.75.248.180
+x.ns.nic.sapo.		172800	IN	A	195.253.64.4
+x.ns.nic.sapo.		172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.sapo.		172800	IN	A	195.253.64.7
+y.ns.nic.sapo.		172800	IN	AAAA	2a01:5b0:4::7
 sarl.			172800	IN	NS	demand.beta.aridns.net.au.
 sarl.			172800	IN	NS	demand.alpha.aridns.net.au.
 sarl.			172800	IN	NS	demand.delta.aridns.net.au.
