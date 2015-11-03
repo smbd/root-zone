@@ -21,7 +21,7 @@ aaa.			172800	IN	NS	ns3.dns.nic.aaa.
 aaa.			172800	IN	NS	ns4.dns.nic.aaa.
 aaa.			172800	IN	NS	ns5.dns.nic.aaa.
 aaa.			172800	IN	NS	ns6.dns.nic.aaa.
-aaa.			86400	IN	NSEC	abb. NS DS RRSIG NSEC
+aaa.			86400	IN	NSEC	aarp. NS DS RRSIG NSEC
 ns1.dns.nic.aaa.	172800	IN	A	156.154.144.2
 ns1.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1071::2
 ns2.dns.nic.aaa.	172800	IN	A	156.154.145.2
@@ -34,6 +34,14 @@ ns5.dns.nic.aaa.	172800	IN	A	156.154.157.2
 ns5.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1075::2
 ns6.dns.nic.aaa.	172800	IN	A	156.154.158.2
 ns6.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1076::2
+aarp.			172800	IN	NS	a5.nstld.com.
+aarp.			172800	IN	NS	c5.nstld.com.
+aarp.			172800	IN	NS	d5.nstld.com.
+aarp.			172800	IN	NS	f5.nstld.com.
+aarp.			172800	IN	NS	g5.nstld.com.
+aarp.			172800	IN	NS	h5.nstld.com.
+aarp.			172800	IN	NS	l5.nstld.com.
+aarp.			86400	IN	NSEC	abb. NS DS RRSIG NSEC
 abb.			172800	IN	NS	a5.nstld.com.
 abb.			172800	IN	NS	c5.nstld.com.
 abb.			172800	IN	NS	d5.nstld.com.
@@ -360,7 +368,20 @@ app.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 app.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 app.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 app.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-app.			86400	IN	NSEC	aq. NS DS RRSIG NSEC
+app.			86400	IN	NSEC	apple. NS DS RRSIG NSEC
+apple.			172800	IN	NS	a0.nic.apple.
+apple.			172800	IN	NS	a2.nic.apple.
+apple.			172800	IN	NS	b0.nic.apple.
+apple.			172800	IN	NS	c0.nic.apple.
+apple.			86400	IN	NSEC	aq. NS DS RRSIG NSEC
+a0.nic.apple.		172800	IN	A	65.22.60.1
+a0.nic.apple.		172800	IN	AAAA	2a01:8840:3a::1
+a2.nic.apple.		172800	IN	A	65.22.63.1
+a2.nic.apple.		172800	IN	AAAA	2a01:8840:3d::1
+b0.nic.apple.		172800	IN	A	65.22.61.1
+b0.nic.apple.		172800	IN	AAAA	2a01:8840:3b::1
+c0.nic.apple.		172800	IN	A	65.22.62.1
+c0.nic.apple.		172800	IN	AAAA	2a01:8840:3c::1
 aq.			172800	IN	NS	ns1.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
@@ -748,7 +769,7 @@ be.			172800	IN	NS	c.ns.dns.be.
 be.			172800	IN	NS	d.ns.dns.be.
 be.			172800	IN	NS	x.ns.dns.be.
 be.			172800	IN	NS	y.ns.dns.be.
-be.			86400	IN	NSEC	beer. NS DS RRSIG NSEC
+be.			86400	IN	NSEC	beats. NS DS RRSIG NSEC
 a.ns.dns.be.		172800	IN	A	194.0.6.1
 a.ns.dns.be.		172800	IN	AAAA	2001:678:9::1
 b.ns.dns.be.		172800	IN	A	194.0.37.1
@@ -761,6 +782,19 @@ x.ns.dns.be.		172800	IN	A	194.0.1.10
 x.ns.dns.be.		172800	IN	AAAA	2001:678:4::a
 y.ns.dns.be.		172800	IN	A	120.29.253.8
 y.ns.dns.be.		172800	IN	AAAA	2001:dcd:7::8
+beats.			172800	IN	NS	a0.nic.beats.
+beats.			172800	IN	NS	a2.nic.beats.
+beats.			172800	IN	NS	b0.nic.beats.
+beats.			172800	IN	NS	c0.nic.beats.
+beats.			86400	IN	NSEC	beer. NS DS RRSIG NSEC
+a0.nic.beats.		172800	IN	A	65.22.60.9
+a0.nic.beats.		172800	IN	AAAA	2a01:8840:3a::9
+a2.nic.beats.		172800	IN	A	65.22.63.9
+a2.nic.beats.		172800	IN	AAAA	2a01:8840:3d::9
+b0.nic.beats.		172800	IN	A	65.22.61.9
+b0.nic.beats.		172800	IN	AAAA	2a01:8840:3b::9
+c0.nic.beats.		172800	IN	A	65.22.62.9
+c0.nic.beats.		172800	IN	AAAA	2a01:8840:3c::9
 beer.			172800	IN	NS	a.ns.nic.beer.
 beer.			172800	IN	NS	b.ns.nic.beer.
 beer.			86400	IN	NSEC	bentley. NS DS RRSIG NSEC
@@ -9516,14 +9550,13 @@ vg.			172800	IN	NS	vg.cctld.authdns.ripe.net.
 vg.			172800	IN	NS	vg-ns.anycast.pch.net.
 vg.			172800	IN	NS	vg-ns.ksregistry.net.
 vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
-vi.			172800	IN	NS	ns0.nic.vi.
 vi.			172800	IN	NS	ns1.nic.vi.
 vi.			172800	IN	NS	ns3.nic.vi.
 vi.			172800	IN	NS	auth100.ns.uu.net.
 vi.			172800	IN	NS	auth110.ns.uu.net.
 vi.			86400	IN	NSEC	viajes. NS RRSIG NSEC
-ns0.nic.vi.		172800	IN	AAAA	2001:500:2e::1
 ns1.nic.vi.		172800	IN	A	192.5.4.1
+ns1.nic.vi.		172800	IN	AAAA	2001:500:2e::1
 ns3.nic.vi.		172800	IN	A	68.178.129.149
 viajes.			172800	IN	NS	demand.beta.aridns.net.au.
 viajes.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -10540,7 +10573,12 @@ xn--mgberp4a5d4ar.	172800	IN	NS	sa-ns.anycast.pch.net.
 xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbpl2fh. NS RRSIG NSEC
 xn--mgbpl2fh.		172800	IN	NS	pch.sis.sd.
 xn--mgbpl2fh.		172800	IN	NS	ans1.sis.sd.
-xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
+xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbtx2b. NS RRSIG NSEC
+xn--mgbtx2b.		172800	IN	NS	ns1.cmc.iq.
+xn--mgbtx2b.		172800	IN	NS	dyn1.cmc.iq.
+xn--mgbtx2b.		172800	IN	NS	dyn2.cmc.iq.
+xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
+xn--mgbtx2b.		86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
 xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	c.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	d.mynic.net.my.
@@ -10679,7 +10717,13 @@ xn--qcka1pmc.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--qcka1pmc.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 xn--qcka1pmc.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 xn--qcka1pmc.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-xn--qcka1pmc.		86400	IN	NSEC	xn--rhqv96g. NS DS RRSIG NSEC
+xn--qcka1pmc.		86400	IN	NSEC	xn--qxam. NS DS RRSIG NSEC
+xn--qxam.		172800	IN	NS	estia.ics.forth.gr.
+xn--qxam.		172800	IN	NS	gr-at.ics.forth.gr.
+xn--qxam.		172800	IN	NS	gr-ix.ics.forth.gr.
+xn--qxam.		172800	IN	NS	grdns.ics.forth.gr.
+xn--qxam.		172800	IN	NS	grdns-de.denic.de.
+xn--qxam.		86400	IN	NSEC	xn--rhqv96g. NS RRSIG NSEC
 xn--rhqv96g.		172800	IN	NS	ns1.dns.nic.xn--rhqv96g.
 xn--rhqv96g.		172800	IN	NS	ns2.dns.nic.xn--rhqv96g.
 xn--rhqv96g.		172800	IN	NS	ns3.dns.nic.xn--rhqv96g.
