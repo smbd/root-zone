@@ -1929,6 +1929,11 @@ tc.ngtld.cn.		172800	IN	A	42.83.132.1
 tc.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd3::1
 td.ngtld.cn.		172800	IN	A	42.83.133.1
 te.ngtld.cn.		172800	IN	A	42.83.134.1
+ns1.teleinfo.cn.	172800	IN	A	103.61.60.1
+ns1.teleinfo.cn.	172800	IN	AAAA	2402:7d80::1
+ns2.teleinfo.cn.	172800	IN	A	103.61.61.1
+ns2.teleinfo.cn.	172800	IN	AAAA	2402:7d80:8888::1
+ns3.teleinfo.cn.	172800	IN	A	103.61.62.1
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
 co.			172800	IN	NS	ns3.cctld.co.
@@ -10848,11 +10853,9 @@ xn--vhquv.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.delta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.gamma.aridns.net.au.
 xn--vhquv.		86400	IN	NSEC	xn--vuq861b. NS DS RRSIG NSEC
-xn--vuq861b.		172800	IN	NS	ta.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	tb.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	tc.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	td.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	te.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	ns1.teleinfo.cn.
+xn--vuq861b.		172800	IN	NS	ns2.teleinfo.cn.
+xn--vuq861b.		172800	IN	NS	ns3.teleinfo.cn.
 xn--vuq861b.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
