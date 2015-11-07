@@ -3038,7 +3038,7 @@ feedback.		172800	IN	NS	a.nic.feedback.
 feedback.		172800	IN	NS	b.nic.feedback.
 feedback.		172800	IN	NS	c.nic.feedback.
 feedback.		172800	IN	NS	d.nic.feedback.
-feedback.		86400	IN	NSEC	fi. NS DS RRSIG NSEC
+feedback.		86400	IN	NSEC	ferrero. NS DS RRSIG NSEC
 a.nic.feedback.		172800	IN	A	194.169.218.50
 a.nic.feedback.		172800	IN	AAAA	2001:67c:13cc::1:50
 b.nic.feedback.		172800	IN	A	185.24.64.50
@@ -3047,6 +3047,25 @@ c.nic.feedback.		172800	IN	A	212.18.248.50
 c.nic.feedback.		172800	IN	AAAA	2a04:2b00:13ee::50
 d.nic.feedback.		172800	IN	A	212.18.249.50
 d.nic.feedback.		172800	IN	AAAA	2a04:2b00:13ff::50
+ferrero.		172800	IN	NS	ns1.dns.nic.ferrero.
+ferrero.		172800	IN	NS	ns2.dns.nic.ferrero.
+ferrero.		172800	IN	NS	ns3.dns.nic.ferrero.
+ferrero.		172800	IN	NS	ns4.dns.nic.ferrero.
+ferrero.		172800	IN	NS	ns5.dns.nic.ferrero.
+ferrero.		172800	IN	NS	ns6.dns.nic.ferrero.
+ferrero.		86400	IN	NSEC	fi. NS DS RRSIG NSEC
+ns1.dns.nic.ferrero.	172800	IN	A	156.154.144.57
+ns1.dns.nic.ferrero.	172800	IN	AAAA	2610:a1:1071::39
+ns2.dns.nic.ferrero.	172800	IN	A	156.154.145.57
+ns2.dns.nic.ferrero.	172800	IN	AAAA	2610:a1:1072::39
+ns3.dns.nic.ferrero.	172800	IN	A	156.154.159.57
+ns3.dns.nic.ferrero.	172800	IN	AAAA	2610:a1:1073::39
+ns4.dns.nic.ferrero.	172800	IN	A	156.154.156.57
+ns4.dns.nic.ferrero.	172800	IN	AAAA	2610:a1:1074::39
+ns5.dns.nic.ferrero.	172800	IN	A	156.154.157.57
+ns5.dns.nic.ferrero.	172800	IN	AAAA	2610:a1:1075::39
+ns6.dns.nic.ferrero.	172800	IN	A	156.154.158.57
+ns6.dns.nic.ferrero.	172800	IN	AAAA	2610:a1:1076::39
 fi.			172800	IN	NS	a.fi.
 fi.			172800	IN	NS	b.fi.
 fi.			172800	IN	NS	c.fi.
@@ -7369,7 +7388,20 @@ play.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 play.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 play.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 play.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-play.			86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
+play.			86400	IN	NSEC	playstation. NS DS RRSIG NSEC
+playstation.		172800	IN	NS	a.nic.playstation.
+playstation.		172800	IN	NS	b.nic.playstation.
+playstation.		172800	IN	NS	c.nic.playstation.
+playstation.		172800	IN	NS	d.nic.playstation.
+playstation.		86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
+a.nic.playstation.	172800	IN	A	37.209.192.9
+a.nic.playstation.	172800	IN	AAAA	2001:dcd:1::9
+b.nic.playstation.	172800	IN	A	37.209.194.9
+b.nic.playstation.	172800	IN	AAAA	2001:dcd:2::9
+c.nic.playstation.	172800	IN	A	37.209.196.9
+c.nic.playstation.	172800	IN	AAAA	2001:dcd:3::9
+d.nic.playstation.	172800	IN	A	37.209.198.9
+d.nic.playstation.	172800	IN	AAAA	2001:dcd:4::9
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
 plumbing.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -7877,7 +7909,7 @@ ro.			172800	IN	NS	sns-pb.isc.org.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
-ro.			86400	IN	NSEC	rocks. NS RRSIG NSEC
+ro.			86400	IN	NSEC	rocher. NS RRSIG NSEC
 dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb::6
 dns-md.rotld.ro.	172800	IN	A	192.162.16.19
@@ -7888,6 +7920,25 @@ sec-dns-a.rotld.ro.	172800	IN	A	192.162.16.20
 sec-dns-a.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:4:192:162:16:20
 sec-dns-b.rotld.ro.	172800	IN	A	193.230.31.230
 sec-dns-b.rotld.ro.	172800	IN	AAAA	2a03:5e80:0:5:193:230:31:230
+rocher.			172800	IN	NS	ns1.dns.nic.rocher.
+rocher.			172800	IN	NS	ns2.dns.nic.rocher.
+rocher.			172800	IN	NS	ns3.dns.nic.rocher.
+rocher.			172800	IN	NS	ns4.dns.nic.rocher.
+rocher.			172800	IN	NS	ns5.dns.nic.rocher.
+rocher.			172800	IN	NS	ns6.dns.nic.rocher.
+rocher.			86400	IN	NSEC	rocks. NS DS RRSIG NSEC
+ns1.dns.nic.rocher.	172800	IN	A	156.154.144.145
+ns1.dns.nic.rocher.	172800	IN	AAAA	2610:a1:1071::91
+ns2.dns.nic.rocher.	172800	IN	A	156.154.145.145
+ns2.dns.nic.rocher.	172800	IN	AAAA	2610:a1:1072::91
+ns3.dns.nic.rocher.	172800	IN	A	156.154.159.145
+ns3.dns.nic.rocher.	172800	IN	AAAA	2610:a1:1073::91
+ns4.dns.nic.rocher.	172800	IN	A	156.154.156.145
+ns4.dns.nic.rocher.	172800	IN	AAAA	2610:a1:1074::91
+ns5.dns.nic.rocher.	172800	IN	A	156.154.157.145
+ns5.dns.nic.rocher.	172800	IN	AAAA	2610:a1:1075::91
+ns6.dns.nic.rocher.	172800	IN	A	156.154.158.145
+ns6.dns.nic.rocher.	172800	IN	AAAA	2610:a1:1076::91
 rocks.			172800	IN	NS	demand.beta.aridns.net.au.
 rocks.			172800	IN	NS	demand.alpha.aridns.net.au.
 rocks.			172800	IN	NS	demand.delta.aridns.net.au.
