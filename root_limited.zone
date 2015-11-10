@@ -1789,7 +1789,15 @@ city.			172800	IN	NS	demand.beta.aridns.net.au.
 city.			172800	IN	NS	demand.alpha.aridns.net.au.
 city.			172800	IN	NS	demand.delta.aridns.net.au.
 city.			172800	IN	NS	demand.gamma.aridns.net.au.
-city.			86400	IN	NSEC	ck. NS DS RRSIG NSEC
+city.			86400	IN	NSEC	cityeats. NS DS RRSIG NSEC
+cityeats.		172800	IN	NS	a5.nstld.com.
+cityeats.		172800	IN	NS	c5.nstld.com.
+cityeats.		172800	IN	NS	d5.nstld.com.
+cityeats.		172800	IN	NS	f5.nstld.com.
+cityeats.		172800	IN	NS	g5.nstld.com.
+cityeats.		172800	IN	NS	h5.nstld.com.
+cityeats.		172800	IN	NS	l5.nstld.com.
+cityeats.		86400	IN	NSEC	ck. NS DS RRSIG NSEC
 ck.			172800	IN	NS	circa.mcs.vuw.ac.nz.
 ck.			172800	IN	NS	parau.oyster.net.ck.
 ck.			172800	IN	NS	poiparau.oyster.net.ck.
@@ -2209,7 +2217,20 @@ creditcard.		172800	IN	NS	demand.beta.aridns.net.au.
 creditcard.		172800	IN	NS	demand.alpha.aridns.net.au.
 creditcard.		172800	IN	NS	demand.delta.aridns.net.au.
 creditcard.		172800	IN	NS	demand.gamma.aridns.net.au.
-creditcard.		86400	IN	NSEC	cricket. NS DS RRSIG NSEC
+creditcard.		86400	IN	NSEC	creditunion. NS DS RRSIG NSEC
+creditunion.		172800	IN	NS	a0.nic.creditunion.
+creditunion.		172800	IN	NS	a2.nic.creditunion.
+creditunion.		172800	IN	NS	b0.nic.creditunion.
+creditunion.		172800	IN	NS	c0.nic.creditunion.
+creditunion.		86400	IN	NSEC	cricket. NS DS RRSIG NSEC
+a0.nic.creditunion.	172800	IN	A	65.22.224.9
+a0.nic.creditunion.	172800	IN	AAAA	2a01:8840:da::9
+a2.nic.creditunion.	172800	IN	A	65.22.227.9
+a2.nic.creditunion.	172800	IN	AAAA	2a01:8840:dd::9
+b0.nic.creditunion.	172800	IN	A	65.22.225.9
+b0.nic.creditunion.	172800	IN	AAAA	2a01:8840:db::9
+c0.nic.creditunion.	172800	IN	A	65.22.226.9
+c0.nic.creditunion.	172800	IN	AAAA	2a01:8840:dc::9
 cricket.		172800	IN	NS	ns1.dns.nic.cricket.
 cricket.		172800	IN	NS	ns2.dns.nic.cricket.
 cricket.		172800	IN	NS	ns3.dns.nic.cricket.
@@ -5042,7 +5063,15 @@ life.			172800	IN	NS	demand.beta.aridns.net.au.
 life.			172800	IN	NS	demand.alpha.aridns.net.au.
 life.			172800	IN	NS	demand.delta.aridns.net.au.
 life.			172800	IN	NS	demand.gamma.aridns.net.au.
-life.			86400	IN	NSEC	lighting. NS DS RRSIG NSEC
+life.			86400	IN	NSEC	lifestyle. NS DS RRSIG NSEC
+lifestyle.		172800	IN	NS	a5.nstld.com.
+lifestyle.		172800	IN	NS	c5.nstld.com.
+lifestyle.		172800	IN	NS	d5.nstld.com.
+lifestyle.		172800	IN	NS	f5.nstld.com.
+lifestyle.		172800	IN	NS	g5.nstld.com.
+lifestyle.		172800	IN	NS	h5.nstld.com.
+lifestyle.		172800	IN	NS	l5.nstld.com.
+lifestyle.		86400	IN	NSEC	lighting. NS DS RRSIG NSEC
 lighting.		172800	IN	NS	demand.beta.aridns.net.au.
 lighting.		172800	IN	NS	demand.alpha.aridns.net.au.
 lighting.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -9546,7 +9575,15 @@ vacations.		172800	IN	NS	demand.beta.aridns.net.au.
 vacations.		172800	IN	NS	demand.alpha.aridns.net.au.
 vacations.		172800	IN	NS	demand.delta.aridns.net.au.
 vacations.		172800	IN	NS	demand.gamma.aridns.net.au.
-vacations.		86400	IN	NSEC	vc. NS DS RRSIG NSEC
+vacations.		86400	IN	NSEC	vana. NS DS RRSIG NSEC
+vana.			172800	IN	NS	a5.nstld.com.
+vana.			172800	IN	NS	c5.nstld.com.
+vana.			172800	IN	NS	d5.nstld.com.
+vana.			172800	IN	NS	f5.nstld.com.
+vana.			172800	IN	NS	g5.nstld.com.
+vana.			172800	IN	NS	h5.nstld.com.
+vana.			172800	IN	NS	l5.nstld.com.
+vana.			86400	IN	NSEC	vc. NS DS RRSIG NSEC
 vc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 vc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 vc.			172800	IN	NS	b0.cctld.afilias-nst.org.
