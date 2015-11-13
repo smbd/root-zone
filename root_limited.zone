@@ -1937,11 +1937,6 @@ tc.ngtld.cn.		172800	IN	A	42.83.132.1
 tc.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd3::1
 td.ngtld.cn.		172800	IN	A	42.83.133.1
 te.ngtld.cn.		172800	IN	A	42.83.134.1
-ns1.teleinfo.cn.	172800	IN	A	103.61.60.1
-ns1.teleinfo.cn.	172800	IN	AAAA	2402:7d80::1
-ns2.teleinfo.cn.	172800	IN	A	103.61.61.1
-ns2.teleinfo.cn.	172800	IN	AAAA	2402:7d80:8888::1
-ns3.teleinfo.cn.	172800	IN	A	103.61.62.1
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
 co.			172800	IN	NS	ns3.cctld.co.
@@ -2991,7 +2986,15 @@ fail.			172800	IN	NS	demand.beta.aridns.net.au.
 fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
 fail.			172800	IN	NS	demand.gamma.aridns.net.au.
-fail.			86400	IN	NSEC	faith. NS DS RRSIG NSEC
+fail.			86400	IN	NSEC	fairwinds. NS DS RRSIG NSEC
+fairwinds.		172800	IN	NS	a5.nstld.com.
+fairwinds.		172800	IN	NS	c5.nstld.com.
+fairwinds.		172800	IN	NS	d5.nstld.com.
+fairwinds.		172800	IN	NS	f5.nstld.com.
+fairwinds.		172800	IN	NS	g5.nstld.com.
+fairwinds.		172800	IN	NS	h5.nstld.com.
+fairwinds.		172800	IN	NS	l5.nstld.com.
+fairwinds.		86400	IN	NSEC	faith. NS DS RRSIG NSEC
 faith.			172800	IN	NS	ns1.dns.nic.faith.
 faith.			172800	IN	NS	ns2.dns.nic.faith.
 faith.			172800	IN	NS	ns3.dns.nic.faith.
@@ -3657,7 +3660,7 @@ gr.			172800	IN	NS	gr-br.ics.forth.gr.
 gr.			172800	IN	NS	gr-ix.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
-gr.			86400	IN	NSEC	graphics. NS DS RRSIG NSEC
+gr.			86400	IN	NSEC	grainger. NS DS RRSIG NSEC
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
@@ -3667,6 +3670,25 @@ gr-ix.ics.forth.gr.	172800	IN	AAAA	2001:7f8:6e:1::132
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7::4:10
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
+grainger.		172800	IN	NS	ns1.dns.nic.grainger.
+grainger.		172800	IN	NS	ns2.dns.nic.grainger.
+grainger.		172800	IN	NS	ns3.dns.nic.grainger.
+grainger.		172800	IN	NS	ns4.dns.nic.grainger.
+grainger.		172800	IN	NS	ns5.dns.nic.grainger.
+grainger.		172800	IN	NS	ns6.dns.nic.grainger.
+grainger.		86400	IN	NSEC	graphics. NS DS RRSIG NSEC
+ns1.dns.nic.grainger.	172800	IN	A	156.154.144.68
+ns1.dns.nic.grainger.	172800	IN	AAAA	2610:a1:1071::44
+ns2.dns.nic.grainger.	172800	IN	A	156.154.145.68
+ns2.dns.nic.grainger.	172800	IN	AAAA	2610:a1:1072::44
+ns3.dns.nic.grainger.	172800	IN	A	156.154.159.68
+ns3.dns.nic.grainger.	172800	IN	AAAA	2610:a1:1073::44
+ns4.dns.nic.grainger.	172800	IN	A	156.154.156.68
+ns4.dns.nic.grainger.	172800	IN	AAAA	2610:a1:1074::44
+ns5.dns.nic.grainger.	172800	IN	A	156.154.157.68
+ns5.dns.nic.grainger.	172800	IN	AAAA	2610:a1:1075::44
+ns6.dns.nic.grainger.	172800	IN	A	156.154.158.68
+ns6.dns.nic.grainger.	172800	IN	AAAA	2610:a1:1076::44
 graphics.		172800	IN	NS	demand.beta.aridns.net.au.
 graphics.		172800	IN	NS	demand.alpha.aridns.net.au.
 graphics.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -8917,8 +8939,21 @@ systems.		86400	IN	NSEC	sz. NS DS RRSIG NSEC
 sz.			172800	IN	NS	sz.cctld.authdns.ripe.net.
 sz.			172800	IN	NS	ns1.sispa.org.sz.
 sz.			172800	IN	NS	rip.psg.com.
-sz.			86400	IN	NSEC	taipei. NS RRSIG NSEC
+sz.			86400	IN	NSEC	tab. NS RRSIG NSEC
 ns1.sispa.org.sz.	172800	IN	A	41.77.232.4
+tab.			172800	IN	NS	a.nic.tab.
+tab.			172800	IN	NS	b.nic.tab.
+tab.			172800	IN	NS	c.nic.tab.
+tab.			172800	IN	NS	d.nic.tab.
+tab.			86400	IN	NSEC	taipei. NS DS RRSIG NSEC
+a.nic.tab.		172800	IN	A	37.209.192.9
+a.nic.tab.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.tab.		172800	IN	A	37.209.194.9
+b.nic.tab.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.tab.		172800	IN	A	37.209.196.9
+c.nic.tab.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.tab.		172800	IN	A	37.209.198.9
+d.nic.tab.		172800	IN	AAAA	2001:dcd:4::9
 taipei.			172800	IN	NS	ns1.dns.nic.taipei.
 taipei.			172800	IN	NS	ns2.dns.nic.taipei.
 taipei.			172800	IN	NS	ns3.dns.nic.taipei.
@@ -10890,9 +10925,11 @@ xn--vhquv.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.delta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.gamma.aridns.net.au.
 xn--vhquv.		86400	IN	NSEC	xn--vuq861b. NS DS RRSIG NSEC
-xn--vuq861b.		172800	IN	NS	ns1.teleinfo.cn.
-xn--vuq861b.		172800	IN	NS	ns2.teleinfo.cn.
-xn--vuq861b.		172800	IN	NS	ns3.teleinfo.cn.
+xn--vuq861b.		172800	IN	NS	ta.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	tb.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	tc.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	td.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	te.ngtld.cn.
 xn--vuq861b.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
