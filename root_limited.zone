@@ -2105,7 +2105,15 @@ computer.		172800	IN	NS	demand.beta.aridns.net.au.
 computer.		172800	IN	NS	demand.alpha.aridns.net.au.
 computer.		172800	IN	NS	demand.delta.aridns.net.au.
 computer.		172800	IN	NS	demand.gamma.aridns.net.au.
-computer.		86400	IN	NSEC	condos. NS DS RRSIG NSEC
+computer.		86400	IN	NSEC	comsec. NS DS RRSIG NSEC
+comsec.			172800	IN	NS	a5.nstld.com.
+comsec.			172800	IN	NS	c5.nstld.com.
+comsec.			172800	IN	NS	d5.nstld.com.
+comsec.			172800	IN	NS	f5.nstld.com.
+comsec.			172800	IN	NS	g5.nstld.com.
+comsec.			172800	IN	NS	h5.nstld.com.
+comsec.			172800	IN	NS	l5.nstld.com.
+comsec.			86400	IN	NSEC	condos. NS DS RRSIG NSEC
 condos.			172800	IN	NS	demand.beta.aridns.net.au.
 condos.			172800	IN	NS	demand.alpha.aridns.net.au.
 condos.			172800	IN	NS	demand.delta.aridns.net.au.
