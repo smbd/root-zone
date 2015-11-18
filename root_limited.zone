@@ -1198,7 +1198,7 @@ bridgestone.		172800	IN	NS	a.nic.bridgestone.
 bridgestone.		172800	IN	NS	b.nic.bridgestone.
 bridgestone.		172800	IN	NS	c.nic.bridgestone.
 bridgestone.		172800	IN	NS	d.nic.bridgestone.
-bridgestone.		86400	IN	NSEC	broker. NS DS RRSIG NSEC
+bridgestone.		86400	IN	NSEC	broadway. NS DS RRSIG NSEC
 a.nic.bridgestone.	172800	IN	A	37.209.192.9
 a.nic.bridgestone.	172800	IN	AAAA	2001:dcd:1::9
 b.nic.bridgestone.	172800	IN	A	37.209.194.9
@@ -1207,6 +1207,19 @@ c.nic.bridgestone.	172800	IN	A	37.209.196.9
 c.nic.bridgestone.	172800	IN	AAAA	2001:dcd:3::9
 d.nic.bridgestone.	172800	IN	A	37.209.198.9
 d.nic.bridgestone.	172800	IN	AAAA	2001:dcd:4::9
+broadway.		172800	IN	NS	a.ns.nic.broadway.
+broadway.		172800	IN	NS	b.ns.nic.broadway.
+broadway.		172800	IN	NS	c.ns.nic.broadway.
+broadway.		172800	IN	NS	d.ns.nic.broadway.
+broadway.		86400	IN	NSEC	broker. NS DS RRSIG NSEC
+a.ns.nic.broadway.	172800	IN	A	72.0.50.31
+a.ns.nic.broadway.	172800	IN	AAAA	2620:171:a02:ad::31
+b.ns.nic.broadway.	172800	IN	A	72.42.114.31
+b.ns.nic.broadway.	172800	IN	AAAA	2620:171:d02:dc::31
+c.ns.nic.broadway.	172800	IN	A	70.40.0.31
+c.ns.nic.broadway.	172800	IN	AAAA	2620:171:c00:c::31
+d.ns.nic.broadway.	172800	IN	A	70.40.8.31
+d.ns.nic.broadway.	172800	IN	AAAA	2620:171:f00:d::31
 broker.			172800	IN	NS	a5.nstld.com.
 broker.			172800	IN	NS	c5.nstld.com.
 broker.			172800	IN	NS	d5.nstld.com.
