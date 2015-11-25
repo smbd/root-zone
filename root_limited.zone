@@ -557,7 +557,20 @@ auction.		172800	IN	NS	demand.beta.aridns.net.au.
 auction.		172800	IN	NS	demand.alpha.aridns.net.au.
 auction.		172800	IN	NS	demand.delta.aridns.net.au.
 auction.		172800	IN	NS	demand.gamma.aridns.net.au.
-auction.		86400	IN	NSEC	audio. NS DS RRSIG NSEC
+auction.		86400	IN	NSEC	audi. NS DS RRSIG NSEC
+audi.			172800	IN	NS	a0.nic.audi.
+audi.			172800	IN	NS	a2.nic.audi.
+audi.			172800	IN	NS	b0.nic.audi.
+audi.			172800	IN	NS	c0.nic.audi.
+audi.			86400	IN	NSEC	audio. NS DS RRSIG NSEC
+a0.nic.audi.		172800	IN	A	65.22.208.17
+a0.nic.audi.		172800	IN	AAAA	2a01:8840:ca::17
+a2.nic.audi.		172800	IN	A	65.22.211.17
+a2.nic.audi.		172800	IN	AAAA	2a01:8840:cd::17
+b0.nic.audi.		172800	IN	A	65.22.209.17
+b0.nic.audi.		172800	IN	AAAA	2a01:8840:cb::17
+c0.nic.audi.		172800	IN	A	65.22.210.17
+c0.nic.audi.		172800	IN	AAAA	2a01:8840:cc::17
 audio.			172800	IN	NS	a.audio.dyntld.net.
 audio.			172800	IN	NS	b.audio.dyntld.net.
 audio.			172800	IN	NS	c.audio.dyntld.net.
@@ -1110,7 +1123,7 @@ boats.			172800	IN	NS	a0.nic.boats.
 boats.			172800	IN	NS	a2.nic.boats.
 boats.			172800	IN	NS	b0.nic.boats.
 boats.			172800	IN	NS	c0.nic.boats.
-boats.			86400	IN	NSEC	bom. NS DS RRSIG NSEC
+boats.			86400	IN	NSEC	boehringer. NS DS RRSIG NSEC
 a0.nic.boats.		172800	IN	A	65.22.104.17
 a0.nic.boats.		172800	IN	AAAA	2a01:8840:66::17
 a2.nic.boats.		172800	IN	A	65.22.107.17
@@ -1119,6 +1132,19 @@ b0.nic.boats.		172800	IN	A	65.22.105.17
 b0.nic.boats.		172800	IN	AAAA	2a01:8840:67::17
 c0.nic.boats.		172800	IN	A	65.22.106.17
 c0.nic.boats.		172800	IN	AAAA	2a01:8840:68::17
+boehringer.		172800	IN	NS	a0.nic.boehringer.
+boehringer.		172800	IN	NS	a2.nic.boehringer.
+boehringer.		172800	IN	NS	b0.nic.boehringer.
+boehringer.		172800	IN	NS	c0.nic.boehringer.
+boehringer.		86400	IN	NSEC	bom. NS DS RRSIG NSEC
+a0.nic.boehringer.	172800	IN	A	65.22.188.17
+a0.nic.boehringer.	172800	IN	AAAA	2a01:8840:b6::17
+a2.nic.boehringer.	172800	IN	A	65.22.191.17
+a2.nic.boehringer.	172800	IN	AAAA	2a01:8840:b9::17
+b0.nic.boehringer.	172800	IN	A	65.22.189.17
+b0.nic.boehringer.	172800	IN	AAAA	2a01:8840:b7::17
+c0.nic.boehringer.	172800	IN	A	65.22.190.17
+c0.nic.boehringer.	172800	IN	AAAA	2a01:8840:b8::17
 bom.			172800	IN	NS	a.dns.br.
 bom.			172800	IN	NS	b.dns.br.
 bom.			172800	IN	NS	c.dns.br.
@@ -1149,7 +1175,7 @@ boots.			172800	IN	NS	a.nic.boots.
 boots.			172800	IN	NS	b.nic.boots.
 boots.			172800	IN	NS	c.nic.boots.
 boots.			172800	IN	NS	d.nic.boots.
-boots.			86400	IN	NSEC	boutique. NS DS RRSIG NSEC
+boots.			86400	IN	NSEC	bostik. NS DS RRSIG NSEC
 a.nic.boots.		172800	IN	A	37.209.192.9
 a.nic.boots.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.boots.		172800	IN	A	37.209.194.9
@@ -1158,6 +1184,10 @@ c.nic.boots.		172800	IN	A	37.209.196.9
 c.nic.boots.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.boots.		172800	IN	A	37.209.198.9
 d.nic.boots.		172800	IN	AAAA	2001:dcd:4::9
+bostik.			172800	IN	NS	d.nic.fr.
+bostik.			172800	IN	NS	f.ext.nic.fr.
+bostik.			172800	IN	NS	g.ext.nic.fr.
+bostik.			86400	IN	NSEC	boutique. NS DS RRSIG NSEC
 boutique.		172800	IN	NS	demand.beta.aridns.net.au.
 boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -1277,11 +1307,24 @@ ns3.druknet.bt.		172800	IN	A	204.61.216.17
 ns3.druknet.bt.		172800	IN	AAAA	2001:500:14:6017:ad::1
 budapest.		172800	IN	NS	a.ns.nic.budapest.
 budapest.		172800	IN	NS	b.ns.nic.budapest.
-budapest.		86400	IN	NSEC	build. NS DS RRSIG NSEC
+budapest.		86400	IN	NSEC	bugatti. NS DS RRSIG NSEC
 a.ns.nic.budapest.	172800	IN	A	72.0.50.9
 a.ns.nic.budapest.	172800	IN	AAAA	2620:171:a02:ad::9
 b.ns.nic.budapest.	172800	IN	A	72.42.114.9
 b.ns.nic.budapest.	172800	IN	AAAA	2620:171:d02:dc::9
+bugatti.		172800	IN	NS	a0.nic.bugatti.
+bugatti.		172800	IN	NS	a2.nic.bugatti.
+bugatti.		172800	IN	NS	b0.nic.bugatti.
+bugatti.		172800	IN	NS	c0.nic.bugatti.
+bugatti.		86400	IN	NSEC	build. NS DS RRSIG NSEC
+a0.nic.bugatti.		172800	IN	A	65.22.208.9
+a0.nic.bugatti.		172800	IN	AAAA	2a01:8840:ca::9
+a2.nic.bugatti.		172800	IN	A	65.22.211.9
+a2.nic.bugatti.		172800	IN	AAAA	2a01:8840:cd::9
+b0.nic.bugatti.		172800	IN	A	65.22.209.9
+b0.nic.bugatti.		172800	IN	AAAA	2a01:8840:cb::9
+c0.nic.bugatti.		172800	IN	A	65.22.210.9
+c0.nic.bugatti.		172800	IN	AAAA	2a01:8840:cc::9
 build.			172800	IN	NS	a.nic.build.
 build.			172800	IN	NS	b.nic.build.
 build.			172800	IN	NS	c.nic.build.
@@ -4929,7 +4972,20 @@ lacaixa.		172800	IN	NS	anycast9.irondns.net.
 lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
 lacaixa.		172800	IN	NS	anycast24.irondns.net.
-lacaixa.		86400	IN	NSEC	lancaster. NS DS RRSIG NSEC
+lacaixa.		86400	IN	NSEC	lamborghini. NS DS RRSIG NSEC
+lamborghini.		172800	IN	NS	a0.nic.lamborghini.
+lamborghini.		172800	IN	NS	a2.nic.lamborghini.
+lamborghini.		172800	IN	NS	b0.nic.lamborghini.
+lamborghini.		172800	IN	NS	c0.nic.lamborghini.
+lamborghini.		86400	IN	NSEC	lancaster. NS DS RRSIG NSEC
+a0.nic.lamborghini.	172800	IN	A	65.22.208.33
+a0.nic.lamborghini.	172800	IN	AAAA	2a01:8840:ca::33
+a2.nic.lamborghini.	172800	IN	A	65.22.211.33
+a2.nic.lamborghini.	172800	IN	AAAA	2a01:8840:cd::33
+b0.nic.lamborghini.	172800	IN	A	65.22.209.33
+b0.nic.lamborghini.	172800	IN	AAAA	2a01:8840:cb::33
+c0.nic.lamborghini.	172800	IN	A	65.22.210.33
+c0.nic.lamborghini.	172800	IN	AAAA	2a01:8840:cc::33
 lancaster.		172800	IN	NS	d.nic.fr.
 lancaster.		172800	IN	NS	f.ext.nic.fr.
 lancaster.		172800	IN	NS	g.ext.nic.fr.
@@ -9679,7 +9735,15 @@ ventures.		172800	IN	NS	demand.beta.aridns.net.au.
 ventures.		172800	IN	NS	demand.alpha.aridns.net.au.
 ventures.		172800	IN	NS	demand.delta.aridns.net.au.
 ventures.		172800	IN	NS	demand.gamma.aridns.net.au.
-ventures.		86400	IN	NSEC	versicherung. NS DS RRSIG NSEC
+ventures.		86400	IN	NSEC	verisign. NS DS RRSIG NSEC
+verisign.		172800	IN	NS	a5.nstld.com.
+verisign.		172800	IN	NS	c5.nstld.com.
+verisign.		172800	IN	NS	d5.nstld.com.
+verisign.		172800	IN	NS	f5.nstld.com.
+verisign.		172800	IN	NS	g5.nstld.com.
+verisign.		172800	IN	NS	h5.nstld.com.
+verisign.		172800	IN	NS	l5.nstld.com.
+verisign.		86400	IN	NSEC	versicherung. NS DS RRSIG NSEC
 versicherung.		172800	IN	NS	a.dns.nic.versicherung.
 versicherung.		172800	IN	NS	m.dns.nic.versicherung.
 versicherung.		172800	IN	NS	n.dns.nic.versicherung.
@@ -9726,7 +9790,20 @@ vin.			172800	IN	NS	demand.beta.aridns.net.au.
 vin.			172800	IN	NS	demand.alpha.aridns.net.au.
 vin.			172800	IN	NS	demand.delta.aridns.net.au.
 vin.			172800	IN	NS	demand.gamma.aridns.net.au.
-vin.			86400	IN	NSEC	virgin. NS DS RRSIG NSEC
+vin.			86400	IN	NSEC	vip. NS DS RRSIG NSEC
+vip.			172800	IN	NS	a.ns.nic.vip.
+vip.			172800	IN	NS	b.ns.nic.vip.
+vip.			172800	IN	NS	c.ns.nic.vip.
+vip.			172800	IN	NS	d.ns.nic.vip.
+vip.			86400	IN	NSEC	virgin. NS DS RRSIG NSEC
+a.ns.nic.vip.		172800	IN	A	72.0.50.30
+a.ns.nic.vip.		172800	IN	AAAA	2620:171:a02:ad::30
+b.ns.nic.vip.		172800	IN	A	72.42.114.30
+b.ns.nic.vip.		172800	IN	AAAA	2620:171:d02:dc::30
+c.ns.nic.vip.		172800	IN	A	70.40.0.30
+c.ns.nic.vip.		172800	IN	AAAA	2620:171:c00:c::30
+d.ns.nic.vip.		172800	IN	A	70.40.8.30
+d.ns.nic.vip.		172800	IN	AAAA	2620:171:f00:d::30
 virgin.			172800	IN	NS	a.nic.virgin.
 virgin.			172800	IN	NS	b.nic.virgin.
 virgin.			172800	IN	NS	c.nic.virgin.
