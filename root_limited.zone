@@ -5888,9 +5888,11 @@ mq.			172800	IN	NS	ns1-gp.mediaserv.net.
 mq.			172800	IN	NS	ns1-mq.mediaserv.net.
 mq.			86400	IN	NSEC	mr. NS RRSIG NSEC
 mr.			172800	IN	NS	ns.univ-nkc.mr.
+mr.			172800	IN	NS	ns1.nic.mr.
 mr.			172800	IN	NS	ns3.nic.fr.
 mr.			172800	IN	NS	censvrns0001.ird.fr.
 mr.			86400	IN	NSEC	ms. NS RRSIG NSEC
+ns1.nic.mr.		172800	IN	A	41.188.65.193
 ns.univ-nkc.mr.		172800	IN	A	82.151.64.1
 ms.			172800	IN	NS	a.ms.dyntld.net.
 ms.			172800	IN	NS	b.ms.dyntld.net.
