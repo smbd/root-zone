@@ -6672,8 +6672,8 @@ e.root-servers.net.	518400	IN	A	192.203.230.10
 f.root-servers.net.	518400	IN	A	192.5.5.241
 f.root-servers.net.	518400	IN	AAAA	2001:500:2f::f
 g.root-servers.net.	518400	IN	A	192.112.36.4
-h.root-servers.net.	518400	IN	A	128.63.2.53
-h.root-servers.net.	518400	IN	AAAA	2001:500:1::803f:235
+h.root-servers.net.	518400	IN	A	198.97.190.53
+h.root-servers.net.	518400	IN	AAAA	2001:500:1::53
 i.root-servers.net.	518400	IN	A	192.36.148.17
 i.root-servers.net.	518400	IN	AAAA	2001:7fe::53
 j.root-servers.net.	518400	IN	A	192.58.128.30
@@ -8534,7 +8534,19 @@ sexy.			172800	IN	NS	a.sexy.dyntld.net.
 sexy.			172800	IN	NS	b.sexy.dyntld.net.
 sexy.			172800	IN	NS	c.sexy.dyntld.net.
 sexy.			172800	IN	NS	ns1.uniregistry.net.
-sexy.			86400	IN	NSEC	sg. NS DS RRSIG NSEC
+sexy.			86400	IN	NSEC	sfr. NS DS RRSIG NSEC
+sfr.			172800	IN	NS	a.ns.nic.sfr.
+sfr.			172800	IN	NS	c.ns.nic.sfr.
+sfr.			172800	IN	NS	x.ns.nic.sfr.
+sfr.			172800	IN	NS	y.ns.nic.sfr.
+sfr.			86400	IN	NSEC	sg. NS DS RRSIG NSEC
+a.ns.nic.sfr.		172800	IN	A	89.207.190.25
+a.ns.nic.sfr.		172800	IN	AAAA	2a02:2790:1:53::18:1
+c.ns.nic.sfr.		172800	IN	A	54.228.236.26
+x.ns.nic.sfr.		172800	IN	A	195.253.64.4
+x.ns.nic.sfr.		172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.sfr.		172800	IN	A	195.253.64.7
+y.ns.nic.sfr.		172800	IN	AAAA	2a01:5b0:4::7
 sg.			172800	IN	NS	ns2.cuhk.edu.hk.
 sg.			172800	IN	NS	sec3.apnic.net.
 sg.			172800	IN	NS	dsany.sgnic.sg.
