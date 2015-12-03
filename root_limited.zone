@@ -4738,6 +4738,7 @@ g.dns.jp.		172800	IN	A	203.119.40.1
 jprs.			172800	IN	NS	tld1.nic.jprs.
 jprs.			172800	IN	NS	tld2.nic.jprs.
 jprs.			172800	IN	NS	tld3.nic.jprs.
+jprs.			172800	IN	NS	tld4.nic.jprs.
 jprs.			86400	IN	NSEC	juegos. NS DS RRSIG NSEC
 tld1.nic.jprs.		172800	IN	A	103.47.2.1
 tld1.nic.jprs.		172800	IN	AAAA	2001:dda::1
@@ -4745,6 +4746,8 @@ tld2.nic.jprs.		172800	IN	A	117.104.133.16
 tld2.nic.jprs.		172800	IN	AAAA	2001:218:3001::1
 tld3.nic.jprs.		172800	IN	A	65.22.40.1
 tld3.nic.jprs.		172800	IN	AAAA	2a01:8840:1ba::1
+tld4.nic.jprs.		172800	IN	A	103.198.210.1
+tld4.nic.jprs.		172800	IN	AAAA	2403:2880::1
 juegos.			172800	IN	NS	a.juegos.dyntld.net.
 juegos.			172800	IN	NS	b.juegos.dyntld.net.
 juegos.			172800	IN	NS	c.juegos.dyntld.net.
