@@ -1376,7 +1376,7 @@ bw.			172800	IN	NS	dns1.nic.net.bw.
 bw.			172800	IN	NS	dns2.nic.net.bw.
 bw.			172800	IN	NS	ns-bw.afrinic.net.
 bw.			172800	IN	NS	master.btc.net.bw.
-bw.			86400	IN	NSEC	by. NS RRSIG NSEC
+bw.			86400	IN	NSEC	by. NS DS RRSIG NSEC
 master.btc.net.bw.	172800	IN	A	168.167.168.37
 dns1.nic.net.bw.	172800	IN	A	168.167.98.226
 dns1.nic.net.bw.	172800	IN	AAAA	2c0f:ff00:1:3::226
@@ -4413,7 +4413,15 @@ institute.		172800	IN	NS	demand.beta.aridns.net.au.
 institute.		172800	IN	NS	demand.alpha.aridns.net.au.
 institute.		172800	IN	NS	demand.delta.aridns.net.au.
 institute.		172800	IN	NS	demand.gamma.aridns.net.au.
-institute.		86400	IN	NSEC	insure. NS DS RRSIG NSEC
+institute.		86400	IN	NSEC	insurance. NS DS RRSIG NSEC
+insurance.		172800	IN	NS	a5.nstld.com.
+insurance.		172800	IN	NS	c5.nstld.com.
+insurance.		172800	IN	NS	d5.nstld.com.
+insurance.		172800	IN	NS	f5.nstld.com.
+insurance.		172800	IN	NS	g5.nstld.com.
+insurance.		172800	IN	NS	h5.nstld.com.
+insurance.		172800	IN	NS	l5.nstld.com.
+insurance.		86400	IN	NSEC	insure. NS DS RRSIG NSEC
 insure.			172800	IN	NS	demand.beta.aridns.net.au.
 insure.			172800	IN	NS	demand.alpha.aridns.net.au.
 insure.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -5538,9 +5546,17 @@ me.			172800	IN	NS	c0.cctld.afilias-nst.info.
 me.			172800	IN	NS	d0.cctld.afilias-nst.org.
 me.			172800	IN	NS	ns.nic.me.
 me.			172800	IN	NS	ns2.nic.me.
-me.			86400	IN	NSEC	media. NS DS RRSIG NSEC
+me.			86400	IN	NSEC	med. NS DS RRSIG NSEC
 ns.nic.me.		172800	IN	A	89.188.44.44
 ns2.nic.me.		172800	IN	A	89.188.44.88
+med.			172800	IN	NS	a5.nstld.com.
+med.			172800	IN	NS	c5.nstld.com.
+med.			172800	IN	NS	d5.nstld.com.
+med.			172800	IN	NS	f5.nstld.com.
+med.			172800	IN	NS	g5.nstld.com.
+med.			172800	IN	NS	h5.nstld.com.
+med.			172800	IN	NS	l5.nstld.com.
+med.			86400	IN	NSEC	media. NS DS RRSIG NSEC
 media.			172800	IN	NS	demand.beta.aridns.net.au.
 media.			172800	IN	NS	demand.alpha.aridns.net.au.
 media.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -6878,7 +6894,7 @@ nokia.			172800	IN	NS	a0.nic.nokia.
 nokia.			172800	IN	NS	a2.nic.nokia.
 nokia.			172800	IN	NS	b0.nic.nokia.
 nokia.			172800	IN	NS	c0.nic.nokia.
-nokia.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+nokia.			86400	IN	NSEC	norton. NS DS RRSIG NSEC
 a0.nic.nokia.		172800	IN	A	65.22.148.17
 a0.nic.nokia.		172800	IN	AAAA	2a01:8840:92::17
 a2.nic.nokia.		172800	IN	A	65.22.151.17
@@ -6887,6 +6903,14 @@ b0.nic.nokia.		172800	IN	A	65.22.149.17
 b0.nic.nokia.		172800	IN	AAAA	2a01:8840:93::17
 c0.nic.nokia.		172800	IN	A	65.22.150.17
 c0.nic.nokia.		172800	IN	AAAA	2a01:8840:94::17
+norton.			172800	IN	NS	a5.nstld.com.
+norton.			172800	IN	NS	c5.nstld.com.
+norton.			172800	IN	NS	d5.nstld.com.
+norton.			172800	IN	NS	f5.nstld.com.
+norton.			172800	IN	NS	g5.nstld.com.
+norton.			172800	IN	NS	h5.nstld.com.
+norton.			172800	IN	NS	l5.nstld.com.
+norton.			86400	IN	NSEC	np. NS DS RRSIG NSEC
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
 np.			172800	IN	NS	sec3.apnic.net.
 np.			172800	IN	NS	np-ns.npix.net.np.
@@ -9016,7 +9040,7 @@ sydney.			172800	IN	NS	a.nic.sydney.
 sydney.			172800	IN	NS	b.nic.sydney.
 sydney.			172800	IN	NS	c.nic.sydney.
 sydney.			172800	IN	NS	d.nic.sydney.
-sydney.			86400	IN	NSEC	systems. NS DS RRSIG NSEC
+sydney.			86400	IN	NSEC	symantec. NS DS RRSIG NSEC
 a.nic.sydney.		172800	IN	A	37.209.192.10
 a.nic.sydney.		172800	IN	AAAA	2001:dcd:1::10
 b.nic.sydney.		172800	IN	A	37.209.194.10
@@ -9025,6 +9049,14 @@ c.nic.sydney.		172800	IN	A	37.209.196.10
 c.nic.sydney.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.sydney.		172800	IN	A	37.209.198.10
 d.nic.sydney.		172800	IN	AAAA	2001:dcd:4::10
+symantec.		172800	IN	NS	a5.nstld.com.
+symantec.		172800	IN	NS	c5.nstld.com.
+symantec.		172800	IN	NS	d5.nstld.com.
+symantec.		172800	IN	NS	f5.nstld.com.
+symantec.		172800	IN	NS	g5.nstld.com.
+symantec.		172800	IN	NS	h5.nstld.com.
+symantec.		172800	IN	NS	l5.nstld.com.
+symantec.		86400	IN	NSEC	systems. NS DS RRSIG NSEC
 systems.		172800	IN	NS	demand.beta.aridns.net.au.
 systems.		172800	IN	NS	demand.alpha.aridns.net.au.
 systems.		172800	IN	NS	demand.delta.aridns.net.au.
