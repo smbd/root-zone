@@ -3210,7 +3210,20 @@ financial.		172800	IN	NS	demand.beta.aridns.net.au.
 financial.		172800	IN	NS	demand.alpha.aridns.net.au.
 financial.		172800	IN	NS	demand.delta.aridns.net.au.
 financial.		172800	IN	NS	demand.gamma.aridns.net.au.
-financial.		86400	IN	NSEC	firmdale. NS DS RRSIG NSEC
+financial.		86400	IN	NSEC	firestone. NS DS RRSIG NSEC
+firestone.		172800	IN	NS	a.nic.firestone.
+firestone.		172800	IN	NS	b.nic.firestone.
+firestone.		172800	IN	NS	c.nic.firestone.
+firestone.		172800	IN	NS	d.nic.firestone.
+firestone.		86400	IN	NSEC	firmdale. NS DS RRSIG NSEC
+a.nic.firestone.	172800	IN	A	37.209.192.9
+a.nic.firestone.	172800	IN	AAAA	2001:dcd:1::9
+b.nic.firestone.	172800	IN	A	37.209.194.9
+b.nic.firestone.	172800	IN	AAAA	2001:dcd:2::9
+c.nic.firestone.	172800	IN	A	37.209.196.9
+c.nic.firestone.	172800	IN	AAAA	2001:dcd:3::9
+d.nic.firestone.	172800	IN	A	37.209.198.9
+d.nic.firestone.	172800	IN	AAAA	2001:dcd:4::9
 firmdale.		172800	IN	NS	ns1.nic.firmdale.
 firmdale.		172800	IN	NS	ns2.nic.firmdale.
 firmdale.		86400	IN	NSEC	fish. NS DS RRSIG NSEC
@@ -6383,6 +6396,10 @@ a.nf.dyntld.net.	172800	IN	A	199.19.5.10
 a.nf.dyntld.net.	172800	IN	AAAA	2001:500:92::10
 b.nf.dyntld.net.	172800	IN	A	199.19.6.10
 b.nf.dyntld.net.	172800	IN	AAAA	2001:500:96::10
+a.nowruz.dyntld.net.	172800	IN	A	199.19.5.22
+a.nowruz.dyntld.net.	172800	IN	AAAA	2001:500:92::22
+b.nowruz.dyntld.net.	172800	IN	A	199.19.6.22
+b.nowruz.dyntld.net.	172800	IN	AAAA	2001:500:96::22
 a.photo.dyntld.net.	172800	IN	A	199.19.1.14
 a.photo.dyntld.net.	172800	IN	AAAA	2a02:e180::14
 b.photo.dyntld.net.	172800	IN	A	199.19.7.14
@@ -6411,12 +6428,20 @@ b.sexy.dyntld.net.	172800	IN	A	199.19.7.17
 b.sexy.dyntld.net.	172800	IN	AAAA	2a02:e180:1::17
 c.sexy.dyntld.net.	172800	IN	A	185.38.98.17
 c.sexy.dyntld.net.	172800	IN	AAAA	2a02:e180:2::17
+a.shia.dyntld.net.	172800	IN	A	199.19.5.17
+a.shia.dyntld.net.	172800	IN	AAAA	2001:500:92::17
+b.shia.dyntld.net.	172800	IN	A	199.19.6.17
+b.shia.dyntld.net.	172800	IN	AAAA	2001:500:96::17
 a.tattoo.dyntld.net.	172800	IN	A	199.19.1.18
 a.tattoo.dyntld.net.	172800	IN	AAAA	2a02:e180::18
 b.tattoo.dyntld.net.	172800	IN	A	199.19.7.18
 b.tattoo.dyntld.net.	172800	IN	AAAA	2a02:e180:1::18
 c.tattoo.dyntld.net.	172800	IN	A	185.38.98.18
 c.tattoo.dyntld.net.	172800	IN	AAAA	2a02:e180:2::18
+a.tci.dyntld.net.	172800	IN	A	199.19.5.18
+a.tci.dyntld.net.	172800	IN	AAAA	2001:500:92::18
+b.tci.dyntld.net.	172800	IN	A	199.19.6.18
+b.tci.dyntld.net.	172800	IN	AAAA	2001:500:96::18
 a.tl.dyntld.net.	172800	IN	A	199.19.5.12
 a.tl.dyntld.net.	172800	IN	AAAA	2001:500:92::12
 b.tl.dyntld.net.	172800	IN	A	199.19.6.12
@@ -6910,7 +6935,16 @@ norton.			172800	IN	NS	f5.nstld.com.
 norton.			172800	IN	NS	g5.nstld.com.
 norton.			172800	IN	NS	h5.nstld.com.
 norton.			172800	IN	NS	l5.nstld.com.
-norton.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+norton.			86400	IN	NSEC	nowruz. NS DS RRSIG NSEC
+nowruz.			172800	IN	NS	a.ns.nic.nowruz.
+nowruz.			172800	IN	NS	a.nowruz.dyntld.net.
+nowruz.			172800	IN	NS	b.ns.nic.nowruz.
+nowruz.			172800	IN	NS	b.nowruz.dyntld.net.
+nowruz.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+a.ns.nic.nowruz.	172800	IN	A	72.0.49.10
+a.ns.nic.nowruz.	172800	IN	AAAA	2620:171:a01:ad::10
+b.ns.nic.nowruz.	172800	IN	A	72.42.113.10
+b.ns.nic.nowruz.	172800	IN	AAAA	2620:171:d01:dc::10
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
 np.			172800	IN	NS	sec3.apnic.net.
 np.			172800	IN	NS	np-ns.npix.net.np.
@@ -8213,7 +8247,12 @@ sale.			172800	IN	NS	demand.beta.aridns.net.au.
 sale.			172800	IN	NS	demand.alpha.aridns.net.au.
 sale.			172800	IN	NS	demand.delta.aridns.net.au.
 sale.			172800	IN	NS	demand.gamma.aridns.net.au.
-sale.			86400	IN	NSEC	samsung. NS DS RRSIG NSEC
+sale.			86400	IN	NSEC	salon. NS DS RRSIG NSEC
+salon.			172800	IN	NS	demand.beta.aridns.net.au.
+salon.			172800	IN	NS	demand.alpha.aridns.net.au.
+salon.			172800	IN	NS	demand.delta.aridns.net.au.
+salon.			172800	IN	NS	demand.gamma.aridns.net.au.
+salon.			86400	IN	NSEC	samsung. NS DS RRSIG NSEC
 samsung.		172800	IN	NS	b.dns.kr.
 samsung.		172800	IN	NS	c.dns.kr.
 samsung.		172800	IN	NS	d.dns.kr.
@@ -8588,8 +8627,22 @@ sh.			172800	IN	NS	b.nic.io.
 sh.			172800	IN	NS	b.ns13.net.
 sh.			172800	IN	NS	ns1.communitydns.net.
 sh.			172800	IN	NS	ns3.icb.co.uk.
-sh.			86400	IN	NSEC	shiksha. NS DS RRSIG NSEC
+sh.			86400	IN	NSEC	sharp. NS DS RRSIG NSEC
 a.nic.sh.		172800	IN	A	64.251.31.178
+sharp.			172800	IN	NS	a.gmoregistry.net.
+sharp.			172800	IN	NS	b.gmoregistry.net.
+sharp.			172800	IN	NS	k.gmoregistry.net.
+sharp.			172800	IN	NS	l.gmoregistry.net.
+sharp.			86400	IN	NSEC	shia. NS DS RRSIG NSEC
+shia.			172800	IN	NS	a.ns.nic.shia.
+shia.			172800	IN	NS	a.shia.dyntld.net.
+shia.			172800	IN	NS	b.ns.nic.shia.
+shia.			172800	IN	NS	b.shia.dyntld.net.
+shia.			86400	IN	NSEC	shiksha. NS DS RRSIG NSEC
+a.ns.nic.shia.		172800	IN	A	72.0.49.7
+a.ns.nic.shia.		172800	IN	AAAA	2620:171:a01:ad::7
+b.ns.nic.shia.		172800	IN	A	72.42.113.7
+b.ns.nic.shia.		172800	IN	AAAA	2620:171:d01:dc::7
 shiksha.		172800	IN	NS	a0.nic.shiksha.
 shiksha.		172800	IN	NS	a2.nic.shiksha.
 shiksha.		172800	IN	NS	b0.nic.shiksha.
@@ -9136,7 +9189,7 @@ tc.			172800	IN	NS	root5.zone.tc.
 tc.			172800	IN	NS	root6.zone.tc.
 tc.			172800	IN	NS	root7.zone.tc.
 tc.			172800	IN	NS	root8.zone.tc.
-tc.			86400	IN	NSEC	td. NS RRSIG NSEC
+tc.			86400	IN	NSEC	tci. NS RRSIG NSEC
 root1.zone.tc.		172800	IN	A	31.169.81.225
 root2.zone.tc.		172800	IN	A	77.79.104.226
 root3.zone.tc.		172800	IN	A	77.79.104.225
@@ -9149,6 +9202,15 @@ root7.zone.tc.		172800	IN	A	119.9.93.69
 root7.zone.tc.		172800	IN	AAAA	2401:1800:7800:102:ab3b:e6a7:859f:a6c7
 root8.zone.tc.		172800	IN	A	162.13.87.182
 root8.zone.tc.		172800	IN	AAAA	2a00:1a48:7806:115:d994:9fe:9eb2:e68d
+tci.			172800	IN	NS	a.ns.nic.tci.
+tci.			172800	IN	NS	a.tci.dyntld.net.
+tci.			172800	IN	NS	b.ns.nic.tci.
+tci.			172800	IN	NS	b.tci.dyntld.net.
+tci.			86400	IN	NSEC	td. NS DS RRSIG NSEC
+a.ns.nic.tci.		172800	IN	A	72.0.49.8
+a.ns.nic.tci.		172800	IN	AAAA	2620:171:a01:ad::8
+b.ns.nic.tci.		172800	IN	A	72.42.113.8
+b.ns.nic.tci.		172800	IN	AAAA	2620:171:d01:dc::8
 td.			172800	IN	NS	ns1.nic.td.
 td.			172800	IN	NS	ns-td.nic.fr.
 td.			172800	IN	NS	ns-td.afrinic.net.
@@ -9493,7 +9555,7 @@ travel.			172800	IN	NS	c.gtld.travel.
 travel.			172800	IN	NS	d.gtld.travel.
 travel.			172800	IN	NS	e.gtld.travel.
 travel.			172800	IN	NS	f.gtld.travel.
-travel.			86400	IN	NSEC	trust. NS RRSIG NSEC
+travel.			86400	IN	NSEC	travelers. NS RRSIG NSEC
 a.gtld.travel.		172800	IN	A	156.154.100.1
 a.gtld.travel.		172800	IN	AAAA	2001:502:ad09::1
 b.gtld.travel.		172800	IN	A	156.154.101.1
@@ -9502,6 +9564,19 @@ d.gtld.travel.		172800	IN	A	156.154.103.1
 d.gtld.travel.		172800	IN	AAAA	2001:502:2eda::1
 e.gtld.travel.		172800	IN	A	156.154.104.1
 f.gtld.travel.		172800	IN	A	156.154.105.1
+travelers.		172800	IN	NS	a0.nic.travelers.
+travelers.		172800	IN	NS	a2.nic.travelers.
+travelers.		172800	IN	NS	b0.nic.travelers.
+travelers.		172800	IN	NS	c0.nic.travelers.
+travelers.		86400	IN	NSEC	trust. NS DS RRSIG NSEC
+a0.nic.travelers.	172800	IN	A	65.22.200.9
+a0.nic.travelers.	172800	IN	AAAA	2a01:8840:c2::9
+a2.nic.travelers.	172800	IN	A	65.22.203.9
+a2.nic.travelers.	172800	IN	AAAA	2a01:8840:c5::9
+b0.nic.travelers.	172800	IN	A	65.22.201.9
+b0.nic.travelers.	172800	IN	AAAA	2a01:8840:c3::9
+c0.nic.travelers.	172800	IN	A	65.22.202.9
+c0.nic.travelers.	172800	IN	AAAA	2a01:8840:c4::9
 trust.			172800	IN	NS	a.nic.trust.
 trust.			172800	IN	NS	b.nic.trust.
 trust.			172800	IN	NS	c.nic.trust.
