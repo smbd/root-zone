@@ -211,9 +211,6 @@ aero.			172800	IN	NS	b0.aero.afilias-nst.org.
 aero.			172800	IN	NS	b2.aero.afilias-nst.org.
 aero.			172800	IN	NS	c0.aero.afilias-nst.info.
 aero.			172800	IN	NS	d0.aero.afilias-nst.org.
-aero.			172800	IN	NS	ns2.switch.ch.
-aero.			172800	IN	NS	ns5.knipp.de.
-aero.			172800	IN	NS	dns7.denic.de.
 aero.			86400	IN	NSEC	af. NS RRSIG NSEC
 af.			172800	IN	NS	ns.anycast.nic.af.
 af.			172800	IN	NS	af1.dyntld.net.
@@ -2239,7 +2236,7 @@ c.zdnscloud.com.	172800	IN	A	1.8.242.1
 d.zdnscloud.com.	172800	IN	A	1.8.243.1
 e.zdnscloud.com.	172800	IN	A	119.167.248.154
 f.zdnscloud.com.	172800	IN	A	182.131.23.22
-g.zdnscloud.com.	172800	IN	A	111.12.148.111
+g.zdnscloud.com.	172800	IN	A	111.1.33.140
 i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1::1
 j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2::1
 commbank.		172800	IN	NS	a.nic.commbank.
@@ -2630,7 +2627,6 @@ de.			172800	IN	NS	s.de.net.
 de.			172800	IN	NS	z.nic.de.
 de.			86400	IN	NSEC	deals. NS DS RRSIG NSEC
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
-dns7.denic.de.		172800	IN	A	81.91.161.68
 grdns-de.denic.de.	172800	IN	A	81.91.161.80
 pr-dns.denic.de.	172800	IN	A	81.91.161.82
 ns5.knipp.de.		172800	IN	A	195.253.6.62
@@ -6603,6 +6599,10 @@ a.nowruz.dyntld.net.	172800	IN	A	199.19.5.22
 a.nowruz.dyntld.net.	172800	IN	AAAA	2001:500:92::22
 b.nowruz.dyntld.net.	172800	IN	A	199.19.6.22
 b.nowruz.dyntld.net.	172800	IN	AAAA	2001:500:96::22
+a.pars.dyntld.net.	172800	IN	A	199.19.5.15
+a.pars.dyntld.net.	172800	IN	AAAA	2001:500:92::15
+b.pars.dyntld.net.	172800	IN	A	199.19.6.15
+b.pars.dyntld.net.	172800	IN	AAAA	2001:500:96::15
 a.photo.dyntld.net.	172800	IN	A	199.19.1.14
 a.photo.dyntld.net.	172800	IN	AAAA	2a02:e180::14
 b.photo.dyntld.net.	172800	IN	A	199.19.7.14
@@ -6653,6 +6653,10 @@ a.wed.dyntld.net.	172800	IN	A	199.19.5.19
 a.wed.dyntld.net.	172800	IN	AAAA	2001:500:92::19
 b.wed.dyntld.net.	172800	IN	A	199.19.6.19
 b.wed.dyntld.net.	172800	IN	AAAA	2001:500:96::19
+a.xn--mgbt3dhd.dyntld.net. 172800 IN	A	199.19.5.20
+a.xn--mgbt3dhd.dyntld.net. 172800 IN	AAAA	2001:500:92::20
+b.xn--mgbt3dhd.dyntld.net. 172800 IN	A	199.19.6.20
+b.xn--mgbt3dhd.dyntld.net. 172800 IN	AAAA	2001:500:96::20
 a.xn--p1acf.dyntld.net.	172800	IN	A	199.19.5.21
 a.xn--p1acf.dyntld.net.	172800	IN	AAAA	2001:500:92::21
 b.xn--p1acf.dyntld.net.	172800	IN	A	199.19.6.21
@@ -7540,7 +7544,16 @@ paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
 paris.			172800	IN	NS	g.ext.nic.fr.
 paris.			172800	IN	NS	h.ext.nic.fr.
-paris.			86400	IN	NSEC	partners. NS DS RRSIG NSEC
+paris.			86400	IN	NSEC	pars. NS DS RRSIG NSEC
+pars.			172800	IN	NS	a.ns.nic.pars.
+pars.			172800	IN	NS	a.pars.dyntld.net.
+pars.			172800	IN	NS	b.ns.nic.pars.
+pars.			172800	IN	NS	b.pars.dyntld.net.
+pars.			86400	IN	NSEC	partners. NS DS RRSIG NSEC
+a.ns.nic.pars.		172800	IN	A	72.0.49.5
+a.ns.nic.pars.		172800	IN	AAAA	2620:171:a01:ad::5
+b.ns.nic.pars.		172800	IN	A	72.42.113.5
+b.ns.nic.pars.		172800	IN	AAAA	2620:171:d01:dc::5
 partners.		172800	IN	NS	demand.beta.aridns.net.au.
 partners.		172800	IN	NS	demand.alpha.aridns.net.au.
 partners.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -8180,7 +8193,7 @@ redstone.		172800	IN	NS	a0.nic.redstone.
 redstone.		172800	IN	NS	a2.nic.redstone.
 redstone.		172800	IN	NS	b0.nic.redstone.
 redstone.		172800	IN	NS	c0.nic.redstone.
-redstone.		86400	IN	NSEC	rehab. NS DS RRSIG NSEC
+redstone.		86400	IN	NSEC	redumbrella. NS DS RRSIG NSEC
 a0.nic.redstone.	172800	IN	A	65.22.132.17
 a0.nic.redstone.	172800	IN	AAAA	2a01:8840:82::17
 a2.nic.redstone.	172800	IN	A	65.22.135.17
@@ -8189,6 +8202,19 @@ b0.nic.redstone.	172800	IN	A	65.22.133.17
 b0.nic.redstone.	172800	IN	AAAA	2a01:8840:83::17
 c0.nic.redstone.	172800	IN	A	65.22.134.17
 c0.nic.redstone.	172800	IN	AAAA	2a01:8840:84::17
+redumbrella.		172800	IN	NS	a0.nic.redumbrella.
+redumbrella.		172800	IN	NS	a2.nic.redumbrella.
+redumbrella.		172800	IN	NS	b0.nic.redumbrella.
+redumbrella.		172800	IN	NS	c0.nic.redumbrella.
+redumbrella.		86400	IN	NSEC	rehab. NS DS RRSIG NSEC
+a0.nic.redumbrella.	172800	IN	A	65.22.200.1
+a0.nic.redumbrella.	172800	IN	AAAA	2a01:8840:c2::1
+a2.nic.redumbrella.	172800	IN	A	65.22.203.1
+a2.nic.redumbrella.	172800	IN	AAAA	2a01:8840:c5::1
+b0.nic.redumbrella.	172800	IN	A	65.22.201.1
+b0.nic.redumbrella.	172800	IN	AAAA	2a01:8840:c3::1
+c0.nic.redumbrella.	172800	IN	A	65.22.202.1
+c0.nic.redumbrella.	172800	IN	AAAA	2a01:8840:c4::1
 rehab.			172800	IN	NS	demand.beta.aridns.net.au.
 rehab.			172800	IN	NS	demand.alpha.aridns.net.au.
 rehab.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -9879,7 +9905,7 @@ trust.			172800	IN	NS	a.nic.trust.
 trust.			172800	IN	NS	b.nic.trust.
 trust.			172800	IN	NS	c.nic.trust.
 trust.			172800	IN	NS	d.nic.trust.
-trust.			86400	IN	NSEC	tt. NS DS RRSIG NSEC
+trust.			86400	IN	NSEC	trv. NS DS RRSIG NSEC
 a.nic.trust.		172800	IN	A	37.209.192.10
 a.nic.trust.		172800	IN	AAAA	2001:dcd:1::10
 b.nic.trust.		172800	IN	A	37.209.194.10
@@ -9888,6 +9914,19 @@ c.nic.trust.		172800	IN	A	37.209.196.10
 c.nic.trust.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.trust.		172800	IN	A	37.209.198.10
 d.nic.trust.		172800	IN	AAAA	2001:dcd:4::10
+trv.			172800	IN	NS	a0.nic.trv.
+trv.			172800	IN	NS	a2.nic.trv.
+trv.			172800	IN	NS	b0.nic.trv.
+trv.			172800	IN	NS	c0.nic.trv.
+trv.			86400	IN	NSEC	tt. NS DS RRSIG NSEC
+a0.nic.trv.		172800	IN	A	65.22.200.25
+a0.nic.trv.		172800	IN	AAAA	2a01:8840:c2::25
+a2.nic.trv.		172800	IN	A	65.22.203.25
+a2.nic.trv.		172800	IN	AAAA	2a01:8840:c5::25
+b0.nic.trv.		172800	IN	A	65.22.201.25
+b0.nic.trv.		172800	IN	AAAA	2a01:8840:c3::25
+c0.nic.trv.		172800	IN	A	65.22.202.25
+c0.nic.trv.		172800	IN	AAAA	2a01:8840:c4::25
 tt.			172800	IN	NS	ns3.nic.mx.
 tt.			172800	IN	NS	pch.nic.tt.
 tt.			172800	IN	NS	ripe.nic.tt.
@@ -11221,7 +11260,16 @@ xn--mgberp4a5d4ar.	172800	IN	NS	sa-ns.anycast.pch.net.
 xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbpl2fh. NS RRSIG NSEC
 xn--mgbpl2fh.		172800	IN	NS	pch.sis.sd.
 xn--mgbpl2fh.		172800	IN	NS	ans1.sis.sd.
-xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbtx2b. NS RRSIG NSEC
+xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbt3dhd. NS RRSIG NSEC
+xn--mgbt3dhd.		172800	IN	NS	a.ns.nic.xn--mgbt3dhd.
+xn--mgbt3dhd.		172800	IN	NS	a.xn--mgbt3dhd.dyntld.net.
+xn--mgbt3dhd.		172800	IN	NS	b.ns.nic.xn--mgbt3dhd.
+xn--mgbt3dhd.		172800	IN	NS	b.xn--mgbt3dhd.dyntld.net.
+xn--mgbt3dhd.		86400	IN	NSEC	xn--mgbtx2b. NS DS RRSIG NSEC
+a.ns.nic.xn--mgbt3dhd.	172800	IN	A	72.0.49.9
+a.ns.nic.xn--mgbt3dhd.	172800	IN	AAAA	2620:171:a01:ad::9
+b.ns.nic.xn--mgbt3dhd.	172800	IN	A	72.42.113.9
+b.ns.nic.xn--mgbt3dhd.	172800	IN	AAAA	2620:171:d01:dc::9
 xn--mgbtx2b.		172800	IN	NS	ns1.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	dyn1.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	dyn2.cmc.iq.
