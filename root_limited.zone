@@ -8923,8 +8923,8 @@ sg.			172800	IN	NS	sec3.apnic.net.
 sg.			172800	IN	NS	dsany.sgnic.sg.
 sg.			172800	IN	NS	sg-ns.anycast.pch.net.
 sg.			86400	IN	NSEC	sh. NS RRSIG NSEC
-dsany.sgnic.sg.		172800	IN	A	194.0.1.16
-dsany.sgnic.sg.		172800	IN	AAAA	2001:678:4::10
+dsany.sgnic.sg.		172800	IN	A	194.0.11.106
+dsany.sgnic.sg.		172800	IN	AAAA	2001:678:e:106::53
 sh.			172800	IN	NS	a.nic.sh.
 sh.			172800	IN	NS	a.ns13.net.
 sh.			172800	IN	NS	b.nic.ac.
@@ -9940,7 +9940,26 @@ tui.			172800	IN	NS	ns1a.ksregistry.net.
 tui.			172800	IN	NS	ns1b.ksregistry.net.
 tui.			172800	IN	NS	ns2a.ksregistry.com.
 tui.			172800	IN	NS	ns2b.ksregistry.com.
-tui.			86400	IN	NSEC	tv. NS DS RRSIG NSEC
+tui.			86400	IN	NSEC	tushu. NS DS RRSIG NSEC
+tushu.			172800	IN	NS	ns1.dns.nic.tushu.
+tushu.			172800	IN	NS	ns2.dns.nic.tushu.
+tushu.			172800	IN	NS	ns3.dns.nic.tushu.
+tushu.			172800	IN	NS	ns4.dns.nic.tushu.
+tushu.			172800	IN	NS	ns5.dns.nic.tushu.
+tushu.			172800	IN	NS	ns6.dns.nic.tushu.
+tushu.			86400	IN	NSEC	tv. NS DS RRSIG NSEC
+ns1.dns.nic.tushu.	172800	IN	A	156.154.144.169
+ns1.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1071::a9
+ns2.dns.nic.tushu.	172800	IN	A	156.154.145.169
+ns2.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1072::a9
+ns3.dns.nic.tushu.	172800	IN	A	156.154.159.169
+ns3.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1073::a9
+ns4.dns.nic.tushu.	172800	IN	A	156.154.156.169
+ns4.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1074::a9
+ns5.dns.nic.tushu.	172800	IN	A	156.154.157.169
+ns5.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1075::a9
+ns6.dns.nic.tushu.	172800	IN	A	156.154.158.169
+ns6.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1076::a9
 tv.			172800	IN	NS	a5.nstld.com.
 tv.			172800	IN	NS	c5.nstld.com.
 tv.			172800	IN	NS	d5.nstld.com.
@@ -10457,7 +10476,26 @@ watch.			172800	IN	NS	demand.beta.aridns.net.au.
 watch.			172800	IN	NS	demand.alpha.aridns.net.au.
 watch.			172800	IN	NS	demand.delta.aridns.net.au.
 watch.			172800	IN	NS	demand.gamma.aridns.net.au.
-watch.			86400	IN	NSEC	webcam. NS DS RRSIG NSEC
+watch.			86400	IN	NSEC	watches. NS DS RRSIG NSEC
+watches.		172800	IN	NS	ns1.dns.nic.watches.
+watches.		172800	IN	NS	ns2.dns.nic.watches.
+watches.		172800	IN	NS	ns3.dns.nic.watches.
+watches.		172800	IN	NS	ns4.dns.nic.watches.
+watches.		172800	IN	NS	ns5.dns.nic.watches.
+watches.		172800	IN	NS	ns6.dns.nic.watches.
+watches.		86400	IN	NSEC	webcam. NS DS RRSIG NSEC
+ns1.dns.nic.watches.	172800	IN	A	156.154.169.58
+ns1.dns.nic.watches.	172800	IN	AAAA	2610:a1:1071::1:3a
+ns2.dns.nic.watches.	172800	IN	A	156.154.170.58
+ns2.dns.nic.watches.	172800	IN	AAAA	2610:a1:1072::1:3a
+ns3.dns.nic.watches.	172800	IN	A	156.154.171.58
+ns3.dns.nic.watches.	172800	IN	AAAA	2610:a1:1073::1:3a
+ns4.dns.nic.watches.	172800	IN	A	156.154.172.58
+ns4.dns.nic.watches.	172800	IN	AAAA	2610:a1:1074::1:3a
+ns5.dns.nic.watches.	172800	IN	A	156.154.173.58
+ns5.dns.nic.watches.	172800	IN	AAAA	2610:a1:1075::1:3a
+ns6.dns.nic.watches.	172800	IN	A	156.154.174.58
+ns6.dns.nic.watches.	172800	IN	AAAA	2610:a1:1076::1:3a
 webcam.			172800	IN	NS	ns1.dns.nic.webcam.
 webcam.			172800	IN	NS	ns2.dns.nic.webcam.
 webcam.			172800	IN	NS	ns3.dns.nic.webcam.
@@ -10971,7 +11009,26 @@ xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
 xn--d1alf.		172800	IN	NS	ns2.arnes.si.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
-xn--d1alf.		86400	IN	NSEC	xn--efvy88h. NS RRSIG NSEC
+xn--d1alf.		86400	IN	NSEC	xn--eckvdtc9d. NS RRSIG NSEC
+xn--eckvdtc9d.		172800	IN	NS	ns1.dns.nic.xn--eckvdtc9d.
+xn--eckvdtc9d.		172800	IN	NS	ns2.dns.nic.xn--eckvdtc9d.
+xn--eckvdtc9d.		172800	IN	NS	ns3.dns.nic.xn--eckvdtc9d.
+xn--eckvdtc9d.		172800	IN	NS	ns4.dns.nic.xn--eckvdtc9d.
+xn--eckvdtc9d.		172800	IN	NS	ns5.dns.nic.xn--eckvdtc9d.
+xn--eckvdtc9d.		172800	IN	NS	ns6.dns.nic.xn--eckvdtc9d.
+xn--eckvdtc9d.		86400	IN	NSEC	xn--efvy88h. NS DS RRSIG NSEC
+ns1.dns.nic.xn--eckvdtc9d. 172800 IN	A	156.154.169.66
+ns1.dns.nic.xn--eckvdtc9d. 172800 IN	AAAA	2610:a1:1071::1:42
+ns2.dns.nic.xn--eckvdtc9d. 172800 IN	A	156.154.170.66
+ns2.dns.nic.xn--eckvdtc9d. 172800 IN	AAAA	2610:a1:1072::1:42
+ns3.dns.nic.xn--eckvdtc9d. 172800 IN	A	156.154.171.66
+ns3.dns.nic.xn--eckvdtc9d. 172800 IN	AAAA	2610:a1:1073::1:42
+ns4.dns.nic.xn--eckvdtc9d. 172800 IN	A	156.154.172.66
+ns4.dns.nic.xn--eckvdtc9d. 172800 IN	AAAA	2610:a1:1074::1:42
+ns5.dns.nic.xn--eckvdtc9d. 172800 IN	A	156.154.173.66
+ns5.dns.nic.xn--eckvdtc9d. 172800 IN	AAAA	2610:a1:1075::1:42
+ns6.dns.nic.xn--eckvdtc9d. 172800 IN	A	156.154.174.66
+ns6.dns.nic.xn--eckvdtc9d. 172800 IN	AAAA	2610:a1:1076::1:42
 xn--efvy88h.		172800	IN	NS	a.zdnscloud.com.
 xn--efvy88h.		172800	IN	NS	b.zdnscloud.com.
 xn--efvy88h.		172800	IN	NS	c.zdnscloud.com.
