@@ -6912,8 +6912,6 @@ tj.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.117
 tj.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::117
 to.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.118
 to.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::118
-tr.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.120
-tr.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::120
 ug.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.52
 ug.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::52
 uy.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.122
@@ -9860,17 +9858,14 @@ toys.			172800	IN	NS	demand.alpha.aridns.net.au.
 toys.			172800	IN	NS	demand.delta.aridns.net.au.
 toys.			172800	IN	NS	demand.gamma.aridns.net.au.
 toys.			86400	IN	NSEC	tr. NS DS RRSIG NSEC
-tr.			172800	IN	NS	tr.cctld.authdns.ripe.net.
 tr.			172800	IN	NS	ns1.nic.tr.
 tr.			172800	IN	NS	ns2.nic.tr.
 tr.			172800	IN	NS	ns3.nic.tr.
 tr.			172800	IN	NS	ns4.nic.tr.
 tr.			172800	IN	NS	ns5.nic.tr.
 tr.			86400	IN	NSEC	trade. NS RRSIG NSEC
-ns1.nic.tr.		172800	IN	A	144.122.95.51
-ns1.nic.tr.		172800	IN	AAAA	2001:a98:30:ad::11
-ns2.nic.tr.		172800	IN	A	144.122.95.52
-ns2.nic.tr.		172800	IN	AAAA	2001:a98:30:ad::12
+ns1.nic.tr.		172800	IN	A	144.122.95.252
+ns2.nic.tr.		172800	IN	A	144.122.95.253
 ns3.nic.tr.		172800	IN	A	213.248.162.131
 ns4.nic.tr.		172800	IN	A	193.140.100.200
 ns5.nic.tr.		172800	IN	A	178.251.42.18
