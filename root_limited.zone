@@ -1590,13 +1590,14 @@ care.			172800	IN	NS	demand.alpha.aridns.net.au.
 care.			172800	IN	NS	demand.delta.aridns.net.au.
 care.			172800	IN	NS	demand.gamma.aridns.net.au.
 care.			86400	IN	NSEC	career. NS DS RRSIG NSEC
-career.			172800	IN	NS	a5.nstld.com.
-career.			172800	IN	NS	c5.nstld.com.
-career.			172800	IN	NS	d5.nstld.com.
 career.			172800	IN	NS	f5.nstld.com.
 career.			172800	IN	NS	g5.nstld.com.
 career.			172800	IN	NS	h5.nstld.com.
 career.			172800	IN	NS	l5.nstld.com.
+career.			172800	IN	NS	ac1.nstld.com.
+career.			172800	IN	NS	ac2.nstld.com.
+career.			172800	IN	NS	ac3.nstld.com.
+career.			172800	IN	NS	ac4.nstld.com.
 career.			86400	IN	NSEC	careers. NS DS RRSIG NSEC
 careers.		172800	IN	NS	demand.beta.aridns.net.au.
 careers.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -2194,6 +2195,14 @@ ns2.neoip.com.		172800	IN	A	208.109.17.150
 ns5.nominum.com.	172800	IN	A	74.121.127.35
 a5.nstld.com.		172800	IN	A	192.5.6.34
 a6.nstld.com.		172800	IN	A	192.5.6.35
+ac1.nstld.com.		172800	IN	A	192.42.173.30
+ac1.nstld.com.		172800	IN	AAAA	2001:500:120::30
+ac2.nstld.com.		172800	IN	A	192.42.174.30
+ac2.nstld.com.		172800	IN	AAAA	2001:500:121::30
+ac3.nstld.com.		172800	IN	A	192.42.175.30
+ac3.nstld.com.		172800	IN	AAAA	2001:500:122::30
+ac4.nstld.com.		172800	IN	A	192.42.176.30
+ac4.nstld.com.		172800	IN	AAAA	2001:500:123::30
 c5.nstld.com.		172800	IN	A	192.26.92.34
 c6.nstld.com.		172800	IN	A	192.26.92.35
 d5.nstld.com.		172800	IN	A	192.31.80.34
@@ -3454,7 +3463,26 @@ football.		172800	IN	NS	demand.beta.aridns.net.au.
 football.		172800	IN	NS	demand.alpha.aridns.net.au.
 football.		172800	IN	NS	demand.delta.aridns.net.au.
 football.		172800	IN	NS	demand.gamma.aridns.net.au.
-football.		86400	IN	NSEC	forex. NS DS RRSIG NSEC
+football.		86400	IN	NSEC	ford. NS DS RRSIG NSEC
+ford.			172800	IN	NS	ns1.dns.nic.ford.
+ford.			172800	IN	NS	ns2.dns.nic.ford.
+ford.			172800	IN	NS	ns3.dns.nic.ford.
+ford.			172800	IN	NS	ns4.dns.nic.ford.
+ford.			172800	IN	NS	ns5.dns.nic.ford.
+ford.			172800	IN	NS	ns6.dns.nic.ford.
+ford.			86400	IN	NSEC	forex. NS DS RRSIG NSEC
+ns1.dns.nic.ford.	172800	IN	A	156.154.144.62
+ns1.dns.nic.ford.	172800	IN	AAAA	2610:a1:1071::3e
+ns2.dns.nic.ford.	172800	IN	A	156.154.145.62
+ns2.dns.nic.ford.	172800	IN	AAAA	2610:a1:1072::3e
+ns3.dns.nic.ford.	172800	IN	A	156.154.159.62
+ns3.dns.nic.ford.	172800	IN	AAAA	2610:a1:1073::3e
+ns4.dns.nic.ford.	172800	IN	A	156.154.156.62
+ns4.dns.nic.ford.	172800	IN	AAAA	2610:a1:1074::3e
+ns5.dns.nic.ford.	172800	IN	A	156.154.157.62
+ns5.dns.nic.ford.	172800	IN	AAAA	2610:a1:1075::3e
+ns6.dns.nic.ford.	172800	IN	A	156.154.158.62
+ns6.dns.nic.ford.	172800	IN	AAAA	2610:a1:1076::3e
 forex.			172800	IN	NS	a5.nstld.com.
 forex.			172800	IN	NS	c5.nstld.com.
 forex.			172800	IN	NS	d5.nstld.com.
@@ -4852,10 +4880,29 @@ jm.			172800	IN	NS	ns.jm.
 jm.			172800	IN	NS	ns.utechjamaica.edu.jm.
 jm.			172800	IN	NS	ns3-jm.fsl.org.jm.
 jm.			172800	IN	NS	phloem.uoregon.edu.
-jm.			86400	IN	NSEC	jo. NS RRSIG NSEC
+jm.			86400	IN	NSEC	jmp. NS RRSIG NSEC
 ns.utechjamaica.edu.jm.	172800	IN	A	200.9.115.2
 ns.jm.			172800	IN	A	196.2.1.6
 ns3-jm.fsl.org.jm.	172800	IN	A	196.3.191.66
+jmp.			172800	IN	NS	ns1.dns.nic.jmp.
+jmp.			172800	IN	NS	ns2.dns.nic.jmp.
+jmp.			172800	IN	NS	ns3.dns.nic.jmp.
+jmp.			172800	IN	NS	ns4.dns.nic.jmp.
+jmp.			172800	IN	NS	ns5.dns.nic.jmp.
+jmp.			172800	IN	NS	ns6.dns.nic.jmp.
+jmp.			86400	IN	NSEC	jo. NS DS RRSIG NSEC
+ns1.dns.nic.jmp.	172800	IN	A	156.154.144.88
+ns1.dns.nic.jmp.	172800	IN	AAAA	2610:a1:1071::58
+ns2.dns.nic.jmp.	172800	IN	A	156.154.145.88
+ns2.dns.nic.jmp.	172800	IN	AAAA	2610:a1:1072::58
+ns3.dns.nic.jmp.	172800	IN	A	156.154.159.88
+ns3.dns.nic.jmp.	172800	IN	AAAA	2610:a1:1073::58
+ns4.dns.nic.jmp.	172800	IN	A	156.154.156.88
+ns4.dns.nic.jmp.	172800	IN	AAAA	2610:a1:1074::58
+ns5.dns.nic.jmp.	172800	IN	A	156.154.157.88
+ns5.dns.nic.jmp.	172800	IN	AAAA	2610:a1:1075::58
+ns6.dns.nic.jmp.	172800	IN	A	156.154.158.88
+ns6.dns.nic.jmp.	172800	IN	AAAA	2610:a1:1076::58
 jo.			172800	IN	NS	jo.cctld.authdns.ripe.net.
 jo.			172800	IN	NS	rip.psg.com.
 jo.			172800	IN	NS	amra.nic.gov.jo.
@@ -4865,13 +4912,14 @@ jo.			86400	IN	NSEC	jobs. NS RRSIG NSEC
 amra.nic.gov.jo.	172800	IN	A	193.188.66.103
 jordan1st.nic.gov.jo.	172800	IN	A	193.188.69.19
 petra.nic.gov.jo.	172800	IN	A	193.188.66.2
-jobs.			172800	IN	NS	a5.nstld.com.
-jobs.			172800	IN	NS	c5.nstld.com.
-jobs.			172800	IN	NS	d5.nstld.com.
 jobs.			172800	IN	NS	f5.nstld.com.
 jobs.			172800	IN	NS	g5.nstld.com.
 jobs.			172800	IN	NS	h5.nstld.com.
 jobs.			172800	IN	NS	l5.nstld.com.
+jobs.			172800	IN	NS	ac1.nstld.com.
+jobs.			172800	IN	NS	ac2.nstld.com.
+jobs.			172800	IN	NS	ac3.nstld.com.
+jobs.			172800	IN	NS	ac4.nstld.com.
 jobs.			86400	IN	NSEC	joburg. NS DS RRSIG NSEC
 joburg.			172800	IN	NS	ns.coza.net.za.
 joburg.			172800	IN	NS	ns1.coza.net.za.
@@ -5433,7 +5481,26 @@ limo.			172800	IN	NS	demand.beta.aridns.net.au.
 limo.			172800	IN	NS	demand.alpha.aridns.net.au.
 limo.			172800	IN	NS	demand.delta.aridns.net.au.
 limo.			172800	IN	NS	demand.gamma.aridns.net.au.
-limo.			86400	IN	NSEC	linde. NS DS RRSIG NSEC
+limo.			86400	IN	NSEC	lincoln. NS DS RRSIG NSEC
+lincoln.		172800	IN	NS	ns1.dns.nic.lincoln.
+lincoln.		172800	IN	NS	ns2.dns.nic.lincoln.
+lincoln.		172800	IN	NS	ns3.dns.nic.lincoln.
+lincoln.		172800	IN	NS	ns4.dns.nic.lincoln.
+lincoln.		172800	IN	NS	ns5.dns.nic.lincoln.
+lincoln.		172800	IN	NS	ns6.dns.nic.lincoln.
+lincoln.		86400	IN	NSEC	linde. NS DS RRSIG NSEC
+ns1.dns.nic.lincoln.	172800	IN	A	156.154.144.105
+ns1.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1071::69
+ns2.dns.nic.lincoln.	172800	IN	A	156.154.145.105
+ns2.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1072::69
+ns3.dns.nic.lincoln.	172800	IN	A	156.154.159.105
+ns3.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1073::69
+ns4.dns.nic.lincoln.	172800	IN	A	156.154.156.105
+ns4.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1074::69
+ns5.dns.nic.lincoln.	172800	IN	A	156.154.157.105
+ns5.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1075::69
+ns6.dns.nic.lincoln.	172800	IN	A	156.154.158.105
+ns6.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1076::69
 linde.			172800	IN	NS	a5.nstld.com.
 linde.			172800	IN	NS	c5.nstld.com.
 linde.			172800	IN	NS	d5.nstld.com.
@@ -6286,13 +6353,14 @@ na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
 na.			86400	IN	NSEC	nadex. NS DS RRSIG NSEC
 merlin.net.na.		172800	IN	A	204.152.184.96
-nadex.			172800	IN	NS	a5.nstld.com.
-nadex.			172800	IN	NS	c5.nstld.com.
-nadex.			172800	IN	NS	d5.nstld.com.
 nadex.			172800	IN	NS	f5.nstld.com.
 nadex.			172800	IN	NS	g5.nstld.com.
 nadex.			172800	IN	NS	h5.nstld.com.
 nadex.			172800	IN	NS	l5.nstld.com.
+nadex.			172800	IN	NS	ac1.nstld.com.
+nadex.			172800	IN	NS	ac2.nstld.com.
+nadex.			172800	IN	NS	ac3.nstld.com.
+nadex.			172800	IN	NS	ac4.nstld.com.
 nadex.			86400	IN	NSEC	nagoya. NS DS RRSIG NSEC
 nagoya.			172800	IN	NS	a.gmoregistry.net.
 nagoya.			172800	IN	NS	b.gmoregistry.net.
@@ -8643,7 +8711,26 @@ sarl.			172800	IN	NS	demand.beta.aridns.net.au.
 sarl.			172800	IN	NS	demand.alpha.aridns.net.au.
 sarl.			172800	IN	NS	demand.delta.aridns.net.au.
 sarl.			172800	IN	NS	demand.gamma.aridns.net.au.
-sarl.			86400	IN	NSEC	saxo. NS DS RRSIG NSEC
+sarl.			86400	IN	NSEC	sas. NS DS RRSIG NSEC
+sas.			172800	IN	NS	ns1.dns.nic.sas.
+sas.			172800	IN	NS	ns2.dns.nic.sas.
+sas.			172800	IN	NS	ns3.dns.nic.sas.
+sas.			172800	IN	NS	ns4.dns.nic.sas.
+sas.			172800	IN	NS	ns5.dns.nic.sas.
+sas.			172800	IN	NS	ns6.dns.nic.sas.
+sas.			86400	IN	NSEC	saxo. NS DS RRSIG NSEC
+ns1.dns.nic.sas.	172800	IN	A	156.154.169.39
+ns1.dns.nic.sas.	172800	IN	AAAA	2610:a1:1071::1:27
+ns2.dns.nic.sas.	172800	IN	A	156.154.170.39
+ns2.dns.nic.sas.	172800	IN	AAAA	2610:a1:1072::1:27
+ns3.dns.nic.sas.	172800	IN	A	156.154.171.39
+ns3.dns.nic.sas.	172800	IN	AAAA	2610:a1:1073::1:27
+ns4.dns.nic.sas.	172800	IN	A	156.154.172.39
+ns4.dns.nic.sas.	172800	IN	AAAA	2610:a1:1074::1:27
+ns5.dns.nic.sas.	172800	IN	A	156.154.173.39
+ns5.dns.nic.sas.	172800	IN	AAAA	2610:a1:1075::1:27
+ns6.dns.nic.sas.	172800	IN	A	156.154.174.39
+ns6.dns.nic.sas.	172800	IN	AAAA	2610:a1:1076::1:27
 saxo.			172800	IN	NS	a.nic.saxo.
 saxo.			172800	IN	NS	b.nic.saxo.
 saxo.			172800	IN	NS	c.nic.saxo.
@@ -9226,13 +9313,14 @@ spiegel.		172800	IN	NS	ns1b.ksregistry.net.
 spiegel.		172800	IN	NS	ns2a.ksregistry.com.
 spiegel.		172800	IN	NS	ns2b.ksregistry.com.
 spiegel.		86400	IN	NSEC	spreadbetting. NS DS RRSIG NSEC
-spreadbetting.		172800	IN	NS	a5.nstld.com.
-spreadbetting.		172800	IN	NS	c5.nstld.com.
-spreadbetting.		172800	IN	NS	d5.nstld.com.
 spreadbetting.		172800	IN	NS	f5.nstld.com.
 spreadbetting.		172800	IN	NS	g5.nstld.com.
 spreadbetting.		172800	IN	NS	h5.nstld.com.
 spreadbetting.		172800	IN	NS	l5.nstld.com.
+spreadbetting.		172800	IN	NS	ac1.nstld.com.
+spreadbetting.		172800	IN	NS	ac2.nstld.com.
+spreadbetting.		172800	IN	NS	ac3.nstld.com.
+spreadbetting.		172800	IN	NS	ac4.nstld.com.
 spreadbetting.		86400	IN	NSEC	sr. NS DS RRSIG NSEC
 sr.			172800	IN	NS	ns1.sr.net.
 sr.			172800	IN	NS	ns2.sr.net.
@@ -9321,7 +9409,7 @@ stockholm.		172800	IN	NS	a0.nic.stockholm.
 stockholm.		172800	IN	NS	a2.nic.stockholm.
 stockholm.		172800	IN	NS	b0.nic.stockholm.
 stockholm.		172800	IN	NS	c0.nic.stockholm.
-stockholm.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+stockholm.		86400	IN	NSEC	storage. NS DS RRSIG NSEC
 a0.nic.stockholm.	172800	IN	A	65.22.220.41
 a0.nic.stockholm.	172800	IN	AAAA	2a01:8840:d6::41
 a2.nic.stockholm.	172800	IN	A	65.22.223.41
@@ -9330,6 +9418,19 @@ b0.nic.stockholm.	172800	IN	A	65.22.221.41
 b0.nic.stockholm.	172800	IN	AAAA	2a01:8840:d7::41
 c0.nic.stockholm.	172800	IN	A	65.22.222.41
 c0.nic.stockholm.	172800	IN	AAAA	2a01:8840:d8::41
+storage.		172800	IN	NS	a0.nic.storage.
+storage.		172800	IN	NS	a2.nic.storage.
+storage.		172800	IN	NS	b0.nic.storage.
+storage.		172800	IN	NS	c0.nic.storage.
+storage.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+a0.nic.storage.		172800	IN	A	65.22.116.9
+a0.nic.storage.		172800	IN	AAAA	2a01:8840:72::9
+a2.nic.storage.		172800	IN	A	65.22.119.9
+a2.nic.storage.		172800	IN	AAAA	2a01:8840:75::9
+b0.nic.storage.		172800	IN	A	65.22.117.9
+b0.nic.storage.		172800	IN	AAAA	2a01:8840:73::9
+c0.nic.storage.		172800	IN	A	65.22.118.9
+c0.nic.storage.		172800	IN	AAAA	2a01:8840:74::9
 studio.			172800	IN	NS	demand.beta.aridns.net.au.
 studio.			172800	IN	NS	demand.alpha.aridns.net.au.
 studio.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -11263,7 +11364,20 @@ xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	x.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
-xn--j6w193g.		86400	IN	NSEC	xn--kcrx77d1x4a. NS RRSIG NSEC
+xn--j6w193g.		86400	IN	NSEC	xn--jlq61u9w7b. NS RRSIG NSEC
+xn--jlq61u9w7b.		172800	IN	NS	a0.nic.xn--jlq61u9w7b.
+xn--jlq61u9w7b.		172800	IN	NS	a2.nic.xn--jlq61u9w7b.
+xn--jlq61u9w7b.		172800	IN	NS	b0.nic.xn--jlq61u9w7b.
+xn--jlq61u9w7b.		172800	IN	NS	c0.nic.xn--jlq61u9w7b.
+xn--jlq61u9w7b.		86400	IN	NSEC	xn--kcrx77d1x4a. NS DS RRSIG NSEC
+a0.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.244.1
+a0.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:ee::1
+a2.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.247.1
+a2.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:f1::1
+b0.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.245.1
+b0.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:ef::1
+c0.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.246.1
+c0.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:f0::1
 xn--kcrx77d1x4a.	172800	IN	NS	a.nic.xn--kcrx77d1x4a.
 xn--kcrx77d1x4a.	172800	IN	NS	b.nic.xn--kcrx77d1x4a.
 xn--kcrx77d1x4a.	172800	IN	NS	c.nic.xn--kcrx77d1x4a.
