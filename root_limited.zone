@@ -330,7 +330,7 @@ amsterdam.		172800	IN	NS	ns2.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns3.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns4.nic.amsterdam.
 amsterdam.		172800	IN	NS	ns5.nic.amsterdam.
-amsterdam.		86400	IN	NSEC	android. NS DS RRSIG NSEC
+amsterdam.		86400	IN	NSEC	analytics. NS DS RRSIG NSEC
 ns1.nic.amsterdam.	172800	IN	A	193.176.144.14
 ns1.nic.amsterdam.	172800	IN	AAAA	2a00:d78:0:102:193:176:144:14
 ns2.nic.amsterdam.	172800	IN	A	213.154.241.83
@@ -341,6 +341,25 @@ ns4.nic.amsterdam.	172800	IN	A	95.142.99.216
 ns4.nic.amsterdam.	172800	IN	AAAA	2a00:1188:5::216
 ns5.nic.amsterdam.	172800	IN	A	194.0.28.4
 ns5.nic.amsterdam.	172800	IN	AAAA	2001:678:2c:0:194:0:28:4
+analytics.		172800	IN	NS	ns1.dns.nic.analytics.
+analytics.		172800	IN	NS	ns2.dns.nic.analytics.
+analytics.		172800	IN	NS	ns3.dns.nic.analytics.
+analytics.		172800	IN	NS	ns4.dns.nic.analytics.
+analytics.		172800	IN	NS	ns5.dns.nic.analytics.
+analytics.		172800	IN	NS	ns6.dns.nic.analytics.
+analytics.		86400	IN	NSEC	android. NS DS RRSIG NSEC
+ns1.dns.nic.analytics.	172800	IN	A	156.154.144.12
+ns1.dns.nic.analytics.	172800	IN	AAAA	2610:a1:1071::c
+ns2.dns.nic.analytics.	172800	IN	A	156.154.145.12
+ns2.dns.nic.analytics.	172800	IN	AAAA	2610:a1:1072::c
+ns3.dns.nic.analytics.	172800	IN	A	156.154.159.12
+ns3.dns.nic.analytics.	172800	IN	AAAA	2610:a1:1073::c
+ns4.dns.nic.analytics.	172800	IN	A	156.154.156.12
+ns4.dns.nic.analytics.	172800	IN	AAAA	2610:a1:1074::c
+ns5.dns.nic.analytics.	172800	IN	A	156.154.157.12
+ns5.dns.nic.analytics.	172800	IN	AAAA	2610:a1:1075::c
+ns6.dns.nic.analytics.	172800	IN	A	156.154.158.12
+ns6.dns.nic.analytics.	172800	IN	AAAA	2610:a1:1076::c
 android.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 android.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -3636,6 +3655,8 @@ gbiz.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 gbiz.			86400	IN	NSEC	gd. NS DS RRSIG NSEC
+gd.			172800	IN	NS	a.gd.dyntld.net.
+gd.			172800	IN	NS	b.gd.dyntld.net.
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 gd.			172800	IN	NS	gd-ns.ksregistry.net.
@@ -6601,6 +6622,10 @@ b.game.dyntld.net.	172800	IN	A	199.19.7.25
 b.game.dyntld.net.	172800	IN	AAAA	2a02:e180:1::25
 c.game.dyntld.net.	172800	IN	A	185.38.98.25
 c.game.dyntld.net.	172800	IN	AAAA	2a02:e180:2::25
+a.gd.dyntld.net.	172800	IN	A	162.88.52.2
+a.gd.dyntld.net.	172800	IN	AAAA	2600:2000:3000::2
+b.gd.dyntld.net.	172800	IN	A	162.88.53.2
+b.gd.dyntld.net.	172800	IN	AAAA	2600:2000:3001::2
 a.gift.dyntld.net.	172800	IN	A	199.19.1.7
 a.gift.dyntld.net.	172800	IN	AAAA	2a02:e180::7
 b.gift.dyntld.net.	172800	IN	A	199.19.7.7
@@ -9964,13 +9989,15 @@ tr.			172800	IN	NS	ns1.nic.tr.
 tr.			172800	IN	NS	ns2.nic.tr.
 tr.			172800	IN	NS	ns3.nic.tr.
 tr.			172800	IN	NS	ns4.nic.tr.
-tr.			172800	IN	NS	ns5.nic.tr.
+tr.			172800	IN	NS	ns7.nic.tr.
+tr.			172800	IN	NS	ns8.nic.tr.
 tr.			86400	IN	NSEC	trade. NS RRSIG NSEC
 ns1.nic.tr.		172800	IN	A	144.122.95.252
 ns2.nic.tr.		172800	IN	A	144.122.95.253
 ns3.nic.tr.		172800	IN	A	213.248.162.131
 ns4.nic.tr.		172800	IN	A	193.140.100.200
-ns5.nic.tr.		172800	IN	A	178.251.42.18
+ns7.nic.tr.		172800	IN	A	212.156.63.51
+ns8.nic.tr.		172800	IN	A	212.156.64.91
 trade.			172800	IN	NS	ns1.dns.nic.trade.
 trade.			172800	IN	NS	ns2.dns.nic.trade.
 trade.			172800	IN	NS	ns3.dns.nic.trade.
