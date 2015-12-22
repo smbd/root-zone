@@ -6753,6 +6753,10 @@ b.property.dyntld.net.	172800	IN	A	199.19.7.16
 b.property.dyntld.net.	172800	IN	AAAA	2a02:e180:1::16
 c.property.dyntld.net.	172800	IN	A	185.38.98.16
 c.property.dyntld.net.	172800	IN	AAAA	2a02:e180:2::16
+a.rw.dyntld.net.	172800	IN	A	162.88.52.3
+a.rw.dyntld.net.	172800	IN	AAAA	2600:2000:3000::3
+b.rw.dyntld.net.	172800	IN	A	162.88.53.3
+b.rw.dyntld.net.	172800	IN	AAAA	2600:2000:3001::3
 sb1.dyntld.net.		172800	IN	A	208.78.70.83
 sb1.dyntld.net.		172800	IN	AAAA	2001:500:90::83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
@@ -6781,6 +6785,10 @@ a.tl.dyntld.net.	172800	IN	A	199.19.5.12
 a.tl.dyntld.net.	172800	IN	AAAA	2001:500:92::12
 b.tl.dyntld.net.	172800	IN	A	199.19.6.12
 b.tl.dyntld.net.	172800	IN	AAAA	2001:500:96::12
+a.vg.dyntld.net.	172800	IN	A	162.88.52.1
+a.vg.dyntld.net.	172800	IN	AAAA	2600:2000:3000::1
+b.vg.dyntld.net.	172800	IN	A	162.88.53.1
+b.vg.dyntld.net.	172800	IN	AAAA	2600:2000:3001::1
 a.wed.dyntld.net.	172800	IN	A	199.19.5.19
 a.wed.dyntld.net.	172800	IN	AAAA	2001:500:92::19
 b.wed.dyntld.net.	172800	IN	A	199.19.6.19
@@ -8623,6 +8631,8 @@ run.			172800	IN	NS	demand.alpha.aridns.net.au.
 run.			172800	IN	NS	demand.delta.aridns.net.au.
 run.			172800	IN	NS	demand.gamma.aridns.net.au.
 run.			86400	IN	NSEC	rw. NS DS RRSIG NSEC
+rw.			172800	IN	NS	a.rw.dyntld.net.
+rw.			172800	IN	NS	b.rw.dyntld.net.
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	ns3.ricta.org.rw.
 rw.			172800	IN	NS	pch.ricta.org.rw.
@@ -10025,16 +10035,18 @@ toys.			172800	IN	NS	demand.delta.aridns.net.au.
 toys.			172800	IN	NS	demand.gamma.aridns.net.au.
 toys.			86400	IN	NSEC	tr. NS DS RRSIG NSEC
 tr.			172800	IN	NS	ns1.nic.tr.
-tr.			172800	IN	NS	ns2.nic.tr.
 tr.			172800	IN	NS	ns3.nic.tr.
-tr.			172800	IN	NS	ns4.nic.tr.
 tr.			172800	IN	NS	ns7.nic.tr.
 tr.			172800	IN	NS	ns8.nic.tr.
+tr.			172800	IN	NS	ns21.nic.tr.
+tr.			172800	IN	NS	ns22.nic.tr.
+tr.			172800	IN	NS	ns31.nic.tr.
 tr.			86400	IN	NSEC	trade. NS RRSIG NSEC
 ns1.nic.tr.		172800	IN	A	144.122.95.252
-ns2.nic.tr.		172800	IN	A	144.122.95.253
+ns21.nic.tr.		172800	IN	A	213.14.246.2
+ns22.nic.tr.		172800	IN	A	213.14.246.6
 ns3.nic.tr.		172800	IN	A	213.248.162.131
-ns4.nic.tr.		172800	IN	A	193.140.100.200
+ns31.nic.tr.		172800	IN	A	31.210.155.2
 ns7.nic.tr.		172800	IN	A	212.156.63.51
 ns8.nic.tr.		172800	IN	A	212.156.64.91
 trade.			172800	IN	NS	ns1.dns.nic.trade.
@@ -10448,6 +10460,8 @@ vet.			172800	IN	NS	demand.alpha.aridns.net.au.
 vet.			172800	IN	NS	demand.delta.aridns.net.au.
 vet.			172800	IN	NS	demand.gamma.aridns.net.au.
 vet.			86400	IN	NSEC	vg. NS DS RRSIG NSEC
+vg.			172800	IN	NS	a.vg.dyntld.net.
+vg.			172800	IN	NS	b.vg.dyntld.net.
 vg.			172800	IN	NS	vg.cctld.authdns.ripe.net.
 vg.			172800	IN	NS	vg-ns.anycast.pch.net.
 vg.			172800	IN	NS	vg-ns.ksregistry.net.
