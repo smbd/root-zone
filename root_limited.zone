@@ -2318,7 +2318,20 @@ consulting.		172800	IN	NS	demand.beta.aridns.net.au.
 consulting.		172800	IN	NS	demand.alpha.aridns.net.au.
 consulting.		172800	IN	NS	demand.delta.aridns.net.au.
 consulting.		172800	IN	NS	demand.gamma.aridns.net.au.
-consulting.		86400	IN	NSEC	contractors. NS DS RRSIG NSEC
+consulting.		86400	IN	NSEC	contact. NS DS RRSIG NSEC
+contact.		172800	IN	NS	a.nic.contact.
+contact.		172800	IN	NS	b.nic.contact.
+contact.		172800	IN	NS	c.nic.contact.
+contact.		172800	IN	NS	d.nic.contact.
+contact.		86400	IN	NSEC	contractors. NS DS RRSIG NSEC
+a.nic.contact.		172800	IN	A	194.169.218.40
+a.nic.contact.		172800	IN	AAAA	2001:67c:13cc::1:40
+b.nic.contact.		172800	IN	A	185.24.64.40
+b.nic.contact.		172800	IN	AAAA	2a04:2b00:13cc::1:40
+c.nic.contact.		172800	IN	A	194.0.2.2
+c.nic.contact.		172800	IN	AAAA	2001:678:5::2
+d.nic.contact.		172800	IN	A	194.0.1.45
+d.nic.contact.		172800	IN	AAAA	2001:678:4::2d
 contractors.		172800	IN	NS	demand.beta.aridns.net.au.
 contractors.		172800	IN	NS	demand.alpha.aridns.net.au.
 contractors.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -7837,7 +7850,20 @@ pictures.		172800	IN	NS	demand.beta.aridns.net.au.
 pictures.		172800	IN	NS	demand.alpha.aridns.net.au.
 pictures.		172800	IN	NS	demand.delta.aridns.net.au.
 pictures.		172800	IN	NS	demand.gamma.aridns.net.au.
-pictures.		86400	IN	NSEC	pin. NS DS RRSIG NSEC
+pictures.		86400	IN	NSEC	pid. NS DS RRSIG NSEC
+pid.			172800	IN	NS	a.nic.pid.
+pid.			172800	IN	NS	b.nic.pid.
+pid.			172800	IN	NS	c.nic.pid.
+pid.			172800	IN	NS	d.nic.pid.
+pid.			86400	IN	NSEC	pin. NS DS RRSIG NSEC
+a.nic.pid.		172800	IN	A	194.169.218.47
+a.nic.pid.		172800	IN	AAAA	2001:67c:13cc::1:47
+b.nic.pid.		172800	IN	A	185.24.64.47
+b.nic.pid.		172800	IN	AAAA	2a04:2b00:13cc::1:47
+c.nic.pid.		172800	IN	A	194.0.2.2
+c.nic.pid.		172800	IN	AAAA	2001:678:5::2
+d.nic.pid.		172800	IN	A	194.0.1.45
+d.nic.pid.		172800	IN	AAAA	2001:678:4::2d
 pin.			172800	IN	NS	ns1.dns.nic.pin.
 pin.			172800	IN	NS	ns2.dns.nic.pin.
 pin.			172800	IN	NS	ns3.dns.nic.pin.
@@ -9375,7 +9401,7 @@ stada.			172800	IN	NS	a0.nic.stada.
 stada.			172800	IN	NS	a2.nic.stada.
 stada.			172800	IN	NS	b0.nic.stada.
 stada.			172800	IN	NS	c0.nic.stada.
-stada.			86400	IN	NSEC	starhub. NS DS RRSIG NSEC
+stada.			86400	IN	NSEC	star. NS DS RRSIG NSEC
 a0.nic.stada.		172800	IN	A	65.22.156.25
 a0.nic.stada.		172800	IN	AAAA	2a01:8840:9a::25
 a2.nic.stada.		172800	IN	A	65.22.159.25
@@ -9384,6 +9410,19 @@ b0.nic.stada.		172800	IN	A	65.22.157.25
 b0.nic.stada.		172800	IN	AAAA	2a01:8840:9b::25
 c0.nic.stada.		172800	IN	A	65.22.158.25
 c0.nic.stada.		172800	IN	AAAA	2a01:8840:9c::25
+star.			172800	IN	NS	a0.nic.star.
+star.			172800	IN	NS	a2.nic.star.
+star.			172800	IN	NS	b0.nic.star.
+star.			172800	IN	NS	c0.nic.star.
+star.			86400	IN	NSEC	starhub. NS DS RRSIG NSEC
+a0.nic.star.		172800	IN	A	65.22.56.9
+a0.nic.star.		172800	IN	AAAA	2a01:8840:36::9
+a2.nic.star.		172800	IN	A	65.22.59.9
+a2.nic.star.		172800	IN	AAAA	2a01:8840:39::9
+b0.nic.star.		172800	IN	A	65.22.57.9
+b0.nic.star.		172800	IN	AAAA	2a01:8840:37::9
+c0.nic.star.		172800	IN	A	65.22.58.9
+c0.nic.star.		172800	IN	AAAA	2a01:8840:38::9
 starhub.		172800	IN	NS	a.nic.starhub.
 starhub.		172800	IN	NS	b.nic.starhub.
 starhub.		172800	IN	NS	c.nic.starhub.
@@ -10691,7 +10730,7 @@ webcam.			172800	IN	NS	ns3.dns.nic.webcam.
 webcam.			172800	IN	NS	ns4.dns.nic.webcam.
 webcam.			172800	IN	NS	ns5.dns.nic.webcam.
 webcam.			172800	IN	NS	ns6.dns.nic.webcam.
-webcam.			86400	IN	NSEC	website. NS DS RRSIG NSEC
+webcam.			86400	IN	NSEC	weber. NS DS RRSIG NSEC
 ns1.dns.nic.webcam.	172800	IN	A	156.154.169.60
 ns1.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1071::1:3c
 ns2.dns.nic.webcam.	172800	IN	A	156.154.170.60
@@ -10704,6 +10743,14 @@ ns5.dns.nic.webcam.	172800	IN	A	156.154.173.60
 ns5.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1075::1:3c
 ns6.dns.nic.webcam.	172800	IN	A	156.154.174.60
 ns6.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1076::1:3c
+weber.			172800	IN	NS	a5.nstld.com.
+weber.			172800	IN	NS	c5.nstld.com.
+weber.			172800	IN	NS	d5.nstld.com.
+weber.			172800	IN	NS	f5.nstld.com.
+weber.			172800	IN	NS	g5.nstld.com.
+weber.			172800	IN	NS	h5.nstld.com.
+weber.			172800	IN	NS	l5.nstld.com.
+weber.			86400	IN	NSEC	website. NS DS RRSIG NSEC
 website.		172800	IN	NS	a.nic.website.
 website.		172800	IN	NS	b.nic.website.
 website.		172800	IN	NS	c.nic.website.
