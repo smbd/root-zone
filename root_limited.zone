@@ -6095,7 +6095,26 @@ mobi.			172800	IN	NS	b0.mobi.afilias-nst.org.
 mobi.			172800	IN	NS	b2.mobi.afilias-nst.org.
 mobi.			172800	IN	NS	c0.mobi.afilias-nst.info.
 mobi.			172800	IN	NS	d0.mobi.afilias-nst.org.
-mobi.			86400	IN	NSEC	moda. NS RRSIG NSEC
+mobi.			86400	IN	NSEC	mobily. NS RRSIG NSEC
+mobily.			172800	IN	NS	ns1.dns.nic.mobily.
+mobily.			172800	IN	NS	ns2.dns.nic.mobily.
+mobily.			172800	IN	NS	ns3.dns.nic.mobily.
+mobily.			172800	IN	NS	ns4.dns.nic.mobily.
+mobily.			172800	IN	NS	ns5.dns.nic.mobily.
+mobily.			172800	IN	NS	ns6.dns.nic.mobily.
+mobily.			86400	IN	NSEC	moda. NS DS RRSIG NSEC
+ns1.dns.nic.mobily.	172800	IN	A	156.154.169.17
+ns1.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1071::1:11
+ns2.dns.nic.mobily.	172800	IN	A	156.154.170.17
+ns2.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1072::1:11
+ns3.dns.nic.mobily.	172800	IN	A	156.154.171.17
+ns3.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1073::1:11
+ns4.dns.nic.mobily.	172800	IN	A	156.154.172.17
+ns4.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1074::1:11
+ns5.dns.nic.mobily.	172800	IN	A	156.154.173.17
+ns5.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1075::1:11
+ns6.dns.nic.mobily.	172800	IN	A	156.154.174.17
+ns6.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1076::1:11
 moda.			172800	IN	NS	demand.beta.aridns.net.au.
 moda.			172800	IN	NS	demand.alpha.aridns.net.au.
 moda.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -11577,7 +11596,26 @@ xn--mgbayh7gpa.		172800	IN	NS	rip.psg.com.
 xn--mgbayh7gpa.		172800	IN	NS	amra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	petra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	jordan1st.nic.gov.jo.
-xn--mgbayh7gpa.		86400	IN	NSEC	xn--mgbbh1a71e. NS RRSIG NSEC
+xn--mgbayh7gpa.		86400	IN	NSEC	xn--mgbb9fbpob. NS RRSIG NSEC
+xn--mgbb9fbpob.		172800	IN	NS	ns1.dns.nic.xn--mgbb9fbpob.
+xn--mgbb9fbpob.		172800	IN	NS	ns2.dns.nic.xn--mgbb9fbpob.
+xn--mgbb9fbpob.		172800	IN	NS	ns3.dns.nic.xn--mgbb9fbpob.
+xn--mgbb9fbpob.		172800	IN	NS	ns4.dns.nic.xn--mgbb9fbpob.
+xn--mgbb9fbpob.		172800	IN	NS	ns5.dns.nic.xn--mgbb9fbpob.
+xn--mgbb9fbpob.		172800	IN	NS	ns6.dns.nic.xn--mgbb9fbpob.
+xn--mgbb9fbpob.		86400	IN	NSEC	xn--mgbbh1a71e. NS DS RRSIG NSEC
+ns1.dns.nic.xn--mgbb9fbpob. 172800 IN	A	156.154.169.73
+ns1.dns.nic.xn--mgbb9fbpob. 172800 IN	AAAA	2610:a1:1071::1:49
+ns2.dns.nic.xn--mgbb9fbpob. 172800 IN	A	156.154.170.73
+ns2.dns.nic.xn--mgbb9fbpob. 172800 IN	AAAA	2610:a1:1072::1:49
+ns3.dns.nic.xn--mgbb9fbpob. 172800 IN	A	156.154.171.73
+ns3.dns.nic.xn--mgbb9fbpob. 172800 IN	AAAA	2610:a1:1073::1:49
+ns4.dns.nic.xn--mgbb9fbpob. 172800 IN	A	156.154.172.73
+ns4.dns.nic.xn--mgbb9fbpob. 172800 IN	AAAA	2610:a1:1074::1:49
+ns5.dns.nic.xn--mgbb9fbpob. 172800 IN	A	156.154.173.73
+ns5.dns.nic.xn--mgbb9fbpob. 172800 IN	AAAA	2610:a1:1075::1:49
+ns6.dns.nic.xn--mgbb9fbpob. 172800 IN	A	156.154.174.73
+ns6.dns.nic.xn--mgbb9fbpob. 172800 IN	AAAA	2610:a1:1076::1:49
 xn--mgbbh1a71e.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	a2.in.afilias-nst.info.
