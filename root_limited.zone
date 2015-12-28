@@ -2026,7 +2026,20 @@ clinic.			172800	IN	NS	demand.beta.aridns.net.au.
 clinic.			172800	IN	NS	demand.alpha.aridns.net.au.
 clinic.			172800	IN	NS	demand.delta.aridns.net.au.
 clinic.			172800	IN	NS	demand.gamma.aridns.net.au.
-clinic.			86400	IN	NSEC	clothing. NS DS RRSIG NSEC
+clinic.			86400	IN	NSEC	clinique. NS DS RRSIG NSEC
+clinique.		172800	IN	NS	a0.nic.clinique.
+clinique.		172800	IN	NS	a2.nic.clinique.
+clinique.		172800	IN	NS	b0.nic.clinique.
+clinique.		172800	IN	NS	c0.nic.clinique.
+clinique.		86400	IN	NSEC	clothing. NS DS RRSIG NSEC
+a0.nic.clinique.	172800	IN	A	65.22.52.41
+a0.nic.clinique.	172800	IN	AAAA	2a01:8840:32::41
+a2.nic.clinique.	172800	IN	A	65.22.55.41
+a2.nic.clinique.	172800	IN	AAAA	2a01:8840:35::41
+b0.nic.clinique.	172800	IN	A	65.22.53.41
+b0.nic.clinique.	172800	IN	AAAA	2a01:8840:33::41
+c0.nic.clinique.	172800	IN	A	65.22.54.41
+c0.nic.clinique.	172800	IN	AAAA	2a01:8840:34::41
 clothing.		172800	IN	NS	demand.beta.aridns.net.au.
 clothing.		172800	IN	NS	demand.alpha.aridns.net.au.
 clothing.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -5618,7 +5631,15 @@ live.			172800	IN	NS	demand.beta.aridns.net.au.
 live.			172800	IN	NS	demand.alpha.aridns.net.au.
 live.			172800	IN	NS	demand.delta.aridns.net.au.
 live.			172800	IN	NS	demand.gamma.aridns.net.au.
-live.			86400	IN	NSEC	lixil. NS DS RRSIG NSEC
+live.			86400	IN	NSEC	living. NS DS RRSIG NSEC
+living.			172800	IN	NS	a5.nstld.com.
+living.			172800	IN	NS	c5.nstld.com.
+living.			172800	IN	NS	d5.nstld.com.
+living.			172800	IN	NS	f5.nstld.com.
+living.			172800	IN	NS	g5.nstld.com.
+living.			172800	IN	NS	h5.nstld.com.
+living.			172800	IN	NS	l5.nstld.com.
+living.			86400	IN	NSEC	lixil. NS DS RRSIG NSEC
 lixil.			172800	IN	NS	a.nic.lixil.
 lixil.			172800	IN	NS	b.nic.lixil.
 lixil.			172800	IN	NS	c.nic.lixil.
