@@ -2413,22 +2413,14 @@ c.nic.courses.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.courses.		172800	IN	A	37.209.198.9
 d.nic.courses.		172800	IN	AAAA	2001:dcd:4::9
 cr.			172800	IN	NS	a.ns.cr.
+cr.			172800	IN	NS	a.lactld.org.
 cr.			172800	IN	NS	c.ns.cr.
-cr.			172800	IN	NS	f.nic.cr.
-cr.			172800	IN	NS	g.nic.cr.
-cr.			172800	IN	NS	h.nic.cr.
 cr.			172800	IN	NS	p.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
 cr.			86400	IN	NSEC	credit. NS DS RRSIG NSEC
 dns.nic.cr.		172800	IN	A	200.107.82.100
 dns.nic.cr.		172800	IN	AAAA	2001:13c7:7004:1::d100
-f.nic.cr.		172800	IN	A	199.254.59.9
-f.nic.cr.		172800	IN	AAAA	2001:500:25::9
-g.nic.cr.		172800	IN	A	199.254.60.9
-g.nic.cr.		172800	IN	AAAA	2001:500:26::9
-h.nic.cr.		172800	IN	A	199.254.61.9
-h.nic.cr.		172800	IN	AAAA	2001:500:27::9
 p.nic.cr.		172800	IN	A	204.61.216.89
 p.nic.cr.		172800	IN	AAAA	2001:500:14:6089:ad::1
 ns.cr.			172800	IN	A	163.178.8.2
@@ -2954,7 +2946,6 @@ dvag.			172800	IN	NS	ns1b.ksregistry.net.
 dvag.			172800	IN	NS	ns2a.ksregistry.com.
 dvag.			172800	IN	NS	ns2b.ksregistry.com.
 dvag.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
-dz.			172800	IN	NS	dz.cctld.authdns.ripe.net.
 dz.			172800	IN	NS	ns1.nic.dz.
 dz.			172800	IN	NS	ns2.nic.dz.
 dz.			172800	IN	NS	ns3.nic.fr.
@@ -7061,8 +7052,6 @@ cu.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::70
 cw.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.86
 cw.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::86
-dz.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.71
-dz.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::71
 er.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.72
 er.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::72
 et.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.73
@@ -7436,6 +7425,7 @@ nrw.			86400	IN	NSEC	ntt. NS DS RRSIG NSEC
 ntt.			172800	IN	NS	tld1.nic.ntt.
 ntt.			172800	IN	NS	tld2.nic.ntt.
 ntt.			172800	IN	NS	tld3.nic.ntt.
+ntt.			172800	IN	NS	tld5.nic.ntt.
 ntt.			86400	IN	NSEC	nu. NS DS RRSIG NSEC
 tld1.nic.ntt.		172800	IN	A	103.47.2.2
 tld1.nic.ntt.		172800	IN	AAAA	2001:dda::2
@@ -7443,6 +7433,8 @@ tld2.nic.ntt.		172800	IN	A	117.104.133.17
 tld2.nic.ntt.		172800	IN	AAAA	2001:218:3001::2
 tld3.nic.ntt.		172800	IN	A	65.22.40.17
 tld3.nic.ntt.		172800	IN	AAAA	2a01:8840:1ba::17
+tld5.nic.ntt.		172800	IN	A	65.22.40.145
+tld5.nic.ntt.		172800	IN	AAAA	2a01:8840:1ba::145
 nu.			172800	IN	NS	a.nic.nu.
 nu.			172800	IN	NS	b.nic.nu.
 nu.			172800	IN	NS	c.nic.nu.
@@ -7706,6 +7698,8 @@ ams.sns-pb.isc.org.	172800	IN	A	199.6.1.30
 ams.sns-pb.isc.org.	172800	IN	AAAA	2001:500:60::30
 sfba.sns-pb.isc.org.	172800	IN	A	149.20.64.3
 sfba.sns-pb.isc.org.	172800	IN	AAAA	2001:4f8:0:2::19
+a.lactld.org.		172800	IN	A	200.0.68.10
+a.lactld.org.		172800	IN	AAAA	2801:14:a000::10
 tld3.ultradns.org.	172800	IN	A	199.7.66.1
 tld4.ultradns.org.	172800	IN	A	199.7.67.1
 tld4.ultradns.org.	172800	IN	AAAA	2001:502:100e::1
@@ -8844,11 +8838,17 @@ ns6.dns.nic.safety.	172800	IN	A	156.154.158.148
 ns6.dns.nic.safety.	172800	IN	AAAA	2610:a1:1076::94
 sakura.			172800	IN	NS	tld1.nic.sakura.
 sakura.			172800	IN	NS	tld2.nic.sakura.
+sakura.			172800	IN	NS	tld3.nic.sakura.
+sakura.			172800	IN	NS	tld5.nic.sakura.
 sakura.			86400	IN	NSEC	sale. NS DS RRSIG NSEC
 tld1.nic.sakura.	172800	IN	A	103.47.2.3
 tld1.nic.sakura.	172800	IN	AAAA	2001:dda::3
 tld2.nic.sakura.	172800	IN	A	117.104.133.18
 tld2.nic.sakura.	172800	IN	AAAA	2001:218:3001::3
+tld3.nic.sakura.	172800	IN	A	65.22.40.9
+tld3.nic.sakura.	172800	IN	AAAA	2a01:8840:1ba::9
+tld5.nic.sakura.	172800	IN	A	65.22.40.137
+tld5.nic.sakura.	172800	IN	AAAA	2a01:8840:1ba::137
 sale.			172800	IN	NS	demand.beta.aridns.net.au.
 sale.			172800	IN	NS	demand.alpha.aridns.net.au.
 sale.			172800	IN	NS	demand.delta.aridns.net.au.
