@@ -8233,7 +8233,20 @@ prof.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 prof.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 prof.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 prof.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-prof.			86400	IN	NSEC	properties. NS DS RRSIG NSEC
+prof.			86400	IN	NSEC	promo. NS DS RRSIG NSEC
+promo.			172800	IN	NS	a0.nic.promo.
+promo.			172800	IN	NS	a2.nic.promo.
+promo.			172800	IN	NS	b0.nic.promo.
+promo.			172800	IN	NS	c0.nic.promo.
+promo.			86400	IN	NSEC	properties. NS DS RRSIG NSEC
+a0.nic.promo.		172800	IN	A	65.22.244.9
+a0.nic.promo.		172800	IN	AAAA	2a01:8840:ee::9
+a2.nic.promo.		172800	IN	A	65.22.247.9
+a2.nic.promo.		172800	IN	AAAA	2a01:8840:f1::9
+b0.nic.promo.		172800	IN	A	65.22.245.9
+b0.nic.promo.		172800	IN	AAAA	2a01:8840:ef::9
+c0.nic.promo.		172800	IN	A	65.22.246.9
+c0.nic.promo.		172800	IN	AAAA	2a01:8840:f0::9
 properties.		172800	IN	NS	demand.beta.aridns.net.au.
 properties.		172800	IN	NS	demand.alpha.aridns.net.au.
 properties.		172800	IN	NS	demand.delta.aridns.net.au.
