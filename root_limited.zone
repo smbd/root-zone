@@ -690,9 +690,15 @@ ba.			172800	IN	NS	ns.ba.
 ba.			172800	IN	NS	sava.utic.net.ba.
 ba.			172800	IN	NS	auth03.ns.uu.net.
 ba.			172800	IN	NS	munnari.oz.au.
-ba.			86400	IN	NSEC	band. NS RRSIG NSEC
+ba.			86400	IN	NSEC	baidu. NS RRSIG NSEC
 sava.utic.net.ba.	172800	IN	A	195.130.35.3
 ns.ba.			172800	IN	A	195.130.35.5
+baidu.			172800	IN	NS	ta.ngtld.cn.
+baidu.			172800	IN	NS	tb.ngtld.cn.
+baidu.			172800	IN	NS	tc.ngtld.cn.
+baidu.			172800	IN	NS	td.ngtld.cn.
+baidu.			172800	IN	NS	te.ngtld.cn.
+baidu.			86400	IN	NSEC	band. NS DS RRSIG NSEC
 band.			172800	IN	NS	demand.beta.aridns.net.au.
 band.			172800	IN	NS	demand.alpha.aridns.net.au.
 band.			172800	IN	NS	demand.delta.aridns.net.au.
