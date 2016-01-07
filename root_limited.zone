@@ -544,18 +544,26 @@ cctld.alpha.aridns.net.au. 172800 IN	A	37.209.192.6
 cctld.alpha.aridns.net.au. 172800 IN	AAAA	2001:dcd:1::6
 demand.alpha.aridns.net.au. 172800 IN	A	37.209.192.7
 demand.alpha.aridns.net.au. 172800 IN	AAAA	2001:dcd:1::7
+gtld.alpha.aridns.net.au. 172800 IN	A	37.209.192.10
+gtld.alpha.aridns.net.au. 172800 IN	AAAA	2001:dcd:1::10
 cctld.beta.aridns.net.au. 172800 IN	A	37.209.194.6
 cctld.beta.aridns.net.au. 172800 IN	AAAA	2001:dcd:2::6
 demand.beta.aridns.net.au. 172800 IN	A	37.209.194.7
 demand.beta.aridns.net.au. 172800 IN	AAAA	2001:dcd:2::7
+gtld.beta.aridns.net.au. 172800	IN	A	37.209.194.10
+gtld.beta.aridns.net.au. 172800	IN	AAAA	2001:dcd:2::10
 cctld.delta.aridns.net.au. 172800 IN	A	37.209.198.6
 cctld.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::6
 demand.delta.aridns.net.au. 172800 IN	A	37.209.198.7
 demand.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::7
+gtld.delta.aridns.net.au. 172800 IN	A	37.209.198.10
+gtld.delta.aridns.net.au. 172800 IN	AAAA	2001:dcd:4::10
 cctld.gamma.aridns.net.au. 172800 IN	A	37.209.196.6
 cctld.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::6
 demand.gamma.aridns.net.au. 172800 IN	A	37.209.196.7
 demand.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::7
+gtld.gamma.aridns.net.au. 172800 IN	A	37.209.196.10
+gtld.gamma.aridns.net.au. 172800 IN	AAAA	2001:dcd:3::10
 munnari.oz.au.		172800	IN	A	202.29.151.3
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1::21
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181::2
@@ -2942,7 +2950,12 @@ drive.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 drive.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 drive.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 drive.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-drive.			86400	IN	NSEC	durban. NS DS RRSIG NSEC
+drive.			86400	IN	NSEC	dubai. NS DS RRSIG NSEC
+dubai.			172800	IN	NS	gtld.beta.aridns.net.au.
+dubai.			172800	IN	NS	gtld.alpha.aridns.net.au.
+dubai.			172800	IN	NS	gtld.delta.aridns.net.au.
+dubai.			172800	IN	NS	gtld.gamma.aridns.net.au.
+dubai.			86400	IN	NSEC	durban. NS DS RRSIG NSEC
 durban.			172800	IN	NS	ns.coza.net.za.
 durban.			172800	IN	NS	ns1.coza.net.za.
 durban.			172800	IN	NS	coza1.dnsnode.net.
@@ -5130,10 +5143,10 @@ a.nic.kfh.		172800	IN	A	194.169.218.43
 a.nic.kfh.		172800	IN	AAAA	2001:67c:13cc::1:43
 b.nic.kfh.		172800	IN	A	185.24.64.43
 b.nic.kfh.		172800	IN	AAAA	2a04:2b00:13cc::1:43
-c.nic.kfh.		172800	IN	A	194.0.2.2
-c.nic.kfh.		172800	IN	AAAA	2001:678:5::2
-d.nic.kfh.		172800	IN	A	194.0.1.45
-d.nic.kfh.		172800	IN	AAAA	2001:678:4::2d
+c.nic.kfh.		172800	IN	A	212.18.248.43
+c.nic.kfh.		172800	IN	AAAA	2a04:2b00:13ee::43
+d.nic.kfh.		172800	IN	A	212.18.249.43
+d.nic.kfh.		172800	IN	AAAA	2a04:2b00:13ff::43
 kg.			172800	IN	NS	kg.cctld.authdns.ripe.net.
 kg.			172800	IN	NS	ns.kg.
 kg.			86400	IN	NSEC	kh. NS DS RRSIG NSEC
@@ -11884,10 +11897,10 @@ a.nic.xn--ngbe9e0a.	172800	IN	A	194.169.218.22
 a.nic.xn--ngbe9e0a.	172800	IN	AAAA	2001:67c:13cc::1:22
 b.nic.xn--ngbe9e0a.	172800	IN	A	185.24.64.22
 b.nic.xn--ngbe9e0a.	172800	IN	AAAA	2a04:2b00:13cc::1:22
-c.nic.xn--ngbe9e0a.	172800	IN	A	194.0.2.2
-c.nic.xn--ngbe9e0a.	172800	IN	AAAA	2001:678:5::2
-d.nic.xn--ngbe9e0a.	172800	IN	A	194.0.1.45
-d.nic.xn--ngbe9e0a.	172800	IN	AAAA	2001:678:4::2d
+c.nic.xn--ngbe9e0a.	172800	IN	A	212.18.248.22
+c.nic.xn--ngbe9e0a.	172800	IN	AAAA	2a04:2b00:13ee::22
+d.nic.xn--ngbe9e0a.	172800	IN	A	212.18.249.22
+d.nic.xn--ngbe9e0a.	172800	IN	AAAA	2a04:2b00:13ff::22
 xn--node.		172800	IN	NS	a.xn--node.globalanycastcloud.freenom.net.
 xn--node.		172800	IN	NS	b.xn--node.globalanycastcloud.freenom.net.
 xn--node.		172800	IN	NS	c.xn--node.globalanycastcloud.freenom.net.
