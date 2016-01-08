@@ -2363,10 +2363,10 @@ a.nic.contact.		172800	IN	A	194.169.218.40
 a.nic.contact.		172800	IN	AAAA	2001:67c:13cc::1:40
 b.nic.contact.		172800	IN	A	185.24.64.40
 b.nic.contact.		172800	IN	AAAA	2a04:2b00:13cc::1:40
-c.nic.contact.		172800	IN	A	194.0.2.2
-c.nic.contact.		172800	IN	AAAA	2001:678:5::2
-d.nic.contact.		172800	IN	A	194.0.1.45
-d.nic.contact.		172800	IN	AAAA	2001:678:4::2d
+c.nic.contact.		172800	IN	A	212.18.248.40
+c.nic.contact.		172800	IN	AAAA	2a04:2b00:13ee::40
+d.nic.contact.		172800	IN	A	212.18.249.40
+d.nic.contact.		172800	IN	AAAA	2a04:2b00:13ff::40
 contractors.		172800	IN	NS	demand.beta.aridns.net.au.
 contractors.		172800	IN	NS	demand.alpha.aridns.net.au.
 contractors.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -5238,7 +5238,16 @@ dns2.nic.km.		172800	IN	A	197.255.224.66
 kn.			172800	IN	NS	a.dns.tw.
 kn.			172800	IN	NS	b.dns.tw.
 kn.			172800	IN	NS	c.dns.tw.
+kn.			172800	IN	NS	pch.nic.kn.
+kn.			172800	IN	NS	dyntld-1.nic.kn.
+kn.			172800	IN	NS	dyntld-2.nic.kn.
 kn.			86400	IN	NSEC	koeln. NS RRSIG NSEC
+dyntld-1.nic.kn.	172800	IN	A	162.88.52.5
+dyntld-1.nic.kn.	172800	IN	AAAA	2600:2000:3000::5
+dyntld-2.nic.kn.	172800	IN	A	162.88.53.5
+dyntld-2.nic.kn.	172800	IN	AAAA	2600:2000:3001::5
+pch.nic.kn.		172800	IN	A	204.61.216.109
+pch.nic.kn.		172800	IN	AAAA	2001:500:14:6109:ad::1
 koeln.			172800	IN	NS	anycast9.irondns.net.
 koeln.			172800	IN	NS	anycast10.irondns.net.
 koeln.			172800	IN	NS	anycast23.irondns.net.
@@ -8002,10 +8011,10 @@ a.nic.pid.		172800	IN	A	194.169.218.47
 a.nic.pid.		172800	IN	AAAA	2001:67c:13cc::1:47
 b.nic.pid.		172800	IN	A	185.24.64.47
 b.nic.pid.		172800	IN	AAAA	2a04:2b00:13cc::1:47
-c.nic.pid.		172800	IN	A	194.0.2.2
-c.nic.pid.		172800	IN	AAAA	2001:678:5::2
-d.nic.pid.		172800	IN	A	194.0.1.45
-d.nic.pid.		172800	IN	AAAA	2001:678:4::2d
+c.nic.pid.		172800	IN	A	212.18.248.47
+c.nic.pid.		172800	IN	AAAA	2a04:2b00:13ee::47
+d.nic.pid.		172800	IN	A	212.18.249.47
+d.nic.pid.		172800	IN	AAAA	2a04:2b00:13ff::47
 pin.			172800	IN	NS	ns1.dns.nic.pin.
 pin.			172800	IN	NS	ns2.dns.nic.pin.
 pin.			172800	IN	NS	ns3.dns.nic.pin.
