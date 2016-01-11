@@ -10379,11 +10379,30 @@ tt.			172800	IN	NS	ns3.nic.mx.
 tt.			172800	IN	NS	pch.nic.tt.
 tt.			172800	IN	NS	ripe.nic.tt.
 tt.			172800	IN	NS	sns-pb.isc.org.
-tt.			86400	IN	NSEC	tui. NS DS RRSIG NSEC
+tt.			86400	IN	NSEC	tube. NS DS RRSIG NSEC
 pch.nic.tt.		172800	IN	A	204.61.216.63
 pch.nic.tt.		172800	IN	AAAA	2001:500:14:6063:ad::1
 ripe.nic.tt.		172800	IN	A	193.0.9.50
 ripe.nic.tt.		172800	IN	AAAA	2001:67c:e0::50
+tube.			172800	IN	NS	ns1.dns.nic.tube.
+tube.			172800	IN	NS	ns2.dns.nic.tube.
+tube.			172800	IN	NS	ns3.dns.nic.tube.
+tube.			172800	IN	NS	ns4.dns.nic.tube.
+tube.			172800	IN	NS	ns5.dns.nic.tube.
+tube.			172800	IN	NS	ns6.dns.nic.tube.
+tube.			86400	IN	NSEC	tui. NS DS RRSIG NSEC
+ns1.dns.nic.tube.	172800	IN	A	156.154.169.80
+ns1.dns.nic.tube.	172800	IN	AAAA	2610:a1:1071::1:50
+ns2.dns.nic.tube.	172800	IN	A	156.154.170.80
+ns2.dns.nic.tube.	172800	IN	AAAA	2610:a1:1072::1:50
+ns3.dns.nic.tube.	172800	IN	A	156.154.171.80
+ns3.dns.nic.tube.	172800	IN	AAAA	2610:a1:1073::1:50
+ns4.dns.nic.tube.	172800	IN	A	156.154.172.80
+ns4.dns.nic.tube.	172800	IN	AAAA	2610:a1:1074::1:50
+ns5.dns.nic.tube.	172800	IN	A	156.154.173.80
+ns5.dns.nic.tube.	172800	IN	AAAA	2610:a1:1075::1:50
+ns6.dns.nic.tube.	172800	IN	A	156.154.174.80
+ns6.dns.nic.tube.	172800	IN	AAAA	2610:a1:1076::1:50
 tui.			172800	IN	NS	ns1a.ksregistry.net.
 tui.			172800	IN	NS	ns1b.ksregistry.net.
 tui.			172800	IN	NS	ns2a.ksregistry.com.
