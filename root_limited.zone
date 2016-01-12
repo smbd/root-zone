@@ -683,7 +683,7 @@ ns6.dns.nic.axa.	172800	IN	AAAA	2610:a1:1076::14
 az.			172800	IN	NS	az.hostmaster.ua.
 az.			172800	IN	NS	ns.demos.su.
 az.			172800	IN	NS	rip.psg.com.
-az.			86400	IN	NSEC	azure. NS RRSIG NSEC
+az.			86400	IN	NSEC	azure. NS DS RRSIG NSEC
 azure.			172800	IN	NS	a5.nstld.com.
 azure.			172800	IN	NS	c5.nstld.com.
 azure.			172800	IN	NS	d5.nstld.com.
@@ -2276,7 +2276,6 @@ k6.nstld.com.		172800	IN	A	192.52.178.35
 l5.nstld.com.		172800	IN	A	192.41.162.34
 l6.nstld.com.		172800	IN	A	192.41.162.35
 m6.nstld.com.		172800	IN	A	192.55.83.35
-ns1.orangecaraibe.com.	172800	IN	A	193.251.160.222
 ns1.pair.com.		172800	IN	A	209.68.1.11
 rain.psg.com.		172800	IN	A	147.28.0.34
 rip.psg.com.		172800	IN	A	147.28.0.39
@@ -3998,7 +3997,6 @@ gov.			172800	IN	NS	b.gov-servers.net.
 gov.			86400	IN	NSEC	gp. NS DS RRSIG NSEC
 gp.			172800	IN	NS	gp.cctld.authdns.ripe.net.
 gp.			172800	IN	NS	ns1.nic.gp.
-gp.			172800	IN	NS	ns1.orangecaraibe.com.
 gp.			86400	IN	NSEC	gq. NS RRSIG NSEC
 ns1.nic.gp.		172800	IN	A	193.218.114.2
 gq.			172800	IN	NS	a.ns.gq.
@@ -9762,6 +9760,8 @@ su.			172800	IN	NS	f.dns.ripn.net.
 su.			86400	IN	NSEC	sucks. NS DS RRSIG NSEC
 ns.demos.su.		172800	IN	A	194.87.0.8
 ns.demos.su.		172800	IN	A	194.87.0.9
+ns.demos.su.		172800	IN	AAAA	2a00:1c88:d01:15::8
+ns.demos.su.		172800	IN	AAAA	2a00:1c88:d01:15::9
 sucks.			172800	IN	NS	a.nic.sucks.
 sucks.			172800	IN	NS	b.nic.sucks.
 sucks.			172800	IN	NS	c.nic.sucks.
@@ -10984,7 +10984,7 @@ watches.		172800	IN	NS	ns3.dns.nic.watches.
 watches.		172800	IN	NS	ns4.dns.nic.watches.
 watches.		172800	IN	NS	ns5.dns.nic.watches.
 watches.		172800	IN	NS	ns6.dns.nic.watches.
-watches.		86400	IN	NSEC	webcam. NS DS RRSIG NSEC
+watches.		86400	IN	NSEC	weather. NS DS RRSIG NSEC
 ns1.dns.nic.watches.	172800	IN	A	156.154.169.58
 ns1.dns.nic.watches.	172800	IN	AAAA	2610:a1:1071::1:3a
 ns2.dns.nic.watches.	172800	IN	A	156.154.170.58
@@ -10997,6 +10997,25 @@ ns5.dns.nic.watches.	172800	IN	A	156.154.173.58
 ns5.dns.nic.watches.	172800	IN	AAAA	2610:a1:1075::1:3a
 ns6.dns.nic.watches.	172800	IN	A	156.154.174.58
 ns6.dns.nic.watches.	172800	IN	AAAA	2610:a1:1076::1:3a
+weather.		172800	IN	NS	ns1.dns.nic.weather.
+weather.		172800	IN	NS	ns2.dns.nic.weather.
+weather.		172800	IN	NS	ns3.dns.nic.weather.
+weather.		172800	IN	NS	ns4.dns.nic.weather.
+weather.		172800	IN	NS	ns5.dns.nic.weather.
+weather.		172800	IN	NS	ns6.dns.nic.weather.
+weather.		86400	IN	NSEC	webcam. NS DS RRSIG NSEC
+ns1.dns.nic.weather.	172800	IN	A	156.154.144.178
+ns1.dns.nic.weather.	172800	IN	AAAA	2610:a1:1071::b2
+ns2.dns.nic.weather.	172800	IN	A	156.154.145.178
+ns2.dns.nic.weather.	172800	IN	AAAA	2610:a1:1072::b2
+ns3.dns.nic.weather.	172800	IN	A	156.154.159.178
+ns3.dns.nic.weather.	172800	IN	AAAA	2610:a1:1073::b2
+ns4.dns.nic.weather.	172800	IN	A	156.154.156.178
+ns4.dns.nic.weather.	172800	IN	AAAA	2610:a1:1074::b2
+ns5.dns.nic.weather.	172800	IN	A	156.154.157.178
+ns5.dns.nic.weather.	172800	IN	AAAA	2610:a1:1075::b2
+ns6.dns.nic.weather.	172800	IN	A	156.154.158.178
+ns6.dns.nic.weather.	172800	IN	AAAA	2610:a1:1076::b2
 webcam.			172800	IN	NS	ns1.dns.nic.webcam.
 webcam.			172800	IN	NS	ns2.dns.nic.webcam.
 webcam.			172800	IN	NS	ns3.dns.nic.webcam.
