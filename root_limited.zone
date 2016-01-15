@@ -2323,7 +2323,20 @@ company.		172800	IN	NS	demand.beta.aridns.net.au.
 company.		172800	IN	NS	demand.alpha.aridns.net.au.
 company.		172800	IN	NS	demand.delta.aridns.net.au.
 company.		172800	IN	NS	demand.gamma.aridns.net.au.
-company.		86400	IN	NSEC	computer. NS DS RRSIG NSEC
+company.		86400	IN	NSEC	compare. NS DS RRSIG NSEC
+compare.		172800	IN	NS	a.nic.compare.
+compare.		172800	IN	NS	b.nic.compare.
+compare.		172800	IN	NS	c.nic.compare.
+compare.		172800	IN	NS	d.nic.compare.
+compare.		86400	IN	NSEC	computer. NS DS RRSIG NSEC
+a.nic.compare.		172800	IN	A	37.209.192.9
+a.nic.compare.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.compare.		172800	IN	A	37.209.194.9
+b.nic.compare.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.compare.		172800	IN	A	37.209.196.9
+c.nic.compare.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.compare.		172800	IN	A	37.209.198.9
+d.nic.compare.		172800	IN	AAAA	2001:dcd:4::9
 computer.		172800	IN	NS	demand.beta.aridns.net.au.
 computer.		172800	IN	NS	demand.alpha.aridns.net.au.
 computer.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -4808,13 +4821,26 @@ is.			172800	IN	NS	sunic.sunet.se.
 is.			172800	IN	NS	durinn.rhnet.is.
 is.			172800	IN	NS	isgate.is.
 is.			172800	IN	NS	sns-pb.isc.org.
-is.			86400	IN	NSEC	ist. NS DS RRSIG NSEC
+is.			86400	IN	NSEC	iselect. NS DS RRSIG NSEC
 isgate.is.		172800	IN	A	193.4.58.51
 isgate.is.		172800	IN	AAAA	2001:67c:6c:58::51
 sab.isnic.is.		172800	IN	A	194.146.106.58
 sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
 durinn.rhnet.is.	172800	IN	AAAA	2a00:c88:10:16::20
+iselect.		172800	IN	NS	a.nic.iselect.
+iselect.		172800	IN	NS	b.nic.iselect.
+iselect.		172800	IN	NS	c.nic.iselect.
+iselect.		172800	IN	NS	d.nic.iselect.
+iselect.		86400	IN	NSEC	ist. NS DS RRSIG NSEC
+a.nic.iselect.		172800	IN	A	37.209.192.9
+a.nic.iselect.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.iselect.		172800	IN	A	37.209.194.9
+b.nic.iselect.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.iselect.		172800	IN	A	37.209.196.9
+c.nic.iselect.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.iselect.		172800	IN	A	37.209.198.9
+d.nic.iselect.		172800	IN	AAAA	2001:dcd:4::9
 ist.			172800	IN	NS	a0.nic.ist.
 ist.			172800	IN	NS	a2.nic.ist.
 ist.			172800	IN	NS	b0.nic.ist.
@@ -5237,9 +5263,6 @@ km.			172800	IN	NS	ns-km.afrinic.net.
 km.			86400	IN	NSEC	kn. NS RRSIG NSEC
 dns1.nic.km.		172800	IN	A	197.255.224.18
 dns2.nic.km.		172800	IN	A	197.255.224.66
-kn.			172800	IN	NS	a.dns.tw.
-kn.			172800	IN	NS	b.dns.tw.
-kn.			172800	IN	NS	c.dns.tw.
 kn.			172800	IN	NS	pch.nic.kn.
 kn.			172800	IN	NS	dyntld-1.nic.kn.
 kn.			172800	IN	NS	dyntld-2.nic.kn.
@@ -5919,7 +5942,15 @@ maison.			172800	IN	NS	demand.beta.aridns.net.au.
 maison.			172800	IN	NS	demand.alpha.aridns.net.au.
 maison.			172800	IN	NS	demand.delta.aridns.net.au.
 maison.			172800	IN	NS	demand.gamma.aridns.net.au.
-maison.			86400	IN	NSEC	man. NS DS RRSIG NSEC
+maison.			86400	IN	NSEC	makeup. NS DS RRSIG NSEC
+makeup.			172800	IN	NS	a5.nstld.com.
+makeup.			172800	IN	NS	c5.nstld.com.
+makeup.			172800	IN	NS	d5.nstld.com.
+makeup.			172800	IN	NS	f5.nstld.com.
+makeup.			172800	IN	NS	g5.nstld.com.
+makeup.			172800	IN	NS	h5.nstld.com.
+makeup.			172800	IN	NS	l5.nstld.com.
+makeup.			86400	IN	NSEC	man. NS DS RRSIG NSEC
 man.			172800	IN	NS	anycast9.irondns.net.
 man.			172800	IN	NS	anycast10.irondns.net.
 man.			172800	IN	NS	anycast23.irondns.net.
@@ -6517,10 +6548,6 @@ na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
 na.			86400	IN	NSEC	nadex. NS DS RRSIG NSEC
 merlin.net.na.		172800	IN	A	204.152.184.96
-nadex.			172800	IN	NS	f5.nstld.com.
-nadex.			172800	IN	NS	g5.nstld.com.
-nadex.			172800	IN	NS	h5.nstld.com.
-nadex.			172800	IN	NS	l5.nstld.com.
 nadex.			172800	IN	NS	ac1.nstld.com.
 nadex.			172800	IN	NS	ac2.nstld.com.
 nadex.			172800	IN	NS	ac3.nstld.com.
@@ -8353,19 +8380,26 @@ ns3.nic.pw.		172800	IN	A	212.18.248.12
 ns3.nic.pw.		172800	IN	AAAA	2a04:2b00:13ee::12
 ns4.nic.pw.		172800	IN	A	212.18.249.12
 ns4.nic.pw.		172800	IN	AAAA	2a04:2b00:13ff::12
+py.			172800	IN	NS	a.dns.py.
+py.			172800	IN	NS	b.dns.py.
+py.			172800	IN	NS	c.dns.py.
+py.			172800	IN	NS	d.dns.py.
+py.			172800	IN	NS	p.dns.py.
 py.			172800	IN	NS	r.dns.py.
-py.			172800	IN	NS	ns.cnc.una.py.
-py.			172800	IN	NS	ns.dns.br.
-py.			172800	IN	NS	ns2.switch.ch.
 py.			172800	IN	NS	ns3.nic.mx.
-py.			172800	IN	NS	sce.cnc.una.py.
 py.			86400	IN	NSEC	qa. NS RRSIG NSEC
+a.dns.py.		172800	IN	A	200.10.228.132
+a.dns.py.		172800	IN	AAAA	2001:1320:1::1
+b.dns.py.		172800	IN	A	200.160.0.5
+b.dns.py.		172800	IN	AAAA	2001:12ff:0:a20::5
+c.dns.py.		172800	IN	A	130.59.31.30
+c.dns.py.		172800	IN	AAAA	2001:620:0:ff::30
+d.dns.py.		172800	IN	A	200.10.228.133
+d.dns.py.		172800	IN	AAAA	2001:1320:1::2
+p.dns.py.		172800	IN	A	204.61.216.107
+p.dns.py.		172800	IN	AAAA	2001:500:14:6107:ad::1
 r.dns.py.		172800	IN	A	193.0.9.106
 r.dns.py.		172800	IN	AAAA	2001:67c:e0::106
-ns.cnc.una.py.		172800	IN	A	200.10.228.132
-ns.cnc.una.py.		172800	IN	AAAA	2001:1320:1::1
-sce.cnc.una.py.		172800	IN	A	200.10.228.133
-sce.cnc.una.py.		172800	IN	AAAA	2001:1320:1::2
 qa.			172800	IN	NS	a.registry.qa.
 qa.			172800	IN	NS	b.registry.qa.
 qa.			172800	IN	NS	c.registry.qa.
@@ -9210,7 +9244,7 @@ seek.			172800	IN	NS	a.nic.seek.
 seek.			172800	IN	NS	b.nic.seek.
 seek.			172800	IN	NS	c.nic.seek.
 seek.			172800	IN	NS	d.nic.seek.
-seek.			86400	IN	NSEC	sener. NS DS RRSIG NSEC
+seek.			86400	IN	NSEC	select. NS DS RRSIG NSEC
 a.nic.seek.		172800	IN	A	37.209.192.9
 a.nic.seek.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.seek.		172800	IN	A	37.209.194.9
@@ -9219,6 +9253,19 @@ c.nic.seek.		172800	IN	A	37.209.196.9
 c.nic.seek.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.seek.		172800	IN	A	37.209.198.9
 d.nic.seek.		172800	IN	AAAA	2001:dcd:4::9
+select.			172800	IN	NS	a.nic.select.
+select.			172800	IN	NS	b.nic.select.
+select.			172800	IN	NS	c.nic.select.
+select.			172800	IN	NS	d.nic.select.
+select.			86400	IN	NSEC	sener. NS DS RRSIG NSEC
+a.nic.select.		172800	IN	A	37.209.192.9
+a.nic.select.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.select.		172800	IN	A	37.209.194.9
+b.nic.select.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.select.		172800	IN	A	37.209.196.9
+c.nic.select.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.select.		172800	IN	A	37.209.198.9
+d.nic.select.		172800	IN	AAAA	2001:dcd:4::9
 sener.			172800	IN	NS	a5.nstld.com.
 sener.			172800	IN	NS	c5.nstld.com.
 sener.			172800	IN	NS	d5.nstld.com.
@@ -9429,7 +9476,15 @@ ski.			172800	IN	NS	ns1a.ksregistry.net.
 ski.			172800	IN	NS	ns1b.ksregistry.net.
 ski.			172800	IN	NS	ns2a.ksregistry.com.
 ski.			172800	IN	NS	ns2b.ksregistry.com.
-ski.			86400	IN	NSEC	sky. NS DS RRSIG NSEC
+ski.			86400	IN	NSEC	skin. NS DS RRSIG NSEC
+skin.			172800	IN	NS	a5.nstld.com.
+skin.			172800	IN	NS	c5.nstld.com.
+skin.			172800	IN	NS	d5.nstld.com.
+skin.			172800	IN	NS	f5.nstld.com.
+skin.			172800	IN	NS	g5.nstld.com.
+skin.			172800	IN	NS	h5.nstld.com.
+skin.			172800	IN	NS	l5.nstld.com.
+skin.			86400	IN	NSEC	sky. NS DS RRSIG NSEC
 sky.			172800	IN	NS	a5.nstld.com.
 sky.			172800	IN	NS	c5.nstld.com.
 sky.			172800	IN	NS	d5.nstld.com.
@@ -9579,10 +9634,6 @@ spiegel.		172800	IN	NS	ns1b.ksregistry.net.
 spiegel.		172800	IN	NS	ns2a.ksregistry.com.
 spiegel.		172800	IN	NS	ns2b.ksregistry.com.
 spiegel.		86400	IN	NSEC	spreadbetting. NS DS RRSIG NSEC
-spreadbetting.		172800	IN	NS	f5.nstld.com.
-spreadbetting.		172800	IN	NS	g5.nstld.com.
-spreadbetting.		172800	IN	NS	h5.nstld.com.
-spreadbetting.		172800	IN	NS	l5.nstld.com.
 spreadbetting.		172800	IN	NS	ac1.nstld.com.
 spreadbetting.		172800	IN	NS	ac2.nstld.com.
 spreadbetting.		172800	IN	NS	ac3.nstld.com.
