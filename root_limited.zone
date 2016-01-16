@@ -286,8 +286,34 @@ al.			172800	IN	NS	ns1.nic.al.
 al.			172800	IN	NS	rip.psg.com.
 al.			172800	IN	NS	ns-al.isti.cnr.it.
 al.			172800	IN	NS	munnari.oz.au.
-al.			86400	IN	NSEC	allfinanz. NS RRSIG NSEC
+al.			86400	IN	NSEC	alibaba. NS RRSIG NSEC
 ns1.nic.al.		172800	IN	A	194.1.149.230
+alibaba.		172800	IN	NS	a0.nic.alibaba.
+alibaba.		172800	IN	NS	a2.nic.alibaba.
+alibaba.		172800	IN	NS	b0.nic.alibaba.
+alibaba.		172800	IN	NS	c0.nic.alibaba.
+alibaba.		86400	IN	NSEC	alipay. NS DS RRSIG NSEC
+a0.nic.alibaba.		172800	IN	A	65.22.132.9
+a0.nic.alibaba.		172800	IN	AAAA	2a01:8840:82::9
+a2.nic.alibaba.		172800	IN	A	65.22.135.9
+a2.nic.alibaba.		172800	IN	AAAA	2a01:8840:85::9
+b0.nic.alibaba.		172800	IN	A	65.22.133.9
+b0.nic.alibaba.		172800	IN	AAAA	2a01:8840:83::9
+c0.nic.alibaba.		172800	IN	A	65.22.134.9
+c0.nic.alibaba.		172800	IN	AAAA	2a01:8840:84::9
+alipay.			172800	IN	NS	a0.nic.alipay.
+alipay.			172800	IN	NS	a2.nic.alipay.
+alipay.			172800	IN	NS	b0.nic.alipay.
+alipay.			172800	IN	NS	c0.nic.alipay.
+alipay.			86400	IN	NSEC	allfinanz. NS DS RRSIG NSEC
+a0.nic.alipay.		172800	IN	A	65.22.128.25
+a0.nic.alipay.		172800	IN	AAAA	2a01:8840:7e::25
+a2.nic.alipay.		172800	IN	A	65.22.131.25
+a2.nic.alipay.		172800	IN	AAAA	2a01:8840:81::25
+b0.nic.alipay.		172800	IN	A	65.22.129.25
+b0.nic.alipay.		172800	IN	AAAA	2a01:8840:7f::25
+c0.nic.alipay.		172800	IN	A	65.22.130.25
+c0.nic.alipay.		172800	IN	AAAA	2a01:8840:80::25
 allfinanz.		172800	IN	NS	ns1a.ksregistry.net.
 allfinanz.		172800	IN	NS	ns1b.ksregistry.net.
 allfinanz.		172800	IN	NS	ns2a.ksregistry.com.
@@ -9571,7 +9597,20 @@ social.			172800	IN	NS	demand.beta.aridns.net.au.
 social.			172800	IN	NS	demand.alpha.aridns.net.au.
 social.			172800	IN	NS	demand.delta.aridns.net.au.
 social.			172800	IN	NS	demand.gamma.aridns.net.au.
-social.			86400	IN	NSEC	software. NS DS RRSIG NSEC
+social.			86400	IN	NSEC	softbank. NS DS RRSIG NSEC
+softbank.		172800	IN	NS	a.nic.softbank.
+softbank.		172800	IN	NS	b.nic.softbank.
+softbank.		172800	IN	NS	c.nic.softbank.
+softbank.		172800	IN	NS	d.nic.softbank.
+softbank.		86400	IN	NSEC	software. NS DS RRSIG NSEC
+a.nic.softbank.		172800	IN	A	37.209.192.9
+a.nic.softbank.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.softbank.		172800	IN	A	37.209.194.9
+b.nic.softbank.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.softbank.		172800	IN	A	37.209.196.9
+c.nic.softbank.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.softbank.		172800	IN	A	37.209.198.9
+d.nic.softbank.		172800	IN	AAAA	2001:dcd:4::9
 software.		172800	IN	NS	demand.beta.aridns.net.au.
 software.		172800	IN	NS	demand.alpha.aridns.net.au.
 software.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -11702,7 +11741,26 @@ xn--fzc2c9e2c.		172800	IN	NS	ns-c.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-d.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-l.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-t.nic.lk.
-xn--fzc2c9e2c.		86400	IN	NSEC	xn--gecrj9c. NS RRSIG NSEC
+xn--fzc2c9e2c.		86400	IN	NSEC	xn--g2xx48c. NS RRSIG NSEC
+xn--g2xx48c.		172800	IN	NS	ns1.dns.nic.xn--g2xx48c.
+xn--g2xx48c.		172800	IN	NS	ns2.dns.nic.xn--g2xx48c.
+xn--g2xx48c.		172800	IN	NS	ns3.dns.nic.xn--g2xx48c.
+xn--g2xx48c.		172800	IN	NS	ns4.dns.nic.xn--g2xx48c.
+xn--g2xx48c.		172800	IN	NS	ns5.dns.nic.xn--g2xx48c.
+xn--g2xx48c.		172800	IN	NS	ns6.dns.nic.xn--g2xx48c.
+xn--g2xx48c.		86400	IN	NSEC	xn--gecrj9c. NS DS RRSIG NSEC
+ns1.dns.nic.xn--g2xx48c. 172800	IN	A	156.154.169.68
+ns1.dns.nic.xn--g2xx48c. 172800	IN	AAAA	2610:a1:1071::1:44
+ns2.dns.nic.xn--g2xx48c. 172800	IN	A	156.154.170.68
+ns2.dns.nic.xn--g2xx48c. 172800	IN	AAAA	2610:a1:1072::1:44
+ns3.dns.nic.xn--g2xx48c. 172800	IN	A	156.154.171.68
+ns3.dns.nic.xn--g2xx48c. 172800	IN	AAAA	2610:a1:1073::1:44
+ns4.dns.nic.xn--g2xx48c. 172800	IN	A	156.154.172.68
+ns4.dns.nic.xn--g2xx48c. 172800	IN	AAAA	2610:a1:1074::1:44
+ns5.dns.nic.xn--g2xx48c. 172800	IN	A	156.154.173.68
+ns5.dns.nic.xn--g2xx48c. 172800	IN	AAAA	2610:a1:1075::1:44
+ns6.dns.nic.xn--g2xx48c. 172800	IN	A	156.154.174.68
+ns6.dns.nic.xn--g2xx48c. 172800	IN	AAAA	2610:a1:1076::1:44
 xn--gecrj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	a2.in.afilias-nst.info.
