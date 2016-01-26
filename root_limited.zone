@@ -154,11 +154,23 @@ ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	dnsc.ad.
 ad.			172800	IN	NS	dnsm.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
-ad.			86400	IN	NSEC	ads. NS DS RRSIG NSEC
+ad.			86400	IN	NSEC	adac. NS DS RRSIG NSEC
 dnsc.ad.		172800	IN	A	194.158.74.10
 dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa::b
 dnsm.ad.		172800	IN	A	194.158.74.9
 dnsm.ad.		172800	IN	AAAA	2a02:8060:32fa::a
+adac.			172800	IN	NS	a.ns.nic.adac.
+adac.			172800	IN	NS	c.ns.nic.adac.
+adac.			172800	IN	NS	x.ns.nic.adac.
+adac.			172800	IN	NS	y.ns.nic.adac.
+adac.			86400	IN	NSEC	ads. NS DS RRSIG NSEC
+a.ns.nic.adac.		172800	IN	A	89.207.190.23
+a.ns.nic.adac.		172800	IN	AAAA	2a02:2790:1:53::16:1
+c.ns.nic.adac.		172800	IN	A	54.217.207.241
+x.ns.nic.adac.		172800	IN	A	195.253.64.4
+x.ns.nic.adac.		172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.adac.		172800	IN	A	195.253.64.7
+y.ns.nic.adac.		172800	IN	AAAA	2a01:5b0:4::7
 ads.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -4228,7 +4240,26 @@ haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
 haus.			172800	IN	NS	demand.delta.aridns.net.au.
 haus.			172800	IN	NS	demand.gamma.aridns.net.au.
-haus.			86400	IN	NSEC	healthcare. NS DS RRSIG NSEC
+haus.			86400	IN	NSEC	health. NS DS RRSIG NSEC
+health.			172800	IN	NS	ns1.dns.nic.health.
+health.			172800	IN	NS	ns2.dns.nic.health.
+health.			172800	IN	NS	ns3.dns.nic.health.
+health.			172800	IN	NS	ns4.dns.nic.health.
+health.			172800	IN	NS	ns5.dns.nic.health.
+health.			172800	IN	NS	ns6.dns.nic.health.
+health.			86400	IN	NSEC	healthcare. NS DS RRSIG NSEC
+ns1.dns.nic.health.	172800	IN	A	156.154.144.247
+ns1.dns.nic.health.	172800	IN	AAAA	2610:a1:1071::f7
+ns2.dns.nic.health.	172800	IN	A	156.154.145.247
+ns2.dns.nic.health.	172800	IN	AAAA	2610:a1:1072::f7
+ns3.dns.nic.health.	172800	IN	A	156.154.159.247
+ns3.dns.nic.health.	172800	IN	AAAA	2610:a1:1073::f7
+ns4.dns.nic.health.	172800	IN	A	156.154.156.247
+ns4.dns.nic.health.	172800	IN	AAAA	2610:a1:1074::f7
+ns5.dns.nic.health.	172800	IN	A	156.154.157.247
+ns5.dns.nic.health.	172800	IN	AAAA	2610:a1:1075::f7
+ns6.dns.nic.health.	172800	IN	A	156.154.158.247
+ns6.dns.nic.health.	172800	IN	AAAA	2610:a1:1076::f7
 healthcare.		172800	IN	NS	demand.beta.aridns.net.au.
 healthcare.		172800	IN	NS	demand.alpha.aridns.net.au.
 healthcare.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -4238,7 +4269,20 @@ help.			172800	IN	NS	a.help.dyntld.net.
 help.			172800	IN	NS	b.help.dyntld.net.
 help.			172800	IN	NS	c.help.dyntld.net.
 help.			172800	IN	NS	ns1.uniregistry.net.
-help.			86400	IN	NSEC	here. NS DS RRSIG NSEC
+help.			86400	IN	NSEC	helsinki. NS DS RRSIG NSEC
+helsinki.		172800	IN	NS	a0.nic.helsinki.
+helsinki.		172800	IN	NS	a2.nic.helsinki.
+helsinki.		172800	IN	NS	b0.nic.helsinki.
+helsinki.		172800	IN	NS	c0.nic.helsinki.
+helsinki.		86400	IN	NSEC	here. NS DS RRSIG NSEC
+a0.nic.helsinki.	172800	IN	A	65.22.220.33
+a0.nic.helsinki.	172800	IN	AAAA	2a01:8840:d6::33
+a2.nic.helsinki.	172800	IN	A	65.22.223.33
+a2.nic.helsinki.	172800	IN	AAAA	2a01:8840:d9::33
+b0.nic.helsinki.	172800	IN	A	65.22.221.33
+b0.nic.helsinki.	172800	IN	AAAA	2a01:8840:d7::33
+c0.nic.helsinki.	172800	IN	A	65.22.222.33
+c0.nic.helsinki.	172800	IN	AAAA	2a01:8840:d8::33
 here.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 here.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -5470,7 +5514,26 @@ landrover.		172800	IN	NS	f5.nstld.com.
 landrover.		172800	IN	NS	g5.nstld.com.
 landrover.		172800	IN	NS	h5.nstld.com.
 landrover.		172800	IN	NS	l5.nstld.com.
-landrover.		86400	IN	NSEC	lasalle. NS DS RRSIG NSEC
+landrover.		86400	IN	NSEC	lanxess. NS DS RRSIG NSEC
+lanxess.		172800	IN	NS	ns1.dns.nic.lanxess.
+lanxess.		172800	IN	NS	ns2.dns.nic.lanxess.
+lanxess.		172800	IN	NS	ns3.dns.nic.lanxess.
+lanxess.		172800	IN	NS	ns4.dns.nic.lanxess.
+lanxess.		172800	IN	NS	ns5.dns.nic.lanxess.
+lanxess.		172800	IN	NS	ns6.dns.nic.lanxess.
+lanxess.		86400	IN	NSEC	lasalle. NS DS RRSIG NSEC
+ns1.dns.nic.lanxess.	172800	IN	A	156.154.144.101
+ns1.dns.nic.lanxess.	172800	IN	AAAA	2610:a1:1071::65
+ns2.dns.nic.lanxess.	172800	IN	A	156.154.145.101
+ns2.dns.nic.lanxess.	172800	IN	AAAA	2610:a1:1072::65
+ns3.dns.nic.lanxess.	172800	IN	A	156.154.159.101
+ns3.dns.nic.lanxess.	172800	IN	AAAA	2610:a1:1073::65
+ns4.dns.nic.lanxess.	172800	IN	A	156.154.156.101
+ns4.dns.nic.lanxess.	172800	IN	AAAA	2610:a1:1074::65
+ns5.dns.nic.lanxess.	172800	IN	A	156.154.157.101
+ns5.dns.nic.lanxess.	172800	IN	AAAA	2610:a1:1075::65
+ns6.dns.nic.lanxess.	172800	IN	A	156.154.158.101
+ns6.dns.nic.lanxess.	172800	IN	AAAA	2610:a1:1076::65
 lasalle.		172800	IN	NS	a0.nic.lasalle.
 lasalle.		172800	IN	NS	a2.nic.lasalle.
 lasalle.		172800	IN	NS	b0.nic.lasalle.
