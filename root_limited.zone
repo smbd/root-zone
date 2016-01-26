@@ -2964,12 +2964,10 @@ domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
 domains.		172800	IN	NS	demand.gamma.aridns.net.au.
 domains.		86400	IN	NSEC	doosan. NS DS RRSIG NSEC
-doosan.			172800	IN	NS	b.dns.kr.
-doosan.			172800	IN	NS	c.dns.kr.
-doosan.			172800	IN	NS	d.dns.kr.
-doosan.			172800	IN	NS	e.dns.kr.
-doosan.			172800	IN	NS	f.dns.kr.
-doosan.			172800	IN	NS	g.dns.kr.
+doosan.			172800	IN	NS	dns1.emdns.uk.
+doosan.			172800	IN	NS	dns2.emdns.uk.
+doosan.			172800	IN	NS	dns3.emdns.uk.
+doosan.			172800	IN	NS	dns4.emdns.uk.
 doosan.			86400	IN	NSEC	download. NS DS RRSIG NSEC
 download.		172800	IN	NS	ns1.dns.nic.download.
 download.		172800	IN	NS	ns2.dns.nic.download.
@@ -6232,7 +6230,6 @@ y.ns.nic.meo.		172800	IN	A	195.253.64.7
 y.ns.nic.meo.		172800	IN	AAAA	2a01:5b0:4::7
 mg.			172800	IN	NS	a.mg.dyntld.net.
 mg.			172800	IN	NS	b.mg.dyntld.net.
-mg.			172800	IN	NS	mg.cctld.authdns.ripe.net.
 mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
@@ -7258,8 +7255,6 @@ mc.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.92
 mc.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::92
 md.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.93
 md.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::93
-mg.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.94
-mg.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::94
 mm.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.96
 mm.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::96
 mw.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.99
@@ -10770,6 +10765,14 @@ ns1.cs.ucl.ac.uk.	172800	IN	A	128.16.5.32
 barney.advsys.co.uk.	172800	IN	A	217.23.160.50
 ns3.icb.co.uk.		172800	IN	A	91.208.95.130
 tld6.ultradns.co.uk.	172800	IN	A	198.133.199.11
+dns1.emdns.uk.		172800	IN	A	213.248.219.10
+dns1.emdns.uk.		172800	IN	AAAA	2a01:618:403::10
+dns2.emdns.uk.		172800	IN	A	103.49.83.10
+dns2.emdns.uk.		172800	IN	AAAA	2401:fd80:403::10
+dns3.emdns.uk.		172800	IN	A	213.248.223.10
+dns3.emdns.uk.		172800	IN	AAAA	2a01:618:407::10
+dns4.emdns.uk.		172800	IN	A	43.230.51.10
+dns4.emdns.uk.		172800	IN	AAAA	2401:fd80:407::10
 dns1.nic.uk.		172800	IN	A	213.248.216.1
 dns1.nic.uk.		172800	IN	AAAA	2a01:618:400::1
 dns2.nic.uk.		172800	IN	A	103.49.80.1
