@@ -1657,10 +1657,6 @@ care.			172800	IN	NS	demand.alpha.aridns.net.au.
 care.			172800	IN	NS	demand.delta.aridns.net.au.
 care.			172800	IN	NS	demand.gamma.aridns.net.au.
 care.			86400	IN	NSEC	career. NS DS RRSIG NSEC
-career.			172800	IN	NS	f5.nstld.com.
-career.			172800	IN	NS	g5.nstld.com.
-career.			172800	IN	NS	h5.nstld.com.
-career.			172800	IN	NS	l5.nstld.com.
 career.			172800	IN	NS	ac1.nstld.com.
 career.			172800	IN	NS	ac2.nstld.com.
 career.			172800	IN	NS	ac3.nstld.com.
@@ -3047,13 +3043,26 @@ ec.			172800	IN	NS	n1.nic.ec.
 ec.			172800	IN	NS	n2.nic.ec.
 ec.			172800	IN	NS	n3.dns.ec.
 ec.			172800	IN	NS	sns-pb.isc.org.
-ec.			86400	IN	NSEC	edu. NS RRSIG NSEC
+ec.			86400	IN	NSEC	edeka. NS RRSIG NSEC
 n3.dns.ec.		172800	IN	A	204.61.216.39
 n3.dns.ec.		172800	IN	AAAA	2001:500:14:6039:ad::1
 n1.nic.ec.		172800	IN	A	200.12.198.1
 n1.nic.ec.		172800	IN	AAAA	2801:0:61::1
 n2.nic.ec.		172800	IN	A	200.12.199.1
 n2.nic.ec.		172800	IN	AAAA	2801:0:60::1
+edeka.			172800	IN	NS	a0.nic.edeka.
+edeka.			172800	IN	NS	a2.nic.edeka.
+edeka.			172800	IN	NS	b0.nic.edeka.
+edeka.			172800	IN	NS	c0.nic.edeka.
+edeka.			86400	IN	NSEC	edu. NS DS RRSIG NSEC
+a0.nic.edeka.		172800	IN	A	65.22.16.25
+a0.nic.edeka.		172800	IN	AAAA	2a01:8840:12::25
+a2.nic.edeka.		172800	IN	A	65.22.19.25
+a2.nic.edeka.		172800	IN	AAAA	2a01:8840:15::25
+b0.nic.edeka.		172800	IN	A	65.22.17.25
+b0.nic.edeka.		172800	IN	AAAA	2a01:8840:13::25
+c0.nic.edeka.		172800	IN	A	65.22.18.25
+c0.nic.edeka.		172800	IN	AAAA	2a01:8840:14::25
 edu.			172800	IN	NS	a.edu-servers.net.
 edu.			172800	IN	NS	c.edu-servers.net.
 edu.			172800	IN	NS	d.edu-servers.net.
@@ -5076,10 +5085,6 @@ jo.			86400	IN	NSEC	jobs. NS RRSIG NSEC
 amra.nic.gov.jo.	172800	IN	A	193.188.66.103
 jordan1st.nic.gov.jo.	172800	IN	A	193.188.69.19
 petra.nic.gov.jo.	172800	IN	A	193.188.66.2
-jobs.			172800	IN	NS	f5.nstld.com.
-jobs.			172800	IN	NS	g5.nstld.com.
-jobs.			172800	IN	NS	h5.nstld.com.
-jobs.			172800	IN	NS	l5.nstld.com.
 jobs.			172800	IN	NS	ac1.nstld.com.
 jobs.			172800	IN	NS	ac2.nstld.com.
 jobs.			172800	IN	NS	ac3.nstld.com.
@@ -5625,7 +5630,26 @@ life.			172800	IN	NS	demand.beta.aridns.net.au.
 life.			172800	IN	NS	demand.alpha.aridns.net.au.
 life.			172800	IN	NS	demand.delta.aridns.net.au.
 life.			172800	IN	NS	demand.gamma.aridns.net.au.
-life.			86400	IN	NSEC	lifestyle. NS DS RRSIG NSEC
+life.			86400	IN	NSEC	lifeinsurance. NS DS RRSIG NSEC
+lifeinsurance.		172800	IN	NS	ns1.dns.nic.lifeinsurance.
+lifeinsurance.		172800	IN	NS	ns2.dns.nic.lifeinsurance.
+lifeinsurance.		172800	IN	NS	ns3.dns.nic.lifeinsurance.
+lifeinsurance.		172800	IN	NS	ns4.dns.nic.lifeinsurance.
+lifeinsurance.		172800	IN	NS	ns5.dns.nic.lifeinsurance.
+lifeinsurance.		172800	IN	NS	ns6.dns.nic.lifeinsurance.
+lifeinsurance.		86400	IN	NSEC	lifestyle. NS DS RRSIG NSEC
+ns1.dns.nic.lifeinsurance. 172800 IN	A	156.154.144.102
+ns1.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1071::66
+ns2.dns.nic.lifeinsurance. 172800 IN	A	156.154.145.102
+ns2.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1072::66
+ns3.dns.nic.lifeinsurance. 172800 IN	A	156.154.159.102
+ns3.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1073::66
+ns4.dns.nic.lifeinsurance. 172800 IN	A	156.154.156.102
+ns4.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1074::66
+ns5.dns.nic.lifeinsurance. 172800 IN	A	156.154.157.102
+ns5.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1075::66
+ns6.dns.nic.lifeinsurance. 172800 IN	A	156.154.158.102
+ns6.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1076::66
 lifestyle.		172800	IN	NS	a5.nstld.com.
 lifestyle.		172800	IN	NS	c5.nstld.com.
 lifestyle.		172800	IN	NS	d5.nstld.com.
@@ -7856,7 +7880,26 @@ page.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-page.			86400	IN	NSEC	panerai. NS DS RRSIG NSEC
+page.			86400	IN	NSEC	pamperedchef. NS DS RRSIG NSEC
+pamperedchef.		172800	IN	NS	ns1.dns.nic.pamperedchef.
+pamperedchef.		172800	IN	NS	ns2.dns.nic.pamperedchef.
+pamperedchef.		172800	IN	NS	ns3.dns.nic.pamperedchef.
+pamperedchef.		172800	IN	NS	ns4.dns.nic.pamperedchef.
+pamperedchef.		172800	IN	NS	ns5.dns.nic.pamperedchef.
+pamperedchef.		172800	IN	NS	ns6.dns.nic.pamperedchef.
+pamperedchef.		86400	IN	NSEC	panerai. NS DS RRSIG NSEC
+ns1.dns.nic.pamperedchef. 172800 IN	A	156.154.144.131
+ns1.dns.nic.pamperedchef. 172800 IN	AAAA	2610:a1:1071::83
+ns2.dns.nic.pamperedchef. 172800 IN	A	156.154.145.131
+ns2.dns.nic.pamperedchef. 172800 IN	AAAA	2610:a1:1072::83
+ns3.dns.nic.pamperedchef. 172800 IN	A	156.154.159.131
+ns3.dns.nic.pamperedchef. 172800 IN	AAAA	2610:a1:1073::83
+ns4.dns.nic.pamperedchef. 172800 IN	A	156.154.156.131
+ns4.dns.nic.pamperedchef. 172800 IN	AAAA	2610:a1:1074::83
+ns5.dns.nic.pamperedchef. 172800 IN	A	156.154.157.131
+ns5.dns.nic.pamperedchef. 172800 IN	AAAA	2610:a1:1075::83
+ns6.dns.nic.pamperedchef. 172800 IN	A	156.154.158.131
+ns6.dns.nic.pamperedchef. 172800 IN	AAAA	2610:a1:1076::83
 panerai.		172800	IN	NS	ns1.dns.nic.panerai.
 panerai.		172800	IN	NS	ns2.dns.nic.panerai.
 panerai.		172800	IN	NS	ns3.dns.nic.panerai.
@@ -9985,7 +10028,7 @@ taipei.			172800	IN	NS	ns3.dns.nic.taipei.
 taipei.			172800	IN	NS	ns4.dns.nic.taipei.
 taipei.			172800	IN	NS	ns5.dns.nic.taipei.
 taipei.			172800	IN	NS	ns6.dns.nic.taipei.
-taipei.			86400	IN	NSEC	tatamotors. NS DS RRSIG NSEC
+taipei.			86400	IN	NSEC	taobao. NS DS RRSIG NSEC
 ns1.dns.nic.taipei.	172800	IN	A	156.154.144.156
 ns1.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1071::9c
 ns2.dns.nic.taipei.	172800	IN	A	156.154.145.156
@@ -9998,6 +10041,25 @@ ns5.dns.nic.taipei.	172800	IN	A	156.154.157.156
 ns5.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1075::9c
 ns6.dns.nic.taipei.	172800	IN	A	156.154.158.156
 ns6.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1076::9c
+taobao.			172800	IN	NS	ns1.dns.nic.taobao.
+taobao.			172800	IN	NS	ns2.dns.nic.taobao.
+taobao.			172800	IN	NS	ns3.dns.nic.taobao.
+taobao.			172800	IN	NS	ns4.dns.nic.taobao.
+taobao.			172800	IN	NS	ns5.dns.nic.taobao.
+taobao.			172800	IN	NS	ns6.dns.nic.taobao.
+taobao.			86400	IN	NSEC	tatamotors. NS DS RRSIG NSEC
+ns1.dns.nic.taobao.	172800	IN	A	156.154.144.157
+ns1.dns.nic.taobao.	172800	IN	AAAA	2610:a1:1071::9d
+ns2.dns.nic.taobao.	172800	IN	A	156.154.145.157
+ns2.dns.nic.taobao.	172800	IN	AAAA	2610:a1:1072::9d
+ns3.dns.nic.taobao.	172800	IN	A	156.154.159.157
+ns3.dns.nic.taobao.	172800	IN	AAAA	2610:a1:1073::9d
+ns4.dns.nic.taobao.	172800	IN	A	156.154.156.157
+ns4.dns.nic.taobao.	172800	IN	AAAA	2610:a1:1074::9d
+ns5.dns.nic.taobao.	172800	IN	A	156.154.157.157
+ns5.dns.nic.taobao.	172800	IN	AAAA	2610:a1:1075::9d
+ns6.dns.nic.taobao.	172800	IN	A	156.154.158.157
+ns6.dns.nic.taobao.	172800	IN	AAAA	2610:a1:1076::9d
 tatamotors.		172800	IN	NS	a5.nstld.com.
 tatamotors.		172800	IN	NS	c5.nstld.com.
 tatamotors.		172800	IN	NS	d5.nstld.com.
@@ -10202,7 +10264,15 @@ tienda.			172800	IN	NS	demand.beta.aridns.net.au.
 tienda.			172800	IN	NS	demand.alpha.aridns.net.au.
 tienda.			172800	IN	NS	demand.delta.aridns.net.au.
 tienda.			172800	IN	NS	demand.gamma.aridns.net.au.
-tienda.			86400	IN	NSEC	tips. NS DS RRSIG NSEC
+tienda.			86400	IN	NSEC	tiffany. NS DS RRSIG NSEC
+tiffany.		172800	IN	NS	a5.nstld.com.
+tiffany.		172800	IN	NS	c5.nstld.com.
+tiffany.		172800	IN	NS	d5.nstld.com.
+tiffany.		172800	IN	NS	f5.nstld.com.
+tiffany.		172800	IN	NS	g5.nstld.com.
+tiffany.		172800	IN	NS	h5.nstld.com.
+tiffany.		172800	IN	NS	l5.nstld.com.
+tiffany.		86400	IN	NSEC	tips. NS DS RRSIG NSEC
 tips.			172800	IN	NS	demand.beta.aridns.net.au.
 tips.			172800	IN	NS	demand.alpha.aridns.net.au.
 tips.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -10255,8 +10325,27 @@ tm.			172800	IN	NS	b.nic.io.
 tm.			172800	IN	NS	b.ns13.net.
 tm.			172800	IN	NS	ns1.communitydns.net.
 tm.			172800	IN	NS	ns3.icb.co.uk.
-tm.			86400	IN	NSEC	tn. NS DS RRSIG NSEC
+tm.			86400	IN	NSEC	tmall. NS DS RRSIG NSEC
 a.nic.tm.		172800	IN	A	64.251.31.180
+tmall.			172800	IN	NS	ns1.dns.nic.tmall.
+tmall.			172800	IN	NS	ns2.dns.nic.tmall.
+tmall.			172800	IN	NS	ns3.dns.nic.tmall.
+tmall.			172800	IN	NS	ns4.dns.nic.tmall.
+tmall.			172800	IN	NS	ns5.dns.nic.tmall.
+tmall.			172800	IN	NS	ns6.dns.nic.tmall.
+tmall.			86400	IN	NSEC	tn. NS DS RRSIG NSEC
+ns1.dns.nic.tmall.	172800	IN	A	156.154.144.164
+ns1.dns.nic.tmall.	172800	IN	AAAA	2610:a1:1071::a4
+ns2.dns.nic.tmall.	172800	IN	A	156.154.145.164
+ns2.dns.nic.tmall.	172800	IN	AAAA	2610:a1:1072::a4
+ns3.dns.nic.tmall.	172800	IN	A	156.154.159.164
+ns3.dns.nic.tmall.	172800	IN	AAAA	2610:a1:1073::a4
+ns4.dns.nic.tmall.	172800	IN	A	156.154.156.164
+ns4.dns.nic.tmall.	172800	IN	AAAA	2610:a1:1074::a4
+ns5.dns.nic.tmall.	172800	IN	A	156.154.157.164
+ns5.dns.nic.tmall.	172800	IN	AAAA	2610:a1:1075::a4
+ns6.dns.nic.tmall.	172800	IN	A	156.154.158.164
+ns6.dns.nic.tmall.	172800	IN	AAAA	2610:a1:1076::a4
 tn.			172800	IN	NS	ns1.ati.tn.
 tn.			172800	IN	NS	ns2.ati.tn.
 tn.			172800	IN	NS	ns2.nic.fr.
