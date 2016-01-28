@@ -7472,7 +7472,15 @@ nico.			172800	IN	NS	a.gmoregistry.net.
 nico.			172800	IN	NS	b.gmoregistry.net.
 nico.			172800	IN	NS	k.gmoregistry.net.
 nico.			172800	IN	NS	l.gmoregistry.net.
-nico.			86400	IN	NSEC	ninja. NS DS RRSIG NSEC
+nico.			86400	IN	NSEC	nikon. NS DS RRSIG NSEC
+nikon.			172800	IN	NS	a5.nstld.com.
+nikon.			172800	IN	NS	c5.nstld.com.
+nikon.			172800	IN	NS	d5.nstld.com.
+nikon.			172800	IN	NS	f5.nstld.com.
+nikon.			172800	IN	NS	g5.nstld.com.
+nikon.			172800	IN	NS	h5.nstld.com.
+nikon.			172800	IN	NS	l5.nstld.com.
+nikon.			86400	IN	NSEC	ninja. NS DS RRSIG NSEC
 ninja.			172800	IN	NS	demand.beta.aridns.net.au.
 ninja.			172800	IN	NS	demand.alpha.aridns.net.au.
 ninja.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -11248,7 +11256,7 @@ weather.		172800	IN	NS	ns3.dns.nic.weather.
 weather.		172800	IN	NS	ns4.dns.nic.weather.
 weather.		172800	IN	NS	ns5.dns.nic.weather.
 weather.		172800	IN	NS	ns6.dns.nic.weather.
-weather.		86400	IN	NSEC	webcam. NS DS RRSIG NSEC
+weather.		86400	IN	NSEC	weatherchannel. NS DS RRSIG NSEC
 ns1.dns.nic.weather.	172800	IN	A	156.154.144.178
 ns1.dns.nic.weather.	172800	IN	AAAA	2610:a1:1071::b2
 ns2.dns.nic.weather.	172800	IN	A	156.154.145.178
@@ -11261,6 +11269,25 @@ ns5.dns.nic.weather.	172800	IN	A	156.154.157.178
 ns5.dns.nic.weather.	172800	IN	AAAA	2610:a1:1075::b2
 ns6.dns.nic.weather.	172800	IN	A	156.154.158.178
 ns6.dns.nic.weather.	172800	IN	AAAA	2610:a1:1076::b2
+weatherchannel.		172800	IN	NS	ns1.dns.nic.weatherchannel.
+weatherchannel.		172800	IN	NS	ns2.dns.nic.weatherchannel.
+weatherchannel.		172800	IN	NS	ns3.dns.nic.weatherchannel.
+weatherchannel.		172800	IN	NS	ns4.dns.nic.weatherchannel.
+weatherchannel.		172800	IN	NS	ns5.dns.nic.weatherchannel.
+weatherchannel.		172800	IN	NS	ns6.dns.nic.weatherchannel.
+weatherchannel.		86400	IN	NSEC	webcam. NS DS RRSIG NSEC
+ns1.dns.nic.weatherchannel. 172800 IN	A	156.154.144.179
+ns1.dns.nic.weatherchannel. 172800 IN	AAAA	2610:a1:1071::b3
+ns2.dns.nic.weatherchannel. 172800 IN	A	156.154.145.179
+ns2.dns.nic.weatherchannel. 172800 IN	AAAA	2610:a1:1072::b3
+ns3.dns.nic.weatherchannel. 172800 IN	A	156.154.159.179
+ns3.dns.nic.weatherchannel. 172800 IN	AAAA	2610:a1:1073::b3
+ns4.dns.nic.weatherchannel. 172800 IN	A	156.154.156.179
+ns4.dns.nic.weatherchannel. 172800 IN	AAAA	2610:a1:1074::b3
+ns5.dns.nic.weatherchannel. 172800 IN	A	156.154.157.179
+ns5.dns.nic.weatherchannel. 172800 IN	AAAA	2610:a1:1075::b3
+ns6.dns.nic.weatherchannel. 172800 IN	A	156.154.158.179
+ns6.dns.nic.weatherchannel. 172800 IN	AAAA	2610:a1:1076::b3
 webcam.			172800	IN	NS	ns1.dns.nic.webcam.
 webcam.			172800	IN	NS	ns2.dns.nic.webcam.
 webcam.			172800	IN	NS	ns3.dns.nic.webcam.
