@@ -2187,6 +2187,9 @@ tc.ngtld.cn.		172800	IN	A	42.83.132.1
 tc.ngtld.cn.		172800	IN	AAAA	2001:dc7:ffd3::1
 td.ngtld.cn.		172800	IN	A	42.83.133.1
 te.ngtld.cn.		172800	IN	A	42.83.134.1
+ns1.teleinfo.cn.	172800	IN	A	103.61.60.1
+ns1.teleinfo.cn.	172800	IN	AAAA	2402:7d80::1
+ns3.teleinfo.cn.	172800	IN	A	103.61.62.1
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
 co.			172800	IN	NS	ns3.cctld.co.
@@ -2315,11 +2318,14 @@ rain.psg.com.		172800	IN	A	147.28.0.34
 rip.psg.com.		172800	IN	A	147.28.0.39
 rip.psg.com.		172800	IN	AAAA	2001:418:1::39
 ns1.net.reach.com.	172800	IN	A	134.159.2.140
+ns2.teleinfoo.com.	172800	IN	A	103.61.61.1
+ns2.teleinfoo.com.	172800	IN	AAAA	2402:7d80:8888::1
+ns4.teleinfoo.com.	172800	IN	A	103.61.63.1
 ns2.tojikiston.com.	172800	IN	A	193.111.11.4
 dns1.tld.tutby.com.	172800	IN	A	178.124.133.53
 dns2.tld.tutby.com.	172800	IN	A	93.125.30.44
 dns3.tld.tutby.com.	172800	IN	A	195.209.35.70
-dns3.tld.tutby.com.	172800	IN	AAAA	2a01:d8:2:1::2
+dns3.tld.tutby.com.	172800	IN	AAAA	2a05:4800:1:100::
 dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
@@ -2791,7 +2797,7 @@ dell.			172800	IN	NS	ns3.dns.nic.dell.
 dell.			172800	IN	NS	ns4.dns.nic.dell.
 dell.			172800	IN	NS	ns5.dns.nic.dell.
 dell.			172800	IN	NS	ns6.dns.nic.dell.
-dell.			86400	IN	NSEC	delta. NS DS RRSIG NSEC
+dell.			86400	IN	NSEC	deloitte. NS DS RRSIG NSEC
 ns1.dns.nic.dell.	172800	IN	A	156.154.144.47
 ns1.dns.nic.dell.	172800	IN	AAAA	2610:a1:1071::2f
 ns2.dns.nic.dell.	172800	IN	A	156.154.145.47
@@ -2804,6 +2810,18 @@ ns5.dns.nic.dell.	172800	IN	A	156.154.157.47
 ns5.dns.nic.dell.	172800	IN	AAAA	2610:a1:1075::2f
 ns6.dns.nic.dell.	172800	IN	A	156.154.158.47
 ns6.dns.nic.dell.	172800	IN	AAAA	2610:a1:1076::2f
+deloitte.		172800	IN	NS	a.ns.nic.deloitte.
+deloitte.		172800	IN	NS	c.ns.nic.deloitte.
+deloitte.		172800	IN	NS	x.ns.nic.deloitte.
+deloitte.		172800	IN	NS	y.ns.nic.deloitte.
+deloitte.		86400	IN	NSEC	delta. NS DS RRSIG NSEC
+a.ns.nic.deloitte.	172800	IN	A	89.207.190.24
+a.ns.nic.deloitte.	172800	IN	AAAA	2a02:2790:1:53::17:1
+c.ns.nic.deloitte.	172800	IN	A	54.228.194.18
+x.ns.nic.deloitte.	172800	IN	A	195.253.64.4
+x.ns.nic.deloitte.	172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.deloitte.	172800	IN	A	195.253.64.7
+y.ns.nic.deloitte.	172800	IN	AAAA	2a01:5b0:4::7
 delta.			172800	IN	NS	a0.nic.delta.
 delta.			172800	IN	NS	a2.nic.delta.
 delta.			172800	IN	NS	b0.nic.delta.
@@ -12457,6 +12475,10 @@ xn--vuq861b.		172800	IN	NS	tb.ngtld.cn.
 xn--vuq861b.		172800	IN	NS	tc.ngtld.cn.
 xn--vuq861b.		172800	IN	NS	td.ngtld.cn.
 xn--vuq861b.		172800	IN	NS	te.ngtld.cn.
+xn--vuq861b.		172800	IN	NS	ns1.teleinfo.cn.
+xn--vuq861b.		172800	IN	NS	ns2.teleinfoo.com.
+xn--vuq861b.		172800	IN	NS	ns3.teleinfo.cn.
+xn--vuq861b.		172800	IN	NS	ns4.teleinfoo.com.
 xn--vuq861b.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
