@@ -2322,14 +2322,20 @@ ns2.teleinfoo.com.	172800	IN	A	103.61.61.1
 ns2.teleinfoo.com.	172800	IN	AAAA	2402:7d80:8888::1
 ns4.teleinfoo.com.	172800	IN	A	103.61.63.1
 ns2.tojikiston.com.	172800	IN	A	193.111.11.4
-dns1.tld.tutby.com.	172800	IN	A	178.124.133.53
+dns1.tld.tutby.com.	172800	IN	A	178.172.160.20
+dns1.tld.tutby.com.	172800	IN	AAAA	2a04:2e80:7::2
 dns2.tld.tutby.com.	172800	IN	A	93.125.30.44
+dns2.tld.tutby.com.	172800	IN	AAAA	2a04:2e80:7:1::2
 dns3.tld.tutby.com.	172800	IN	A	195.209.35.70
 dns3.tld.tutby.com.	172800	IN	AAAA	2a05:4800:1:100::
 dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
+dns4.tld.tutby.com.	172800	IN	AAAA	2001:1af8:4010:a049:1::
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
+dns5.tld.tutby.com.	172800	IN	AAAA	2a00:c98:2200:a012:1::
 dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
-dns7.tld.tutby.com.	172800	IN	A	103.23.93.36
+dns6.tld.tutby.com.	172800	IN	AAAA	2604:9a00:2010:a013:2::
+dns7.tld.tutby.com.	172800	IN	A	128.199.68.43
+dns7.tld.tutby.com.	172800	IN	AAAA	2400:6180:0:d0::3d:b001
 dns1.u-registry.com.	172800	IN	A	173.208.218.43
 dns1.u-registry.com.	172800	IN	AAAA	2604:4300:a:8c:5054:ff:fe47:8582
 a.zdnscloud.com.	172800	IN	A	1.8.240.1
@@ -12470,11 +12476,6 @@ xn--vhquv.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.delta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.gamma.aridns.net.au.
 xn--vhquv.		86400	IN	NSEC	xn--vuq861b. NS DS RRSIG NSEC
-xn--vuq861b.		172800	IN	NS	ta.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	tb.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	tc.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	td.ngtld.cn.
-xn--vuq861b.		172800	IN	NS	te.ngtld.cn.
 xn--vuq861b.		172800	IN	NS	ns1.teleinfo.cn.
 xn--vuq861b.		172800	IN	NS	ns2.teleinfoo.com.
 xn--vuq861b.		172800	IN	NS	ns3.teleinfo.cn.
