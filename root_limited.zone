@@ -3756,7 +3756,26 @@ y.ns.nic.frl.		172800	IN	AAAA	2a01:5b0:4::7
 frogans.		172800	IN	NS	d.nic.fr.
 frogans.		172800	IN	NS	f.ext.nic.fr.
 frogans.		172800	IN	NS	g.ext.nic.fr.
-frogans.		86400	IN	NSEC	fund. NS DS RRSIG NSEC
+frogans.		86400	IN	NSEC	frontier. NS DS RRSIG NSEC
+frontier.		172800	IN	NS	ns1.dns.nic.frontier.
+frontier.		172800	IN	NS	ns2.dns.nic.frontier.
+frontier.		172800	IN	NS	ns3.dns.nic.frontier.
+frontier.		172800	IN	NS	ns4.dns.nic.frontier.
+frontier.		172800	IN	NS	ns5.dns.nic.frontier.
+frontier.		172800	IN	NS	ns6.dns.nic.frontier.
+frontier.		86400	IN	NSEC	fund. NS DS RRSIG NSEC
+ns1.dns.nic.frontier.	172800	IN	A	156.154.144.64
+ns1.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1071::40
+ns2.dns.nic.frontier.	172800	IN	A	156.154.145.64
+ns2.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1072::40
+ns3.dns.nic.frontier.	172800	IN	A	156.154.159.64
+ns3.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1073::40
+ns4.dns.nic.frontier.	172800	IN	A	156.154.156.64
+ns4.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1074::40
+ns5.dns.nic.frontier.	172800	IN	A	156.154.157.64
+ns5.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1075::40
+ns6.dns.nic.frontier.	172800	IN	A	156.154.158.64
+ns6.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1076::40
 fund.			172800	IN	NS	demand.beta.aridns.net.au.
 fund.			172800	IN	NS	demand.alpha.aridns.net.au.
 fund.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -8607,7 +8626,20 @@ quebec.			172800	IN	NS	anycast9.irondns.net.
 quebec.			172800	IN	NS	anycast10.irondns.net.
 quebec.			172800	IN	NS	anycast23.irondns.net.
 quebec.			172800	IN	NS	anycast24.irondns.net.
-quebec.			86400	IN	NSEC	racing. NS DS RRSIG NSEC
+quebec.			86400	IN	NSEC	quest. NS DS RRSIG NSEC
+quest.			172800	IN	NS	a.nic.quest.
+quest.			172800	IN	NS	b.nic.quest.
+quest.			172800	IN	NS	c.nic.quest.
+quest.			172800	IN	NS	d.nic.quest.
+quest.			86400	IN	NSEC	racing. NS DS RRSIG NSEC
+a.nic.quest.		172800	IN	A	37.209.192.9
+a.nic.quest.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.quest.		172800	IN	A	37.209.194.9
+b.nic.quest.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.quest.		172800	IN	A	37.209.196.9
+c.nic.quest.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.quest.		172800	IN	A	37.209.198.9
+d.nic.quest.		172800	IN	AAAA	2001:dcd:4::9
 racing.			172800	IN	NS	ns1.dns.nic.racing.
 racing.			172800	IN	NS	ns2.dns.nic.racing.
 racing.			172800	IN	NS	ns3.dns.nic.racing.
@@ -9000,7 +9032,7 @@ rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
 rw.			86400	IN	NSEC	rwe. NS RRSIG NSEC
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
-ns3.ricta.org.rw.	172800	IN	A	41.186.53.10
+ns3.ricta.org.rw.	172800	IN	A	41.186.44.30
 pch.ricta.org.rw.	172800	IN	A	204.61.216.91
 pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad::1
 rwe.			172800	IN	NS	a5.nstld.com.
@@ -11737,7 +11769,26 @@ xn--80aswg.		172800	IN	NS	anycast9.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast10.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast23.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast24.irondns.net.
-xn--80aswg.		86400	IN	NSEC	xn--90a3ac. NS DS RRSIG NSEC
+xn--80aswg.		86400	IN	NSEC	xn--8y0a063a. NS DS RRSIG NSEC
+xn--8y0a063a.		172800	IN	NS	ns1.dns.nic.xn--8y0a063a.
+xn--8y0a063a.		172800	IN	NS	ns2.dns.nic.xn--8y0a063a.
+xn--8y0a063a.		172800	IN	NS	ns3.dns.nic.xn--8y0a063a.
+xn--8y0a063a.		172800	IN	NS	ns4.dns.nic.xn--8y0a063a.
+xn--8y0a063a.		172800	IN	NS	ns5.dns.nic.xn--8y0a063a.
+xn--8y0a063a.		172800	IN	NS	ns6.dns.nic.xn--8y0a063a.
+xn--8y0a063a.		86400	IN	NSEC	xn--90a3ac. NS DS RRSIG NSEC
+ns1.dns.nic.xn--8y0a063a. 172800 IN	A	156.154.144.172
+ns1.dns.nic.xn--8y0a063a. 172800 IN	AAAA	2610:a1:1071::ac
+ns2.dns.nic.xn--8y0a063a. 172800 IN	A	156.154.145.172
+ns2.dns.nic.xn--8y0a063a. 172800 IN	AAAA	2610:a1:1072::ac
+ns3.dns.nic.xn--8y0a063a. 172800 IN	A	156.154.159.172
+ns3.dns.nic.xn--8y0a063a. 172800 IN	AAAA	2610:a1:1073::ac
+ns4.dns.nic.xn--8y0a063a. 172800 IN	A	156.154.156.172
+ns4.dns.nic.xn--8y0a063a. 172800 IN	AAAA	2610:a1:1074::ac
+ns5.dns.nic.xn--8y0a063a. 172800 IN	A	156.154.157.172
+ns5.dns.nic.xn--8y0a063a. 172800 IN	AAAA	2610:a1:1075::ac
+ns6.dns.nic.xn--8y0a063a. 172800 IN	A	156.154.158.172
+ns6.dns.nic.xn--8y0a063a. 172800 IN	AAAA	2610:a1:1076::ac
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
