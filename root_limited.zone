@@ -2988,6 +2988,8 @@ domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
 domains.		172800	IN	NS	demand.gamma.aridns.net.au.
 domains.		86400	IN	NSEC	doosan. NS DS RRSIG NSEC
+d.dns.flexireg.domains.	172800	IN	A	89.111.135.1
+d.dns.flexireg.domains.	172800	IN	AAAA	2a01:d8:8::1
 doosan.			172800	IN	NS	dns1.emdns.uk.
 doosan.			172800	IN	NS	dns2.emdns.uk.
 doosan.			172800	IN	NS	dns3.emdns.uk.
@@ -3818,7 +3820,20 @@ gallery.		172800	IN	NS	demand.beta.aridns.net.au.
 gallery.		172800	IN	NS	demand.alpha.aridns.net.au.
 gallery.		172800	IN	NS	demand.delta.aridns.net.au.
 gallery.		172800	IN	NS	demand.gamma.aridns.net.au.
-gallery.		86400	IN	NSEC	game. NS DS RRSIG NSEC
+gallery.		86400	IN	NSEC	gallup. NS DS RRSIG NSEC
+gallup.			172800	IN	NS	a0.nic.gallup.
+gallup.			172800	IN	NS	a2.nic.gallup.
+gallup.			172800	IN	NS	b0.nic.gallup.
+gallup.			172800	IN	NS	c0.nic.gallup.
+gallup.			86400	IN	NSEC	game. NS DS RRSIG NSEC
+a0.nic.gallup.		172800	IN	A	65.22.168.17
+a0.nic.gallup.		172800	IN	AAAA	2a01:8840:a2::17
+a2.nic.gallup.		172800	IN	A	65.22.171.17
+a2.nic.gallup.		172800	IN	AAAA	2a01:8840:a5::17
+b0.nic.gallup.		172800	IN	A	65.22.169.17
+b0.nic.gallup.		172800	IN	AAAA	2a01:8840:a3::17
+c0.nic.gallup.		172800	IN	A	65.22.170.17
+c0.nic.gallup.		172800	IN	AAAA	2a01:8840:a4::17
 game.			172800	IN	NS	a.game.dyntld.net.
 game.			172800	IN	NS	b.game.dyntld.net.
 game.			172800	IN	NS	c.game.dyntld.net.
@@ -4281,7 +4296,20 @@ haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
 haus.			172800	IN	NS	demand.delta.aridns.net.au.
 haus.			172800	IN	NS	demand.gamma.aridns.net.au.
-haus.			86400	IN	NSEC	health. NS DS RRSIG NSEC
+haus.			86400	IN	NSEC	hdfcbank. NS DS RRSIG NSEC
+hdfcbank.		172800	IN	NS	a0.nic.hdfcbank.
+hdfcbank.		172800	IN	NS	a2.nic.hdfcbank.
+hdfcbank.		172800	IN	NS	b0.nic.hdfcbank.
+hdfcbank.		172800	IN	NS	c0.nic.hdfcbank.
+hdfcbank.		86400	IN	NSEC	health. NS DS RRSIG NSEC
+a0.nic.hdfcbank.	172800	IN	A	65.22.180.33
+a0.nic.hdfcbank.	172800	IN	AAAA	2a01:8840:ae::33
+a2.nic.hdfcbank.	172800	IN	A	65.22.183.33
+a2.nic.hdfcbank.	172800	IN	AAAA	2a01:8840:b1::33
+b0.nic.hdfcbank.	172800	IN	A	65.22.181.33
+b0.nic.hdfcbank.	172800	IN	AAAA	2a01:8840:af::33
+c0.nic.hdfcbank.	172800	IN	A	65.22.182.33
+c0.nic.hdfcbank.	172800	IN	AAAA	2a01:8840:b0::33
 health.			172800	IN	NS	ns1.dns.nic.health.
 health.			172800	IN	NS	ns2.dns.nic.health.
 health.			172800	IN	NS	ns3.dns.nic.health.
@@ -6515,6 +6543,7 @@ mortgage.		86400	IN	NSEC	moscow. NS DS RRSIG NSEC
 moscow.			172800	IN	NS	a.dns.flexireg.ru.
 moscow.			172800	IN	NS	b.dns.flexireg.net.
 moscow.			172800	IN	NS	c.dns.flexireg.org.
+moscow.			172800	IN	NS	d.dns.flexireg.domains.
 moscow.			86400	IN	NSEC	motorcycles. NS DS RRSIG NSEC
 motorcycles.		172800	IN	NS	a0.nic.motorcycles.
 motorcycles.		172800	IN	NS	a2.nic.motorcycles.
@@ -6721,7 +6750,20 @@ name.			172800	IN	NS	j6.nstld.com.
 name.			172800	IN	NS	k6.nstld.com.
 name.			172800	IN	NS	l6.nstld.com.
 name.			172800	IN	NS	m6.nstld.com.
-name.			86400	IN	NSEC	navy. NS DS RRSIG NSEC
+name.			86400	IN	NSEC	natura. NS DS RRSIG NSEC
+natura.			172800	IN	NS	a0.nic.natura.
+natura.			172800	IN	NS	a2.nic.natura.
+natura.			172800	IN	NS	b0.nic.natura.
+natura.			172800	IN	NS	c0.nic.natura.
+natura.			86400	IN	NSEC	navy. NS DS RRSIG NSEC
+a0.nic.natura.		172800	IN	A	65.22.240.33
+a0.nic.natura.		172800	IN	AAAA	2a01:8840:ea::33
+a2.nic.natura.		172800	IN	A	65.22.243.33
+a2.nic.natura.		172800	IN	AAAA	2a01:8840:ed::33
+b0.nic.natura.		172800	IN	A	65.22.241.33
+b0.nic.natura.		172800	IN	AAAA	2a01:8840:eb::33
+c0.nic.natura.		172800	IN	A	65.22.242.33
+c0.nic.natura.		172800	IN	AAAA	2a01:8840:ec::33
 navy.			172800	IN	NS	demand.beta.aridns.net.au.
 navy.			172800	IN	NS	demand.alpha.aridns.net.au.
 navy.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -8549,7 +8591,7 @@ pw.			172800	IN	NS	ns1.nic.pw.
 pw.			172800	IN	NS	ns2.nic.pw.
 pw.			172800	IN	NS	ns3.nic.pw.
 pw.			172800	IN	NS	ns4.nic.pw.
-pw.			86400	IN	NSEC	py. NS DS RRSIG NSEC
+pw.			86400	IN	NSEC	pwc. NS DS RRSIG NSEC
 ns1.nic.pw.		172800	IN	A	194.169.218.12
 ns1.nic.pw.		172800	IN	AAAA	2001:67c:13cc::1:12
 ns2.nic.pw.		172800	IN	A	185.24.64.12
@@ -8558,6 +8600,19 @@ ns3.nic.pw.		172800	IN	A	212.18.248.12
 ns3.nic.pw.		172800	IN	AAAA	2a04:2b00:13ee::12
 ns4.nic.pw.		172800	IN	A	212.18.249.12
 ns4.nic.pw.		172800	IN	AAAA	2a04:2b00:13ff::12
+pwc.			172800	IN	NS	a0.nic.pwc.
+pwc.			172800	IN	NS	a2.nic.pwc.
+pwc.			172800	IN	NS	b0.nic.pwc.
+pwc.			172800	IN	NS	c0.nic.pwc.
+pwc.			86400	IN	NSEC	py. NS DS RRSIG NSEC
+a0.nic.pwc.		172800	IN	A	65.22.80.9
+a0.nic.pwc.		172800	IN	AAAA	2a01:8840:4e::9
+a2.nic.pwc.		172800	IN	A	65.22.83.9
+a2.nic.pwc.		172800	IN	AAAA	2a01:8840:51::9
+b0.nic.pwc.		172800	IN	A	65.22.81.9
+b0.nic.pwc.		172800	IN	AAAA	2a01:8840:4f::9
+c0.nic.pwc.		172800	IN	A	65.22.82.9
+c0.nic.pwc.		172800	IN	AAAA	2a01:8840:50::9
 py.			172800	IN	NS	a.dns.py.
 py.			172800	IN	NS	b.dns.py.
 py.			172800	IN	NS	c.dns.py.
@@ -11530,7 +11585,7 @@ wme.			172800	IN	NS	a.nic.wme.
 wme.			172800	IN	NS	b.nic.wme.
 wme.			172800	IN	NS	c.nic.wme.
 wme.			172800	IN	NS	d.nic.wme.
-wme.			86400	IN	NSEC	work. NS DS RRSIG NSEC
+wme.			86400	IN	NSEC	wolterskluwer. NS DS RRSIG NSEC
 a.nic.wme.		172800	IN	A	194.169.218.31
 a.nic.wme.		172800	IN	AAAA	2001:67c:13cc::1:31
 b.nic.wme.		172800	IN	A	185.24.64.31
@@ -11539,6 +11594,19 @@ c.nic.wme.		172800	IN	A	212.18.248.31
 c.nic.wme.		172800	IN	AAAA	2a04:2b00:13ee::31
 d.nic.wme.		172800	IN	A	212.18.249.31
 d.nic.wme.		172800	IN	AAAA	2a04:2b00:13ff::31
+wolterskluwer.		172800	IN	NS	a0.nic.wolterskluwer.
+wolterskluwer.		172800	IN	NS	a2.nic.wolterskluwer.
+wolterskluwer.		172800	IN	NS	b0.nic.wolterskluwer.
+wolterskluwer.		172800	IN	NS	c0.nic.wolterskluwer.
+wolterskluwer.		86400	IN	NSEC	work. NS DS RRSIG NSEC
+a0.nic.wolterskluwer.	172800	IN	A	65.22.204.25
+a0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c6::25
+a2.nic.wolterskluwer.	172800	IN	A	65.22.207.25
+a2.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c9::25
+b0.nic.wolterskluwer.	172800	IN	A	65.22.205.25
+b0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c7::25
+c0.nic.wolterskluwer.	172800	IN	A	65.22.206.25
+c0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c8::25
 work.			172800	IN	NS	a.ns.nic.work.
 work.			172800	IN	NS	b.ns.nic.work.
 work.			86400	IN	NSEC	works. NS DS RRSIG NSEC
@@ -11756,6 +11824,7 @@ xn--6qq986b3xl.		86400	IN	NSEC	xn--80adxhks. NS DS RRSIG NSEC
 xn--80adxhks.		172800	IN	NS	a.dns.flexireg.ru.
 xn--80adxhks.		172800	IN	NS	b.dns.flexireg.net.
 xn--80adxhks.		172800	IN	NS	c.dns.flexireg.org.
+xn--80adxhks.		172800	IN	NS	d.dns.flexireg.domains.
 xn--80adxhks.		86400	IN	NSEC	xn--80ao21a. NS DS RRSIG NSEC
 xn--80ao21a.		172800	IN	NS	kz.cctld.authdns.ripe.net.
 xn--80ao21a.		172800	IN	NS	ns.nic.kz.
@@ -12302,7 +12371,15 @@ xn--mgbx4cd0ab.		172800	IN	NS	d.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
-xn--mgbx4cd0ab.		86400	IN	NSEC	xn--mk1bu44c. NS DS RRSIG NSEC
+xn--mgbx4cd0ab.		86400	IN	NSEC	xn--mix891f. NS DS RRSIG NSEC
+xn--mix891f.		172800	IN	NS	a.monic.mo.
+xn--mix891f.		172800	IN	NS	b.monic.mo.
+xn--mix891f.		172800	IN	NS	c.monic.mo.
+xn--mix891f.		172800	IN	NS	d.monic.mo.
+xn--mix891f.		172800	IN	NS	e.monic.mo.
+xn--mix891f.		172800	IN	NS	ns2.cuhk.edu.hk.
+xn--mix891f.		172800	IN	NS	ns17.cdns.net.
+xn--mix891f.		86400	IN	NSEC	xn--mk1bu44c. NS RRSIG NSEC
 xn--mk1bu44c.		172800	IN	NS	a5.nstld.com.
 xn--mk1bu44c.		172800	IN	NS	c5.nstld.com.
 xn--mk1bu44c.		172800	IN	NS	d5.nstld.com.
