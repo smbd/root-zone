@@ -3577,8 +3577,27 @@ fk.			172800	IN	NS	ns.horizon.net.fk.
 fk.			172800	IN	NS	euro-ns1.cw.net.
 fk.			172800	IN	NS	euro-ns2.cw.net.
 fk.			172800	IN	NS	euro-ns3.cw.net.
-fk.			86400	IN	NSEC	flights. NS RRSIG NSEC
+fk.			86400	IN	NSEC	flickr. NS RRSIG NSEC
 ns.horizon.net.fk.	172800	IN	A	195.248.193.250
+flickr.			172800	IN	NS	ns1.dns.nic.flickr.
+flickr.			172800	IN	NS	ns2.dns.nic.flickr.
+flickr.			172800	IN	NS	ns3.dns.nic.flickr.
+flickr.			172800	IN	NS	ns4.dns.nic.flickr.
+flickr.			172800	IN	NS	ns5.dns.nic.flickr.
+flickr.			172800	IN	NS	ns6.dns.nic.flickr.
+flickr.			86400	IN	NSEC	flights. NS DS RRSIG NSEC
+ns1.dns.nic.flickr.	172800	IN	A	156.154.144.60
+ns1.dns.nic.flickr.	172800	IN	AAAA	2610:a1:1071::3c
+ns2.dns.nic.flickr.	172800	IN	A	156.154.145.60
+ns2.dns.nic.flickr.	172800	IN	AAAA	2610:a1:1072::3c
+ns3.dns.nic.flickr.	172800	IN	A	156.154.159.60
+ns3.dns.nic.flickr.	172800	IN	AAAA	2610:a1:1073::3c
+ns4.dns.nic.flickr.	172800	IN	A	156.154.156.60
+ns4.dns.nic.flickr.	172800	IN	AAAA	2610:a1:1074::3c
+ns5.dns.nic.flickr.	172800	IN	A	156.154.157.60
+ns5.dns.nic.flickr.	172800	IN	AAAA	2610:a1:1075::3c
+ns6.dns.nic.flickr.	172800	IN	A	156.154.158.60
+ns6.dns.nic.flickr.	172800	IN	AAAA	2610:a1:1076::3c
 flights.		172800	IN	NS	demand.beta.aridns.net.au.
 flights.		172800	IN	NS	demand.alpha.aridns.net.au.
 flights.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -10380,19 +10399,20 @@ tg.			172800	IN	NS	ns5.admin.net.
 tg.			172800	IN	NS	tld.cafe.tg.
 tg.			86400	IN	NSEC	th. NS RRSIG NSEC
 tld.cafe.tg.		172800	IN	A	80.248.64.20
+th.			172800	IN	NS	a.thains.co.th.
+th.			172800	IN	NS	b.thains.co.th.
+th.			172800	IN	NS	c.thains.co.th.
 th.			172800	IN	NS	ns.thnic.net.
 th.			172800	IN	NS	th.cctld.authdns.ripe.net.
 th.			172800	IN	NS	ams.sns-pb.isc.org.
-th.			172800	IN	NS	dns1.thnic.co.th.
-th.			172800	IN	NS	ns-a.thnic.co.th.
-th.			172800	IN	NS	ns-e.thnic.co.th.
 th.			172800	IN	NS	sfba.sns-pb.isc.org.
 th.			86400	IN	NSEC	thd. NS DS RRSIG NSEC
-dns1.thnic.co.th.	172800	IN	A	202.28.1.22
-dns1.thnic.co.th.	172800	IN	AAAA	2001:3c8:1209:1::22
-ns-a.thnic.co.th.	172800	IN	A	61.19.242.38
-ns-e.thnic.co.th.	172800	IN	A	194.0.1.28
-ns-e.thnic.co.th.	172800	IN	AAAA	2001:678:4::1c
+a.thains.co.th.		172800	IN	A	122.155.23.64
+a.thains.co.th.		172800	IN	AAAA	2001:c38:2000:183::30
+b.thains.co.th.		172800	IN	A	203.159.64.64
+b.thains.co.th.		172800	IN	AAAA	2001:c00:4618:3000::30
+c.thains.co.th.		172800	IN	A	194.0.1.28
+c.thains.co.th.		172800	IN	AAAA	2001:678:4::1c
 thd.			172800	IN	NS	a0.nic.thd.
 thd.			172800	IN	NS	a2.nic.thd.
 thd.			172800	IN	NS	b0.nic.thd.
@@ -10790,7 +10810,20 @@ tv.			172800	IN	NS	f5.nstld.com.
 tv.			172800	IN	NS	g5.nstld.com.
 tv.			172800	IN	NS	h5.nstld.com.
 tv.			172800	IN	NS	l5.nstld.com.
-tv.			86400	IN	NSEC	tw. NS DS RRSIG NSEC
+tv.			86400	IN	NSEC	tvs. NS DS RRSIG NSEC
+tvs.			172800	IN	NS	a0.nic.tvs.
+tvs.			172800	IN	NS	a2.nic.tvs.
+tvs.			172800	IN	NS	b0.nic.tvs.
+tvs.			172800	IN	NS	c0.nic.tvs.
+tvs.			86400	IN	NSEC	tw. NS DS RRSIG NSEC
+a0.nic.tvs.		172800	IN	A	65.22.204.9
+a0.nic.tvs.		172800	IN	AAAA	2a01:8840:c6::9
+a2.nic.tvs.		172800	IN	A	65.22.207.9
+a2.nic.tvs.		172800	IN	AAAA	2a01:8840:c9::9
+b0.nic.tvs.		172800	IN	A	65.22.205.9
+b0.nic.tvs.		172800	IN	AAAA	2a01:8840:c7::9
+c0.nic.tvs.		172800	IN	A	65.22.206.9
+c0.nic.tvs.		172800	IN	AAAA	2a01:8840:c8::9
 tw.			172800	IN	NS	a.dns.tw.
 tw.			172800	IN	NS	b.dns.tw.
 tw.			172800	IN	NS	c.dns.tw.
@@ -12485,9 +12518,9 @@ ns5.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.173.74
 ns5.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1075::1:4a
 ns6.dns.nic.xn--nyqy26a. 172800	IN	A	156.154.174.74
 ns6.dns.nic.xn--nyqy26a. 172800	IN	AAAA	2610:a1:1076::1:4a
+xn--o3cw4h.		172800	IN	NS	a.thains.co.th.
+xn--o3cw4h.		172800	IN	NS	b.thains.co.th.
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
-xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
-xn--o3cw4h.		172800	IN	NS	ns-a.thnic.co.th.
 xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS DS RRSIG NSEC
 xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
@@ -12730,7 +12763,7 @@ yachts.			172800	IN	NS	a0.nic.yachts.
 yachts.			172800	IN	NS	a2.nic.yachts.
 yachts.			172800	IN	NS	b0.nic.yachts.
 yachts.			172800	IN	NS	c0.nic.yachts.
-yachts.			86400	IN	NSEC	yamaxun. NS DS RRSIG NSEC
+yachts.			86400	IN	NSEC	yahoo. NS DS RRSIG NSEC
 a0.nic.yachts.		172800	IN	A	65.22.100.1
 a0.nic.yachts.		172800	IN	AAAA	2a01:8840:62::1
 a2.nic.yachts.		172800	IN	A	65.22.103.1
@@ -12739,6 +12772,25 @@ b0.nic.yachts.		172800	IN	A	65.22.101.1
 b0.nic.yachts.		172800	IN	AAAA	2a01:8840:63::1
 c0.nic.yachts.		172800	IN	A	65.22.102.1
 c0.nic.yachts.		172800	IN	AAAA	2a01:8840:64::1
+yahoo.			172800	IN	NS	ns1.dns.nic.yahoo.
+yahoo.			172800	IN	NS	ns2.dns.nic.yahoo.
+yahoo.			172800	IN	NS	ns3.dns.nic.yahoo.
+yahoo.			172800	IN	NS	ns4.dns.nic.yahoo.
+yahoo.			172800	IN	NS	ns5.dns.nic.yahoo.
+yahoo.			172800	IN	NS	ns6.dns.nic.yahoo.
+yahoo.			86400	IN	NSEC	yamaxun. NS DS RRSIG NSEC
+ns1.dns.nic.yahoo.	172800	IN	A	156.154.144.184
+ns1.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1071::b8
+ns2.dns.nic.yahoo.	172800	IN	A	156.154.145.184
+ns2.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1072::b8
+ns3.dns.nic.yahoo.	172800	IN	A	156.154.159.184
+ns3.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1073::b8
+ns4.dns.nic.yahoo.	172800	IN	A	156.154.156.184
+ns4.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1074::b8
+ns5.dns.nic.yahoo.	172800	IN	A	156.154.157.184
+ns5.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1075::b8
+ns6.dns.nic.yahoo.	172800	IN	A	156.154.158.184
+ns6.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1076::b8
 yamaxun.		172800	IN	NS	ns1.dns.nic.yamaxun.
 yamaxun.		172800	IN	NS	ns2.dns.nic.yamaxun.
 yamaxun.		172800	IN	NS	ns3.dns.nic.yamaxun.
