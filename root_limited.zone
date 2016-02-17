@@ -85,13 +85,10 @@ academy.		172800	IN	NS	demand.alpha.aridns.net.au.
 academy.		172800	IN	NS	demand.delta.aridns.net.au.
 academy.		172800	IN	NS	demand.gamma.aridns.net.au.
 academy.		86400	IN	NSEC	accenture. NS DS RRSIG NSEC
-accenture.		172800	IN	NS	a5.nstld.com.
-accenture.		172800	IN	NS	c5.nstld.com.
-accenture.		172800	IN	NS	d5.nstld.com.
-accenture.		172800	IN	NS	f5.nstld.com.
-accenture.		172800	IN	NS	g5.nstld.com.
-accenture.		172800	IN	NS	h5.nstld.com.
-accenture.		172800	IN	NS	l5.nstld.com.
+accenture.		172800	IN	NS	ac1.nstld.com.
+accenture.		172800	IN	NS	ac2.nstld.com.
+accenture.		172800	IN	NS	ac3.nstld.com.
+accenture.		172800	IN	NS	ac4.nstld.com.
 accenture.		86400	IN	NSEC	accountant. NS DS RRSIG NSEC
 accountant.		172800	IN	NS	ns1.dns.nic.accountant.
 accountant.		172800	IN	NS	ns2.dns.nic.accountant.
@@ -5104,13 +5101,10 @@ jaguar.			172800	IN	NS	g5.nstld.com.
 jaguar.			172800	IN	NS	h5.nstld.com.
 jaguar.			172800	IN	NS	l5.nstld.com.
 jaguar.			86400	IN	NSEC	java. NS DS RRSIG NSEC
-java.			172800	IN	NS	a5.nstld.com.
-java.			172800	IN	NS	c5.nstld.com.
-java.			172800	IN	NS	d5.nstld.com.
-java.			172800	IN	NS	f5.nstld.com.
-java.			172800	IN	NS	g5.nstld.com.
-java.			172800	IN	NS	h5.nstld.com.
-java.			172800	IN	NS	l5.nstld.com.
+java.			172800	IN	NS	ac1.nstld.com.
+java.			172800	IN	NS	ac2.nstld.com.
+java.			172800	IN	NS	ac3.nstld.com.
+java.			172800	IN	NS	ac4.nstld.com.
 java.			86400	IN	NSEC	jcb. NS DS RRSIG NSEC
 jcb.			172800	IN	NS	a.gmoregistry.net.
 jcb.			172800	IN	NS	b.gmoregistry.net.
@@ -5411,6 +5405,8 @@ kiwi.			172800	IN	NS	a.ns.nic.kiwi.
 kiwi.			172800	IN	NS	b.ns.nic.kiwi.
 kiwi.			172800	IN	NS	c.ns.nic.kiwi.
 kiwi.			172800	IN	NS	d.ns.nic.kiwi.
+kiwi.			172800	IN	NS	e.ns.nic.kiwi.
+kiwi.			172800	IN	NS	f.ns.nic.kiwi.
 kiwi.			86400	IN	NSEC	km. NS DS RRSIG NSEC
 a.ns.nic.kiwi.		172800	IN	A	72.0.50.4
 a.ns.nic.kiwi.		172800	IN	AAAA	2620:171:a02:ad::4
@@ -5420,6 +5416,10 @@ c.ns.nic.kiwi.		172800	IN	A	70.40.0.4
 c.ns.nic.kiwi.		172800	IN	AAAA	2620:171:c00:c::4
 d.ns.nic.kiwi.		172800	IN	A	70.40.8.4
 d.ns.nic.kiwi.		172800	IN	AAAA	2620:171:f00:d::4
+e.ns.nic.kiwi.		172800	IN	A	162.219.54.254
+e.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80eb::254
+f.ns.nic.kiwi.		172800	IN	A	162.219.55.254
+f.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80ec::254
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
 km.			172800	IN	NS	ns-km.afrinic.net.
@@ -6060,13 +6060,10 @@ ns1.dns.lu.		172800	IN	AAAA	2001:a18:4:1::18
 ns5.dns.lu.		172800	IN	A	81.91.161.100
 p.dns.lu.		172800	IN	A	194.0.42.42
 p.dns.lu.		172800	IN	AAAA	2001:678:60::42:42
-lupin.			172800	IN	NS	a5.nstld.com.
-lupin.			172800	IN	NS	c5.nstld.com.
-lupin.			172800	IN	NS	d5.nstld.com.
-lupin.			172800	IN	NS	f5.nstld.com.
-lupin.			172800	IN	NS	g5.nstld.com.
-lupin.			172800	IN	NS	h5.nstld.com.
-lupin.			172800	IN	NS	l5.nstld.com.
+lupin.			172800	IN	NS	ac1.nstld.com.
+lupin.			172800	IN	NS	ac2.nstld.com.
+lupin.			172800	IN	NS	ac3.nstld.com.
+lupin.			172800	IN	NS	ac4.nstld.com.
 lupin.			86400	IN	NSEC	luxe. NS DS RRSIG NSEC
 luxe.			172800	IN	NS	a.ns.nic.luxe.
 luxe.			172800	IN	NS	b.ns.nic.luxe.
@@ -9998,13 +9995,10 @@ ns5.dns.nic.statefarm.	172800	IN	A	156.154.157.154
 ns5.dns.nic.statefarm.	172800	IN	AAAA	2610:a1:1075::9a
 ns6.dns.nic.statefarm.	172800	IN	A	156.154.158.154
 ns6.dns.nic.statefarm.	172800	IN	AAAA	2610:a1:1076::9a
-statoil.		172800	IN	NS	a5.nstld.com.
-statoil.		172800	IN	NS	c5.nstld.com.
-statoil.		172800	IN	NS	d5.nstld.com.
-statoil.		172800	IN	NS	f5.nstld.com.
-statoil.		172800	IN	NS	g5.nstld.com.
-statoil.		172800	IN	NS	h5.nstld.com.
-statoil.		172800	IN	NS	l5.nstld.com.
+statoil.		172800	IN	NS	ac1.nstld.com.
+statoil.		172800	IN	NS	ac2.nstld.com.
+statoil.		172800	IN	NS	ac3.nstld.com.
+statoil.		172800	IN	NS	ac4.nstld.com.
 statoil.		86400	IN	NSEC	stc. NS DS RRSIG NSEC
 stc.			172800	IN	NS	a.nic.stc.
 stc.			172800	IN	NS	b.nic.stc.
