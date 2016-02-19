@@ -4397,10 +4397,14 @@ hitachi.		172800	IN	NS	b.gmoregistry.net.
 hitachi.		172800	IN	NS	k.gmoregistry.net.
 hitachi.		172800	IN	NS	l.gmoregistry.net.
 hitachi.		86400	IN	NSEC	hiv. NS DS RRSIG NSEC
+hiv.			172800	IN	NS	a.hiv.dyntld.net.
+hiv.			172800	IN	NS	b.hiv.dyntld.net.
+hiv.			172800	IN	NS	c.hiv.dyntld.net.
 hiv.			172800	IN	NS	a0.nic.hiv.
 hiv.			172800	IN	NS	a2.nic.hiv.
 hiv.			172800	IN	NS	b0.nic.hiv.
 hiv.			172800	IN	NS	c0.nic.hiv.
+hiv.			172800	IN	NS	ns1.uniregistry.net.
 hiv.			86400	IN	NSEC	hk. NS DS RRSIG NSEC
 a0.nic.hiv.		172800	IN	A	65.22.228.17
 a0.nic.hiv.		172800	IN	AAAA	2a01:8840:de::17
@@ -7038,6 +7042,12 @@ b.hiphop.dyntld.net.	172800	IN	A	199.19.7.10
 b.hiphop.dyntld.net.	172800	IN	AAAA	2a02:e180:1::10
 c.hiphop.dyntld.net.	172800	IN	A	185.38.98.10
 c.hiphop.dyntld.net.	172800	IN	AAAA	2a02:e180:2::10
+a.hiv.dyntld.net.	172800	IN	A	199.19.1.26
+a.hiv.dyntld.net.	172800	IN	AAAA	2a02:e180::26
+b.hiv.dyntld.net.	172800	IN	A	199.19.7.26
+b.hiv.dyntld.net.	172800	IN	AAAA	2a02:e180:1::26
+c.hiv.dyntld.net.	172800	IN	A	185.38.98.26
+c.hiv.dyntld.net.	172800	IN	AAAA	2a02:e180:2::26
 a.hosting.dyntld.net.	172800	IN	A	199.19.1.11
 a.hosting.dyntld.net.	172800	IN	AAAA	2a02:e180::11
 b.hosting.dyntld.net.	172800	IN	A	199.19.7.11
@@ -9528,13 +9538,10 @@ c.nic.select.		172800	IN	A	37.209.196.9
 c.nic.select.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.select.		172800	IN	A	37.209.198.9
 d.nic.select.		172800	IN	AAAA	2001:dcd:4::9
-sener.			172800	IN	NS	a5.nstld.com.
-sener.			172800	IN	NS	c5.nstld.com.
-sener.			172800	IN	NS	d5.nstld.com.
-sener.			172800	IN	NS	f5.nstld.com.
-sener.			172800	IN	NS	g5.nstld.com.
-sener.			172800	IN	NS	h5.nstld.com.
-sener.			172800	IN	NS	l5.nstld.com.
+sener.			172800	IN	NS	ac1.nstld.com.
+sener.			172800	IN	NS	ac2.nstld.com.
+sener.			172800	IN	NS	ac3.nstld.com.
+sener.			172800	IN	NS	ac4.nstld.com.
 sener.			86400	IN	NSEC	services. NS DS RRSIG NSEC
 services.		172800	IN	NS	demand.beta.aridns.net.au.
 services.		172800	IN	NS	demand.alpha.aridns.net.au.
