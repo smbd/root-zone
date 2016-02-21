@@ -34,13 +34,10 @@ ns5.dns.nic.aaa.	172800	IN	A	156.154.157.2
 ns5.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1075::2
 ns6.dns.nic.aaa.	172800	IN	A	156.154.158.2
 ns6.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1076::2
-aarp.			172800	IN	NS	a5.nstld.com.
-aarp.			172800	IN	NS	c5.nstld.com.
-aarp.			172800	IN	NS	d5.nstld.com.
-aarp.			172800	IN	NS	f5.nstld.com.
-aarp.			172800	IN	NS	g5.nstld.com.
-aarp.			172800	IN	NS	h5.nstld.com.
-aarp.			172800	IN	NS	l5.nstld.com.
+aarp.			172800	IN	NS	ac1.nstld.com.
+aarp.			172800	IN	NS	ac2.nstld.com.
+aarp.			172800	IN	NS	ac3.nstld.com.
+aarp.			172800	IN	NS	ac4.nstld.com.
 aarp.			86400	IN	NSEC	abb. NS DS RRSIG NSEC
 abb.			172800	IN	NS	ac1.nstld.com.
 abb.			172800	IN	NS	ac2.nstld.com.
@@ -737,13 +734,10 @@ band.			172800	IN	NS	demand.alpha.aridns.net.au.
 band.			172800	IN	NS	demand.delta.aridns.net.au.
 band.			172800	IN	NS	demand.gamma.aridns.net.au.
 band.			86400	IN	NSEC	bank. NS DS RRSIG NSEC
-bank.			172800	IN	NS	a5.nstld.com.
-bank.			172800	IN	NS	c5.nstld.com.
-bank.			172800	IN	NS	d5.nstld.com.
-bank.			172800	IN	NS	f5.nstld.com.
-bank.			172800	IN	NS	g5.nstld.com.
-bank.			172800	IN	NS	h5.nstld.com.
-bank.			172800	IN	NS	l5.nstld.com.
+bank.			172800	IN	NS	ac1.nstld.com.
+bank.			172800	IN	NS	ac2.nstld.com.
+bank.			172800	IN	NS	ac3.nstld.com.
+bank.			172800	IN	NS	ac4.nstld.com.
 bank.			86400	IN	NSEC	bar. NS DS RRSIG NSEC
 bar.			172800	IN	NS	a.nic.bar.
 bar.			172800	IN	NS	b.nic.bar.
@@ -1106,13 +1100,10 @@ blackfriday.		172800	IN	NS	b.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	c.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	ns1.uniregistry.net.
 blackfriday.		86400	IN	NSEC	bloomberg. NS DS RRSIG NSEC
-bloomberg.		172800	IN	NS	a5.nstld.com.
-bloomberg.		172800	IN	NS	c5.nstld.com.
-bloomberg.		172800	IN	NS	d5.nstld.com.
-bloomberg.		172800	IN	NS	f5.nstld.com.
-bloomberg.		172800	IN	NS	g5.nstld.com.
-bloomberg.		172800	IN	NS	h5.nstld.com.
-bloomberg.		172800	IN	NS	l5.nstld.com.
+bloomberg.		172800	IN	NS	ac1.nstld.com.
+bloomberg.		172800	IN	NS	ac2.nstld.com.
+bloomberg.		172800	IN	NS	ac3.nstld.com.
+bloomberg.		172800	IN	NS	ac4.nstld.com.
 bloomberg.		86400	IN	NSEC	blue. NS DS RRSIG NSEC
 blue.			172800	IN	NS	a0.nic.blue.
 blue.			172800	IN	NS	a2.nic.blue.
@@ -1141,13 +1132,10 @@ ns2.ibl.bm.		172800	IN	A	199.172.192.2
 ns1.bm.			172800	IN	A	206.53.190.202
 ns2.bm.			172800	IN	A	69.17.194.1
 ns3.bm.			172800	IN	A	207.228.134.10
-bms.			172800	IN	NS	a5.nstld.com.
-bms.			172800	IN	NS	c5.nstld.com.
-bms.			172800	IN	NS	d5.nstld.com.
-bms.			172800	IN	NS	f5.nstld.com.
-bms.			172800	IN	NS	g5.nstld.com.
-bms.			172800	IN	NS	h5.nstld.com.
-bms.			172800	IN	NS	l5.nstld.com.
+bms.			172800	IN	NS	ac1.nstld.com.
+bms.			172800	IN	NS	ac2.nstld.com.
+bms.			172800	IN	NS	ac3.nstld.com.
+bms.			172800	IN	NS	ac4.nstld.com.
 bms.			86400	IN	NSEC	bmw. NS DS RRSIG NSEC
 bmw.			172800	IN	NS	ns1a.ksregistry.net.
 bmw.			172800	IN	NS	ns1b.ksregistry.net.
@@ -1278,13 +1266,10 @@ c.nic.boots.		172800	IN	A	37.209.196.9
 c.nic.boots.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.boots.		172800	IN	A	37.209.198.9
 d.nic.boots.		172800	IN	AAAA	2001:dcd:4::9
-bosch.			172800	IN	NS	a5.nstld.com.
-bosch.			172800	IN	NS	c5.nstld.com.
-bosch.			172800	IN	NS	d5.nstld.com.
-bosch.			172800	IN	NS	f5.nstld.com.
-bosch.			172800	IN	NS	g5.nstld.com.
-bosch.			172800	IN	NS	h5.nstld.com.
-bosch.			172800	IN	NS	l5.nstld.com.
+bosch.			172800	IN	NS	ac1.nstld.com.
+bosch.			172800	IN	NS	ac2.nstld.com.
+bosch.			172800	IN	NS	ac3.nstld.com.
+bosch.			172800	IN	NS	ac4.nstld.com.
 bosch.			86400	IN	NSEC	bostik. NS DS RRSIG NSEC
 bostik.			172800	IN	NS	d.nic.fr.
 bostik.			172800	IN	NS	f.ext.nic.fr.
@@ -1836,13 +1821,10 @@ c.ns.cf.		172800	IN	A	185.21.170.17
 c.ns.cf.		172800	IN	AAAA	2a04:1b00:6::1
 d.ns.cf.		172800	IN	A	185.21.171.17
 d.ns.cf.		172800	IN	AAAA	2a04:1b00:7::1
-cfa.			172800	IN	NS	a5.nstld.com.
-cfa.			172800	IN	NS	c5.nstld.com.
-cfa.			172800	IN	NS	d5.nstld.com.
-cfa.			172800	IN	NS	f5.nstld.com.
-cfa.			172800	IN	NS	g5.nstld.com.
-cfa.			172800	IN	NS	h5.nstld.com.
-cfa.			172800	IN	NS	l5.nstld.com.
+cfa.			172800	IN	NS	ac1.nstld.com.
+cfa.			172800	IN	NS	ac2.nstld.com.
+cfa.			172800	IN	NS	ac3.nstld.com.
+cfa.			172800	IN	NS	ac4.nstld.com.
 cfa.			86400	IN	NSEC	cfd. NS DS RRSIG NSEC
 cfd.			172800	IN	NS	a5.nstld.com.
 cfd.			172800	IN	NS	c5.nstld.com.
@@ -1880,13 +1862,10 @@ f.nic.ch.		172800	IN	AAAA	2001:67c:1010:2::53
 h.nic.ch.		172800	IN	A	194.42.48.120
 ns2.switch.ch.		172800	IN	A	130.59.138.49
 ns2.switch.ch.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
-chanel.			172800	IN	NS	a5.nstld.com.
-chanel.			172800	IN	NS	c5.nstld.com.
-chanel.			172800	IN	NS	d5.nstld.com.
-chanel.			172800	IN	NS	f5.nstld.com.
-chanel.			172800	IN	NS	g5.nstld.com.
-chanel.			172800	IN	NS	h5.nstld.com.
-chanel.			172800	IN	NS	l5.nstld.com.
+chanel.			172800	IN	NS	ac1.nstld.com.
+chanel.			172800	IN	NS	ac2.nstld.com.
+chanel.			172800	IN	NS	ac3.nstld.com.
+chanel.			172800	IN	NS	ac4.nstld.com.
 chanel.			86400	IN	NSEC	channel. NS DS RRSIG NSEC
 channel.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 channel.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -2015,13 +1994,10 @@ city.			172800	IN	NS	demand.alpha.aridns.net.au.
 city.			172800	IN	NS	demand.delta.aridns.net.au.
 city.			172800	IN	NS	demand.gamma.aridns.net.au.
 city.			86400	IN	NSEC	cityeats. NS DS RRSIG NSEC
-cityeats.		172800	IN	NS	a5.nstld.com.
-cityeats.		172800	IN	NS	c5.nstld.com.
-cityeats.		172800	IN	NS	d5.nstld.com.
-cityeats.		172800	IN	NS	f5.nstld.com.
-cityeats.		172800	IN	NS	g5.nstld.com.
-cityeats.		172800	IN	NS	h5.nstld.com.
-cityeats.		172800	IN	NS	l5.nstld.com.
+cityeats.		172800	IN	NS	ac1.nstld.com.
+cityeats.		172800	IN	NS	ac2.nstld.com.
+cityeats.		172800	IN	NS	ac3.nstld.com.
+cityeats.		172800	IN	NS	ac4.nstld.com.
 cityeats.		86400	IN	NSEC	ck. NS DS RRSIG NSEC
 ck.			172800	IN	NS	circa.mcs.vuw.ac.nz.
 ck.			172800	IN	NS	parau.oyster.net.ck.
@@ -3339,13 +3315,10 @@ fail.			172800	IN	NS	demand.alpha.aridns.net.au.
 fail.			172800	IN	NS	demand.delta.aridns.net.au.
 fail.			172800	IN	NS	demand.gamma.aridns.net.au.
 fail.			86400	IN	NSEC	fairwinds. NS DS RRSIG NSEC
-fairwinds.		172800	IN	NS	a5.nstld.com.
-fairwinds.		172800	IN	NS	c5.nstld.com.
-fairwinds.		172800	IN	NS	d5.nstld.com.
-fairwinds.		172800	IN	NS	f5.nstld.com.
-fairwinds.		172800	IN	NS	g5.nstld.com.
-fairwinds.		172800	IN	NS	h5.nstld.com.
-fairwinds.		172800	IN	NS	l5.nstld.com.
+fairwinds.		172800	IN	NS	ac1.nstld.com.
+fairwinds.		172800	IN	NS	ac2.nstld.com.
+fairwinds.		172800	IN	NS	ac3.nstld.com.
+fairwinds.		172800	IN	NS	ac4.nstld.com.
 fairwinds.		86400	IN	NSEC	faith. NS DS RRSIG NSEC
 faith.			172800	IN	NS	ns1.dns.nic.faith.
 faith.			172800	IN	NS	ns2.dns.nic.faith.
@@ -4894,13 +4867,10 @@ institute.		172800	IN	NS	demand.alpha.aridns.net.au.
 institute.		172800	IN	NS	demand.delta.aridns.net.au.
 institute.		172800	IN	NS	demand.gamma.aridns.net.au.
 institute.		86400	IN	NSEC	insurance. NS DS RRSIG NSEC
-insurance.		172800	IN	NS	a5.nstld.com.
-insurance.		172800	IN	NS	c5.nstld.com.
-insurance.		172800	IN	NS	d5.nstld.com.
-insurance.		172800	IN	NS	f5.nstld.com.
-insurance.		172800	IN	NS	g5.nstld.com.
-insurance.		172800	IN	NS	h5.nstld.com.
-insurance.		172800	IN	NS	l5.nstld.com.
+insurance.		172800	IN	NS	ac1.nstld.com.
+insurance.		172800	IN	NS	ac2.nstld.com.
+insurance.		172800	IN	NS	ac3.nstld.com.
+insurance.		172800	IN	NS	ac4.nstld.com.
 insurance.		86400	IN	NSEC	insure. NS DS RRSIG NSEC
 insure.			172800	IN	NS	demand.beta.aridns.net.au.
 insure.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5600,13 +5570,10 @@ land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
 land.			172800	IN	NS	demand.gamma.aridns.net.au.
 land.			86400	IN	NSEC	landrover. NS DS RRSIG NSEC
-landrover.		172800	IN	NS	a5.nstld.com.
-landrover.		172800	IN	NS	c5.nstld.com.
-landrover.		172800	IN	NS	d5.nstld.com.
-landrover.		172800	IN	NS	f5.nstld.com.
-landrover.		172800	IN	NS	g5.nstld.com.
-landrover.		172800	IN	NS	h5.nstld.com.
-landrover.		172800	IN	NS	l5.nstld.com.
+landrover.		172800	IN	NS	ac1.nstld.com.
+landrover.		172800	IN	NS	ac2.nstld.com.
+landrover.		172800	IN	NS	ac3.nstld.com.
+landrover.		172800	IN	NS	ac4.nstld.com.
 landrover.		86400	IN	NSEC	lanxess. NS DS RRSIG NSEC
 lanxess.		172800	IN	NS	ns1.dns.nic.lanxess.
 lanxess.		172800	IN	NS	ns2.dns.nic.lanxess.
@@ -5806,13 +5773,10 @@ ns5.dns.nic.lifeinsurance. 172800 IN	A	156.154.157.102
 ns5.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1075::66
 ns6.dns.nic.lifeinsurance. 172800 IN	A	156.154.158.102
 ns6.dns.nic.lifeinsurance. 172800 IN	AAAA	2610:a1:1076::66
-lifestyle.		172800	IN	NS	a5.nstld.com.
-lifestyle.		172800	IN	NS	c5.nstld.com.
-lifestyle.		172800	IN	NS	d5.nstld.com.
-lifestyle.		172800	IN	NS	f5.nstld.com.
-lifestyle.		172800	IN	NS	g5.nstld.com.
-lifestyle.		172800	IN	NS	h5.nstld.com.
-lifestyle.		172800	IN	NS	l5.nstld.com.
+lifestyle.		172800	IN	NS	ac1.nstld.com.
+lifestyle.		172800	IN	NS	ac2.nstld.com.
+lifestyle.		172800	IN	NS	ac3.nstld.com.
+lifestyle.		172800	IN	NS	ac4.nstld.com.
 lifestyle.		86400	IN	NSEC	lighting. NS DS RRSIG NSEC
 lighting.		172800	IN	NS	demand.beta.aridns.net.au.
 lighting.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -5867,13 +5831,10 @@ ns5.dns.nic.lincoln.	172800	IN	A	156.154.157.105
 ns5.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1075::69
 ns6.dns.nic.lincoln.	172800	IN	A	156.154.158.105
 ns6.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1076::69
-linde.			172800	IN	NS	a5.nstld.com.
-linde.			172800	IN	NS	c5.nstld.com.
-linde.			172800	IN	NS	d5.nstld.com.
-linde.			172800	IN	NS	f5.nstld.com.
-linde.			172800	IN	NS	g5.nstld.com.
-linde.			172800	IN	NS	h5.nstld.com.
-linde.			172800	IN	NS	l5.nstld.com.
+linde.			172800	IN	NS	ac1.nstld.com.
+linde.			172800	IN	NS	ac2.nstld.com.
+linde.			172800	IN	NS	ac3.nstld.com.
+linde.			172800	IN	NS	ac4.nstld.com.
 linde.			86400	IN	NSEC	link. NS DS RRSIG NSEC
 link.			172800	IN	NS	a.link.dyntld.net.
 link.			172800	IN	NS	b.link.dyntld.net.
@@ -5885,13 +5846,10 @@ live.			172800	IN	NS	demand.alpha.aridns.net.au.
 live.			172800	IN	NS	demand.delta.aridns.net.au.
 live.			172800	IN	NS	demand.gamma.aridns.net.au.
 live.			86400	IN	NSEC	living. NS DS RRSIG NSEC
-living.			172800	IN	NS	a5.nstld.com.
-living.			172800	IN	NS	c5.nstld.com.
-living.			172800	IN	NS	d5.nstld.com.
-living.			172800	IN	NS	f5.nstld.com.
-living.			172800	IN	NS	g5.nstld.com.
-living.			172800	IN	NS	h5.nstld.com.
-living.			172800	IN	NS	l5.nstld.com.
+living.			172800	IN	NS	ac1.nstld.com.
+living.			172800	IN	NS	ac2.nstld.com.
+living.			172800	IN	NS	ac3.nstld.com.
+living.			172800	IN	NS	ac4.nstld.com.
 living.			86400	IN	NSEC	lixil. NS DS RRSIG NSEC
 lixil.			172800	IN	NS	a.nic.lixil.
 lixil.			172800	IN	NS	b.nic.lixil.
@@ -6143,13 +6101,10 @@ maison.			172800	IN	NS	demand.alpha.aridns.net.au.
 maison.			172800	IN	NS	demand.delta.aridns.net.au.
 maison.			172800	IN	NS	demand.gamma.aridns.net.au.
 maison.			86400	IN	NSEC	makeup. NS DS RRSIG NSEC
-makeup.			172800	IN	NS	a5.nstld.com.
-makeup.			172800	IN	NS	c5.nstld.com.
-makeup.			172800	IN	NS	d5.nstld.com.
-makeup.			172800	IN	NS	f5.nstld.com.
-makeup.			172800	IN	NS	g5.nstld.com.
-makeup.			172800	IN	NS	h5.nstld.com.
-makeup.			172800	IN	NS	l5.nstld.com.
+makeup.			172800	IN	NS	ac1.nstld.com.
+makeup.			172800	IN	NS	ac2.nstld.com.
+makeup.			172800	IN	NS	ac3.nstld.com.
+makeup.			172800	IN	NS	ac4.nstld.com.
 makeup.			86400	IN	NSEC	man. NS DS RRSIG NSEC
 man.			172800	IN	NS	anycast9.irondns.net.
 man.			172800	IN	NS	anycast10.irondns.net.
@@ -6229,13 +6184,10 @@ me.			172800	IN	NS	ns2.nic.me.
 me.			86400	IN	NSEC	med. NS DS RRSIG NSEC
 ns.nic.me.		172800	IN	A	89.188.44.44
 ns2.nic.me.		172800	IN	A	89.188.44.88
-med.			172800	IN	NS	a5.nstld.com.
-med.			172800	IN	NS	c5.nstld.com.
-med.			172800	IN	NS	d5.nstld.com.
-med.			172800	IN	NS	f5.nstld.com.
-med.			172800	IN	NS	g5.nstld.com.
-med.			172800	IN	NS	h5.nstld.com.
-med.			172800	IN	NS	l5.nstld.com.
+med.			172800	IN	NS	ac1.nstld.com.
+med.			172800	IN	NS	ac2.nstld.com.
+med.			172800	IN	NS	ac3.nstld.com.
+med.			172800	IN	NS	ac4.nstld.com.
 med.			86400	IN	NSEC	media. NS DS RRSIG NSEC
 media.			172800	IN	NS	demand.beta.aridns.net.au.
 media.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -7652,13 +7604,10 @@ b0.nic.nokia.		172800	IN	A	65.22.149.17
 b0.nic.nokia.		172800	IN	AAAA	2a01:8840:93::17
 c0.nic.nokia.		172800	IN	A	65.22.150.17
 c0.nic.nokia.		172800	IN	AAAA	2a01:8840:94::17
-norton.			172800	IN	NS	a5.nstld.com.
-norton.			172800	IN	NS	c5.nstld.com.
-norton.			172800	IN	NS	d5.nstld.com.
-norton.			172800	IN	NS	f5.nstld.com.
-norton.			172800	IN	NS	g5.nstld.com.
-norton.			172800	IN	NS	h5.nstld.com.
-norton.			172800	IN	NS	l5.nstld.com.
+norton.			172800	IN	NS	ac1.nstld.com.
+norton.			172800	IN	NS	ac2.nstld.com.
+norton.			172800	IN	NS	ac3.nstld.com.
+norton.			172800	IN	NS	ac4.nstld.com.
 norton.			86400	IN	NSEC	nowruz. NS DS RRSIG NSEC
 nowruz.			172800	IN	NS	a.ns.nic.nowruz.
 nowruz.			172800	IN	NS	a.nowruz.dyntld.net.
@@ -8935,13 +8884,10 @@ reviews.		172800	IN	NS	demand.alpha.aridns.net.au.
 reviews.		172800	IN	NS	demand.delta.aridns.net.au.
 reviews.		172800	IN	NS	demand.gamma.aridns.net.au.
 reviews.		86400	IN	NSEC	rexroth. NS DS RRSIG NSEC
-rexroth.		172800	IN	NS	a5.nstld.com.
-rexroth.		172800	IN	NS	c5.nstld.com.
-rexroth.		172800	IN	NS	d5.nstld.com.
-rexroth.		172800	IN	NS	f5.nstld.com.
-rexroth.		172800	IN	NS	g5.nstld.com.
-rexroth.		172800	IN	NS	h5.nstld.com.
-rexroth.		172800	IN	NS	l5.nstld.com.
+rexroth.		172800	IN	NS	ac1.nstld.com.
+rexroth.		172800	IN	NS	ac2.nstld.com.
+rexroth.		172800	IN	NS	ac3.nstld.com.
+rexroth.		172800	IN	NS	ac4.nstld.com.
 rexroth.		86400	IN	NSEC	rich. NS DS RRSIG NSEC
 rich.			172800	IN	NS	a0.nic.rich.
 rich.			172800	IN	NS	a2.nic.rich.
@@ -9296,13 +9242,10 @@ sb.			172800	IN	NS	sns-pb.isc.org.
 sb.			86400	IN	NSEC	sbs. NS DS RRSIG NSEC
 pch.nic.sb.		172800	IN	A	204.61.216.31
 pch.nic.sb.		172800	IN	AAAA	2001:500:14:6031:ad::1
-sbs.			172800	IN	NS	a5.nstld.com.
-sbs.			172800	IN	NS	c5.nstld.com.
-sbs.			172800	IN	NS	d5.nstld.com.
-sbs.			172800	IN	NS	f5.nstld.com.
-sbs.			172800	IN	NS	g5.nstld.com.
-sbs.			172800	IN	NS	h5.nstld.com.
-sbs.			172800	IN	NS	l5.nstld.com.
+sbs.			172800	IN	NS	ac1.nstld.com.
+sbs.			172800	IN	NS	ac2.nstld.com.
+sbs.			172800	IN	NS	ac3.nstld.com.
+sbs.			172800	IN	NS	ac4.nstld.com.
 sbs.			86400	IN	NSEC	sc. NS DS RRSIG NSEC
 sc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 sc.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -9313,13 +9256,10 @@ sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 sc.			86400	IN	NSEC	sca. NS DS RRSIG NSEC
 ns1.nic.sc.		172800	IN	A	41.191.121.129
-sca.			172800	IN	NS	a5.nstld.com.
-sca.			172800	IN	NS	c5.nstld.com.
-sca.			172800	IN	NS	d5.nstld.com.
-sca.			172800	IN	NS	f5.nstld.com.
-sca.			172800	IN	NS	g5.nstld.com.
-sca.			172800	IN	NS	h5.nstld.com.
-sca.			172800	IN	NS	l5.nstld.com.
+sca.			172800	IN	NS	ac1.nstld.com.
+sca.			172800	IN	NS	ac2.nstld.com.
+sca.			172800	IN	NS	ac3.nstld.com.
+sca.			172800	IN	NS	ac4.nstld.com.
 sca.			86400	IN	NSEC	scb. NS DS RRSIG NSEC
 scb.			172800	IN	NS	a.nic.scb.
 scb.			172800	IN	NS	b.nic.scb.
@@ -9617,13 +9557,10 @@ sharp.			172800	IN	NS	b.gmoregistry.net.
 sharp.			172800	IN	NS	k.gmoregistry.net.
 sharp.			172800	IN	NS	l.gmoregistry.net.
 sharp.			86400	IN	NSEC	shell. NS DS RRSIG NSEC
-shell.			172800	IN	NS	a5.nstld.com.
-shell.			172800	IN	NS	c5.nstld.com.
-shell.			172800	IN	NS	d5.nstld.com.
-shell.			172800	IN	NS	f5.nstld.com.
-shell.			172800	IN	NS	g5.nstld.com.
-shell.			172800	IN	NS	h5.nstld.com.
-shell.			172800	IN	NS	l5.nstld.com.
+shell.			172800	IN	NS	ac1.nstld.com.
+shell.			172800	IN	NS	ac2.nstld.com.
+shell.			172800	IN	NS	ac3.nstld.com.
+shell.			172800	IN	NS	ac4.nstld.com.
 shell.			86400	IN	NSEC	shia. NS DS RRSIG NSEC
 shia.			172800	IN	NS	a.ns.nic.shia.
 shia.			172800	IN	NS	a.shia.dyntld.net.
@@ -9732,21 +9669,15 @@ ski.			172800	IN	NS	ns1b.ksregistry.net.
 ski.			172800	IN	NS	ns2a.ksregistry.com.
 ski.			172800	IN	NS	ns2b.ksregistry.com.
 ski.			86400	IN	NSEC	skin. NS DS RRSIG NSEC
-skin.			172800	IN	NS	a5.nstld.com.
-skin.			172800	IN	NS	c5.nstld.com.
-skin.			172800	IN	NS	d5.nstld.com.
-skin.			172800	IN	NS	f5.nstld.com.
-skin.			172800	IN	NS	g5.nstld.com.
-skin.			172800	IN	NS	h5.nstld.com.
-skin.			172800	IN	NS	l5.nstld.com.
+skin.			172800	IN	NS	ac1.nstld.com.
+skin.			172800	IN	NS	ac2.nstld.com.
+skin.			172800	IN	NS	ac3.nstld.com.
+skin.			172800	IN	NS	ac4.nstld.com.
 skin.			86400	IN	NSEC	sky. NS DS RRSIG NSEC
-sky.			172800	IN	NS	a5.nstld.com.
-sky.			172800	IN	NS	c5.nstld.com.
-sky.			172800	IN	NS	d5.nstld.com.
-sky.			172800	IN	NS	f5.nstld.com.
-sky.			172800	IN	NS	g5.nstld.com.
-sky.			172800	IN	NS	h5.nstld.com.
-sky.			172800	IN	NS	l5.nstld.com.
+sky.			172800	IN	NS	ac1.nstld.com.
+sky.			172800	IN	NS	ac2.nstld.com.
+sky.			172800	IN	NS	ac3.nstld.com.
+sky.			172800	IN	NS	ac4.nstld.com.
 sky.			86400	IN	NSEC	skype. NS DS RRSIG NSEC
 skype.			172800	IN	NS	ns1.dns.nic.skype.
 skype.			172800	IN	NS	ns2.dns.nic.skype.
@@ -10193,13 +10124,10 @@ c.nic.sydney.		172800	IN	A	37.209.196.10
 c.nic.sydney.		172800	IN	AAAA	2001:dcd:3::10
 d.nic.sydney.		172800	IN	A	37.209.198.10
 d.nic.sydney.		172800	IN	AAAA	2001:dcd:4::10
-symantec.		172800	IN	NS	a5.nstld.com.
-symantec.		172800	IN	NS	c5.nstld.com.
-symantec.		172800	IN	NS	d5.nstld.com.
-symantec.		172800	IN	NS	f5.nstld.com.
-symantec.		172800	IN	NS	g5.nstld.com.
-symantec.		172800	IN	NS	h5.nstld.com.
-symantec.		172800	IN	NS	l5.nstld.com.
+symantec.		172800	IN	NS	ac1.nstld.com.
+symantec.		172800	IN	NS	ac2.nstld.com.
+symantec.		172800	IN	NS	ac3.nstld.com.
+symantec.		172800	IN	NS	ac4.nstld.com.
 symantec.		86400	IN	NSEC	systems. NS DS RRSIG NSEC
 systems.		172800	IN	NS	demand.beta.aridns.net.au.
 systems.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -10465,13 +10393,10 @@ tienda.			172800	IN	NS	demand.alpha.aridns.net.au.
 tienda.			172800	IN	NS	demand.delta.aridns.net.au.
 tienda.			172800	IN	NS	demand.gamma.aridns.net.au.
 tienda.			86400	IN	NSEC	tiffany. NS DS RRSIG NSEC
-tiffany.		172800	IN	NS	a5.nstld.com.
-tiffany.		172800	IN	NS	c5.nstld.com.
-tiffany.		172800	IN	NS	d5.nstld.com.
-tiffany.		172800	IN	NS	f5.nstld.com.
-tiffany.		172800	IN	NS	g5.nstld.com.
-tiffany.		172800	IN	NS	h5.nstld.com.
-tiffany.		172800	IN	NS	l5.nstld.com.
+tiffany.		172800	IN	NS	ac1.nstld.com.
+tiffany.		172800	IN	NS	ac2.nstld.com.
+tiffany.		172800	IN	NS	ac3.nstld.com.
+tiffany.		172800	IN	NS	ac4.nstld.com.
 tiffany.		86400	IN	NSEC	tips. NS DS RRSIG NSEC
 tips.			172800	IN	NS	demand.beta.aridns.net.au.
 tips.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -11051,13 +10976,10 @@ vacations.		172800	IN	NS	demand.alpha.aridns.net.au.
 vacations.		172800	IN	NS	demand.delta.aridns.net.au.
 vacations.		172800	IN	NS	demand.gamma.aridns.net.au.
 vacations.		86400	IN	NSEC	vana. NS DS RRSIG NSEC
-vana.			172800	IN	NS	a5.nstld.com.
-vana.			172800	IN	NS	c5.nstld.com.
-vana.			172800	IN	NS	d5.nstld.com.
-vana.			172800	IN	NS	f5.nstld.com.
-vana.			172800	IN	NS	g5.nstld.com.
-vana.			172800	IN	NS	h5.nstld.com.
-vana.			172800	IN	NS	l5.nstld.com.
+vana.			172800	IN	NS	ac1.nstld.com.
+vana.			172800	IN	NS	ac2.nstld.com.
+vana.			172800	IN	NS	ac3.nstld.com.
+vana.			172800	IN	NS	ac4.nstld.com.
 vana.			86400	IN	NSEC	vc. NS DS RRSIG NSEC
 vc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 vc.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -11470,13 +11392,10 @@ ns5.dns.nic.webcam.	172800	IN	A	156.154.173.60
 ns5.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1075::1:3c
 ns6.dns.nic.webcam.	172800	IN	A	156.154.174.60
 ns6.dns.nic.webcam.	172800	IN	AAAA	2610:a1:1076::1:3c
-weber.			172800	IN	NS	a5.nstld.com.
-weber.			172800	IN	NS	c5.nstld.com.
-weber.			172800	IN	NS	d5.nstld.com.
-weber.			172800	IN	NS	f5.nstld.com.
-weber.			172800	IN	NS	g5.nstld.com.
-weber.			172800	IN	NS	h5.nstld.com.
-weber.			172800	IN	NS	l5.nstld.com.
+weber.			172800	IN	NS	ac1.nstld.com.
+weber.			172800	IN	NS	ac2.nstld.com.
+weber.			172800	IN	NS	ac3.nstld.com.
+weber.			172800	IN	NS	ac4.nstld.com.
 weber.			86400	IN	NSEC	website. NS DS RRSIG NSEC
 website.		172800	IN	NS	a.nic.website.
 website.		172800	IN	NS	b.nic.website.
@@ -11693,13 +11612,10 @@ xbox.			172800	IN	NS	g5.nstld.com.
 xbox.			172800	IN	NS	h5.nstld.com.
 xbox.			172800	IN	NS	l5.nstld.com.
 xbox.			86400	IN	NSEC	xerox. NS DS RRSIG NSEC
-xerox.			172800	IN	NS	a5.nstld.com.
-xerox.			172800	IN	NS	c5.nstld.com.
-xerox.			172800	IN	NS	d5.nstld.com.
-xerox.			172800	IN	NS	f5.nstld.com.
-xerox.			172800	IN	NS	g5.nstld.com.
-xerox.			172800	IN	NS	h5.nstld.com.
-xerox.			172800	IN	NS	l5.nstld.com.
+xerox.			172800	IN	NS	ac1.nstld.com.
+xerox.			172800	IN	NS	ac2.nstld.com.
+xerox.			172800	IN	NS	ac3.nstld.com.
+xerox.			172800	IN	NS	ac4.nstld.com.
 xerox.			86400	IN	NSEC	xin. NS DS RRSIG NSEC
 xin.			172800	IN	NS	a0.nic.xin.
 xin.			172800	IN	NS	a2.nic.xin.
@@ -11944,7 +11860,7 @@ xn--b4w605ferd.		172800	IN	NS	a0.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	a2.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	b0.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	c0.nic.xn--b4w605ferd.
-xn--b4w605ferd.		86400	IN	NSEC	xn--c1avg. NS DS RRSIG NSEC
+xn--b4w605ferd.		86400	IN	NSEC	xn--bck1b9a5dre4c. NS DS RRSIG NSEC
 a0.nic.xn--b4w605ferd.	172800	IN	A	65.22.140.1
 a0.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8a::1
 a2.nic.xn--b4w605ferd.	172800	IN	A	65.22.143.1
@@ -11953,6 +11869,25 @@ b0.nic.xn--b4w605ferd.	172800	IN	A	65.22.141.1
 b0.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8b::1
 c0.nic.xn--b4w605ferd.	172800	IN	A	65.22.142.1
 c0.nic.xn--b4w605ferd.	172800	IN	AAAA	2a01:8840:8c::1
+xn--bck1b9a5dre4c.	172800	IN	NS	ns1.dns.nic.xn--bck1b9a5dre4c.
+xn--bck1b9a5dre4c.	172800	IN	NS	ns2.dns.nic.xn--bck1b9a5dre4c.
+xn--bck1b9a5dre4c.	172800	IN	NS	ns3.dns.nic.xn--bck1b9a5dre4c.
+xn--bck1b9a5dre4c.	172800	IN	NS	ns4.dns.nic.xn--bck1b9a5dre4c.
+xn--bck1b9a5dre4c.	172800	IN	NS	ns5.dns.nic.xn--bck1b9a5dre4c.
+xn--bck1b9a5dre4c.	172800	IN	NS	ns6.dns.nic.xn--bck1b9a5dre4c.
+xn--bck1b9a5dre4c.	86400	IN	NSEC	xn--c1avg. NS DS RRSIG NSEC
+ns1.dns.nic.xn--bck1b9a5dre4c. 172800 IN A	156.154.144.194
+ns1.dns.nic.xn--bck1b9a5dre4c. 172800 IN AAAA	2610:a1:1071::c2
+ns2.dns.nic.xn--bck1b9a5dre4c. 172800 IN A	156.154.145.194
+ns2.dns.nic.xn--bck1b9a5dre4c. 172800 IN AAAA	2610:a1:1072::c2
+ns3.dns.nic.xn--bck1b9a5dre4c. 172800 IN A	156.154.159.194
+ns3.dns.nic.xn--bck1b9a5dre4c. 172800 IN AAAA	2610:a1:1073::c2
+ns4.dns.nic.xn--bck1b9a5dre4c. 172800 IN A	156.154.156.194
+ns4.dns.nic.xn--bck1b9a5dre4c. 172800 IN AAAA	2610:a1:1074::c2
+ns5.dns.nic.xn--bck1b9a5dre4c. 172800 IN A	156.154.157.194
+ns5.dns.nic.xn--bck1b9a5dre4c. 172800 IN AAAA	2610:a1:1075::c2
+ns6.dns.nic.xn--bck1b9a5dre4c. 172800 IN A	156.154.158.194
+ns6.dns.nic.xn--bck1b9a5dre4c. 172800 IN AAAA	2610:a1:1076::c2
 xn--c1avg.		172800	IN	NS	a0.nic.xn--c1avg.
 xn--c1avg.		172800	IN	NS	a2.nic.xn--c1avg.
 xn--c1avg.		172800	IN	NS	b0.nic.xn--c1avg.
@@ -12804,13 +12739,10 @@ xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns4.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns5.conac.cn.
 xn--zfr164b.		86400	IN	NSEC	xperia. NS DS RRSIG NSEC
-xperia.			172800	IN	NS	a5.nstld.com.
-xperia.			172800	IN	NS	c5.nstld.com.
-xperia.			172800	IN	NS	d5.nstld.com.
-xperia.			172800	IN	NS	f5.nstld.com.
-xperia.			172800	IN	NS	g5.nstld.com.
-xperia.			172800	IN	NS	h5.nstld.com.
-xperia.			172800	IN	NS	l5.nstld.com.
+xperia.			172800	IN	NS	ac1.nstld.com.
+xperia.			172800	IN	NS	ac2.nstld.com.
+xperia.			172800	IN	NS	ac3.nstld.com.
+xperia.			172800	IN	NS	ac4.nstld.com.
 xperia.			86400	IN	NSEC	xxx. NS DS RRSIG NSEC
 xxx.			172800	IN	NS	a0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	a2.xxx.afilias-nst.info.
