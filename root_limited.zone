@@ -9986,7 +9986,7 @@ storage.		172800	IN	NS	a0.nic.storage.
 storage.		172800	IN	NS	a2.nic.storage.
 storage.		172800	IN	NS	b0.nic.storage.
 storage.		172800	IN	NS	c0.nic.storage.
-storage.		86400	IN	NSEC	studio. NS DS RRSIG NSEC
+storage.		86400	IN	NSEC	store. NS DS RRSIG NSEC
 a0.nic.storage.		172800	IN	A	65.22.116.9
 a0.nic.storage.		172800	IN	AAAA	2a01:8840:72::9
 a2.nic.storage.		172800	IN	A	65.22.119.9
@@ -9995,6 +9995,19 @@ b0.nic.storage.		172800	IN	A	65.22.117.9
 b0.nic.storage.		172800	IN	AAAA	2a01:8840:73::9
 c0.nic.storage.		172800	IN	A	65.22.118.9
 c0.nic.storage.		172800	IN	AAAA	2a01:8840:74::9
+store.			172800	IN	NS	a.nic.store.
+store.			172800	IN	NS	b.nic.store.
+store.			172800	IN	NS	c.nic.store.
+store.			172800	IN	NS	d.nic.store.
+store.			86400	IN	NSEC	studio. NS DS RRSIG NSEC
+a.nic.store.		172800	IN	A	194.169.218.45
+a.nic.store.		172800	IN	AAAA	2001:67c:13cc::1:45
+b.nic.store.		172800	IN	A	185.24.64.45
+b.nic.store.		172800	IN	AAAA	2a04:2b00:13cc::1:45
+c.nic.store.		172800	IN	A	194.0.2.2
+c.nic.store.		172800	IN	AAAA	2001:678:5::2
+d.nic.store.		172800	IN	A	194.0.1.45
+d.nic.store.		172800	IN	AAAA	2001:678:4::2d
 studio.			172800	IN	NS	demand.beta.aridns.net.au.
 studio.			172800	IN	NS	demand.alpha.aridns.net.au.
 studio.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -10443,15 +10456,26 @@ tl.			172800	IN	NS	ns.anycast.nic.tl.
 tl.			86400	IN	NSEC	tm. NS DS RRSIG NSEC
 ns.anycast.nic.tl.	172800	IN	A	204.61.216.19
 ns.anycast.nic.tl.	172800	IN	AAAA	2001:500:14:6019:ad::1
-tm.			172800	IN	NS	a.nic.tm.
-tm.			172800	IN	NS	a.ns13.net.
-tm.			172800	IN	NS	b.nic.ac.
-tm.			172800	IN	NS	b.nic.io.
-tm.			172800	IN	NS	b.ns13.net.
-tm.			172800	IN	NS	ns1.communitydns.net.
-tm.			172800	IN	NS	ns3.icb.co.uk.
+tm.			172800	IN	NS	ns-a1.tm.
+tm.			172800	IN	NS	ns-a2.tm.
+tm.			172800	IN	NS	ns-a3.tm.
+tm.			172800	IN	NS	ns-a4.tm.
+tm.			172800	IN	NS	ns-d1.tm.
+tm.			172800	IN	NS	ns-l1.tm.
+tm.			172800	IN	NS	ns-y1.tm.
 tm.			86400	IN	NSEC	tmall. NS DS RRSIG NSEC
-a.nic.tm.		172800	IN	A	64.251.31.180
+ns-a1.tm.		172800	IN	A	194.0.1.22
+ns-a1.tm.		172800	IN	AAAA	2001:678:4::16
+ns-a2.tm.		172800	IN	A	194.0.2.22
+ns-a2.tm.		172800	IN	AAAA	2001:678:5::16
+ns-a3.tm.		172800	IN	A	74.116.178.22
+ns-a4.tm.		172800	IN	A	74.116.179.22
+ns-d1.tm.		172800	IN	A	64.251.31.180
+ns-d1.tm.		172800	IN	AAAA	2607:feb8::5:8
+ns-l1.tm.		172800	IN	A	80.249.100.44
+ns-l1.tm.		172800	IN	AAAA	2001:470:1f1d:244::44
+ns-y1.tm.		172800	IN	A	91.208.95.22
+ns-y1.tm.		172800	IN	AAAA	2001:470:1f07:d0b::22
 tmall.			172800	IN	NS	ns1.dns.nic.tmall.
 tmall.			172800	IN	NS	ns2.dns.nic.tmall.
 tmall.			172800	IN	NS	ns3.dns.nic.tmall.
@@ -11067,7 +11091,20 @@ video.			172800	IN	NS	demand.beta.aridns.net.au.
 video.			172800	IN	NS	demand.alpha.aridns.net.au.
 video.			172800	IN	NS	demand.delta.aridns.net.au.
 video.			172800	IN	NS	demand.gamma.aridns.net.au.
-video.			86400	IN	NSEC	villas. NS DS RRSIG NSEC
+video.			86400	IN	NSEC	viking. NS DS RRSIG NSEC
+viking.			172800	IN	NS	a0.nic.viking.
+viking.			172800	IN	NS	a2.nic.viking.
+viking.			172800	IN	NS	b0.nic.viking.
+viking.			172800	IN	NS	c0.nic.viking.
+viking.			86400	IN	NSEC	villas. NS DS RRSIG NSEC
+a0.nic.viking.		172800	IN	A	65.22.192.17
+a0.nic.viking.		172800	IN	AAAA	2a01:8840:ba::17
+a2.nic.viking.		172800	IN	A	65.22.195.17
+a2.nic.viking.		172800	IN	AAAA	2a01:8840:bd::17
+b0.nic.viking.		172800	IN	A	65.22.193.17
+b0.nic.viking.		172800	IN	AAAA	2a01:8840:bb::17
+c0.nic.viking.		172800	IN	A	65.22.194.17
+c0.nic.viking.		172800	IN	AAAA	2a01:8840:bc::17
 villas.			172800	IN	NS	demand.beta.aridns.net.au.
 villas.			172800	IN	NS	demand.alpha.aridns.net.au.
 villas.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -12219,7 +12256,7 @@ xn--jlq61u9w7b.		172800	IN	NS	a0.nic.xn--jlq61u9w7b.
 xn--jlq61u9w7b.		172800	IN	NS	a2.nic.xn--jlq61u9w7b.
 xn--jlq61u9w7b.		172800	IN	NS	b0.nic.xn--jlq61u9w7b.
 xn--jlq61u9w7b.		172800	IN	NS	c0.nic.xn--jlq61u9w7b.
-xn--jlq61u9w7b.		86400	IN	NSEC	xn--kcrx77d1x4a. NS DS RRSIG NSEC
+xn--jlq61u9w7b.		86400	IN	NSEC	xn--jvr189m. NS DS RRSIG NSEC
 a0.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.244.1
 a0.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:ee::1
 a2.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.247.1
@@ -12228,6 +12265,25 @@ b0.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.245.1
 b0.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:ef::1
 c0.nic.xn--jlq61u9w7b.	172800	IN	A	65.22.246.1
 c0.nic.xn--jlq61u9w7b.	172800	IN	AAAA	2a01:8840:f0::1
+xn--jvr189m.		172800	IN	NS	ns1.dns.nic.xn--jvr189m.
+xn--jvr189m.		172800	IN	NS	ns2.dns.nic.xn--jvr189m.
+xn--jvr189m.		172800	IN	NS	ns3.dns.nic.xn--jvr189m.
+xn--jvr189m.		172800	IN	NS	ns4.dns.nic.xn--jvr189m.
+xn--jvr189m.		172800	IN	NS	ns5.dns.nic.xn--jvr189m.
+xn--jvr189m.		172800	IN	NS	ns6.dns.nic.xn--jvr189m.
+xn--jvr189m.		86400	IN	NSEC	xn--kcrx77d1x4a. NS DS RRSIG NSEC
+ns1.dns.nic.xn--jvr189m. 172800	IN	A	156.154.169.72
+ns1.dns.nic.xn--jvr189m. 172800	IN	AAAA	2610:a1:1071::1:48
+ns2.dns.nic.xn--jvr189m. 172800	IN	A	156.154.170.72
+ns2.dns.nic.xn--jvr189m. 172800	IN	AAAA	2610:a1:1072::1:48
+ns3.dns.nic.xn--jvr189m. 172800	IN	A	156.154.171.72
+ns3.dns.nic.xn--jvr189m. 172800	IN	AAAA	2610:a1:1073::1:48
+ns4.dns.nic.xn--jvr189m. 172800	IN	A	156.154.172.72
+ns4.dns.nic.xn--jvr189m. 172800	IN	AAAA	2610:a1:1074::1:48
+ns5.dns.nic.xn--jvr189m. 172800	IN	A	156.154.173.72
+ns5.dns.nic.xn--jvr189m. 172800	IN	AAAA	2610:a1:1075::1:48
+ns6.dns.nic.xn--jvr189m. 172800	IN	A	156.154.174.72
+ns6.dns.nic.xn--jvr189m. 172800	IN	AAAA	2610:a1:1076::1:48
 xn--kcrx77d1x4a.	172800	IN	NS	a.nic.xn--kcrx77d1x4a.
 xn--kcrx77d1x4a.	172800	IN	NS	b.nic.xn--kcrx77d1x4a.
 xn--kcrx77d1x4a.	172800	IN	NS	c.nic.xn--kcrx77d1x4a.
