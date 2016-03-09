@@ -283,13 +283,10 @@ airforce.		172800	IN	NS	demand.alpha.aridns.net.au.
 airforce.		172800	IN	NS	demand.delta.aridns.net.au.
 airforce.		172800	IN	NS	demand.gamma.aridns.net.au.
 airforce.		86400	IN	NSEC	airtel. NS DS RRSIG NSEC
-airtel.			172800	IN	NS	a5.nstld.com.
-airtel.			172800	IN	NS	c5.nstld.com.
-airtel.			172800	IN	NS	d5.nstld.com.
-airtel.			172800	IN	NS	f5.nstld.com.
-airtel.			172800	IN	NS	g5.nstld.com.
-airtel.			172800	IN	NS	h5.nstld.com.
-airtel.			172800	IN	NS	l5.nstld.com.
+airtel.			172800	IN	NS	ac1.nstld.com.
+airtel.			172800	IN	NS	ac2.nstld.com.
+airtel.			172800	IN	NS	ac3.nstld.com.
+airtel.			172800	IN	NS	ac4.nstld.com.
 airtel.			86400	IN	NSEC	al. NS DS RRSIG NSEC
 al.			172800	IN	NS	al.cctld.authdns.ripe.net.
 al.			172800	IN	NS	ns1.nic.al.
@@ -983,13 +980,10 @@ ns.batelco.com.bh.	172800	IN	A	193.188.97.197
 ns2.batelco.com.bh.	172800	IN	A	193.188.97.212
 ns3.batelco.com.bh.	172800	IN	A	193.188.97.193
 ns4.batelco.com.bh.	172800	IN	A	193.188.97.209
-bharti.			172800	IN	NS	a5.nstld.com.
-bharti.			172800	IN	NS	c5.nstld.com.
-bharti.			172800	IN	NS	d5.nstld.com.
-bharti.			172800	IN	NS	f5.nstld.com.
-bharti.			172800	IN	NS	g5.nstld.com.
-bharti.			172800	IN	NS	h5.nstld.com.
-bharti.			172800	IN	NS	l5.nstld.com.
+bharti.			172800	IN	NS	ac1.nstld.com.
+bharti.			172800	IN	NS	ac2.nstld.com.
+bharti.			172800	IN	NS	ac3.nstld.com.
+bharti.			172800	IN	NS	ac4.nstld.com.
 bharti.			86400	IN	NSEC	bi. NS DS RRSIG NSEC
 bi.			172800	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			172800	IN	NS	ns.nic.bi.
@@ -2535,13 +2529,10 @@ cruises.		172800	IN	NS	demand.alpha.aridns.net.au.
 cruises.		172800	IN	NS	demand.delta.aridns.net.au.
 cruises.		172800	IN	NS	demand.gamma.aridns.net.au.
 cruises.		86400	IN	NSEC	csc. NS DS RRSIG NSEC
-csc.			172800	IN	NS	a5.nstld.com.
-csc.			172800	IN	NS	c5.nstld.com.
-csc.			172800	IN	NS	d5.nstld.com.
-csc.			172800	IN	NS	f5.nstld.com.
-csc.			172800	IN	NS	g5.nstld.com.
-csc.			172800	IN	NS	h5.nstld.com.
-csc.			172800	IN	NS	l5.nstld.com.
+csc.			172800	IN	NS	ac1.nstld.com.
+csc.			172800	IN	NS	ac2.nstld.com.
+csc.			172800	IN	NS	ac3.nstld.com.
+csc.			172800	IN	NS	ac4.nstld.com.
 csc.			86400	IN	NSEC	cu. NS DS RRSIG NSEC
 cu.			172800	IN	NS	cu.cctld.authdns.ripe.net.
 cu.			172800	IN	NS	ns.dns.br.
@@ -10562,7 +10553,11 @@ toshiba.		172800	IN	NS	a.gmoregistry.net.
 toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	k.gmoregistry.net.
 toshiba.		172800	IN	NS	l.gmoregistry.net.
-toshiba.		86400	IN	NSEC	tours. NS DS RRSIG NSEC
+toshiba.		86400	IN	NSEC	total. NS DS RRSIG NSEC
+total.			172800	IN	NS	d.nic.fr.
+total.			172800	IN	NS	f.ext.nic.fr.
+total.			172800	IN	NS	g.ext.nic.fr.
+total.			86400	IN	NSEC	tours. NS DS RRSIG NSEC
 tours.			172800	IN	NS	demand.beta.aridns.net.au.
 tours.			172800	IN	NS	demand.alpha.aridns.net.au.
 tours.			172800	IN	NS	demand.delta.aridns.net.au.
