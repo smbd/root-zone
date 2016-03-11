@@ -10033,10 +10033,10 @@ a.nic.store.		172800	IN	A	194.169.218.45
 a.nic.store.		172800	IN	AAAA	2001:67c:13cc::1:45
 b.nic.store.		172800	IN	A	185.24.64.45
 b.nic.store.		172800	IN	AAAA	2a04:2b00:13cc::1:45
-c.nic.store.		172800	IN	A	194.0.2.2
-c.nic.store.		172800	IN	AAAA	2001:678:5::2
-d.nic.store.		172800	IN	A	194.0.1.45
-d.nic.store.		172800	IN	AAAA	2001:678:4::2d
+c.nic.store.		172800	IN	A	185.38.99.8
+c.nic.store.		172800	IN	AAAA	2a02:e180:3::8
+d.nic.store.		172800	IN	A	108.59.161.8
+d.nic.store.		172800	IN	AAAA	2a02:e180:4::8
 studio.			172800	IN	NS	demand.beta.aridns.net.au.
 studio.			172800	IN	NS	demand.alpha.aridns.net.au.
 studio.			172800	IN	NS	demand.delta.aridns.net.au.
