@@ -10815,13 +10815,10 @@ ns5.dns.nic.tushu.	172800	IN	A	156.154.157.169
 ns5.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1075::a9
 ns6.dns.nic.tushu.	172800	IN	A	156.154.158.169
 ns6.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1076::a9
-tv.			172800	IN	NS	a5.nstld.com.
-tv.			172800	IN	NS	c5.nstld.com.
-tv.			172800	IN	NS	d5.nstld.com.
-tv.			172800	IN	NS	f5.nstld.com.
-tv.			172800	IN	NS	g5.nstld.com.
-tv.			172800	IN	NS	h5.nstld.com.
-tv.			172800	IN	NS	l5.nstld.com.
+tv.			172800	IN	NS	ac1.nstld.com.
+tv.			172800	IN	NS	ac2.nstld.com.
+tv.			172800	IN	NS	ac3.nstld.com.
+tv.			172800	IN	NS	ac4.nstld.com.
 tv.			86400	IN	NSEC	tvs. NS DS RRSIG NSEC
 tvs.			172800	IN	NS	a0.nic.tvs.
 tvs.			172800	IN	NS	a2.nic.tvs.
