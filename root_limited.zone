@@ -6307,7 +6307,7 @@ mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
 mg.			172800	IN	NS	censvrns0001.ird.fr.
-mg.			86400	IN	NSEC	mh. NS RRSIG NSEC
+mg.			86400	IN	NSEC	mh. NS DS RRSIG NSEC
 ns.dts.mg.		172800	IN	A	196.192.32.2
 ns.nic.mg.		172800	IN	A	196.192.42.153
 mh.			172800	IN	NS	ns.ntamar.net.
@@ -10028,7 +10028,7 @@ store.			172800	IN	NS	a.nic.store.
 store.			172800	IN	NS	b.nic.store.
 store.			172800	IN	NS	c.nic.store.
 store.			172800	IN	NS	d.nic.store.
-store.			86400	IN	NSEC	studio. NS DS RRSIG NSEC
+store.			86400	IN	NSEC	stream. NS DS RRSIG NSEC
 a.nic.store.		172800	IN	A	194.169.218.45
 a.nic.store.		172800	IN	AAAA	2001:67c:13cc::1:45
 b.nic.store.		172800	IN	A	185.24.64.45
@@ -10037,6 +10037,25 @@ c.nic.store.		172800	IN	A	185.38.99.8
 c.nic.store.		172800	IN	AAAA	2a02:e180:3::8
 d.nic.store.		172800	IN	A	108.59.161.8
 d.nic.store.		172800	IN	AAAA	2a02:e180:4::8
+stream.			172800	IN	NS	ns1.dns.nic.stream.
+stream.			172800	IN	NS	ns2.dns.nic.stream.
+stream.			172800	IN	NS	ns3.dns.nic.stream.
+stream.			172800	IN	NS	ns4.dns.nic.stream.
+stream.			172800	IN	NS	ns5.dns.nic.stream.
+stream.			172800	IN	NS	ns6.dns.nic.stream.
+stream.			86400	IN	NSEC	studio. NS DS RRSIG NSEC
+ns1.dns.nic.stream.	172800	IN	A	156.154.169.50
+ns1.dns.nic.stream.	172800	IN	AAAA	2610:a1:1071::1:32
+ns2.dns.nic.stream.	172800	IN	A	156.154.170.50
+ns2.dns.nic.stream.	172800	IN	AAAA	2610:a1:1072::1:32
+ns3.dns.nic.stream.	172800	IN	A	156.154.171.50
+ns3.dns.nic.stream.	172800	IN	AAAA	2610:a1:1073::1:32
+ns4.dns.nic.stream.	172800	IN	A	156.154.172.50
+ns4.dns.nic.stream.	172800	IN	AAAA	2610:a1:1074::1:32
+ns5.dns.nic.stream.	172800	IN	A	156.154.173.50
+ns5.dns.nic.stream.	172800	IN	AAAA	2610:a1:1075::1:32
+ns6.dns.nic.stream.	172800	IN	A	156.154.174.50
+ns6.dns.nic.stream.	172800	IN	AAAA	2610:a1:1076::1:32
 studio.			172800	IN	NS	demand.beta.aridns.net.au.
 studio.			172800	IN	NS	demand.alpha.aridns.net.au.
 studio.			172800	IN	NS	demand.delta.aridns.net.au.
