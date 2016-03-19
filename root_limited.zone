@@ -7498,6 +7498,7 @@ ng.			172800	IN	NS	ns1.nic.net.ng.
 ng.			172800	IN	NS	ns2.nic.net.ng.
 ng.			172800	IN	NS	ns3.nic.net.ng.
 ng.			172800	IN	NS	ns4.nic.net.ng.
+ng.			172800	IN	NS	ns5.nic.net.ng.
 ng.			172800	IN	NS	nsa.nic.net.ng.
 ng.			86400	IN	NSEC	ngo. NS RRSIG NSEC
 ns1.nic.net.ng.		172800	IN	A	194.0.1.29
@@ -7505,6 +7506,8 @@ ns1.nic.net.ng.		172800	IN	AAAA	2001:678:4::1d
 ns2.nic.net.ng.		172800	IN	A	204.61.216.40
 ns3.nic.net.ng.		172800	IN	A	208.78.70.93
 ns4.nic.net.ng.		172800	IN	A	204.13.250.93
+ns5.nic.net.ng.		172800	IN	A	196.216.168.41
+ns5.nic.net.ng.		172800	IN	AAAA	2001:43f8:120::41
 nsa.nic.net.ng.		172800	IN	A	41.222.79.3
 ngo.			172800	IN	NS	a0.nic.ngo.
 ngo.			172800	IN	NS	a2.nic.ngo.
