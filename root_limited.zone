@@ -3820,7 +3820,12 @@ gallery.		172800	IN	NS	demand.beta.aridns.net.au.
 gallery.		172800	IN	NS	demand.alpha.aridns.net.au.
 gallery.		172800	IN	NS	demand.delta.aridns.net.au.
 gallery.		172800	IN	NS	demand.gamma.aridns.net.au.
-gallery.		86400	IN	NSEC	gallup. NS DS RRSIG NSEC
+gallery.		86400	IN	NSEC	gallo. NS DS RRSIG NSEC
+gallo.			172800	IN	NS	ac1.nstld.com.
+gallo.			172800	IN	NS	ac2.nstld.com.
+gallo.			172800	IN	NS	ac3.nstld.com.
+gallo.			172800	IN	NS	ac4.nstld.com.
+gallo.			86400	IN	NSEC	gallup. NS DS RRSIG NSEC
 gallup.			172800	IN	NS	a0.nic.gallup.
 gallup.			172800	IN	NS	a2.nic.gallup.
 gallup.			172800	IN	NS	b0.nic.gallup.
@@ -9578,7 +9583,20 @@ sharp.			172800	IN	NS	a.gmoregistry.net.
 sharp.			172800	IN	NS	b.gmoregistry.net.
 sharp.			172800	IN	NS	k.gmoregistry.net.
 sharp.			172800	IN	NS	l.gmoregistry.net.
-sharp.			86400	IN	NSEC	shell. NS DS RRSIG NSEC
+sharp.			86400	IN	NSEC	shaw. NS DS RRSIG NSEC
+shaw.			172800	IN	NS	a0.nic.shaw.
+shaw.			172800	IN	NS	a2.nic.shaw.
+shaw.			172800	IN	NS	b0.nic.shaw.
+shaw.			172800	IN	NS	c0.nic.shaw.
+shaw.			86400	IN	NSEC	shell. NS DS RRSIG NSEC
+a0.nic.shaw.		172800	IN	A	65.22.88.17
+a0.nic.shaw.		172800	IN	AAAA	2a01:8840:56::17
+a2.nic.shaw.		172800	IN	A	65.22.91.17
+a2.nic.shaw.		172800	IN	AAAA	2a01:8840:59::17
+b0.nic.shaw.		172800	IN	A	65.22.89.17
+b0.nic.shaw.		172800	IN	AAAA	2a01:8840:57::17
+c0.nic.shaw.		172800	IN	A	65.22.90.17
+c0.nic.shaw.		172800	IN	AAAA	2a01:8840:58::17
 shell.			172800	IN	NS	ac1.nstld.com.
 shell.			172800	IN	NS	ac2.nstld.com.
 shell.			172800	IN	NS	ac3.nstld.com.
