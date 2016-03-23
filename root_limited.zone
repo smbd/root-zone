@@ -6093,7 +6093,6 @@ lv.			172800	IN	NS	a.nic.lv.
 lv.			172800	IN	NS	b.nic.lv.
 lv.			172800	IN	NS	c.nic.lv.
 lv.			172800	IN	NS	d.nic.lv.
-lv.			172800	IN	NS	lv.cctld.authdns.ripe.net.
 lv.			172800	IN	NS	sunic.sunet.se.
 lv.			86400	IN	NSEC	ly. NS DS RRSIG NSEC
 a.nic.lv.		172800	IN	A	194.0.48.1
@@ -7326,8 +7325,6 @@ kg.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.84
 kg.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::84
 kz.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.87
 kz.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::87
-lv.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.89
-lv.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::89
 ly.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.90
 ly.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::90
 ma.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.91
