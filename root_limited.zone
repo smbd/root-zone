@@ -7410,7 +7410,7 @@ j.root-servers.net.	518400	IN	AAAA	2001:503:c27::2:30
 k.root-servers.net.	518400	IN	A	193.0.14.129
 k.root-servers.net.	518400	IN	AAAA	2001:7fd::1
 l.root-servers.net.	518400	IN	A	199.7.83.42
-l.root-servers.net.	518400	IN	AAAA	2001:500:3::42
+l.root-servers.net.	518400	IN	AAAA	2001:500:9f::42
 m.root-servers.net.	518400	IN	A	202.12.27.33
 m.root-servers.net.	518400	IN	AAAA	2001:dc3::35
 igubu.saix.net.		172800	IN	A	196.25.1.1
