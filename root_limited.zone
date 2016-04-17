@@ -3921,7 +3921,7 @@ frontier.		172800	IN	NS	ns3.dns.nic.frontier.
 frontier.		172800	IN	NS	ns4.dns.nic.frontier.
 frontier.		172800	IN	NS	ns5.dns.nic.frontier.
 frontier.		172800	IN	NS	ns6.dns.nic.frontier.
-frontier.		86400	IN	NSEC	fund. NS DS RRSIG NSEC
+frontier.		86400	IN	NSEC	ftr. NS DS RRSIG NSEC
 ns1.dns.nic.frontier.	172800	IN	A	156.154.144.64
 ns1.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1071::40
 ns2.dns.nic.frontier.	172800	IN	A	156.154.145.64
@@ -3934,6 +3934,25 @@ ns5.dns.nic.frontier.	172800	IN	A	156.154.157.64
 ns5.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1075::40
 ns6.dns.nic.frontier.	172800	IN	A	156.154.158.64
 ns6.dns.nic.frontier.	172800	IN	AAAA	2610:a1:1076::40
+ftr.			172800	IN	NS	ns1.dns.nic.ftr.
+ftr.			172800	IN	NS	ns2.dns.nic.ftr.
+ftr.			172800	IN	NS	ns3.dns.nic.ftr.
+ftr.			172800	IN	NS	ns4.dns.nic.ftr.
+ftr.			172800	IN	NS	ns5.dns.nic.ftr.
+ftr.			172800	IN	NS	ns6.dns.nic.ftr.
+ftr.			86400	IN	NSEC	fund. NS DS RRSIG NSEC
+ns1.dns.nic.ftr.	172800	IN	A	156.154.144.65
+ns1.dns.nic.ftr.	172800	IN	AAAA	2610:a1:1071::41
+ns2.dns.nic.ftr.	172800	IN	A	156.154.145.65
+ns2.dns.nic.ftr.	172800	IN	AAAA	2610:a1:1072::41
+ns3.dns.nic.ftr.	172800	IN	A	156.154.159.65
+ns3.dns.nic.ftr.	172800	IN	AAAA	2610:a1:1073::41
+ns4.dns.nic.ftr.	172800	IN	A	156.154.156.65
+ns4.dns.nic.ftr.	172800	IN	AAAA	2610:a1:1074::41
+ns5.dns.nic.ftr.	172800	IN	A	156.154.157.65
+ns5.dns.nic.ftr.	172800	IN	AAAA	2610:a1:1075::41
+ns6.dns.nic.ftr.	172800	IN	A	156.154.158.65
+ns6.dns.nic.ftr.	172800	IN	AAAA	2610:a1:1076::41
 fund.			172800	IN	NS	demand.beta.aridns.net.au.
 fund.			172800	IN	NS	demand.alpha.aridns.net.au.
 fund.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -12344,7 +12363,20 @@ xn--55qx5d.		172800	IN	NS	b.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	c.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	d.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	e.ngtld.cn.
-xn--55qx5d.		86400	IN	NSEC	xn--6frz82g. NS DS RRSIG NSEC
+xn--55qx5d.		86400	IN	NSEC	xn--5tzm5g. NS DS RRSIG NSEC
+xn--5tzm5g.		172800	IN	NS	a0.nic.xn--5tzm5g.
+xn--5tzm5g.		172800	IN	NS	a2.nic.xn--5tzm5g.
+xn--5tzm5g.		172800	IN	NS	b0.nic.xn--5tzm5g.
+xn--5tzm5g.		172800	IN	NS	c0.nic.xn--5tzm5g.
+xn--5tzm5g.		86400	IN	NSEC	xn--6frz82g. NS DS RRSIG NSEC
+a0.nic.xn--5tzm5g.	172800	IN	A	65.22.16.9
+a0.nic.xn--5tzm5g.	172800	IN	AAAA	2a01:8840:12::9
+a2.nic.xn--5tzm5g.	172800	IN	A	65.22.19.9
+a2.nic.xn--5tzm5g.	172800	IN	AAAA	2a01:8840:15::9
+b0.nic.xn--5tzm5g.	172800	IN	A	65.22.17.9
+b0.nic.xn--5tzm5g.	172800	IN	AAAA	2a01:8840:13::9
+c0.nic.xn--5tzm5g.	172800	IN	A	65.22.18.9
+c0.nic.xn--5tzm5g.	172800	IN	AAAA	2a01:8840:14::9
 xn--6frz82g.		172800	IN	NS	a0.nic.xn--6frz82g.
 xn--6frz82g.		172800	IN	NS	a2.nic.xn--6frz82g.
 xn--6frz82g.		172800	IN	NS	b0.nic.xn--6frz82g.
