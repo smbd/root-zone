@@ -6650,7 +6650,7 @@ ml.			172800	IN	NS	a.ns.ml.
 ml.			172800	IN	NS	b.ns.ml.
 ml.			172800	IN	NS	c.ns.ml.
 ml.			172800	IN	NS	d.ns.ml.
-ml.			86400	IN	NSEC	mm. NS RRSIG NSEC
+ml.			86400	IN	NSEC	mls. NS RRSIG NSEC
 a.ns.ml.		172800	IN	A	185.21.168.1
 a.ns.ml.		172800	IN	AAAA	2a04:1b00::1
 b.ns.ml.		172800	IN	A	185.21.169.1
@@ -6659,6 +6659,11 @@ c.ns.ml.		172800	IN	A	185.21.170.1
 c.ns.ml.		172800	IN	AAAA	2a04:1b00:2::1
 d.ns.ml.		172800	IN	A	185.21.171.1
 d.ns.ml.		172800	IN	AAAA	2a04:1b00:3::1
+mls.			172800	IN	NS	ac1.nstld.com.
+mls.			172800	IN	NS	ac2.nstld.com.
+mls.			172800	IN	NS	ac3.nstld.com.
+mls.			172800	IN	NS	ac4.nstld.com.
+mls.			86400	IN	NSEC	mm. NS DS RRSIG NSEC
 mm.			172800	IN	NS	mm.cctld.authdns.ripe.net.
 mm.			172800	IN	NS	ns0.nic.net.mm.
 mm.			172800	IN	NS	ns1.nic.net.mm.
@@ -8836,7 +8841,20 @@ prof.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 prof.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 prof.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 prof.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-prof.			86400	IN	NSEC	promo. NS DS RRSIG NSEC
+prof.			86400	IN	NSEC	progressive. NS DS RRSIG NSEC
+progressive.		172800	IN	NS	a0.nic.progressive.
+progressive.		172800	IN	NS	a2.nic.progressive.
+progressive.		172800	IN	NS	b0.nic.progressive.
+progressive.		172800	IN	NS	c0.nic.progressive.
+progressive.		86400	IN	NSEC	promo. NS DS RRSIG NSEC
+a0.nic.progressive.	172800	IN	A	65.22.200.33
+a0.nic.progressive.	172800	IN	AAAA	2a01:8840:c2::33
+a2.nic.progressive.	172800	IN	A	65.22.203.33
+a2.nic.progressive.	172800	IN	AAAA	2a01:8840:c5::33
+b0.nic.progressive.	172800	IN	A	65.22.201.33
+b0.nic.progressive.	172800	IN	AAAA	2a01:8840:c3::33
+c0.nic.progressive.	172800	IN	A	65.22.202.33
+c0.nic.progressive.	172800	IN	AAAA	2a01:8840:c4::33
 promo.			172800	IN	NS	a0.nic.promo.
 promo.			172800	IN	NS	a2.nic.promo.
 promo.			172800	IN	NS	b0.nic.promo.
