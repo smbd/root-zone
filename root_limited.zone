@@ -3304,19 +3304,11 @@ enterprises.		172800	IN	NS	demand.alpha.aridns.net.au.
 enterprises.		172800	IN	NS	demand.delta.aridns.net.au.
 enterprises.		172800	IN	NS	demand.gamma.aridns.net.au.
 enterprises.		86400	IN	NSEC	epson. NS DS RRSIG NSEC
-epson.			172800	IN	NS	a.nic.epson.
-epson.			172800	IN	NS	b.nic.epson.
-epson.			172800	IN	NS	c.nic.epson.
-epson.			172800	IN	NS	d.nic.epson.
+epson.			172800	IN	NS	a.gmoregistry.net.
+epson.			172800	IN	NS	b.gmoregistry.net.
+epson.			172800	IN	NS	k.gmoregistry.net.
+epson.			172800	IN	NS	l.gmoregistry.net.
 epson.			86400	IN	NSEC	equipment. NS DS RRSIG NSEC
-a.nic.epson.		172800	IN	A	37.209.192.9
-a.nic.epson.		172800	IN	AAAA	2001:dcd:1::9
-b.nic.epson.		172800	IN	A	37.209.194.9
-b.nic.epson.		172800	IN	AAAA	2001:dcd:2::9
-c.nic.epson.		172800	IN	A	37.209.196.9
-c.nic.epson.		172800	IN	AAAA	2001:dcd:3::9
-d.nic.epson.		172800	IN	A	37.209.198.9
-d.nic.epson.		172800	IN	AAAA	2001:dcd:4::9
 equipment.		172800	IN	NS	demand.beta.aridns.net.au.
 equipment.		172800	IN	NS	demand.alpha.aridns.net.au.
 equipment.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -4789,19 +4781,11 @@ e.hu.			172800	IN	A	194.0.25.11
 e.hu.			172800	IN	AAAA	2001:678:20::11
 ns-com.nic.hu.		172800	IN	A	194.0.1.12
 ns-com.nic.hu.		172800	IN	AAAA	2001:678:4::c
-hyundai.		172800	IN	NS	a.nic.hyundai.
-hyundai.		172800	IN	NS	b.nic.hyundai.
-hyundai.		172800	IN	NS	c.nic.hyundai.
-hyundai.		172800	IN	NS	d.nic.hyundai.
+hyundai.		172800	IN	NS	a.gmoregistry.net.
+hyundai.		172800	IN	NS	b.gmoregistry.net.
+hyundai.		172800	IN	NS	k.gmoregistry.net.
+hyundai.		172800	IN	NS	l.gmoregistry.net.
 hyundai.		86400	IN	NSEC	ibm. NS DS RRSIG NSEC
-a.nic.hyundai.		172800	IN	A	37.209.192.9
-a.nic.hyundai.		172800	IN	AAAA	2001:dcd:1::9
-b.nic.hyundai.		172800	IN	A	37.209.194.9
-b.nic.hyundai.		172800	IN	AAAA	2001:dcd:2::9
-c.nic.hyundai.		172800	IN	A	37.209.196.9
-c.nic.hyundai.		172800	IN	AAAA	2001:dcd:3::9
-d.nic.hyundai.		172800	IN	A	37.209.198.9
-d.nic.hyundai.		172800	IN	AAAA	2001:dcd:4::9
 ibm.			172800	IN	NS	a.nic.ibm.
 ibm.			172800	IN	NS	b.nic.ibm.
 ibm.			172800	IN	NS	c.nic.ibm.
@@ -5614,19 +5598,11 @@ ki.			172800	IN	NS	sns-pb.isc.org.
 ki.			86400	IN	NSEC	kia. NS DS RRSIG NSEC
 pch.nic.ki.		172800	IN	A	204.61.216.26
 pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad::1
-kia.			172800	IN	NS	a.nic.kia.
-kia.			172800	IN	NS	b.nic.kia.
-kia.			172800	IN	NS	c.nic.kia.
-kia.			172800	IN	NS	d.nic.kia.
+kia.			172800	IN	NS	a.gmoregistry.net.
+kia.			172800	IN	NS	b.gmoregistry.net.
+kia.			172800	IN	NS	k.gmoregistry.net.
+kia.			172800	IN	NS	l.gmoregistry.net.
 kia.			86400	IN	NSEC	kim. NS DS RRSIG NSEC
-a.nic.kia.		172800	IN	A	37.209.192.9
-a.nic.kia.		172800	IN	AAAA	2001:dcd:1::9
-b.nic.kia.		172800	IN	A	37.209.194.9
-b.nic.kia.		172800	IN	AAAA	2001:dcd:2::9
-c.nic.kia.		172800	IN	A	37.209.196.9
-c.nic.kia.		172800	IN	AAAA	2001:dcd:3::9
-d.nic.kia.		172800	IN	A	37.209.198.9
-d.nic.kia.		172800	IN	AAAA	2001:dcd:4::9
 kim.			172800	IN	NS	a0.nic.kim.
 kim.			172800	IN	NS	a2.nic.kim.
 kim.			172800	IN	NS	b0.nic.kim.
@@ -5704,19 +5680,11 @@ koeln.			172800	IN	NS	anycast10.irondns.net.
 koeln.			172800	IN	NS	anycast23.irondns.net.
 koeln.			172800	IN	NS	anycast24.irondns.net.
 koeln.			86400	IN	NSEC	komatsu. NS DS RRSIG NSEC
-komatsu.		172800	IN	NS	a.nic.komatsu.
-komatsu.		172800	IN	NS	b.nic.komatsu.
-komatsu.		172800	IN	NS	c.nic.komatsu.
-komatsu.		172800	IN	NS	d.nic.komatsu.
+komatsu.		172800	IN	NS	a.gmoregistry.net.
+komatsu.		172800	IN	NS	b.gmoregistry.net.
+komatsu.		172800	IN	NS	k.gmoregistry.net.
+komatsu.		172800	IN	NS	l.gmoregistry.net.
 komatsu.		86400	IN	NSEC	kp. NS DS RRSIG NSEC
-a.nic.komatsu.		172800	IN	A	37.209.192.9
-a.nic.komatsu.		172800	IN	AAAA	2001:dcd:1::9
-b.nic.komatsu.		172800	IN	A	37.209.194.9
-b.nic.komatsu.		172800	IN	AAAA	2001:dcd:2::9
-c.nic.komatsu.		172800	IN	A	37.209.196.9
-c.nic.komatsu.		172800	IN	AAAA	2001:dcd:3::9
-d.nic.komatsu.		172800	IN	A	37.209.198.9
-d.nic.komatsu.		172800	IN	AAAA	2001:dcd:4::9
 kp.			172800	IN	NS	ns1.kptc.kp.
 kp.			172800	IN	NS	ns2.kptc.kp.
 kp.			86400	IN	NSEC	kpmg. NS RRSIG NSEC
@@ -6141,7 +6109,12 @@ link.			172800	IN	NS	a.link.dyntld.net.
 link.			172800	IN	NS	b.link.dyntld.net.
 link.			172800	IN	NS	c.link.dyntld.net.
 link.			172800	IN	NS	ns1.uniregistry.net.
-link.			86400	IN	NSEC	live. NS DS RRSIG NSEC
+link.			86400	IN	NSEC	lipsy. NS DS RRSIG NSEC
+lipsy.			172800	IN	NS	ac1.nstld.com.
+lipsy.			172800	IN	NS	ac2.nstld.com.
+lipsy.			172800	IN	NS	ac3.nstld.com.
+lipsy.			172800	IN	NS	ac4.nstld.com.
+lipsy.			86400	IN	NSEC	live. NS DS RRSIG NSEC
 live.			172800	IN	NS	demand.beta.aridns.net.au.
 live.			172800	IN	NS	demand.alpha.aridns.net.au.
 live.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7800,7 +7773,17 @@ news.			172800	IN	NS	demand.beta.aridns.net.au.
 news.			172800	IN	NS	demand.alpha.aridns.net.au.
 news.			172800	IN	NS	demand.delta.aridns.net.au.
 news.			172800	IN	NS	demand.gamma.aridns.net.au.
-news.			86400	IN	NSEC	nexus. NS DS RRSIG NSEC
+news.			86400	IN	NSEC	next. NS DS RRSIG NSEC
+next.			172800	IN	NS	ac1.nstld.com.
+next.			172800	IN	NS	ac2.nstld.com.
+next.			172800	IN	NS	ac3.nstld.com.
+next.			172800	IN	NS	ac4.nstld.com.
+next.			86400	IN	NSEC	nextdirect. NS DS RRSIG NSEC
+nextdirect.		172800	IN	NS	ac1.nstld.com.
+nextdirect.		172800	IN	NS	ac2.nstld.com.
+nextdirect.		172800	IN	NS	ac3.nstld.com.
+nextdirect.		172800	IN	NS	ac4.nstld.com.
+nextdirect.		86400	IN	NSEC	nexus. NS DS RRSIG NSEC
 nexus.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 nexus.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 nexus.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -8104,7 +8087,33 @@ okinawa.		172800	IN	NS	a.gmoregistry.net.
 okinawa.		172800	IN	NS	b.gmoregistry.net.
 okinawa.		172800	IN	NS	k.gmoregistry.net.
 okinawa.		172800	IN	NS	l.gmoregistry.net.
-okinawa.		86400	IN	NSEC	om. NS DS RRSIG NSEC
+okinawa.		86400	IN	NSEC	olayan. NS DS RRSIG NSEC
+olayan.			172800	IN	NS	a.nic.olayan.
+olayan.			172800	IN	NS	b.nic.olayan.
+olayan.			172800	IN	NS	c.nic.olayan.
+olayan.			172800	IN	NS	d.nic.olayan.
+olayan.			86400	IN	NSEC	olayangroup. NS DS RRSIG NSEC
+a.nic.olayan.		172800	IN	A	37.209.192.9
+a.nic.olayan.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.olayan.		172800	IN	A	37.209.194.9
+b.nic.olayan.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.olayan.		172800	IN	A	37.209.196.9
+c.nic.olayan.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.olayan.		172800	IN	A	37.209.198.9
+d.nic.olayan.		172800	IN	AAAA	2001:dcd:4::9
+olayangroup.		172800	IN	NS	a.nic.olayangroup.
+olayangroup.		172800	IN	NS	b.nic.olayangroup.
+olayangroup.		172800	IN	NS	c.nic.olayangroup.
+olayangroup.		172800	IN	NS	d.nic.olayangroup.
+olayangroup.		86400	IN	NSEC	om. NS DS RRSIG NSEC
+a.nic.olayangroup.	172800	IN	A	37.209.192.9
+a.nic.olayangroup.	172800	IN	AAAA	2001:dcd:1::9
+b.nic.olayangroup.	172800	IN	A	37.209.194.9
+b.nic.olayangroup.	172800	IN	AAAA	2001:dcd:2::9
+c.nic.olayangroup.	172800	IN	A	37.209.196.9
+c.nic.olayangroup.	172800	IN	AAAA	2001:dcd:3::9
+d.nic.olayangroup.	172800	IN	A	37.209.198.9
+d.nic.olayangroup.	172800	IN	AAAA	2001:dcd:4::9
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns2.registry.om.
 om.			172800	IN	NS	cctld.beta.aridns.net.au.
@@ -9426,7 +9435,7 @@ rw.			172800	IN	NS	ns-rw.afrinic.net.
 rw.			172800	IN	NS	sns-pb.isc.org.
 rw.			86400	IN	NSEC	rwe. NS RRSIG NSEC
 ns1.ricta.org.rw.	172800	IN	A	41.74.173.250
-ns3.ricta.org.rw.	172800	IN	A	41.186.44.30
+ns3.ricta.org.rw.	172800	IN	A	41.138.85.98
 pch.ricta.org.rw.	172800	IN	A	204.61.216.91
 pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad::1
 rwe.			172800	IN	NS	ac1.nstld.com.
@@ -11077,19 +11086,11 @@ top.			172800	IN	NS	g.zdnscloud.com.
 top.			172800	IN	NS	i.zdnscloud.com.
 top.			172800	IN	NS	j.zdnscloud.com.
 top.			86400	IN	NSEC	toray. NS DS RRSIG NSEC
-toray.			172800	IN	NS	a.nic.toray.
-toray.			172800	IN	NS	b.nic.toray.
-toray.			172800	IN	NS	c.nic.toray.
-toray.			172800	IN	NS	d.nic.toray.
+toray.			172800	IN	NS	a.gmoregistry.net.
+toray.			172800	IN	NS	b.gmoregistry.net.
+toray.			172800	IN	NS	k.gmoregistry.net.
+toray.			172800	IN	NS	l.gmoregistry.net.
 toray.			86400	IN	NSEC	toshiba. NS DS RRSIG NSEC
-a.nic.toray.		172800	IN	A	37.209.192.9
-a.nic.toray.		172800	IN	AAAA	2001:dcd:1::9
-b.nic.toray.		172800	IN	A	37.209.194.9
-b.nic.toray.		172800	IN	AAAA	2001:dcd:2::9
-c.nic.toray.		172800	IN	A	37.209.196.9
-c.nic.toray.		172800	IN	AAAA	2001:dcd:3::9
-d.nic.toray.		172800	IN	A	37.209.198.9
-d.nic.toray.		172800	IN	AAAA	2001:dcd:4::9
 toshiba.		172800	IN	NS	a.gmoregistry.net.
 toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	k.gmoregistry.net.
@@ -11902,7 +11903,7 @@ wanggou.		172800	IN	NS	ns3.dns.nic.wanggou.
 wanggou.		172800	IN	NS	ns4.dns.nic.wanggou.
 wanggou.		172800	IN	NS	ns5.dns.nic.wanggou.
 wanggou.		172800	IN	NS	ns6.dns.nic.wanggou.
-wanggou.		86400	IN	NSEC	watch. NS DS RRSIG NSEC
+wanggou.		86400	IN	NSEC	warman. NS DS RRSIG NSEC
 ns1.dns.nic.wanggou.	172800	IN	A	156.154.144.177
 ns1.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1071::b1
 ns2.dns.nic.wanggou.	172800	IN	A	156.154.145.177
@@ -11915,6 +11916,11 @@ ns5.dns.nic.wanggou.	172800	IN	A	156.154.157.177
 ns5.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1075::b1
 ns6.dns.nic.wanggou.	172800	IN	A	156.154.158.177
 ns6.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1076::b1
+warman.			172800	IN	NS	ac1.nstld.com.
+warman.			172800	IN	NS	ac2.nstld.com.
+warman.			172800	IN	NS	ac3.nstld.com.
+warman.			172800	IN	NS	ac4.nstld.com.
+warman.			86400	IN	NSEC	watch. NS DS RRSIG NSEC
 watch.			172800	IN	NS	demand.beta.aridns.net.au.
 watch.			172800	IN	NS	demand.alpha.aridns.net.au.
 watch.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -12993,7 +12999,20 @@ ns6.dns.nic.xn--mgba3a3ejt. 172800 IN	A	156.154.158.15
 ns6.dns.nic.xn--mgba3a3ejt. 172800 IN	AAAA	2610:a1:1076::f
 xn--mgba3a4f16a.	172800	IN	NS	a.nic.ir.
 xn--mgba3a4f16a.	172800	IN	NS	ns.irnic.ir.
-xn--mgba3a4f16a.	86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
+xn--mgba3a4f16a.	86400	IN	NSEC	xn--mgba7c0bbn0a. NS RRSIG NSEC
+xn--mgba7c0bbn0a.	172800	IN	NS	a.nic.xn--mgba7c0bbn0a.
+xn--mgba7c0bbn0a.	172800	IN	NS	b.nic.xn--mgba7c0bbn0a.
+xn--mgba7c0bbn0a.	172800	IN	NS	c.nic.xn--mgba7c0bbn0a.
+xn--mgba7c0bbn0a.	172800	IN	NS	d.nic.xn--mgba7c0bbn0a.
+xn--mgba7c0bbn0a.	86400	IN	NSEC	xn--mgbaam7a8h. NS DS RRSIG NSEC
+a.nic.xn--mgba7c0bbn0a.	172800	IN	A	37.209.192.9
+a.nic.xn--mgba7c0bbn0a.	172800	IN	AAAA	2001:dcd:1::9
+b.nic.xn--mgba7c0bbn0a.	172800	IN	A	37.209.194.9
+b.nic.xn--mgba7c0bbn0a.	172800	IN	AAAA	2001:dcd:2::9
+c.nic.xn--mgba7c0bbn0a.	172800	IN	A	37.209.196.9
+c.nic.xn--mgba7c0bbn0a.	172800	IN	AAAA	2001:dcd:3::9
+d.nic.xn--mgba7c0bbn0a.	172800	IN	A	37.209.198.9
+d.nic.xn--mgba7c0bbn0a.	172800	IN	AAAA	2001:dcd:4::9
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	sns-pb.isc.org.
