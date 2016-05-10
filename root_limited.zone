@@ -3734,7 +3734,26 @@ flights.		172800	IN	NS	demand.beta.aridns.net.au.
 flights.		172800	IN	NS	demand.alpha.aridns.net.au.
 flights.		172800	IN	NS	demand.delta.aridns.net.au.
 flights.		172800	IN	NS	demand.gamma.aridns.net.au.
-flights.		86400	IN	NSEC	florist. NS DS RRSIG NSEC
+flights.		86400	IN	NSEC	flir. NS DS RRSIG NSEC
+flir.			172800	IN	NS	ns1.dns.nic.flir.
+flir.			172800	IN	NS	ns2.dns.nic.flir.
+flir.			172800	IN	NS	ns3.dns.nic.flir.
+flir.			172800	IN	NS	ns4.dns.nic.flir.
+flir.			172800	IN	NS	ns5.dns.nic.flir.
+flir.			172800	IN	NS	ns6.dns.nic.flir.
+flir.			86400	IN	NSEC	florist. NS DS RRSIG NSEC
+ns1.dns.nic.flir.	172800	IN	A	156.154.144.61
+ns1.dns.nic.flir.	172800	IN	AAAA	2610:a1:1071::3d
+ns2.dns.nic.flir.	172800	IN	A	156.154.145.61
+ns2.dns.nic.flir.	172800	IN	AAAA	2610:a1:1072::3d
+ns3.dns.nic.flir.	172800	IN	A	156.154.159.61
+ns3.dns.nic.flir.	172800	IN	AAAA	2610:a1:1073::3d
+ns4.dns.nic.flir.	172800	IN	A	156.154.156.61
+ns4.dns.nic.flir.	172800	IN	AAAA	2610:a1:1074::3d
+ns5.dns.nic.flir.	172800	IN	A	156.154.157.61
+ns5.dns.nic.flir.	172800	IN	AAAA	2610:a1:1075::3d
+ns6.dns.nic.flir.	172800	IN	A	156.154.158.61
+ns6.dns.nic.flir.	172800	IN	AAAA	2610:a1:1076::3d
 florist.		172800	IN	NS	demand.beta.aridns.net.au.
 florist.		172800	IN	NS	demand.alpha.aridns.net.au.
 florist.		172800	IN	NS	demand.delta.aridns.net.au.
