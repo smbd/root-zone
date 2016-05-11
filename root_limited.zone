@@ -2873,7 +2873,20 @@ dclk.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-dclk.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+dclk.			86400	IN	NSEC	dds. NS DS RRSIG NSEC
+dds.			172800	IN	NS	a.ns.nic.dds.
+dds.			172800	IN	NS	b.ns.nic.dds.
+dds.			172800	IN	NS	c.ns.nic.dds.
+dds.			172800	IN	NS	d.ns.nic.dds.
+dds.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+a.ns.nic.dds.		172800	IN	A	72.0.50.32
+a.ns.nic.dds.		172800	IN	AAAA	2620:171:a02:ad::32
+b.ns.nic.dds.		172800	IN	A	72.42.114.32
+b.ns.nic.dds.		172800	IN	AAAA	2620:171:d02:dc::32
+c.ns.nic.dds.		172800	IN	A	70.40.0.32
+c.ns.nic.dds.		172800	IN	AAAA	2620:171:c00:c::32
+d.ns.nic.dds.		172800	IN	A	70.40.8.32
+d.ns.nic.dds.		172800	IN	AAAA	2620:171:f00:d::32
 de.			172800	IN	NS	a.nic.de.
 de.			172800	IN	NS	f.nic.de.
 de.			172800	IN	NS	l.de.net.
@@ -6576,7 +6589,7 @@ meo.			172800	IN	NS	a.ns.nic.meo.
 meo.			172800	IN	NS	c.ns.nic.meo.
 meo.			172800	IN	NS	x.ns.nic.meo.
 meo.			172800	IN	NS	y.ns.nic.meo.
-meo.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
+meo.			86400	IN	NSEC	metlife. NS DS RRSIG NSEC
 a.ns.nic.meo.		172800	IN	A	89.207.190.21
 a.ns.nic.meo.		172800	IN	AAAA	2a02:2790:1:53::9:1
 c.ns.nic.meo.		172800	IN	A	54.75.248.230
@@ -6584,6 +6597,19 @@ x.ns.nic.meo.		172800	IN	A	195.253.64.4
 x.ns.nic.meo.		172800	IN	AAAA	2a01:5b0:4::4
 y.ns.nic.meo.		172800	IN	A	195.253.64.7
 y.ns.nic.meo.		172800	IN	AAAA	2a01:5b0:4::7
+metlife.		172800	IN	NS	a0.nic.metlife.
+metlife.		172800	IN	NS	a2.nic.metlife.
+metlife.		172800	IN	NS	b0.nic.metlife.
+metlife.		172800	IN	NS	c0.nic.metlife.
+metlife.		86400	IN	NSEC	mg. NS DS RRSIG NSEC
+a0.nic.metlife.		172800	IN	A	65.22.80.25
+a0.nic.metlife.		172800	IN	AAAA	2a01:8840:4e::25
+a2.nic.metlife.		172800	IN	A	65.22.83.25
+a2.nic.metlife.		172800	IN	AAAA	2a01:8840:51::25
+b0.nic.metlife.		172800	IN	A	65.22.81.25
+b0.nic.metlife.		172800	IN	AAAA	2a01:8840:4f::25
+c0.nic.metlife.		172800	IN	A	65.22.82.25
+c0.nic.metlife.		172800	IN	AAAA	2a01:8840:50::25
 mg.			172800	IN	NS	a.mg.dyntld.net.
 mg.			172800	IN	NS	b.mg.dyntld.net.
 mg.			172800	IN	NS	ns.dts.mg.
@@ -7972,11 +7998,24 @@ nowruz.			172800	IN	NS	a.ns.nic.nowruz.
 nowruz.			172800	IN	NS	a.nowruz.dyntld.net.
 nowruz.			172800	IN	NS	b.ns.nic.nowruz.
 nowruz.			172800	IN	NS	b.nowruz.dyntld.net.
-nowruz.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+nowruz.			86400	IN	NSEC	nowtv. NS DS RRSIG NSEC
 a.ns.nic.nowruz.	172800	IN	A	72.0.49.10
 a.ns.nic.nowruz.	172800	IN	AAAA	2620:171:a01:ad::10
 b.ns.nic.nowruz.	172800	IN	A	72.42.113.10
 b.ns.nic.nowruz.	172800	IN	AAAA	2620:171:d01:dc::10
+nowtv.			172800	IN	NS	a0.nic.nowtv.
+nowtv.			172800	IN	NS	a2.nic.nowtv.
+nowtv.			172800	IN	NS	b0.nic.nowtv.
+nowtv.			172800	IN	NS	c0.nic.nowtv.
+nowtv.			86400	IN	NSEC	np. NS DS RRSIG NSEC
+a0.nic.nowtv.		172800	IN	A	65.22.172.1
+a0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a6::1
+a2.nic.nowtv.		172800	IN	A	65.22.175.1
+a2.nic.nowtv.		172800	IN	AAAA	2a01:8840:a9::1
+b0.nic.nowtv.		172800	IN	A	65.22.173.1
+b0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a7::1
+c0.nic.nowtv.		172800	IN	A	65.22.174.1
+c0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a8::1
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
 np.			172800	IN	NS	sec3.apnic.net.
 np.			172800	IN	NS	np-ns.npix.net.np.
@@ -8462,7 +8501,7 @@ passagens.		172800	IN	NS	ns3.dns.nic.passagens.
 passagens.		172800	IN	NS	ns4.dns.nic.passagens.
 passagens.		172800	IN	NS	ns5.dns.nic.passagens.
 passagens.		172800	IN	NS	ns6.dns.nic.passagens.
-passagens.		86400	IN	NSEC	pe. NS DS RRSIG NSEC
+passagens.		86400	IN	NSEC	pccw. NS DS RRSIG NSEC
 ns1.dns.nic.passagens.	172800	IN	A	156.154.144.133
 ns1.dns.nic.passagens.	172800	IN	AAAA	2610:a1:1071::85
 ns2.dns.nic.passagens.	172800	IN	A	156.154.145.133
@@ -8475,6 +8514,19 @@ ns5.dns.nic.passagens.	172800	IN	A	156.154.157.133
 ns5.dns.nic.passagens.	172800	IN	AAAA	2610:a1:1075::85
 ns6.dns.nic.passagens.	172800	IN	A	156.154.158.133
 ns6.dns.nic.passagens.	172800	IN	AAAA	2610:a1:1076::85
+pccw.			172800	IN	NS	a0.nic.pccw.
+pccw.			172800	IN	NS	a2.nic.pccw.
+pccw.			172800	IN	NS	b0.nic.pccw.
+pccw.			172800	IN	NS	c0.nic.pccw.
+pccw.			86400	IN	NSEC	pe. NS DS RRSIG NSEC
+a0.nic.pccw.		172800	IN	A	65.22.116.41
+a0.nic.pccw.		172800	IN	AAAA	2a01:8840:72::41
+a2.nic.pccw.		172800	IN	A	65.22.119.41
+a2.nic.pccw.		172800	IN	AAAA	2a01:8840:75::41
+b0.nic.pccw.		172800	IN	A	65.22.117.41
+b0.nic.pccw.		172800	IN	AAAA	2a01:8840:73::41
+c0.nic.pccw.		172800	IN	A	65.22.118.41
+c0.nic.pccw.		172800	IN	AAAA	2a01:8840:74::41
 pe.			172800	IN	NS	pch.rcp.pe.
 pe.			172800	IN	NS	pe1.dnsnode.net.
 pe.			172800	IN	NS	quipu.rcp.net.pe.
@@ -9298,7 +9350,7 @@ rich.			172800	IN	NS	a0.nic.rich.
 rich.			172800	IN	NS	a2.nic.rich.
 rich.			172800	IN	NS	b0.nic.rich.
 rich.			172800	IN	NS	c0.nic.rich.
-rich.			86400	IN	NSEC	ricoh. NS DS RRSIG NSEC
+rich.			86400	IN	NSEC	richardli. NS DS RRSIG NSEC
 a0.nic.rich.		172800	IN	A	65.22.136.17
 a0.nic.rich.		172800	IN	AAAA	2a01:8840:86::17
 a2.nic.rich.		172800	IN	A	65.22.139.17
@@ -9307,6 +9359,19 @@ b0.nic.rich.		172800	IN	A	65.22.137.17
 b0.nic.rich.		172800	IN	AAAA	2a01:8840:87::17
 c0.nic.rich.		172800	IN	A	65.22.138.17
 c0.nic.rich.		172800	IN	AAAA	2a01:8840:88::17
+richardli.		172800	IN	NS	a0.nic.richardli.
+richardli.		172800	IN	NS	a2.nic.richardli.
+richardli.		172800	IN	NS	b0.nic.richardli.
+richardli.		172800	IN	NS	c0.nic.richardli.
+richardli.		86400	IN	NSEC	ricoh. NS DS RRSIG NSEC
+a0.nic.richardli.	172800	IN	A	65.22.136.33
+a0.nic.richardli.	172800	IN	AAAA	2a01:8840:86::33
+a2.nic.richardli.	172800	IN	A	65.22.139.33
+a2.nic.richardli.	172800	IN	AAAA	2a01:8840:89::33
+b0.nic.richardli.	172800	IN	A	65.22.137.33
+b0.nic.richardli.	172800	IN	AAAA	2a01:8840:87::33
+c0.nic.richardli.	172800	IN	A	65.22.138.33
+c0.nic.richardli.	172800	IN	AAAA	2a01:8840:88::33
 ricoh.			172800	IN	NS	a.gmoregistry.net.
 ricoh.			172800	IN	NS	b.gmoregistry.net.
 ricoh.			172800	IN	NS	k.gmoregistry.net.
@@ -12776,7 +12841,20 @@ xn--fzc2c9e2c.		172800	IN	NS	ns-c.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-d.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-l.nic.lk.
 xn--fzc2c9e2c.		172800	IN	NS	ns-t.nic.lk.
-xn--fzc2c9e2c.		86400	IN	NSEC	xn--g2xx48c. NS RRSIG NSEC
+xn--fzc2c9e2c.		86400	IN	NSEC	xn--fzys8d69uvgm. NS RRSIG NSEC
+xn--fzys8d69uvgm.	172800	IN	NS	a0.nic.xn--fzys8d69uvgm.
+xn--fzys8d69uvgm.	172800	IN	NS	a2.nic.xn--fzys8d69uvgm.
+xn--fzys8d69uvgm.	172800	IN	NS	b0.nic.xn--fzys8d69uvgm.
+xn--fzys8d69uvgm.	172800	IN	NS	c0.nic.xn--fzys8d69uvgm.
+xn--fzys8d69uvgm.	86400	IN	NSEC	xn--g2xx48c. NS DS RRSIG NSEC
+a0.nic.xn--fzys8d69uvgm. 172800	IN	A	65.22.172.33
+a0.nic.xn--fzys8d69uvgm. 172800	IN	AAAA	2a01:8840:a6::33
+a2.nic.xn--fzys8d69uvgm. 172800	IN	A	65.22.175.33
+a2.nic.xn--fzys8d69uvgm. 172800	IN	AAAA	2a01:8840:a9::33
+b0.nic.xn--fzys8d69uvgm. 172800	IN	A	65.22.173.33
+b0.nic.xn--fzys8d69uvgm. 172800	IN	AAAA	2a01:8840:a7::33
+c0.nic.xn--fzys8d69uvgm. 172800	IN	A	65.22.174.33
+c0.nic.xn--fzys8d69uvgm. 172800	IN	AAAA	2a01:8840:a8::33
 xn--g2xx48c.		172800	IN	NS	ns1.dns.nic.xn--g2xx48c.
 xn--g2xx48c.		172800	IN	NS	ns2.dns.nic.xn--g2xx48c.
 xn--g2xx48c.		172800	IN	NS	ns3.dns.nic.xn--g2xx48c.
