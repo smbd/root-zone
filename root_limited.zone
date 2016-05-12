@@ -4599,7 +4599,7 @@ hk.			172800	IN	NS	w.hkirc.net.hk.
 hk.			172800	IN	NS	x.hkirc.net.hk.
 hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
-hk.			86400	IN	NSEC	hm. NS RRSIG NSEC
+hk.			86400	IN	NSEC	hkt. NS RRSIG NSEC
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:6::15
 c.hkirc.net.hk.		172800	IN	A	203.119.2.218
@@ -4618,6 +4618,19 @@ y.hkirc.net.hk.		172800	IN	A	137.189.6.21
 y.hkirc.net.hk.		172800	IN	AAAA	2405:3000:3:6::15
 z.hkirc.net.hk.		172800	IN	A	194.146.106.70
 z.hkirc.net.hk.		172800	IN	AAAA	2001:67c:1010:17::53
+hkt.			172800	IN	NS	a0.nic.hkt.
+hkt.			172800	IN	NS	a2.nic.hkt.
+hkt.			172800	IN	NS	b0.nic.hkt.
+hkt.			172800	IN	NS	c0.nic.hkt.
+hkt.			86400	IN	NSEC	hm. NS DS RRSIG NSEC
+a0.nic.hkt.		172800	IN	A	65.22.116.33
+a0.nic.hkt.		172800	IN	AAAA	2a01:8840:72::33
+a2.nic.hkt.		172800	IN	A	65.22.119.33
+a2.nic.hkt.		172800	IN	AAAA	2a01:8840:75::33
+b0.nic.hkt.		172800	IN	A	65.22.117.33
+b0.nic.hkt.		172800	IN	AAAA	2a01:8840:73::33
+c0.nic.hkt.		172800	IN	A	65.22.118.33
+c0.nic.hkt.		172800	IN	AAAA	2a01:8840:74::33
 hm.			172800	IN	NS	ns1.registry.hm.
 hm.			172800	IN	NS	ns2.registry.hm.
 hm.			172800	IN	NS	ns3.registry.hm.
