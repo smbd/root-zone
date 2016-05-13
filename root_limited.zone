@@ -4424,10 +4424,15 @@ gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
 gu.			172800	IN	NS	ns.gu.
 gu.			172800	IN	NS	ns.edu.gu.
 gu.			172800	IN	NS	nsuog.edu.gu.
-gu.			86400	IN	NSEC	gucci. NS RRSIG NSEC
+gu.			86400	IN	NSEC	guardian. NS RRSIG NSEC
 ns.edu.gu.		172800	IN	A	168.123.2.50
 nsuog.edu.gu.		172800	IN	A	67.98.164.133
 ns.gu.			172800	IN	A	168.123.4.10
+guardian.		172800	IN	NS	ac1.nstld.com.
+guardian.		172800	IN	NS	ac2.nstld.com.
+guardian.		172800	IN	NS	ac3.nstld.com.
+guardian.		172800	IN	NS	ac4.nstld.com.
+guardian.		86400	IN	NSEC	gucci. NS DS RRSIG NSEC
 gucci.			172800	IN	NS	ns1.dns.nic.gucci.
 gucci.			172800	IN	NS	ns2.dns.nic.gucci.
 gucci.			172800	IN	NS	ns3.dns.nic.gucci.
@@ -13487,7 +13492,6 @@ xn--wgbl6a.		172800	IN	NS	f.registry.qa.
 xn--wgbl6a.		172800	IN	NS	g.registry.qa.
 xn--wgbl6a.		172800	IN	NS	h.registry.qa.
 xn--wgbl6a.		172800	IN	NS	i.registry.qa.
-xn--wgbl6a.		172800	IN	NS	l.registry.qa.
 xn--wgbl6a.		86400	IN	NSEC	xn--xhq521b. NS RRSIG NSEC
 xn--xhq521b.		172800	IN	NS	ta.ngtld.cn.
 xn--xhq521b.		172800	IN	NS	tb.ngtld.cn.
