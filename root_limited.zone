@@ -13478,7 +13478,12 @@ xn--w4r85el8fhu5dnra.	172800	IN	NS	ac1.nstld.com.
 xn--w4r85el8fhu5dnra.	172800	IN	NS	ac2.nstld.com.
 xn--w4r85el8fhu5dnra.	172800	IN	NS	ac3.nstld.com.
 xn--w4r85el8fhu5dnra.	172800	IN	NS	ac4.nstld.com.
-xn--w4r85el8fhu5dnra.	86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
+xn--w4r85el8fhu5dnra.	86400	IN	NSEC	xn--w4rs40l. NS DS RRSIG NSEC
+xn--w4rs40l.		172800	IN	NS	ac1.nstld.com.
+xn--w4rs40l.		172800	IN	NS	ac2.nstld.com.
+xn--w4rs40l.		172800	IN	NS	ac3.nstld.com.
+xn--w4rs40l.		172800	IN	NS	ac4.nstld.com.
+xn--w4rs40l.		86400	IN	NSEC	xn--wgbh1c. NS DS RRSIG NSEC
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns3.dotmasr.eg.
