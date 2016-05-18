@@ -1244,7 +1244,29 @@ blackfriday.		172800	IN	NS	a.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	b.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	c.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	ns1.uniregistry.net.
-blackfriday.		86400	IN	NSEC	bloomberg. NS DS RRSIG NSEC
+blackfriday.		86400	IN	NSEC	blog. NS DS RRSIG NSEC
+blog.			172800	IN	NS	dns1.nic.blog.
+blog.			172800	IN	NS	dns2.nic.blog.
+blog.			172800	IN	NS	dns3.nic.blog.
+blog.			172800	IN	NS	dns4.nic.blog.
+blog.			172800	IN	NS	dnsa.nic.blog.
+blog.			172800	IN	NS	dnsb.nic.blog.
+blog.			172800	IN	NS	dnsc.nic.blog.
+blog.			172800	IN	NS	dnsd.nic.blog.
+blog.			86400	IN	NSEC	bloomberg. NS DS RRSIG NSEC
+dns1.nic.blog.		172800	IN	A	213.248.217.9
+dns1.nic.blog.		172800	IN	AAAA	2a01:618:401::9
+dns2.nic.blog.		172800	IN	A	103.49.81.9
+dns2.nic.blog.		172800	IN	AAAA	2401:fd80:401::9
+dns3.nic.blog.		172800	IN	A	213.248.221.9
+dns3.nic.blog.		172800	IN	AAAA	2a01:618:405::9
+dns4.nic.blog.		172800	IN	A	43.230.49.9
+dns4.nic.blog.		172800	IN	AAAA	2401:fd80:405::9
+dnsa.nic.blog.		172800	IN	A	156.154.100.3
+dnsa.nic.blog.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.blog.		172800	IN	A	156.154.101.3
+dnsc.nic.blog.		172800	IN	A	156.154.102.3
+dnsd.nic.blog.		172800	IN	A	156.154.103.3
 bloomberg.		172800	IN	NS	ac1.nstld.com.
 bloomberg.		172800	IN	NS	ac2.nstld.com.
 bloomberg.		172800	IN	NS	ac3.nstld.com.
@@ -3129,9 +3151,22 @@ domains.		172800	IN	NS	demand.beta.aridns.net.au.
 domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
 domains.		172800	IN	NS	demand.gamma.aridns.net.au.
-domains.		86400	IN	NSEC	download. NS DS RRSIG NSEC
+domains.		86400	IN	NSEC	dot. NS DS RRSIG NSEC
 d.dns.flexireg.domains.	172800	IN	A	89.111.135.1
 d.dns.flexireg.domains.	172800	IN	AAAA	2a01:d8:8::1
+dot.			172800	IN	NS	a0.nic.dot.
+dot.			172800	IN	NS	a2.nic.dot.
+dot.			172800	IN	NS	b0.nic.dot.
+dot.			172800	IN	NS	c0.nic.dot.
+dot.			86400	IN	NSEC	download. NS DS RRSIG NSEC
+a0.nic.dot.		172800	IN	A	65.22.92.1
+a0.nic.dot.		172800	IN	AAAA	2a01:8840:5a::1
+a2.nic.dot.		172800	IN	A	65.22.95.1
+a2.nic.dot.		172800	IN	AAAA	2a01:8840:5d::1
+b0.nic.dot.		172800	IN	A	65.22.93.1
+b0.nic.dot.		172800	IN	AAAA	2a01:8840:5b::1
+c0.nic.dot.		172800	IN	A	65.22.94.1
+c0.nic.dot.		172800	IN	AAAA	2a01:8840:5c::1
 download.		172800	IN	NS	ns1.dns.nic.download.
 download.		172800	IN	NS	ns2.dns.nic.download.
 download.		172800	IN	NS	ns3.dns.nic.download.
