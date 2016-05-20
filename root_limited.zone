@@ -245,7 +245,26 @@ aero.			172800	IN	NS	b0.aero.afilias-nst.org.
 aero.			172800	IN	NS	b2.aero.afilias-nst.org.
 aero.			172800	IN	NS	c0.aero.afilias-nst.info.
 aero.			172800	IN	NS	d0.aero.afilias-nst.org.
-aero.			86400	IN	NSEC	af. NS RRSIG NSEC
+aero.			86400	IN	NSEC	aetna. NS RRSIG NSEC
+aetna.			172800	IN	NS	ns1.dns.nic.aetna.
+aetna.			172800	IN	NS	ns2.dns.nic.aetna.
+aetna.			172800	IN	NS	ns3.dns.nic.aetna.
+aetna.			172800	IN	NS	ns4.dns.nic.aetna.
+aetna.			172800	IN	NS	ns5.dns.nic.aetna.
+aetna.			172800	IN	NS	ns6.dns.nic.aetna.
+aetna.			86400	IN	NSEC	af. NS DS RRSIG NSEC
+ns1.dns.nic.aetna.	172800	IN	A	156.154.144.5
+ns1.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1071::5
+ns2.dns.nic.aetna.	172800	IN	A	156.154.145.5
+ns2.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1072::5
+ns3.dns.nic.aetna.	172800	IN	A	156.154.159.5
+ns3.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1073::5
+ns4.dns.nic.aetna.	172800	IN	A	156.154.156.5
+ns4.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1074::5
+ns5.dns.nic.aetna.	172800	IN	A	156.154.157.5
+ns5.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1075::5
+ns6.dns.nic.aetna.	172800	IN	A	156.154.158.5
+ns6.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1076::5
 af.			172800	IN	NS	ns.anycast.nic.af.
 af.			172800	IN	NS	af1.dyntld.net.
 af.			172800	IN	NS	af3.dyntld.net.
@@ -341,7 +360,6 @@ c0.nic.akdn.		172800	IN	AAAA	2a01:8840:2c::17
 al.			172800	IN	NS	al.cctld.authdns.ripe.net.
 al.			172800	IN	NS	ns1.nic.al.
 al.			172800	IN	NS	rip.psg.com.
-al.			172800	IN	NS	ns-al.isti.cnr.it.
 al.			172800	IN	NS	munnari.oz.au.
 al.			86400	IN	NSEC	alibaba. NS RRSIG NSEC
 ns1.nic.al.		172800	IN	A	194.1.149.230
@@ -5307,7 +5325,6 @@ it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 it.			86400	IN	NSEC	itau. NS RRSIG NSEC
-ns-al.isti.cnr.it.	172800	IN	A	194.119.192.8
 nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.		172800	IN	A	194.0.16.215
@@ -5397,25 +5414,11 @@ je.			172800	IN	NS	ns0.ja.net.
 je.			172800	IN	NS	ns99.dns.net.nz.
 je.			86400	IN	NSEC	jetzt. NS RRSIG NSEC
 d.ci-servers.je.	172800	IN	A	193.201.42.178
-jetzt.			172800	IN	NS	ns1.dns.nic.jetzt.
-jetzt.			172800	IN	NS	ns2.dns.nic.jetzt.
-jetzt.			172800	IN	NS	ns3.dns.nic.jetzt.
-jetzt.			172800	IN	NS	ns4.dns.nic.jetzt.
-jetzt.			172800	IN	NS	ns5.dns.nic.jetzt.
-jetzt.			172800	IN	NS	ns6.dns.nic.jetzt.
+jetzt.			172800	IN	NS	demand.beta.aridns.net.au.
+jetzt.			172800	IN	NS	demand.alpha.aridns.net.au.
+jetzt.			172800	IN	NS	demand.delta.aridns.net.au.
+jetzt.			172800	IN	NS	demand.gamma.aridns.net.au.
 jetzt.			86400	IN	NSEC	jewelry. NS DS RRSIG NSEC
-ns1.dns.nic.jetzt.	172800	IN	A	156.154.144.86
-ns1.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1071::56
-ns2.dns.nic.jetzt.	172800	IN	A	156.154.145.86
-ns2.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1072::56
-ns3.dns.nic.jetzt.	172800	IN	A	156.154.159.86
-ns3.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1073::56
-ns4.dns.nic.jetzt.	172800	IN	A	156.154.156.86
-ns4.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1074::56
-ns5.dns.nic.jetzt.	172800	IN	A	156.154.157.86
-ns5.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1075::56
-ns6.dns.nic.jetzt.	172800	IN	A	156.154.158.86
-ns6.dns.nic.jetzt.	172800	IN	AAAA	2610:a1:1076::56
 jewelry.		172800	IN	NS	demand.beta.aridns.net.au.
 jewelry.		172800	IN	NS	demand.alpha.aridns.net.au.
 jewelry.		172800	IN	NS	demand.delta.aridns.net.au.
