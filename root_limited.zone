@@ -9209,7 +9209,7 @@ read.			172800	IN	NS	ns3.dns.nic.read.
 read.			172800	IN	NS	ns4.dns.nic.read.
 read.			172800	IN	NS	ns5.dns.nic.read.
 read.			172800	IN	NS	ns6.dns.nic.read.
-read.			86400	IN	NSEC	realtor. NS DS RRSIG NSEC
+read.			86400	IN	NSEC	realestate. NS DS RRSIG NSEC
 ns1.dns.nic.read.	172800	IN	A	156.154.144.144
 ns1.dns.nic.read.	172800	IN	AAAA	2610:a1:1071::90
 ns2.dns.nic.read.	172800	IN	A	156.154.145.144
@@ -9222,6 +9222,11 @@ ns5.dns.nic.read.	172800	IN	A	156.154.157.144
 ns5.dns.nic.read.	172800	IN	AAAA	2610:a1:1075::90
 ns6.dns.nic.read.	172800	IN	A	156.154.158.144
 ns6.dns.nic.read.	172800	IN	AAAA	2610:a1:1076::90
+realestate.		172800	IN	NS	ac1.nstld.com.
+realestate.		172800	IN	NS	ac2.nstld.com.
+realestate.		172800	IN	NS	ac3.nstld.com.
+realestate.		172800	IN	NS	ac4.nstld.com.
+realestate.		86400	IN	NSEC	realtor. NS DS RRSIG NSEC
 realtor.		172800	IN	NS	ac1.nstld.com.
 realtor.		172800	IN	NS	ac2.nstld.com.
 realtor.		172800	IN	NS	ac3.nstld.com.
@@ -10149,7 +10154,12 @@ shoes.			172800	IN	NS	demand.beta.aridns.net.au.
 shoes.			172800	IN	NS	demand.alpha.aridns.net.au.
 shoes.			172800	IN	NS	demand.delta.aridns.net.au.
 shoes.			172800	IN	NS	demand.gamma.aridns.net.au.
-shoes.			86400	IN	NSEC	shouji. NS DS RRSIG NSEC
+shoes.			86400	IN	NSEC	shop. NS DS RRSIG NSEC
+shop.			172800	IN	NS	a.gmoregistry.net.
+shop.			172800	IN	NS	b.gmoregistry.net.
+shop.			172800	IN	NS	k.gmoregistry.net.
+shop.			172800	IN	NS	l.gmoregistry.net.
+shop.			86400	IN	NSEC	shouji. NS DS RRSIG NSEC
 shouji.			172800	IN	NS	ns1.teleinfo.cn.
 shouji.			172800	IN	NS	ns2.teleinfoo.com.
 shouji.			172800	IN	NS	ns3.teleinfo.cn.
