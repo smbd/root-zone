@@ -6724,7 +6724,7 @@ ml.			172800	IN	NS	a.ns.ml.
 ml.			172800	IN	NS	b.ns.ml.
 ml.			172800	IN	NS	c.ns.ml.
 ml.			172800	IN	NS	d.ns.ml.
-ml.			86400	IN	NSEC	mls. NS RRSIG NSEC
+ml.			86400	IN	NSEC	mlb. NS RRSIG NSEC
 a.ns.ml.		172800	IN	A	185.21.168.1
 a.ns.ml.		172800	IN	AAAA	2a04:1b00::1
 b.ns.ml.		172800	IN	A	185.21.169.1
@@ -6733,6 +6733,25 @@ c.ns.ml.		172800	IN	A	185.21.170.1
 c.ns.ml.		172800	IN	AAAA	2a04:1b00:2::1
 d.ns.ml.		172800	IN	A	185.21.171.1
 d.ns.ml.		172800	IN	AAAA	2a04:1b00:3::1
+mlb.			172800	IN	NS	ns1.dns.nic.mlb.
+mlb.			172800	IN	NS	ns2.dns.nic.mlb.
+mlb.			172800	IN	NS	ns3.dns.nic.mlb.
+mlb.			172800	IN	NS	ns4.dns.nic.mlb.
+mlb.			172800	IN	NS	ns5.dns.nic.mlb.
+mlb.			172800	IN	NS	ns6.dns.nic.mlb.
+mlb.			86400	IN	NSEC	mls. NS DS RRSIG NSEC
+ns1.dns.nic.mlb.	172800	IN	A	156.154.144.113
+ns1.dns.nic.mlb.	172800	IN	AAAA	2610:a1:1071::71
+ns2.dns.nic.mlb.	172800	IN	A	156.154.145.113
+ns2.dns.nic.mlb.	172800	IN	AAAA	2610:a1:1072::71
+ns3.dns.nic.mlb.	172800	IN	A	156.154.159.113
+ns3.dns.nic.mlb.	172800	IN	AAAA	2610:a1:1073::71
+ns4.dns.nic.mlb.	172800	IN	A	156.154.156.113
+ns4.dns.nic.mlb.	172800	IN	AAAA	2610:a1:1074::71
+ns5.dns.nic.mlb.	172800	IN	A	156.154.157.113
+ns5.dns.nic.mlb.	172800	IN	AAAA	2610:a1:1075::71
+ns6.dns.nic.mlb.	172800	IN	A	156.154.158.113
+ns6.dns.nic.mlb.	172800	IN	AAAA	2610:a1:1076::71
 mls.			172800	IN	NS	ac1.nstld.com.
 mls.			172800	IN	NS	ac2.nstld.com.
 mls.			172800	IN	NS	ac3.nstld.com.
@@ -9125,7 +9144,6 @@ qa.			172800	IN	NS	f.registry.qa.
 qa.			172800	IN	NS	g.registry.qa.
 qa.			172800	IN	NS	h.registry.qa.
 qa.			172800	IN	NS	i.registry.qa.
-qa.			172800	IN	NS	l.registry.qa.
 qa.			86400	IN	NSEC	qpon. NS RRSIG NSEC
 a.registry.qa.		172800	IN	A	178.23.16.104
 b.registry.qa.		172800	IN	A	178.23.17.104
@@ -9140,7 +9158,6 @@ h.registry.qa.		172800	IN	A	193.0.9.51
 h.registry.qa.		172800	IN	AAAA	2001:67c:e0::51
 i.registry.qa.		172800	IN	A	204.61.216.62
 i.registry.qa.		172800	IN	AAAA	2001:500:14:6062:ad::1
-l.registry.qa.		172800	IN	A	185.62.164.1
 qpon.			172800	IN	NS	ns1.dns.nic.qpon.
 qpon.			172800	IN	NS	ns2.dns.nic.qpon.
 qpon.			172800	IN	NS	ns3.dns.nic.qpon.
