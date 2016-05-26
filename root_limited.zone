@@ -3661,6 +3661,7 @@ fi.			172800	IN	NS	d.fi.
 fi.			172800	IN	NS	e.fi.
 fi.			172800	IN	NS	f.fi.
 fi.			172800	IN	NS	g.fi.
+fi.			172800	IN	NS	h.fi.
 fi.			86400	IN	NSEC	film. NS DS RRSIG NSEC
 a.fi.			172800	IN	A	193.166.4.1
 a.fi.			172800	IN	AAAA	2001:708:10:53::53
@@ -3676,6 +3677,8 @@ f.fi.			172800	IN	A	87.239.127.198
 f.fi.			172800	IN	AAAA	2a00:13f0:0:3::aaaa
 g.fi.			172800	IN	A	204.61.216.98
 g.fi.			172800	IN	AAAA	2001:500:14:6098:ad::1
+h.fi.			172800	IN	A	87.239.120.11
+h.fi.			172800	IN	AAAA	2001:678:a0::aaaa
 film.			172800	IN	NS	a.nic.film.
 film.			172800	IN	NS	b.nic.film.
 film.			172800	IN	NS	c.nic.film.
