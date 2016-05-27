@@ -3209,7 +3209,20 @@ drive.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 drive.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 drive.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 drive.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-drive.			86400	IN	NSEC	dubai. NS DS RRSIG NSEC
+drive.			86400	IN	NSEC	dtv. NS DS RRSIG NSEC
+dtv.			172800	IN	NS	a0.nic.dtv.
+dtv.			172800	IN	NS	a2.nic.dtv.
+dtv.			172800	IN	NS	b0.nic.dtv.
+dtv.			172800	IN	NS	c0.nic.dtv.
+dtv.			86400	IN	NSEC	dubai. NS DS RRSIG NSEC
+a0.nic.dtv.		172800	IN	A	65.22.228.1
+a0.nic.dtv.		172800	IN	AAAA	2a01:8840:de::1
+a2.nic.dtv.		172800	IN	A	65.22.231.1
+a2.nic.dtv.		172800	IN	AAAA	2a01:8840:e1::1
+b0.nic.dtv.		172800	IN	A	65.22.229.1
+b0.nic.dtv.		172800	IN	AAAA	2a01:8840:df::1
+c0.nic.dtv.		172800	IN	A	65.22.230.1
+c0.nic.dtv.		172800	IN	AAAA	2a01:8840:e0::1
 dubai.			172800	IN	NS	gtld.beta.aridns.net.au.
 dubai.			172800	IN	NS	gtld.alpha.aridns.net.au.
 dubai.			172800	IN	NS	gtld.delta.aridns.net.au.
@@ -4390,10 +4403,10 @@ c.ns.gq.		172800	IN	A	185.21.170.65
 c.ns.gq.		172800	IN	AAAA	2a04:1b00:12::1
 d.ns.gq.		172800	IN	A	185.21.171.65
 d.ns.gq.		172800	IN	AAAA	2a04:1b00:13::1
+gr.			172800	IN	NS	gr-c.ics.forth.gr.
 gr.			172800	IN	NS	gr-m.ics.forth.gr.
 gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-at.ics.forth.gr.
-gr.			172800	IN	NS	gr-br.ics.forth.gr.
 gr.			172800	IN	NS	gr-ix.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
@@ -4401,7 +4414,8 @@ gr.			86400	IN	NSEC	grainger. NS DS RRSIG NSEC
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
-gr-br.ics.forth.gr.	172800	IN	A	200.160.7.163
+gr-c.ics.forth.gr.	172800	IN	A	194.0.1.25
+gr-c.ics.forth.gr.	172800	IN	AAAA	2001:678:4::19
 gr-ix.ics.forth.gr.	172800	IN	A	176.126.38.132
 gr-ix.ics.forth.gr.	172800	IN	AAAA	2001:7f8:6e:1::132
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
@@ -6271,7 +6285,20 @@ loans.			172800	IN	NS	demand.beta.aridns.net.au.
 loans.			172800	IN	NS	demand.alpha.aridns.net.au.
 loans.			172800	IN	NS	demand.delta.aridns.net.au.
 loans.			172800	IN	NS	demand.gamma.aridns.net.au.
-loans.			86400	IN	NSEC	locus. NS DS RRSIG NSEC
+loans.			86400	IN	NSEC	locker. NS DS RRSIG NSEC
+locker.			172800	IN	NS	a0.nic.locker.
+locker.			172800	IN	NS	a2.nic.locker.
+locker.			172800	IN	NS	b0.nic.locker.
+locker.			172800	IN	NS	c0.nic.locker.
+locker.			86400	IN	NSEC	locus. NS DS RRSIG NSEC
+a0.nic.locker.		172800	IN	A	65.22.96.33
+a0.nic.locker.		172800	IN	AAAA	2a01:8840:5e::33
+a2.nic.locker.		172800	IN	A	65.22.99.33
+a2.nic.locker.		172800	IN	AAAA	2a01:8840:61::33
+b0.nic.locker.		172800	IN	A	65.22.97.33
+b0.nic.locker.		172800	IN	AAAA	2a01:8840:5f::33
+c0.nic.locker.		172800	IN	A	65.22.98.33
+c0.nic.locker.		172800	IN	AAAA	2a01:8840:60::33
 locus.			172800	IN	NS	dns1.nic.locus.
 locus.			172800	IN	NS	dns2.nic.locus.
 locus.			172800	IN	NS	dns3.nic.locus.
@@ -8241,7 +8268,7 @@ olayangroup.		172800	IN	NS	a.nic.olayangroup.
 olayangroup.		172800	IN	NS	b.nic.olayangroup.
 olayangroup.		172800	IN	NS	c.nic.olayangroup.
 olayangroup.		172800	IN	NS	d.nic.olayangroup.
-olayangroup.		86400	IN	NSEC	om. NS DS RRSIG NSEC
+olayangroup.		86400	IN	NSEC	ollo. NS DS RRSIG NSEC
 a.nic.olayangroup.	172800	IN	A	37.209.192.9
 a.nic.olayangroup.	172800	IN	AAAA	2001:dcd:1::9
 b.nic.olayangroup.	172800	IN	A	37.209.194.9
@@ -8250,6 +8277,19 @@ c.nic.olayangroup.	172800	IN	A	37.209.196.9
 c.nic.olayangroup.	172800	IN	AAAA	2001:dcd:3::9
 d.nic.olayangroup.	172800	IN	A	37.209.198.9
 d.nic.olayangroup.	172800	IN	AAAA	2001:dcd:4::9
+ollo.			172800	IN	NS	a0.nic.ollo.
+ollo.			172800	IN	NS	a2.nic.ollo.
+ollo.			172800	IN	NS	b0.nic.ollo.
+ollo.			172800	IN	NS	c0.nic.ollo.
+ollo.			86400	IN	NSEC	om. NS DS RRSIG NSEC
+a0.nic.ollo.		172800	IN	A	65.22.96.1
+a0.nic.ollo.		172800	IN	AAAA	2a01:8840:5e::1
+a2.nic.ollo.		172800	IN	A	65.22.99.1
+a2.nic.ollo.		172800	IN	AAAA	2a01:8840:61::1
+b0.nic.ollo.		172800	IN	A	65.22.97.1
+b0.nic.ollo.		172800	IN	AAAA	2a01:8840:5f::1
+c0.nic.ollo.		172800	IN	A	65.22.98.1
+c0.nic.ollo.		172800	IN	AAAA	2a01:8840:60::1
 om.			172800	IN	NS	ns1.registry.om.
 om.			172800	IN	NS	ns2.registry.om.
 om.			172800	IN	NS	cctld.beta.aridns.net.au.
@@ -8470,7 +8510,20 @@ otsuka.			172800	IN	NS	a.gmoregistry.net.
 otsuka.			172800	IN	NS	b.gmoregistry.net.
 otsuka.			172800	IN	NS	k.gmoregistry.net.
 otsuka.			172800	IN	NS	l.gmoregistry.net.
-otsuka.			86400	IN	NSEC	ovh. NS DS RRSIG NSEC
+otsuka.			86400	IN	NSEC	ott. NS DS RRSIG NSEC
+ott.			172800	IN	NS	a0.nic.ott.
+ott.			172800	IN	NS	a2.nic.ott.
+ott.			172800	IN	NS	b0.nic.ott.
+ott.			172800	IN	NS	c0.nic.ott.
+ott.			86400	IN	NSEC	ovh. NS DS RRSIG NSEC
+a0.nic.ott.		172800	IN	A	65.22.92.9
+a0.nic.ott.		172800	IN	AAAA	2a01:8840:5a::9
+a2.nic.ott.		172800	IN	A	65.22.95.9
+a2.nic.ott.		172800	IN	AAAA	2a01:8840:5d::9
+b0.nic.ott.		172800	IN	A	65.22.93.9
+b0.nic.ott.		172800	IN	AAAA	2a01:8840:5b::9
+c0.nic.ott.		172800	IN	A	65.22.94.9
+c0.nic.ott.		172800	IN	AAAA	2a01:8840:5c::9
 ovh.			172800	IN	NS	d.nic.fr.
 ovh.			172800	IN	NS	f.ext.nic.fr.
 ovh.			172800	IN	NS	g.ext.nic.fr.
@@ -8982,7 +9035,7 @@ pro.			172800	IN	NS	b0.pro.afilias-nst.org.
 pro.			172800	IN	NS	b2.pro.afilias-nst.org.
 pro.			172800	IN	NS	c0.pro.afilias-nst.info.
 pro.			172800	IN	NS	d0.pro.afilias-nst.org.
-pro.			86400	IN	NSEC	prod. NS RRSIG NSEC
+pro.			86400	IN	NSEC	prod. NS DS RRSIG NSEC
 prod.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 prod.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 prod.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
