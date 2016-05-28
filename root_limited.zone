@@ -6557,7 +6557,7 @@ marriott.		172800	IN	NS	a0.nic.marriott.
 marriott.		172800	IN	NS	a2.nic.marriott.
 marriott.		172800	IN	NS	b0.nic.marriott.
 marriott.		172800	IN	NS	c0.nic.marriott.
-marriott.		86400	IN	NSEC	mba. NS DS RRSIG NSEC
+marriott.		86400	IN	NSEC	mattel. NS DS RRSIG NSEC
 a0.nic.marriott.	172800	IN	A	65.22.236.9
 a0.nic.marriott.	172800	IN	AAAA	2a01:8840:e6::9
 a2.nic.marriott.	172800	IN	A	65.22.239.9
@@ -6566,6 +6566,25 @@ b0.nic.marriott.	172800	IN	A	65.22.237.9
 b0.nic.marriott.	172800	IN	AAAA	2a01:8840:e7::9
 c0.nic.marriott.	172800	IN	A	65.22.238.9
 c0.nic.marriott.	172800	IN	AAAA	2a01:8840:e8::9
+mattel.			172800	IN	NS	ns1.dns.nic.mattel.
+mattel.			172800	IN	NS	ns2.dns.nic.mattel.
+mattel.			172800	IN	NS	ns3.dns.nic.mattel.
+mattel.			172800	IN	NS	ns4.dns.nic.mattel.
+mattel.			172800	IN	NS	ns5.dns.nic.mattel.
+mattel.			172800	IN	NS	ns6.dns.nic.mattel.
+mattel.			86400	IN	NSEC	mba. NS DS RRSIG NSEC
+ns1.dns.nic.mattel.	172800	IN	A	156.154.144.109
+ns1.dns.nic.mattel.	172800	IN	AAAA	2610:a1:1071::6d
+ns2.dns.nic.mattel.	172800	IN	A	156.154.145.109
+ns2.dns.nic.mattel.	172800	IN	AAAA	2610:a1:1072::6d
+ns3.dns.nic.mattel.	172800	IN	A	156.154.159.109
+ns3.dns.nic.mattel.	172800	IN	AAAA	2610:a1:1073::6d
+ns4.dns.nic.mattel.	172800	IN	A	156.154.156.109
+ns4.dns.nic.mattel.	172800	IN	AAAA	2610:a1:1074::6d
+ns5.dns.nic.mattel.	172800	IN	A	156.154.157.109
+ns5.dns.nic.mattel.	172800	IN	AAAA	2610:a1:1075::6d
+ns6.dns.nic.mattel.	172800	IN	A	156.154.158.109
+ns6.dns.nic.mattel.	172800	IN	AAAA	2610:a1:1076::6d
 mba.			172800	IN	NS	demand.beta.aridns.net.au.
 mba.			172800	IN	NS	demand.alpha.aridns.net.au.
 mba.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7880,7 +7899,7 @@ netbank.		172800	IN	NS	a.nic.netbank.
 netbank.		172800	IN	NS	b.nic.netbank.
 netbank.		172800	IN	NS	c.nic.netbank.
 netbank.		172800	IN	NS	d.nic.netbank.
-netbank.		86400	IN	NSEC	network. NS DS RRSIG NSEC
+netbank.		86400	IN	NSEC	netflix. NS DS RRSIG NSEC
 a.nic.netbank.		172800	IN	A	37.209.192.9
 a.nic.netbank.		172800	IN	AAAA	2001:dcd:1::9
 b.nic.netbank.		172800	IN	A	37.209.194.9
@@ -7889,6 +7908,25 @@ c.nic.netbank.		172800	IN	A	37.209.196.9
 c.nic.netbank.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.netbank.		172800	IN	A	37.209.198.9
 d.nic.netbank.		172800	IN	AAAA	2001:dcd:4::9
+netflix.		172800	IN	NS	ns1.dns.nic.netflix.
+netflix.		172800	IN	NS	ns2.dns.nic.netflix.
+netflix.		172800	IN	NS	ns3.dns.nic.netflix.
+netflix.		172800	IN	NS	ns4.dns.nic.netflix.
+netflix.		172800	IN	NS	ns5.dns.nic.netflix.
+netflix.		172800	IN	NS	ns6.dns.nic.netflix.
+netflix.		86400	IN	NSEC	network. NS DS RRSIG NSEC
+ns1.dns.nic.netflix.	172800	IN	A	156.154.144.121
+ns1.dns.nic.netflix.	172800	IN	AAAA	2610:a1:1071::79
+ns2.dns.nic.netflix.	172800	IN	A	156.154.145.121
+ns2.dns.nic.netflix.	172800	IN	AAAA	2610:a1:1072::79
+ns3.dns.nic.netflix.	172800	IN	A	156.154.159.121
+ns3.dns.nic.netflix.	172800	IN	AAAA	2610:a1:1073::79
+ns4.dns.nic.netflix.	172800	IN	A	156.154.156.121
+ns4.dns.nic.netflix.	172800	IN	AAAA	2610:a1:1074::79
+ns5.dns.nic.netflix.	172800	IN	A	156.154.157.121
+ns5.dns.nic.netflix.	172800	IN	AAAA	2610:a1:1075::79
+ns6.dns.nic.netflix.	172800	IN	A	156.154.158.121
+ns6.dns.nic.netflix.	172800	IN	AAAA	2610:a1:1076::79
 network.		172800	IN	NS	demand.beta.aridns.net.au.
 network.		172800	IN	NS	demand.alpha.aridns.net.au.
 network.		172800	IN	NS	demand.delta.aridns.net.au.
