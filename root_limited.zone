@@ -11730,7 +11730,20 @@ uol.			172800	IN	NS	c.dns.br.
 uol.			172800	IN	NS	d.dns.br.
 uol.			172800	IN	NS	e.dns.br.
 uol.			172800	IN	NS	f.dns.br.
-uol.			86400	IN	NSEC	us. NS DS RRSIG NSEC
+uol.			86400	IN	NSEC	ups. NS DS RRSIG NSEC
+ups.			172800	IN	NS	a0.nic.ups.
+ups.			172800	IN	NS	a2.nic.ups.
+ups.			172800	IN	NS	b0.nic.ups.
+ups.			172800	IN	NS	c0.nic.ups.
+ups.			86400	IN	NSEC	us. NS DS RRSIG NSEC
+a0.nic.ups.		172800	IN	A	65.22.240.1
+a0.nic.ups.		172800	IN	AAAA	2a01:8840:ea::1
+a2.nic.ups.		172800	IN	A	65.22.243.1
+a2.nic.ups.		172800	IN	AAAA	2a01:8840:ed::1
+b0.nic.ups.		172800	IN	A	65.22.241.1
+b0.nic.ups.		172800	IN	AAAA	2a01:8840:eb::1
+c0.nic.ups.		172800	IN	A	65.22.242.1
+c0.nic.ups.		172800	IN	AAAA	2a01:8840:ec::1
 us.			172800	IN	NS	a.cctld.us.
 us.			172800	IN	NS	b.cctld.us.
 us.			172800	IN	NS	c.cctld.us.
