@@ -5270,7 +5270,6 @@ b0.nic.irish.		172800	IN	A	65.22.197.17
 b0.nic.irish.		172800	IN	AAAA	2a01:8840:bf::17
 c0.nic.irish.		172800	IN	A	65.22.198.17
 c0.nic.irish.		172800	IN	AAAA	2a01:8840:c0::17
-is.			172800	IN	NS	is.cctld.authdns.ripe.net.
 is.			172800	IN	NS	sab.isnic.is.
 is.			172800	IN	NS	sunic.sunet.se.
 is.			172800	IN	NS	durinn.rhnet.is.
@@ -7773,8 +7772,6 @@ gy.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.79
 gy.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::79
 ir.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.85
 ir.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::85
-is.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.81
-is.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::81
 jm.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.82
 jm.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::82
 jo.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.83
@@ -11141,7 +11138,9 @@ tf.			172800	IN	NS	e.ext.nic.fr.
 tf.			172800	IN	NS	f.ext.nic.fr.
 tf.			172800	IN	NS	g.ext.nic.fr.
 tf.			86400	IN	NSEC	tg. NS DS RRSIG NSEC
+tg.			172800	IN	NS	ns1.nic.tg.
 tg.			172800	IN	NS	ns1.admin.net.
+tg.			172800	IN	NS	ns2.nic.tg.
 tg.			172800	IN	NS	ns2.admin.net.
 tg.			172800	IN	NS	ns3.admin.net.
 tg.			172800	IN	NS	ns4.admin.net.
@@ -11149,6 +11148,8 @@ tg.			172800	IN	NS	ns5.admin.net.
 tg.			172800	IN	NS	tld.cafe.tg.
 tg.			86400	IN	NSEC	th. NS RRSIG NSEC
 tld.cafe.tg.		172800	IN	A	80.248.64.20
+ns1.nic.tg.		172800	IN	A	41.207.188.36
+ns2.nic.tg.		172800	IN	A	80.248.68.12
 th.			172800	IN	NS	a.thains.co.th.
 th.			172800	IN	NS	b.thains.co.th.
 th.			172800	IN	NS	c.thains.co.th.
@@ -13494,7 +13495,7 @@ xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
-xn--ogbpf8fl.		86400	IN	NSEC	xn--p1acf. NS RRSIG NSEC
+xn--ogbpf8fl.		86400	IN	NSEC	xn--p1acf. NS DS RRSIG NSEC
 xn--p1acf.		172800	IN	NS	a.xn--p1acf.dyntld.net.
 xn--p1acf.		172800	IN	NS	b.xn--p1acf.dyntld.net.
 xn--p1acf.		172800	IN	NS	tld1.coccaregistry.net.
