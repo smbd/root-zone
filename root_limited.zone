@@ -1883,7 +1883,6 @@ cat.			172800	IN	NS	ns.nic.cat.
 cat.			172800	IN	NS	cat.pch.net.
 cat.			172800	IN	NS	ns1.nic.es.
 cat.			172800	IN	NS	nsc.nic.de.
-cat.			172800	IN	NS	dnsc.ad.
 cat.			172800	IN	NS	anyc1.irondns.net.
 cat.			172800	IN	NS	sns-pb.isc.org.
 cat.			172800	IN	NS	switch.nic.cat.
@@ -3061,7 +3060,19 @@ dev.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 dev.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 dev.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 dev.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-dev.			86400	IN	NSEC	diamonds. NS DS RRSIG NSEC
+dev.			86400	IN	NSEC	dhl. NS DS RRSIG NSEC
+dhl.			172800	IN	NS	a.ns.nic.dhl.
+dhl.			172800	IN	NS	c.ns.nic.dhl.
+dhl.			172800	IN	NS	x.ns.nic.dhl.
+dhl.			172800	IN	NS	y.ns.nic.dhl.
+dhl.			86400	IN	NSEC	diamonds. NS DS RRSIG NSEC
+a.ns.nic.dhl.		172800	IN	A	89.207.190.28
+a.ns.nic.dhl.		172800	IN	AAAA	2a02:2790:1:53::22:1
+c.ns.nic.dhl.		172800	IN	A	46.137.111.0
+x.ns.nic.dhl.		172800	IN	A	195.253.64.4
+x.ns.nic.dhl.		172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.dhl.		172800	IN	A	195.253.64.7
+y.ns.nic.dhl.		172800	IN	AAAA	2a01:5b0:4::7
 diamonds.		172800	IN	NS	demand.beta.aridns.net.au.
 diamonds.		172800	IN	NS	demand.alpha.aridns.net.au.
 diamonds.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -4111,7 +4122,12 @@ game.			172800	IN	NS	a.game.dyntld.net.
 game.			172800	IN	NS	b.game.dyntld.net.
 game.			172800	IN	NS	c.game.dyntld.net.
 game.			172800	IN	NS	ns1.uniregistry.net.
-game.			86400	IN	NSEC	garden. NS DS RRSIG NSEC
+game.			86400	IN	NSEC	games. NS DS RRSIG NSEC
+games.			172800	IN	NS	demand.beta.aridns.net.au.
+games.			172800	IN	NS	demand.alpha.aridns.net.au.
+games.			172800	IN	NS	demand.delta.aridns.net.au.
+games.			172800	IN	NS	demand.gamma.aridns.net.au.
+games.			86400	IN	NSEC	garden. NS DS RRSIG NSEC
 garden.			172800	IN	NS	a.ns.nic.garden.
 garden.			172800	IN	NS	b.ns.nic.garden.
 garden.			172800	IN	NS	c.ns.nic.garden.
@@ -4655,7 +4671,12 @@ hiphop.			172800	IN	NS	a.hiphop.dyntld.net.
 hiphop.			172800	IN	NS	b.hiphop.dyntld.net.
 hiphop.			172800	IN	NS	c.hiphop.dyntld.net.
 hiphop.			172800	IN	NS	ns1.uniregistry.net.
-hiphop.			86400	IN	NSEC	hitachi. NS DS RRSIG NSEC
+hiphop.			86400	IN	NSEC	hisamitsu. NS DS RRSIG NSEC
+hisamitsu.		172800	IN	NS	a.gmoregistry.net.
+hisamitsu.		172800	IN	NS	b.gmoregistry.net.
+hisamitsu.		172800	IN	NS	k.gmoregistry.net.
+hisamitsu.		172800	IN	NS	l.gmoregistry.net.
+hisamitsu.		86400	IN	NSEC	hitachi. NS DS RRSIG NSEC
 hitachi.		172800	IN	NS	a.gmoregistry.net.
 hitachi.		172800	IN	NS	b.gmoregistry.net.
 hitachi.		172800	IN	NS	k.gmoregistry.net.
@@ -8883,7 +8904,7 @@ pink.			172800	IN	NS	a0.nic.pink.
 pink.			172800	IN	NS	a2.nic.pink.
 pink.			172800	IN	NS	b0.nic.pink.
 pink.			172800	IN	NS	c0.nic.pink.
-pink.			86400	IN	NSEC	pizza. NS DS RRSIG NSEC
+pink.			86400	IN	NSEC	pioneer. NS DS RRSIG NSEC
 a0.nic.pink.		172800	IN	A	65.22.28.17
 a0.nic.pink.		172800	IN	AAAA	2a01:8840:1e::17
 a2.nic.pink.		172800	IN	A	65.22.31.17
@@ -8892,6 +8913,11 @@ b0.nic.pink.		172800	IN	A	65.22.29.17
 b0.nic.pink.		172800	IN	AAAA	2a01:8840:1f::17
 c0.nic.pink.		172800	IN	A	65.22.30.17
 c0.nic.pink.		172800	IN	AAAA	2a01:8840:20::17
+pioneer.		172800	IN	NS	a.gmoregistry.net.
+pioneer.		172800	IN	NS	b.gmoregistry.net.
+pioneer.		172800	IN	NS	k.gmoregistry.net.
+pioneer.		172800	IN	NS	l.gmoregistry.net.
+pioneer.		86400	IN	NSEC	pizza. NS DS RRSIG NSEC
 pizza.			172800	IN	NS	demand.beta.aridns.net.au.
 pizza.			172800	IN	NS	demand.alpha.aridns.net.au.
 pizza.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -13887,7 +13913,7 @@ za.			172800	IN	NS	disa.tenet.ac.za.
 za.			172800	IN	NS	nsza.is.co.za.
 za.			172800	IN	NS	za-ns.anycast.pch.net.
 za.			172800	IN	NS	sns-pb.isc.org.
-za.			86400	IN	NSEC	zara. NS RRSIG NSEC
+za.			86400	IN	NSEC	zappos. NS RRSIG NSEC
 hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 hippo.ru.ac.za.		172800	IN	AAAA	2001:4200:1010::1
 disa.tenet.ac.za.	172800	IN	A	196.21.79.50
@@ -13896,6 +13922,25 @@ nsza.is.co.za.		172800	IN	A	196.4.160.27
 ns.coza.net.za.		172800	IN	A	206.223.136.200
 ns.coza.net.za.		172800	IN	AAAA	2001:43f8:30::200
 ns1.coza.net.za.	172800	IN	A	66.135.62.20
+zappos.			172800	IN	NS	ns1.dns.nic.zappos.
+zappos.			172800	IN	NS	ns2.dns.nic.zappos.
+zappos.			172800	IN	NS	ns3.dns.nic.zappos.
+zappos.			172800	IN	NS	ns4.dns.nic.zappos.
+zappos.			172800	IN	NS	ns5.dns.nic.zappos.
+zappos.			172800	IN	NS	ns6.dns.nic.zappos.
+zappos.			86400	IN	NSEC	zara. NS DS RRSIG NSEC
+ns1.dns.nic.zappos.	172800	IN	A	156.154.144.187
+ns1.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1071::bb
+ns2.dns.nic.zappos.	172800	IN	A	156.154.145.187
+ns2.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1072::bb
+ns3.dns.nic.zappos.	172800	IN	A	156.154.159.187
+ns3.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1073::bb
+ns4.dns.nic.zappos.	172800	IN	A	156.154.156.187
+ns4.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1074::bb
+ns5.dns.nic.zappos.	172800	IN	A	156.154.157.187
+ns5.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1075::bb
+ns6.dns.nic.zappos.	172800	IN	A	156.154.158.187
+ns6.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1076::bb
 zara.			172800	IN	NS	a0.nic.zara.
 zara.			172800	IN	NS	a2.nic.zara.
 zara.			172800	IN	NS	b0.nic.zara.
