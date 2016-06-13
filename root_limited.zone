@@ -2055,10 +2055,10 @@ ch.			172800	IN	NS	f.nic.ch.
 ch.			172800	IN	NS	h.nic.ch.
 ch.			86400	IN	NSEC	chanel. NS DS RRSIG NSEC
 ns.itu.ch.		172800	IN	A	156.106.192.121
-a.nic.ch.		172800	IN	A	130.59.1.80
-a.nic.ch.		172800	IN	AAAA	2001:620::4
-b.nic.ch.		172800	IN	A	130.59.211.10
-b.nic.ch.		172800	IN	AAAA	2001:620::5
+a.nic.ch.		172800	IN	A	130.59.31.41
+a.nic.ch.		172800	IN	AAAA	2001:620:0:ff::56
+b.nic.ch.		172800	IN	A	130.59.31.43
+b.nic.ch.		172800	IN	AAAA	2001:620:0:ff::58
 c.nic.ch.		172800	IN	A	147.28.0.39
 c.nic.ch.		172800	IN	AAAA	2001:418:1::39
 d.nic.ch.		172800	IN	A	200.160.0.5
@@ -6312,10 +6312,10 @@ li.			172800	IN	NS	e.nic.li.
 li.			172800	IN	NS	f.nic.li.
 li.			172800	IN	NS	h.nic.li.
 li.			86400	IN	NSEC	liaison. NS DS RRSIG NSEC
-a.nic.li.		172800	IN	A	130.59.1.80
-a.nic.li.		172800	IN	AAAA	2001:620::4
-b.nic.li.		172800	IN	A	130.59.211.10
-b.nic.li.		172800	IN	AAAA	2001:620::5
+a.nic.li.		172800	IN	A	130.59.31.42
+a.nic.li.		172800	IN	AAAA	2001:620:0:ff::57
+b.nic.li.		172800	IN	A	130.59.31.44
+b.nic.li.		172800	IN	AAAA	2001:620:0:ff::59
 c.nic.li.		172800	IN	A	147.28.0.39
 c.nic.li.		172800	IN	AAAA	2001:418:1::39
 d.nic.li.		172800	IN	A	200.160.0.5
@@ -13867,7 +13867,6 @@ xn--qcka1pmc.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 xn--qcka1pmc.		86400	IN	NSEC	xn--qxam. NS DS RRSIG NSEC
 xn--qxam.		172800	IN	NS	estia.ics.forth.gr.
 xn--qxam.		172800	IN	NS	gr-at.ics.forth.gr.
-xn--qxam.		172800	IN	NS	gr-ix.ics.forth.gr.
 xn--qxam.		172800	IN	NS	grdns.ics.forth.gr.
 xn--qxam.		172800	IN	NS	grdns-de.denic.de.
 xn--qxam.		86400	IN	NSEC	xn--rhqv96g. NS RRSIG NSEC
