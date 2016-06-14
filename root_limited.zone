@@ -13674,7 +13674,7 @@ xn--mgberp4a5d4ar.	172800	IN	NS	ns1.isu.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	sa-ns.anycast.pch.net.
-xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbpl2fh. NS RRSIG NSEC
+xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--mgbpl2fh. NS DS RRSIG NSEC
 xn--mgbpl2fh.		172800	IN	NS	pch.sis.sd.
 xn--mgbpl2fh.		172800	IN	NS	ans1.sis.sd.
 xn--mgbpl2fh.		86400	IN	NSEC	xn--mgbt3dhd. NS RRSIG NSEC
