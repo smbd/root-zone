@@ -1767,7 +1767,7 @@ call.			172800	IN	NS	ns3.dns.nic.call.
 call.			172800	IN	NS	ns4.dns.nic.call.
 call.			172800	IN	NS	ns5.dns.nic.call.
 call.			172800	IN	NS	ns6.dns.nic.call.
-call.			86400	IN	NSEC	camera. NS DS RRSIG NSEC
+call.			86400	IN	NSEC	cam. NS DS RRSIG NSEC
 ns1.dns.nic.call.	172800	IN	A	156.154.144.30
 ns1.dns.nic.call.	172800	IN	AAAA	2610:a1:1071::1e
 ns2.dns.nic.call.	172800	IN	A	156.154.145.30
@@ -1780,6 +1780,11 @@ ns5.dns.nic.call.	172800	IN	A	156.154.157.30
 ns5.dns.nic.call.	172800	IN	AAAA	2610:a1:1075::1e
 ns6.dns.nic.call.	172800	IN	A	156.154.158.30
 ns6.dns.nic.call.	172800	IN	AAAA	2610:a1:1076::1e
+cam.			172800	IN	NS	ns1a.ksregistry.net.
+cam.			172800	IN	NS	ns1b.ksregistry.net.
+cam.			172800	IN	NS	ns2a.ksregistry.com.
+cam.			172800	IN	NS	ns2b.ksregistry.com.
+cam.			86400	IN	NSEC	camera. NS DS RRSIG NSEC
 camera.			172800	IN	NS	demand.beta.aridns.net.au.
 camera.			172800	IN	NS	demand.alpha.aridns.net.au.
 camera.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -6285,7 +6290,12 @@ legal.			172800	IN	NS	demand.beta.aridns.net.au.
 legal.			172800	IN	NS	demand.alpha.aridns.net.au.
 legal.			172800	IN	NS	demand.delta.aridns.net.au.
 legal.			172800	IN	NS	demand.gamma.aridns.net.au.
-legal.			86400	IN	NSEC	lexus. NS DS RRSIG NSEC
+legal.			86400	IN	NSEC	lego. NS DS RRSIG NSEC
+lego.			172800	IN	NS	ac1.nstld.com.
+lego.			172800	IN	NS	ac2.nstld.com.
+lego.			172800	IN	NS	ac3.nstld.com.
+lego.			172800	IN	NS	ac4.nstld.com.
+lego.			86400	IN	NSEC	lexus. NS DS RRSIG NSEC
 lexus.			172800	IN	NS	a.gmoregistry.net.
 lexus.			172800	IN	NS	b.gmoregistry.net.
 lexus.			172800	IN	NS	k.gmoregistry.net.
