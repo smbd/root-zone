@@ -4576,7 +4576,6 @@ gr.			172800	IN	NS	gr-c.ics.forth.gr.
 gr.			172800	IN	NS	gr-m.ics.forth.gr.
 gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-at.ics.forth.gr.
-gr.			172800	IN	NS	gr-ix.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
 gr.			86400	IN	NSEC	grainger. NS DS RRSIG NSEC
@@ -4585,8 +4584,6 @@ estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30::191:3
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
 gr-c.ics.forth.gr.	172800	IN	A	194.0.1.25
 gr-c.ics.forth.gr.	172800	IN	AAAA	2001:678:4::19
-gr-ix.ics.forth.gr.	172800	IN	A	176.126.38.132
-gr-ix.ics.forth.gr.	172800	IN	AAAA	2001:7f8:6e:1::132
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7::4:10
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
