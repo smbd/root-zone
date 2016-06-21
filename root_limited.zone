@@ -62,7 +62,7 @@ abbvie.			172800	IN	NS	a0.nic.abbvie.
 abbvie.			172800	IN	NS	a2.nic.abbvie.
 abbvie.			172800	IN	NS	b0.nic.abbvie.
 abbvie.			172800	IN	NS	c0.nic.abbvie.
-abbvie.			86400	IN	NSEC	abogado. NS DS RRSIG NSEC
+abbvie.			86400	IN	NSEC	able. NS DS RRSIG NSEC
 a0.nic.abbvie.		172800	IN	A	65.22.156.17
 a0.nic.abbvie.		172800	IN	AAAA	2a01:8840:9a::17
 a2.nic.abbvie.		172800	IN	A	65.22.159.17
@@ -71,6 +71,25 @@ b0.nic.abbvie.		172800	IN	A	65.22.157.17
 b0.nic.abbvie.		172800	IN	AAAA	2a01:8840:9b::17
 c0.nic.abbvie.		172800	IN	A	65.22.158.17
 c0.nic.abbvie.		172800	IN	AAAA	2a01:8840:9c::17
+able.			172800	IN	NS	ns1.dns.nic.able.
+able.			172800	IN	NS	ns2.dns.nic.able.
+able.			172800	IN	NS	ns3.dns.nic.able.
+able.			172800	IN	NS	ns4.dns.nic.able.
+able.			172800	IN	NS	ns5.dns.nic.able.
+able.			172800	IN	NS	ns6.dns.nic.able.
+able.			86400	IN	NSEC	abogado. NS DS RRSIG NSEC
+ns1.dns.nic.able.	172800	IN	A	156.154.144.3
+ns1.dns.nic.able.	172800	IN	AAAA	2610:a1:1071::3
+ns2.dns.nic.able.	172800	IN	A	156.154.145.3
+ns2.dns.nic.able.	172800	IN	AAAA	2610:a1:1072::3
+ns3.dns.nic.able.	172800	IN	A	156.154.159.3
+ns3.dns.nic.able.	172800	IN	AAAA	2610:a1:1073::3
+ns4.dns.nic.able.	172800	IN	A	156.154.156.3
+ns4.dns.nic.able.	172800	IN	AAAA	2610:a1:1074::3
+ns5.dns.nic.able.	172800	IN	A	156.154.157.3
+ns5.dns.nic.able.	172800	IN	AAAA	2610:a1:1075::3
+ns6.dns.nic.able.	172800	IN	A	156.154.158.3
+ns6.dns.nic.able.	172800	IN	AAAA	2610:a1:1076::3
 abogado.		172800	IN	NS	a.ns.nic.abogado.
 abogado.		172800	IN	NS	b.ns.nic.abogado.
 abogado.		172800	IN	NS	c.ns.nic.abogado.
@@ -494,7 +513,20 @@ anquan.			172800	IN	NS	ns1.teleinfo.cn.
 anquan.			172800	IN	NS	ns2.teleinfoo.com.
 anquan.			172800	IN	NS	ns3.teleinfo.cn.
 anquan.			172800	IN	NS	ns4.teleinfoo.com.
-anquan.			86400	IN	NSEC	ao. NS DS RRSIG NSEC
+anquan.			86400	IN	NSEC	anz. NS DS RRSIG NSEC
+anz.			172800	IN	NS	a.nic.anz.
+anz.			172800	IN	NS	b.nic.anz.
+anz.			172800	IN	NS	c.nic.anz.
+anz.			172800	IN	NS	d.nic.anz.
+anz.			86400	IN	NSEC	ao. NS DS RRSIG NSEC
+a.nic.anz.		172800	IN	A	37.209.192.9
+a.nic.anz.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.anz.		172800	IN	A	37.209.194.9
+b.nic.anz.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.anz.		172800	IN	A	37.209.196.9
+c.nic.anz.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.anz.		172800	IN	A	37.209.198.9
+d.nic.anz.		172800	IN	AAAA	2001:dcd:4::9
 ao.			172800	IN	NS	ns02.dns.ao.
 ao.			172800	IN	NS	ns02.fccn.pt.
 ao.			172800	IN	NS	ns03.fccn.pt.
@@ -1292,7 +1324,12 @@ blackfriday.		172800	IN	NS	a.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	b.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	c.blackfriday.dyntld.net.
 blackfriday.		172800	IN	NS	ns1.uniregistry.net.
-blackfriday.		86400	IN	NSEC	blog. NS DS RRSIG NSEC
+blackfriday.		86400	IN	NSEC	blanco. NS DS RRSIG NSEC
+blanco.			172800	IN	NS	ac1.nstld.com.
+blanco.			172800	IN	NS	ac2.nstld.com.
+blanco.			172800	IN	NS	ac3.nstld.com.
+blanco.			172800	IN	NS	ac4.nstld.com.
+blanco.			86400	IN	NSEC	blog. NS DS RRSIG NSEC
 blog.			172800	IN	NS	dns1.nic.blog.
 blog.			172800	IN	NS	dns2.nic.blog.
 blog.			172800	IN	NS	dns3.nic.blog.
@@ -2516,6 +2553,7 @@ an4.nstld.com.		172800	IN	A	192.82.138.30
 an4.nstld.com.		172800	IN	AAAA	2001:500:12b::30
 ns1.pair.com.		172800	IN	A	209.68.1.11
 rain.psg.com.		172800	IN	A	147.28.0.34
+rain.psg.com.		172800	IN	AAAA	2001:418:1::34
 rip.psg.com.		172800	IN	A	147.28.0.39
 rip.psg.com.		172800	IN	AAAA	2001:418:1::39
 ns1.net.reach.com.	172800	IN	A	134.159.2.140
@@ -5554,7 +5592,7 @@ itau.			172800	IN	NS	ns3.dns.nic.itau.
 itau.			172800	IN	NS	ns4.dns.nic.itau.
 itau.			172800	IN	NS	ns5.dns.nic.itau.
 itau.			172800	IN	NS	ns6.dns.nic.itau.
-itau.			86400	IN	NSEC	iwc. NS DS RRSIG NSEC
+itau.			86400	IN	NSEC	itv. NS DS RRSIG NSEC
 ns1.dns.nic.itau.	172800	IN	A	156.154.144.84
 ns1.dns.nic.itau.	172800	IN	AAAA	2610:a1:1071::54
 ns2.dns.nic.itau.	172800	IN	A	156.154.145.84
@@ -5567,6 +5605,19 @@ ns5.dns.nic.itau.	172800	IN	A	156.154.157.84
 ns5.dns.nic.itau.	172800	IN	AAAA	2610:a1:1075::54
 ns6.dns.nic.itau.	172800	IN	A	156.154.158.84
 ns6.dns.nic.itau.	172800	IN	AAAA	2610:a1:1076::54
+itv.			172800	IN	NS	a0.nic.itv.
+itv.			172800	IN	NS	a2.nic.itv.
+itv.			172800	IN	NS	b0.nic.itv.
+itv.			172800	IN	NS	c0.nic.itv.
+itv.			86400	IN	NSEC	iwc. NS DS RRSIG NSEC
+a0.nic.itv.		172800	IN	A	65.22.88.25
+a0.nic.itv.		172800	IN	AAAA	2a01:8840:56::25
+a2.nic.itv.		172800	IN	A	65.22.91.25
+a2.nic.itv.		172800	IN	AAAA	2a01:8840:59::25
+b0.nic.itv.		172800	IN	A	65.22.89.25
+b0.nic.itv.		172800	IN	AAAA	2a01:8840:57::25
+c0.nic.itv.		172800	IN	A	65.22.90.25
+c0.nic.itv.		172800	IN	AAAA	2a01:8840:58::25
 iwc.			172800	IN	NS	ns1.dns.nic.iwc.
 iwc.			172800	IN	NS	ns2.dns.nic.iwc.
 iwc.			172800	IN	NS	ns3.dns.nic.iwc.
@@ -7456,7 +7507,6 @@ nc.			172800	IN	NS	nc.cctld.authdns.ripe.net.
 nc.			172800	IN	NS	ns1.nc.
 nc.			172800	IN	NS	ns2.nc.
 nc.			172800	IN	NS	any-ns1.nc.
-nc.			172800	IN	NS	censvrns0001.ird.fr.
 nc.			86400	IN	NSEC	ne. NS DS RRSIG NSEC
 any-ns1.nc.		172800	IN	A	114.69.222.1
 any-ns1.nc.		172800	IN	AAAA	2001:500:14:8000:7245:de00:0:1
@@ -10553,7 +10603,12 @@ shop.			172800	IN	NS	a.gmoregistry.net.
 shop.			172800	IN	NS	b.gmoregistry.net.
 shop.			172800	IN	NS	k.gmoregistry.net.
 shop.			172800	IN	NS	l.gmoregistry.net.
-shop.			86400	IN	NSEC	shouji. NS DS RRSIG NSEC
+shop.			86400	IN	NSEC	shopping. NS DS RRSIG NSEC
+shopping.		172800	IN	NS	demand.beta.aridns.net.au.
+shopping.		172800	IN	NS	demand.alpha.aridns.net.au.
+shopping.		172800	IN	NS	demand.delta.aridns.net.au.
+shopping.		172800	IN	NS	demand.gamma.aridns.net.au.
+shopping.		86400	IN	NSEC	shouji. NS DS RRSIG NSEC
 shouji.			172800	IN	NS	ns1.teleinfo.cn.
 shouji.			172800	IN	NS	ns2.teleinfoo.com.
 shouji.			172800	IN	NS	ns3.teleinfo.cn.
