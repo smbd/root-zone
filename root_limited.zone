@@ -626,7 +626,20 @@ arpa.			172800	IN	NS	i.root-servers.net.
 arpa.			172800	IN	NS	k.root-servers.net.
 arpa.			172800	IN	NS	l.root-servers.net.
 arpa.			172800	IN	NS	m.root-servers.net.
-arpa.			86400	IN	NSEC	arte. NS DS RRSIG NSEC
+arpa.			86400	IN	NSEC	art. NS DS RRSIG NSEC
+art.			172800	IN	NS	a.nic.art.
+art.			172800	IN	NS	b.nic.art.
+art.			172800	IN	NS	c.nic.art.
+art.			172800	IN	NS	d.nic.art.
+art.			86400	IN	NSEC	arte. NS DS RRSIG NSEC
+a.nic.art.		172800	IN	A	194.169.218.49
+a.nic.art.		172800	IN	AAAA	2001:67c:13cc::1:49
+b.nic.art.		172800	IN	A	185.24.64.49
+b.nic.art.		172800	IN	AAAA	2a04:2b00:13cc::1:49
+c.nic.art.		172800	IN	A	212.18.248.49
+c.nic.art.		172800	IN	AAAA	2a04:2b00:13ee::49
+d.nic.art.		172800	IN	A	212.18.249.49
+d.nic.art.		172800	IN	AAAA	2a04:2b00:13ff::49
 arte.			172800	IN	NS	ac1.nstld.com.
 arte.			172800	IN	NS	ac2.nstld.com.
 arte.			172800	IN	NS	ac3.nstld.com.
@@ -2669,7 +2682,7 @@ cooking.		172800	IN	NS	a.ns.nic.cooking.
 cooking.		172800	IN	NS	b.ns.nic.cooking.
 cooking.		172800	IN	NS	c.ns.nic.cooking.
 cooking.		172800	IN	NS	d.ns.nic.cooking.
-cooking.		86400	IN	NSEC	cool. NS DS RRSIG NSEC
+cooking.		86400	IN	NSEC	cookingchannel. NS DS RRSIG NSEC
 a.ns.nic.cooking.	172800	IN	A	72.0.50.10
 a.ns.nic.cooking.	172800	IN	AAAA	2620:171:a02:ad::10
 b.ns.nic.cooking.	172800	IN	A	72.42.114.10
@@ -2678,6 +2691,11 @@ c.ns.nic.cooking.	172800	IN	A	70.40.0.10
 c.ns.nic.cooking.	172800	IN	AAAA	2620:171:c00:c::10
 d.ns.nic.cooking.	172800	IN	A	70.40.8.10
 d.ns.nic.cooking.	172800	IN	AAAA	2620:171:f00:d::10
+cookingchannel.		172800	IN	NS	ac1.nstld.com.
+cookingchannel.		172800	IN	NS	ac2.nstld.com.
+cookingchannel.		172800	IN	NS	ac3.nstld.com.
+cookingchannel.		172800	IN	NS	ac4.nstld.com.
+cookingchannel.		86400	IN	NSEC	cool. NS DS RRSIG NSEC
 cool.			172800	IN	NS	demand.beta.aridns.net.au.
 cool.			172800	IN	NS	demand.alpha.aridns.net.au.
 cool.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -4072,7 +4090,12 @@ foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-foo.			86400	IN	NSEC	football. NS DS RRSIG NSEC
+foo.			86400	IN	NSEC	foodnetwork. NS DS RRSIG NSEC
+foodnetwork.		172800	IN	NS	ac1.nstld.com.
+foodnetwork.		172800	IN	NS	ac2.nstld.com.
+foodnetwork.		172800	IN	NS	ac3.nstld.com.
+foodnetwork.		172800	IN	NS	ac4.nstld.com.
+foodnetwork.		86400	IN	NSEC	football. NS DS RRSIG NSEC
 football.		172800	IN	NS	demand.beta.aridns.net.au.
 football.		172800	IN	NS	demand.alpha.aridns.net.au.
 football.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -4198,7 +4221,12 @@ y.ns.nic.frl.		172800	IN	AAAA	2a01:5b0:4::7
 frogans.		172800	IN	NS	d.nic.fr.
 frogans.		172800	IN	NS	f.ext.nic.fr.
 frogans.		172800	IN	NS	g.ext.nic.fr.
-frogans.		86400	IN	NSEC	frontier. NS DS RRSIG NSEC
+frogans.		86400	IN	NSEC	frontdoor. NS DS RRSIG NSEC
+frontdoor.		172800	IN	NS	ac1.nstld.com.
+frontdoor.		172800	IN	NS	ac2.nstld.com.
+frontdoor.		172800	IN	NS	ac3.nstld.com.
+frontdoor.		172800	IN	NS	ac4.nstld.com.
+frontdoor.		86400	IN	NSEC	frontier. NS DS RRSIG NSEC
 frontier.		172800	IN	NS	ns1.dns.nic.frontier.
 frontier.		172800	IN	NS	ns2.dns.nic.frontier.
 frontier.		172800	IN	NS	ns3.dns.nic.frontier.
@@ -4847,7 +4875,7 @@ hermes.			172800	IN	NS	a0.nic.hermes.
 hermes.			172800	IN	NS	a2.nic.hermes.
 hermes.			172800	IN	NS	b0.nic.hermes.
 hermes.			172800	IN	NS	c0.nic.hermes.
-hermes.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
+hermes.			86400	IN	NSEC	hgtv. NS DS RRSIG NSEC
 a0.nic.hermes.		172800	IN	A	65.22.232.25
 a0.nic.hermes.		172800	IN	AAAA	2a01:8840:e2::25
 a2.nic.hermes.		172800	IN	A	65.22.235.25
@@ -4856,6 +4884,11 @@ b0.nic.hermes.		172800	IN	A	65.22.233.25
 b0.nic.hermes.		172800	IN	AAAA	2a01:8840:e3::25
 c0.nic.hermes.		172800	IN	A	65.22.234.25
 c0.nic.hermes.		172800	IN	AAAA	2a01:8840:e4::25
+hgtv.			172800	IN	NS	ac1.nstld.com.
+hgtv.			172800	IN	NS	ac2.nstld.com.
+hgtv.			172800	IN	NS	ac3.nstld.com.
+hgtv.			172800	IN	NS	ac4.nstld.com.
+hgtv.			86400	IN	NSEC	hiphop. NS DS RRSIG NSEC
 hiphop.			172800	IN	NS	a.hiphop.dyntld.net.
 hiphop.			172800	IN	NS	b.hiphop.dyntld.net.
 hiphop.			172800	IN	NS	c.hiphop.dyntld.net.
@@ -8252,9 +8285,28 @@ nexus.			86400	IN	NSEC	nf. NS DS RRSIG NSEC
 nf.			172800	IN	NS	a.nf.dyntld.net.
 nf.			172800	IN	NS	b.nf.dyntld.net.
 nf.			172800	IN	NS	ns.anycast.nic.nf.
-nf.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
+nf.			86400	IN	NSEC	nfl. NS DS RRSIG NSEC
 ns.anycast.nic.nf.	172800	IN	A	204.61.216.51
 ns.anycast.nic.nf.	172800	IN	AAAA	2001:500:14:6051:ad::1
+nfl.			172800	IN	NS	ns1.dns.nic.nfl.
+nfl.			172800	IN	NS	ns2.dns.nic.nfl.
+nfl.			172800	IN	NS	ns3.dns.nic.nfl.
+nfl.			172800	IN	NS	ns4.dns.nic.nfl.
+nfl.			172800	IN	NS	ns5.dns.nic.nfl.
+nfl.			172800	IN	NS	ns6.dns.nic.nfl.
+nfl.			86400	IN	NSEC	ng. NS DS RRSIG NSEC
+ns1.dns.nic.nfl.	172800	IN	A	156.154.144.122
+ns1.dns.nic.nfl.	172800	IN	AAAA	2610:a1:1071::7a
+ns2.dns.nic.nfl.	172800	IN	A	156.154.145.122
+ns2.dns.nic.nfl.	172800	IN	AAAA	2610:a1:1072::7a
+ns3.dns.nic.nfl.	172800	IN	A	156.154.159.122
+ns3.dns.nic.nfl.	172800	IN	AAAA	2610:a1:1073::7a
+ns4.dns.nic.nfl.	172800	IN	A	156.154.156.122
+ns4.dns.nic.nfl.	172800	IN	AAAA	2610:a1:1074::7a
+ns5.dns.nic.nfl.	172800	IN	A	156.154.157.122
+ns5.dns.nic.nfl.	172800	IN	AAAA	2610:a1:1075::7a
+ns6.dns.nic.nfl.	172800	IN	A	156.154.158.122
+ns6.dns.nic.nfl.	172800	IN	AAAA	2610:a1:1076::7a
 ng.			172800	IN	NS	ns1.nic.net.ng.
 ng.			172800	IN	NS	ns2.nic.net.ng.
 ng.			172800	IN	NS	ns3.nic.net.ng.
@@ -9296,7 +9348,7 @@ poker.			172800	IN	NS	a0.nic.poker.
 poker.			172800	IN	NS	a2.nic.poker.
 poker.			172800	IN	NS	b0.nic.poker.
 poker.			172800	IN	NS	c0.nic.poker.
-poker.			86400	IN	NSEC	porn. NS DS RRSIG NSEC
+poker.			86400	IN	NSEC	politie. NS DS RRSIG NSEC
 a0.nic.poker.		172800	IN	A	65.22.20.33
 a0.nic.poker.		172800	IN	AAAA	2a01:8840:16::33
 a2.nic.poker.		172800	IN	A	65.22.23.33
@@ -9305,6 +9357,22 @@ b0.nic.poker.		172800	IN	A	65.22.21.33
 b0.nic.poker.		172800	IN	AAAA	2a01:8840:17::33
 c0.nic.poker.		172800	IN	A	65.22.22.33
 c0.nic.poker.		172800	IN	AAAA	2a01:8840:18::33
+politie.		172800	IN	NS	ns1.nic.politie.
+politie.		172800	IN	NS	ns2.nic.politie.
+politie.		172800	IN	NS	ns3.nic.politie.
+politie.		172800	IN	NS	ns4.nic.politie.
+politie.		172800	IN	NS	ns5.nic.politie.
+politie.		86400	IN	NSEC	porn. NS DS RRSIG NSEC
+ns1.nic.politie.	172800	IN	A	193.176.144.16
+ns1.nic.politie.	172800	IN	AAAA	2a00:d78:0:102:193:176:144:16
+ns2.nic.politie.	172800	IN	A	213.154.241.82
+ns2.nic.politie.	172800	IN	AAAA	2001:7b8:606::82
+ns3.nic.politie.	172800	IN	A	194.171.17.15
+ns3.nic.politie.	172800	IN	AAAA	2001:610:0:800d::15
+ns4.nic.politie.	172800	IN	A	95.142.99.217
+ns4.nic.politie.	172800	IN	AAAA	2a00:1188:5::217
+ns5.nic.politie.	172800	IN	A	194.0.28.5
+ns5.nic.politie.	172800	IN	AAAA	2001:678:2c:0:194:0:28:5
 porn.			172800	IN	NS	a0.nic.porn.
 porn.			172800	IN	NS	a2.nic.porn.
 porn.			172800	IN	NS	b0.nic.porn.
@@ -11822,7 +11890,7 @@ travel.			172800	IN	NS	c.gtld.travel.
 travel.			172800	IN	NS	d.gtld.travel.
 travel.			172800	IN	NS	e.gtld.travel.
 travel.			172800	IN	NS	f.gtld.travel.
-travel.			86400	IN	NSEC	travelers. NS RRSIG NSEC
+travel.			86400	IN	NSEC	travelchannel. NS RRSIG NSEC
 a.gtld.travel.		172800	IN	A	156.154.100.1
 a.gtld.travel.		172800	IN	AAAA	2001:502:ad09::1
 b.gtld.travel.		172800	IN	A	156.154.101.1
@@ -11831,6 +11899,11 @@ d.gtld.travel.		172800	IN	A	156.154.103.1
 d.gtld.travel.		172800	IN	AAAA	2001:502:2eda::1
 e.gtld.travel.		172800	IN	A	156.154.104.1
 f.gtld.travel.		172800	IN	A	156.154.105.1
+travelchannel.		172800	IN	NS	ac1.nstld.com.
+travelchannel.		172800	IN	NS	ac2.nstld.com.
+travelchannel.		172800	IN	NS	ac3.nstld.com.
+travelchannel.		172800	IN	NS	ac4.nstld.com.
+travelchannel.		86400	IN	NSEC	travelers. NS DS RRSIG NSEC
 travelers.		172800	IN	NS	a0.nic.travelers.
 travelers.		172800	IN	NS	a2.nic.travelers.
 travelers.		172800	IN	NS	b0.nic.travelers.
@@ -12839,7 +12912,7 @@ wolterskluwer.		172800	IN	NS	a0.nic.wolterskluwer.
 wolterskluwer.		172800	IN	NS	a2.nic.wolterskluwer.
 wolterskluwer.		172800	IN	NS	b0.nic.wolterskluwer.
 wolterskluwer.		172800	IN	NS	c0.nic.wolterskluwer.
-wolterskluwer.		86400	IN	NSEC	work. NS DS RRSIG NSEC
+wolterskluwer.		86400	IN	NSEC	woodside. NS DS RRSIG NSEC
 a0.nic.wolterskluwer.	172800	IN	A	65.22.204.25
 a0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c6::25
 a2.nic.wolterskluwer.	172800	IN	A	65.22.207.25
@@ -12848,6 +12921,19 @@ b0.nic.wolterskluwer.	172800	IN	A	65.22.205.25
 b0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c7::25
 c0.nic.wolterskluwer.	172800	IN	A	65.22.206.25
 c0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c8::25
+woodside.		172800	IN	NS	a.nic.woodside.
+woodside.		172800	IN	NS	b.nic.woodside.
+woodside.		172800	IN	NS	c.nic.woodside.
+woodside.		172800	IN	NS	d.nic.woodside.
+woodside.		86400	IN	NSEC	work. NS DS RRSIG NSEC
+a.nic.woodside.		172800	IN	A	37.209.192.9
+a.nic.woodside.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.woodside.		172800	IN	A	37.209.194.9
+b.nic.woodside.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.woodside.		172800	IN	A	37.209.196.9
+c.nic.woodside.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.woodside.		172800	IN	A	37.209.198.9
+d.nic.woodside.		172800	IN	AAAA	2001:dcd:4::9
 work.			172800	IN	NS	a.ns.nic.work.
 work.			172800	IN	NS	b.ns.nic.work.
 work.			172800	IN	NS	c.ns.nic.work.
@@ -12984,6 +13070,10 @@ xn--3ds443g.		172800	IN	NS	a0.nic.xn--3ds443g.
 xn--3ds443g.		172800	IN	NS	a2.nic.xn--3ds443g.
 xn--3ds443g.		172800	IN	NS	b0.nic.xn--3ds443g.
 xn--3ds443g.		172800	IN	NS	c0.nic.xn--3ds443g.
+xn--3ds443g.		172800	IN	NS	ns1.teleinfo.cn.
+xn--3ds443g.		172800	IN	NS	ns2.teleinfoo.com.
+xn--3ds443g.		172800	IN	NS	ns3.teleinfo.cn.
+xn--3ds443g.		172800	IN	NS	ns4.teleinfoo.com.
 xn--3ds443g.		86400	IN	NSEC	xn--3e0b707e. NS DS RRSIG NSEC
 a0.nic.xn--3ds443g.	172800	IN	A	65.22.188.9
 a0.nic.xn--3ds443g.	172800	IN	AAAA	2a01:8840:b6::9
@@ -13364,6 +13454,10 @@ xn--fiq228c5hs.		172800	IN	NS	a0.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	a2.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	b0.nic.xn--fiq228c5hs.
 xn--fiq228c5hs.		172800	IN	NS	c0.nic.xn--fiq228c5hs.
+xn--fiq228c5hs.		172800	IN	NS	ns1.teleinfo.cn.
+xn--fiq228c5hs.		172800	IN	NS	ns2.teleinfoo.com.
+xn--fiq228c5hs.		172800	IN	NS	ns3.teleinfo.cn.
+xn--fiq228c5hs.		172800	IN	NS	ns4.teleinfoo.com.
 xn--fiq228c5hs.		86400	IN	NSEC	xn--fiq64b. NS DS RRSIG NSEC
 a0.nic.xn--fiq228c5hs.	172800	IN	A	65.22.188.1
 a0.nic.xn--fiq228c5hs.	172800	IN	AAAA	2a01:8840:b6::1
