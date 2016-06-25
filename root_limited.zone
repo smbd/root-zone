@@ -1762,6 +1762,7 @@ dns1.nic.net.bw.	172800	IN	AAAA	2c0f:ff00:1:3::226
 dns2.nic.net.bw.	172800	IN	A	168.167.98.218
 dns2.nic.net.bw.	172800	IN	AAAA	2c0f:ff00:1:5::218
 pch.nic.net.bw.		172800	IN	A	204.61.216.70
+pch.nic.net.bw.		172800	IN	AAAA	2001:500:14:6070:ad::1
 by.			172800	IN	NS	dns1.tld.tutby.com.
 by.			172800	IN	NS	dns2.tld.tutby.com.
 by.			172800	IN	NS	dns3.tld.tutby.com.
