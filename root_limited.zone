@@ -5429,14 +5429,11 @@ in.			172800	IN	NS	a0.in.afilias-nst.info.
 in.			172800	IN	NS	a1.in.afilias-nst.in.
 in.			172800	IN	NS	a2.in.afilias-nst.info.
 in.			172800	IN	NS	b0.in.afilias-nst.org.
-in.			172800	IN	NS	b1.in.afilias-nst.in.
 in.			172800	IN	NS	b2.in.afilias-nst.org.
 in.			172800	IN	NS	c0.in.afilias-nst.info.
 in.			86400	IN	NSEC	industries. NS DS RRSIG NSEC
 a1.in.afilias-nst.in.	172800	IN	A	115.249.164.142
 a1.in.afilias-nst.in.	172800	IN	AAAA	2001:4528:fff:13::142
-b1.in.afilias-nst.in.	172800	IN	A	125.19.40.90
-b1.in.afilias-nst.in.	172800	IN	AAAA	2404:a800:2:1e::19:90
 industries.		172800	IN	NS	demand.beta.aridns.net.au.
 industries.		172800	IN	NS	demand.alpha.aridns.net.au.
 industries.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -8490,7 +8487,26 @@ nico.			172800	IN	NS	a.gmoregistry.net.
 nico.			172800	IN	NS	b.gmoregistry.net.
 nico.			172800	IN	NS	k.gmoregistry.net.
 nico.			172800	IN	NS	l.gmoregistry.net.
-nico.			86400	IN	NSEC	nikon. NS DS RRSIG NSEC
+nico.			86400	IN	NSEC	nike. NS DS RRSIG NSEC
+nike.			172800	IN	NS	ns1.dns.nic.nike.
+nike.			172800	IN	NS	ns2.dns.nic.nike.
+nike.			172800	IN	NS	ns3.dns.nic.nike.
+nike.			172800	IN	NS	ns4.dns.nic.nike.
+nike.			172800	IN	NS	ns5.dns.nic.nike.
+nike.			172800	IN	NS	ns6.dns.nic.nike.
+nike.			86400	IN	NSEC	nikon. NS DS RRSIG NSEC
+ns1.dns.nic.nike.	172800	IN	A	156.154.144.123
+ns1.dns.nic.nike.	172800	IN	AAAA	2610:a1:1071::7b
+ns2.dns.nic.nike.	172800	IN	A	156.154.145.123
+ns2.dns.nic.nike.	172800	IN	AAAA	2610:a1:1072::7b
+ns3.dns.nic.nike.	172800	IN	A	156.154.159.123
+ns3.dns.nic.nike.	172800	IN	AAAA	2610:a1:1073::7b
+ns4.dns.nic.nike.	172800	IN	A	156.154.156.123
+ns4.dns.nic.nike.	172800	IN	AAAA	2610:a1:1074::7b
+ns5.dns.nic.nike.	172800	IN	A	156.154.157.123
+ns5.dns.nic.nike.	172800	IN	AAAA	2610:a1:1075::7b
+ns6.dns.nic.nike.	172800	IN	A	156.154.158.123
+ns6.dns.nic.nike.	172800	IN	AAAA	2610:a1:1076::7b
 nikon.			172800	IN	NS	ac1.nstld.com.
 nikon.			172800	IN	NS	ac2.nstld.com.
 nikon.			172800	IN	NS	ac3.nstld.com.
@@ -10687,7 +10703,12 @@ services.		172800	IN	NS	demand.beta.aridns.net.au.
 services.		172800	IN	NS	demand.alpha.aridns.net.au.
 services.		172800	IN	NS	demand.delta.aridns.net.au.
 services.		172800	IN	NS	demand.gamma.aridns.net.au.
-services.		86400	IN	NSEC	seven. NS DS RRSIG NSEC
+services.		86400	IN	NSEC	ses. NS DS RRSIG NSEC
+ses.			172800	IN	NS	ac1.nstld.com.
+ses.			172800	IN	NS	ac2.nstld.com.
+ses.			172800	IN	NS	ac3.nstld.com.
+ses.			172800	IN	NS	ac4.nstld.com.
+ses.			86400	IN	NSEC	seven. NS DS RRSIG NSEC
 seven.			172800	IN	NS	a.nic.seven.
 seven.			172800	IN	NS	b.nic.seven.
 seven.			172800	IN	NS	c.nic.seven.
@@ -13265,7 +13286,6 @@ xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -13665,7 +13685,6 @@ xn--fpcrj9c3d.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--fpcrj9c3d.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--fpcrj9c3d.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--fpcrj9c3d.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--fpcrj9c3d.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -13734,7 +13753,6 @@ xn--gecrj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -13743,7 +13761,6 @@ xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--h2brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--h2brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -13986,7 +14003,6 @@ xn--mgbbh1a71e.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--mgbbh1a71e.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--mgbbh1a71e.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -14243,7 +14259,6 @@ xn--s9brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--s9brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--s9brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--s9brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--s9brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -14335,7 +14350,6 @@ xn--xkc2dl3a5ee0h.	172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a1.in.afilias-nst.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a2.in.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--xkc2dl3a5ee0h.	172800	IN	NS	b1.in.afilias-nst.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	b2.in.afilias-nst.org.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	d0.cctld.afilias-nst.org.
