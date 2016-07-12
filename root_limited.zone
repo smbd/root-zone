@@ -5563,7 +5563,26 @@ international.		172800	IN	NS	demand.beta.aridns.net.au.
 international.		172800	IN	NS	demand.alpha.aridns.net.au.
 international.		172800	IN	NS	demand.delta.aridns.net.au.
 international.		172800	IN	NS	demand.gamma.aridns.net.au.
-international.		86400	IN	NSEC	investments. NS DS RRSIG NSEC
+international.		86400	IN	NSEC	intuit. NS DS RRSIG NSEC
+intuit.			172800	IN	NS	ns1.dns.nic.intuit.
+intuit.			172800	IN	NS	ns2.dns.nic.intuit.
+intuit.			172800	IN	NS	ns3.dns.nic.intuit.
+intuit.			172800	IN	NS	ns4.dns.nic.intuit.
+intuit.			172800	IN	NS	ns5.dns.nic.intuit.
+intuit.			172800	IN	NS	ns6.dns.nic.intuit.
+intuit.			86400	IN	NSEC	investments. NS DS RRSIG NSEC
+ns1.dns.nic.intuit.	172800	IN	A	156.154.144.82
+ns1.dns.nic.intuit.	172800	IN	AAAA	2610:a1:1071::52
+ns2.dns.nic.intuit.	172800	IN	A	156.154.145.82
+ns2.dns.nic.intuit.	172800	IN	AAAA	2610:a1:1072::52
+ns3.dns.nic.intuit.	172800	IN	A	156.154.159.82
+ns3.dns.nic.intuit.	172800	IN	AAAA	2610:a1:1073::52
+ns4.dns.nic.intuit.	172800	IN	A	156.154.156.82
+ns4.dns.nic.intuit.	172800	IN	AAAA	2610:a1:1074::52
+ns5.dns.nic.intuit.	172800	IN	A	156.154.157.82
+ns5.dns.nic.intuit.	172800	IN	AAAA	2610:a1:1075::52
+ns6.dns.nic.intuit.	172800	IN	A	156.154.158.82
+ns6.dns.nic.intuit.	172800	IN	AAAA	2610:a1:1076::52
 investments.		172800	IN	NS	demand.beta.aridns.net.au.
 investments.		172800	IN	NS	demand.alpha.aridns.net.au.
 investments.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -6915,7 +6934,7 @@ ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns2.registre.ma.
 ma.			172800	IN	NS	ns3.registre.ma.
 ma.			172800	IN	NS	ns4.registre.ma.
-ma.			86400	IN	NSEC	madrid. NS DS RRSIG NSEC
+ma.			86400	IN	NSEC	macys. NS DS RRSIG NSEC
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	81.192.108.164
@@ -6923,6 +6942,11 @@ ns1.registre.ma.	172800	IN	A	81.192.171.131
 ns2.registre.ma.	172800	IN	A	81.192.171.132
 ns3.registre.ma.	172800	IN	A	81.192.171.139
 ns4.registre.ma.	172800	IN	A	81.192.171.140
+macys.			172800	IN	NS	ac1.nstld.com.
+macys.			172800	IN	NS	ac2.nstld.com.
+macys.			172800	IN	NS	ac3.nstld.com.
+macys.			172800	IN	NS	ac4.nstld.com.
+macys.			86400	IN	NSEC	madrid. NS DS RRSIG NSEC
 madrid.			172800	IN	NS	anycast9.irondns.net.
 madrid.			172800	IN	NS	anycast10.irondns.net.
 madrid.			172800	IN	NS	anycast23.irondns.net.
@@ -7182,7 +7206,26 @@ mini.			172800	IN	NS	ns1a.ksregistry.net.
 mini.			172800	IN	NS	ns1b.ksregistry.net.
 mini.			172800	IN	NS	ns2a.ksregistry.com.
 mini.			172800	IN	NS	ns2b.ksregistry.com.
-mini.			86400	IN	NSEC	mit. NS DS RRSIG NSEC
+mini.			86400	IN	NSEC	mint. NS DS RRSIG NSEC
+mint.			172800	IN	NS	ns1.dns.nic.mint.
+mint.			172800	IN	NS	ns2.dns.nic.mint.
+mint.			172800	IN	NS	ns3.dns.nic.mint.
+mint.			172800	IN	NS	ns4.dns.nic.mint.
+mint.			172800	IN	NS	ns5.dns.nic.mint.
+mint.			172800	IN	NS	ns6.dns.nic.mint.
+mint.			86400	IN	NSEC	mit. NS DS RRSIG NSEC
+ns1.dns.nic.mint.	172800	IN	A	156.154.144.112
+ns1.dns.nic.mint.	172800	IN	AAAA	2610:a1:1071::70
+ns2.dns.nic.mint.	172800	IN	A	156.154.145.112
+ns2.dns.nic.mint.	172800	IN	AAAA	2610:a1:1072::70
+ns3.dns.nic.mint.	172800	IN	A	156.154.159.112
+ns3.dns.nic.mint.	172800	IN	AAAA	2610:a1:1073::70
+ns4.dns.nic.mint.	172800	IN	A	156.154.156.112
+ns4.dns.nic.mint.	172800	IN	AAAA	2610:a1:1074::70
+ns5.dns.nic.mint.	172800	IN	A	156.154.157.112
+ns5.dns.nic.mint.	172800	IN	AAAA	2610:a1:1075::70
+ns6.dns.nic.mint.	172800	IN	A	156.154.158.112
+ns6.dns.nic.mint.	172800	IN	AAAA	2610:a1:1076::70
 mit.			172800	IN	NS	a0.nic.mit.
 mit.			172800	IN	NS	a2.nic.mit.
 mit.			172800	IN	NS	b0.nic.mit.
