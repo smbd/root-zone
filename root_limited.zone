@@ -417,7 +417,20 @@ allfinanz.		172800	IN	NS	ns1a.ksregistry.net.
 allfinanz.		172800	IN	NS	ns1b.ksregistry.net.
 allfinanz.		172800	IN	NS	ns2a.ksregistry.com.
 allfinanz.		172800	IN	NS	ns2b.ksregistry.com.
-allfinanz.		86400	IN	NSEC	ally. NS DS RRSIG NSEC
+allfinanz.		86400	IN	NSEC	allstate. NS DS RRSIG NSEC
+allstate.		172800	IN	NS	a0.nic.allstate.
+allstate.		172800	IN	NS	a2.nic.allstate.
+allstate.		172800	IN	NS	b0.nic.allstate.
+allstate.		172800	IN	NS	c0.nic.allstate.
+allstate.		86400	IN	NSEC	ally. NS DS RRSIG NSEC
+a0.nic.allstate.	172800	IN	A	65.22.48.9
+a0.nic.allstate.	172800	IN	AAAA	2a01:8840:2e::9
+a2.nic.allstate.	172800	IN	A	65.22.51.9
+a2.nic.allstate.	172800	IN	AAAA	2a01:8840:31::9
+b0.nic.allstate.	172800	IN	A	65.22.49.9
+b0.nic.allstate.	172800	IN	AAAA	2a01:8840:2f::9
+c0.nic.allstate.	172800	IN	A	65.22.50.9
+c0.nic.allstate.	172800	IN	AAAA	2a01:8840:30::9
 ally.			172800	IN	NS	a0.nic.ally.
 ally.			172800	IN	NS	a2.nic.ally.
 ally.			172800	IN	NS	b0.nic.ally.
@@ -1788,7 +1801,6 @@ bzh.			172800	IN	NS	g.ext.nic.fr.
 bzh.			86400	IN	NSEC	ca. NS DS RRSIG NSEC
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	d.ca-servers.ca.
-ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
 ca.			172800	IN	NS	any.ca-servers.ca.
 ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
@@ -1797,7 +1809,6 @@ any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
 d.ca-servers.ca.	172800	IN	A	199.19.4.1
 d.ca-servers.ca.	172800	IN	AAAA	2001:500:97::1
-e.ca-servers.ca.	172800	IN	A	192.228.30.9
 j.ca-servers.ca.	172800	IN	A	198.182.167.1
 j.ca-servers.ca.	172800	IN	AAAA	2001:500:83::1
 charles.cdec.polymtl.ca. 172800	IN	A	132.207.144.2
@@ -4658,7 +4669,20 @@ goo.			172800	IN	NS	a.gmoregistry.net.
 goo.			172800	IN	NS	b.gmoregistry.net.
 goo.			172800	IN	NS	k.gmoregistry.net.
 goo.			172800	IN	NS	l.gmoregistry.net.
-goo.			86400	IN	NSEC	goodyear. NS DS RRSIG NSEC
+goo.			86400	IN	NSEC	goodhands. NS DS RRSIG NSEC
+goodhands.		172800	IN	NS	a0.nic.goodhands.
+goodhands.		172800	IN	NS	a2.nic.goodhands.
+goodhands.		172800	IN	NS	b0.nic.goodhands.
+goodhands.		172800	IN	NS	c0.nic.goodhands.
+goodhands.		86400	IN	NSEC	goodyear. NS DS RRSIG NSEC
+a0.nic.goodhands.	172800	IN	A	65.22.48.17
+a0.nic.goodhands.	172800	IN	AAAA	2a01:8840:2e::17
+a2.nic.goodhands.	172800	IN	A	65.22.51.17
+a2.nic.goodhands.	172800	IN	AAAA	2a01:8840:31::17
+b0.nic.goodhands.	172800	IN	A	65.22.49.17
+b0.nic.goodhands.	172800	IN	AAAA	2a01:8840:2f::17
+c0.nic.goodhands.	172800	IN	A	65.22.50.17
+c0.nic.goodhands.	172800	IN	AAAA	2a01:8840:30::17
 goodyear.		172800	IN	NS	a0.nic.goodyear.
 goodyear.		172800	IN	NS	a2.nic.goodyear.
 goodyear.		172800	IN	NS	b0.nic.goodyear.
@@ -6496,7 +6520,12 @@ lease.			86400	IN	NSEC	leclerc. NS DS RRSIG NSEC
 leclerc.		172800	IN	NS	d.nic.fr.
 leclerc.		172800	IN	NS	f.ext.nic.fr.
 leclerc.		172800	IN	NS	g.ext.nic.fr.
-leclerc.		86400	IN	NSEC	legal. NS DS RRSIG NSEC
+leclerc.		86400	IN	NSEC	lefrak. NS DS RRSIG NSEC
+lefrak.			172800	IN	NS	ac1.nstld.com.
+lefrak.			172800	IN	NS	ac2.nstld.com.
+lefrak.			172800	IN	NS	ac3.nstld.com.
+lefrak.			172800	IN	NS	ac4.nstld.com.
+lefrak.			86400	IN	NSEC	legal. NS DS RRSIG NSEC
 legal.			172800	IN	NS	demand.beta.aridns.net.au.
 legal.			172800	IN	NS	demand.alpha.aridns.net.au.
 legal.			172800	IN	NS	demand.delta.aridns.net.au.
