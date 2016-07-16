@@ -4374,7 +4374,7 @@ fujixerox.		172800	IN	NS	ac1.nstld.com.
 fujixerox.		172800	IN	NS	ac2.nstld.com.
 fujixerox.		172800	IN	NS	ac3.nstld.com.
 fujixerox.		172800	IN	NS	ac4.nstld.com.
-fujixerox.		86400	IN	NSEC	fund. NS RRSIG NSEC
+fujixerox.		86400	IN	NSEC	fund. NS DS RRSIG NSEC
 fund.			172800	IN	NS	demand.beta.aridns.net.au.
 fund.			172800	IN	NS	demand.alpha.aridns.net.au.
 fund.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -6947,7 +6947,6 @@ lu.			172800	IN	NS	j.dns.lu.
 lu.			172800	IN	NS	k.dns.lu.
 lu.			172800	IN	NS	p.dns.lu.
 lu.			172800	IN	NS	ns1.dns.lu.
-lu.			172800	IN	NS	ns5.dns.lu.
 lu.			86400	IN	NSEC	lundbeck. NS DS RRSIG NSEC
 g.dns.lu.		172800	IN	A	194.0.23.5
 g.dns.lu.		172800	IN	AAAA	2001:678:1b:5::5
@@ -6959,7 +6958,6 @@ k.dns.lu.		172800	IN	A	194.0.1.13
 k.dns.lu.		172800	IN	AAAA	2001:678:4::d
 ns1.dns.lu.		172800	IN	A	158.64.229.18
 ns1.dns.lu.		172800	IN	AAAA	2001:a18:4:1::18
-ns5.dns.lu.		172800	IN	A	81.91.161.100
 p.dns.lu.		172800	IN	A	194.0.42.42
 p.dns.lu.		172800	IN	AAAA	2001:678:60::42:42
 lundbeck.		172800	IN	NS	ac1.nstld.com.
@@ -7910,8 +7908,8 @@ ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
 ns-cdn.amnic.net.	172800	IN	AAAA	2001:678:4::1a
 ns-pch.amnic.net.	172800	IN	A	204.61.216.96
 ns-pch.amnic.net.	172800	IN	AAAA	2001:500:14:6096:ad::1
-ns-pri.amnic.net.	172800	IN	A	195.43.74.53
-ns-pri.amnic.net.	172800	IN	AAAA	2001:67c:21c:53::1
+ns-pri.amnic.net.	172800	IN	A	195.43.75.53
+ns-pri.amnic.net.	172800	IN	AAAA	2001:7f9:8:53::1
 sec1.apnic.net.		172800	IN	A	202.12.29.59
 sec1.apnic.net.		172800	IN	AAAA	2001:dc0:2001:a:4608::59
 sec3.apnic.net.		172800	IN	A	202.12.28.140
@@ -12338,15 +12336,22 @@ travel.			172800	IN	NS	c.gtld.travel.
 travel.			172800	IN	NS	d.gtld.travel.
 travel.			172800	IN	NS	e.gtld.travel.
 travel.			172800	IN	NS	f.gtld.travel.
+travel.			172800	IN	NS	g.gtld.travel.
 travel.			86400	IN	NSEC	travelchannel. NS RRSIG NSEC
 a.gtld.travel.		172800	IN	A	156.154.100.1
 a.gtld.travel.		172800	IN	AAAA	2001:502:ad09::1
 b.gtld.travel.		172800	IN	A	156.154.101.1
+b.gtld.travel.		172800	IN	AAAA	2610:a1:1009::1
 c.gtld.travel.		172800	IN	A	156.154.102.1
+c.gtld.travel.		172800	IN	AAAA	2610:a1:1010::1
 d.gtld.travel.		172800	IN	A	156.154.103.1
 d.gtld.travel.		172800	IN	AAAA	2001:502:2eda::1
 e.gtld.travel.		172800	IN	A	156.154.104.1
+e.gtld.travel.		172800	IN	AAAA	2610:a1:1011::1
 f.gtld.travel.		172800	IN	A	156.154.105.1
+f.gtld.travel.		172800	IN	AAAA	2610:a1:1012::1
+g.gtld.travel.		172800	IN	A	207.34.5.1
+g.gtld.travel.		172800	IN	AAAA	2001:503:d1ae::1
 travelchannel.		172800	IN	NS	ac1.nstld.com.
 travelchannel.		172800	IN	NS	ac2.nstld.com.
 travelchannel.		172800	IN	NS	ac3.nstld.com.
