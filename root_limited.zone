@@ -1188,7 +1188,7 @@ best.			172800	IN	NS	ns3.dns.nic.best.
 best.			172800	IN	NS	ns4.dns.nic.best.
 best.			172800	IN	NS	ns5.dns.nic.best.
 best.			172800	IN	NS	ns6.dns.nic.best.
-best.			86400	IN	NSEC	bet. NS DS RRSIG NSEC
+best.			86400	IN	NSEC	bestbuy. NS DS RRSIG NSEC
 ns1.dns.nic.best.	172800	IN	A	156.154.144.24
 ns1.dns.nic.best.	172800	IN	AAAA	2610:a1:1071::18
 ns2.dns.nic.best.	172800	IN	A	156.154.145.24
@@ -1201,6 +1201,19 @@ ns5.dns.nic.best.	172800	IN	A	156.154.157.24
 ns5.dns.nic.best.	172800	IN	AAAA	2610:a1:1075::18
 ns6.dns.nic.best.	172800	IN	A	156.154.158.24
 ns6.dns.nic.best.	172800	IN	AAAA	2610:a1:1076::18
+bestbuy.		172800	IN	NS	a0.nic.bestbuy.
+bestbuy.		172800	IN	NS	a2.nic.bestbuy.
+bestbuy.		172800	IN	NS	b0.nic.bestbuy.
+bestbuy.		172800	IN	NS	c0.nic.bestbuy.
+bestbuy.		86400	IN	NSEC	bet. NS DS RRSIG NSEC
+a0.nic.bestbuy.		172800	IN	A	65.22.216.9
+a0.nic.bestbuy.		172800	IN	AAAA	2a01:8840:d2::9
+a2.nic.bestbuy.		172800	IN	A	65.22.219.9
+a2.nic.bestbuy.		172800	IN	AAAA	2a01:8840:d5::9
+b0.nic.bestbuy.		172800	IN	A	65.22.217.9
+b0.nic.bestbuy.		172800	IN	AAAA	2a01:8840:d3::9
+c0.nic.bestbuy.		172800	IN	A	65.22.218.9
+c0.nic.bestbuy.		172800	IN	AAAA	2a01:8840:d4::9
 bet.			172800	IN	NS	a0.nic.bet.
 bet.			172800	IN	NS	a2.nic.bet.
 bet.			172800	IN	NS	b0.nic.bet.
@@ -6888,7 +6901,7 @@ love.			172800	IN	NS	a.nic.love.
 love.			172800	IN	NS	b.nic.love.
 love.			172800	IN	NS	c.nic.love.
 love.			172800	IN	NS	d.nic.love.
-love.			86400	IN	NSEC	lr. NS DS RRSIG NSEC
+love.			86400	IN	NSEC	lpl. NS DS RRSIG NSEC
 a.nic.love.		172800	IN	A	194.169.218.62
 a.nic.love.		172800	IN	AAAA	2001:67c:13cc::1:62
 b.nic.love.		172800	IN	A	185.24.64.62
@@ -6897,6 +6910,30 @@ c.nic.love.		172800	IN	A	212.18.248.62
 c.nic.love.		172800	IN	AAAA	2a04:2b00:13ee::62
 d.nic.love.		172800	IN	A	212.18.249.62
 d.nic.love.		172800	IN	AAAA	2a04:2b00:13ff::62
+lpl.			172800	IN	NS	a.ns.nic.lpl.
+lpl.			172800	IN	NS	c.ns.nic.lpl.
+lpl.			172800	IN	NS	x.ns.nic.lpl.
+lpl.			172800	IN	NS	y.ns.nic.lpl.
+lpl.			86400	IN	NSEC	lplfinancial. NS DS RRSIG NSEC
+a.ns.nic.lpl.		172800	IN	A	89.207.190.26
+a.ns.nic.lpl.		172800	IN	AAAA	2a02:2790:1:53::19:1
+c.ns.nic.lpl.		172800	IN	A	54.217.224.114
+x.ns.nic.lpl.		172800	IN	A	195.253.64.4
+x.ns.nic.lpl.		172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.lpl.		172800	IN	A	195.253.64.7
+y.ns.nic.lpl.		172800	IN	AAAA	2a01:5b0:4::7
+lplfinancial.		172800	IN	NS	a.ns.nic.lplfinancial.
+lplfinancial.		172800	IN	NS	c.ns.nic.lplfinancial.
+lplfinancial.		172800	IN	NS	x.ns.nic.lplfinancial.
+lplfinancial.		172800	IN	NS	y.ns.nic.lplfinancial.
+lplfinancial.		86400	IN	NSEC	lr. NS DS RRSIG NSEC
+a.ns.nic.lplfinancial.	172800	IN	A	89.207.190.29
+a.ns.nic.lplfinancial.	172800	IN	AAAA	2a02:2790:1:53::23:1
+c.ns.nic.lplfinancial.	172800	IN	A	54.228.237.11
+x.ns.nic.lplfinancial.	172800	IN	A	195.253.64.4
+x.ns.nic.lplfinancial.	172800	IN	AAAA	2a01:5b0:4::4
+y.ns.nic.lplfinancial.	172800	IN	A	195.253.64.7
+y.ns.nic.lplfinancial.	172800	IN	AAAA	2a01:5b0:4::7
 lr.			172800	IN	NS	rip.psg.com.
 lr.			172800	IN	NS	fork.sth.dnsnode.net.
 lr.			172800	IN	NS	hippo.ru.ac.za.
