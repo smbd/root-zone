@@ -453,7 +453,6 @@ alstom.			172800	IN	NS	anycast10.irondns.net.
 alstom.			172800	IN	NS	anycast23.irondns.net.
 alstom.			172800	IN	NS	anycast24.irondns.net.
 alstom.			86400	IN	NSEC	am. NS DS RRSIG NSEC
-am.			172800	IN	NS	am.cctld.authdns.ripe.net.
 am.			172800	IN	NS	rip.psg.com.
 am.			172800	IN	NS	fork.sth.dnsnode.net.
 am.			172800	IN	NS	ns-cdn.amnic.net.
@@ -5454,7 +5453,7 @@ il.			172800	IN	NS	nsg.ns.il.
 il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			172800	IN	NS	sns-pb.isc.org.
-il.			86400	IN	NSEC	im. NS RRSIG NSEC
+il.			86400	IN	NSEC	im. NS DS RRSIG NSEC
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6::808b:22f0
 ilns.ilan.net.il.	172800	IN	A	128.139.35.5
@@ -8362,8 +8361,6 @@ ae.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.54
 ae.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::54
 al.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.56
 al.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::56
-am.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.57
-am.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::57
 ar.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.59
 ar.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::59
 ba.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.60
@@ -12072,7 +12069,7 @@ theatre.		172800	IN	NS	a.nic.theatre.
 theatre.		172800	IN	NS	b.nic.theatre.
 theatre.		172800	IN	NS	c.nic.theatre.
 theatre.		172800	IN	NS	d.nic.theatre.
-theatre.		86400	IN	NSEC	tickets. NS DS RRSIG NSEC
+theatre.		86400	IN	NSEC	tiaa. NS DS RRSIG NSEC
 a.nic.theatre.		172800	IN	A	194.169.218.69
 a.nic.theatre.		172800	IN	AAAA	2001:67c:13cc::1:69
 b.nic.theatre.		172800	IN	A	185.24.64.69
@@ -12081,6 +12078,11 @@ c.nic.theatre.		172800	IN	A	212.18.248.69
 c.nic.theatre.		172800	IN	AAAA	2a04:2b00:13ee::69
 d.nic.theatre.		172800	IN	A	212.18.249.69
 d.nic.theatre.		172800	IN	AAAA	2a04:2b00:13ff::69
+tiaa.			172800	IN	NS	ac1.nstld.com.
+tiaa.			172800	IN	NS	ac2.nstld.com.
+tiaa.			172800	IN	NS	ac3.nstld.com.
+tiaa.			172800	IN	NS	ac4.nstld.com.
+tiaa.			86400	IN	NSEC	tickets. NS DS RRSIG NSEC
 tickets.		172800	IN	NS	a.nic.tickets.
 tickets.		172800	IN	NS	b.nic.tickets.
 tickets.		172800	IN	NS	c.nic.tickets.
@@ -14710,7 +14712,6 @@ xn--xkc2dl3a5ee0h.	172800	IN	NS	b2.in.afilias-nst.org.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	d0.cctld.afilias-nst.org.
 xn--xkc2dl3a5ee0h.	86400	IN	NSEC	xn--y9a3aq. NS DS RRSIG NSEC
-xn--y9a3aq.		172800	IN	NS	am.cctld.authdns.ripe.net.
 xn--y9a3aq.		172800	IN	NS	rip.psg.com.
 xn--y9a3aq.		172800	IN	NS	fork.sth.dnsnode.net.
 xn--y9a3aq.		172800	IN	NS	ns-cdn.amnic.net.
