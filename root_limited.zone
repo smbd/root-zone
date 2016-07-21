@@ -3367,7 +3367,12 @@ docs.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-docs.			86400	IN	NSEC	dog. NS DS RRSIG NSEC
+docs.			86400	IN	NSEC	doctor. NS DS RRSIG NSEC
+doctor.			172800	IN	NS	demand.beta.aridns.net.au.
+doctor.			172800	IN	NS	demand.alpha.aridns.net.au.
+doctor.			172800	IN	NS	demand.delta.aridns.net.au.
+doctor.			172800	IN	NS	demand.gamma.aridns.net.au.
+doctor.			86400	IN	NSEC	dog. NS DS RRSIG NSEC
 dog.			172800	IN	NS	demand.beta.aridns.net.au.
 dog.			172800	IN	NS	demand.alpha.aridns.net.au.
 dog.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -3448,7 +3453,12 @@ dubai.			172800	IN	NS	gtld.beta.aridns.net.au.
 dubai.			172800	IN	NS	gtld.alpha.aridns.net.au.
 dubai.			172800	IN	NS	gtld.delta.aridns.net.au.
 dubai.			172800	IN	NS	gtld.gamma.aridns.net.au.
-dubai.			86400	IN	NSEC	dunlop. NS DS RRSIG NSEC
+dubai.			86400	IN	NSEC	duck. NS DS RRSIG NSEC
+duck.			172800	IN	NS	ac1.nstld.com.
+duck.			172800	IN	NS	ac2.nstld.com.
+duck.			172800	IN	NS	ac3.nstld.com.
+duck.			172800	IN	NS	ac4.nstld.com.
+duck.			86400	IN	NSEC	dunlop. NS DS RRSIG NSEC
 dunlop.			172800	IN	NS	a0.nic.dunlop.
 dunlop.			172800	IN	NS	a2.nic.dunlop.
 dunlop.			172800	IN	NS	b0.nic.dunlop.
@@ -5399,7 +5409,7 @@ ie.			172800	IN	NS	e.ns.ie.
 ie.			172800	IN	NS	f.ns.ie.
 ie.			172800	IN	NS	g.ns.ie.
 ie.			172800	IN	NS	h.ns.ie.
-ie.			86400	IN	NSEC	ifm. NS DS RRSIG NSEC
+ie.			86400	IN	NSEC	ieee. NS DS RRSIG NSEC
 a.ns.ie.		172800	IN	A	77.72.72.44
 a.ns.ie.		172800	IN	AAAA	2a01:4b0::3
 b.ns.ie.		172800	IN	A	77.72.72.34
@@ -5416,6 +5426,25 @@ g.ns.ie.		172800	IN	A	192.111.39.100
 g.ns.ie.		172800	IN	AAAA	2001:7c8:2:a::64
 h.ns.ie.		172800	IN	A	192.93.0.4
 h.ns.ie.		172800	IN	AAAA	2001:660:3005:1::1:2
+ieee.			172800	IN	NS	ns1.dns.nic.ieee.
+ieee.			172800	IN	NS	ns2.dns.nic.ieee.
+ieee.			172800	IN	NS	ns3.dns.nic.ieee.
+ieee.			172800	IN	NS	ns4.dns.nic.ieee.
+ieee.			172800	IN	NS	ns5.dns.nic.ieee.
+ieee.			172800	IN	NS	ns6.dns.nic.ieee.
+ieee.			86400	IN	NSEC	ifm. NS DS RRSIG NSEC
+ns1.dns.nic.ieee.	172800	IN	A	156.154.144.79
+ns1.dns.nic.ieee.	172800	IN	AAAA	2610:a1:1071::4f
+ns2.dns.nic.ieee.	172800	IN	A	156.154.145.79
+ns2.dns.nic.ieee.	172800	IN	AAAA	2610:a1:1072::4f
+ns3.dns.nic.ieee.	172800	IN	A	156.154.159.79
+ns3.dns.nic.ieee.	172800	IN	AAAA	2610:a1:1073::4f
+ns4.dns.nic.ieee.	172800	IN	A	156.154.156.79
+ns4.dns.nic.ieee.	172800	IN	AAAA	2610:a1:1074::4f
+ns5.dns.nic.ieee.	172800	IN	A	156.154.157.79
+ns5.dns.nic.ieee.	172800	IN	AAAA	2610:a1:1075::4f
+ns6.dns.nic.ieee.	172800	IN	A	156.154.158.79
+ns6.dns.nic.ieee.	172800	IN	AAAA	2610:a1:1076::4f
 ifm.			172800	IN	NS	anycast9.irondns.net.
 ifm.			172800	IN	NS	anycast10.irondns.net.
 ifm.			172800	IN	NS	anycast23.irondns.net.
@@ -8940,7 +8969,12 @@ obi.			172800	IN	NS	ac1.nstld.com.
 obi.			172800	IN	NS	ac2.nstld.com.
 obi.			172800	IN	NS	ac3.nstld.com.
 obi.			172800	IN	NS	ac4.nstld.com.
-obi.			86400	IN	NSEC	office. NS DS RRSIG NSEC
+obi.			86400	IN	NSEC	off. NS DS RRSIG NSEC
+off.			172800	IN	NS	ac1.nstld.com.
+off.			172800	IN	NS	ac2.nstld.com.
+off.			172800	IN	NS	ac3.nstld.com.
+off.			172800	IN	NS	ac4.nstld.com.
+off.			86400	IN	NSEC	office. NS DS RRSIG NSEC
 office.			172800	IN	NS	ns1.dns.nic.office.
 office.			172800	IN	NS	ns2.dns.nic.office.
 office.			172800	IN	NS	ns3.dns.nic.office.
@@ -10072,7 +10106,7 @@ racing.			172800	IN	NS	ns3.dns.nic.racing.
 racing.			172800	IN	NS	ns4.dns.nic.racing.
 racing.			172800	IN	NS	ns5.dns.nic.racing.
 racing.			172800	IN	NS	ns6.dns.nic.racing.
-racing.			86400	IN	NSEC	re. NS DS RRSIG NSEC
+racing.			86400	IN	NSEC	raid. NS DS RRSIG NSEC
 ns1.dns.nic.racing.	172800	IN	A	156.154.169.33
 ns1.dns.nic.racing.	172800	IN	AAAA	2610:a1:1071::1:21
 ns2.dns.nic.racing.	172800	IN	A	156.154.170.33
@@ -10085,6 +10119,11 @@ ns5.dns.nic.racing.	172800	IN	A	156.154.173.33
 ns5.dns.nic.racing.	172800	IN	AAAA	2610:a1:1075::1:21
 ns6.dns.nic.racing.	172800	IN	A	156.154.174.33
 ns6.dns.nic.racing.	172800	IN	AAAA	2610:a1:1076::1:21
+raid.			172800	IN	NS	ac1.nstld.com.
+raid.			172800	IN	NS	ac2.nstld.com.
+raid.			172800	IN	NS	ac3.nstld.com.
+raid.			172800	IN	NS	ac4.nstld.com.
+raid.			86400	IN	NSEC	re. NS DS RRSIG NSEC
 re.			172800	IN	NS	d.ext.nic.fr.
 re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
@@ -10325,7 +10364,12 @@ ricoh.			172800	IN	NS	a.gmoregistry.net.
 ricoh.			172800	IN	NS	b.gmoregistry.net.
 ricoh.			172800	IN	NS	k.gmoregistry.net.
 ricoh.			172800	IN	NS	l.gmoregistry.net.
-ricoh.			86400	IN	NSEC	rio. NS DS RRSIG NSEC
+ricoh.			86400	IN	NSEC	rightathome. NS DS RRSIG NSEC
+rightathome.		172800	IN	NS	ac1.nstld.com.
+rightathome.		172800	IN	NS	ac2.nstld.com.
+rightathome.		172800	IN	NS	ac3.nstld.com.
+rightathome.		172800	IN	NS	ac4.nstld.com.
+rightathome.		86400	IN	NSEC	rio. NS DS RRSIG NSEC
 rio.			172800	IN	NS	a.dns.br.
 rio.			172800	IN	NS	b.dns.br.
 rio.			172800	IN	NS	c.dns.br.
@@ -10790,7 +10834,7 @@ science.		172800	IN	NS	ns3.dns.nic.science.
 science.		172800	IN	NS	ns4.dns.nic.science.
 science.		172800	IN	NS	ns5.dns.nic.science.
 science.		172800	IN	NS	ns6.dns.nic.science.
-science.		86400	IN	NSEC	scor. NS DS RRSIG NSEC
+science.		86400	IN	NSEC	scjohnson. NS DS RRSIG NSEC
 ns1.dns.nic.science.	172800	IN	A	156.154.169.41
 ns1.dns.nic.science.	172800	IN	AAAA	2610:a1:1071::1:29
 ns2.dns.nic.science.	172800	IN	A	156.154.170.41
@@ -10803,6 +10847,11 @@ ns5.dns.nic.science.	172800	IN	A	156.154.173.41
 ns5.dns.nic.science.	172800	IN	AAAA	2610:a1:1075::1:29
 ns6.dns.nic.science.	172800	IN	A	156.154.174.41
 ns6.dns.nic.science.	172800	IN	AAAA	2610:a1:1076::1:29
+scjohnson.		172800	IN	NS	ac1.nstld.com.
+scjohnson.		172800	IN	NS	ac2.nstld.com.
+scjohnson.		172800	IN	NS	ac3.nstld.com.
+scjohnson.		172800	IN	NS	ac4.nstld.com.
+scjohnson.		86400	IN	NSEC	scor. NS DS RRSIG NSEC
 scor.			172800	IN	NS	a.nic.scor.
 scor.			172800	IN	NS	b.nic.scor.
 scor.			172800	IN	NS	c.nic.scor.
@@ -11709,7 +11758,26 @@ swatch.			172800	IN	NS	ac1.nstld.com.
 swatch.			172800	IN	NS	ac2.nstld.com.
 swatch.			172800	IN	NS	ac3.nstld.com.
 swatch.			172800	IN	NS	ac4.nstld.com.
-swatch.			86400	IN	NSEC	swiss. NS DS RRSIG NSEC
+swatch.			86400	IN	NSEC	swiftcover. NS DS RRSIG NSEC
+swiftcover.		172800	IN	NS	ns1.dns.nic.swiftcover.
+swiftcover.		172800	IN	NS	ns2.dns.nic.swiftcover.
+swiftcover.		172800	IN	NS	ns3.dns.nic.swiftcover.
+swiftcover.		172800	IN	NS	ns4.dns.nic.swiftcover.
+swiftcover.		172800	IN	NS	ns5.dns.nic.swiftcover.
+swiftcover.		172800	IN	NS	ns6.dns.nic.swiftcover.
+swiftcover.		86400	IN	NSEC	swiss. NS DS RRSIG NSEC
+ns1.dns.nic.swiftcover.	172800	IN	A	156.154.144.155
+ns1.dns.nic.swiftcover.	172800	IN	AAAA	2610:a1:1071::9b
+ns2.dns.nic.swiftcover.	172800	IN	A	156.154.145.155
+ns2.dns.nic.swiftcover.	172800	IN	AAAA	2610:a1:1072::9b
+ns3.dns.nic.swiftcover.	172800	IN	A	156.154.159.155
+ns3.dns.nic.swiftcover.	172800	IN	AAAA	2610:a1:1073::9b
+ns4.dns.nic.swiftcover.	172800	IN	A	156.154.156.155
+ns4.dns.nic.swiftcover.	172800	IN	AAAA	2610:a1:1074::9b
+ns5.dns.nic.swiftcover.	172800	IN	A	156.154.157.155
+ns5.dns.nic.swiftcover.	172800	IN	AAAA	2610:a1:1075::9b
+ns6.dns.nic.swiftcover.	172800	IN	A	156.154.158.155
+ns6.dns.nic.swiftcover.	172800	IN	AAAA	2610:a1:1076::9b
 swiss.			172800	IN	NS	anycast9.irondns.net.
 swiss.			172800	IN	NS	anycast10.irondns.net.
 swiss.			172800	IN	NS	anycast23.irondns.net.
