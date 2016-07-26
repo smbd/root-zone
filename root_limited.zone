@@ -459,7 +459,12 @@ am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pch.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
-am.			86400	IN	NSEC	amfam. NS DS RRSIG NSEC
+am.			86400	IN	NSEC	americanfamily. NS DS RRSIG NSEC
+americanfamily.		172800	IN	NS	ac1.nstld.com.
+americanfamily.		172800	IN	NS	ac2.nstld.com.
+americanfamily.		172800	IN	NS	ac3.nstld.com.
+americanfamily.		172800	IN	NS	ac4.nstld.com.
+americanfamily.		86400	IN	NSEC	amfam. NS DS RRSIG NSEC
 amfam.			172800	IN	NS	ac1.nstld.com.
 amfam.			172800	IN	NS	ac2.nstld.com.
 amfam.			172800	IN	NS	ac3.nstld.com.
@@ -5279,7 +5284,26 @@ honda.			172800	IN	NS	a.gmoregistry.net.
 honda.			172800	IN	NS	b.gmoregistry.net.
 honda.			172800	IN	NS	k.gmoregistry.net.
 honda.			172800	IN	NS	l.gmoregistry.net.
-honda.			86400	IN	NSEC	horse. NS DS RRSIG NSEC
+honda.			86400	IN	NSEC	honeywell. NS DS RRSIG NSEC
+honeywell.		172800	IN	NS	ns1.dns.nic.honeywell.
+honeywell.		172800	IN	NS	ns2.dns.nic.honeywell.
+honeywell.		172800	IN	NS	ns3.dns.nic.honeywell.
+honeywell.		172800	IN	NS	ns4.dns.nic.honeywell.
+honeywell.		172800	IN	NS	ns5.dns.nic.honeywell.
+honeywell.		172800	IN	NS	ns6.dns.nic.honeywell.
+honeywell.		86400	IN	NSEC	horse. NS DS RRSIG NSEC
+ns1.dns.nic.honeywell.	172800	IN	A	156.154.144.75
+ns1.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1071::4b
+ns2.dns.nic.honeywell.	172800	IN	A	156.154.145.75
+ns2.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1072::4b
+ns3.dns.nic.honeywell.	172800	IN	A	156.154.159.75
+ns3.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1073::4b
+ns4.dns.nic.honeywell.	172800	IN	A	156.154.156.75
+ns4.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1074::4b
+ns5.dns.nic.honeywell.	172800	IN	A	156.154.157.75
+ns5.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1075::4b
+ns6.dns.nic.honeywell.	172800	IN	A	156.154.158.75
+ns6.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1076::4b
 horse.			172800	IN	NS	a.ns.nic.horse.
 horse.			172800	IN	NS	b.ns.nic.horse.
 horse.			172800	IN	NS	c.ns.nic.horse.
