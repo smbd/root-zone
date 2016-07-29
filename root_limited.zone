@@ -4331,12 +4331,7 @@ flowers.		172800	IN	NS	a.flowers.dyntld.net.
 flowers.		172800	IN	NS	b.flowers.dyntld.net.
 flowers.		172800	IN	NS	c.flowers.dyntld.net.
 flowers.		172800	IN	NS	ns1.uniregistry.net.
-flowers.		86400	IN	NSEC	flsmidth. NS DS RRSIG NSEC
-flsmidth.		172800	IN	NS	ns1a.ksregistry.net.
-flsmidth.		172800	IN	NS	ns1b.ksregistry.net.
-flsmidth.		172800	IN	NS	ns2a.ksregistry.com.
-flsmidth.		172800	IN	NS	ns2b.ksregistry.com.
-flsmidth.		86400	IN	NSEC	fly. NS DS RRSIG NSEC
+flowers.		86400	IN	NSEC	fly. NS DS RRSIG NSEC
 fly.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 fly.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 fly.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -6699,7 +6694,12 @@ lacaixa.		172800	IN	NS	anycast9.irondns.net.
 lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
 lacaixa.		172800	IN	NS	anycast24.irondns.net.
-lacaixa.		86400	IN	NSEC	lamborghini. NS DS RRSIG NSEC
+lacaixa.		86400	IN	NSEC	ladbrokes. NS DS RRSIG NSEC
+ladbrokes.		172800	IN	NS	ac1.nstld.com.
+ladbrokes.		172800	IN	NS	ac2.nstld.com.
+ladbrokes.		172800	IN	NS	ac3.nstld.com.
+ladbrokes.		172800	IN	NS	ac4.nstld.com.
+ladbrokes.		86400	IN	NSEC	lamborghini. NS DS RRSIG NSEC
 lamborghini.		172800	IN	NS	a0.nic.lamborghini.
 lamborghini.		172800	IN	NS	a2.nic.lamborghini.
 lamborghini.		172800	IN	NS	b0.nic.lamborghini.
@@ -7472,19 +7472,12 @@ media.			172800	IN	NS	demand.alpha.aridns.net.au.
 media.			172800	IN	NS	demand.delta.aridns.net.au.
 media.			172800	IN	NS	demand.gamma.aridns.net.au.
 media.			86400	IN	NSEC	meet. NS DS RRSIG NSEC
-meet.			172800	IN	NS	a0.nic.meet.
-meet.			172800	IN	NS	a2.nic.meet.
-meet.			172800	IN	NS	b0.nic.meet.
-meet.			172800	IN	NS	c0.nic.meet.
+meet.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+meet.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+meet.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+meet.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+meet.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 meet.			86400	IN	NSEC	melbourne. NS DS RRSIG NSEC
-a0.nic.meet.		172800	IN	A	65.22.68.25
-a0.nic.meet.		172800	IN	AAAA	2a01:8840:42::25
-a2.nic.meet.		172800	IN	A	65.22.71.25
-a2.nic.meet.		172800	IN	AAAA	2a01:8840:45::25
-b0.nic.meet.		172800	IN	A	65.22.69.25
-b0.nic.meet.		172800	IN	AAAA	2a01:8840:43::25
-c0.nic.meet.		172800	IN	A	65.22.70.25
-c0.nic.meet.		172800	IN	AAAA	2a01:8840:44::25
 melbourne.		172800	IN	NS	a.nic.melbourne.
 melbourne.		172800	IN	NS	b.nic.melbourne.
 melbourne.		172800	IN	NS	c.nic.melbourne.
