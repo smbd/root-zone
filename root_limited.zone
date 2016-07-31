@@ -292,9 +292,14 @@ ns6.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1076::5
 af.			172800	IN	NS	ns.anycast.nic.af.
 af.			172800	IN	NS	af1.dyntld.net.
 af.			172800	IN	NS	af3.dyntld.net.
-af.			86400	IN	NSEC	afl. NS DS RRSIG NSEC
+af.			86400	IN	NSEC	afamilycompany. NS DS RRSIG NSEC
 ns.anycast.nic.af.	172800	IN	A	204.61.216.13
 ns.anycast.nic.af.	172800	IN	AAAA	2001:500:14:6013:ad::1
+afamilycompany.		172800	IN	NS	ac1.nstld.com.
+afamilycompany.		172800	IN	NS	ac2.nstld.com.
+afamilycompany.		172800	IN	NS	ac3.nstld.com.
+afamilycompany.		172800	IN	NS	ac4.nstld.com.
+afamilycompany.		86400	IN	NSEC	afl. NS DS RRSIG NSEC
 afl.			172800	IN	NS	a.nic.afl.
 afl.			172800	IN	NS	b.nic.afl.
 afl.			172800	IN	NS	c.nic.afl.
@@ -6958,7 +6963,7 @@ like.			172800	IN	NS	ns3.dns.nic.like.
 like.			172800	IN	NS	ns4.dns.nic.like.
 like.			172800	IN	NS	ns5.dns.nic.like.
 like.			172800	IN	NS	ns6.dns.nic.like.
-like.			86400	IN	NSEC	limited. NS DS RRSIG NSEC
+like.			86400	IN	NSEC	lilly. NS DS RRSIG NSEC
 ns1.dns.nic.like.	172800	IN	A	156.154.144.103
 ns1.dns.nic.like.	172800	IN	AAAA	2610:a1:1071::67
 ns2.dns.nic.like.	172800	IN	A	156.154.145.103
@@ -6971,6 +6976,25 @@ ns5.dns.nic.like.	172800	IN	A	156.154.157.103
 ns5.dns.nic.like.	172800	IN	AAAA	2610:a1:1075::67
 ns6.dns.nic.like.	172800	IN	A	156.154.158.103
 ns6.dns.nic.like.	172800	IN	AAAA	2610:a1:1076::67
+lilly.			172800	IN	NS	ns1.dns.nic.lilly.
+lilly.			172800	IN	NS	ns2.dns.nic.lilly.
+lilly.			172800	IN	NS	ns3.dns.nic.lilly.
+lilly.			172800	IN	NS	ns4.dns.nic.lilly.
+lilly.			172800	IN	NS	ns5.dns.nic.lilly.
+lilly.			172800	IN	NS	ns6.dns.nic.lilly.
+lilly.			86400	IN	NSEC	limited. NS DS RRSIG NSEC
+ns1.dns.nic.lilly.	172800	IN	A	156.154.144.104
+ns1.dns.nic.lilly.	172800	IN	AAAA	2610:a1:1071::68
+ns2.dns.nic.lilly.	172800	IN	A	156.154.145.104
+ns2.dns.nic.lilly.	172800	IN	AAAA	2610:a1:1072::68
+ns3.dns.nic.lilly.	172800	IN	A	156.154.159.104
+ns3.dns.nic.lilly.	172800	IN	AAAA	2610:a1:1073::68
+ns4.dns.nic.lilly.	172800	IN	A	156.154.156.104
+ns4.dns.nic.lilly.	172800	IN	AAAA	2610:a1:1074::68
+ns5.dns.nic.lilly.	172800	IN	A	156.154.157.104
+ns5.dns.nic.lilly.	172800	IN	AAAA	2610:a1:1075::68
+ns6.dns.nic.lilly.	172800	IN	A	156.154.158.104
+ns6.dns.nic.lilly.	172800	IN	AAAA	2610:a1:1076::68
 limited.		172800	IN	NS	demand.beta.aridns.net.au.
 limited.		172800	IN	NS	demand.alpha.aridns.net.au.
 limited.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -7438,9 +7462,22 @@ mba.			86400	IN	NSEC	mc. NS DS RRSIG NSEC
 mc.			172800	IN	NS	mc.cctld.authdns.ripe.net.
 mc.			172800	IN	NS	ns1.nic.mc.
 mc.			172800	IN	NS	ns2.nic.mc.
-mc.			86400	IN	NSEC	md. NS RRSIG NSEC
+mc.			86400	IN	NSEC	mckinsey. NS RRSIG NSEC
 ns1.nic.mc.		172800	IN	A	195.78.19.216
 ns2.nic.mc.		172800	IN	A	85.31.217.131
+mckinsey.		172800	IN	NS	a0.nic.mckinsey.
+mckinsey.		172800	IN	NS	a2.nic.mckinsey.
+mckinsey.		172800	IN	NS	b0.nic.mckinsey.
+mckinsey.		172800	IN	NS	c0.nic.mckinsey.
+mckinsey.		86400	IN	NSEC	md. NS DS RRSIG NSEC
+a0.nic.mckinsey.	172800	IN	A	65.22.236.25
+a0.nic.mckinsey.	172800	IN	AAAA	2a01:8840:e6::25
+a2.nic.mckinsey.	172800	IN	A	65.22.239.25
+a2.nic.mckinsey.	172800	IN	AAAA	2a01:8840:e9::25
+b0.nic.mckinsey.	172800	IN	A	65.22.237.25
+b0.nic.mckinsey.	172800	IN	AAAA	2a01:8840:e7::25
+c0.nic.mckinsey.	172800	IN	A	65.22.238.25
+c0.nic.mckinsey.	172800	IN	AAAA	2a01:8840:e8::25
 md.			172800	IN	NS	md.cctld.authdns.ripe.net.
 md.			172800	IN	NS	nsb.dns.md.
 md.			172800	IN	NS	nsf.dns.md.
