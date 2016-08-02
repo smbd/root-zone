@@ -6565,8 +6565,6 @@ kiwi.			172800	IN	NS	a.ns.nic.kiwi.
 kiwi.			172800	IN	NS	b.ns.nic.kiwi.
 kiwi.			172800	IN	NS	c.ns.nic.kiwi.
 kiwi.			172800	IN	NS	d.ns.nic.kiwi.
-kiwi.			172800	IN	NS	e.ns.nic.kiwi.
-kiwi.			172800	IN	NS	f.ns.nic.kiwi.
 kiwi.			86400	IN	NSEC	km. NS DS RRSIG NSEC
 a.ns.nic.kiwi.		172800	IN	A	72.0.50.4
 a.ns.nic.kiwi.		172800	IN	AAAA	2620:171:a02:ad::4
@@ -6576,10 +6574,6 @@ c.ns.nic.kiwi.		172800	IN	A	70.40.0.4
 c.ns.nic.kiwi.		172800	IN	AAAA	2620:171:c00:c::4
 d.ns.nic.kiwi.		172800	IN	A	70.40.8.4
 d.ns.nic.kiwi.		172800	IN	AAAA	2620:171:f00:d::4
-e.ns.nic.kiwi.		172800	IN	A	162.219.54.254
-e.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80eb::254
-f.ns.nic.kiwi.		172800	IN	A	162.219.55.254
-f.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80ec::254
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
 km.			172800	IN	NS	ns-km.afrinic.net.
@@ -13506,8 +13500,8 @@ vn.			172800	IN	NS	vn.cctld.authdns.ripe.net.
 vn.			86400	IN	NSEC	vodka. NS RRSIG NSEC
 a.dns-servers.vn.	172800	IN	A	194.0.1.18
 a.dns-servers.vn.	172800	IN	AAAA	2001:678:4::12
-b.dns-servers.vn.	172800	IN	A	203.119.10.105
-b.dns-servers.vn.	172800	IN	AAAA	2001:dc8:0:7::105
+b.dns-servers.vn.	172800	IN	A	203.119.73.105
+b.dns-servers.vn.	172800	IN	AAAA	2001:dc8:1:2::105
 c.dns-servers.vn.	172800	IN	A	203.119.38.105
 d.dns-servers.vn.	172800	IN	A	203.119.44.105
 e.dns-servers.vn.	172800	IN	A	203.119.60.105
