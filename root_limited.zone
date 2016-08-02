@@ -395,8 +395,21 @@ al.			172800	IN	NS	al.cctld.authdns.ripe.net.
 al.			172800	IN	NS	ns1.nic.al.
 al.			172800	IN	NS	rip.psg.com.
 al.			172800	IN	NS	munnari.oz.au.
-al.			86400	IN	NSEC	alibaba. NS RRSIG NSEC
+al.			86400	IN	NSEC	alfaromeo. NS RRSIG NSEC
 ns1.nic.al.		172800	IN	A	194.1.149.230
+alfaromeo.		172800	IN	NS	a0.nic.alfaromeo.
+alfaromeo.		172800	IN	NS	a2.nic.alfaromeo.
+alfaromeo.		172800	IN	NS	b0.nic.alfaromeo.
+alfaromeo.		172800	IN	NS	c0.nic.alfaromeo.
+alfaromeo.		86400	IN	NSEC	alibaba. NS DS RRSIG NSEC
+a0.nic.alfaromeo.	172800	IN	A	65.22.124.17
+a0.nic.alfaromeo.	172800	IN	AAAA	2a01:8840:7a::17
+a2.nic.alfaromeo.	172800	IN	A	65.22.127.17
+a2.nic.alfaromeo.	172800	IN	AAAA	2a01:8840:7d::17
+b0.nic.alfaromeo.	172800	IN	A	65.22.125.17
+b0.nic.alfaromeo.	172800	IN	AAAA	2a01:8840:7b::17
+c0.nic.alfaromeo.	172800	IN	A	65.22.126.17
+c0.nic.alfaromeo.	172800	IN	AAAA	2a01:8840:7c::17
 alibaba.		172800	IN	NS	a0.nic.alibaba.
 alibaba.		172800	IN	NS	a2.nic.alibaba.
 alibaba.		172800	IN	NS	b0.nic.alibaba.
@@ -1542,7 +1555,7 @@ boehringer.		172800	IN	NS	a0.nic.boehringer.
 boehringer.		172800	IN	NS	a2.nic.boehringer.
 boehringer.		172800	IN	NS	b0.nic.boehringer.
 boehringer.		172800	IN	NS	c0.nic.boehringer.
-boehringer.		86400	IN	NSEC	bom. NS DS RRSIG NSEC
+boehringer.		86400	IN	NSEC	bofa. NS DS RRSIG NSEC
 a0.nic.boehringer.	172800	IN	A	65.22.188.17
 a0.nic.boehringer.	172800	IN	AAAA	2a01:8840:b6::17
 a2.nic.boehringer.	172800	IN	A	65.22.191.17
@@ -1551,6 +1564,11 @@ b0.nic.boehringer.	172800	IN	A	65.22.189.17
 b0.nic.boehringer.	172800	IN	AAAA	2a01:8840:b7::17
 c0.nic.boehringer.	172800	IN	A	65.22.190.17
 c0.nic.boehringer.	172800	IN	AAAA	2a01:8840:b8::17
+bofa.			172800	IN	NS	ac1.nstld.com.
+bofa.			172800	IN	NS	ac2.nstld.com.
+bofa.			172800	IN	NS	ac3.nstld.com.
+bofa.			172800	IN	NS	ac4.nstld.com.
+bofa.			86400	IN	NSEC	bom. NS DS RRSIG NSEC
 bom.			172800	IN	NS	a.dns.br.
 bom.			172800	IN	NS	b.dns.br.
 bom.			172800	IN	NS	c.dns.br.
@@ -4111,7 +4129,7 @@ feedback.		172800	IN	NS	a.nic.feedback.
 feedback.		172800	IN	NS	b.nic.feedback.
 feedback.		172800	IN	NS	c.nic.feedback.
 feedback.		172800	IN	NS	d.nic.feedback.
-feedback.		86400	IN	NSEC	ferrero. NS DS RRSIG NSEC
+feedback.		86400	IN	NSEC	ferrari. NS DS RRSIG NSEC
 a.nic.feedback.		172800	IN	A	194.169.218.50
 a.nic.feedback.		172800	IN	AAAA	2001:67c:13cc::1:50
 b.nic.feedback.		172800	IN	A	185.24.64.50
@@ -4120,6 +4138,19 @@ c.nic.feedback.		172800	IN	A	212.18.248.50
 c.nic.feedback.		172800	IN	AAAA	2a04:2b00:13ee::50
 d.nic.feedback.		172800	IN	A	212.18.249.50
 d.nic.feedback.		172800	IN	AAAA	2a04:2b00:13ff::50
+ferrari.		172800	IN	NS	a0.nic.ferrari.
+ferrari.		172800	IN	NS	a2.nic.ferrari.
+ferrari.		172800	IN	NS	b0.nic.ferrari.
+ferrari.		172800	IN	NS	c0.nic.ferrari.
+ferrari.		86400	IN	NSEC	ferrero. NS DS RRSIG NSEC
+a0.nic.ferrari.		172800	IN	A	65.22.124.25
+a0.nic.ferrari.		172800	IN	AAAA	2a01:8840:7a::25
+a2.nic.ferrari.		172800	IN	A	65.22.127.25
+a2.nic.ferrari.		172800	IN	AAAA	2a01:8840:7d::25
+b0.nic.ferrari.		172800	IN	A	65.22.125.25
+b0.nic.ferrari.		172800	IN	AAAA	2a01:8840:7b::25
+c0.nic.ferrari.		172800	IN	A	65.22.126.25
+c0.nic.ferrari.		172800	IN	AAAA	2a01:8840:7c::25
 ferrero.		172800	IN	NS	ns1.dns.nic.ferrero.
 ferrero.		172800	IN	NS	ns2.dns.nic.ferrero.
 ferrero.		172800	IN	NS	ns3.dns.nic.ferrero.
@@ -4147,7 +4178,7 @@ fi.			172800	IN	NS	e.fi.
 fi.			172800	IN	NS	f.fi.
 fi.			172800	IN	NS	g.fi.
 fi.			172800	IN	NS	h.fi.
-fi.			86400	IN	NSEC	film. NS DS RRSIG NSEC
+fi.			86400	IN	NSEC	fiat. NS DS RRSIG NSEC
 a.fi.			172800	IN	A	193.166.4.1
 a.fi.			172800	IN	AAAA	2001:708:10:53::53
 b.fi.			172800	IN	A	194.146.106.26
@@ -4164,6 +4195,19 @@ g.fi.			172800	IN	A	204.61.216.98
 g.fi.			172800	IN	AAAA	2001:500:14:6098:ad::1
 h.fi.			172800	IN	A	87.239.120.11
 h.fi.			172800	IN	AAAA	2001:678:a0::aaaa
+fiat.			172800	IN	NS	a0.nic.fiat.
+fiat.			172800	IN	NS	a2.nic.fiat.
+fiat.			172800	IN	NS	b0.nic.fiat.
+fiat.			172800	IN	NS	c0.nic.fiat.
+fiat.			86400	IN	NSEC	film. NS DS RRSIG NSEC
+a0.nic.fiat.		172800	IN	A	65.22.124.1
+a0.nic.fiat.		172800	IN	AAAA	2a01:8840:7a::1
+a2.nic.fiat.		172800	IN	A	65.22.127.1
+a2.nic.fiat.		172800	IN	AAAA	2a01:8840:7d::1
+b0.nic.fiat.		172800	IN	A	65.22.125.1
+b0.nic.fiat.		172800	IN	AAAA	2a01:8840:7b::1
+c0.nic.fiat.		172800	IN	A	65.22.126.1
+c0.nic.fiat.		172800	IN	AAAA	2a01:8840:7c::1
 film.			172800	IN	NS	a.nic.film.
 film.			172800	IN	NS	b.nic.film.
 film.			172800	IN	NS	c.nic.film.
@@ -6384,7 +6428,12 @@ juegos.			172800	IN	NS	a.juegos.dyntld.net.
 juegos.			172800	IN	NS	b.juegos.dyntld.net.
 juegos.			172800	IN	NS	c.juegos.dyntld.net.
 juegos.			172800	IN	NS	ns1.uniregistry.net.
-juegos.			86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
+juegos.			86400	IN	NSEC	juniper. NS DS RRSIG NSEC
+juniper.		172800	IN	NS	ac1.nstld.com.
+juniper.		172800	IN	NS	ac2.nstld.com.
+juniper.		172800	IN	NS	ac3.nstld.com.
+juniper.		172800	IN	NS	ac4.nstld.com.
+juniper.		86400	IN	NSEC	kaufen. NS DS RRSIG NSEC
 kaufen.			172800	IN	NS	demand.beta.aridns.net.au.
 kaufen.			172800	IN	NS	demand.alpha.aridns.net.au.
 kaufen.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7864,7 +7913,7 @@ montblanc.		172800	IN	NS	ns3.dns.nic.montblanc.
 montblanc.		172800	IN	NS	ns4.dns.nic.montblanc.
 montblanc.		172800	IN	NS	ns5.dns.nic.montblanc.
 montblanc.		172800	IN	NS	ns6.dns.nic.montblanc.
-montblanc.		86400	IN	NSEC	mormon. NS DS RRSIG NSEC
+montblanc.		86400	IN	NSEC	mopar. NS DS RRSIG NSEC
 ns1.dns.nic.montblanc.	172800	IN	A	156.154.144.116
 ns1.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1071::74
 ns2.dns.nic.montblanc.	172800	IN	A	156.154.145.116
@@ -7877,6 +7926,19 @@ ns5.dns.nic.montblanc.	172800	IN	A	156.154.157.116
 ns5.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1075::74
 ns6.dns.nic.montblanc.	172800	IN	A	156.154.158.116
 ns6.dns.nic.montblanc.	172800	IN	AAAA	2610:a1:1076::74
+mopar.			172800	IN	NS	a0.nic.mopar.
+mopar.			172800	IN	NS	a2.nic.mopar.
+mopar.			172800	IN	NS	b0.nic.mopar.
+mopar.			172800	IN	NS	c0.nic.mopar.
+mopar.			86400	IN	NSEC	mormon. NS DS RRSIG NSEC
+a0.nic.mopar.		172800	IN	A	65.22.76.33
+a0.nic.mopar.		172800	IN	AAAA	2a01:8840:4a::33
+a2.nic.mopar.		172800	IN	A	65.22.79.33
+a2.nic.mopar.		172800	IN	AAAA	2a01:8840:4d::33
+b0.nic.mopar.		172800	IN	A	65.22.77.33
+b0.nic.mopar.		172800	IN	AAAA	2a01:8840:4b::33
+c0.nic.mopar.		172800	IN	A	65.22.78.33
+c0.nic.mopar.		172800	IN	AAAA	2a01:8840:4c::33
 mormon.			172800	IN	NS	a0.nic.mormon.
 mormon.			172800	IN	NS	a2.nic.mormon.
 mormon.			172800	IN	NS	b0.nic.mormon.
@@ -8146,7 +8208,26 @@ navy.			172800	IN	NS	demand.beta.aridns.net.au.
 navy.			172800	IN	NS	demand.alpha.aridns.net.au.
 navy.			172800	IN	NS	demand.delta.aridns.net.au.
 navy.			172800	IN	NS	demand.gamma.aridns.net.au.
-navy.			86400	IN	NSEC	nc. NS DS RRSIG NSEC
+navy.			86400	IN	NSEC	nba. NS DS RRSIG NSEC
+nba.			172800	IN	NS	ns1.dns.nic.nba.
+nba.			172800	IN	NS	ns2.dns.nic.nba.
+nba.			172800	IN	NS	ns3.dns.nic.nba.
+nba.			172800	IN	NS	ns4.dns.nic.nba.
+nba.			172800	IN	NS	ns5.dns.nic.nba.
+nba.			172800	IN	NS	ns6.dns.nic.nba.
+nba.			86400	IN	NSEC	nc. NS DS RRSIG NSEC
+ns1.dns.nic.nba.	172800	IN	A	156.154.144.119
+ns1.dns.nic.nba.	172800	IN	AAAA	2610:a1:1071::77
+ns2.dns.nic.nba.	172800	IN	A	156.154.145.119
+ns2.dns.nic.nba.	172800	IN	AAAA	2610:a1:1072::77
+ns3.dns.nic.nba.	172800	IN	A	156.154.159.119
+ns3.dns.nic.nba.	172800	IN	AAAA	2610:a1:1073::77
+ns4.dns.nic.nba.	172800	IN	A	156.154.156.119
+ns4.dns.nic.nba.	172800	IN	AAAA	2610:a1:1074::77
+ns5.dns.nic.nba.	172800	IN	A	156.154.157.119
+ns5.dns.nic.nba.	172800	IN	AAAA	2610:a1:1075::77
+ns6.dns.nic.nba.	172800	IN	A	156.154.158.119
+ns6.dns.nic.nba.	172800	IN	AAAA	2610:a1:1076::77
 nc.			172800	IN	NS	nc.cctld.authdns.ripe.net.
 nc.			172800	IN	NS	ns1.nc.
 nc.			172800	IN	NS	ns2.nc.
@@ -12734,6 +12815,8 @@ tr.			172800	IN	NS	ns22.nic.tr.
 tr.			172800	IN	NS	ns31.nic.tr.
 tr.			172800	IN	NS	ns41.nic.tr.
 tr.			172800	IN	NS	ns42.nic.tr.
+tr.			172800	IN	NS	ns91.nic.tr.
+tr.			172800	IN	NS	ns92.nic.tr.
 tr.			86400	IN	NSEC	trade. NS RRSIG NSEC
 ns21.nic.tr.		172800	IN	A	213.14.246.2
 ns22.nic.tr.		172800	IN	A	213.14.246.6
@@ -12741,6 +12824,10 @@ ns3.nic.tr.		172800	IN	A	213.248.162.131
 ns31.nic.tr.		172800	IN	A	31.210.155.2
 ns41.nic.tr.		172800	IN	A	185.7.0.2
 ns42.nic.tr.		172800	IN	A	185.7.0.3
+ns91.nic.tr.		172800	IN	A	162.88.54.1
+ns91.nic.tr.		172800	IN	AAAA	2600:2000:3002::1
+ns92.nic.tr.		172800	IN	A	162.88.55.1
+ns92.nic.tr.		172800	IN	AAAA	2600:2000:3003::1
 trade.			172800	IN	NS	ns1.dns.nic.trade.
 trade.			172800	IN	NS	ns2.dns.nic.trade.
 trade.			172800	IN	NS	ns3.dns.nic.trade.
