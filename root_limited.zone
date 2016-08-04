@@ -302,9 +302,9 @@ ns5.dns.nic.aetna.	172800	IN	A	156.154.157.5
 ns5.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1075::5
 ns6.dns.nic.aetna.	172800	IN	A	156.154.158.5
 ns6.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1076::5
+af.			172800	IN	NS	a.af.dyntld.net.
+af.			172800	IN	NS	b.af.dyntld.net.
 af.			172800	IN	NS	ns.anycast.nic.af.
-af.			172800	IN	NS	af1.dyntld.net.
-af.			172800	IN	NS	af3.dyntld.net.
 af.			86400	IN	NSEC	afamilycompany. NS DS RRSIG NSEC
 ns.anycast.nic.af.	172800	IN	A	204.61.216.13
 ns.anycast.nic.af.	172800	IN	AAAA	2001:500:14:6013:ad::1
@@ -8551,10 +8551,10 @@ fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306::53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
 za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19::53
-af1.dyntld.net.		172800	IN	A	208.78.70.94
-af1.dyntld.net.		172800	IN	AAAA	2001:500:90::94
-af3.dyntld.net.		172800	IN	A	208.78.71.94
-af3.dyntld.net.		172800	IN	AAAA	2001:500:94::94
+a.af.dyntld.net.	172800	IN	A	199.19.5.1
+a.af.dyntld.net.	172800	IN	AAAA	2001:500:92::1
+b.af.dyntld.net.	172800	IN	A	199.19.6.1
+b.af.dyntld.net.	172800	IN	AAAA	2001:500:96::1
 a.aq.dyntld.net.	172800	IN	A	162.88.52.6
 a.aq.dyntld.net.	172800	IN	AAAA	2600:2000:3000::6
 b.aq.dyntld.net.	172800	IN	A	162.88.53.6
