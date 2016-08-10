@@ -495,12 +495,50 @@ am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pch.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
-am.			86400	IN	NSEC	americanfamily. NS DS RRSIG NSEC
+am.			86400	IN	NSEC	americanexpress. NS DS RRSIG NSEC
+americanexpress.	172800	IN	NS	ns1.dns.nic.americanexpress.
+americanexpress.	172800	IN	NS	ns2.dns.nic.americanexpress.
+americanexpress.	172800	IN	NS	ns3.dns.nic.americanexpress.
+americanexpress.	172800	IN	NS	ns4.dns.nic.americanexpress.
+americanexpress.	172800	IN	NS	ns5.dns.nic.americanexpress.
+americanexpress.	172800	IN	NS	ns6.dns.nic.americanexpress.
+americanexpress.	86400	IN	NSEC	americanfamily. NS DS RRSIG NSEC
+ns1.dns.nic.americanexpress. 172800 IN	A	156.154.144.9
+ns1.dns.nic.americanexpress. 172800 IN	AAAA	2610:a1:1071::9
+ns2.dns.nic.americanexpress. 172800 IN	A	156.154.145.9
+ns2.dns.nic.americanexpress. 172800 IN	AAAA	2610:a1:1072::9
+ns3.dns.nic.americanexpress. 172800 IN	A	156.154.159.9
+ns3.dns.nic.americanexpress. 172800 IN	AAAA	2610:a1:1073::9
+ns4.dns.nic.americanexpress. 172800 IN	A	156.154.156.9
+ns4.dns.nic.americanexpress. 172800 IN	AAAA	2610:a1:1074::9
+ns5.dns.nic.americanexpress. 172800 IN	A	156.154.157.9
+ns5.dns.nic.americanexpress. 172800 IN	AAAA	2610:a1:1075::9
+ns6.dns.nic.americanexpress. 172800 IN	A	156.154.158.9
+ns6.dns.nic.americanexpress. 172800 IN	AAAA	2610:a1:1076::9
 americanfamily.		172800	IN	NS	ac1.nstld.com.
 americanfamily.		172800	IN	NS	ac2.nstld.com.
 americanfamily.		172800	IN	NS	ac3.nstld.com.
 americanfamily.		172800	IN	NS	ac4.nstld.com.
-americanfamily.		86400	IN	NSEC	amfam. NS DS RRSIG NSEC
+americanfamily.		86400	IN	NSEC	amex. NS DS RRSIG NSEC
+amex.			172800	IN	NS	ns1.dns.nic.amex.
+amex.			172800	IN	NS	ns2.dns.nic.amex.
+amex.			172800	IN	NS	ns3.dns.nic.amex.
+amex.			172800	IN	NS	ns4.dns.nic.amex.
+amex.			172800	IN	NS	ns5.dns.nic.amex.
+amex.			172800	IN	NS	ns6.dns.nic.amex.
+amex.			86400	IN	NSEC	amfam. NS DS RRSIG NSEC
+ns1.dns.nic.amex.	172800	IN	A	156.154.144.10
+ns1.dns.nic.amex.	172800	IN	AAAA	2610:a1:1071::a
+ns2.dns.nic.amex.	172800	IN	A	156.154.145.10
+ns2.dns.nic.amex.	172800	IN	AAAA	2610:a1:1072::a
+ns3.dns.nic.amex.	172800	IN	A	156.154.159.10
+ns3.dns.nic.amex.	172800	IN	AAAA	2610:a1:1073::a
+ns4.dns.nic.amex.	172800	IN	A	156.154.156.10
+ns4.dns.nic.amex.	172800	IN	AAAA	2610:a1:1074::a
+ns5.dns.nic.amex.	172800	IN	A	156.154.157.10
+ns5.dns.nic.amex.	172800	IN	AAAA	2610:a1:1075::a
+ns6.dns.nic.amex.	172800	IN	A	156.154.158.10
+ns6.dns.nic.amex.	172800	IN	AAAA	2610:a1:1076::a
 amfam.			172800	IN	NS	ac1.nstld.com.
 amfam.			172800	IN	NS	ac2.nstld.com.
 amfam.			172800	IN	NS	ac3.nstld.com.
@@ -1596,6 +1634,7 @@ b0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:3f::9
 c0.nic.bnpparibas.	172800	IN	A	65.22.66.9
 c0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:40::9
 bo.			172800	IN	NS	ns.dns.br.
+bo.			172800	IN	NS	ns2.nic.fr.
 bo.			172800	IN	NS	utama.bolnet.bo.
 bo.			172800	IN	NS	anycast.ns.nic.bo.
 bo.			86400	IN	NSEC	boats. NS RRSIG NSEC
@@ -4830,11 +4869,17 @@ gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 gd.			86400	IN	NSEC	gdn. NS DS RRSIG NSEC
 gdn.			172800	IN	NS	ns1.nic.gdn.
 gdn.			172800	IN	NS	ns2.nic.gdn.
+gdn.			172800	IN	NS	ns3.nic.gdn.
+gdn.			172800	IN	NS	ns4.nic.gdn.
 gdn.			86400	IN	NSEC	ge. NS DS RRSIG NSEC
-ns1.nic.gdn.		172800	IN	A	194.0.1.37
-ns1.nic.gdn.		172800	IN	AAAA	2001:678:4::25
+ns1.nic.gdn.		172800	IN	A	194.0.25.18
+ns1.nic.gdn.		172800	IN	AAAA	2001:678:20::18
 ns2.nic.gdn.		172800	IN	A	204.61.216.99
 ns2.nic.gdn.		172800	IN	AAAA	2001:500:14:6099:ad::1
+ns3.nic.gdn.		172800	IN	A	194.0.26.11
+ns3.nic.gdn.		172800	IN	AAAA	2001:67c:10e0::11
+ns4.nic.gdn.		172800	IN	A	194.0.24.11
+ns4.nic.gdn.		172800	IN	AAAA	2001:678:24::11
 ge.			172800	IN	NS	ge.hostmaster.ua.
 ge.			172800	IN	NS	ns.uu.net.
 ge.			172800	IN	NS	ns.nic.ge.
@@ -7696,9 +7741,47 @@ mba.			86400	IN	NSEC	mc. NS DS RRSIG NSEC
 mc.			172800	IN	NS	mc.cctld.authdns.ripe.net.
 mc.			172800	IN	NS	ns1.nic.mc.
 mc.			172800	IN	NS	ns2.nic.mc.
-mc.			86400	IN	NSEC	mckinsey. NS RRSIG NSEC
+mc.			86400	IN	NSEC	mcd. NS RRSIG NSEC
 ns1.nic.mc.		172800	IN	A	195.78.19.216
 ns2.nic.mc.		172800	IN	A	85.31.217.131
+mcd.			172800	IN	NS	ns1.dns.nic.mcd.
+mcd.			172800	IN	NS	ns2.dns.nic.mcd.
+mcd.			172800	IN	NS	ns3.dns.nic.mcd.
+mcd.			172800	IN	NS	ns4.dns.nic.mcd.
+mcd.			172800	IN	NS	ns5.dns.nic.mcd.
+mcd.			172800	IN	NS	ns6.dns.nic.mcd.
+mcd.			86400	IN	NSEC	mcdonalds. NS DS RRSIG NSEC
+ns1.dns.nic.mcd.	172800	IN	A	156.154.144.110
+ns1.dns.nic.mcd.	172800	IN	AAAA	2610:a1:1071::6e
+ns2.dns.nic.mcd.	172800	IN	A	156.154.145.110
+ns2.dns.nic.mcd.	172800	IN	AAAA	2610:a1:1072::6e
+ns3.dns.nic.mcd.	172800	IN	A	156.154.159.110
+ns3.dns.nic.mcd.	172800	IN	AAAA	2610:a1:1073::6e
+ns4.dns.nic.mcd.	172800	IN	A	156.154.156.110
+ns4.dns.nic.mcd.	172800	IN	AAAA	2610:a1:1074::6e
+ns5.dns.nic.mcd.	172800	IN	A	156.154.157.110
+ns5.dns.nic.mcd.	172800	IN	AAAA	2610:a1:1075::6e
+ns6.dns.nic.mcd.	172800	IN	A	156.154.158.110
+ns6.dns.nic.mcd.	172800	IN	AAAA	2610:a1:1076::6e
+mcdonalds.		172800	IN	NS	ns1.dns.nic.mcdonalds.
+mcdonalds.		172800	IN	NS	ns2.dns.nic.mcdonalds.
+mcdonalds.		172800	IN	NS	ns3.dns.nic.mcdonalds.
+mcdonalds.		172800	IN	NS	ns4.dns.nic.mcdonalds.
+mcdonalds.		172800	IN	NS	ns5.dns.nic.mcdonalds.
+mcdonalds.		172800	IN	NS	ns6.dns.nic.mcdonalds.
+mcdonalds.		86400	IN	NSEC	mckinsey. NS DS RRSIG NSEC
+ns1.dns.nic.mcdonalds.	172800	IN	A	156.154.144.111
+ns1.dns.nic.mcdonalds.	172800	IN	AAAA	2610:a1:1071::6f
+ns2.dns.nic.mcdonalds.	172800	IN	A	156.154.145.111
+ns2.dns.nic.mcdonalds.	172800	IN	AAAA	2610:a1:1072::6f
+ns3.dns.nic.mcdonalds.	172800	IN	A	156.154.159.111
+ns3.dns.nic.mcdonalds.	172800	IN	AAAA	2610:a1:1073::6f
+ns4.dns.nic.mcdonalds.	172800	IN	A	156.154.156.111
+ns4.dns.nic.mcdonalds.	172800	IN	AAAA	2610:a1:1074::6f
+ns5.dns.nic.mcdonalds.	172800	IN	A	156.154.157.111
+ns5.dns.nic.mcdonalds.	172800	IN	AAAA	2610:a1:1075::6f
+ns6.dns.nic.mcdonalds.	172800	IN	A	156.154.158.111
+ns6.dns.nic.mcdonalds.	172800	IN	AAAA	2610:a1:1076::6f
 mckinsey.		172800	IN	NS	a0.nic.mckinsey.
 mckinsey.		172800	IN	NS	a2.nic.mckinsey.
 mckinsey.		172800	IN	NS	b0.nic.mckinsey.
@@ -9667,7 +9750,26 @@ ooo.			172800	IN	NS	ac1.nstld.com.
 ooo.			172800	IN	NS	ac2.nstld.com.
 ooo.			172800	IN	NS	ac3.nstld.com.
 ooo.			172800	IN	NS	ac4.nstld.com.
-ooo.			86400	IN	NSEC	oracle. NS DS RRSIG NSEC
+ooo.			86400	IN	NSEC	open. NS DS RRSIG NSEC
+open.			172800	IN	NS	ns1.dns.nic.open.
+open.			172800	IN	NS	ns2.dns.nic.open.
+open.			172800	IN	NS	ns3.dns.nic.open.
+open.			172800	IN	NS	ns4.dns.nic.open.
+open.			172800	IN	NS	ns5.dns.nic.open.
+open.			172800	IN	NS	ns6.dns.nic.open.
+open.			86400	IN	NSEC	oracle. NS DS RRSIG NSEC
+ns1.dns.nic.open.	172800	IN	A	156.154.144.128
+ns1.dns.nic.open.	172800	IN	AAAA	2610:a1:1071::80
+ns2.dns.nic.open.	172800	IN	A	156.154.145.128
+ns2.dns.nic.open.	172800	IN	AAAA	2610:a1:1072::80
+ns3.dns.nic.open.	172800	IN	A	156.154.159.128
+ns3.dns.nic.open.	172800	IN	AAAA	2610:a1:1073::80
+ns4.dns.nic.open.	172800	IN	A	156.154.156.128
+ns4.dns.nic.open.	172800	IN	AAAA	2610:a1:1074::80
+ns5.dns.nic.open.	172800	IN	A	156.154.157.128
+ns5.dns.nic.open.	172800	IN	AAAA	2610:a1:1075::80
+ns6.dns.nic.open.	172800	IN	A	156.154.158.128
+ns6.dns.nic.open.	172800	IN	AAAA	2610:a1:1076::80
 oracle.			172800	IN	NS	ac1.nstld.com.
 oracle.			172800	IN	NS	ac2.nstld.com.
 oracle.			172800	IN	NS	ac3.nstld.com.
