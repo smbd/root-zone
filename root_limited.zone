@@ -6013,11 +6013,14 @@ in.			172800	IN	NS	a0.in.afilias-nst.info.
 in.			172800	IN	NS	a1.in.afilias-nst.in.
 in.			172800	IN	NS	a2.in.afilias-nst.info.
 in.			172800	IN	NS	b0.in.afilias-nst.org.
+in.			172800	IN	NS	b1.in.afilias-nst.in.
 in.			172800	IN	NS	b2.in.afilias-nst.org.
 in.			172800	IN	NS	c0.in.afilias-nst.info.
 in.			86400	IN	NSEC	industries. NS DS RRSIG NSEC
 a1.in.afilias-nst.in.	172800	IN	A	115.249.164.142
 a1.in.afilias-nst.in.	172800	IN	AAAA	2001:4528:fff:13::142
+b1.in.afilias-nst.in.	172800	IN	A	180.179.215.70
+b1.in.afilias-nst.in.	172800	IN	AAAA	2401:8800:411:8::70
 industries.		172800	IN	NS	demand.beta.aridns.net.au.
 industries.		172800	IN	NS	demand.alpha.aridns.net.au.
 industries.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -14608,6 +14611,7 @@ xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -15007,6 +15011,7 @@ xn--fpcrj9c3d.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--fpcrj9c3d.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--fpcrj9c3d.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--fpcrj9c3d.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--fpcrj9c3d.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--fpcrj9c3d.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -15075,6 +15080,7 @@ xn--gecrj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -15083,6 +15089,7 @@ xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--h2brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--h2brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -15325,6 +15332,7 @@ xn--mgbbh1a71e.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--mgbbh1a71e.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--mgbbh1a71e.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -15581,6 +15589,7 @@ xn--s9brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--s9brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--s9brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--s9brj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--s9brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--s9brj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
@@ -15672,6 +15681,7 @@ xn--xkc2dl3a5ee0h.	172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a1.in.afilias-nst.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	a2.in.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	b0.cctld.afilias-nst.org.
+xn--xkc2dl3a5ee0h.	172800	IN	NS	b1.in.afilias-nst.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	b2.in.afilias-nst.org.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	d0.cctld.afilias-nst.org.
