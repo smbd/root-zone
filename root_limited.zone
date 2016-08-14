@@ -743,7 +743,12 @@ arte.			86400	IN	NSEC	as. NS DS RRSIG NSEC
 as.			172800	IN	NS	c.ci-servers.net.
 as.			172800	IN	NS	tld.gdns.net.
 as.			172800	IN	NS	ns99.dns.net.nz.
-as.			86400	IN	NSEC	asia. NS RRSIG NSEC
+as.			86400	IN	NSEC	asda. NS RRSIG NSEC
+asda.			172800	IN	NS	ac1.nstld.com.
+asda.			172800	IN	NS	ac2.nstld.com.
+asda.			172800	IN	NS	ac3.nstld.com.
+asda.			172800	IN	NS	ac4.nstld.com.
+asda.			86400	IN	NSEC	asia. NS DS RRSIG NSEC
 asia.			172800	IN	NS	a0.asia.afilias-nst.info.
 asia.			172800	IN	NS	a2.asia.afilias-nst.info.
 asia.			172800	IN	NS	b0.asia.afilias-nst.asia.
@@ -5364,7 +5369,26 @@ haus.			172800	IN	NS	demand.beta.aridns.net.au.
 haus.			172800	IN	NS	demand.alpha.aridns.net.au.
 haus.			172800	IN	NS	demand.delta.aridns.net.au.
 haus.			172800	IN	NS	demand.gamma.aridns.net.au.
-haus.			86400	IN	NSEC	hdfcbank. NS DS RRSIG NSEC
+haus.			86400	IN	NSEC	hbo. NS DS RRSIG NSEC
+hbo.			172800	IN	NS	ns1.dns.nic.hbo.
+hbo.			172800	IN	NS	ns2.dns.nic.hbo.
+hbo.			172800	IN	NS	ns3.dns.nic.hbo.
+hbo.			172800	IN	NS	ns4.dns.nic.hbo.
+hbo.			172800	IN	NS	ns5.dns.nic.hbo.
+hbo.			172800	IN	NS	ns6.dns.nic.hbo.
+hbo.			86400	IN	NSEC	hdfcbank. NS DS RRSIG NSEC
+ns1.dns.nic.hbo.	172800	IN	A	156.154.144.70
+ns1.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1071::46
+ns2.dns.nic.hbo.	172800	IN	A	156.154.145.70
+ns2.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1072::46
+ns3.dns.nic.hbo.	172800	IN	A	156.154.159.70
+ns3.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1073::46
+ns4.dns.nic.hbo.	172800	IN	A	156.154.156.70
+ns4.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1074::46
+ns5.dns.nic.hbo.	172800	IN	A	156.154.157.70
+ns5.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1075::46
+ns6.dns.nic.hbo.	172800	IN	A	156.154.158.70
+ns6.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1076::46
 hdfcbank.		172800	IN	NS	a0.nic.hdfcbank.
 hdfcbank.		172800	IN	NS	a2.nic.hdfcbank.
 hdfcbank.		172800	IN	NS	b0.nic.hdfcbank.
