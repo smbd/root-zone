@@ -363,7 +363,7 @@ aig.			172800	IN	NS	ns3.dns.nic.aig.
 aig.			172800	IN	NS	ns4.dns.nic.aig.
 aig.			172800	IN	NS	ns5.dns.nic.aig.
 aig.			172800	IN	NS	ns6.dns.nic.aig.
-aig.			86400	IN	NSEC	airbus. NS DS RRSIG NSEC
+aig.			86400	IN	NSEC	aigo. NS DS RRSIG NSEC
 ns1.dns.nic.aig.	172800	IN	A	156.154.144.6
 ns1.dns.nic.aig.	172800	IN	AAAA	2610:a1:1071::6
 ns2.dns.nic.aig.	172800	IN	A	156.154.145.6
@@ -376,6 +376,19 @@ ns5.dns.nic.aig.	172800	IN	A	156.154.157.6
 ns5.dns.nic.aig.	172800	IN	AAAA	2610:a1:1075::6
 ns6.dns.nic.aig.	172800	IN	A	156.154.158.6
 ns6.dns.nic.aig.	172800	IN	AAAA	2610:a1:1076::6
+aigo.			172800	IN	NS	a0.nic.aigo.
+aigo.			172800	IN	NS	a2.nic.aigo.
+aigo.			172800	IN	NS	b0.nic.aigo.
+aigo.			172800	IN	NS	c0.nic.aigo.
+aigo.			86400	IN	NSEC	airbus. NS DS RRSIG NSEC
+a0.nic.aigo.		172800	IN	A	65.22.132.25
+a0.nic.aigo.		172800	IN	AAAA	2a01:8840:82::25
+a2.nic.aigo.		172800	IN	A	65.22.135.25
+a2.nic.aigo.		172800	IN	AAAA	2a01:8840:85::25
+b0.nic.aigo.		172800	IN	A	65.22.133.25
+b0.nic.aigo.		172800	IN	AAAA	2a01:8840:83::25
+c0.nic.aigo.		172800	IN	A	65.22.134.25
+c0.nic.aigo.		172800	IN	AAAA	2a01:8840:84::25
 airbus.			172800	IN	NS	ac1.nstld.com.
 airbus.			172800	IN	NS	ac2.nstld.com.
 airbus.			172800	IN	NS	ac3.nstld.com.
@@ -5376,7 +5389,7 @@ hbo.			172800	IN	NS	ns3.dns.nic.hbo.
 hbo.			172800	IN	NS	ns4.dns.nic.hbo.
 hbo.			172800	IN	NS	ns5.dns.nic.hbo.
 hbo.			172800	IN	NS	ns6.dns.nic.hbo.
-hbo.			86400	IN	NSEC	hdfcbank. NS DS RRSIG NSEC
+hbo.			86400	IN	NSEC	hdfc. NS DS RRSIG NSEC
 ns1.dns.nic.hbo.	172800	IN	A	156.154.144.70
 ns1.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1071::46
 ns2.dns.nic.hbo.	172800	IN	A	156.154.145.70
@@ -5389,6 +5402,19 @@ ns5.dns.nic.hbo.	172800	IN	A	156.154.157.70
 ns5.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1075::46
 ns6.dns.nic.hbo.	172800	IN	A	156.154.158.70
 ns6.dns.nic.hbo.	172800	IN	AAAA	2610:a1:1076::46
+hdfc.			172800	IN	NS	a0.nic.hdfc.
+hdfc.			172800	IN	NS	a2.nic.hdfc.
+hdfc.			172800	IN	NS	b0.nic.hdfc.
+hdfc.			172800	IN	NS	c0.nic.hdfc.
+hdfc.			86400	IN	NSEC	hdfcbank. NS DS RRSIG NSEC
+a0.nic.hdfc.		172800	IN	A	65.22.176.33
+a0.nic.hdfc.		172800	IN	AAAA	2a01:8840:aa::33
+a2.nic.hdfc.		172800	IN	A	65.22.179.33
+a2.nic.hdfc.		172800	IN	AAAA	2a01:8840:ad::33
+b0.nic.hdfc.		172800	IN	A	65.22.177.33
+b0.nic.hdfc.		172800	IN	AAAA	2a01:8840:ab::33
+c0.nic.hdfc.		172800	IN	A	65.22.178.33
+c0.nic.hdfc.		172800	IN	AAAA	2a01:8840:ac::33
 hdfcbank.		172800	IN	NS	a0.nic.hdfcbank.
 hdfcbank.		172800	IN	NS	a2.nic.hdfcbank.
 hdfcbank.		172800	IN	NS	b0.nic.hdfcbank.
@@ -14620,7 +14646,20 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--3e0b707e.		86400	IN	NSEC	xn--3pxu8k. NS DS RRSIG NSEC
+xn--3e0b707e.		86400	IN	NSEC	xn--3oq18vl8pn36a. NS DS RRSIG NSEC
+xn--3oq18vl8pn36a.	172800	IN	NS	a0.nic.xn--3oq18vl8pn36a.
+xn--3oq18vl8pn36a.	172800	IN	NS	a2.nic.xn--3oq18vl8pn36a.
+xn--3oq18vl8pn36a.	172800	IN	NS	b0.nic.xn--3oq18vl8pn36a.
+xn--3oq18vl8pn36a.	172800	IN	NS	c0.nic.xn--3oq18vl8pn36a.
+xn--3oq18vl8pn36a.	86400	IN	NSEC	xn--3pxu8k. NS DS RRSIG NSEC
+a0.nic.xn--3oq18vl8pn36a. 172800 IN	A	65.22.208.1
+a0.nic.xn--3oq18vl8pn36a. 172800 IN	AAAA	2a01:8840:ca::1
+a2.nic.xn--3oq18vl8pn36a. 172800 IN	A	65.22.211.1
+a2.nic.xn--3oq18vl8pn36a. 172800 IN	AAAA	2a01:8840:cd::1
+b0.nic.xn--3oq18vl8pn36a. 172800 IN	A	65.22.209.1
+b0.nic.xn--3oq18vl8pn36a. 172800 IN	AAAA	2a01:8840:cb::1
+c0.nic.xn--3oq18vl8pn36a. 172800 IN	A	65.22.210.1
+c0.nic.xn--3oq18vl8pn36a. 172800 IN	AAAA	2a01:8840:cc::1
 xn--3pxu8k.		172800	IN	NS	ac1.nstld.com.
 xn--3pxu8k.		172800	IN	NS	ac2.nstld.com.
 xn--3pxu8k.		172800	IN	NS	ac3.nstld.com.
