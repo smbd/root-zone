@@ -923,7 +923,20 @@ audio.			172800	IN	NS	a.audio.dyntld.net.
 audio.			172800	IN	NS	b.audio.dyntld.net.
 audio.			172800	IN	NS	c.audio.dyntld.net.
 audio.			172800	IN	NS	ns1.uniregistry.net.
-audio.			86400	IN	NSEC	author. NS DS RRSIG NSEC
+audio.			86400	IN	NSEC	auspost. NS DS RRSIG NSEC
+auspost.		172800	IN	NS	a.nic.auspost.
+auspost.		172800	IN	NS	b.nic.auspost.
+auspost.		172800	IN	NS	c.nic.auspost.
+auspost.		172800	IN	NS	d.nic.auspost.
+auspost.		86400	IN	NSEC	author. NS DS RRSIG NSEC
+a.nic.auspost.		172800	IN	A	37.209.192.9
+a.nic.auspost.		172800	IN	AAAA	2001:dcd:1::9
+b.nic.auspost.		172800	IN	A	37.209.194.9
+b.nic.auspost.		172800	IN	AAAA	2001:dcd:2::9
+c.nic.auspost.		172800	IN	A	37.209.196.9
+c.nic.auspost.		172800	IN	AAAA	2001:dcd:3::9
+d.nic.auspost.		172800	IN	A	37.209.198.9
+d.nic.auspost.		172800	IN	AAAA	2001:dcd:4::9
 author.			172800	IN	NS	ns1.dns.nic.author.
 author.			172800	IN	NS	ns2.dns.nic.author.
 author.			172800	IN	NS	ns3.dns.nic.author.
