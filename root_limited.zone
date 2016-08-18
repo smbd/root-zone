@@ -4964,7 +4964,12 @@ genting.		172800	IN	NS	ac1.nstld.com.
 genting.		172800	IN	NS	ac2.nstld.com.
 genting.		172800	IN	NS	ac3.nstld.com.
 genting.		172800	IN	NS	ac4.nstld.com.
-genting.		86400	IN	NSEC	gf. NS DS RRSIG NSEC
+genting.		86400	IN	NSEC	george. NS DS RRSIG NSEC
+george.			172800	IN	NS	ac1.nstld.com.
+george.			172800	IN	NS	ac2.nstld.com.
+george.			172800	IN	NS	ac3.nstld.com.
+george.			172800	IN	NS	ac4.nstld.com.
+george.			86400	IN	NSEC	gf. NS DS RRSIG NSEC
 gf.			172800	IN	NS	ns1-gp.mediaserv.net.
 gf.			172800	IN	NS	ns1-mq.mediaserv.net.
 gf.			86400	IN	NSEC	gg. NS RRSIG NSEC
@@ -8553,8 +8558,13 @@ na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	merlin.net.na.
 na.			172800	IN	NS	sns-pb.isc.org.
-na.			86400	IN	NSEC	nadex. NS DS RRSIG NSEC
+na.			86400	IN	NSEC	nab. NS DS RRSIG NSEC
 merlin.net.na.		172800	IN	A	204.152.184.96
+nab.			172800	IN	NS	ac1.nstld.com.
+nab.			172800	IN	NS	ac2.nstld.com.
+nab.			172800	IN	NS	ac3.nstld.com.
+nab.			172800	IN	NS	ac4.nstld.com.
+nab.			86400	IN	NSEC	nadex. NS DS RRSIG NSEC
 nadex.			172800	IN	NS	ac1.nstld.com.
 nadex.			172800	IN	NS	ac2.nstld.com.
 nadex.			172800	IN	NS	ac3.nstld.com.
@@ -11464,7 +11474,12 @@ salon.			172800	IN	NS	demand.beta.aridns.net.au.
 salon.			172800	IN	NS	demand.alpha.aridns.net.au.
 salon.			172800	IN	NS	demand.delta.aridns.net.au.
 salon.			172800	IN	NS	demand.gamma.aridns.net.au.
-salon.			86400	IN	NSEC	samsung. NS DS RRSIG NSEC
+salon.			86400	IN	NSEC	samsclub. NS DS RRSIG NSEC
+samsclub.		172800	IN	NS	ac1.nstld.com.
+samsclub.		172800	IN	NS	ac2.nstld.com.
+samsclub.		172800	IN	NS	ac3.nstld.com.
+samsclub.		172800	IN	NS	ac4.nstld.com.
+samsclub.		86400	IN	NSEC	samsung. NS DS RRSIG NSEC
 samsung.		172800	IN	NS	b.dns.kr.
 samsung.		172800	IN	NS	c.dns.kr.
 samsung.		172800	IN	NS	d.dns.kr.
@@ -13596,7 +13611,7 @@ ua.			172800	IN	NS	ho1.ns.ua.
 ua.			172800	IN	NS	pch.ns.ua.
 ua.			172800	IN	NS	ripe.ns.ua.
 ua.			172800	IN	NS	sns-pb.isc.org.
-ua.			86400	IN	NSEC	ubs. NS DS RRSIG NSEC
+ua.			86400	IN	NSEC	ubank. NS DS RRSIG NSEC
 az.hostmaster.ua.	172800	IN	A	195.47.253.13
 az.hostmaster.ua.	172800	IN	AAAA	2001:67c:258::13
 ge.hostmaster.ua.	172800	IN	A	195.47.253.18
@@ -13612,6 +13627,11 @@ pch.ns.ua.		172800	IN	A	204.61.216.12
 pch.ns.ua.		172800	IN	AAAA	2001:500:14:6012:ad::1
 ripe.ns.ua.		172800	IN	A	193.0.9.121
 ripe.ns.ua.		172800	IN	AAAA	2001:67c:e0::121
+ubank.			172800	IN	NS	ac1.nstld.com.
+ubank.			172800	IN	NS	ac2.nstld.com.
+ubank.			172800	IN	NS	ac3.nstld.com.
+ubank.			172800	IN	NS	ac4.nstld.com.
+ubank.			86400	IN	NSEC	ubs. NS DS RRSIG NSEC
 ubs.			172800	IN	NS	ac1.nstld.com.
 ubs.			172800	IN	NS	ac2.nstld.com.
 ubs.			172800	IN	NS	ac3.nstld.com.
@@ -14140,7 +14160,7 @@ wales.			172800	IN	NS	dnsa.nic.wales.
 wales.			172800	IN	NS	dnsb.nic.wales.
 wales.			172800	IN	NS	dnsc.nic.wales.
 wales.			172800	IN	NS	dnsd.nic.wales.
-wales.			86400	IN	NSEC	walter. NS DS RRSIG NSEC
+wales.			86400	IN	NSEC	walmart. NS DS RRSIG NSEC
 dns1.nic.wales.		172800	IN	A	213.248.217.2
 dns1.nic.wales.		172800	IN	AAAA	2a01:618:401::2
 dns2.nic.wales.		172800	IN	A	103.49.81.2
@@ -14154,6 +14174,11 @@ dnsa.nic.wales.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.wales.		172800	IN	A	156.154.101.3
 dnsc.nic.wales.		172800	IN	A	156.154.102.3
 dnsd.nic.wales.		172800	IN	A	156.154.103.3
+walmart.		172800	IN	NS	ac1.nstld.com.
+walmart.		172800	IN	NS	ac2.nstld.com.
+walmart.		172800	IN	NS	ac3.nstld.com.
+walmart.		172800	IN	NS	ac4.nstld.com.
+walmart.		86400	IN	NSEC	walter. NS DS RRSIG NSEC
 walter.			172800	IN	NS	a.nic.walter.
 walter.			172800	IN	NS	b.nic.walter.
 walter.			172800	IN	NS	c.nic.walter.
