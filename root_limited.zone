@@ -7727,6 +7727,7 @@ ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns2.registre.ma.
 ma.			172800	IN	NS	ns3.registre.ma.
 ma.			172800	IN	NS	ns4.registre.ma.
+ma.			172800	IN	NS	sns-pb.isc.org.
 ma.			86400	IN	NSEC	macys. NS DS RRSIG NSEC
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
