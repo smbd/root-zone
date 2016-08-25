@@ -12,9 +12,9 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
-.			86400	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAcCsATzyk1Hj1xabagAGWi9sZSbB+igdzDM8CMZ5fPcOb314yP9/ lmvidoBuApPlMVwlz0lXaj6gzyjoOKBveoDD0VyHTqjCDg9UrcDoClNZ ciR2sHZoaMZp2yVNFyaC+7MkA8lsrCShieYPEowSjQdkvY5ONlEib/AT XdmAhfgB
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
+.			86400	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
 aaa.			172800	IN	NS	ns1.dns.nic.aaa.
 aaa.			172800	IN	NS	ns2.dns.nic.aaa.
 aaa.			172800	IN	NS	ns3.dns.nic.aaa.
@@ -3633,7 +3633,7 @@ dish.			172800	IN	NS	a0.nic.dish.
 dish.			172800	IN	NS	a2.nic.dish.
 dish.			172800	IN	NS	b0.nic.dish.
 dish.			172800	IN	NS	c0.nic.dish.
-dish.			86400	IN	NSEC	dj. NS DS RRSIG NSEC
+dish.			86400	IN	NSEC	diy. NS DS RRSIG NSEC
 a0.nic.dish.		172800	IN	A	65.22.88.33
 a0.nic.dish.		172800	IN	AAAA	2a01:8840:56::33
 a2.nic.dish.		172800	IN	A	65.22.91.33
@@ -3642,6 +3642,11 @@ b0.nic.dish.		172800	IN	A	65.22.89.33
 b0.nic.dish.		172800	IN	AAAA	2a01:8840:57::33
 c0.nic.dish.		172800	IN	A	65.22.90.33
 c0.nic.dish.		172800	IN	AAAA	2a01:8840:58::33
+diy.			172800	IN	NS	ac1.nstld.com.
+diy.			172800	IN	NS	ac2.nstld.com.
+diy.			172800	IN	NS	ac3.nstld.com.
+diy.			172800	IN	NS	ac4.nstld.com.
+diy.			86400	IN	NSEC	dj. NS DS RRSIG NSEC
 dj.			172800	IN	NS	bow.rain.fr.
 dj.			172800	IN	NS	bow.intnet.dj.
 dj.			86400	IN	NSEC	dk. NS RRSIG NSEC
@@ -6175,6 +6180,7 @@ a2.xxx.afilias-nst.info. 172800	IN	AAAA	2001:500:a4::1
 c0.xxx.afilias-nst.info. 172800	IN	A	199.115.154.1
 c0.xxx.afilias-nst.info. 172800	IN	AAAA	2001:500:a2::1
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
+ns2.uniregistry.info.	172800	IN	A	64.96.245.53
 ing.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 ing.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 ing.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -6727,6 +6733,7 @@ juegos.			172800	IN	NS	a.juegos.dyntld.net.
 juegos.			172800	IN	NS	b.juegos.dyntld.net.
 juegos.			172800	IN	NS	c.juegos.dyntld.net.
 juegos.			172800	IN	NS	ns1.uniregistry.net.
+juegos.			172800	IN	NS	ns2.uniregistry.info.
 juegos.			86400	IN	NSEC	juniper. NS DS RRSIG NSEC
 juniper.		172800	IN	NS	ac1.nstld.com.
 juniper.		172800	IN	NS	ac2.nstld.com.
@@ -8740,6 +8747,7 @@ tld1.coccaregistry.net.	172800	IN	A	72.0.49.2
 tld1.coccaregistry.net.	172800	IN	AAAA	2620:171:a01:ad::2
 lk.communitydns.net.	172800	IN	A	194.0.1.27
 ph.communitydns.net.	172800	IN	A	194.0.1.23
+ph.communitydns.net.	172800	IN	AAAA	2001:678:4::17
 euro-ns1.cw.net.	172800	IN	A	141.1.27.248
 euro-ns2.cw.net.	172800	IN	A	212.80.175.2
 euro-ns3.cw.net.	172800	IN	A	141.1.27.251
@@ -9188,8 +9196,6 @@ ne.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::101
 np.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.102
 np.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::102
-ph.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.104
-ph.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::104
 ps.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.105
 ps.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::105
 sa.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.108
@@ -9241,6 +9247,7 @@ c.root-servers.net.	518400	IN	AAAA	2001:500:2::c
 d.root-servers.net.	518400	IN	A	199.7.91.13
 d.root-servers.net.	518400	IN	AAAA	2001:500:2d::d
 e.root-servers.net.	518400	IN	A	192.203.230.10
+e.root-servers.net.	518400	IN	AAAA	2001:500:a8::e
 f.root-servers.net.	518400	IN	A	192.5.5.241
 f.root-servers.net.	518400	IN	AAAA	2001:500:2f::f
 g.root-servers.net.	518400	IN	A	192.112.36.4
@@ -10285,12 +10292,14 @@ pg.			86400	IN	NSEC	ph. NS RRSIG NSEC
 ns1.unitech.ac.pg.	172800	IN	A	202.1.32.49
 ns1.tiare.net.pg.	172800	IN	A	202.165.192.23
 ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
-ph.			172800	IN	NS	ph.cctld.authdns.ripe.net.
+ph.			172800	IN	NS	1.ns.ph.
 ph.			172800	IN	NS	ph.communitydns.net.
 ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	sec4.apnic.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
 ph.			86400	IN	NSEC	pharmacy. NS RRSIG NSEC
+1.ns.ph.		172800	IN	A	206.51.255.1
+1.ns.ph.		172800	IN	AAAA	2620:171:805:ad2:7068::1
 pharmacy.		172800	IN	NS	ns1.dns.nic.pharmacy.
 pharmacy.		172800	IN	NS	ns2.dns.nic.pharmacy.
 pharmacy.		172800	IN	NS	ns3.dns.nic.pharmacy.
