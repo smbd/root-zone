@@ -3912,13 +3912,26 @@ ec.			172800	IN	NS	n1.nic.ec.
 ec.			172800	IN	NS	n2.nic.ec.
 ec.			172800	IN	NS	n3.dns.ec.
 ec.			172800	IN	NS	sns-pb.isc.org.
-ec.			86400	IN	NSEC	edeka. NS RRSIG NSEC
+ec.			86400	IN	NSEC	eco. NS RRSIG NSEC
 n3.dns.ec.		172800	IN	A	204.61.216.39
 n3.dns.ec.		172800	IN	AAAA	2001:500:14:6039:ad::1
 n1.nic.ec.		172800	IN	A	200.12.198.1
 n1.nic.ec.		172800	IN	AAAA	2801:0:61::1
 n2.nic.ec.		172800	IN	A	200.12.199.1
 n2.nic.ec.		172800	IN	AAAA	2801:0:60::1
+eco.			172800	IN	NS	a0.nic.eco.
+eco.			172800	IN	NS	a2.nic.eco.
+eco.			172800	IN	NS	b0.nic.eco.
+eco.			172800	IN	NS	c0.nic.eco.
+eco.			86400	IN	NSEC	edeka. NS DS RRSIG NSEC
+a0.nic.eco.		172800	IN	A	65.22.216.17
+a0.nic.eco.		172800	IN	AAAA	2a01:8840:d2::17
+a2.nic.eco.		172800	IN	A	65.22.219.17
+a2.nic.eco.		172800	IN	AAAA	2a01:8840:d5::17
+b0.nic.eco.		172800	IN	A	65.22.217.17
+b0.nic.eco.		172800	IN	AAAA	2a01:8840:d3::17
+c0.nic.eco.		172800	IN	A	65.22.218.17
+c0.nic.eco.		172800	IN	AAAA	2a01:8840:d4::17
 edeka.			172800	IN	NS	a0.nic.edeka.
 edeka.			172800	IN	NS	a2.nic.edeka.
 edeka.			172800	IN	NS	b0.nic.edeka.
@@ -4117,6 +4130,8 @@ x.dns.eu.		172800	IN	A	194.0.1.19
 x.dns.eu.		172800	IN	AAAA	2001:678:4::13
 y.dns.eu.		172800	IN	A	194.146.106.90
 y.dns.eu.		172800	IN	AAAA	2001:67c:1010:23::53
+z.dns.eu.		172800	IN	A	162.88.56.1
+z.dns.eu.		172800	IN	AAAA	2600:2000:3004::1
 ns6.nominum.eu.		172800	IN	A	81.200.69.35
 eurovision.		172800	IN	NS	anycast9.irondns.net.
 eurovision.		172800	IN	NS	anycast10.irondns.net.
@@ -13824,7 +13839,12 @@ vana.			172800	IN	NS	ac1.nstld.com.
 vana.			172800	IN	NS	ac2.nstld.com.
 vana.			172800	IN	NS	ac3.nstld.com.
 vana.			172800	IN	NS	ac4.nstld.com.
-vana.			86400	IN	NSEC	vc. NS DS RRSIG NSEC
+vana.			86400	IN	NSEC	vanguard. NS DS RRSIG NSEC
+vanguard.		172800	IN	NS	ac1.nstld.com.
+vanguard.		172800	IN	NS	ac2.nstld.com.
+vanguard.		172800	IN	NS	ac3.nstld.com.
+vanguard.		172800	IN	NS	ac4.nstld.com.
+vanguard.		86400	IN	NSEC	vc. NS DS RRSIG NSEC
 vc.			172800	IN	NS	a0.cctld.afilias-nst.info.
 vc.			172800	IN	NS	a2.cctld.afilias-nst.info.
 vc.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -15009,6 +15029,7 @@ xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
 xn--d1alf.		86400	IN	NSEC	xn--e1a4c. NS RRSIG NSEC
 xn--e1a4c.		172800	IN	NS	x.dns.eu.
 xn--e1a4c.		172800	IN	NS	y.dns.eu.
+xn--e1a4c.		172800	IN	NS	z.dns.eu.
 xn--e1a4c.		172800	IN	NS	cz.dns.eu.
 xn--e1a4c.		172800	IN	NS	nl.dns.eu.
 xn--e1a4c.		172800	IN	NS	si.dns.eu.
