@@ -4116,6 +4116,7 @@ ns1.telecom.net.et.	172800	IN	A	213.55.64.36
 ns2.telecom.net.et.	172800	IN	A	213.55.64.38
 eu.			172800	IN	NS	x.dns.eu.
 eu.			172800	IN	NS	y.dns.eu.
+eu.			172800	IN	NS	z.dns.eu.
 eu.			172800	IN	NS	cz.dns.eu.
 eu.			172800	IN	NS	nl.dns.eu.
 eu.			172800	IN	NS	si.dns.eu.
