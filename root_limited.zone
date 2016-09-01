@@ -13428,7 +13428,6 @@ travel.			172800	IN	NS	c.gtld.travel.
 travel.			172800	IN	NS	d.gtld.travel.
 travel.			172800	IN	NS	e.gtld.travel.
 travel.			172800	IN	NS	f.gtld.travel.
-travel.			172800	IN	NS	g.gtld.travel.
 travel.			86400	IN	NSEC	travelchannel. NS DS RRSIG NSEC
 a.gtld.travel.		172800	IN	A	156.154.100.1
 a.gtld.travel.		172800	IN	AAAA	2001:502:ad09::1
@@ -13442,8 +13441,6 @@ e.gtld.travel.		172800	IN	A	156.154.104.1
 e.gtld.travel.		172800	IN	AAAA	2610:a1:1011::1
 f.gtld.travel.		172800	IN	A	156.154.105.1
 f.gtld.travel.		172800	IN	AAAA	2610:a1:1012::1
-g.gtld.travel.		172800	IN	A	207.34.5.1
-g.gtld.travel.		172800	IN	AAAA	2001:503:d1ae::1
 travelchannel.		172800	IN	NS	ac1.nstld.com.
 travelchannel.		172800	IN	NS	ac2.nstld.com.
 travelchannel.		172800	IN	NS	ac3.nstld.com.
