@@ -9230,8 +9230,6 @@ sz.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.114
 sz.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::114
 tj.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.117
 tj.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::117
-to.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.118
-to.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::118
 ug.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.52
 ug.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::52
 uy.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.122
@@ -12753,13 +12751,11 @@ b.ns.sx.		172800	IN	A	80.92.90.160
 c.ns.sx.		172800	IN	A	192.95.19.109
 sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
-sy.			172800	IN	NS	ns2.tld.sy.
 sy.			172800	IN	NS	pch.anycast.tld.sy.
 sy.			86400	IN	NSEC	sydney. NS DS RRSIG NSEC
 pch.anycast.tld.sy.	172800	IN	A	204.61.216.71
 pch.anycast.tld.sy.	172800	IN	AAAA	2001:500:14:6071:ad::1
 ns1.tld.sy.		172800	IN	A	82.137.200.85
-ns2.tld.sy.		172800	IN	A	82.137.192.145
 sydney.			172800	IN	NS	a.nic.sydney.
 sydney.			172800	IN	NS	b.nic.sydney.
 sydney.			172800	IN	NS	c.nic.sydney.
@@ -13307,14 +13303,15 @@ ns2.ati.tn.		172800	IN	A	193.95.67.22
 ns2.ati.tn.		172800	IN	AAAA	2001:4350:2048:1::22
 pch.ati.tn.		172800	IN	A	204.61.216.94
 pch.ati.tn.		172800	IN	AAAA	2001:500:14:6004:ad::1
-to.			172800	IN	NS	to.cctld.authdns.ripe.net.
 to.			172800	IN	NS	ns1.iafrica.com.
 to.			172800	IN	NS	colo.to.
 to.			172800	IN	NS	tonic.to.
 to.			172800	IN	NS	auth02.ns.uu.net.
+to.			172800	IN	NS	frankfurt.tonic.to.
 to.			86400	IN	NSEC	today. NS RRSIG NSEC
 colo.to.		172800	IN	A	216.74.32.104
 tonic.to.		172800	IN	A	216.74.32.100
+frankfurt.tonic.to.	172800	IN	A	46.101.233.168
 today.			172800	IN	NS	demand.beta.aridns.net.au.
 today.			172800	IN	NS	demand.alpha.aridns.net.au.
 today.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -15615,7 +15612,6 @@ xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		86400	IN	NSEC	xn--ogbpf8fl. NS DS RRSIG NSEC
 xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
-xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
 xn--ogbpf8fl.		86400	IN	NSEC	xn--p1acf. NS DS RRSIG NSEC
 xn--p1acf.		172800	IN	NS	a.xn--p1acf.dyntld.net.
