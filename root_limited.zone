@@ -4114,7 +4114,6 @@ et.			172800	IN	NS	phloem.uoregon.edu.
 et.			86400	IN	NSEC	eu. NS RRSIG NSEC
 ns1.telecom.net.et.	172800	IN	A	213.55.64.36
 ns2.telecom.net.et.	172800	IN	A	213.55.64.38
-eu.			172800	IN	NS	x.dns.eu.
 eu.			172800	IN	NS	y.dns.eu.
 eu.			172800	IN	NS	z.dns.eu.
 eu.			172800	IN	NS	cz.dns.eu.
@@ -4127,8 +4126,6 @@ nl.dns.eu.		172800	IN	A	91.200.16.100
 si.dns.eu.		172800	IN	A	193.2.221.60
 si.dns.eu.		172800	IN	AAAA	2001:1470:8000:100::1
 uk.dns.eu.		172800	IN	A	195.66.241.178
-x.dns.eu.		172800	IN	A	194.0.1.19
-x.dns.eu.		172800	IN	AAAA	2001:678:4::13
 y.dns.eu.		172800	IN	A	194.146.106.90
 y.dns.eu.		172800	IN	AAAA	2001:67c:1010:23::53
 z.dns.eu.		172800	IN	A	162.88.56.1
@@ -15022,7 +15019,6 @@ xn--d1alf.		172800	IN	NS	ns2.arnes.si.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
 xn--d1alf.		86400	IN	NSEC	xn--e1a4c. NS RRSIG NSEC
-xn--e1a4c.		172800	IN	NS	x.dns.eu.
 xn--e1a4c.		172800	IN	NS	y.dns.eu.
 xn--e1a4c.		172800	IN	NS	z.dns.eu.
 xn--e1a4c.		172800	IN	NS	cz.dns.eu.
