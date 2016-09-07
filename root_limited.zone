@@ -1844,19 +1844,11 @@ c.ns.nic.bradesco.	172800	IN	A	70.40.0.16
 c.ns.nic.bradesco.	172800	IN	AAAA	2620:171:c00:c::16
 d.ns.nic.bradesco.	172800	IN	A	70.40.8.16
 d.ns.nic.bradesco.	172800	IN	AAAA	2620:171:f00:d::16
-bridgestone.		172800	IN	NS	a.nic.bridgestone.
-bridgestone.		172800	IN	NS	b.nic.bridgestone.
-bridgestone.		172800	IN	NS	c.nic.bridgestone.
-bridgestone.		172800	IN	NS	d.nic.bridgestone.
+bridgestone.		172800	IN	NS	a.gmoregistry.net.
+bridgestone.		172800	IN	NS	b.gmoregistry.net.
+bridgestone.		172800	IN	NS	k.gmoregistry.net.
+bridgestone.		172800	IN	NS	l.gmoregistry.net.
 bridgestone.		86400	IN	NSEC	broadway. NS DS RRSIG NSEC
-a.nic.bridgestone.	172800	IN	A	37.209.192.9
-a.nic.bridgestone.	172800	IN	AAAA	2001:dcd:1::9
-b.nic.bridgestone.	172800	IN	A	37.209.194.9
-b.nic.bridgestone.	172800	IN	AAAA	2001:dcd:2::9
-c.nic.bridgestone.	172800	IN	A	37.209.196.9
-c.nic.bridgestone.	172800	IN	AAAA	2001:dcd:3::9
-d.nic.bridgestone.	172800	IN	A	37.209.198.9
-d.nic.bridgestone.	172800	IN	AAAA	2001:dcd:4::9
 broadway.		172800	IN	NS	a.ns.nic.broadway.
 broadway.		172800	IN	NS	b.ns.nic.broadway.
 broadway.		172800	IN	NS	c.ns.nic.broadway.
@@ -4477,19 +4469,11 @@ ns5.dns.nic.fire.	172800	IN	A	156.154.157.59
 ns5.dns.nic.fire.	172800	IN	AAAA	2610:a1:1075::3b
 ns6.dns.nic.fire.	172800	IN	A	156.154.158.59
 ns6.dns.nic.fire.	172800	IN	AAAA	2610:a1:1076::3b
-firestone.		172800	IN	NS	a.nic.firestone.
-firestone.		172800	IN	NS	b.nic.firestone.
-firestone.		172800	IN	NS	c.nic.firestone.
-firestone.		172800	IN	NS	d.nic.firestone.
+firestone.		172800	IN	NS	a.gmoregistry.net.
+firestone.		172800	IN	NS	b.gmoregistry.net.
+firestone.		172800	IN	NS	k.gmoregistry.net.
+firestone.		172800	IN	NS	l.gmoregistry.net.
 firestone.		86400	IN	NSEC	firmdale. NS DS RRSIG NSEC
-a.nic.firestone.	172800	IN	A	37.209.192.9
-a.nic.firestone.	172800	IN	AAAA	2001:dcd:1::9
-b.nic.firestone.	172800	IN	A	37.209.194.9
-b.nic.firestone.	172800	IN	AAAA	2001:dcd:2::9
-c.nic.firestone.	172800	IN	A	37.209.196.9
-c.nic.firestone.	172800	IN	AAAA	2001:dcd:3::9
-d.nic.firestone.	172800	IN	A	37.209.198.9
-d.nic.firestone.	172800	IN	AAAA	2001:dcd:4::9
 firmdale.		172800	IN	NS	ns1.nic.firmdale.
 firmdale.		172800	IN	NS	ns2.nic.firmdale.
 firmdale.		86400	IN	NSEC	fish. NS DS RRSIG NSEC
@@ -10522,19 +10506,11 @@ play.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 play.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 play.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 play.			86400	IN	NSEC	playstation. NS DS RRSIG NSEC
-playstation.		172800	IN	NS	a.nic.playstation.
-playstation.		172800	IN	NS	b.nic.playstation.
-playstation.		172800	IN	NS	c.nic.playstation.
-playstation.		172800	IN	NS	d.nic.playstation.
+playstation.		172800	IN	NS	a.gmoregistry.net.
+playstation.		172800	IN	NS	b.gmoregistry.net.
+playstation.		172800	IN	NS	k.gmoregistry.net.
+playstation.		172800	IN	NS	l.gmoregistry.net.
 playstation.		86400	IN	NSEC	plumbing. NS DS RRSIG NSEC
-a.nic.playstation.	172800	IN	A	37.209.192.9
-a.nic.playstation.	172800	IN	AAAA	2001:dcd:1::9
-b.nic.playstation.	172800	IN	A	37.209.194.9
-b.nic.playstation.	172800	IN	AAAA	2001:dcd:2::9
-c.nic.playstation.	172800	IN	A	37.209.196.9
-c.nic.playstation.	172800	IN	AAAA	2001:dcd:3::9
-d.nic.playstation.	172800	IN	A	37.209.198.9
-d.nic.playstation.	172800	IN	AAAA	2001:dcd:4::9
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
 plumbing.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -12341,19 +12317,11 @@ ns5.dns.nic.song.	172800	IN	A	156.154.157.153
 ns5.dns.nic.song.	172800	IN	AAAA	2610:a1:1075::99
 ns6.dns.nic.song.	172800	IN	A	156.154.158.153
 ns6.dns.nic.song.	172800	IN	AAAA	2610:a1:1076::99
-sony.			172800	IN	NS	a.nic.sony.
-sony.			172800	IN	NS	b.nic.sony.
-sony.			172800	IN	NS	c.nic.sony.
-sony.			172800	IN	NS	d.nic.sony.
+sony.			172800	IN	NS	a.gmoregistry.net.
+sony.			172800	IN	NS	b.gmoregistry.net.
+sony.			172800	IN	NS	k.gmoregistry.net.
+sony.			172800	IN	NS	l.gmoregistry.net.
 sony.			86400	IN	NSEC	soy. NS DS RRSIG NSEC
-a.nic.sony.		172800	IN	A	37.209.192.9
-a.nic.sony.		172800	IN	AAAA	2001:dcd:1::9
-b.nic.sony.		172800	IN	A	37.209.194.9
-b.nic.sony.		172800	IN	AAAA	2001:dcd:2::9
-c.nic.sony.		172800	IN	A	37.209.196.9
-c.nic.sony.		172800	IN	AAAA	2001:dcd:3::9
-d.nic.sony.		172800	IN	A	37.209.198.9
-d.nic.sony.		172800	IN	AAAA	2001:dcd:4::9
 soy.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
