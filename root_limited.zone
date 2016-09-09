@@ -1910,7 +1910,24 @@ budapest.		172800	IN	NS	a.ns.nic.budapest.
 budapest.		172800	IN	NS	b.ns.nic.budapest.
 budapest.		172800	IN	NS	c.ns.nic.budapest.
 budapest.		172800	IN	NS	d.ns.nic.budapest.
+budapest.		172800	IN	NS	dns1.nic.budapest.
+budapest.		172800	IN	NS	dns2.nic.budapest.
+budapest.		172800	IN	NS	dns3.nic.budapest.
+budapest.		172800	IN	NS	dns4.nic.budapest.
+budapest.		172800	IN	NS	dnsa.nic.budapest.
+budapest.		172800	IN	NS	dnsb.nic.budapest.
 budapest.		86400	IN	NSEC	bugatti. NS DS RRSIG NSEC
+dns1.nic.budapest.	172800	IN	A	213.248.217.17
+dns1.nic.budapest.	172800	IN	AAAA	2a01:618:401::17
+dns2.nic.budapest.	172800	IN	A	103.49.81.17
+dns2.nic.budapest.	172800	IN	AAAA	2401:fd80:401::17
+dns3.nic.budapest.	172800	IN	A	213.248.221.17
+dns3.nic.budapest.	172800	IN	AAAA	2a01:618:405::17
+dns4.nic.budapest.	172800	IN	A	43.230.49.17
+dns4.nic.budapest.	172800	IN	AAAA	2401:fd80:405::17
+dnsa.nic.budapest.	172800	IN	A	156.154.100.3
+dnsa.nic.budapest.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.budapest.	172800	IN	A	156.154.101.3
 a.ns.nic.budapest.	172800	IN	A	72.0.50.9
 a.ns.nic.budapest.	172800	IN	AAAA	2620:171:a02:ad::9
 b.ns.nic.budapest.	172800	IN	A	72.42.114.9
@@ -13741,7 +13758,7 @@ us.			172800	IN	NS	k.cctld.us.
 us.			86400	IN	NSEC	uy. NS DS RRSIG NSEC
 a.cctld.us.		172800	IN	A	156.154.124.70
 b.cctld.us.		172800	IN	A	156.154.125.70
-b.cctld.us.		172800	IN	AAAA	2001:503:d1ae:ffff:ffff:ffff:ffff:ff7e
+b.cctld.us.		172800	IN	AAAA	2001:502:ad09::29
 c.cctld.us.		172800	IN	A	156.154.127.70
 e.cctld.us.		172800	IN	A	156.154.126.70
 f.cctld.us.		172800	IN	A	209.173.58.70
