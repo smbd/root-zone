@@ -1520,7 +1520,7 @@ biz.			172800	IN	NS	f.gtld.biz.
 biz.			172800	IN	NS	k.gtld.biz.
 biz.			86400	IN	NSEC	bj. NS DS RRSIG NSEC
 a.gtld.biz.		172800	IN	A	156.154.124.65
-a.gtld.biz.		172800	IN	AAAA	2001:503:7bbb:ffff:ffff:ffff:ffff:ff7e
+a.gtld.biz.		172800	IN	AAAA	2001:502:ad09::30
 b.gtld.biz.		172800	IN	A	156.154.125.65
 c.gtld.biz.		172800	IN	A	156.154.127.65
 e.gtld.biz.		172800	IN	A	156.154.126.65
