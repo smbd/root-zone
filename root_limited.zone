@@ -2414,6 +2414,7 @@ cfd.			86400	IN	NSEC	cg. NS DS RRSIG NSEC
 cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			172800	IN	NS	dns-fr.dnsafrica.net.
+cg.			172800	IN	NS	dns-za.dnsafrica.net.
 cg.			86400	IN	NSEC	ch. NS RRSIG NSEC
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
@@ -8771,6 +8772,7 @@ n.de.net.		172800	IN	A	194.146.107.6
 n.de.net.		172800	IN	AAAA	2001:67c:1011:1::53
 s.de.net.		172800	IN	A	195.243.137.26
 dns-fr.dnsafrica.net.	172800	IN	A	151.80.35.161
+dns-za.dnsafrica.net.	172800	IN	A	41.185.30.170
 cl1.dnsnode.net.	172800	IN	A	194.146.106.34
 cl1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:8::53
 coza1.dnsnode.net.	172800	IN	A	194.146.106.74
