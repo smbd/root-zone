@@ -12,9 +12,9 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
+.			86400	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
 .			172800	IN	DNSKEY	256 3 8 AwEAAcCsATzyk1Hj1xabagAGWi9sZSbB+igdzDM8CMZ5fPcOb314yP9/ lmvidoBuApPlMVwlz0lXaj6gzyjoOKBveoDD0VyHTqjCDg9UrcDoClNZ ciR2sHZoaMZp2yVNFyaC+7MkA8lsrCShieYPEowSjQdkvY5ONlEib/AT XdmAhfgB
 .			172800	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjF FVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoX bfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaD X6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpz W5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relS Qageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulq QxA+Uk1ihz0=
-.			86400	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
 aaa.			172800	IN	NS	ns1.dns.nic.aaa.
 aaa.			172800	IN	NS	ns2.dns.nic.aaa.
 aaa.			172800	IN	NS	ns3.dns.nic.aaa.
@@ -8318,7 +8318,20 @@ money.			172800	IN	NS	demand.beta.aridns.net.au.
 money.			172800	IN	NS	demand.alpha.aridns.net.au.
 money.			172800	IN	NS	demand.delta.aridns.net.au.
 money.			172800	IN	NS	demand.gamma.aridns.net.au.
-money.			86400	IN	NSEC	montblanc. NS DS RRSIG NSEC
+money.			86400	IN	NSEC	monster. NS DS RRSIG NSEC
+monster.		172800	IN	NS	a0.nic.monster.
+monster.		172800	IN	NS	a2.nic.monster.
+monster.		172800	IN	NS	b0.nic.monster.
+monster.		172800	IN	NS	c0.nic.monster.
+monster.		86400	IN	NSEC	montblanc. NS DS RRSIG NSEC
+a0.nic.monster.		172800	IN	A	65.22.100.25
+a0.nic.monster.		172800	IN	AAAA	2a01:8840:62::25
+a2.nic.monster.		172800	IN	A	65.22.103.25
+a2.nic.monster.		172800	IN	AAAA	2a01:8840:65::25
+b0.nic.monster.		172800	IN	A	65.22.101.25
+b0.nic.monster.		172800	IN	AAAA	2a01:8840:63::25
+c0.nic.monster.		172800	IN	A	65.22.102.25
+c0.nic.monster.		172800	IN	AAAA	2a01:8840:64::25
 montblanc.		172800	IN	NS	ns1.dns.nic.montblanc.
 montblanc.		172800	IN	NS	ns2.dns.nic.montblanc.
 montblanc.		172800	IN	NS	ns3.dns.nic.montblanc.
