@@ -1886,7 +1886,6 @@ w.nic.brussels.		172800	IN	A	194.0.25.14
 w.nic.brussels.		172800	IN	AAAA	2001:678:20::14
 bs.			172800	IN	NS	dns.nic.bs.
 bs.			172800	IN	NS	ns36.cdns.net.
-bs.			172800	IN	NS	upr1.upr.clu.edu.
 bs.			172800	IN	NS	anyns.dns.bs.
 bs.			172800	IN	NS	anyns.pch.net.
 bs.			86400	IN	NSEC	bt. NS RRSIG NSEC
@@ -2411,7 +2410,6 @@ cfd.			172800	IN	NS	ac2.nstld.com.
 cfd.			172800	IN	NS	ac3.nstld.com.
 cfd.			172800	IN	NS	ac4.nstld.com.
 cfd.			86400	IN	NSEC	cg. NS DS RRSIG NSEC
-cg.			172800	IN	NS	dns.princeton.edu.
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			172800	IN	NS	dns-fr.dnsafrica.net.
 cg.			172800	IN	NS	dns-za.dnsafrica.net.
@@ -3415,7 +3413,24 @@ dds.			172800	IN	NS	a.ns.nic.dds.
 dds.			172800	IN	NS	b.ns.nic.dds.
 dds.			172800	IN	NS	c.ns.nic.dds.
 dds.			172800	IN	NS	d.ns.nic.dds.
+dds.			172800	IN	NS	dns1.nic.dds.
+dds.			172800	IN	NS	dns2.nic.dds.
+dds.			172800	IN	NS	dns3.nic.dds.
+dds.			172800	IN	NS	dns4.nic.dds.
+dds.			172800	IN	NS	dnsa.nic.dds.
+dds.			172800	IN	NS	dnsb.nic.dds.
 dds.			86400	IN	NSEC	de. NS DS RRSIG NSEC
+dns1.nic.dds.		172800	IN	A	213.248.217.20
+dns1.nic.dds.		172800	IN	AAAA	2a01:618:401::20
+dns2.nic.dds.		172800	IN	A	103.49.81.20
+dns2.nic.dds.		172800	IN	AAAA	2401:fd80:401::20
+dns3.nic.dds.		172800	IN	A	213.248.221.20
+dns3.nic.dds.		172800	IN	AAAA	2a01:618:405::20
+dns4.nic.dds.		172800	IN	A	43.230.49.20
+dns4.nic.dds.		172800	IN	AAAA	2401:fd80:405::20
+dnsa.nic.dds.		172800	IN	A	156.154.100.3
+dnsa.nic.dds.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.dds.		172800	IN	A	156.154.101.3
 a.ns.nic.dds.		172800	IN	A	72.0.50.32
 a.ns.nic.dds.		172800	IN	AAAA	2620:171:a02:ad::32
 b.ns.nic.dds.		172800	IN	A	72.42.114.32
@@ -3965,7 +3980,6 @@ edu.			86400	IN	NSEC	education. NS DS RRSIG NSEC
 adns1.berkeley.edu.	172800	IN	A	128.32.136.3
 adns1.berkeley.edu.	172800	IN	AAAA	2607:f140:ffff:fffe::3
 adns2.berkeley.edu.	172800	IN	A	128.32.136.14
-upr1.upr.clu.edu.	172800	IN	A	136.145.1.4
 dns.princeton.edu.	172800	IN	A	128.112.129.15
 pendragon.cs.purdue.edu. 172800	IN	A	128.10.2.5
 phloem.uoregon.edu.	172800	IN	A	128.223.32.35
@@ -6424,7 +6438,6 @@ c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90::9
 it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
-it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 it.			86400	IN	NSEC	itau. NS RRSIG NSEC
@@ -6436,8 +6449,6 @@ m.dns.it.		172800	IN	A	217.29.76.4
 m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
 r.dns.it.		172800	IN	AAAA	2001:760:ffff:ffff::ca
-s.dns.it.		172800	IN	A	194.146.106.30
-s.dns.it.		172800	IN	AAAA	2001:67c:1010:7::53
 osiris.namex.it.	172800	IN	A	193.201.40.6
 osiris.namex.it.	172800	IN	AAAA	2001:7f8:10:f00a::6
 seth.namex.it.		172800	IN	A	193.201.40.7
@@ -6886,6 +6897,8 @@ kiwi.			172800	IN	NS	a.ns.nic.kiwi.
 kiwi.			172800	IN	NS	b.ns.nic.kiwi.
 kiwi.			172800	IN	NS	c.ns.nic.kiwi.
 kiwi.			172800	IN	NS	d.ns.nic.kiwi.
+kiwi.			172800	IN	NS	e.ns.nic.kiwi.
+kiwi.			172800	IN	NS	f.ns.nic.kiwi.
 kiwi.			86400	IN	NSEC	km. NS DS RRSIG NSEC
 a.ns.nic.kiwi.		172800	IN	A	72.0.50.4
 a.ns.nic.kiwi.		172800	IN	AAAA	2620:171:a02:ad::4
@@ -6895,6 +6908,10 @@ c.ns.nic.kiwi.		172800	IN	A	70.40.0.4
 c.ns.nic.kiwi.		172800	IN	AAAA	2620:171:c00:c::4
 d.ns.nic.kiwi.		172800	IN	A	70.40.8.4
 d.ns.nic.kiwi.		172800	IN	AAAA	2620:171:f00:d::4
+e.ns.nic.kiwi.		172800	IN	A	162.219.54.254
+e.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80eb::254
+f.ns.nic.kiwi.		172800	IN	A	162.219.55.254
+f.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80ec::254
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
 km.			172800	IN	NS	ns-km.afrinic.net.
@@ -7699,7 +7716,24 @@ luxe.			172800	IN	NS	a.ns.nic.luxe.
 luxe.			172800	IN	NS	b.ns.nic.luxe.
 luxe.			172800	IN	NS	c.ns.nic.luxe.
 luxe.			172800	IN	NS	d.ns.nic.luxe.
+luxe.			172800	IN	NS	dns1.nic.luxe.
+luxe.			172800	IN	NS	dns2.nic.luxe.
+luxe.			172800	IN	NS	dns3.nic.luxe.
+luxe.			172800	IN	NS	dns4.nic.luxe.
+luxe.			172800	IN	NS	dnsa.nic.luxe.
+luxe.			172800	IN	NS	dnsb.nic.luxe.
 luxe.			86400	IN	NSEC	luxury. NS DS RRSIG NSEC
+dns1.nic.luxe.		172800	IN	A	213.248.217.27
+dns1.nic.luxe.		172800	IN	AAAA	2a01:618:401::27
+dns2.nic.luxe.		172800	IN	A	103.49.81.27
+dns2.nic.luxe.		172800	IN	AAAA	2401:fd80:401::27
+dns3.nic.luxe.		172800	IN	A	213.248.221.27
+dns3.nic.luxe.		172800	IN	AAAA	2a01:618:405::27
+dns4.nic.luxe.		172800	IN	A	43.230.49.27
+dns4.nic.luxe.		172800	IN	AAAA	2401:fd80:405::27
+dnsa.nic.luxe.		172800	IN	A	156.154.100.3
+dnsa.nic.luxe.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.luxe.		172800	IN	A	156.154.101.3
 a.ns.nic.luxe.		172800	IN	A	72.0.50.20
 a.ns.nic.luxe.		172800	IN	AAAA	2620:171:a02:ad::20
 b.ns.nic.luxe.		172800	IN	A	72.42.114.20
