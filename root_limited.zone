@@ -2225,7 +2225,24 @@ casa.			172800	IN	NS	a.ns.nic.casa.
 casa.			172800	IN	NS	b.ns.nic.casa.
 casa.			172800	IN	NS	c.ns.nic.casa.
 casa.			172800	IN	NS	d.ns.nic.casa.
+casa.			172800	IN	NS	dns1.nic.casa.
+casa.			172800	IN	NS	dns2.nic.casa.
+casa.			172800	IN	NS	dns3.nic.casa.
+casa.			172800	IN	NS	dns4.nic.casa.
+casa.			172800	IN	NS	dnsa.nic.casa.
+casa.			172800	IN	NS	dnsb.nic.casa.
 casa.			86400	IN	NSEC	cash. NS DS RRSIG NSEC
+dns1.nic.casa.		172800	IN	A	213.248.217.18
+dns1.nic.casa.		172800	IN	AAAA	2a01:618:401::18
+dns2.nic.casa.		172800	IN	A	103.49.81.18
+dns2.nic.casa.		172800	IN	AAAA	2401:fd80:401::18
+dns3.nic.casa.		172800	IN	A	213.248.221.18
+dns3.nic.casa.		172800	IN	AAAA	2a01:618:405::18
+dns4.nic.casa.		172800	IN	A	43.230.49.18
+dns4.nic.casa.		172800	IN	AAAA	2401:fd80:405::18
+dnsa.nic.casa.		172800	IN	A	156.154.100.3
+dnsa.nic.casa.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.casa.		172800	IN	A	156.154.101.3
 a.ns.nic.casa.		172800	IN	A	72.0.50.6
 a.ns.nic.casa.		172800	IN	AAAA	2620:171:a02:ad::6
 b.ns.nic.casa.		172800	IN	A	72.42.114.6
@@ -15016,7 +15033,7 @@ xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sec3.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
-xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--czr694b. NS RRSIG NSEC
+xn--clchc0ea0b2g2a9gcd.	86400	IN	NSEC	xn--czr694b. NS DS RRSIG NSEC
 xn--czr694b.		172800	IN	NS	a.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	b.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	c.zdnscloud.com.
@@ -15853,7 +15870,7 @@ xn--yfro4i67o.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--yfro4i67o.		172800	IN	NS	sec3.apnic.net.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	sg-ns.anycast.pch.net.
-xn--yfro4i67o.		86400	IN	NSEC	xn--ygbi2ammx. NS RRSIG NSEC
+xn--yfro4i67o.		86400	IN	NSEC	xn--ygbi2ammx. NS DS RRSIG NSEC
 xn--ygbi2ammx.		172800	IN	NS	idn.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	ns1.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	dns1.gov.ps.
