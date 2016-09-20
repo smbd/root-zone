@@ -4469,7 +4469,20 @@ fidelity.		172800	IN	NS	ac1.nstld.com.
 fidelity.		172800	IN	NS	ac2.nstld.com.
 fidelity.		172800	IN	NS	ac3.nstld.com.
 fidelity.		172800	IN	NS	ac4.nstld.com.
-fidelity.		86400	IN	NSEC	film. NS DS RRSIG NSEC
+fidelity.		86400	IN	NSEC	fido. NS DS RRSIG NSEC
+fido.			172800	IN	NS	a0.nic.fido.
+fido.			172800	IN	NS	a2.nic.fido.
+fido.			172800	IN	NS	b0.nic.fido.
+fido.			172800	IN	NS	c0.nic.fido.
+fido.			86400	IN	NSEC	film. NS DS RRSIG NSEC
+a0.nic.fido.		172800	IN	A	65.22.108.41
+a0.nic.fido.		172800	IN	AAAA	2a01:8840:6a::41
+a2.nic.fido.		172800	IN	A	65.22.111.41
+a2.nic.fido.		172800	IN	AAAA	2a01:8840:6d::41
+b0.nic.fido.		172800	IN	A	65.22.109.41
+b0.nic.fido.		172800	IN	AAAA	2a01:8840:6b::41
+c0.nic.fido.		172800	IN	A	65.22.110.41
+c0.nic.fido.		172800	IN	AAAA	2a01:8840:6c::41
 film.			172800	IN	NS	a.nic.film.
 film.			172800	IN	NS	b.nic.film.
 film.			172800	IN	NS	c.nic.film.
@@ -11379,7 +11392,7 @@ rodeo.			172800	IN	NS	a.ns.nic.rodeo.
 rodeo.			172800	IN	NS	b.ns.nic.rodeo.
 rodeo.			172800	IN	NS	c.ns.nic.rodeo.
 rodeo.			172800	IN	NS	d.ns.nic.rodeo.
-rodeo.			86400	IN	NSEC	room. NS DS RRSIG NSEC
+rodeo.			86400	IN	NSEC	rogers. NS DS RRSIG NSEC
 a.ns.nic.rodeo.		172800	IN	A	72.0.50.3
 a.ns.nic.rodeo.		172800	IN	AAAA	2620:171:a02:ad::3
 b.ns.nic.rodeo.		172800	IN	A	72.42.114.3
@@ -11388,6 +11401,19 @@ c.ns.nic.rodeo.		172800	IN	A	70.40.0.3
 c.ns.nic.rodeo.		172800	IN	AAAA	2620:171:c00:c::3
 d.ns.nic.rodeo.		172800	IN	A	70.40.8.3
 d.ns.nic.rodeo.		172800	IN	AAAA	2620:171:f00:d::3
+rogers.			172800	IN	NS	a0.nic.rogers.
+rogers.			172800	IN	NS	a2.nic.rogers.
+rogers.			172800	IN	NS	b0.nic.rogers.
+rogers.			172800	IN	NS	c0.nic.rogers.
+rogers.			86400	IN	NSEC	room. NS DS RRSIG NSEC
+a0.nic.rogers.		172800	IN	A	65.22.108.33
+a0.nic.rogers.		172800	IN	AAAA	2a01:8840:6a::33
+a2.nic.rogers.		172800	IN	A	65.22.111.33
+a2.nic.rogers.		172800	IN	AAAA	2a01:8840:6d::33
+b0.nic.rogers.		172800	IN	A	65.22.109.33
+b0.nic.rogers.		172800	IN	AAAA	2a01:8840:6b::33
+c0.nic.rogers.		172800	IN	A	65.22.110.33
+c0.nic.rogers.		172800	IN	AAAA	2a01:8840:6c::33
 room.			172800	IN	NS	ns1.dns.nic.room.
 room.			172800	IN	NS	ns2.dns.nic.room.
 room.			172800	IN	NS	ns3.dns.nic.room.
