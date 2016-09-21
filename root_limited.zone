@@ -1906,16 +1906,14 @@ ns2.druknet.bt.		172800	IN	A	202.144.128.210
 ns2.druknet.bt.		172800	IN	AAAA	2405:d000:0:100::210
 ns3.druknet.bt.		172800	IN	A	204.61.216.17
 ns3.druknet.bt.		172800	IN	AAAA	2001:500:14:6017:ad::1
-budapest.		172800	IN	NS	a.ns.nic.budapest.
-budapest.		172800	IN	NS	b.ns.nic.budapest.
-budapest.		172800	IN	NS	c.ns.nic.budapest.
-budapest.		172800	IN	NS	d.ns.nic.budapest.
 budapest.		172800	IN	NS	dns1.nic.budapest.
 budapest.		172800	IN	NS	dns2.nic.budapest.
 budapest.		172800	IN	NS	dns3.nic.budapest.
 budapest.		172800	IN	NS	dns4.nic.budapest.
 budapest.		172800	IN	NS	dnsa.nic.budapest.
 budapest.		172800	IN	NS	dnsb.nic.budapest.
+budapest.		172800	IN	NS	dnsc.nic.budapest.
+budapest.		172800	IN	NS	dnsd.nic.budapest.
 budapest.		86400	IN	NSEC	bugatti. NS DS RRSIG NSEC
 dns1.nic.budapest.	172800	IN	A	213.248.217.17
 dns1.nic.budapest.	172800	IN	AAAA	2a01:618:401::17
@@ -1928,14 +1926,8 @@ dns4.nic.budapest.	172800	IN	AAAA	2401:fd80:405::17
 dnsa.nic.budapest.	172800	IN	A	156.154.100.3
 dnsa.nic.budapest.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.budapest.	172800	IN	A	156.154.101.3
-a.ns.nic.budapest.	172800	IN	A	72.0.50.9
-a.ns.nic.budapest.	172800	IN	AAAA	2620:171:a02:ad::9
-b.ns.nic.budapest.	172800	IN	A	72.42.114.9
-b.ns.nic.budapest.	172800	IN	AAAA	2620:171:d02:dc::9
-c.ns.nic.budapest.	172800	IN	A	70.40.0.9
-c.ns.nic.budapest.	172800	IN	AAAA	2620:171:c00:c::9
-d.ns.nic.budapest.	172800	IN	A	70.40.8.9
-d.ns.nic.budapest.	172800	IN	AAAA	2620:171:f00:d::9
+dnsc.nic.budapest.	172800	IN	A	156.154.102.3
+dnsd.nic.budapest.	172800	IN	A	156.154.103.3
 bugatti.		172800	IN	NS	a0.nic.bugatti.
 bugatti.		172800	IN	NS	a2.nic.bugatti.
 bugatti.		172800	IN	NS	b0.nic.bugatti.
@@ -2222,16 +2214,14 @@ ns5.dns.nic.cartier.	172800	IN	A	156.154.157.34
 ns5.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1075::22
 ns6.dns.nic.cartier.	172800	IN	A	156.154.158.34
 ns6.dns.nic.cartier.	172800	IN	AAAA	2610:a1:1076::22
-casa.			172800	IN	NS	a.ns.nic.casa.
-casa.			172800	IN	NS	b.ns.nic.casa.
-casa.			172800	IN	NS	c.ns.nic.casa.
-casa.			172800	IN	NS	d.ns.nic.casa.
 casa.			172800	IN	NS	dns1.nic.casa.
 casa.			172800	IN	NS	dns2.nic.casa.
 casa.			172800	IN	NS	dns3.nic.casa.
 casa.			172800	IN	NS	dns4.nic.casa.
 casa.			172800	IN	NS	dnsa.nic.casa.
 casa.			172800	IN	NS	dnsb.nic.casa.
+casa.			172800	IN	NS	dnsc.nic.casa.
+casa.			172800	IN	NS	dnsd.nic.casa.
 casa.			86400	IN	NSEC	cash. NS DS RRSIG NSEC
 dns1.nic.casa.		172800	IN	A	213.248.217.18
 dns1.nic.casa.		172800	IN	AAAA	2a01:618:401::18
@@ -2244,14 +2234,8 @@ dns4.nic.casa.		172800	IN	AAAA	2401:fd80:405::18
 dnsa.nic.casa.		172800	IN	A	156.154.100.3
 dnsa.nic.casa.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.casa.		172800	IN	A	156.154.101.3
-a.ns.nic.casa.		172800	IN	A	72.0.50.6
-a.ns.nic.casa.		172800	IN	AAAA	2620:171:a02:ad::6
-b.ns.nic.casa.		172800	IN	A	72.42.114.6
-b.ns.nic.casa.		172800	IN	AAAA	2620:171:d02:dc::6
-c.ns.nic.casa.		172800	IN	A	70.40.0.6
-c.ns.nic.casa.		172800	IN	AAAA	2620:171:c00:c::6
-d.ns.nic.casa.		172800	IN	A	70.40.8.6
-d.ns.nic.casa.		172800	IN	AAAA	2620:171:f00:d::6
+dnsc.nic.casa.		172800	IN	A	156.154.102.3
+dnsd.nic.casa.		172800	IN	A	156.154.103.3
 cash.			172800	IN	NS	demand.beta.aridns.net.au.
 cash.			172800	IN	NS	demand.alpha.aridns.net.au.
 cash.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7743,16 +7727,14 @@ lupin.			172800	IN	NS	ac2.nstld.com.
 lupin.			172800	IN	NS	ac3.nstld.com.
 lupin.			172800	IN	NS	ac4.nstld.com.
 lupin.			86400	IN	NSEC	luxe. NS DS RRSIG NSEC
-luxe.			172800	IN	NS	a.ns.nic.luxe.
-luxe.			172800	IN	NS	b.ns.nic.luxe.
-luxe.			172800	IN	NS	c.ns.nic.luxe.
-luxe.			172800	IN	NS	d.ns.nic.luxe.
 luxe.			172800	IN	NS	dns1.nic.luxe.
 luxe.			172800	IN	NS	dns2.nic.luxe.
 luxe.			172800	IN	NS	dns3.nic.luxe.
 luxe.			172800	IN	NS	dns4.nic.luxe.
 luxe.			172800	IN	NS	dnsa.nic.luxe.
 luxe.			172800	IN	NS	dnsb.nic.luxe.
+luxe.			172800	IN	NS	dnsc.nic.luxe.
+luxe.			172800	IN	NS	dnsd.nic.luxe.
 luxe.			86400	IN	NSEC	luxury. NS DS RRSIG NSEC
 dns1.nic.luxe.		172800	IN	A	213.248.217.27
 dns1.nic.luxe.		172800	IN	AAAA	2a01:618:401::27
@@ -7765,14 +7747,8 @@ dns4.nic.luxe.		172800	IN	AAAA	2401:fd80:405::27
 dnsa.nic.luxe.		172800	IN	A	156.154.100.3
 dnsa.nic.luxe.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.luxe.		172800	IN	A	156.154.101.3
-a.ns.nic.luxe.		172800	IN	A	72.0.50.20
-a.ns.nic.luxe.		172800	IN	AAAA	2620:171:a02:ad::20
-b.ns.nic.luxe.		172800	IN	A	72.42.114.20
-b.ns.nic.luxe.		172800	IN	AAAA	2620:171:d02:dc::20
-c.ns.nic.luxe.		172800	IN	A	70.40.0.20
-c.ns.nic.luxe.		172800	IN	AAAA	2620:171:c00:c::20
-d.ns.nic.luxe.		172800	IN	A	70.40.8.20
-d.ns.nic.luxe.		172800	IN	AAAA	2620:171:f00:d::20
+dnsc.nic.luxe.		172800	IN	A	156.154.102.3
+dnsd.nic.luxe.		172800	IN	A	156.154.103.3
 luxury.			172800	IN	NS	a.nic.luxury.
 luxury.			172800	IN	NS	b.nic.luxury.
 luxury.			172800	IN	NS	c.nic.luxury.
@@ -11435,7 +11411,6 @@ ns6.dns.nic.room.	172800	IN	A	156.154.158.146
 ns6.dns.nic.room.	172800	IN	AAAA	2610:a1:1076::92
 rs.			172800	IN	NS	a.nic.rs.
 rs.			172800	IN	NS	b.nic.rs.
-rs.			172800	IN	NS	d.nic.rs.
 rs.			172800	IN	NS	f.nic.rs.
 rs.			172800	IN	NS	g.nic.rs.
 rs.			172800	IN	NS	h.nic.rs.
@@ -11445,8 +11420,6 @@ rs.			86400	IN	NSEC	rsvp. NS RRSIG NSEC
 a.nic.rs.		172800	IN	A	91.199.17.59
 a.nic.rs.		172800	IN	AAAA	2001:67c:69c::59
 b.nic.rs.		172800	IN	A	195.178.32.2
-d.nic.rs.		172800	IN	A	193.0.9.107
-d.nic.rs.		172800	IN	AAAA	2001:67c:e0::107
 f.nic.rs.		172800	IN	A	204.61.216.32
 f.nic.rs.		172800	IN	AAAA	2001:500:14:6032:ad::1
 g.nic.rs.		172800	IN	A	147.91.8.6
