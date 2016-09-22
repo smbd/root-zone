@@ -12018,7 +12018,7 @@ sg.			172800	IN	NS	ns2.cuhk.edu.hk.
 sg.			172800	IN	NS	sec3.apnic.net.
 sg.			172800	IN	NS	dsany.sgnic.sg.
 sg.			172800	IN	NS	sg-ns.anycast.pch.net.
-sg.			86400	IN	NSEC	sh. NS RRSIG NSEC
+sg.			86400	IN	NSEC	sh. NS DS RRSIG NSEC
 dsany.sgnic.sg.		172800	IN	A	194.0.11.106
 dsany.sgnic.sg.		172800	IN	AAAA	2001:678:e:106::53
 sh.			172800	IN	NS	ns-a1.sh.
