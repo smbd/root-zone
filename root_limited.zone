@@ -3411,16 +3411,14 @@ dclk.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 dclk.			86400	IN	NSEC	dds. NS DS RRSIG NSEC
-dds.			172800	IN	NS	a.ns.nic.dds.
-dds.			172800	IN	NS	b.ns.nic.dds.
-dds.			172800	IN	NS	c.ns.nic.dds.
-dds.			172800	IN	NS	d.ns.nic.dds.
 dds.			172800	IN	NS	dns1.nic.dds.
 dds.			172800	IN	NS	dns2.nic.dds.
 dds.			172800	IN	NS	dns3.nic.dds.
 dds.			172800	IN	NS	dns4.nic.dds.
 dds.			172800	IN	NS	dnsa.nic.dds.
 dds.			172800	IN	NS	dnsb.nic.dds.
+dds.			172800	IN	NS	dnsc.nic.dds.
+dds.			172800	IN	NS	dnsd.nic.dds.
 dds.			86400	IN	NSEC	de. NS DS RRSIG NSEC
 dns1.nic.dds.		172800	IN	A	213.248.217.20
 dns1.nic.dds.		172800	IN	AAAA	2a01:618:401::20
@@ -3433,14 +3431,8 @@ dns4.nic.dds.		172800	IN	AAAA	2401:fd80:405::20
 dnsa.nic.dds.		172800	IN	A	156.154.100.3
 dnsa.nic.dds.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.dds.		172800	IN	A	156.154.101.3
-a.ns.nic.dds.		172800	IN	A	72.0.50.32
-a.ns.nic.dds.		172800	IN	AAAA	2620:171:a02:ad::32
-b.ns.nic.dds.		172800	IN	A	72.42.114.32
-b.ns.nic.dds.		172800	IN	AAAA	2620:171:d02:dc::32
-c.ns.nic.dds.		172800	IN	A	70.40.0.32
-c.ns.nic.dds.		172800	IN	AAAA	2620:171:c00:c::32
-d.ns.nic.dds.		172800	IN	A	70.40.8.32
-d.ns.nic.dds.		172800	IN	AAAA	2620:171:f00:d::32
+dnsc.nic.dds.		172800	IN	A	156.154.102.3
+dnsd.nic.dds.		172800	IN	A	156.154.103.3
 de.			172800	IN	NS	a.nic.de.
 de.			172800	IN	NS	f.nic.de.
 de.			172800	IN	NS	l.de.net.
