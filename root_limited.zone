@@ -14606,7 +14606,26 @@ world.			172800	IN	NS	demand.beta.aridns.net.au.
 world.			172800	IN	NS	demand.alpha.aridns.net.au.
 world.			172800	IN	NS	demand.delta.aridns.net.au.
 world.			172800	IN	NS	demand.gamma.aridns.net.au.
-world.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
+world.			86400	IN	NSEC	wow. NS DS RRSIG NSEC
+wow.			172800	IN	NS	ns1.dns.nic.wow.
+wow.			172800	IN	NS	ns2.dns.nic.wow.
+wow.			172800	IN	NS	ns3.dns.nic.wow.
+wow.			172800	IN	NS	ns4.dns.nic.wow.
+wow.			172800	IN	NS	ns5.dns.nic.wow.
+wow.			172800	IN	NS	ns6.dns.nic.wow.
+wow.			86400	IN	NSEC	ws. NS DS RRSIG NSEC
+ns1.dns.nic.wow.	172800	IN	A	156.154.169.63
+ns1.dns.nic.wow.	172800	IN	AAAA	2610:a1:1071::1:3f
+ns2.dns.nic.wow.	172800	IN	A	156.154.170.63
+ns2.dns.nic.wow.	172800	IN	AAAA	2610:a1:1072::1:3f
+ns3.dns.nic.wow.	172800	IN	A	156.154.171.63
+ns3.dns.nic.wow.	172800	IN	AAAA	2610:a1:1073::1:3f
+ns4.dns.nic.wow.	172800	IN	A	156.154.172.63
+ns4.dns.nic.wow.	172800	IN	AAAA	2610:a1:1074::1:3f
+ns5.dns.nic.wow.	172800	IN	A	156.154.173.63
+ns5.dns.nic.wow.	172800	IN	AAAA	2610:a1:1075::1:3f
+ns6.dns.nic.wow.	172800	IN	A	156.154.174.63
+ns6.dns.nic.wow.	172800	IN	AAAA	2610:a1:1076::1:3f
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
 ws.			172800	IN	NS	ns4.dns.ws.
