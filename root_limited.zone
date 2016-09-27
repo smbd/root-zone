@@ -217,7 +217,7 @@ ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	dnsc.ad.
 ad.			172800	IN	NS	dnsm.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
-ad.			86400	IN	NSEC	adac. NS DS RRSIG NSEC
+ad.			86400	IN	NSEC	adac. NS RRSIG NSEC
 dnsc.ad.		172800	IN	A	194.158.74.10
 dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa::b
 dnsm.ad.		172800	IN	A	194.158.74.9
@@ -3069,7 +3069,24 @@ cooking.		172800	IN	NS	a.ns.nic.cooking.
 cooking.		172800	IN	NS	b.ns.nic.cooking.
 cooking.		172800	IN	NS	c.ns.nic.cooking.
 cooking.		172800	IN	NS	d.ns.nic.cooking.
+cooking.		172800	IN	NS	dns1.nic.cooking.
+cooking.		172800	IN	NS	dns2.nic.cooking.
+cooking.		172800	IN	NS	dns3.nic.cooking.
+cooking.		172800	IN	NS	dns4.nic.cooking.
+cooking.		172800	IN	NS	dnsa.nic.cooking.
+cooking.		172800	IN	NS	dnsb.nic.cooking.
 cooking.		86400	IN	NSEC	cookingchannel. NS DS RRSIG NSEC
+dns1.nic.cooking.	172800	IN	A	213.248.217.19
+dns1.nic.cooking.	172800	IN	AAAA	2a01:618:401::19
+dns2.nic.cooking.	172800	IN	A	103.49.81.19
+dns2.nic.cooking.	172800	IN	AAAA	2401:fd80:401::19
+dns3.nic.cooking.	172800	IN	A	213.248.221.19
+dns3.nic.cooking.	172800	IN	AAAA	2a01:618:405::19
+dns4.nic.cooking.	172800	IN	A	43.230.49.19
+dns4.nic.cooking.	172800	IN	AAAA	2401:fd80:405::19
+dnsa.nic.cooking.	172800	IN	A	156.154.100.3
+dnsa.nic.cooking.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.cooking.	172800	IN	A	156.154.101.3
 a.ns.nic.cooking.	172800	IN	A	72.0.50.10
 a.ns.nic.cooking.	172800	IN	AAAA	2620:171:a02:ad::10
 b.ns.nic.cooking.	172800	IN	A	72.42.114.10
@@ -4317,7 +4334,24 @@ fashion.		172800	IN	NS	a.ns.nic.fashion.
 fashion.		172800	IN	NS	b.ns.nic.fashion.
 fashion.		172800	IN	NS	c.ns.nic.fashion.
 fashion.		172800	IN	NS	d.ns.nic.fashion.
+fashion.		172800	IN	NS	dns1.nic.fashion.
+fashion.		172800	IN	NS	dns2.nic.fashion.
+fashion.		172800	IN	NS	dns3.nic.fashion.
+fashion.		172800	IN	NS	dns4.nic.fashion.
+fashion.		172800	IN	NS	dnsa.nic.fashion.
+fashion.		172800	IN	NS	dnsb.nic.fashion.
 fashion.		86400	IN	NSEC	fast. NS DS RRSIG NSEC
+dns1.nic.fashion.	172800	IN	A	213.248.217.21
+dns1.nic.fashion.	172800	IN	AAAA	2a01:618:401::21
+dns2.nic.fashion.	172800	IN	A	103.49.81.21
+dns2.nic.fashion.	172800	IN	AAAA	2401:fd80:401::21
+dns3.nic.fashion.	172800	IN	A	213.248.221.21
+dns3.nic.fashion.	172800	IN	AAAA	2a01:618:405::21
+dns4.nic.fashion.	172800	IN	A	43.230.49.21
+dns4.nic.fashion.	172800	IN	AAAA	2401:fd80:405::21
+dnsa.nic.fashion.	172800	IN	A	156.154.100.3
+dnsa.nic.fashion.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.fashion.	172800	IN	A	156.154.101.3
 a.ns.nic.fashion.	172800	IN	A	72.0.50.28
 a.ns.nic.fashion.	172800	IN	AAAA	2620:171:a02:ad::28
 b.ns.nic.fashion.	172800	IN	A	72.42.114.28
@@ -4542,7 +4576,24 @@ fit.			172800	IN	NS	a.ns.nic.fit.
 fit.			172800	IN	NS	b.ns.nic.fit.
 fit.			172800	IN	NS	c.ns.nic.fit.
 fit.			172800	IN	NS	d.ns.nic.fit.
+fit.			172800	IN	NS	dns1.nic.fit.
+fit.			172800	IN	NS	dns2.nic.fit.
+fit.			172800	IN	NS	dns3.nic.fit.
+fit.			172800	IN	NS	dns4.nic.fit.
+fit.			172800	IN	NS	dnsa.nic.fit.
+fit.			172800	IN	NS	dnsb.nic.fit.
 fit.			86400	IN	NSEC	fitness. NS DS RRSIG NSEC
+dns1.nic.fit.		172800	IN	A	213.248.217.23
+dns1.nic.fit.		172800	IN	AAAA	2a01:618:401::23
+dns2.nic.fit.		172800	IN	A	103.49.81.23
+dns2.nic.fit.		172800	IN	AAAA	2401:fd80:401::23
+dns3.nic.fit.		172800	IN	A	213.248.221.23
+dns3.nic.fit.		172800	IN	AAAA	2a01:618:405::23
+dns4.nic.fit.		172800	IN	A	43.230.49.23
+dns4.nic.fit.		172800	IN	AAAA	2401:fd80:405::23
+dnsa.nic.fit.		172800	IN	A	156.154.100.3
+dnsa.nic.fit.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.fit.		172800	IN	A	156.154.101.3
 a.ns.nic.fit.		172800	IN	A	72.0.50.18
 a.ns.nic.fit.		172800	IN	AAAA	2620:171:a02:ad::18
 b.ns.nic.fit.		172800	IN	A	72.42.114.18
@@ -5734,7 +5785,24 @@ horse.			172800	IN	NS	a.ns.nic.horse.
 horse.			172800	IN	NS	b.ns.nic.horse.
 horse.			172800	IN	NS	c.ns.nic.horse.
 horse.			172800	IN	NS	d.ns.nic.horse.
+horse.			172800	IN	NS	dns1.nic.horse.
+horse.			172800	IN	NS	dns2.nic.horse.
+horse.			172800	IN	NS	dns3.nic.horse.
+horse.			172800	IN	NS	dns4.nic.horse.
+horse.			172800	IN	NS	dnsa.nic.horse.
+horse.			172800	IN	NS	dnsb.nic.horse.
 horse.			86400	IN	NSEC	host. NS DS RRSIG NSEC
+dns1.nic.horse.		172800	IN	A	213.248.217.25
+dns1.nic.horse.		172800	IN	AAAA	2a01:618:401::25
+dns2.nic.horse.		172800	IN	A	103.49.81.25
+dns2.nic.horse.		172800	IN	AAAA	2401:fd80:401::25
+dns3.nic.horse.		172800	IN	A	213.248.221.25
+dns3.nic.horse.		172800	IN	AAAA	2a01:618:405::25
+dns4.nic.horse.		172800	IN	A	43.230.49.25
+dns4.nic.horse.		172800	IN	AAAA	2401:fd80:405::25
+dnsa.nic.horse.		172800	IN	A	156.154.100.3
+dnsa.nic.horse.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.horse.		172800	IN	A	156.154.101.3
 a.ns.nic.horse.		172800	IN	A	72.0.50.8
 a.ns.nic.horse.		172800	IN	AAAA	2620:171:a02:ad::8
 b.ns.nic.horse.		172800	IN	A	72.42.114.8
@@ -8100,7 +8168,24 @@ miami.			172800	IN	NS	a.ns.nic.miami.
 miami.			172800	IN	NS	b.ns.nic.miami.
 miami.			172800	IN	NS	c.ns.nic.miami.
 miami.			172800	IN	NS	d.ns.nic.miami.
+miami.			172800	IN	NS	dns1.nic.miami.
+miami.			172800	IN	NS	dns2.nic.miami.
+miami.			172800	IN	NS	dns3.nic.miami.
+miami.			172800	IN	NS	dns4.nic.miami.
+miami.			172800	IN	NS	dnsa.nic.miami.
+miami.			172800	IN	NS	dnsb.nic.miami.
 miami.			86400	IN	NSEC	microsoft. NS DS RRSIG NSEC
+dns1.nic.miami.		172800	IN	A	213.248.217.29
+dns1.nic.miami.		172800	IN	AAAA	2a01:618:401::29
+dns2.nic.miami.		172800	IN	A	103.49.81.29
+dns2.nic.miami.		172800	IN	AAAA	2401:fd80:401::29
+dns3.nic.miami.		172800	IN	A	213.248.221.29
+dns3.nic.miami.		172800	IN	AAAA	2a01:618:405::29
+dns4.nic.miami.		172800	IN	A	43.230.49.29
+dns4.nic.miami.		172800	IN	AAAA	2401:fd80:405::29
+dnsa.nic.miami.		172800	IN	A	156.154.100.3
+dnsa.nic.miami.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.miami.		172800	IN	A	156.154.101.3
 a.ns.nic.miami.		172800	IN	A	72.0.50.21
 a.ns.nic.miami.		172800	IN	AAAA	2620:171:a02:ad::21
 b.ns.nic.miami.		172800	IN	A	72.42.114.21
@@ -9775,7 +9860,20 @@ obi.			172800	IN	NS	ac1.nstld.com.
 obi.			172800	IN	NS	ac2.nstld.com.
 obi.			172800	IN	NS	ac3.nstld.com.
 obi.			172800	IN	NS	ac4.nstld.com.
-obi.			86400	IN	NSEC	off. NS DS RRSIG NSEC
+obi.			86400	IN	NSEC	observer. NS DS RRSIG NSEC
+observer.		172800	IN	NS	a.nic.observer.
+observer.		172800	IN	NS	b.nic.observer.
+observer.		172800	IN	NS	c.nic.observer.
+observer.		172800	IN	NS	d.nic.observer.
+observer.		86400	IN	NSEC	off. NS DS RRSIG NSEC
+a.nic.observer.		172800	IN	A	194.169.218.32
+a.nic.observer.		172800	IN	AAAA	2001:67c:13cc::1:32
+b.nic.observer.		172800	IN	A	185.24.64.32
+b.nic.observer.		172800	IN	AAAA	2a04:2b00:13cc::1:32
+c.nic.observer.		172800	IN	A	212.18.248.32
+c.nic.observer.		172800	IN	AAAA	2a04:2b00:13ee::32
+d.nic.observer.		172800	IN	A	212.18.249.32
+d.nic.observer.		172800	IN	AAAA	2a04:2b00:13ff::32
 off.			172800	IN	NS	ac1.nstld.com.
 off.			172800	IN	NS	ac2.nstld.com.
 off.			172800	IN	NS	ac3.nstld.com.
@@ -11360,7 +11458,24 @@ rodeo.			172800	IN	NS	a.ns.nic.rodeo.
 rodeo.			172800	IN	NS	b.ns.nic.rodeo.
 rodeo.			172800	IN	NS	c.ns.nic.rodeo.
 rodeo.			172800	IN	NS	d.ns.nic.rodeo.
+rodeo.			172800	IN	NS	dns1.nic.rodeo.
+rodeo.			172800	IN	NS	dns2.nic.rodeo.
+rodeo.			172800	IN	NS	dns3.nic.rodeo.
+rodeo.			172800	IN	NS	dns4.nic.rodeo.
+rodeo.			172800	IN	NS	dnsa.nic.rodeo.
+rodeo.			172800	IN	NS	dnsb.nic.rodeo.
 rodeo.			86400	IN	NSEC	rogers. NS DS RRSIG NSEC
+dns1.nic.rodeo.		172800	IN	A	213.248.217.30
+dns1.nic.rodeo.		172800	IN	AAAA	2a01:618:401::30
+dns2.nic.rodeo.		172800	IN	A	103.49.81.30
+dns2.nic.rodeo.		172800	IN	AAAA	2401:fd80:401::30
+dns3.nic.rodeo.		172800	IN	A	213.248.221.30
+dns3.nic.rodeo.		172800	IN	AAAA	2a01:618:405::30
+dns4.nic.rodeo.		172800	IN	A	43.230.49.30
+dns4.nic.rodeo.		172800	IN	AAAA	2401:fd80:405::30
+dnsa.nic.rodeo.		172800	IN	A	156.154.100.3
+dnsa.nic.rodeo.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.rodeo.		172800	IN	A	156.154.101.3
 a.ns.nic.rodeo.		172800	IN	A	72.0.50.3
 a.ns.nic.rodeo.		172800	IN	AAAA	2620:171:a02:ad::3
 b.ns.nic.rodeo.		172800	IN	A	72.42.114.3
