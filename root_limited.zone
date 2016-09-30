@@ -259,7 +259,6 @@ c0.nic.adult.		172800	IN	A	199.115.154.1
 c0.nic.adult.		172800	IN	AAAA	2001:500:a2::1
 d0.nic.adult.		172800	IN	A	199.115.155.1
 d0.nic.adult.		172800	IN	AAAA	2001:500:a3::1
-ae.			172800	IN	NS	ae.cctld.authdns.ripe.net.
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
 ae.			172800	IN	NS	sec3.apnic.net.
@@ -3902,7 +3901,20 @@ dvag.			172800	IN	NS	ns1a.ksregistry.net.
 dvag.			172800	IN	NS	ns1b.ksregistry.net.
 dvag.			172800	IN	NS	ns2a.ksregistry.com.
 dvag.			172800	IN	NS	ns2b.ksregistry.com.
-dvag.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
+dvag.			86400	IN	NSEC	dvr. NS DS RRSIG NSEC
+dvr.			172800	IN	NS	a0.nic.dvr.
+dvr.			172800	IN	NS	a2.nic.dvr.
+dvr.			172800	IN	NS	b0.nic.dvr.
+dvr.			172800	IN	NS	c0.nic.dvr.
+dvr.			86400	IN	NSEC	dz. NS DS RRSIG NSEC
+a0.nic.dvr.		172800	IN	A	65.22.108.17
+a0.nic.dvr.		172800	IN	AAAA	2a01:8840:6a::17
+a2.nic.dvr.		172800	IN	A	65.22.111.17
+a2.nic.dvr.		172800	IN	AAAA	2a01:8840:6d::17
+b0.nic.dvr.		172800	IN	A	65.22.109.17
+b0.nic.dvr.		172800	IN	AAAA	2a01:8840:6b::17
+c0.nic.dvr.		172800	IN	A	65.22.110.17
+c0.nic.dvr.		172800	IN	AAAA	2a01:8840:6c::17
 dz.			172800	IN	NS	ns1.nic.dz.
 dz.			172800	IN	NS	ns2.nic.dz.
 dz.			172800	IN	NS	ns3.nic.fr.
@@ -9279,8 +9291,6 @@ cat.pch.net.		172800	IN	AAAA	2001:500:14:6020:ad::1
 nic.lk-anycast.pch.net.	172800	IN	A	204.61.216.27
 ad.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.53
 ad.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::53
-ae.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.54
-ae.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::54
 al.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.56
 al.cctld.authdns.ripe.net. 172800 IN	AAAA	2001:67c:e0::56
 ar.cctld.authdns.ripe.net. 172800 IN	A	193.0.9.59
@@ -15384,7 +15394,26 @@ xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--gecrj9c.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--gecrj9c.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--gecrj9c.		86400	IN	NSEC	xn--h2brj9c. NS DS RRSIG NSEC
+xn--gecrj9c.		86400	IN	NSEC	xn--gk3at1e. NS DS RRSIG NSEC
+xn--gk3at1e.		172800	IN	NS	ns1.dns.nic.xn--gk3at1e.
+xn--gk3at1e.		172800	IN	NS	ns2.dns.nic.xn--gk3at1e.
+xn--gk3at1e.		172800	IN	NS	ns3.dns.nic.xn--gk3at1e.
+xn--gk3at1e.		172800	IN	NS	ns4.dns.nic.xn--gk3at1e.
+xn--gk3at1e.		172800	IN	NS	ns5.dns.nic.xn--gk3at1e.
+xn--gk3at1e.		172800	IN	NS	ns6.dns.nic.xn--gk3at1e.
+xn--gk3at1e.		86400	IN	NSEC	xn--h2brj9c. NS DS RRSIG NSEC
+ns1.dns.nic.xn--gk3at1e. 172800	IN	A	156.154.169.70
+ns1.dns.nic.xn--gk3at1e. 172800	IN	AAAA	2610:a1:1071::1:46
+ns2.dns.nic.xn--gk3at1e. 172800	IN	A	156.154.170.70
+ns2.dns.nic.xn--gk3at1e. 172800	IN	AAAA	2610:a1:1072::1:46
+ns3.dns.nic.xn--gk3at1e. 172800	IN	A	156.154.171.70
+ns3.dns.nic.xn--gk3at1e. 172800	IN	AAAA	2610:a1:1073::1:46
+ns4.dns.nic.xn--gk3at1e. 172800	IN	A	156.154.172.70
+ns4.dns.nic.xn--gk3at1e. 172800	IN	AAAA	2610:a1:1074::1:46
+ns5.dns.nic.xn--gk3at1e. 172800	IN	A	156.154.173.70
+ns5.dns.nic.xn--gk3at1e. 172800	IN	AAAA	2610:a1:1075::1:46
+ns6.dns.nic.xn--gk3at1e. 172800	IN	A	156.154.174.70
+ns6.dns.nic.xn--gk3at1e. 172800	IN	AAAA	2610:a1:1076::1:46
 xn--h2brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--h2brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
