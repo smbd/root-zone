@@ -8609,6 +8609,7 @@ mtpc.			86400	IN	NSEC	mtr. NS DS RRSIG NSEC
 mtr.			172800	IN	NS	ns1.nic.mtr.
 mtr.			172800	IN	NS	ns2.nic.mtr.
 mtr.			172800	IN	NS	ns3.nic.mtr.
+mtr.			172800	IN	NS	ns4.nic.mtr.
 mtr.			86400	IN	NSEC	mu. NS DS RRSIG NSEC
 ns1.nic.mtr.		172800	IN	A	203.119.2.164
 ns1.nic.mtr.		172800	IN	AAAA	2001:dca:4000::cb77:2a4
@@ -8616,6 +8617,8 @@ ns2.nic.mtr.		172800	IN	A	203.119.87.164
 ns2.nic.mtr.		172800	IN	AAAA	2001:dca:2000::cb77:57a4
 ns3.nic.mtr.		172800	IN	A	169.54.247.173
 ns3.nic.mtr.		172800	IN	AAAA	2607:f0d0:1b02:b9::4
+ns4.nic.mtr.		172800	IN	A	168.1.115.234
+ns4.nic.mtr.		172800	IN	AAAA	2401:c900:1301:10e::2
 mu.			172800	IN	NS	fork.sth.dnsnode.net.
 mu.			172800	IN	NS	udns1.tld.mu.
 mu.			172800	IN	NS	udns2.tld.mu.
