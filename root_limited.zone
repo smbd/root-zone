@@ -217,7 +217,7 @@ ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	dnsc.ad.
 ad.			172800	IN	NS	dnsm.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
-ad.			86400	IN	NSEC	adac. NS RRSIG NSEC
+ad.			86400	IN	NSEC	adac. NS DS RRSIG NSEC
 dnsc.ad.		172800	IN	A	194.158.74.10
 dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa::b
 dnsm.ad.		172800	IN	A	194.158.74.9
@@ -1269,6 +1269,10 @@ bd.			172800	IN	NS	surma.btcl.net.bd.
 bd.			172800	IN	NS	jamuna.btcl.net.bd.
 bd.			86400	IN	NSEC	be. NS RRSIG NSEC
 dns.bd.			172800	IN	A	209.58.24.3
+bayanno.btcl.net.bd.	172800	IN	A	180.211.212.213
+bayanno.btcl.net.bd.	172800	IN	AAAA	2407:5000:88:2::3
+ekushey.btcl.net.bd.	172800	IN	A	123.49.50.51
+ekushey.btcl.net.bd.	172800	IN	AAAA	2407:5000:88:1::2
 jamuna.btcl.net.bd.	172800	IN	A	203.112.194.231
 surma.btcl.net.bd.	172800	IN	A	203.112.194.232
 be.			172800	IN	NS	a.ns.dns.be.
@@ -1665,11 +1669,13 @@ b0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:3f::9
 c0.nic.bnpparibas.	172800	IN	A	65.22.66.9
 c0.nic.bnpparibas.	172800	IN	AAAA	2a01:8840:40::9
 bo.			172800	IN	NS	ns.dns.br.
+bo.			172800	IN	NS	ns.nic.bo.
 bo.			172800	IN	NS	ns2.nic.fr.
 bo.			172800	IN	NS	utama.bolnet.bo.
 bo.			172800	IN	NS	anycast.ns.nic.bo.
 bo.			86400	IN	NSEC	boats. NS RRSIG NSEC
 utama.bolnet.bo.	172800	IN	A	166.114.1.40
+ns.nic.bo.		172800	IN	A	166.114.1.40
 anycast.ns.nic.bo.	172800	IN	A	204.61.216.48
 anycast.ns.nic.bo.	172800	IN	AAAA	2001:500:14:6048:ad::1
 boats.			172800	IN	NS	a0.nic.boats.
@@ -1853,7 +1859,24 @@ broadway.		172800	IN	NS	a.ns.nic.broadway.
 broadway.		172800	IN	NS	b.ns.nic.broadway.
 broadway.		172800	IN	NS	c.ns.nic.broadway.
 broadway.		172800	IN	NS	d.ns.nic.broadway.
+broadway.		172800	IN	NS	dns1.nic.broadway.
+broadway.		172800	IN	NS	dns2.nic.broadway.
+broadway.		172800	IN	NS	dns3.nic.broadway.
+broadway.		172800	IN	NS	dns4.nic.broadway.
+broadway.		172800	IN	NS	dnsa.nic.broadway.
+broadway.		172800	IN	NS	dnsb.nic.broadway.
 broadway.		86400	IN	NSEC	broker. NS DS RRSIG NSEC
+dns1.nic.broadway.	172800	IN	A	213.248.217.38
+dns1.nic.broadway.	172800	IN	AAAA	2a01:618:401::38
+dns2.nic.broadway.	172800	IN	A	103.49.81.38
+dns2.nic.broadway.	172800	IN	AAAA	2401:fd80:401::38
+dns3.nic.broadway.	172800	IN	A	213.248.221.38
+dns3.nic.broadway.	172800	IN	AAAA	2a01:618:405::38
+dns4.nic.broadway.	172800	IN	A	43.230.49.38
+dns4.nic.broadway.	172800	IN	AAAA	2401:fd80:405::38
+dnsa.nic.broadway.	172800	IN	A	156.154.100.3
+dnsa.nic.broadway.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.broadway.	172800	IN	A	156.154.101.3
 a.ns.nic.broadway.	172800	IN	A	72.0.50.31
 a.ns.nic.broadway.	172800	IN	AAAA	2620:171:a02:ad::31
 b.ns.nic.broadway.	172800	IN	A	72.42.114.31
@@ -4555,16 +4578,14 @@ fish.			172800	IN	NS	demand.alpha.aridns.net.au.
 fish.			172800	IN	NS	demand.delta.aridns.net.au.
 fish.			172800	IN	NS	demand.gamma.aridns.net.au.
 fish.			86400	IN	NSEC	fishing. NS DS RRSIG NSEC
-fishing.		172800	IN	NS	a.ns.nic.fishing.
-fishing.		172800	IN	NS	b.ns.nic.fishing.
-fishing.		172800	IN	NS	c.ns.nic.fishing.
-fishing.		172800	IN	NS	d.ns.nic.fishing.
 fishing.		172800	IN	NS	dns1.nic.fishing.
 fishing.		172800	IN	NS	dns2.nic.fishing.
 fishing.		172800	IN	NS	dns3.nic.fishing.
 fishing.		172800	IN	NS	dns4.nic.fishing.
 fishing.		172800	IN	NS	dnsa.nic.fishing.
 fishing.		172800	IN	NS	dnsb.nic.fishing.
+fishing.		172800	IN	NS	dnsc.nic.fishing.
+fishing.		172800	IN	NS	dnsd.nic.fishing.
 fishing.		86400	IN	NSEC	fit. NS DS RRSIG NSEC
 dns1.nic.fishing.	172800	IN	A	213.248.217.22
 dns1.nic.fishing.	172800	IN	AAAA	2a01:618:401::22
@@ -4577,14 +4598,8 @@ dns4.nic.fishing.	172800	IN	AAAA	2401:fd80:405::22
 dnsa.nic.fishing.	172800	IN	A	156.154.100.3
 dnsa.nic.fishing.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.fishing.	172800	IN	A	156.154.101.3
-a.ns.nic.fishing.	172800	IN	A	72.0.50.5
-a.ns.nic.fishing.	172800	IN	AAAA	2620:171:a02:ad::5
-b.ns.nic.fishing.	172800	IN	A	72.42.114.5
-b.ns.nic.fishing.	172800	IN	AAAA	2620:171:d02:dc::5
-c.ns.nic.fishing.	172800	IN	A	70.40.0.5
-c.ns.nic.fishing.	172800	IN	AAAA	2620:171:c00:c::5
-d.ns.nic.fishing.	172800	IN	A	70.40.8.5
-d.ns.nic.fishing.	172800	IN	AAAA	2620:171:f00:d::5
+dnsc.nic.fishing.	172800	IN	A	156.154.102.3
+dnsd.nic.fishing.	172800	IN	A	156.154.103.3
 fit.			172800	IN	NS	dns1.nic.fit.
 fit.			172800	IN	NS	dns2.nic.fit.
 fit.			172800	IN	NS	dns3.nic.fit.
@@ -4985,16 +5000,14 @@ ns5.dns.nic.gap.	172800	IN	A	156.154.157.66
 ns5.dns.nic.gap.	172800	IN	AAAA	2610:a1:1075::42
 ns6.dns.nic.gap.	172800	IN	A	156.154.158.66
 ns6.dns.nic.gap.	172800	IN	AAAA	2610:a1:1076::42
-garden.			172800	IN	NS	a.ns.nic.garden.
-garden.			172800	IN	NS	b.ns.nic.garden.
-garden.			172800	IN	NS	c.ns.nic.garden.
-garden.			172800	IN	NS	d.ns.nic.garden.
 garden.			172800	IN	NS	dns1.nic.garden.
 garden.			172800	IN	NS	dns2.nic.garden.
 garden.			172800	IN	NS	dns3.nic.garden.
 garden.			172800	IN	NS	dns4.nic.garden.
 garden.			172800	IN	NS	dnsa.nic.garden.
 garden.			172800	IN	NS	dnsb.nic.garden.
+garden.			172800	IN	NS	dnsc.nic.garden.
+garden.			172800	IN	NS	dnsd.nic.garden.
 garden.			86400	IN	NSEC	gb. NS DS RRSIG NSEC
 dns1.nic.garden.	172800	IN	A	213.248.217.24
 dns1.nic.garden.	172800	IN	AAAA	2a01:618:401::24
@@ -5007,14 +5020,8 @@ dns4.nic.garden.	172800	IN	AAAA	2401:fd80:405::24
 dnsa.nic.garden.	172800	IN	A	156.154.100.3
 dnsa.nic.garden.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.garden.	172800	IN	A	156.154.101.3
-a.ns.nic.garden.	172800	IN	A	72.0.50.26
-a.ns.nic.garden.	172800	IN	AAAA	2620:171:a02:ad::26
-b.ns.nic.garden.	172800	IN	A	72.42.114.26
-b.ns.nic.garden.	172800	IN	AAAA	2620:171:d02:dc::26
-c.ns.nic.garden.	172800	IN	A	70.40.0.26
-c.ns.nic.garden.	172800	IN	AAAA	2620:171:c00:c::26
-d.ns.nic.garden.	172800	IN	A	70.40.8.26
-d.ns.nic.garden.	172800	IN	AAAA	2620:171:f00:d::26
+dnsc.nic.garden.	172800	IN	A	156.154.102.3
+dnsd.nic.garden.	172800	IN	A	156.154.103.3
 gb.			172800	IN	NS	ns.uu.net.
 gb.			172800	IN	NS	ns0.ja.net.
 gb.			172800	IN	NS	ns4.ja.net.
@@ -5143,16 +5150,11 @@ c.nic.giving.		172800	IN	A	37.209.196.9
 c.nic.giving.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.giving.		172800	IN	A	37.209.198.9
 d.nic.giving.		172800	IN	AAAA	2001:dcd:4::9
+gl.			172800	IN	NS	a.gl.dyntld.net.
 gl.			172800	IN	NS	a.nuuk.nic.gl.
-gl.			172800	IN	NS	b.nic.gl.
+gl.			172800	IN	NS	b.gl.dyntld.net.
 gl.			172800	IN	NS	d.nic.gl.
-gl.			172800	IN	NS	gl1.dyntld.net.
-gl.			172800	IN	NS	gl2.dyntld.net.
-gl.			172800	IN	NS	gl3.dyntld.net.
-gl.			172800	IN	NS	gl4.dyntld.net.
 gl.			86400	IN	NSEC	glade. NS DS RRSIG NSEC
-b.nic.gl.		172800	IN	A	91.221.196.228
-b.nic.gl.		172800	IN	AAAA	2001:67c:3c0:12::112:10
 d.nic.gl.		172800	IN	A	204.61.216.49
 d.nic.gl.		172800	IN	AAAA	2001:500:14:6049:ad::1
 a.nuuk.nic.gl.		172800	IN	A	194.177.224.13
@@ -6525,6 +6527,7 @@ b0.nic.istanbul.	172800	IN	AAAA	2a01:8840:8f::9
 c0.nic.istanbul.	172800	IN	A	65.22.146.9
 c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90::9
 it.			172800	IN	NS	a.dns.it.
+it.			172800	IN	NS	c.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
 it.			172800	IN	NS	dns.nic.it.
@@ -6534,6 +6537,8 @@ nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.		172800	IN	A	194.0.16.215
 a.dns.it.		172800	IN	AAAA	2001:678:12:0:194:0:16:215
+c.dns.it.		172800	IN	A	194.0.1.38
+c.dns.it.		172800	IN	AAAA	2001:678:4::26
 m.dns.it.		172800	IN	A	217.29.76.4
 m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
@@ -8694,10 +8699,12 @@ ns3.nic.mx.		172800	IN	A	200.33.111.1
 my.			172800	IN	NS	a.mynic.net.my.
 my.			172800	IN	NS	c.mynic.net.my.
 my.			172800	IN	NS	d.mynic.net.my.
+my.			172800	IN	NS	a1.mynic.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns30.cdns.net.
 my.			172800	IN	NS	ns-my.nic.fr.
 my.			86400	IN	NSEC	mz. NS DS RRSIG NSEC
+a1.mynic.my.		172800	IN	A	202.171.47.204
 a.mynic.net.my.		172800	IN	A	49.236.194.202
 a.mynic.net.my.		172800	IN	AAAA	2401:b000:602:1001::11
 c.mynic.net.my.		172800	IN	A	103.44.108.2
@@ -9007,10 +9014,10 @@ b.gift.dyntld.net.	172800	IN	A	199.19.7.7
 b.gift.dyntld.net.	172800	IN	AAAA	2a02:e180:1::7
 c.gift.dyntld.net.	172800	IN	A	185.38.98.7
 c.gift.dyntld.net.	172800	IN	AAAA	2a02:e180:2::7
-gl1.dyntld.net.		172800	IN	A	208.78.70.97
-gl2.dyntld.net.		172800	IN	A	204.13.250.97
-gl3.dyntld.net.		172800	IN	A	208.78.71.97
-gl4.dyntld.net.		172800	IN	A	204.13.251.97
+a.gl.dyntld.net.	172800	IN	A	162.88.52.8
+a.gl.dyntld.net.	172800	IN	AAAA	2600:2000:3000::8
+b.gl.dyntld.net.	172800	IN	A	162.88.53.8
+b.gl.dyntld.net.	172800	IN	AAAA	2600:2000:3001::8
 a.gs.dyntld.net.	172800	IN	A	199.19.5.4
 a.gs.dyntld.net.	172800	IN	AAAA	2001:500:92::4
 b.gs.dyntld.net.	172800	IN	A	199.19.6.4
@@ -9246,6 +9253,8 @@ ns1-mq.mediaserv.net.	172800	IN	A	213.16.20.3
 server.nordu.net.	172800	IN	A	193.10.252.19
 server.nordu.net.	172800	IN	AAAA	2001:948:4:2::19
 ns.ntamar.net.		172800	IN	A	117.103.88.33
+bd-ns.anycast.pch.net.	172800	IN	A	204.61.216.108
+bd-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6108:ad::1
 bn-ns.anycast.pch.net.	172800	IN	A	204.61.216.87
 bn-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6087:ad::1
 cl-ns.anycast.pch.net.	172800	IN	A	204.61.216.30
@@ -11144,7 +11153,7 @@ racing.			172800	IN	NS	ns3.dns.nic.racing.
 racing.			172800	IN	NS	ns4.dns.nic.racing.
 racing.			172800	IN	NS	ns5.dns.nic.racing.
 racing.			172800	IN	NS	ns6.dns.nic.racing.
-racing.			86400	IN	NSEC	raid. NS DS RRSIG NSEC
+racing.			86400	IN	NSEC	radio. NS DS RRSIG NSEC
 ns1.dns.nic.racing.	172800	IN	A	156.154.169.33
 ns1.dns.nic.racing.	172800	IN	AAAA	2610:a1:1071::1:21
 ns2.dns.nic.racing.	172800	IN	A	156.154.170.33
@@ -11157,6 +11166,11 @@ ns5.dns.nic.racing.	172800	IN	A	156.154.173.33
 ns5.dns.nic.racing.	172800	IN	AAAA	2610:a1:1075::1:21
 ns6.dns.nic.racing.	172800	IN	A	156.154.174.33
 ns6.dns.nic.racing.	172800	IN	AAAA	2610:a1:1076::1:21
+radio.			172800	IN	NS	anycast9.irondns.net.
+radio.			172800	IN	NS	anycast10.irondns.net.
+radio.			172800	IN	NS	anycast23.irondns.net.
+radio.			172800	IN	NS	anycast24.irondns.net.
+radio.			86400	IN	NSEC	raid. NS DS RRSIG NSEC
 raid.			172800	IN	NS	ac1.nstld.com.
 raid.			172800	IN	NS	ac2.nstld.com.
 raid.			172800	IN	NS	ac3.nstld.com.
@@ -14235,16 +14249,14 @@ c.dns-servers.vn.	172800	IN	A	203.119.38.105
 d.dns-servers.vn.	172800	IN	A	203.119.44.105
 e.dns-servers.vn.	172800	IN	A	203.119.60.105
 f.dns-servers.vn.	172800	IN	A	203.119.68.105
-vodka.			172800	IN	NS	a.ns.nic.vodka.
-vodka.			172800	IN	NS	b.ns.nic.vodka.
-vodka.			172800	IN	NS	c.ns.nic.vodka.
-vodka.			172800	IN	NS	d.ns.nic.vodka.
 vodka.			172800	IN	NS	dns1.nic.vodka.
 vodka.			172800	IN	NS	dns2.nic.vodka.
 vodka.			172800	IN	NS	dns3.nic.vodka.
 vodka.			172800	IN	NS	dns4.nic.vodka.
 vodka.			172800	IN	NS	dnsa.nic.vodka.
 vodka.			172800	IN	NS	dnsb.nic.vodka.
+vodka.			172800	IN	NS	dnsc.nic.vodka.
+vodka.			172800	IN	NS	dnsd.nic.vodka.
 vodka.			86400	IN	NSEC	volkswagen. NS DS RRSIG NSEC
 dns1.nic.vodka.		172800	IN	A	213.248.217.33
 dns1.nic.vodka.		172800	IN	AAAA	2a01:618:401::33
@@ -14257,14 +14269,8 @@ dns4.nic.vodka.		172800	IN	AAAA	2401:fd80:405::33
 dnsa.nic.vodka.		172800	IN	A	156.154.100.3
 dnsa.nic.vodka.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.vodka.		172800	IN	A	156.154.101.3
-a.ns.nic.vodka.		172800	IN	A	72.0.50.23
-a.ns.nic.vodka.		172800	IN	AAAA	2620:171:a02:ad::23
-b.ns.nic.vodka.		172800	IN	A	72.42.114.23
-b.ns.nic.vodka.		172800	IN	AAAA	2620:171:d02:dc::23
-c.ns.nic.vodka.		172800	IN	A	70.40.0.23
-c.ns.nic.vodka.		172800	IN	AAAA	2620:171:c00:c::23
-d.ns.nic.vodka.		172800	IN	A	70.40.8.23
-d.ns.nic.vodka.		172800	IN	AAAA	2620:171:f00:d::23
+dnsc.nic.vodka.		172800	IN	A	156.154.102.3
+dnsd.nic.vodka.		172800	IN	A	156.154.103.3
 volkswagen.		172800	IN	NS	a0.nic.volkswagen.
 volkswagen.		172800	IN	NS	a2.nic.volkswagen.
 volkswagen.		172800	IN	NS	b0.nic.volkswagen.
@@ -14530,16 +14536,14 @@ a.ns.nic.wed.		172800	IN	A	72.0.49.1
 a.ns.nic.wed.		172800	IN	AAAA	2620:171:a01:ad::1
 b.ns.nic.wed.		172800	IN	A	72.42.113.1
 b.ns.nic.wed.		172800	IN	AAAA	2620:171:d01:dc::1
-wedding.		172800	IN	NS	a.ns.nic.wedding.
-wedding.		172800	IN	NS	b.ns.nic.wedding.
-wedding.		172800	IN	NS	c.ns.nic.wedding.
-wedding.		172800	IN	NS	d.ns.nic.wedding.
 wedding.		172800	IN	NS	dns1.nic.wedding.
 wedding.		172800	IN	NS	dns2.nic.wedding.
 wedding.		172800	IN	NS	dns3.nic.wedding.
 wedding.		172800	IN	NS	dns4.nic.wedding.
 wedding.		172800	IN	NS	dnsa.nic.wedding.
 wedding.		172800	IN	NS	dnsb.nic.wedding.
+wedding.		172800	IN	NS	dnsc.nic.wedding.
+wedding.		172800	IN	NS	dnsd.nic.wedding.
 wedding.		86400	IN	NSEC	weibo. NS DS RRSIG NSEC
 dns1.nic.wedding.	172800	IN	A	213.248.217.34
 dns1.nic.wedding.	172800	IN	AAAA	2a01:618:401::34
@@ -14552,14 +14556,8 @@ dns4.nic.wedding.	172800	IN	AAAA	2401:fd80:405::34
 dnsa.nic.wedding.	172800	IN	A	156.154.100.3
 dnsa.nic.wedding.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.wedding.	172800	IN	A	156.154.101.3
-a.ns.nic.wedding.	172800	IN	A	72.0.50.25
-a.ns.nic.wedding.	172800	IN	AAAA	2620:171:a02:ad::25
-b.ns.nic.wedding.	172800	IN	A	72.42.114.25
-b.ns.nic.wedding.	172800	IN	AAAA	2620:171:d02:dc::25
-c.ns.nic.wedding.	172800	IN	A	70.40.0.25
-c.ns.nic.wedding.	172800	IN	AAAA	2620:171:c00:c::25
-d.ns.nic.wedding.	172800	IN	A	70.40.8.25
-d.ns.nic.wedding.	172800	IN	AAAA	2620:171:f00:d::25
+dnsc.nic.wedding.	172800	IN	A	156.154.102.3
+dnsd.nic.wedding.	172800	IN	A	156.154.103.3
 weibo.			172800	IN	NS	a0.nic.weibo.
 weibo.			172800	IN	NS	a2.nic.weibo.
 weibo.			172800	IN	NS	b0.nic.weibo.
@@ -14963,7 +14961,7 @@ xn--4gbrim.		172800	IN	NS	a0.nic.xn--4gbrim.
 xn--4gbrim.		172800	IN	NS	a2.nic.xn--4gbrim.
 xn--4gbrim.		172800	IN	NS	b0.nic.xn--4gbrim.
 xn--4gbrim.		172800	IN	NS	c0.nic.xn--4gbrim.
-xn--4gbrim.		86400	IN	NSEC	xn--55qw42g. NS DS RRSIG NSEC
+xn--4gbrim.		86400	IN	NSEC	xn--54b7fta0cc. NS DS RRSIG NSEC
 a0.nic.xn--4gbrim.	172800	IN	A	65.22.244.33
 a0.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:ee::33
 a2.nic.xn--4gbrim.	172800	IN	A	65.22.247.33
@@ -14972,6 +14970,10 @@ b0.nic.xn--4gbrim.	172800	IN	A	65.22.245.33
 b0.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:ef::33
 c0.nic.xn--4gbrim.	172800	IN	A	65.22.246.33
 c0.nic.xn--4gbrim.	172800	IN	AAAA	2a01:8840:f0::33
+xn--54b7fta0cc.		172800	IN	NS	bd-ns.anycast.pch.net.
+xn--54b7fta0cc.		172800	IN	NS	bayanno.btcl.net.bd.
+xn--54b7fta0cc.		172800	IN	NS	ekushey.btcl.net.bd.
+xn--54b7fta0cc.		86400	IN	NSEC	xn--55qw42g. NS RRSIG NSEC
 xn--55qw42g.		172800	IN	NS	ns1.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns3.conac.cn.
@@ -16169,16 +16171,14 @@ yodobashi.		172800	IN	NS	b.gmoregistry.net.
 yodobashi.		172800	IN	NS	k.gmoregistry.net.
 yodobashi.		172800	IN	NS	l.gmoregistry.net.
 yodobashi.		86400	IN	NSEC	yoga. NS DS RRSIG NSEC
-yoga.			172800	IN	NS	a.ns.nic.yoga.
-yoga.			172800	IN	NS	b.ns.nic.yoga.
-yoga.			172800	IN	NS	c.ns.nic.yoga.
-yoga.			172800	IN	NS	d.ns.nic.yoga.
 yoga.			172800	IN	NS	dns1.nic.yoga.
 yoga.			172800	IN	NS	dns2.nic.yoga.
 yoga.			172800	IN	NS	dns3.nic.yoga.
 yoga.			172800	IN	NS	dns4.nic.yoga.
 yoga.			172800	IN	NS	dnsa.nic.yoga.
 yoga.			172800	IN	NS	dnsb.nic.yoga.
+yoga.			172800	IN	NS	dnsc.nic.yoga.
+yoga.			172800	IN	NS	dnsd.nic.yoga.
 yoga.			86400	IN	NSEC	yokohama. NS DS RRSIG NSEC
 dns1.nic.yoga.		172800	IN	A	213.248.217.36
 dns1.nic.yoga.		172800	IN	AAAA	2a01:618:401::36
@@ -16191,14 +16191,8 @@ dns4.nic.yoga.		172800	IN	AAAA	2401:fd80:405::36
 dnsa.nic.yoga.		172800	IN	A	156.154.100.3
 dnsa.nic.yoga.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.yoga.		172800	IN	A	156.154.101.3
-a.ns.nic.yoga.		172800	IN	A	72.0.50.27
-a.ns.nic.yoga.		172800	IN	AAAA	2620:171:a02:ad::27
-b.ns.nic.yoga.		172800	IN	A	72.42.114.27
-b.ns.nic.yoga.		172800	IN	AAAA	2620:171:d02:dc::27
-c.ns.nic.yoga.		172800	IN	A	70.40.0.27
-c.ns.nic.yoga.		172800	IN	AAAA	2620:171:c00:c::27
-d.ns.nic.yoga.		172800	IN	A	70.40.8.27
-d.ns.nic.yoga.		172800	IN	AAAA	2620:171:f00:d::27
+dnsc.nic.yoga.		172800	IN	A	156.154.102.3
+dnsd.nic.yoga.		172800	IN	A	156.154.103.3
 yokohama.		172800	IN	NS	a.gmoregistry.net.
 yokohama.		172800	IN	NS	b.gmoregistry.net.
 yokohama.		172800	IN	NS	k.gmoregistry.net.
