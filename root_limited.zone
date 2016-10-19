@@ -1192,7 +1192,20 @@ bargains.		172800	IN	NS	demand.beta.aridns.net.au.
 bargains.		172800	IN	NS	demand.alpha.aridns.net.au.
 bargains.		172800	IN	NS	demand.delta.aridns.net.au.
 bargains.		172800	IN	NS	demand.gamma.aridns.net.au.
-bargains.		86400	IN	NSEC	bauhaus. NS DS RRSIG NSEC
+bargains.		86400	IN	NSEC	basketball. NS DS RRSIG NSEC
+basketball.		172800	IN	NS	a.nic.basketball.
+basketball.		172800	IN	NS	b.nic.basketball.
+basketball.		172800	IN	NS	c.nic.basketball.
+basketball.		172800	IN	NS	d.nic.basketball.
+basketball.		86400	IN	NSEC	bauhaus. NS DS RRSIG NSEC
+a.nic.basketball.	172800	IN	A	194.169.218.71
+a.nic.basketball.	172800	IN	AAAA	2001:67c:13cc::1:71
+b.nic.basketball.	172800	IN	A	185.24.64.71
+b.nic.basketball.	172800	IN	AAAA	2a04:2b00:13cc::1:71
+c.nic.basketball.	172800	IN	A	212.18.248.71
+c.nic.basketball.	172800	IN	AAAA	2a04:2b00:13ee::71
+d.nic.basketball.	172800	IN	A	212.18.249.71
+d.nic.basketball.	172800	IN	AAAA	2a04:2b00:13ff::71
 bauhaus.		172800	IN	NS	anycast9.irondns.net.
 bauhaus.		172800	IN	NS	anycast10.irondns.net.
 bauhaus.		172800	IN	NS	anycast23.irondns.net.
