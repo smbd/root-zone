@@ -14343,7 +14343,7 @@ volkswagen.		172800	IN	NS	a0.nic.volkswagen.
 volkswagen.		172800	IN	NS	a2.nic.volkswagen.
 volkswagen.		172800	IN	NS	b0.nic.volkswagen.
 volkswagen.		172800	IN	NS	c0.nic.volkswagen.
-volkswagen.		86400	IN	NSEC	vote. NS DS RRSIG NSEC
+volkswagen.		86400	IN	NSEC	volvo. NS DS RRSIG NSEC
 a0.nic.volkswagen.	172800	IN	A	65.22.208.25
 a0.nic.volkswagen.	172800	IN	AAAA	2a01:8840:ca::25
 a2.nic.volkswagen.	172800	IN	A	65.22.211.25
@@ -14352,6 +14352,11 @@ b0.nic.volkswagen.	172800	IN	A	65.22.209.25
 b0.nic.volkswagen.	172800	IN	AAAA	2a01:8840:cb::25
 c0.nic.volkswagen.	172800	IN	A	65.22.210.25
 c0.nic.volkswagen.	172800	IN	AAAA	2a01:8840:cc::25
+volvo.			172800	IN	NS	ac1.nstld.com.
+volvo.			172800	IN	NS	ac2.nstld.com.
+volvo.			172800	IN	NS	ac3.nstld.com.
+volvo.			172800	IN	NS	ac4.nstld.com.
+volvo.			86400	IN	NSEC	vote. NS DS RRSIG NSEC
 vote.			172800	IN	NS	a0.nic.vote.
 vote.			172800	IN	NS	a2.nic.vote.
 vote.			172800	IN	NS	b0.nic.vote.
