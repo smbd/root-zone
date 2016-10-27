@@ -6516,6 +6516,7 @@ b0.nic.irish.		172800	IN	A	65.22.197.17
 b0.nic.irish.		172800	IN	AAAA	2a01:8840:bf::17
 c0.nic.irish.		172800	IN	A	65.22.198.17
 c0.nic.irish.		172800	IN	AAAA	2a01:8840:c0::17
+is.			172800	IN	NS	bes.isnic.is.
 is.			172800	IN	NS	sab.isnic.is.
 is.			172800	IN	NS	sunic.sunet.se.
 is.			172800	IN	NS	durinn.rhnet.is.
@@ -6524,6 +6525,8 @@ is.			172800	IN	NS	sns-pb.isc.org.
 is.			86400	IN	NSEC	iselect. NS DS RRSIG NSEC
 isgate.is.		172800	IN	A	193.4.58.51
 isgate.is.		172800	IN	AAAA	2001:67c:6c:58::51
+bes.isnic.is.		172800	IN	A	204.61.216.116
+bes.isnic.is.		172800	IN	AAAA	2001:500:14:6116:ad::1
 sab.isnic.is.		172800	IN	A	194.146.106.58
 sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14::53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
@@ -14807,7 +14810,24 @@ work.			172800	IN	NS	a.ns.nic.work.
 work.			172800	IN	NS	b.ns.nic.work.
 work.			172800	IN	NS	c.ns.nic.work.
 work.			172800	IN	NS	d.ns.nic.work.
+work.			172800	IN	NS	dns1.nic.work.
+work.			172800	IN	NS	dns2.nic.work.
+work.			172800	IN	NS	dns3.nic.work.
+work.			172800	IN	NS	dns4.nic.work.
+work.			172800	IN	NS	dnsa.nic.work.
+work.			172800	IN	NS	dnsb.nic.work.
 work.			86400	IN	NSEC	works. NS DS RRSIG NSEC
+dns1.nic.work.		172800	IN	A	213.248.217.35
+dns1.nic.work.		172800	IN	AAAA	2a01:618:401::35
+dns2.nic.work.		172800	IN	A	103.49.81.35
+dns2.nic.work.		172800	IN	AAAA	2401:fd80:401::35
+dns3.nic.work.		172800	IN	A	213.248.221.35
+dns3.nic.work.		172800	IN	AAAA	2a01:618:405::35
+dns4.nic.work.		172800	IN	A	43.230.49.35
+dns4.nic.work.		172800	IN	AAAA	2401:fd80:405::35
+dnsa.nic.work.		172800	IN	A	156.154.100.3
+dnsa.nic.work.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.work.		172800	IN	A	156.154.101.3
 a.ns.nic.work.		172800	IN	A	72.0.50.24
 a.ns.nic.work.		172800	IN	AAAA	2620:171:a02:ad::24
 b.ns.nic.work.		172800	IN	A	72.42.114.24
