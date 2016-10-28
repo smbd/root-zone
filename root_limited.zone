@@ -1211,16 +1211,14 @@ bauhaus.		172800	IN	NS	anycast10.irondns.net.
 bauhaus.		172800	IN	NS	anycast23.irondns.net.
 bauhaus.		172800	IN	NS	anycast24.irondns.net.
 bauhaus.		86400	IN	NSEC	bayern. NS DS RRSIG NSEC
-bayern.			172800	IN	NS	a.ns.nic.bayern.
-bayern.			172800	IN	NS	b.ns.nic.bayern.
-bayern.			172800	IN	NS	c.ns.nic.bayern.
-bayern.			172800	IN	NS	d.ns.nic.bayern.
 bayern.			172800	IN	NS	dns1.nic.bayern.
 bayern.			172800	IN	NS	dns2.nic.bayern.
 bayern.			172800	IN	NS	dns3.nic.bayern.
 bayern.			172800	IN	NS	dns4.nic.bayern.
 bayern.			172800	IN	NS	dnsa.nic.bayern.
 bayern.			172800	IN	NS	dnsb.nic.bayern.
+bayern.			172800	IN	NS	dnsc.nic.bayern.
+bayern.			172800	IN	NS	dnsd.nic.bayern.
 bayern.			86400	IN	NSEC	bb. NS DS RRSIG NSEC
 dns1.nic.bayern.	172800	IN	A	213.248.217.14
 dns1.nic.bayern.	172800	IN	AAAA	2a01:618:401::14
@@ -1233,14 +1231,8 @@ dns4.nic.bayern.	172800	IN	AAAA	2401:fd80:405::14
 dnsa.nic.bayern.	172800	IN	A	156.154.100.3
 dnsa.nic.bayern.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.bayern.	172800	IN	A	156.154.101.3
-a.ns.nic.bayern.	172800	IN	A	72.0.50.13
-a.ns.nic.bayern.	172800	IN	AAAA	2620:171:a02:ad::13
-b.ns.nic.bayern.	172800	IN	A	72.42.114.13
-b.ns.nic.bayern.	172800	IN	AAAA	2620:171:d02:dc::13
-c.ns.nic.bayern.	172800	IN	A	70.40.0.13
-c.ns.nic.bayern.	172800	IN	AAAA	2620:171:c00:c::13
-d.ns.nic.bayern.	172800	IN	A	70.40.8.13
-d.ns.nic.bayern.	172800	IN	AAAA	2620:171:f00:d::13
+dnsc.nic.bayern.	172800	IN	A	156.154.102.3
+dnsd.nic.bayern.	172800	IN	A	156.154.103.3
 bb.			172800	IN	NS	ns1.barbadosdomain.net.
 bb.			172800	IN	NS	ns2.barbadosdomain.net.
 bb.			86400	IN	NSEC	bbc. NS RRSIG NSEC
@@ -1342,16 +1334,14 @@ beauty.			172800	IN	NS	ac2.nstld.com.
 beauty.			172800	IN	NS	ac3.nstld.com.
 beauty.			172800	IN	NS	ac4.nstld.com.
 beauty.			86400	IN	NSEC	beer. NS DS RRSIG NSEC
-beer.			172800	IN	NS	a.ns.nic.beer.
-beer.			172800	IN	NS	b.ns.nic.beer.
-beer.			172800	IN	NS	c.ns.nic.beer.
-beer.			172800	IN	NS	d.ns.nic.beer.
 beer.			172800	IN	NS	dns1.nic.beer.
 beer.			172800	IN	NS	dns2.nic.beer.
 beer.			172800	IN	NS	dns3.nic.beer.
 beer.			172800	IN	NS	dns4.nic.beer.
 beer.			172800	IN	NS	dnsa.nic.beer.
 beer.			172800	IN	NS	dnsb.nic.beer.
+beer.			172800	IN	NS	dnsc.nic.beer.
+beer.			172800	IN	NS	dnsd.nic.beer.
 beer.			86400	IN	NSEC	bentley. NS DS RRSIG NSEC
 dns1.nic.beer.		172800	IN	A	213.248.217.15
 dns1.nic.beer.		172800	IN	AAAA	2a01:618:401::15
@@ -1364,14 +1354,8 @@ dns4.nic.beer.		172800	IN	AAAA	2401:fd80:405::15
 dnsa.nic.beer.		172800	IN	A	156.154.100.3
 dnsa.nic.beer.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.beer.		172800	IN	A	156.154.101.3
-a.ns.nic.beer.		172800	IN	A	72.0.50.14
-a.ns.nic.beer.		172800	IN	AAAA	2620:171:a02:ad::14
-b.ns.nic.beer.		172800	IN	A	72.42.114.14
-b.ns.nic.beer.		172800	IN	AAAA	2620:171:d02:dc::14
-c.ns.nic.beer.		172800	IN	A	70.40.0.14
-c.ns.nic.beer.		172800	IN	AAAA	2620:171:c00:c::14
-d.ns.nic.beer.		172800	IN	A	70.40.8.14
-d.ns.nic.beer.		172800	IN	AAAA	2620:171:f00:d::14
+dnsc.nic.beer.		172800	IN	A	156.154.102.3
+dnsd.nic.beer.		172800	IN	A	156.154.103.3
 bentley.		172800	IN	NS	dns1.nic.bentley.
 bentley.		172800	IN	NS	dns2.nic.bentley.
 bentley.		172800	IN	NS	dns3.nic.bentley.
@@ -5334,16 +5318,14 @@ google.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 google.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 google.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 google.			86400	IN	NSEC	gop. NS DS RRSIG NSEC
-gop.			172800	IN	NS	a.ns.nic.gop.
-gop.			172800	IN	NS	b.ns.nic.gop.
-gop.			172800	IN	NS	c.ns.nic.gop.
-gop.			172800	IN	NS	d.ns.nic.gop.
 gop.			172800	IN	NS	dns1.nic.gop.
 gop.			172800	IN	NS	dns2.nic.gop.
 gop.			172800	IN	NS	dns3.nic.gop.
 gop.			172800	IN	NS	dns4.nic.gop.
 gop.			172800	IN	NS	dnsa.nic.gop.
 gop.			172800	IN	NS	dnsb.nic.gop.
+gop.			172800	IN	NS	dnsc.nic.gop.
+gop.			172800	IN	NS	dnsd.nic.gop.
 gop.			86400	IN	NSEC	got. NS DS RRSIG NSEC
 dns1.nic.gop.		172800	IN	A	213.248.217.39
 dns1.nic.gop.		172800	IN	AAAA	2a01:618:401::39
@@ -5356,14 +5338,8 @@ dns4.nic.gop.		172800	IN	AAAA	2401:fd80:405::39
 dnsa.nic.gop.		172800	IN	A	156.154.100.3
 dnsa.nic.gop.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.gop.		172800	IN	A	156.154.101.3
-a.ns.nic.gop.		172800	IN	A	72.0.50.19
-a.ns.nic.gop.		172800	IN	AAAA	2620:171:a02:ad::19
-b.ns.nic.gop.		172800	IN	A	72.42.114.19
-b.ns.nic.gop.		172800	IN	AAAA	2620:171:d02:dc::19
-c.ns.nic.gop.		172800	IN	A	70.40.0.19
-c.ns.nic.gop.		172800	IN	AAAA	2620:171:c00:c::19
-d.ns.nic.gop.		172800	IN	A	70.40.8.19
-d.ns.nic.gop.		172800	IN	AAAA	2620:171:f00:d::19
+dnsc.nic.gop.		172800	IN	A	156.154.102.3
+dnsd.nic.gop.		172800	IN	A	156.154.103.3
 got.			172800	IN	NS	ns1.dns.nic.got.
 got.			172800	IN	NS	ns2.dns.nic.got.
 got.			172800	IN	NS	ns3.dns.nic.got.
@@ -12903,16 +12879,14 @@ support.		172800	IN	NS	demand.alpha.aridns.net.au.
 support.		172800	IN	NS	demand.delta.aridns.net.au.
 support.		172800	IN	NS	demand.gamma.aridns.net.au.
 support.		86400	IN	NSEC	surf. NS DS RRSIG NSEC
-surf.			172800	IN	NS	a.ns.nic.surf.
-surf.			172800	IN	NS	b.ns.nic.surf.
-surf.			172800	IN	NS	c.ns.nic.surf.
-surf.			172800	IN	NS	d.ns.nic.surf.
 surf.			172800	IN	NS	dns1.nic.surf.
 surf.			172800	IN	NS	dns2.nic.surf.
 surf.			172800	IN	NS	dns3.nic.surf.
 surf.			172800	IN	NS	dns4.nic.surf.
 surf.			172800	IN	NS	dnsa.nic.surf.
 surf.			172800	IN	NS	dnsb.nic.surf.
+surf.			172800	IN	NS	dnsc.nic.surf.
+surf.			172800	IN	NS	dnsd.nic.surf.
 surf.			86400	IN	NSEC	surgery. NS DS RRSIG NSEC
 dns1.nic.surf.		172800	IN	A	213.248.217.31
 dns1.nic.surf.		172800	IN	AAAA	2a01:618:401::31
@@ -12925,14 +12899,8 @@ dns4.nic.surf.		172800	IN	AAAA	2401:fd80:405::31
 dnsa.nic.surf.		172800	IN	A	156.154.100.3
 dnsa.nic.surf.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.surf.		172800	IN	A	156.154.101.3
-a.ns.nic.surf.		172800	IN	A	72.0.50.22
-a.ns.nic.surf.		172800	IN	AAAA	2620:171:a02:ad::22
-b.ns.nic.surf.		172800	IN	A	72.42.114.22
-b.ns.nic.surf.		172800	IN	AAAA	2620:171:d02:dc::22
-c.ns.nic.surf.		172800	IN	A	70.40.0.22
-c.ns.nic.surf.		172800	IN	AAAA	2620:171:c00:c::22
-d.ns.nic.surf.		172800	IN	A	70.40.8.22
-d.ns.nic.surf.		172800	IN	AAAA	2620:171:f00:d::22
+dnsc.nic.surf.		172800	IN	A	156.154.102.3
+dnsd.nic.surf.		172800	IN	A	156.154.103.3
 surgery.		172800	IN	NS	demand.beta.aridns.net.au.
 surgery.		172800	IN	NS	demand.alpha.aridns.net.au.
 surgery.		172800	IN	NS	demand.delta.aridns.net.au.
