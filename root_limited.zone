@@ -1192,7 +1192,26 @@ bargains.		172800	IN	NS	demand.beta.aridns.net.au.
 bargains.		172800	IN	NS	demand.alpha.aridns.net.au.
 bargains.		172800	IN	NS	demand.delta.aridns.net.au.
 bargains.		172800	IN	NS	demand.gamma.aridns.net.au.
-bargains.		86400	IN	NSEC	basketball. NS DS RRSIG NSEC
+bargains.		86400	IN	NSEC	baseball. NS DS RRSIG NSEC
+baseball.		172800	IN	NS	ns1.dns.nic.baseball.
+baseball.		172800	IN	NS	ns2.dns.nic.baseball.
+baseball.		172800	IN	NS	ns3.dns.nic.baseball.
+baseball.		172800	IN	NS	ns4.dns.nic.baseball.
+baseball.		172800	IN	NS	ns5.dns.nic.baseball.
+baseball.		172800	IN	NS	ns6.dns.nic.baseball.
+baseball.		86400	IN	NSEC	basketball. NS DS RRSIG NSEC
+ns1.dns.nic.baseball.	172800	IN	A	156.154.144.200
+ns1.dns.nic.baseball.	172800	IN	AAAA	2610:a1:1071::c8
+ns2.dns.nic.baseball.	172800	IN	A	156.154.145.200
+ns2.dns.nic.baseball.	172800	IN	AAAA	2610:a1:1072::c8
+ns3.dns.nic.baseball.	172800	IN	A	156.154.159.200
+ns3.dns.nic.baseball.	172800	IN	AAAA	2610:a1:1073::c8
+ns4.dns.nic.baseball.	172800	IN	A	156.154.156.200
+ns4.dns.nic.baseball.	172800	IN	AAAA	2610:a1:1074::c8
+ns5.dns.nic.baseball.	172800	IN	A	156.154.157.200
+ns5.dns.nic.baseball.	172800	IN	AAAA	2610:a1:1075::c8
+ns6.dns.nic.baseball.	172800	IN	A	156.154.158.200
+ns6.dns.nic.baseball.	172800	IN	AAAA	2610:a1:1076::c8
 basketball.		172800	IN	NS	a.nic.basketball.
 basketball.		172800	IN	NS	b.nic.basketball.
 basketball.		172800	IN	NS	c.nic.basketball.
@@ -2263,7 +2282,7 @@ casa.			172800	IN	NS	dnsa.nic.casa.
 casa.			172800	IN	NS	dnsb.nic.casa.
 casa.			172800	IN	NS	dnsc.nic.casa.
 casa.			172800	IN	NS	dnsd.nic.casa.
-casa.			86400	IN	NSEC	cash. NS DS RRSIG NSEC
+casa.			86400	IN	NSEC	case. NS DS RRSIG NSEC
 dns1.nic.casa.		172800	IN	A	213.248.217.18
 dns1.nic.casa.		172800	IN	AAAA	2a01:618:401::18
 dns2.nic.casa.		172800	IN	A	103.49.81.18
@@ -2277,6 +2296,32 @@ dnsa.nic.casa.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.casa.		172800	IN	A	156.154.101.3
 dnsc.nic.casa.		172800	IN	A	156.154.102.3
 dnsd.nic.casa.		172800	IN	A	156.154.103.3
+case.			172800	IN	NS	a0.nic.case.
+case.			172800	IN	NS	a2.nic.case.
+case.			172800	IN	NS	b0.nic.case.
+case.			172800	IN	NS	c0.nic.case.
+case.			86400	IN	NSEC	caseih. NS DS RRSIG NSEC
+a0.nic.case.		172800	IN	A	65.22.120.17
+a0.nic.case.		172800	IN	AAAA	2a01:8840:76::17
+a2.nic.case.		172800	IN	A	65.22.123.17
+a2.nic.case.		172800	IN	AAAA	2a01:8840:79::17
+b0.nic.case.		172800	IN	A	65.22.121.17
+b0.nic.case.		172800	IN	AAAA	2a01:8840:77::17
+c0.nic.case.		172800	IN	A	65.22.122.17
+c0.nic.case.		172800	IN	AAAA	2a01:8840:78::17
+caseih.			172800	IN	NS	a0.nic.caseih.
+caseih.			172800	IN	NS	a2.nic.caseih.
+caseih.			172800	IN	NS	b0.nic.caseih.
+caseih.			172800	IN	NS	c0.nic.caseih.
+caseih.			86400	IN	NSEC	cash. NS DS RRSIG NSEC
+a0.nic.caseih.		172800	IN	A	65.22.120.1
+a0.nic.caseih.		172800	IN	AAAA	2a01:8840:76::1
+a2.nic.caseih.		172800	IN	A	65.22.123.1
+a2.nic.caseih.		172800	IN	AAAA	2a01:8840:79::1
+b0.nic.caseih.		172800	IN	A	65.22.121.1
+b0.nic.caseih.		172800	IN	AAAA	2a01:8840:77::1
+c0.nic.caseih.		172800	IN	A	65.22.122.1
+c0.nic.caseih.		172800	IN	AAAA	2a01:8840:78::1
 cash.			172800	IN	NS	demand.beta.aridns.net.au.
 cash.			172800	IN	NS	demand.alpha.aridns.net.au.
 cash.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -5954,7 +5999,8 @@ ns5.dns.nic.hsbc.	172800	IN	A	156.154.157.76
 ns5.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1075::4c
 ns6.dns.nic.hsbc.	172800	IN	A	156.154.158.76
 ns6.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1076::4c
-ht.			172800	IN	NS	dns.princeton.edu.
+ht.			172800	IN	NS	a.ht.dyntld.net.
+ht.			172800	IN	NS	b.ht.dyntld.net.
 ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
 ht.			172800	IN	NS	charles.cdec.polymtl.ca.
@@ -6603,7 +6649,7 @@ itv.			172800	IN	NS	a0.nic.itv.
 itv.			172800	IN	NS	a2.nic.itv.
 itv.			172800	IN	NS	b0.nic.itv.
 itv.			172800	IN	NS	c0.nic.itv.
-itv.			86400	IN	NSEC	iwc. NS DS RRSIG NSEC
+itv.			86400	IN	NSEC	iveco. NS DS RRSIG NSEC
 a0.nic.itv.		172800	IN	A	65.22.88.25
 a0.nic.itv.		172800	IN	AAAA	2a01:8840:56::25
 a2.nic.itv.		172800	IN	A	65.22.91.25
@@ -6612,6 +6658,19 @@ b0.nic.itv.		172800	IN	A	65.22.89.25
 b0.nic.itv.		172800	IN	AAAA	2a01:8840:57::25
 c0.nic.itv.		172800	IN	A	65.22.90.25
 c0.nic.itv.		172800	IN	AAAA	2a01:8840:58::25
+iveco.			172800	IN	NS	a0.nic.iveco.
+iveco.			172800	IN	NS	a2.nic.iveco.
+iveco.			172800	IN	NS	b0.nic.iveco.
+iveco.			172800	IN	NS	c0.nic.iveco.
+iveco.			86400	IN	NSEC	iwc. NS DS RRSIG NSEC
+a0.nic.iveco.		172800	IN	A	65.22.120.9
+a0.nic.iveco.		172800	IN	AAAA	2a01:8840:76::9
+a2.nic.iveco.		172800	IN	A	65.22.123.9
+a2.nic.iveco.		172800	IN	AAAA	2a01:8840:79::9
+b0.nic.iveco.		172800	IN	A	65.22.121.9
+b0.nic.iveco.		172800	IN	AAAA	2a01:8840:77::9
+c0.nic.iveco.		172800	IN	A	65.22.122.9
+c0.nic.iveco.		172800	IN	AAAA	2a01:8840:78::9
 iwc.			172800	IN	NS	ns1.dns.nic.iwc.
 iwc.			172800	IN	NS	ns2.dns.nic.iwc.
 iwc.			172800	IN	NS	ns3.dns.nic.iwc.
@@ -9083,6 +9142,10 @@ b.hosting.dyntld.net.	172800	IN	A	199.19.7.11
 b.hosting.dyntld.net.	172800	IN	AAAA	2a02:e180:1::11
 c.hosting.dyntld.net.	172800	IN	A	185.38.98.11
 c.hosting.dyntld.net.	172800	IN	AAAA	2a02:e180:2::11
+a.ht.dyntld.net.	172800	IN	A	199.19.5.7
+a.ht.dyntld.net.	172800	IN	AAAA	2001:500:92::7
+b.ht.dyntld.net.	172800	IN	A	199.19.6.7
+b.ht.dyntld.net.	172800	IN	AAAA	2001:500:96::7
 a.juegos.dyntld.net.	172800	IN	A	199.19.1.12
 a.juegos.dyntld.net.	172800	IN	AAAA	2a02:e180::12
 b.juegos.dyntld.net.	172800	IN	A	199.19.7.12
@@ -9541,7 +9604,20 @@ new.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 new.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-new.			86400	IN	NSEC	news. NS DS RRSIG NSEC
+new.			86400	IN	NSEC	newholland. NS DS RRSIG NSEC
+newholland.		172800	IN	NS	a0.nic.newholland.
+newholland.		172800	IN	NS	a2.nic.newholland.
+newholland.		172800	IN	NS	b0.nic.newholland.
+newholland.		172800	IN	NS	c0.nic.newholland.
+newholland.		86400	IN	NSEC	news. NS DS RRSIG NSEC
+a0.nic.newholland.	172800	IN	A	65.22.120.25
+a0.nic.newholland.	172800	IN	AAAA	2a01:8840:76::25
+a2.nic.newholland.	172800	IN	A	65.22.123.25
+a2.nic.newholland.	172800	IN	AAAA	2a01:8840:79::25
+b0.nic.newholland.	172800	IN	A	65.22.121.25
+b0.nic.newholland.	172800	IN	AAAA	2a01:8840:77::25
+c0.nic.newholland.	172800	IN	A	65.22.122.25
+c0.nic.newholland.	172800	IN	AAAA	2a01:8840:78::25
 news.			172800	IN	NS	demand.beta.aridns.net.au.
 news.			172800	IN	NS	demand.alpha.aridns.net.au.
 news.			172800	IN	NS	demand.delta.aridns.net.au.
