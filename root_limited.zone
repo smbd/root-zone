@@ -1653,9 +1653,7 @@ bm.			172800	IN	NS	b0.bm.afilias-nst.org.
 bm.			172800	IN	NS	b2.bm.afilias-nst.org.
 bm.			172800	IN	NS	c0.bm.afilias-nst.info.
 bm.			172800	IN	NS	d0.bm.afilias-nst.org.
-bm.			172800	IN	NS	ns3.bm.
 bm.			86400	IN	NSEC	bms. NS RRSIG NSEC
-ns3.bm.			172800	IN	A	207.228.134.10
 bms.			172800	IN	NS	ac1.nstld.com.
 bms.			172800	IN	NS	ac2.nstld.com.
 bms.			172800	IN	NS	ac3.nstld.com.
