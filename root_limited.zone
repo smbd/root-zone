@@ -2098,7 +2098,8 @@ ca.			172800	IN	NS	any.ca-servers.ca.
 ca.			86400	IN	NSEC	cab. NS DS RRSIG NSEC
 any.ca-servers.ca.	172800	IN	A	199.4.144.2
 any.ca-servers.ca.	172800	IN	AAAA	2001:500:a7::2
-c.ca-servers.ca.	172800	IN	A	192.228.28.9
+c.ca-servers.ca.	172800	IN	A	185.159.196.2
+c.ca-servers.ca.	172800	IN	AAAA	2620:10a:8053::2
 d.ca-servers.ca.	172800	IN	A	199.19.4.1
 d.ca-servers.ca.	172800	IN	AAAA	2001:500:97::1
 j.ca-servers.ca.	172800	IN	A	198.182.167.1
