@@ -640,9 +640,14 @@ ao.			172800	IN	NS	ns03.fccn.pt.
 ao.			172800	IN	NS	auth02.ns.uu.net.
 ao.			172800	IN	NS	ns-ext.isc.org.
 ao.			172800	IN	NS	phobos.fccn.pt.
-ao.			86400	IN	NSEC	apartments. NS RRSIG NSEC
+ao.			86400	IN	NSEC	aol. NS RRSIG NSEC
 ns02.dns.ao.		172800	IN	A	197.149.149.11
 ns02.dns.ao.		172800	IN	AAAA	2c0f:f828:2::b
+aol.			172800	IN	NS	ac1.nstld.com.
+aol.			172800	IN	NS	ac2.nstld.com.
+aol.			172800	IN	NS	ac3.nstld.com.
+aol.			172800	IN	NS	ac4.nstld.com.
+aol.			86400	IN	NSEC	apartments. NS DS RRSIG NSEC
 apartments.		172800	IN	NS	demand.beta.aridns.net.au.
 apartments.		172800	IN	NS	demand.alpha.aridns.net.au.
 apartments.		172800	IN	NS	demand.delta.aridns.net.au.
