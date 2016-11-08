@@ -1503,7 +1503,6 @@ bharti.			172800	IN	NS	ac4.nstld.com.
 bharti.			86400	IN	NSEC	bi. NS DS RRSIG NSEC
 bi.			172800	IN	NS	bi.cctld.authdns.ripe.net.
 bi.			172800	IN	NS	ns.nic.bi.
-bi.			172800	IN	NS	dns.princeton.edu.
 bi.			172800	IN	NS	ns1.nic.bi.
 bi.			172800	IN	NS	anyns.nic.bi.
 bi.			172800	IN	NS	ns-bi.afrinic.net.
@@ -4877,7 +4876,7 @@ fr.			172800	IN	NS	d.nic.fr.
 fr.			172800	IN	NS	e.ext.nic.fr.
 fr.			172800	IN	NS	f.ext.nic.fr.
 fr.			172800	IN	NS	g.ext.nic.fr.
-fr.			86400	IN	NSEC	fresenius. NS DS RRSIG NSEC
+fr.			86400	IN	NSEC	free. NS DS RRSIG NSEC
 dns.inria.fr.		172800	IN	A	193.51.208.13
 censvrns0001.ird.fr.	172800	IN	A	91.203.32.147
 ns1.ird.fr.		172800	IN	A	193.50.53.3
@@ -4906,6 +4905,25 @@ ns2.nic.fr.		172800	IN	AAAA	2001:660:3005:1::1:2
 ns3.nic.fr.		172800	IN	A	192.134.0.49
 ns3.nic.fr.		172800	IN	AAAA	2001:660:3006:1::1:1
 bow.rain.fr.		172800	IN	A	194.51.3.49
+free.			172800	IN	NS	ns1.dns.nic.free.
+free.			172800	IN	NS	ns2.dns.nic.free.
+free.			172800	IN	NS	ns3.dns.nic.free.
+free.			172800	IN	NS	ns4.dns.nic.free.
+free.			172800	IN	NS	ns5.dns.nic.free.
+free.			172800	IN	NS	ns6.dns.nic.free.
+free.			86400	IN	NSEC	fresenius. NS DS RRSIG NSEC
+ns1.dns.nic.free.	172800	IN	A	156.154.144.237
+ns1.dns.nic.free.	172800	IN	AAAA	2610:a1:1071::ed
+ns2.dns.nic.free.	172800	IN	A	156.154.145.237
+ns2.dns.nic.free.	172800	IN	AAAA	2610:a1:1072::ed
+ns3.dns.nic.free.	172800	IN	A	156.154.159.237
+ns3.dns.nic.free.	172800	IN	AAAA	2610:a1:1073::ed
+ns4.dns.nic.free.	172800	IN	A	156.154.156.237
+ns4.dns.nic.free.	172800	IN	AAAA	2610:a1:1074::ed
+ns5.dns.nic.free.	172800	IN	A	156.154.157.237
+ns5.dns.nic.free.	172800	IN	AAAA	2610:a1:1075::ed
+ns6.dns.nic.free.	172800	IN	A	156.154.158.237
+ns6.dns.nic.free.	172800	IN	AAAA	2610:a1:1076::ed
 fresenius.		172800	IN	NS	ns1a.ksregistry.net.
 fresenius.		172800	IN	NS	ns1b.ksregistry.net.
 fresenius.		172800	IN	NS	ns2a.ksregistry.com.
