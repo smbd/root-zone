@@ -4794,7 +4794,12 @@ foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-foo.			86400	IN	NSEC	foodnetwork. NS DS RRSIG NSEC
+foo.			86400	IN	NSEC	food. NS DS RRSIG NSEC
+food.			172800	IN	NS	ac1.nstld.com.
+food.			172800	IN	NS	ac2.nstld.com.
+food.			172800	IN	NS	ac3.nstld.com.
+food.			172800	IN	NS	ac4.nstld.com.
+food.			86400	IN	NSEC	foodnetwork. NS DS RRSIG NSEC
 foodnetwork.		172800	IN	NS	ac1.nstld.com.
 foodnetwork.		172800	IN	NS	ac2.nstld.com.
 foodnetwork.		172800	IN	NS	ac3.nstld.com.
@@ -7418,7 +7423,24 @@ law.			172800	IN	NS	a.ns.nic.law.
 law.			172800	IN	NS	b.ns.nic.law.
 law.			172800	IN	NS	c.ns.nic.law.
 law.			172800	IN	NS	d.ns.nic.law.
+law.			172800	IN	NS	dns1.nic.law.
+law.			172800	IN	NS	dns2.nic.law.
+law.			172800	IN	NS	dns3.nic.law.
+law.			172800	IN	NS	dns4.nic.law.
+law.			172800	IN	NS	dnsa.nic.law.
+law.			172800	IN	NS	dnsb.nic.law.
 law.			86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
+dns1.nic.law.		172800	IN	A	213.248.217.26
+dns1.nic.law.		172800	IN	AAAA	2a01:618:401::26
+dns2.nic.law.		172800	IN	A	103.49.81.26
+dns2.nic.law.		172800	IN	AAAA	2401:fd80:401::26
+dns3.nic.law.		172800	IN	A	213.248.221.26
+dns3.nic.law.		172800	IN	AAAA	2a01:618:405::26
+dns4.nic.law.		172800	IN	A	43.230.49.26
+dns4.nic.law.		172800	IN	AAAA	2401:fd80:405::26
+dnsa.nic.law.		172800	IN	A	156.154.100.3
+dnsa.nic.law.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.law.		172800	IN	A	156.154.101.3
 a.ns.nic.law.		172800	IN	A	72.0.50.29
 a.ns.nic.law.		172800	IN	AAAA	2620:171:a02:ad::29
 b.ns.nic.law.		172800	IN	A	72.42.114.29
@@ -14269,7 +14291,24 @@ vip.			172800	IN	NS	a.ns.nic.vip.
 vip.			172800	IN	NS	b.ns.nic.vip.
 vip.			172800	IN	NS	c.ns.nic.vip.
 vip.			172800	IN	NS	d.ns.nic.vip.
+vip.			172800	IN	NS	dns1.nic.vip.
+vip.			172800	IN	NS	dns2.nic.vip.
+vip.			172800	IN	NS	dns3.nic.vip.
+vip.			172800	IN	NS	dns4.nic.vip.
+vip.			172800	IN	NS	dnsa.nic.vip.
+vip.			172800	IN	NS	dnsb.nic.vip.
 vip.			86400	IN	NSEC	virgin. NS DS RRSIG NSEC
+dns1.nic.vip.		172800	IN	A	213.248.217.32
+dns1.nic.vip.		172800	IN	AAAA	2a01:618:401::32
+dns2.nic.vip.		172800	IN	A	103.49.81.32
+dns2.nic.vip.		172800	IN	AAAA	2401:fd80:401::32
+dns3.nic.vip.		172800	IN	A	213.248.221.32
+dns3.nic.vip.		172800	IN	AAAA	2a01:618:405::32
+dns4.nic.vip.		172800	IN	A	43.230.49.32
+dns4.nic.vip.		172800	IN	AAAA	2401:fd80:405::32
+dnsa.nic.vip.		172800	IN	A	156.154.100.3
+dnsa.nic.vip.		172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.vip.		172800	IN	A	156.154.101.3
 a.ns.nic.vip.		172800	IN	A	72.0.50.30
 a.ns.nic.vip.		172800	IN	AAAA	2620:171:a02:ad::30
 b.ns.nic.vip.		172800	IN	A	72.42.114.30
