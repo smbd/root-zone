@@ -111,7 +111,24 @@ abogado.		172800	IN	NS	a.ns.nic.abogado.
 abogado.		172800	IN	NS	b.ns.nic.abogado.
 abogado.		172800	IN	NS	c.ns.nic.abogado.
 abogado.		172800	IN	NS	d.ns.nic.abogado.
+abogado.		172800	IN	NS	dns1.nic.abogado.
+abogado.		172800	IN	NS	dns2.nic.abogado.
+abogado.		172800	IN	NS	dns3.nic.abogado.
+abogado.		172800	IN	NS	dns4.nic.abogado.
+abogado.		172800	IN	NS	dnsa.nic.abogado.
+abogado.		172800	IN	NS	dnsb.nic.abogado.
 abogado.		86400	IN	NSEC	abudhabi. NS DS RRSIG NSEC
+dns1.nic.abogado.	172800	IN	A	213.248.217.13
+dns1.nic.abogado.	172800	IN	AAAA	2a01:618:401::13
+dns2.nic.abogado.	172800	IN	A	103.49.81.13
+dns2.nic.abogado.	172800	IN	AAAA	2401:fd80:401::13
+dns3.nic.abogado.	172800	IN	A	213.248.221.13
+dns3.nic.abogado.	172800	IN	AAAA	2a01:618:405::13
+dns4.nic.abogado.	172800	IN	A	43.230.49.13
+dns4.nic.abogado.	172800	IN	AAAA	2401:fd80:405::13
+dnsa.nic.abogado.	172800	IN	A	156.154.100.3
+dnsa.nic.abogado.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.abogado.	172800	IN	A	156.154.101.3
 a.ns.nic.abogado.	172800	IN	A	72.0.50.12
 a.ns.nic.abogado.	172800	IN	AAAA	2620:171:a02:ad::12
 b.ns.nic.abogado.	172800	IN	A	72.42.114.12
@@ -1867,7 +1884,20 @@ boutique.		172800	IN	NS	demand.beta.aridns.net.au.
 boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
 boutique.		172800	IN	NS	demand.gamma.aridns.net.au.
-boutique.		86400	IN	NSEC	br. NS DS RRSIG NSEC
+boutique.		86400	IN	NSEC	box. NS DS RRSIG NSEC
+box.			172800	IN	NS	a.nic.box.
+box.			172800	IN	NS	b.nic.box.
+box.			172800	IN	NS	c.nic.box.
+box.			172800	IN	NS	d.nic.box.
+box.			86400	IN	NSEC	br. NS DS RRSIG NSEC
+a.nic.box.		172800	IN	A	37.209.192.10
+a.nic.box.		172800	IN	AAAA	2001:dcd:1::10
+b.nic.box.		172800	IN	A	37.209.194.10
+b.nic.box.		172800	IN	AAAA	2001:dcd:2::10
+c.nic.box.		172800	IN	A	37.209.196.10
+c.nic.box.		172800	IN	AAAA	2001:dcd:3::10
+d.nic.box.		172800	IN	A	37.209.198.10
+d.nic.box.		172800	IN	AAAA	2001:dcd:4::10
 br.			172800	IN	NS	a.dns.br.
 br.			172800	IN	NS	b.dns.br.
 br.			172800	IN	NS	c.dns.br.
@@ -1890,7 +1920,24 @@ bradesco.		172800	IN	NS	a.ns.nic.bradesco.
 bradesco.		172800	IN	NS	b.ns.nic.bradesco.
 bradesco.		172800	IN	NS	c.ns.nic.bradesco.
 bradesco.		172800	IN	NS	d.ns.nic.bradesco.
+bradesco.		172800	IN	NS	dns1.nic.bradesco.
+bradesco.		172800	IN	NS	dns2.nic.bradesco.
+bradesco.		172800	IN	NS	dns3.nic.bradesco.
+bradesco.		172800	IN	NS	dns4.nic.bradesco.
+bradesco.		172800	IN	NS	dnsa.nic.bradesco.
+bradesco.		172800	IN	NS	dnsb.nic.bradesco.
 bradesco.		86400	IN	NSEC	bridgestone. NS DS RRSIG NSEC
+dns1.nic.bradesco.	172800	IN	A	213.248.217.37
+dns1.nic.bradesco.	172800	IN	AAAA	2a01:618:401::37
+dns2.nic.bradesco.	172800	IN	A	103.49.81.37
+dns2.nic.bradesco.	172800	IN	AAAA	2401:fd80:401::37
+dns3.nic.bradesco.	172800	IN	A	213.248.221.37
+dns3.nic.bradesco.	172800	IN	AAAA	2a01:618:405::37
+dns4.nic.bradesco.	172800	IN	A	43.230.49.37
+dns4.nic.bradesco.	172800	IN	AAAA	2401:fd80:405::37
+dnsa.nic.bradesco.	172800	IN	A	156.154.100.3
+dnsa.nic.bradesco.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.bradesco.	172800	IN	A	156.154.101.3
 a.ns.nic.bradesco.	172800	IN	A	72.0.50.16
 a.ns.nic.bradesco.	172800	IN	AAAA	2620:171:a02:ad::16
 b.ns.nic.bradesco.	172800	IN	A	72.42.114.16
@@ -3324,7 +3371,20 @@ crs.			172800	IN	NS	ac1.nstld.com.
 crs.			172800	IN	NS	ac2.nstld.com.
 crs.			172800	IN	NS	ac3.nstld.com.
 crs.			172800	IN	NS	ac4.nstld.com.
-crs.			86400	IN	NSEC	cruises. NS DS RRSIG NSEC
+crs.			86400	IN	NSEC	cruise. NS DS RRSIG NSEC
+cruise.			172800	IN	NS	a0.nic.cruise.
+cruise.			172800	IN	NS	a2.nic.cruise.
+cruise.			172800	IN	NS	b0.nic.cruise.
+cruise.			172800	IN	NS	c0.nic.cruise.
+cruise.			86400	IN	NSEC	cruises. NS DS RRSIG NSEC
+a0.nic.cruise.		172800	IN	A	65.22.192.25
+a0.nic.cruise.		172800	IN	AAAA	2a01:8840:ba::25
+a2.nic.cruise.		172800	IN	A	65.22.195.25
+a2.nic.cruise.		172800	IN	AAAA	2a01:8840:bd::25
+b0.nic.cruise.		172800	IN	A	65.22.193.25
+b0.nic.cruise.		172800	IN	AAAA	2a01:8840:bb::25
+c0.nic.cruise.		172800	IN	A	65.22.194.25
+c0.nic.cruise.		172800	IN	AAAA	2a01:8840:bc::25
 cruises.		172800	IN	NS	demand.beta.aridns.net.au.
 cruises.		172800	IN	NS	demand.alpha.aridns.net.au.
 cruises.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -3387,6 +3447,7 @@ ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad::1
 cy.			172800	IN	NS	ns1.ucy.ac.cy.
 cy.			172800	IN	NS	ns2.ucy.ac.cy.
+cy.			172800	IN	NS	ns3.ucy.ac.cy.
 cy.			172800	IN	NS	ns02.savvis.net.
 cy.			172800	IN	NS	sec3.apnic.net.
 cy.			172800	IN	NS	cy-ns.anycast.pch.net.
@@ -3395,6 +3456,7 @@ cy.			172800	IN	NS	estia.ics.forth.gr.
 cy.			86400	IN	NSEC	cymru. NS RRSIG NSEC
 ns1.ucy.ac.cy.		172800	IN	A	194.42.1.50
 ns2.ucy.ac.cy.		172800	IN	A	194.42.1.55
+ns3.ucy.ac.cy.		172800	IN	A	194.42.20.50
 cynic.dns.cy.		172800	IN	A	194.42.29.1
 cymru.			172800	IN	NS	dns1.nic.cymru.
 cymru.			172800	IN	NS	dns2.nic.cymru.
@@ -7806,7 +7868,24 @@ london.			172800	IN	NS	a.ns.nic.london.
 london.			172800	IN	NS	b.ns.nic.london.
 london.			172800	IN	NS	c.ns.nic.london.
 london.			172800	IN	NS	d.ns.nic.london.
+london.			172800	IN	NS	dns1.nic.london.
+london.			172800	IN	NS	dns2.nic.london.
+london.			172800	IN	NS	dns3.nic.london.
+london.			172800	IN	NS	dns4.nic.london.
+london.			172800	IN	NS	dnsa.nic.london.
+london.			172800	IN	NS	dnsb.nic.london.
 london.			86400	IN	NSEC	lotte. NS DS RRSIG NSEC
+dns1.nic.london.	172800	IN	A	213.248.217.28
+dns1.nic.london.	172800	IN	AAAA	2a01:618:401::28
+dns2.nic.london.	172800	IN	A	103.49.81.28
+dns2.nic.london.	172800	IN	AAAA	2401:fd80:401::28
+dns3.nic.london.	172800	IN	A	213.248.221.28
+dns3.nic.london.	172800	IN	AAAA	2a01:618:405::28
+dns4.nic.london.	172800	IN	A	43.230.49.28
+dns4.nic.london.	172800	IN	AAAA	2401:fd80:405::28
+dnsa.nic.london.	172800	IN	A	156.154.100.3
+dnsa.nic.london.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.london.	172800	IN	A	156.154.101.3
 a.ns.nic.london.	172800	IN	A	72.0.50.11
 a.ns.nic.london.	172800	IN	AAAA	2620:171:a02:ad::11
 b.ns.nic.london.	172800	IN	A	72.42.114.11
@@ -8652,7 +8731,26 @@ moscow.			172800	IN	NS	a.dns.flexireg.ru.
 moscow.			172800	IN	NS	b.dns.flexireg.net.
 moscow.			172800	IN	NS	c.dns.flexireg.org.
 moscow.			172800	IN	NS	d.dns.flexireg.domains.
-moscow.			86400	IN	NSEC	motorcycles. NS DS RRSIG NSEC
+moscow.			86400	IN	NSEC	moto. NS DS RRSIG NSEC
+moto.			172800	IN	NS	ns1.dns.nic.moto.
+moto.			172800	IN	NS	ns2.dns.nic.moto.
+moto.			172800	IN	NS	ns3.dns.nic.moto.
+moto.			172800	IN	NS	ns4.dns.nic.moto.
+moto.			172800	IN	NS	ns5.dns.nic.moto.
+moto.			172800	IN	NS	ns6.dns.nic.moto.
+moto.			86400	IN	NSEC	motorcycles. NS DS RRSIG NSEC
+ns1.dns.nic.moto.	172800	IN	A	156.154.169.81
+ns1.dns.nic.moto.	172800	IN	AAAA	2610:a1:1071::1:51
+ns2.dns.nic.moto.	172800	IN	A	156.154.170.81
+ns2.dns.nic.moto.	172800	IN	AAAA	2610:a1:1072::1:51
+ns3.dns.nic.moto.	172800	IN	A	156.154.171.81
+ns3.dns.nic.moto.	172800	IN	AAAA	2610:a1:1073::1:51
+ns4.dns.nic.moto.	172800	IN	A	156.154.172.81
+ns4.dns.nic.moto.	172800	IN	AAAA	2610:a1:1074::1:51
+ns5.dns.nic.moto.	172800	IN	A	156.154.173.81
+ns5.dns.nic.moto.	172800	IN	AAAA	2610:a1:1075::1:51
+ns6.dns.nic.moto.	172800	IN	A	156.154.174.81
+ns6.dns.nic.moto.	172800	IN	AAAA	2610:a1:1076::1:51
 motorcycles.		172800	IN	NS	a0.nic.motorcycles.
 motorcycles.		172800	IN	NS	a2.nic.motorcycles.
 motorcycles.		172800	IN	NS	b0.nic.motorcycles.
@@ -14912,16 +15010,14 @@ c.nic.woodside.		172800	IN	A	37.209.196.9
 c.nic.woodside.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.woodside.		172800	IN	A	37.209.198.9
 d.nic.woodside.		172800	IN	AAAA	2001:dcd:4::9
-work.			172800	IN	NS	a.ns.nic.work.
-work.			172800	IN	NS	b.ns.nic.work.
-work.			172800	IN	NS	c.ns.nic.work.
-work.			172800	IN	NS	d.ns.nic.work.
 work.			172800	IN	NS	dns1.nic.work.
 work.			172800	IN	NS	dns2.nic.work.
 work.			172800	IN	NS	dns3.nic.work.
 work.			172800	IN	NS	dns4.nic.work.
 work.			172800	IN	NS	dnsa.nic.work.
 work.			172800	IN	NS	dnsb.nic.work.
+work.			172800	IN	NS	dnsc.nic.work.
+work.			172800	IN	NS	dnsd.nic.work.
 work.			86400	IN	NSEC	works. NS DS RRSIG NSEC
 dns1.nic.work.		172800	IN	A	213.248.217.35
 dns1.nic.work.		172800	IN	AAAA	2a01:618:401::35
@@ -14934,14 +15030,8 @@ dns4.nic.work.		172800	IN	AAAA	2401:fd80:405::35
 dnsa.nic.work.		172800	IN	A	156.154.100.3
 dnsa.nic.work.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.work.		172800	IN	A	156.154.101.3
-a.ns.nic.work.		172800	IN	A	72.0.50.24
-a.ns.nic.work.		172800	IN	AAAA	2620:171:a02:ad::24
-b.ns.nic.work.		172800	IN	A	72.42.114.24
-b.ns.nic.work.		172800	IN	AAAA	2620:171:d02:dc::24
-c.ns.nic.work.		172800	IN	A	70.40.0.24
-c.ns.nic.work.		172800	IN	AAAA	2620:171:c00:c::24
-d.ns.nic.work.		172800	IN	A	70.40.8.24
-d.ns.nic.work.		172800	IN	AAAA	2620:171:f00:d::24
+dnsc.nic.work.		172800	IN	A	156.154.102.3
+dnsd.nic.work.		172800	IN	A	156.154.103.3
 works.			172800	IN	NS	demand.beta.aridns.net.au.
 works.			172800	IN	NS	demand.alpha.aridns.net.au.
 works.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -15925,6 +16015,7 @@ xn--mgbtx2b.		86400	IN	NSEC	xn--mgbx4cd0ab. NS RRSIG NSEC
 xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	c.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	d.mynic.net.my.
+xn--mgbx4cd0ab.		172800	IN	NS	a1.mynic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
 xn--mgbx4cd0ab.		172800	IN	NS	ns-my.nic.fr.
