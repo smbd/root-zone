@@ -7486,16 +7486,14 @@ c.nic.latrobe.		172800	IN	A	37.209.196.9
 c.nic.latrobe.		172800	IN	AAAA	2001:dcd:3::9
 d.nic.latrobe.		172800	IN	A	37.209.198.9
 d.nic.latrobe.		172800	IN	AAAA	2001:dcd:4::9
-law.			172800	IN	NS	a.ns.nic.law.
-law.			172800	IN	NS	b.ns.nic.law.
-law.			172800	IN	NS	c.ns.nic.law.
-law.			172800	IN	NS	d.ns.nic.law.
 law.			172800	IN	NS	dns1.nic.law.
 law.			172800	IN	NS	dns2.nic.law.
 law.			172800	IN	NS	dns3.nic.law.
 law.			172800	IN	NS	dns4.nic.law.
 law.			172800	IN	NS	dnsa.nic.law.
 law.			172800	IN	NS	dnsb.nic.law.
+law.			172800	IN	NS	dnsc.nic.law.
+law.			172800	IN	NS	dnsd.nic.law.
 law.			86400	IN	NSEC	lawyer. NS DS RRSIG NSEC
 dns1.nic.law.		172800	IN	A	213.248.217.26
 dns1.nic.law.		172800	IN	AAAA	2a01:618:401::26
@@ -7508,14 +7506,8 @@ dns4.nic.law.		172800	IN	AAAA	2401:fd80:405::26
 dnsa.nic.law.		172800	IN	A	156.154.100.3
 dnsa.nic.law.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.law.		172800	IN	A	156.154.101.3
-a.ns.nic.law.		172800	IN	A	72.0.50.29
-a.ns.nic.law.		172800	IN	AAAA	2620:171:a02:ad::29
-b.ns.nic.law.		172800	IN	A	72.42.114.29
-b.ns.nic.law.		172800	IN	AAAA	2620:171:d02:dc::29
-c.ns.nic.law.		172800	IN	A	70.40.0.29
-c.ns.nic.law.		172800	IN	AAAA	2620:171:c00:c::29
-d.ns.nic.law.		172800	IN	A	70.40.8.29
-d.ns.nic.law.		172800	IN	AAAA	2620:171:f00:d::29
+dnsc.nic.law.		172800	IN	A	156.154.102.3
+dnsd.nic.law.		172800	IN	A	156.154.103.3
 lawyer.			172800	IN	NS	demand.beta.aridns.net.au.
 lawyer.			172800	IN	NS	demand.alpha.aridns.net.au.
 lawyer.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -7869,16 +7861,14 @@ lol.			172800	IN	NS	b.lol.dyntld.net.
 lol.			172800	IN	NS	c.lol.dyntld.net.
 lol.			172800	IN	NS	ns1.uniregistry.net.
 lol.			86400	IN	NSEC	london. NS DS RRSIG NSEC
-london.			172800	IN	NS	a.ns.nic.london.
-london.			172800	IN	NS	b.ns.nic.london.
-london.			172800	IN	NS	c.ns.nic.london.
-london.			172800	IN	NS	d.ns.nic.london.
 london.			172800	IN	NS	dns1.nic.london.
 london.			172800	IN	NS	dns2.nic.london.
 london.			172800	IN	NS	dns3.nic.london.
 london.			172800	IN	NS	dns4.nic.london.
 london.			172800	IN	NS	dnsa.nic.london.
 london.			172800	IN	NS	dnsb.nic.london.
+london.			172800	IN	NS	dnsc.nic.london.
+london.			172800	IN	NS	dnsd.nic.london.
 london.			86400	IN	NSEC	lotte. NS DS RRSIG NSEC
 dns1.nic.london.	172800	IN	A	213.248.217.28
 dns1.nic.london.	172800	IN	AAAA	2a01:618:401::28
@@ -7891,14 +7881,8 @@ dns4.nic.london.	172800	IN	AAAA	2401:fd80:405::28
 dnsa.nic.london.	172800	IN	A	156.154.100.3
 dnsa.nic.london.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.london.	172800	IN	A	156.154.101.3
-a.ns.nic.london.	172800	IN	A	72.0.50.11
-a.ns.nic.london.	172800	IN	AAAA	2620:171:a02:ad::11
-b.ns.nic.london.	172800	IN	A	72.42.114.11
-b.ns.nic.london.	172800	IN	AAAA	2620:171:d02:dc::11
-c.ns.nic.london.	172800	IN	A	70.40.0.11
-c.ns.nic.london.	172800	IN	AAAA	2620:171:c00:c::11
-d.ns.nic.london.	172800	IN	A	70.40.8.11
-d.ns.nic.london.	172800	IN	AAAA	2620:171:f00:d::11
+dnsc.nic.london.	172800	IN	A	156.154.102.3
+dnsd.nic.london.	172800	IN	A	156.154.103.3
 lotte.			172800	IN	NS	a.gmoregistry.net.
 lotte.			172800	IN	NS	b.gmoregistry.net.
 lotte.			172800	IN	NS	k.gmoregistry.net.
