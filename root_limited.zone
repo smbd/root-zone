@@ -107,16 +107,14 @@ ns5.dns.nic.able.	172800	IN	A	156.154.157.3
 ns5.dns.nic.able.	172800	IN	AAAA	2610:a1:1075::3
 ns6.dns.nic.able.	172800	IN	A	156.154.158.3
 ns6.dns.nic.able.	172800	IN	AAAA	2610:a1:1076::3
-abogado.		172800	IN	NS	a.ns.nic.abogado.
-abogado.		172800	IN	NS	b.ns.nic.abogado.
-abogado.		172800	IN	NS	c.ns.nic.abogado.
-abogado.		172800	IN	NS	d.ns.nic.abogado.
 abogado.		172800	IN	NS	dns1.nic.abogado.
 abogado.		172800	IN	NS	dns2.nic.abogado.
 abogado.		172800	IN	NS	dns3.nic.abogado.
 abogado.		172800	IN	NS	dns4.nic.abogado.
 abogado.		172800	IN	NS	dnsa.nic.abogado.
 abogado.		172800	IN	NS	dnsb.nic.abogado.
+abogado.		172800	IN	NS	dnsc.nic.abogado.
+abogado.		172800	IN	NS	dnsd.nic.abogado.
 abogado.		86400	IN	NSEC	abudhabi. NS DS RRSIG NSEC
 dns1.nic.abogado.	172800	IN	A	213.248.217.13
 dns1.nic.abogado.	172800	IN	AAAA	2a01:618:401::13
@@ -129,14 +127,8 @@ dns4.nic.abogado.	172800	IN	AAAA	2401:fd80:405::13
 dnsa.nic.abogado.	172800	IN	A	156.154.100.3
 dnsa.nic.abogado.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.abogado.	172800	IN	A	156.154.101.3
-a.ns.nic.abogado.	172800	IN	A	72.0.50.12
-a.ns.nic.abogado.	172800	IN	AAAA	2620:171:a02:ad::12
-b.ns.nic.abogado.	172800	IN	A	72.42.114.12
-b.ns.nic.abogado.	172800	IN	AAAA	2620:171:d02:dc::12
-c.ns.nic.abogado.	172800	IN	A	70.40.0.12
-c.ns.nic.abogado.	172800	IN	AAAA	2620:171:c00:c::12
-d.ns.nic.abogado.	172800	IN	A	70.40.8.12
-d.ns.nic.abogado.	172800	IN	AAAA	2620:171:f00:d::12
+dnsc.nic.abogado.	172800	IN	A	156.154.102.3
+dnsd.nic.abogado.	172800	IN	A	156.154.103.3
 abudhabi.		172800	IN	NS	gtld.beta.aridns.net.au.
 abudhabi.		172800	IN	NS	gtld.alpha.aridns.net.au.
 abudhabi.		172800	IN	NS	gtld.delta.aridns.net.au.
@@ -6838,7 +6830,20 @@ jewelry.		172800	IN	NS	demand.beta.aridns.net.au.
 jewelry.		172800	IN	NS	demand.alpha.aridns.net.au.
 jewelry.		172800	IN	NS	demand.delta.aridns.net.au.
 jewelry.		172800	IN	NS	demand.gamma.aridns.net.au.
-jewelry.		86400	IN	NSEC	jlc. NS DS RRSIG NSEC
+jewelry.		86400	IN	NSEC	jio. NS DS RRSIG NSEC
+jio.			172800	IN	NS	a0.nic.jio.
+jio.			172800	IN	NS	a2.nic.jio.
+jio.			172800	IN	NS	b0.nic.jio.
+jio.			172800	IN	NS	c0.nic.jio.
+jio.			86400	IN	NSEC	jlc. NS DS RRSIG NSEC
+a0.nic.jio.		172800	IN	A	65.22.212.33
+a0.nic.jio.		172800	IN	AAAA	2a01:8840:ce::33
+a2.nic.jio.		172800	IN	A	65.22.215.33
+a2.nic.jio.		172800	IN	AAAA	2a01:8840:d1::33
+b0.nic.jio.		172800	IN	A	65.22.213.33
+b0.nic.jio.		172800	IN	AAAA	2a01:8840:cf::33
+c0.nic.jio.		172800	IN	A	65.22.214.33
+c0.nic.jio.		172800	IN	AAAA	2a01:8840:d0::33
 jlc.			172800	IN	NS	ns1.dns.nic.jlc.
 jlc.			172800	IN	NS	ns2.dns.nic.jlc.
 jlc.			172800	IN	NS	ns3.dns.nic.jlc.
@@ -11536,7 +11541,7 @@ reit.			172800	IN	NS	a.nic.reit.
 reit.			172800	IN	NS	b.nic.reit.
 reit.			172800	IN	NS	c.nic.reit.
 reit.			172800	IN	NS	d.nic.reit.
-reit.			86400	IN	NSEC	ren. NS DS RRSIG NSEC
+reit.			86400	IN	NSEC	reliance. NS DS RRSIG NSEC
 a.nic.reit.		172800	IN	A	194.169.218.38
 a.nic.reit.		172800	IN	AAAA	2001:67c:13cc::1:38
 b.nic.reit.		172800	IN	A	185.24.64.38
@@ -11545,6 +11550,19 @@ c.nic.reit.		172800	IN	A	212.18.248.38
 c.nic.reit.		172800	IN	AAAA	2a04:2b00:13ee::38
 d.nic.reit.		172800	IN	A	212.18.249.38
 d.nic.reit.		172800	IN	AAAA	2a04:2b00:13ff::38
+reliance.		172800	IN	NS	a0.nic.reliance.
+reliance.		172800	IN	NS	a2.nic.reliance.
+reliance.		172800	IN	NS	b0.nic.reliance.
+reliance.		172800	IN	NS	c0.nic.reliance.
+reliance.		86400	IN	NSEC	ren. NS DS RRSIG NSEC
+a0.nic.reliance.	172800	IN	A	65.22.108.25
+a0.nic.reliance.	172800	IN	AAAA	2a01:8840:6a::25
+a2.nic.reliance.	172800	IN	A	65.22.111.25
+a2.nic.reliance.	172800	IN	AAAA	2a01:8840:6d::25
+b0.nic.reliance.	172800	IN	A	65.22.109.25
+b0.nic.reliance.	172800	IN	AAAA	2a01:8840:6b::25
+c0.nic.reliance.	172800	IN	A	65.22.110.25
+c0.nic.reliance.	172800	IN	AAAA	2a01:8840:6c::25
 ren.			172800	IN	NS	a.zdnscloud.com.
 ren.			172800	IN	NS	b.zdnscloud.com.
 ren.			172800	IN	NS	c.zdnscloud.com.
@@ -11670,7 +11688,20 @@ rightathome.		172800	IN	NS	ac1.nstld.com.
 rightathome.		172800	IN	NS	ac2.nstld.com.
 rightathome.		172800	IN	NS	ac3.nstld.com.
 rightathome.		172800	IN	NS	ac4.nstld.com.
-rightathome.		86400	IN	NSEC	rio. NS DS RRSIG NSEC
+rightathome.		86400	IN	NSEC	ril. NS DS RRSIG NSEC
+ril.			172800	IN	NS	a0.nic.ril.
+ril.			172800	IN	NS	a2.nic.ril.
+ril.			172800	IN	NS	b0.nic.ril.
+ril.			172800	IN	NS	c0.nic.ril.
+ril.			86400	IN	NSEC	rio. NS DS RRSIG NSEC
+a0.nic.ril.		172800	IN	A	65.22.180.17
+a0.nic.ril.		172800	IN	AAAA	2a01:8840:ae::17
+a2.nic.ril.		172800	IN	A	65.22.183.17
+a2.nic.ril.		172800	IN	AAAA	2a01:8840:b1::17
+b0.nic.ril.		172800	IN	A	65.22.181.17
+b0.nic.ril.		172800	IN	AAAA	2a01:8840:af::17
+c0.nic.ril.		172800	IN	A	65.22.182.17
+c0.nic.ril.		172800	IN	AAAA	2a01:8840:b0::17
 rio.			172800	IN	NS	a.dns.br.
 rio.			172800	IN	NS	b.dns.br.
 rio.			172800	IN	NS	c.dns.br.
@@ -14385,16 +14416,14 @@ vin.			172800	IN	NS	demand.alpha.aridns.net.au.
 vin.			172800	IN	NS	demand.delta.aridns.net.au.
 vin.			172800	IN	NS	demand.gamma.aridns.net.au.
 vin.			86400	IN	NSEC	vip. NS DS RRSIG NSEC
-vip.			172800	IN	NS	a.ns.nic.vip.
-vip.			172800	IN	NS	b.ns.nic.vip.
-vip.			172800	IN	NS	c.ns.nic.vip.
-vip.			172800	IN	NS	d.ns.nic.vip.
 vip.			172800	IN	NS	dns1.nic.vip.
 vip.			172800	IN	NS	dns2.nic.vip.
 vip.			172800	IN	NS	dns3.nic.vip.
 vip.			172800	IN	NS	dns4.nic.vip.
 vip.			172800	IN	NS	dnsa.nic.vip.
 vip.			172800	IN	NS	dnsb.nic.vip.
+vip.			172800	IN	NS	dnsc.nic.vip.
+vip.			172800	IN	NS	dnsd.nic.vip.
 vip.			86400	IN	NSEC	virgin. NS DS RRSIG NSEC
 dns1.nic.vip.		172800	IN	A	213.248.217.32
 dns1.nic.vip.		172800	IN	AAAA	2a01:618:401::32
@@ -14407,14 +14436,8 @@ dns4.nic.vip.		172800	IN	AAAA	2401:fd80:405::32
 dnsa.nic.vip.		172800	IN	A	156.154.100.3
 dnsa.nic.vip.		172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.vip.		172800	IN	A	156.154.101.3
-a.ns.nic.vip.		172800	IN	A	72.0.50.30
-a.ns.nic.vip.		172800	IN	AAAA	2620:171:a02:ad::30
-b.ns.nic.vip.		172800	IN	A	72.42.114.30
-b.ns.nic.vip.		172800	IN	AAAA	2620:171:d02:dc::30
-c.ns.nic.vip.		172800	IN	A	70.40.0.30
-c.ns.nic.vip.		172800	IN	AAAA	2620:171:c00:c::30
-d.ns.nic.vip.		172800	IN	A	70.40.8.30
-d.ns.nic.vip.		172800	IN	AAAA	2620:171:f00:d::30
+dnsc.nic.vip.		172800	IN	A	156.154.102.3
+dnsd.nic.vip.		172800	IN	A	156.154.103.3
 virgin.			172800	IN	NS	a.nic.virgin.
 virgin.			172800	IN	NS	b.nic.virgin.
 virgin.			172800	IN	NS	c.nic.virgin.
