@@ -767,9 +767,12 @@ arte.			172800	IN	NS	ac3.nstld.com.
 arte.			172800	IN	NS	ac4.nstld.com.
 arte.			86400	IN	NSEC	as. NS DS RRSIG NSEC
 as.			172800	IN	NS	c.ci-servers.net.
+as.			172800	IN	NS	pch.nic.as.
 as.			172800	IN	NS	tld.gdns.net.
 as.			172800	IN	NS	ns99.dns.net.nz.
 as.			86400	IN	NSEC	asda. NS RRSIG NSEC
+pch.nic.as.		172800	IN	A	204.61.216.111
+pch.nic.as.		172800	IN	AAAA	2001:500:14:6111:ad::1
 asda.			172800	IN	NS	ac1.nstld.com.
 asda.			172800	IN	NS	ac2.nstld.com.
 asda.			172800	IN	NS	ac3.nstld.com.
@@ -1908,16 +1911,14 @@ e.dns.br.		172800	IN	AAAA	2001:12f8:1::10
 f.dns.br.		172800	IN	A	200.219.159.10
 ns.dns.br.		172800	IN	A	200.160.0.5
 ns.dns.br.		172800	IN	AAAA	2001:12ff:0:a20::5
-bradesco.		172800	IN	NS	a.ns.nic.bradesco.
-bradesco.		172800	IN	NS	b.ns.nic.bradesco.
-bradesco.		172800	IN	NS	c.ns.nic.bradesco.
-bradesco.		172800	IN	NS	d.ns.nic.bradesco.
 bradesco.		172800	IN	NS	dns1.nic.bradesco.
 bradesco.		172800	IN	NS	dns2.nic.bradesco.
 bradesco.		172800	IN	NS	dns3.nic.bradesco.
 bradesco.		172800	IN	NS	dns4.nic.bradesco.
 bradesco.		172800	IN	NS	dnsa.nic.bradesco.
 bradesco.		172800	IN	NS	dnsb.nic.bradesco.
+bradesco.		172800	IN	NS	dnsc.nic.bradesco.
+bradesco.		172800	IN	NS	dnsd.nic.bradesco.
 bradesco.		86400	IN	NSEC	bridgestone. NS DS RRSIG NSEC
 dns1.nic.bradesco.	172800	IN	A	213.248.217.37
 dns1.nic.bradesco.	172800	IN	AAAA	2a01:618:401::37
@@ -1930,14 +1931,8 @@ dns4.nic.bradesco.	172800	IN	AAAA	2401:fd80:405::37
 dnsa.nic.bradesco.	172800	IN	A	156.154.100.3
 dnsa.nic.bradesco.	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.bradesco.	172800	IN	A	156.154.101.3
-a.ns.nic.bradesco.	172800	IN	A	72.0.50.16
-a.ns.nic.bradesco.	172800	IN	AAAA	2620:171:a02:ad::16
-b.ns.nic.bradesco.	172800	IN	A	72.42.114.16
-b.ns.nic.bradesco.	172800	IN	AAAA	2620:171:d02:dc::16
-c.ns.nic.bradesco.	172800	IN	A	70.40.0.16
-c.ns.nic.bradesco.	172800	IN	AAAA	2620:171:c00:c::16
-d.ns.nic.bradesco.	172800	IN	A	70.40.8.16
-d.ns.nic.bradesco.	172800	IN	AAAA	2620:171:f00:d::16
+dnsc.nic.bradesco.	172800	IN	A	156.154.102.3
+dnsd.nic.bradesco.	172800	IN	A	156.154.103.3
 bridgestone.		172800	IN	NS	a.gmoregistry.net.
 bridgestone.		172800	IN	NS	b.gmoregistry.net.
 bridgestone.		172800	IN	NS	k.gmoregistry.net.
